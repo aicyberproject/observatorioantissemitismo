@@ -14,6 +14,7 @@
   --num-scale: 1.0;
   --mono-lsp: .14em;
   --mono-lsp-lg: .16em;
+  --tk-speed: 58;          /* fita ao vivo: pixels por segundo */
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -537,8 +538,8 @@ button { font: inherit; }
   -webkit-mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
   mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
 }
-.tk-tape { display: flex; width: max-content; animation: tkRun 90s linear infinite; }
-.tk-lane-wo .tk-tape { animation-duration: 112s; animation-direction: reverse; }
+.tk-tape { display: flex; width: max-content; animation: tkRun 300s linear infinite; }
+.tk-lane-wo .tk-tape { animation-direction: reverse; }
 @keyframes tkRun { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 .tk-track:hover .tk-tape, .tk-track:focus-within .tk-tape { animation-play-state: paused; }
 .tk-item {

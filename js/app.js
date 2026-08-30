@@ -151,6 +151,25 @@
     return true;
   }
 
+  /* Cada faixa percorre metade da propria largura por ciclo. Com duracao fixa,
+     a faixa mais longa corre mais rapido. Aqui a duracao deriva da largura
+     medida, de modo que as duas faixas andem na mesma velocidade em px/s. */
+  function ritmo(fita) {
+    if (!fita) return 0;
+    var px = parseFloat(getComputedStyle(document.documentElement)
+      .getPropertyValue('--tk-speed')) || 58;
+    var meia = fita.scrollWidth / 2;
+    if (!meia) return 0;               /* oculto ou sem medida: mantem o CSS */
+    var seg = meia / px;
+    fita.style.animationDuration = seg.toFixed(1) + 's';
+    return seg;
+  }
+
+  function ajustaRitmo() {
+    ritmo(document.getElementById('tk-tape-br'));
+    ritmo(document.getElementById('tk-tape-wo'));
+  }
+
   function estado(rotulo, texto, carimbo) {
     var r = document.getElementById('estado-rotulo');
     var x = document.getElementById('estado-texto');
@@ -191,6 +210,15 @@
           if (!a) fita.querySelector('.tk-lane-br').hidden = true;
           if (!b) fita.querySelector('.tk-lane-wo').hidden = true;
           fita.hidden = false;
+          ajustaRitmo();
+          if (document.fonts && document.fonts.ready) {
+            document.fonts.ready.then(ajustaRitmo).catch(function () {});
+          }
+          var reajuste = null;
+          window.addEventListener('resize', function () {
+            clearTimeout(reajuste);
+            reajuste = setTimeout(ajustaRitmo, 250);
+          });
           var carimbo = document.getElementById('tk-stamp');
           if (carimbo && hora) carimbo.textContent = itens.length + ' manchetes · ' + hora;
         }
