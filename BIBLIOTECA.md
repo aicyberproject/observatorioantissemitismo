@@ -150,6 +150,52 @@ O STF declarou a inconstitucionalidade parcial e progressiva do art. 19 do Marco
 
 > **Inferência.** Como o antissemitismo é racismo por força do HC 82.424/RS, conteúdo antissemita se enquadra no item de discriminação e discurso de ódio do rol. A tese não nomeia o antissemitismo expressamente.
 
+### CC 146.983/RJ
+
+`Superior Tribunal de Justiça · Terceira Seção · 24 de maio de 2017`
+
+Fixou o critério de competência para o crime de racismo praticado pela internet. Não é necessário que a conduta discriminatória alcance uma coletividade para atrair a Justiça Federal: basta, nos termos do art. 109, V, da Constituição, que o crime esteja previsto em tratado ou convenção internacional de que o Brasil seja signatário e que haja indícios robustos de internacionalidade da conduta ou de seus resultados.
+
+[Jurisprudência do STJ](https://scon.stj.jus.br/SCON/)
+
+> **Revisão.** A entrega de pesquisa indicava CC 146.983/AC, julgado em 10/08/2016, e resumia a tese como competência estadual em regra, cabendo à Justiça Federal apenas na transnacionalidade comprovada. O acórdão localizado é do Rio de Janeiro, de 24/05/2017, e sustenta o oposto: amplia a competência federal a partir da previsão em tratado somada a indícios de internacionalidade.
+
+### CC 163.420/PR
+
+`Superior Tribunal de Justiça · Terceira Seção · DJe 1º de junho de 2020`
+
+Conteúdo discriminatório contra o povo judeu divulgado em comentários no Facebook. A Terceira Seção assentou que, dada a potencialidade de o material disponível na internet ser acessado no exterior, configura-se a competência da Justiça Federal ainda que o conteúdo não tenha sido efetivamente visualizado fora do território nacional. É o precedente do STJ mais diretamente aplicável ao objeto deste Observatório.
+
+[Notícia do STJ](https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/Crime-de-racismo-contra-judeus-em-rede-social-deve-ser-julgado-pela-Justica-Federal.aspx)
+
+> **Acréscimo.** Acórdão ausente da entrega de pesquisa. Foi localizado na verificação e incluído por ser o caso do STJ que trata especificamente de antissemitismo em rede social.
+
+### CC 191.970/RS
+
+`Superior Tribunal de Justiça · Terceira Seção · 14 de dezembro de 2022`
+
+Racismo em sua dimensão social, em conteúdo divulgado no Facebook e no YouTube. Reconhecida a abrangência internacional e, com ela, a competência da Justiça Federal. Consolida a linha de CC 163.420/PR para o discurso de ódio em plataforma aberta.
+
+[Informativo de Jurisprudência n. 761](https://scon.stj.jus.br/SCON/)
+
+### REsp 2.134.594
+
+`Superior Tribunal de Justiça · Quinta Turma · 21 de outubro de 2024`
+
+Manteve a condenação por racismo de advogado que publicou no Facebook a negação do Holocausto e a atribuição de conspirações ao povo judeu. A relatora assentou que a liberdade de pensamento e de expressão, garantida pela Constituição e pela Convenção Americana, não é absoluta, e que as publicações extravasam abusiva e criminosamente os limites de qualquer liberdade de expressão.
+
+[Cobertura do julgamento](https://www.migalhas.com.br/quentes/417590/stj-mantem-condenacao-de-advogado-por-post-antissemita-no-facebook)
+
+> **Revisão.** A entrega de pesquisa descrevia agravo regimental julgado em 21/05/2024, com origem no TRF-5 e sem número de processo. A verificação localizou recurso especial julgado em 21/10/2024, relatado pela Ministra Daniela Teixeira.
+
+### RHC 219.028
+
+`Superior Tribunal de Justiça · Sexta Turma · 6 de abril de 2026`
+
+Racismo religioso contra muçulmanos, por divulgação de vídeos discriminatórios na internet. A Sexta Turma assentou que a suspensão condicional do processo não é direito subjetivo do réu e não é cabível nos crimes de preconceito de religião ou raça, estendendo ao instituto o raciocínio que o Supremo Tribunal Federal adotou no RHC 222.599 quanto ao acordo de não persecução penal. Não trata de antissemitismo, mas fixa o regime aplicável a todo o art. 20 da Lei 7.716/89.
+
+[Cobertura do julgamento](https://www.migalhas.com.br/quentes/453255/stj-suspensao-do-processo-nao-se-aplica-em-caso-de-racismo-religioso)
+
 ### Garaudy c. França e Williamson c. Alemanha
 
 `Tribunal Europeu dos Direitos Humanos · 2003 e 2019`
@@ -216,6 +262,14 @@ Série histórica de denúncias anônimas de crimes cibernéticos, com recortes 
 
 [Indicadores](https://indicadores.safernet.org.br/)
 
+### Relatório de Antissemitismo no Brasil
+
+`CONIB, FISESP e Departamento de Segurança Comunitária · anual`
+
+Série anual consolidada a partir das centrais de denúncia mantidas pela CONIB e pela FISESP. É a fonte dos quatro indicadores exibidos na página inicial: 1.788 casos em 2024, alta de 350% sobre os 397 casos de 2022, 73% das ocorrências em ambiente digital e média de 4,9 denúncias por dia. A edição de 2024 foi publicada em abril de 2025.
+
+[Relatório de 2024 (PDF)](https://combateaoantissemitismo.org.br/wp-content/uploads/2025/04/Relatorio_Antissemitismo-no-Brasil-2024_v4-web.pdf)
+
 ### CONIB e Museu Judaico de São Paulo
 
 `Documentação comunitária`
@@ -230,14 +284,14 @@ Registro comunitário de incidentes e acervo de memória histórica. A CONIB é 
 
 O que a pesquisa anunciou e não entregou fica consignado. A lacuna é achado, não falha.
 
-- Jurisprudência do Superior Tribunal de Justiça: anunciada na entrega de pesquisa, sem acórdão indicado. Não registrada.
-- Séries numéricas: a entrega de pesquisa nomeia CONIB, Kantor Center, SaferNet e Ministério Público Federal como produtores de relatório, mas não entregou nenhum dado. Os indicadores exibidos na página inicial seguem sem lastro documental nesta biblioteca.
+- Dois acórdãos citados na entrega de pesquisa não foram localizados na verificação: CC 175.525/SP e AgRg no AREsp 1.331.345/SP. Não estão registrados. O conteúdo atribuído ao primeiro coincide com o de CC 163.420/PR, que consta do bloco de leading cases.
+- Séries numéricas do Kantor Center e do Ministério Público Federal: nomeados na entrega como produtores de relatório, sem dado entregue. Os indicadores da página inicial têm lastro no relatório da CONIB, da FISESP e do DSC, registrado acima.
 
 ---
 
 ## Fontes monitoradas
 
-Catálogo completo, com endereços, em [`data/feeds.json`](data/feeds.json). 14 feeds registrados; endereços reconferidos em 2026-08-30.
+Catálogo completo, com endereços, em [`data/feeds.json`](data/feeds.json). 21 feeds registrados; endereços reconferidos em 2026-08-30.
 
 ### Observatórios e entidades
 
@@ -287,4 +341,28 @@ Julgamentos, atuação ministerial e decisões sobre crimes de racismo e discrim
 - **Consultor Jurídico** — PT · Nacional. Cobertura jurídica diária. Acompanha cortes superiores, Ministério Público e legislação em tramitação.  
   <https://www.conjur.com.br/feed/>
 
-**Lacuna.** Radar por palavras-chave: Feeds dinâmicos de alta frequência, agregando veículos locais e internacionais por operadores booleanos, nos recortes Brasil (PT), Iberoamérica (ES), França e Europa (FR) e global (EN). Descritos na entrega de pesquisa, sem endereço informado. Obter as expressões de busca e as URLs correspondentes antes do registro.
+### Radar por palavras-chave
+
+Buscas permanentes no Google Notícias, em quatro idiomas. Não são veículos: são agentes de busca sobre a imprensa local e internacional. Os itens chegam com endereço de redirecionamento do próprio Google, e não do veículo, de modo que o agregador precisa resolver o redirecionamento antes de exibir a fonte.
+
+- **Radar Brasil — Antissemitismo** — PT · Nacional. Termo isolado, de maior alcance. Cobre desde a imprensa nacional até veículos locais e comunitários.  
+  Busca: `antissemitismo`  
+  <https://news.google.com/rss/search?q=antissemitismo&hl=pt-BR&gl=BR&ceid=BR:pt-419>
+- **Radar Brasil — Racismo religioso e crimes de ódio** — PT · Nacional. Amplia o recorte para além do antissemitismo, alcançando as demais formas de intolerância religiosa e os crimes de ódio.  
+  Busca: `"racismo religioso" OR "crimes de ódio"`  
+  <https://news.google.com/rss/search?q=%22racismo+religioso%22+OR+%22crimes+de+odio%22&hl=pt-BR&gl=BR&ceid=BR:pt-419>
+- **Radar Brasil — Judiciário e persecução penal** — PT · Nacional. Cruza os termos do fenômeno com as instituições de persecução. É o recorte que alimenta a leitura de desfecho, hoje a principal lacuna de rastreabilidade.  
+  Busca: `(antissemitismo OR "crime de ódio" OR "racismo religioso") (STF OR STJ OR "Ministério Público" OR PF)`  
+  <https://news.google.com/rss/search?q=(antissemitismo+OR+%22crime+de+odio%22+OR+%22racismo+religioso%22)+(STF+OR+STJ+OR+%22Ministerio+Publico%22+OR+PF)&hl=pt-BR&gl=BR&ceid=BR:pt-419>
+- **Radar Global — Antisemitism** — EN · Global. Cobre as duas grafias correntes em inglês, que indexam conjuntos distintos de veículos.  
+  Busca: `antisemitism OR "anti-semitism"`  
+  <https://news.google.com/rss/search?q=antisemitism+OR+%22anti-semitism%22&hl=en-US&gl=US&ceid=US:en>
+- **Radar Global — Leis, processos e prisões** — EN · Global. Recorte de resposta institucional no exterior: legislação, decisão judicial, prisão e denúncia. Base para leitura comparada.  
+  Busca: `antisemitism (legislation OR court OR ruling OR arrest OR prosecution)`  
+  <https://news.google.com/rss/search?q=antisemitism+(legislation+OR+court+OR+ruling+OR+arrest+OR+prosecution)&hl=en-US&gl=US&ceid=US:en>
+- **Radar Iberoamérica — Antisemitismo** — ES · Iberoamérica. Recorte de língua espanhola, ancorado na Argentina, país com a maior comunidade judaica da América Latina.  
+  Busca: `antisemitismo`  
+  <https://news.google.com/rss/search?q=antisemitismo&hl=es-419&gl=AR&ceid=AR:es-419>
+- **Radar Europa — Antisémitisme** — FR · França e Europa. Recorte de língua francesa. A França concentra a maior comunidade judaica da Europa e a série de incidentes mais documentada do continente.  
+  Busca: `antisemitisme`  
+  <https://news.google.com/rss/search?q=antisemitisme&hl=fr&gl=FR&ceid=FR:fr>

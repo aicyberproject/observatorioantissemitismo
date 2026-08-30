@@ -12,7 +12,7 @@ Este Observatório adota a definição de antissemitismo estabelecida pelo **Sup
 
 ## Funcionalidades (MVP)
 
-- 📰 **Painel de notícias** — Catálogo de 14 fontes públicas registradas e verificadas, exibido na própria página. O serviço que lê esses feeds e preenche os cartões ainda não está no ar; a seção declara essa pendência de forma explícita
+- 📰 **Painel de notícias** — Catálogo de 21 fontes públicas registradas e verificadas, exibido na própria página. O serviço que lê esses feeds e preenche os cartões ainda não está no ar; a seção declara essa pendência de forma explícita
 - 📚 **Biblioteca de referência** — Marcos conceituais internacionais, legislação brasileira, leading cases (STF, TEDH, SCOTUS) e centros de pesquisa, em página própria
 - 📋 **Canais de Denúncia** — Links diretos para CONIB, FISESP, SaferNet, Disque 100, MPF, Polícia Federal e órgãos estaduais
 - 🔒 **Preservar Evidências** — Guia prático de preservação de provas digitais com cadeia de custódia
@@ -22,7 +22,6 @@ Este Observatório adota a definição de antissemitismo estabelecida pelo **Sup
 
 - [ ] MVP: Ticker + Denúncias + Preservação + Timeline
 - [ ] Serviço agregador que leia os feeds de `data/feeds.json` e preencha o painel
-- [ ] Radar por palavras-chave: obter as expressões de busca e as URLs (lacuna registrada)
 - [ ] Dashboard estatístico (dados CONIB, ADL, SaferNet)
 - [ ] Feed RSS próprio
 - [ ] Newsletter semanal
@@ -61,19 +60,25 @@ O desenho da página segue o **modelo D** dos quatro estudos tipográficos produ
 
 ## Fontes e biblioteca
 
-`data/feeds.json` registra 14 feeds RSS públicos, agrupados em quatro categorias, com idioma, escopo e foco de cobertura. Os endereços foram reconferidos por requisição HTTP em 30/08/2026. O arquivo **não contém notícias**: é o catálogo do que será agregado quando o serviço entrar em operação.
+`data/feeds.json` registra 21 feeds públicos, agrupados em cinco categorias, com idioma, escopo e foco de cobertura. Os endereços foram reconferidos por requisição HTTP em 30/08/2026: todos responderam 200 com conteúdo válido. O arquivo **não contém notícias**: é o catálogo do que será agregado quando o serviço entrar em operação.
 
-A entrega de pesquisa que originou o catálogo descreve ainda uma quinta categoria — radar por palavras-chave, nos recortes Brasil, Iberoamérica, França/Europa e global — e informa um total de 21 feeds, mas fornece endereço apenas para os 14 registrados. A diferença está consignada como lacuna no próprio arquivo e na página, não reconstruída por suposição.
+Quatorze são feeds de veículos e instituições. Os outros sete são o radar por palavras-chave — buscas permanentes no Google Notícias em português, inglês, espanhol e francês, com a expressão booleana registrada ao lado da URL. Esses sete não são veículos: entregam itens com endereço de redirecionamento do próprio Google, e o agregador precisa resolver o redirecionamento antes de exibir a fonte, sob pena de contrariar a regra de sempre remeter à publicação de origem.
 
-`BIBLIOTECA.md` e `data/biblioteca.json` trazem os mesmos 22 verbetes da página `biblioteca.html`. Quatro verbetes carregam nota no corpo da página.
+`BIBLIOTECA.md` e `data/biblioteca.json` trazem os mesmos 28 verbetes da página `biblioteca.html`. Sete verbetes carregam nota no corpo da página.
 
-Três são notas de revisão, onde a leitura do texto de origem divergiu da entrega de pesquisa:
+Cinco são notas de revisão, onde a leitura do texto de origem divergiu da entrega de pesquisa:
 
 - **Marco Civil da Internet** — o art. 19 não é base de remoção célere, e seu regime foi alterado pelo STF em 26/06/2025;
 - **Resolução CNJ nº 492/2023** — o protocolo é de perspectiva de gênero; a dimensão racial e étnica aparece no dever de formação;
-- **Virginia v. Black** — a Corte estadunidense manteve a proibição da queima de cruz com intenção de intimidar, mas derrubou o dispositivo que presumia essa intenção a partir do ato.
+- **Virginia v. Black** — a Corte estadunidense manteve a proibição da queima de cruz com intenção de intimidar, mas derrubou o dispositivo que presumia essa intenção a partir do ato;
+- **CC 146.983/RJ** — a entrega indicava `/AC` e 10/08/2016, e invertia a tese: o acórdão amplia a competência federal, não a restringe;
+- **REsp 2.134.594** — a entrega descrevia agravo regimental de 21/05/2024 sem número; o julgado é recurso especial de 21/10/2024.
 
-A quarta é nota de inferência, no verbete do **Tema 987 do STF**: o enquadramento de conteúdo antissemita no rol de condutas com dever de cuidado decorre do HC 82.424/RS, não de menção expressa na tese fixada.
+Uma é nota de acréscimo, em **CC 163.420/PR**: acórdão ausente da entrega, incluído por ser o caso do STJ que trata especificamente de antissemitismo em rede social.
+
+A sétima é nota de inferência, no verbete do **Tema 987 do STF**: o enquadramento de conteúdo antissemita no rol de condutas com dever de cuidado decorre do HC 82.424/RS, não de menção expressa na tese fixada.
+
+Duas lacunas seguem registradas: dois acórdãos citados na entrega não foram localizados na verificação (CC 175.525/SP e AgRg no AREsp 1.331.345/SP), e as séries do Kantor Center e do MPF não foram entregues.
 
 ## Contribuições
 

@@ -128,6 +128,44 @@
           "nota": "Inferência: como o antissemitismo é racismo por força do HC 82.424/RS, conteúdo antissemita se enquadra no item de discriminação e discurso de ódio do rol. A tese não nomeia o antissemitismo expressamente."
         },
         {
+          "titulo": "CC 146.983/RJ",
+          "meta": "Superior Tribunal de Justiça · Terceira Seção · 24 de maio de 2017",
+          "corpo": "Fixou o critério de competência para o crime de racismo praticado pela internet. Não é necessário que a conduta discriminatória alcance uma coletividade para atrair a Justiça Federal: basta, nos termos do art. 109, V, da Constituição, que o crime esteja previsto em tratado ou convenção internacional de que o Brasil seja signatário e que haja indícios robustos de internacionalidade da conduta ou de seus resultados.",
+          "url": "https://scon.stj.jus.br/SCON/",
+          "url_label": "Jurisprudência do STJ",
+          "nota": "Revisão: a entrega de pesquisa indicava CC 146.983/AC, julgado em 10/08/2016, e resumia a tese como competência estadual em regra, cabendo à Justiça Federal apenas na transnacionalidade comprovada. O acórdão localizado é do Rio de Janeiro, de 24/05/2017, e sustenta o oposto: amplia a competência federal a partir da previsão em tratado somada a indícios de internacionalidade."
+        },
+        {
+          "titulo": "CC 163.420/PR",
+          "meta": "Superior Tribunal de Justiça · Terceira Seção · DJe 1º de junho de 2020",
+          "corpo": "Conteúdo discriminatório contra o povo judeu divulgado em comentários no Facebook. A Terceira Seção assentou que, dada a potencialidade de o material disponível na internet ser acessado no exterior, configura-se a competência da Justiça Federal ainda que o conteúdo não tenha sido efetivamente visualizado fora do território nacional. É o precedente do STJ mais diretamente aplicável ao objeto deste Observatório.",
+          "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/Crime-de-racismo-contra-judeus-em-rede-social-deve-ser-julgado-pela-Justica-Federal.aspx",
+          "url_label": "Notícia do STJ",
+          "nota": "Acréscimo: acórdão ausente da entrega de pesquisa. Foi localizado na verificação e incluído por ser o caso do STJ que trata especificamente de antissemitismo em rede social."
+        },
+        {
+          "titulo": "CC 191.970/RS",
+          "meta": "Superior Tribunal de Justiça · Terceira Seção · 14 de dezembro de 2022",
+          "corpo": "Racismo em sua dimensão social, em conteúdo divulgado no Facebook e no YouTube. Reconhecida a abrangência internacional e, com ela, a competência da Justiça Federal. Consolida a linha de CC 163.420/PR para o discurso de ódio em plataforma aberta.",
+          "url": "https://scon.stj.jus.br/SCON/",
+          "url_label": "Informativo de Jurisprudência n. 761"
+        },
+        {
+          "titulo": "REsp 2.134.594",
+          "meta": "Superior Tribunal de Justiça · Quinta Turma · 21 de outubro de 2024",
+          "corpo": "Manteve a condenação por racismo de advogado que publicou no Facebook a negação do Holocausto e a atribuição de conspirações ao povo judeu. A relatora assentou que a liberdade de pensamento e de expressão, garantida pela Constituição e pela Convenção Americana, não é absoluta, e que as publicações extravasam abusiva e criminosamente os limites de qualquer liberdade de expressão.",
+          "url": "https://www.migalhas.com.br/quentes/417590/stj-mantem-condenacao-de-advogado-por-post-antissemita-no-facebook",
+          "url_label": "Cobertura do julgamento",
+          "nota": "Revisão: a entrega de pesquisa descrevia agravo regimental julgado em 21/05/2024, com origem no TRF-5 e sem número de processo. A verificação localizou recurso especial julgado em 21/10/2024, relatado pela Ministra Daniela Teixeira."
+        },
+        {
+          "titulo": "RHC 219.028",
+          "meta": "Superior Tribunal de Justiça · Sexta Turma · 6 de abril de 2026",
+          "corpo": "Racismo religioso contra muçulmanos, por divulgação de vídeos discriminatórios na internet. A Sexta Turma assentou que a suspensão condicional do processo não é direito subjetivo do réu e não é cabível nos crimes de preconceito de religião ou raça, estendendo ao instituto o raciocínio que o Supremo Tribunal Federal adotou no RHC 222.599 quanto ao acordo de não persecução penal. Não trata de antissemitismo, mas fixa o regime aplicável a todo o art. 20 da Lei 7.716/89.",
+          "url": "https://www.migalhas.com.br/quentes/453255/stj-suspensao-do-processo-nao-se-aplica-em-caso-de-racismo-religioso",
+          "url_label": "Cobertura do julgamento"
+        },
+        {
           "titulo": "Garaudy c. França e Williamson c. Alemanha",
           "meta": "Tribunal Europeu dos Direitos Humanos · 2003 e 2019",
           "corpo": "Em ambos os casos a Corte de Estrasburgo declarou inadmissíveis as queixas fundadas em liberdade de expressão. A negação do Holocausto foi tratada como abuso de direito, nos termos do art. 17 da Convenção Europeia: quem invoca a Convenção para destruir os direitos nela reconhecidos não encontra nela proteção.",
@@ -186,6 +224,13 @@
           "url_label": "Indicadores"
         },
         {
+          "titulo": "Relatório de Antissemitismo no Brasil",
+          "meta": "CONIB, FISESP e Departamento de Segurança Comunitária · anual",
+          "corpo": "Série anual consolidada a partir das centrais de denúncia mantidas pela CONIB e pela FISESP. É a fonte dos quatro indicadores exibidos na página inicial: 1.788 casos em 2024, alta de 350% sobre os 397 casos de 2022, 73% das ocorrências em ambiente digital e média de 4,9 denúncias por dia. A edição de 2024 foi publicada em abril de 2025.",
+          "url": "https://combateaoantissemitismo.org.br/wp-content/uploads/2025/04/Relatorio_Antissemitismo-no-Brasil-2024_v4-web.pdf",
+          "url_label": "Relatório de 2024 (PDF)"
+        },
+        {
           "titulo": "CONIB e Museu Judaico de São Paulo",
           "meta": "Documentação comunitária",
           "corpo": "Registro comunitário de incidentes e acervo de memória histórica. A CONIB é a instância de representação nacional da comunidade judaica brasileira.",
@@ -196,7 +241,7 @@
     }
   ],
   "lacunas": [
-    "Jurisprudência do Superior Tribunal de Justiça: anunciada na entrega de pesquisa, sem acórdão indicado. Não registrada.",
-    "Séries numéricas: a entrega de pesquisa nomeia CONIB, Kantor Center, SaferNet e Ministério Público Federal como produtores de relatório, mas não entregou nenhum dado. Os indicadores exibidos na página inicial seguem sem lastro documental nesta biblioteca."
+    "Dois acórdãos citados na entrega de pesquisa não foram localizados na verificação: CC 175.525/SP e AgRg no AREsp 1.331.345/SP. Não estão registrados. O conteúdo atribuído ao primeiro coincide com o de CC 163.420/PR, que consta do bloco de leading cases.",
+    "Séries numéricas do Kantor Center e do Ministério Público Federal: nomeados na entrega como produtores de relatório, sem dado entregue. Os indicadores da página inicial têm lastro no relatório da CONIB, da FISESP e do DSC, registrado acima."
   ]
 }

@@ -3,7 +3,7 @@
   "atualizado_em": "2026-08-30",
   "origem": "Pesquisa de fontes do Observatório do Antissemitismo, entregue em 30/08/2026. Endereços reconferidos por requisição HTTP na mesma data.",
   "natureza": "Catálogo de fontes públicas a serem agregadas. Não contém notícias. O serviço que lê estes feeds ainda não está em operação.",
-  "total_registrado": 14,
+  "total_registrado": 21,
   "categorias": [
     {
       "nome": "Observatórios e entidades",
@@ -154,14 +154,82 @@
           "foco": "Cobertura jurídica diária. Acompanha cortes superiores, Ministério Público e legislação em tramitação."
         }
       ]
-    }
-  ],
-  "lacunas": [
+    },
     {
-      "titulo": "Radar por palavras-chave",
-      "descricao": "Feeds dinâmicos de alta frequência, agregando veículos locais e internacionais por operadores booleanos, nos recortes Brasil (PT), Iberoamérica (ES), França e Europa (FR) e global (EN).",
-      "situacao": "Descritos na entrega de pesquisa, sem endereço informado.",
-      "pendencia": "Obter as expressões de busca e as URLs correspondentes antes do registro."
+      "nome": "Radar por palavras-chave",
+      "resumo": "Buscas permanentes no Google Notícias, em quatro idiomas. Não são veículos: são agentes de busca sobre a imprensa local e internacional. Os itens chegam com endereço de redirecionamento do próprio Google, e não do veículo, de modo que o agregador precisa resolver o redirecionamento antes de exibir a fonte.",
+      "fontes": [
+        {
+          "id": "radar-br",
+          "nome": "Radar Brasil — Antissemitismo",
+          "url": "https://news.google.com/rss/search?q=antissemitismo&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+          "formato": "rss",
+          "idioma": "PT",
+          "escopo": "Nacional",
+          "foco": "Termo isolado, de maior alcance. Cobre desde a imprensa nacional até veículos locais e comunitários.",
+          "expressao_de_busca": "antissemitismo"
+        },
+        {
+          "id": "radar-br-racismo",
+          "nome": "Radar Brasil — Racismo religioso e crimes de ódio",
+          "url": "https://news.google.com/rss/search?q=%22racismo+religioso%22+OR+%22crimes+de+odio%22&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+          "formato": "rss",
+          "idioma": "PT",
+          "escopo": "Nacional",
+          "foco": "Amplia o recorte para além do antissemitismo, alcançando as demais formas de intolerância religiosa e os crimes de ódio.",
+          "expressao_de_busca": "\"racismo religioso\" OR \"crimes de ódio\""
+        },
+        {
+          "id": "radar-br-justica",
+          "nome": "Radar Brasil — Judiciário e persecução penal",
+          "url": "https://news.google.com/rss/search?q=(antissemitismo+OR+%22crime+de+odio%22+OR+%22racismo+religioso%22)+(STF+OR+STJ+OR+%22Ministerio+Publico%22+OR+PF)&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+          "formato": "rss",
+          "idioma": "PT",
+          "escopo": "Nacional",
+          "foco": "Cruza os termos do fenômeno com as instituições de persecução. É o recorte que alimenta a leitura de desfecho, hoje a principal lacuna de rastreabilidade.",
+          "expressao_de_busca": "(antissemitismo OR \"crime de ódio\" OR \"racismo religioso\") (STF OR STJ OR \"Ministério Público\" OR PF)"
+        },
+        {
+          "id": "radar-en",
+          "nome": "Radar Global — Antisemitism",
+          "url": "https://news.google.com/rss/search?q=antisemitism+OR+%22anti-semitism%22&hl=en-US&gl=US&ceid=US:en",
+          "formato": "rss",
+          "idioma": "EN",
+          "escopo": "Global",
+          "foco": "Cobre as duas grafias correntes em inglês, que indexam conjuntos distintos de veículos.",
+          "expressao_de_busca": "antisemitism OR \"anti-semitism\""
+        },
+        {
+          "id": "radar-en-leis",
+          "nome": "Radar Global — Leis, processos e prisões",
+          "url": "https://news.google.com/rss/search?q=antisemitism+(legislation+OR+court+OR+ruling+OR+arrest+OR+prosecution)&hl=en-US&gl=US&ceid=US:en",
+          "formato": "rss",
+          "idioma": "EN",
+          "escopo": "Global",
+          "foco": "Recorte de resposta institucional no exterior: legislação, decisão judicial, prisão e denúncia. Base para leitura comparada.",
+          "expressao_de_busca": "antisemitism (legislation OR court OR ruling OR arrest OR prosecution)"
+        },
+        {
+          "id": "radar-es",
+          "nome": "Radar Iberoamérica — Antisemitismo",
+          "url": "https://news.google.com/rss/search?q=antisemitismo&hl=es-419&gl=AR&ceid=AR:es-419",
+          "formato": "rss",
+          "idioma": "ES",
+          "escopo": "Iberoamérica",
+          "foco": "Recorte de língua espanhola, ancorado na Argentina, país com a maior comunidade judaica da América Latina.",
+          "expressao_de_busca": "antisemitismo"
+        },
+        {
+          "id": "radar-fr",
+          "nome": "Radar Europa — Antisémitisme",
+          "url": "https://news.google.com/rss/search?q=antisemitisme&hl=fr&gl=FR&ceid=FR:fr",
+          "formato": "rss",
+          "idioma": "FR",
+          "escopo": "França e Europa",
+          "foco": "Recorte de língua francesa. A França concentra a maior comunidade judaica da Europa e a série de incidentes mais documentada do continente.",
+          "expressao_de_busca": "antisemitisme"
+        }
+      ]
     }
   ]
 }

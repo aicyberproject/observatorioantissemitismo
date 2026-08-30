@@ -434,7 +434,9 @@ button { font: inherit; }
 .sources-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 14px; }
 .sources-head h3 { margin: 0; font-family: var(--f-display); font-weight: var(--display-w); font-size: clamp(21px, 2vw, 27px); letter-spacing: var(--display-lsp); }
 .sources-count { margin: 0; font-family: var(--f-mono); font-size: 10px; letter-spacing: var(--mono-lsp-lg); text-transform: uppercase; color: var(--ink-3); }
-.src-groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(430px, 1fr)); gap: clamp(26px, 3vw, 56px); margin-top: 32px; }
+.src-groups { margin-top: 32px; column-gap: clamp(26px, 3vw, 56px); }
+@media (min-width: 900px) { .src-groups { column-count: 2; } }
+.src-group { break-inside: avoid-column; margin-bottom: clamp(30px, 3vw, 48px); }
 .src-group > h4 { margin: 0 0 6px; font-family: var(--f-ui); font-size: 15px; font-weight: 600; letter-spacing: .01em; color: var(--ink); }
 .src-group > p { margin: 0 0 4px; font-size: 14px; line-height: 1.6; color: var(--ink-3); max-width: 46ch; }
 .src-item { display: block; padding: 15px 0; border-bottom: 1px solid var(--rule); }
@@ -443,6 +445,14 @@ button { font: inherit; }
 .src-name { font-family: var(--f-ui); font-size: 15px; font-weight: 500; color: var(--ink); }
 .src-tag { font-family: var(--f-mono); font-size: 9px; letter-spacing: var(--mono-lsp-lg); text-transform: uppercase; color: var(--ink-3); white-space: nowrap; }
 .src-desc { margin: 7px 0 0; font-size: 14px; line-height: 1.6; color: var(--ink-2); max-width: 56ch; }
+.src-query {
+  margin: 8px 0 0; padding: 7px 10px; background: var(--paper-2); border-left: 2px solid var(--rule-3);
+  font-family: var(--f-mono); font-size: 11px; line-height: 1.5; color: var(--ink-2); word-break: break-word;
+}
+.src-query span {
+  display: block; font-size: 9px; letter-spacing: var(--mono-lsp-lg); text-transform: uppercase;
+  color: var(--ink-3); margin-bottom: 4px;
+}
 .src-url { display: inline-block; margin: 9px 0 0; font-family: var(--f-mono); font-size: 10.5px; letter-spacing: .04em; color: var(--blue); word-break: break-all; }
 .src-url:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
 
