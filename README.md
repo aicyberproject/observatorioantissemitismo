@@ -12,7 +12,7 @@ Este Observatório adota a definição de antissemitismo estabelecida pelo **Sup
 
 ## Funcionalidades (MVP)
 
-- 📰 **Ticker de Notícias** — Agregação automática de notícias sobre antissemitismo (Brasil e mundo)
+- 📰 **Painel de notícias** — Área reservada para a agregação automática (Brasil e mundo). O serviço agregador ainda não está no ar; a seção declara essa pendência de forma explícita
 - 📋 **Canais de Denúncia** — Links diretos para CONIB, FISESP, SaferNet, Disque 100, MPF, Polícia Federal e órgãos estaduais
 - 🔒 **Preservar Evidências** — Guia prático de preservação de provas digitais com cadeia de custódia
 - ⚖️ **Linha do Tempo** — Legislação, jurisprudência e normativos de enfrentamento ao antissemitismo
@@ -31,8 +31,8 @@ Este Observatório adota a definição de antissemitismo estabelecida pelo **Sup
 
 - HTML5 + CSS3 + JavaScript (vanilla)
 - GitHub Pages (hospedagem estática)
-- Sem dependências externas
-- Dark/Light mode
+- Sem dependências externas de código
+- Tipografia: Libre Caslon Display, Work Sans e Space Mono (Google Fonts)
 - Responsivo (mobile-first)
 - Acessível (WCAG 2.1)
 - LGPD compliance
@@ -40,13 +40,18 @@ Este Observatório adota a definição de antissemitismo estabelecida pelo **Sup
 ## Estrutura
 
 ```
-├── index.html          # Página principal (SPA)
-├── css/main.css        # Estilos
-├── js/app.js           # Interatividade
-├── data/feeds.json     # Dados de notícias
+├── index.html          # Página principal
+├── css/main.css        # Estilos e tokens de design
+├── js/app.js           # Abertura, filtros e aviso de LGPD
+├── img/                # Imagem de abertura (1200 / 1800 / 2400 px)
+├── data/feeds.json     # Dados de exemplo, ainda não consumidos pela página
 ├── .github/workflows/  # Deploy automático
 └── README.md
 ```
+
+## Identidade visual
+
+O desenho da página segue o **modelo D** dos quatro estudos tipográficos produzidos para o Observatório: Libre Caslon Display nos títulos, Work Sans no texto corrido e Space Mono nos rótulos e metadados. A abertura cinematográfica cita o HC 82.424/RS e roda uma vez por visita, com controle para pular.
 
 ## Contribuições
 

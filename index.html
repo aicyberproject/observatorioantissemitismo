@@ -1,520 +1,176 @@
 <!DOCTYPE html>
-<html lang="pt-BR" class="theme-dark">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Monitoramento contínuo de incidentes, orientação jurídica, canais de denúncia e preservação de evidências para o enfrentamento ao antissemitismo no Brasil.">
-    <meta name="author" content="Iniciativa de Enfrentamento ao Antissemitismo">
-    
-    <!-- Open Graph tags -->
-    <meta property="og:title" content="Observatório do Antissemitismo no Brasil">
-    <meta property="og:description" content="Monitoramento contínuo de incidentes, orientação jurídica, canais de denúncia e preservação de evidências para o enfrentamento ao antissemitismo no Brasil.">
-    <meta property="og:type" content="website">
-    
-    <title>Observatório do Antissemitismo no Brasil</title>
-    
-    <!-- Anti-FOUC script -->
-    <script>
-        (function() {
-            try {
-                var theme = localStorage.getItem('theme');
-                if (theme === 'light') {
-                    document.documentElement.classList.remove('theme-dark');
-                    document.documentElement.classList.add('theme-light');
-                } else if (!theme) {
-                    // Default to dark theme as requested
-                    document.documentElement.classList.add('theme-dark');
-                }
-            } catch (e) {}
-        })();
-    </script>
-    
-    <!-- Google Fonts preconnect -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-    
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="css/main.css">
-    
-    <!-- Canonical URL placeholder -->
-    <link rel="canonical" href="https://example.com/observatorio">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Observat&oacute;rio do Antissemitismo no Brasil</title>
+<meta name="description" content="Monitoramento cont&iacute;nuo de incidentes de antissemitismo no Brasil, com orienta&ccedil;&atilde;o jur&iacute;dica, canais oficiais de den&uacute;ncia e procedimentos de preserva&ccedil;&atilde;o de evid&ecirc;ncias.">
+<meta name="author" content="Iniciativa de Enfrentamento ao Antissemitismo">
+<meta name="theme-color" content="#F5F3EF">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Observat&oacute;rio do Antissemitismo no Brasil">
+<meta property="og:title" content="Observat&oacute;rio do Antissemitismo no Brasil">
+<meta property="og:description" content="Monitoramento cont&iacute;nuo de incidentes de antissemitismo no Brasil, com orienta&ccedil;&atilde;o jur&iacute;dica, canais oficiais de den&uacute;ncia e procedimentos de preserva&ccedil;&atilde;o de evid&ecirc;ncias.">
+<meta property="og:image" content="https://aicyberproject.github.io/observatorioantissemitismo/img/abertura-1200.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://aicyberproject.github.io/observatorioantissemitismo/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Work+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/abertura-1800.jpg" imagesrcset="img/abertura-1200.jpg 1200w, img/abertura-1800.jpg 1800w, img/abertura-2400.jpg 2400w" imagesizes="100vw">
+<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-
-    <!-- NAVIGATION BAR -->
-    <nav id="site-nav" aria-label="Navegação principal">
-        <div class="nav-container">
-            <div class="nav-brand">
-                <span class="brand-title">Observatório do Antissemitismo</span>
-                <span class="brand-subtitle">Iniciativa de Enfrentamento ao Antissemitismo</span>
-            </div>
-            
-            <div class="nav-menu" id="desktop-menu">
-                <a href="#hero" class="nav-link">Início</a>
-                <a href="#noticias" class="nav-link">Notícias</a>
-                <a href="#denuncie" class="nav-link">Denuncie</a>
-                <a href="#preservar" class="nav-link">Preservar Evidências</a>
-                <a href="#legislacao" class="nav-link">Legislação</a>
-                <a href="#sobre" class="nav-link">Sobre</a>
-                
-                <button class="theme-toggle" aria-label="Alternar tema" title="Alternar tema">
-                    <!-- Sun icon -->
-                    <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
-                    <!-- Moon icon -->
-                    <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
-                </button>
-            </div>
-            
-            <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
-            </button>
-        </div>
-        
-        <div id="mobile-menu" class="mobile-drawer" aria-hidden="true">
-            <a href="#hero" class="nav-link-mobile">Início</a>
-            <a href="#noticias" class="nav-link-mobile">Notícias</a>
-            <a href="#denuncie" class="nav-link-mobile">Denuncie</a>
-            <a href="#preservar" class="nav-link-mobile">Preservar Evidências</a>
-            <a href="#legislacao" class="nav-link-mobile">Legislação</a>
-            <a href="#sobre" class="nav-link-mobile">Sobre</a>
-        </div>
-    </nav>
-
-    <main>
-        <!-- HERO SECTION -->
-        <section id="hero" class="cyber-grid" data-reveal>
-            <div class="hero-content">
-                <span class="label-mono-gold">Observatório · Monitoramento Contínuo</span>
-                <h1>Observatório do Antissemitismo no Brasil</h1>
-                <p class="hero-lead">Monitoramento contínuo de incidentes, orientação jurídica, canais de denúncia e preservação de evidências para o enfrentamento ao antissemitismo no Brasil.</p>
-                
-                <blockquote class="stf-quote">
-                    <p>"O antissemitismo se qualifica como racismo, constituindo crime inafiançável e imprescritível, nos termos do art. 5º, XLII, da Constituição Federal."</p>
-                    <footer>— Supremo Tribunal Federal, HC 82.424/RS (Caso Ellwanger, 2003)</footer>
-                </blockquote>
-                
-                <p class="hero-small">Uma proposta do Eixo 3 — Segurança e Monitoramento · Iniciativa de Enfrentamento ao Antissemitismo · CDESS / Presidência da República</p>
-            </div>
-        </section>
-
-        <!-- STATS STRIP -->
-        <section id="stats" data-reveal>
-            <div class="stats-strip">
-                <div class="stat-card">
-                    <div class="stat-number" data-value="1788">1.788</div>
-                    <div class="stat-label">casos em 2024</div>
-                    <div class="stat-sub">CONIB/FISESP</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number" data-value="350">+350%</div>
-                    <div class="stat-label">aumento desde 2022</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number" data-value="73">73%</div>
-                    <div class="stat-label">ocorrências online</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number" data-value="4.9">4,9</div>
-                    <div class="stat-label">denúncias por dia</div>
-                </div>
-            </div>
-        </section>
-
-        <!-- NEWS TICKER -->
-        <section id="ticker-container" class="ticker-monitor" style="display: none;">
-            <div class="ticker-band ticker-band--mundo">
-                <div class="ticker-label"><span class="dot-blue"></span>NO MUNDO</div>
-                <div id="ticker-mundo-tape" class="ticker-tape"></div>
-            </div>
-            <div class="ticker-band ticker-band--brasil">
-                <div class="ticker-label"><span class="dot-red"></span>NO BRASIL</div>
-                <div id="ticker-brasil-tape" class="ticker-tape"></div>
-            </div>
-        </section>
-
-        <!-- NOTÍCIAS SECTION -->
-        <section id="noticias" class="section-container" data-reveal>
-            <span class="section-label">Últimas notícias</span>
-            <p class="section-desc">Notícias sobre antissemitismo agregadas automaticamente de fontes públicas nacionais e internacionais. Clique no título para ler na fonte original.</p>
-            
-            <div id="news-grid" class="news-grid">
-                <!-- Skeleton loader -->
-                <div class="skeleton"></div>
-                <div class="skeleton"></div>
-                <div class="skeleton"></div>
-                <div class="skeleton"></div>
-            </div>
-            
-            <div class="actions-center">
-                <button id="btn-more" class="btn btn-outline" style="display: none;">Carregar mais</button>
-            </div>
-        </section>
-
-        <!-- DENUNCIE SECTION -->
-        <section id="denuncie" class="section-container" data-reveal>
-            <span class="section-label">Canais de denúncia</span>
-            <h2>Onde denunciar atos antissemitas</h2>
-            <p class="section-desc">Se você foi vítima ou testemunhou um ato de antissemitismo, utilize os canais abaixo. O antissemitismo é crime de racismo (Lei 7.716/89), inafiançável e imprescritível.</p>
-
-            <div class="denuncie-groups">
-                <div class="denuncie-group">
-                    <h3>Sociedade Civil</h3>
-                    <div class="denuncie-cards">
-                        <div class="denuncie-card">
-                            <div class="card-icon">🛡️</div>
-                            <h4>CONIB</h4>
-                            <p class="card-title">Confederação Israelita do Brasil</p>
-                            <p class="card-desc">Central Nacional de Denúncias com triagem jurídica e assistência de acusação.</p>
-                            <a href="https://conib.org.br/denuncie" target="_blank" rel="noopener noreferrer" class="btn">Denunciar</a>
-                        </div>
-                        <div class="denuncie-card">
-                            <div class="card-icon">⚖️</div>
-                            <h4>FISESP</h4>
-                            <p class="card-title">Federação Israelita do Estado de São Paulo</p>
-                            <p class="card-desc">Assistência psicossocial e jurídica para vítimas em São Paulo.</p>
-                            <a href="https://denuncieantissemitismo.fisesp.org.br" target="_blank" rel="noopener noreferrer" class="btn">Denunciar</a>
-                        </div>
-                        <div class="denuncie-card">
-                            <div class="card-icon">🌐</div>
-                            <h4>SaferNet Brasil</h4>
-                            <p class="card-title">Central Nacional de Denúncias de Crimes Cibernéticos</p>
-                            <p class="card-desc">Denúncias anônimas de neonazismo, racismo e antissemitismo na internet. Cooperação com o MPF.</p>
-                            <a href="https://new.safernet.org.br" target="_blank" rel="noopener noreferrer" class="btn">Denunciar</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="denuncie-group">
-                    <h3>Órgãos Públicos Federais</h3>
-                    <div class="denuncie-cards">
-                        <div class="denuncie-card">
-                            <div class="card-icon">📞</div>
-                            <h4>Disque 100</h4>
-                            <p class="card-title">Disque Direitos Humanos</p>
-                            <p class="card-desc">Denúncias de discriminação étnico-racial e religiosa. Gratuito, 24h. ☎ 100 (WhatsApp, Telegram, App).</p>
-                        </div>
-                        <div class="denuncie-card">
-                            <div class="card-icon">🏛️</div>
-                            <h4>Ministério Público Federal</h4>
-                            <p class="card-title">Procuradoria Federal dos Direitos do Cidadão</p>
-                            <p class="card-desc">Crimes de ódio na internet, tutelas coletivas.</p>
-                            <a href="https://www.mpf.mp.br/servicos/cidadao-online" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Acessar</a>
-                        </div>
-                        <div class="denuncie-card">
-                            <div class="card-icon">🚨</div>
-                            <h4>Polícia Federal</h4>
-                            <p class="card-title">Delegacias de Defesa Institucional</p>
-                            <p class="card-desc">Crimes na internet, células neonazistas, terrorismo doméstico.</p>
-                            <a href="https://www.gov.br/pf" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Acessar</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="denuncie-group">
-                    <h3>Órgãos Estaduais</h3>
-                    <div class="denuncie-cards">
-                        <div class="denuncie-card">
-                            <div class="card-icon">🚔</div>
-                            <h4>DECRADI</h4>
-                            <p class="card-title">Delegacias de Crimes Raciais e Delitos de Intolerância</p>
-                            <p class="card-desc">Investigação especializada em crimes de preconceito. Presentes em SP e RJ.</p>
-                            <button class="btn btn-outline">Saiba mais</button>
-                        </div>
-                        <div class="denuncie-card">
-                            <div class="card-icon">⚖️</div>
-                            <h4>GECRADI / MPSP</h4>
-                            <p class="card-title">Grupo Especial de Combate aos Crimes Raciais e de Intolerância</p>
-                            <p class="card-desc">Ministério Público de SP: inquéritos, ações civis públicas e denúncias criminais.</p>
-                            <button class="btn btn-outline">Saiba mais</button>
-                        </div>
-                        <div class="denuncie-card">
-                            <div class="card-icon">🤝</div>
-                            <h4>Defensoria Pública</h4>
-                            <p class="card-title">Núcleos de Direitos Humanos</p>
-                            <p class="card-desc">Assistência jurídica gratuita a vítimas.</p>
-                            <button class="btn btn-outline">Saiba mais</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- PRESERVAR EVIDÊNCIAS SECTION -->
-        <section id="preservar" class="section-container" data-reveal>
-            <span class="section-label">Preservar evidências</span>
-            <h2>Como preservar provas de atos antissemitas</h2>
-            <p class="section-desc">Antes de registrar a ocorrência, preserve as evidências digitais. Provas bem preservadas são essenciais para a responsabilização dos autores.</p>
-            
-            <div class="alert-box">
-                ⚠️ Nunca confronte o autor nem apague conversas. Preserve primeiro, denuncie depois.
-            </div>
-
-            <div class="vertical-timeline-steps">
-                <div class="step-card">
-                    <h3 class="step-title">📸 Capturar</h3>
-                    <ul class="step-list">
-                        <li>Screenshots com URL visível, data e hora</li>
-                        <li>Gravação de tela para stories e conteúdos efêmeros</li>
-                        <li>Print do perfil do autor (nome, bio, seguidores)</li>
-                        <li>Salvar página completa (Ctrl+S) como .html</li>
-                    </ul>
-                </div>
-                <div class="step-card">
-                    <h3 class="step-title">🔒 Preservar</h3>
-                    <ul class="step-list">
-                        <li>Ata notarial em Tabelionato de Notas (prova mais robusta)</li>
-                        <li>Plataformas: Verifact, PACWeb ou Certisign</li>
-                        <li>Internet Archive (Wayback Machine) — archive.org</li>
-                        <li>Calcular hash SHA-256 dos arquivos capturados</li>
-                    </ul>
-                    <p class="step-tip">A ata notarial tem fé pública e é a prova mais forte para o Judiciário.</p>
-                </div>
-                <div class="step-card">
-                    <h3 class="step-title">📋 Registrar</h3>
-                    <ul class="step-list">
-                        <li>Boletim de Ocorrência (delegacia presencial ou online)</li>
-                        <li>Denúncia à CONIB, SaferNet, Disque 100 ou MPF</li>
-                        <li>Guardar o número de protocolo de cada registro</li>
-                        <li>Solicitar medida cautelar de preservação de registros (Marco Civil, art. 22)</li>
-                    </ul>
-                </div>
-                <div class="step-card">
-                    <h3 class="step-title">📍 Acompanhar</h3>
-                    <ul class="step-list">
-                        <li>Consultar andamento processual (CNJ, PJe, e-SAJ)</li>
-                        <li>Entrar em contato com o órgão que recebeu a denúncia</li>
-                        <li>Buscar assistência jurídica (Defensoria Pública ou advogado)</li>
-                        <li>Registrar novas evidências se o comportamento persistir</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- LEGISLAÇÃO TIMELINE SECTION -->
-        <section id="legislacao" class="section-container" data-reveal>
-            <span class="section-label">Marco jurídico</span>
-            <h2>Legislação, Jurisprudência e Normativos</h2>
-            <p class="section-desc">Linha do tempo dos marcos legais de enfrentamento ao antissemitismo e ao racismo no Brasil.</p>
-
-            <div id="timeline-filters" class="filters">
-                <button class="filter-btn active" data-filter="all">Todos</button>
-                <button class="filter-btn" data-filter="lei">Legislação</button>
-                <button class="filter-btn" data-filter="jurisprudencia">Jurisprudência</button>
-                <button class="filter-btn" data-filter="normativo">Normativos</button>
-                <button class="filter-btn" data-filter="pl">Projetos de Lei</button>
-            </div>
-
-            <div class="timeline">
-                
-                <div class="timeline-item" data-type="lei" data-reveal>
-                    <div class="timeline-marker">
-                        <span class="timeline-year">1988</span>
-                        <span class="timeline-dot"></span>
-                    </div>
-                    <div class="timeline-content">
-                        <span class="timeline-type type-lei">Legislação</span>
-                        <h3>Constituição Federal — Art. 5º, XLII</h3>
-                        <p>A prática do racismo constitui crime inafiançável e imprescritível, sujeito à pena de reclusão.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item" data-type="lei" data-reveal>
-                    <div class="timeline-marker">
-                        <span class="timeline-year">1989</span>
-                        <span class="timeline-dot"></span>
-                    </div>
-                    <div class="timeline-content">
-                        <span class="timeline-type type-lei">Legislação</span>
-                        <h3>Lei nº 7.716/1989 (Lei Caó)</h3>
-                        <p>Define os crimes resultantes de preconceito de raça ou de cor. Art. 20: praticar, induzir ou incitar a discriminação. Art. 20 §1º: propaganda nazista (suástica). Pena: reclusão de 1 a 3 anos.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item" data-type="lei" data-reveal>
-                    <div class="timeline-marker">
-                        <span class="timeline-year">1997</span>
-                        <span class="timeline-dot"></span>
-                    </div>
-                    <div class="timeline-content">
-                        <span class="timeline-type type-lei">Legislação</span>
-                        <h3>Lei nº 9.459/1997</h3>
-                        <p>Amplia a Lei 7.716/89 para incluir discriminação por etnia, religião ou procedência nacional. Introduz a injúria qualificada (art. 140, §3º do CP).</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item highlight-item" data-type="jurisprudencia" data-reveal>
-                    <div class="timeline-marker">
-                        <span class="timeline-year">2003</span>
-                        <span class="timeline-dot"></span>
-                    </div>
-                    <div class="timeline-content">
-                        <span class="timeline-type type-jurisprudencia">Jurisprudência</span>
-                        <h3>HC 82.424/RS — Caso Ellwanger (STF)</h3>
-                        <p>Marco histórico: o STF decidiu por 8 a 3 que o antissemitismo é racismo. Superou o conceito biológico de raça. Estabeleceu que a liberdade de expressão não protege a incitação ao ódio. Crime imprescritível e inafiançável.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item" data-type="lei" data-reveal>
-                    <div class="timeline-marker">
-                        <span class="timeline-year">2014</span>
-                        <span class="timeline-dot"></span>
-                    </div>
-                    <div class="timeline-content">
-                        <span class="timeline-type type-lei">Legislação</span>
-                        <h3>Marco Civil da Internet (Lei nº 12.965/2014)</h3>
-                        <p>Disciplina ordens judiciais de remoção de conteúdo e identificação de usuários (arts. 19 e 22). Base para combate ao discurso de ódio online.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item" data-type="jurisprudencia" data-reveal>
-                    <div class="timeline-marker">
-                        <span class="timeline-year">2019</span>
-                        <span class="timeline-dot"></span>
-                    </div>
-                    <div class="timeline-content">
-                        <span class="timeline-type type-jurisprudencia">Jurisprudência</span>
-                        <h3>ADO 26 e MI 4733 (STF)</h3>
-                        <p>Reafirmou o conceito social de racismo do Caso Ellwanger para enquadrar homofobia e transfobia na Lei 7.716/89.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item" data-type="jurisprudencia" data-reveal>
-                    <div class="timeline-marker">
-                        <span class="timeline-year">2021</span>
-                        <span class="timeline-dot"></span>
-                    </div>
-                    <div class="timeline-content">
-                        <span class="timeline-type type-jurisprudencia">Jurisprudência</span>
-                        <h3>RHC 146.303/DF (STF)</h3>
-                        <p>Definiu que injúria racial é espécie do gênero racismo: imprescritível e inafiançável. Base para a Lei 14.532/2023.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item" data-type="normativo" data-reveal>
-                    <div class="timeline-marker">
-                        <span class="timeline-year">2022</span>
-                        <span class="timeline-dot"></span>
-                    </div>
-                    <div class="timeline-content">
-                        <span class="timeline-type type-normativo">Normativo</span>
-                        <h3>CNJ — Tabelas Processuais Unificadas</h3>
-                        <p>Criação de assuntos de intolerância religiosa nas TPU e painel no DataJud, por ato administrativo. Precedente para marcador de antissemitismo.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item" data-type="lei" data-reveal>
-                    <div class="timeline-marker">
-                        <span class="timeline-year">2023</span>
-                        <span class="timeline-dot"></span>
-                    </div>
-                    <div class="timeline-content">
-                        <span class="timeline-type type-lei">Legislação</span>
-                        <h3>Lei nº 14.532/2023</h3>
-                        <p>Equiparou integralmente a injúria racial ao crime de racismo (imprescritível, inafiançável). Agravantes para crimes em redes sociais, eventos esportivos/culturais e racismo recreativo.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item" data-type="normativo" data-reveal>
-                    <div class="timeline-marker">
-                        <span class="timeline-year">2023</span>
-                        <span class="timeline-dot"></span>
-                    </div>
-                    <div class="timeline-content">
-                        <span class="timeline-type type-normativo">Normativo</span>
-                        <h3>Decretos Municipais — Definição IHRA (RJ e SP)</h3>
-                        <p>Municípios do Rio de Janeiro e São Paulo adotam a definição de antissemitismo da IHRA em novembro de 2023.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item" data-type="pl" data-reveal>
-                    <div class="timeline-marker">
-                        <span class="timeline-year">2026</span>
-                        <span class="timeline-dot"></span>
-                    </div>
-                    <div class="timeline-content">
-                        <span class="timeline-type type-pl">Projeto de Lei</span>
-                        <h3>PL 1.424/2026 (Câmara dos Deputados)</h3>
-                        <p>Projeto de lei em tramitação na Câmara dos Deputados sobre o enfrentamento ao antissemitismo.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item" data-type="normativo" data-reveal>
-                    <div class="timeline-marker">
-                        <span class="timeline-year">2026</span>
-                        <span class="timeline-dot"></span>
-                    </div>
-                    <div class="timeline-content">
-                        <span class="timeline-type type-normativo">Normativo</span>
-                        <h3>Iniciativa de Enfrentamento ao Antissemitismo (CDESS)</h3>
-                        <p>Instituída pelo Conselho de Desenvolvimento Econômico, Social e Sustentável da Presidência da República. Eixo 3 (Segurança e Monitoramento) propõe este Observatório.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- SOBRE A INICIATIVA SECTION -->
-        <section id="sobre" class="section-container" data-reveal>
-            <span class="section-label">Sobre</span>
-            <h2>A Iniciativa de Enfrentamento ao Antissemitismo</h2>
-            <div class="sobre-layout">
-                <div class="sobre-text">
-                    <p>Este Observatório é um produto do Eixo 3 (Segurança e Monitoramento) da Iniciativa de Enfrentamento ao Antissemitismo, instituída pelo Conselho de Desenvolvimento Econômico, Social e Sustentável (CDESS) da Presidência da República. A proposta visa oferecer à sociedade uma plataforma pública de monitoramento, orientação e proteção de direitos.</p>
-                    <p class="sobre-note">O Observatório não é veículo de notícia, não emite opinião editorial e não carrega posição político-partidária. A autoridade é sempre a fonte original.</p>
-                </div>
-                <div class="sobre-card info-card">
-                    <ul>
-                        <li><strong>Coordenação técnica:</strong> Polícia Federal / CGCIBER</li>
-                        <li><strong>Eixo 3:</strong> Segurança e Monitoramento</li>
-                        <li><strong>Este Observatório é uma proposta do Eixo 3</strong></li>
-                        <li><strong>Integrantes:</strong> representantes de órgãos públicos, sociedade civil e comunidade judaica</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- FOOTER -->
-    <footer class="site-footer">
-        <div class="footer-grid">
-            <div class="footer-col">
-                <h3 class="footer-brand">Observatório do Antissemitismo</h3>
-                <p>Monitoramento contínuo de incidentes, orientação jurídica, canais de denúncia e preservação de evidências para o enfrentamento ao antissemitismo no Brasil.</p>
-                <p class="footer-sub">Iniciativa de Enfrentamento ao Antissemitismo — CDESS / Presidência da República</p>
-            </div>
-            <div class="footer-col">
-                <h4>Navegação</h4>
-                <a href="#hero">Início</a>
-                <a href="#noticias">Notícias</a>
-                <a href="#denuncie">Denuncie</a>
-                <a href="#preservar">Preservar Evidências</a>
-                <a href="#legislacao">Legislação</a>
-                <a href="#sobre">Sobre</a>
-            </div>
-            <div class="footer-col">
-                <h4>Instituições</h4>
-                <a href="https://conib.org.br" target="_blank" rel="noopener noreferrer">CONIB</a>
-                <a href="https://fisesp.org.br" target="_blank" rel="noopener noreferrer">FISESP</a>
-                <a href="https://new.safernet.org.br" target="_blank" rel="noopener noreferrer">SaferNet Brasil</a>
-                <a href="https://www.mpf.mp.br" target="_blank" rel="noopener noreferrer">Ministério Público Federal</a>
-                <a href="https://www.gov.br/mdh/pt-br/assuntos/disque-100" target="_blank" rel="noopener noreferrer">Disque 100</a>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <span>© 2026 Observatório do Antissemitismo no Brasil. Todos os direitos reservados.</span>
-            <span>🔒 Conexão segura · SSL</span>
-        </div>
-    </footer>
-
-    <!-- LGPD PRIVACY BANNER -->
-    <div id="privacy-banner" class="privacy-banner" style="display: none;">
-        <div class="privacy-content">
-            <p>Este site utiliza o armazenamento local (localStorage) apenas para salvar a sua preferência de tema (claro/escuro). Não utilizamos cookies de rastreamento e respeitamos a Lei Geral de Proteção de Dados (LGPD).</p>
-            <button id="privacy-accept" class="btn btn-primary">Entendido</button>
-        </div>
+<div class="overture" id="overture" role="dialog" aria-label="Abertura">
+  <img class="overture-photo" src="img/abertura-1800.jpg" srcset="img/abertura-1200.jpg 1200w, img/abertura-1800.jpg 1800w, img/abertura-2400.jpg 2400w" sizes="100vw" fetchpriority="high" decoding="async" width="1800" height="983" alt="">
+  <div class="overture-veil"></div>
+  <div class="overture-grain" aria-hidden="true"></div>
+  <div class="overture-stage">
+    <div class="overture-inner" id="overture-inner">
+      <p class="overture-quote">&ldquo;O antissemitismo se qualifica como racismo,</p>
+      <p class="overture-quote">crime inafian&ccedil;&aacute;vel e imprescrit&iacute;vel.&rdquo;</p>
+      <div class="overture-rule"></div>
+      <p class="overture-src">Supremo Tribunal Federal &middot; HC 82.424/RS &middot; 2003</p>
+      <div class="overture-years"><span>1988</span><span>1989</span><span>1997</span><span>2003</span><span>2014</span><span>2019</span><span>2021</span><span>2023</span><span>2026</span></div>
+      <h1 class="overture-title">Observat&oacute;rio do Antissemitismo no Brasil</h1>
     </div>
-
-    <!-- Scripts -->
-    <script src="js/app.js" defer></script>
+  </div>
+  <div class="overture-bar">
+    <button class="btn-sound" id="btn-sound" type="button" aria-pressed="false">
+      <span class="dot"></span><span id="sound-label">Ativar som</span>
+    </button>
+    <button class="btn-skip" id="btn-skip" type="button">Pular abertura &rarr;</button>
+  </div>
+</div>
+<header class="header">
+  <div class="wrap header-top">
+    <a class="brand" href="#topo">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>
+        <span class="brand-name">Observat&oacute;rio do Antissemitismo</span>
+        <span class="brand-sub">Iniciativa de Enfrentamento ao Antissemitismo &middot; CDESS</span>
+      </span>
+    </a>
+    <div class="header-actions">
+      <a class="lang" href="#sobre">PT / EN</a>
+      <a class="btn-solid" href="#denuncie">Denunciar</a>
+    </div>
+  </div>
+  <nav class="wrap nav" aria-label="Navega&ccedil;&atilde;o principal"><a href="#painel">Painel</a><a href="#organizacao">Como está organizado</a><a href="#escopo">O que é e o que não é</a><a href="#denuncie">Denuncie</a><a href="#preservar">Preservar evidências</a><a href="#legislacao">Legislação</a><a href="#sobre">Sobre</a></nav>
+</header>
+<main>
+<section class="wrap" id="topo" style="padding-top: clamp(52px, 7vw, 96px); padding-bottom: clamp(36px, 4vw, 56px)">
+  <p class="eyebrow" style="margin-bottom: 26px">Observat&oacute;rio &middot; Monitoramento cont&iacute;nuo</p>
+  <h1 class="h1">Incidentes, canais e provas em um s&oacute; lugar</h1>
+  <p class="lead" style="margin: 28px 0 0; max-width: 66ch">Monitoramento cont&iacute;nuo de incidentes de antissemitismo no Brasil, com orienta&ccedil;&atilde;o jur&iacute;dica, canais oficiais de den&uacute;ncia e procedimentos de preserva&ccedil;&atilde;o de evid&ecirc;ncias. Not&iacute;cias agregadas de fontes p&uacute;blicas, sempre com link para a publica&ccedil;&atilde;o de origem.</p>
+</section>
+<section class="metrics-band"><div class="wrap"><div class="metrics"><div class="metric"><p class="label">Casos registrados</p><p class="num">1.788</p><p class="metric-note">em 2024 · CONIB / FISESP</p></div><div class="metric"><p class="label">Variação</p><p class="num">+350%</p><p class="metric-note">aumento desde 2022</p></div><div class="metric"><p class="label">Meio</p><p class="num">73%</p><p class="metric-note">ocorrências online</p></div><div class="metric"><p class="label">Frequência</p><p class="num">4,9</p><p class="metric-note">denúncias por dia</p></div></div></div></section>
+<section class="wrap section" id="painel">
+  <div class="tabs" role="tablist" aria-label="Recorte geogr&aacute;fico">
+    <button class="tab" type="button" role="tab" aria-selected="true" data-scope="No Brasil">No Brasil</button>
+    <button class="tab" type="button" role="tab" aria-selected="false" data-scope="No mundo">No mundo</button>
+  </div>
+  <div class="panel-split">
+    <div>
+      <h2 class="h2">&Uacute;ltimas not&iacute;cias</h2>
+      <p class="lead" style="margin: 20px 0 0; max-width: 54ch; font-size: 16px">O painel completo &mdash; filtros, busca, indicadores e relat&oacute;rios &mdash; roda em endere&ccedil;o pr&oacute;prio. Abaixo, os itens mais recentes <span id="scope-label">no Brasil</span>.</p>
+      <div class="pills">
+        <a class="pill" href="#painel">Feed RSS das not&iacute;cias</a>
+        <a class="pill" href="#painel">Canal no Telegram</a>
+        <a class="pill pill-solid" href="#painel">Abrir o painel completo &rarr;</a>
+      </div>
+    </div>
+    <div class="notice">
+      <p class="notice-flag"><span class="dot"></span>Painel em implanta&ccedil;&atilde;o</p>
+      <p class="body" style="margin: 18px 0 0">O servi&ccedil;o de agrega&ccedil;&atilde;o ainda n&atilde;o responde neste endere&ccedil;o. Nada mais nesta p&aacute;gina depende dele: as se&ccedil;&otilde;es abaixo explicam exatamente o que o painel faz quando entrar no ar.</p>
+      <p class="notice-addr">Endere&ccedil;o definitivo do painel ainda n&atilde;o definido</p>
+    </div>
+  </div>
+  <div class="feed-grid"><article class="feed-card"><div class="feed-meta"><span>fonte</span><span>data</span></div><div class="feed-lines"><i></i><i></i><i></i></div><span class="feed-cta">Ler na fonte &rarr;</span></article><article class="feed-card"><div class="feed-meta"><span>fonte</span><span>data</span></div><div class="feed-lines"><i></i><i></i><i></i></div><span class="feed-cta">Ler na fonte &rarr;</span></article><article class="feed-card"><div class="feed-meta"><span>fonte</span><span>data</span></div><div class="feed-lines"><i></i><i></i><i></i></div><span class="feed-cta">Ler na fonte &rarr;</span></article><article class="feed-card"><div class="feed-meta"><span>fonte</span><span>data</span></div><div class="feed-lines"><i></i><i></i><i></i></div><span class="feed-cta">Ler na fonte &rarr;</span></article><article class="feed-card"><div class="feed-meta"><span>fonte</span><span>data</span></div><div class="feed-lines"><i></i><i></i><i></i></div><span class="feed-cta">Ler na fonte &rarr;</span></article><article class="feed-card"><div class="feed-meta"><span>fonte</span><span>data</span></div><div class="feed-lines"><i></i><i></i><i></i></div><span class="feed-cta">Ler na fonte &rarr;</span></article></div>
+  <p class="label" style="display: block; margin: 22px 0 0">Cart&otilde;es preenchidos automaticamente pelo agregador</p>
+</section>
+<section class="band" id="organizacao">
+  <div class="wrap section">
+    <p class="eyebrow">Como est&aacute; organizado</p>
+    <h2 class="h2">Quatro eixos de classifica&ccedil;&atilde;o</h2>
+    <div class="cards-4"><div class="card-rule"><h3 class="h3">Território</h3><p>Ocorrências por estado e município, com recorte nacional e leitura comparada de incidentes registrados no exterior.</p></div><div class="card-rule"><h3 class="h3">Tipo de incidente</h3><p>Discurso de ódio online, vandalismo e pichação, agressão física, discriminação em ambiente escolar e de trabalho, propaganda neonazista.</p></div><div class="card-rule"><h3 class="h3">Instituição</h3><p>CONIB, FISESP, SaferNet, Disque 100, Ministério Público Federal, Polícia Federal, DECRADI, GECRADI e Defensoria Pública.</p></div><div class="card-rule"><h3 class="h3">Tempo</h3><p>Agregação automática de fontes públicas, com deduplicação por URL normalizada e por similaridade de título entre idiomas.</p></div></div>
+  </div>
+</section>
+<section class="wrap section" id="escopo">
+  <p class="eyebrow">O que &eacute; e o que n&atilde;o &eacute;</p>
+  <div class="scope-grid">
+    <div><h3 class="h3-display">O que &eacute;</h3><ul class="scope-list scope-is"><li>Plataforma pública de monitoramento de incidentes de antissemitismo no Brasil.</li><li>Superfície de leitura que sempre remete ao veículo original.</li><li>Guia prático de canais oficiais de denúncia e de preservação de provas.</li><li>Linha do tempo do marco jurídico brasileiro: legislação, jurisprudência e normativos.</li></ul></div>
+    <div><h3 class="h3-display">O que n&atilde;o &eacute;</h3><ul class="scope-list scope-isnot"><li>Não é veículo de notícia: nada é reportado originalmente aqui.</li><li>Não emite opinião editorial nem carrega posição político-partidária.</li><li>Não substitui registro de ocorrência, denúncia formal ou assistência jurídica.</li><li>Não é fonte oficial: a autoridade é sempre a publicação de origem.</li></ul></div>
+  </div>
+</section>
+<section class="dark-section" id="denuncie">
+  <div class="wrap section">
+    <p class="eyebrow">Canais de den&uacute;ncia</p>
+    <h2 class="h2" style="max-width: 22ch">Onde denunciar atos antissemitas</h2>
+    <p class="lead" style="margin: 22px 0 0; max-width: 64ch; font-size: 16px">O antissemitismo &eacute; crime de racismo (Lei 7.716/89), inafian&ccedil;&aacute;vel e imprescrit&iacute;vel. Se voc&ecirc; foi v&iacute;tima ou testemunhou um ato antissemita, utilize os canais abaixo.</p>
+    <div class="report-group"><h3>Sociedade civil</h3><a class="report-item" href="https://conib.org.br/denuncie" target="_blank" rel="noopener"><span class="report-id"><span class="report-name">CONIB</span><span class="report-org">Confederação Israelita do Brasil</span></span><span class="report-desc">Central Nacional de Denúncias com triagem jurídica e assistência de acusação.</span><span class="report-cta">Denunciar &rarr;</span></a><a class="report-item" href="https://denuncieantissemitismo.fisesp.org.br" target="_blank" rel="noopener"><span class="report-id"><span class="report-name">FISESP</span><span class="report-org">Federação Israelita do Estado de São Paulo</span></span><span class="report-desc">Assistência psicossocial e jurídica para vítimas em São Paulo.</span><span class="report-cta">Denunciar &rarr;</span></a><a class="report-item" href="https://new.safernet.org.br" target="_blank" rel="noopener"><span class="report-id"><span class="report-name">SaferNet Brasil</span><span class="report-org">Central Nacional de Denúncias de Crimes Cibernéticos</span></span><span class="report-desc">Denúncias anônimas de neonazismo, racismo e antissemitismo na internet. Cooperação com o MPF.</span><span class="report-cta">Denunciar &rarr;</span></a></div><div class="report-group"><h3>Órgãos públicos federais</h3><a class="report-item" href="https://www.gov.br/mdh/pt-br/assuntos/disque-100" target="_blank" rel="noopener"><span class="report-id"><span class="report-name">Disque 100</span><span class="report-org">Disque Direitos Humanos</span></span><span class="report-desc">Denúncias de discriminação étnico-racial e religiosa. Gratuito, 24h, por telefone, WhatsApp, Telegram e aplicativo.</span><span class="report-cta">Acessar &rarr;</span></a><a class="report-item" href="https://www.mpf.mp.br/servicos/cidadao-online" target="_blank" rel="noopener"><span class="report-id"><span class="report-name">Ministério Público Federal</span><span class="report-org">Procuradoria Federal dos Direitos do Cidadão</span></span><span class="report-desc">Crimes de ódio na internet e tutelas coletivas.</span><span class="report-cta">Acessar &rarr;</span></a><a class="report-item" href="https://www.gov.br/pf" target="_blank" rel="noopener"><span class="report-id"><span class="report-name">Polícia Federal</span><span class="report-org">Delegacias de Defesa Institucional</span></span><span class="report-desc">Crimes na internet, células neonazistas e terrorismo doméstico.</span><span class="report-cta">Acessar &rarr;</span></a></div><div class="report-group"><h3>Órgãos estaduais</h3><a class="report-item" href="#denuncie"><span class="report-id"><span class="report-name">DECRADI</span><span class="report-org">Delegacias de Crimes Raciais e Delitos de Intolerância</span></span><span class="report-desc">Investigação especializada em crimes de preconceito. Presentes em SP e RJ.</span><span class="report-cta">Saiba mais &rarr;</span></a><a class="report-item" href="#denuncie"><span class="report-id"><span class="report-name">GECRADI / MPSP</span><span class="report-org">Grupo Especial de Combate aos Crimes Raciais e de Intolerância</span></span><span class="report-desc">Ministério Público de SP: inquéritos, ações civis públicas e denúncias criminais.</span><span class="report-cta">Saiba mais &rarr;</span></a><a class="report-item" href="#denuncie"><span class="report-id"><span class="report-name">Defensoria Pública</span><span class="report-org">Núcleos de Direitos Humanos</span></span><span class="report-desc">Assistência jurídica gratuita a vítimas.</span><span class="report-cta">Saiba mais &rarr;</span></a></div>
+  </div>
+</section>
+<section class="wrap section" id="preservar">
+  <p class="eyebrow">Preservar evid&ecirc;ncias</p>
+  <h2 class="h2" style="max-width: 24ch">Como preservar provas de atos antissemitas</h2>
+  <p class="warn">Nunca confronte o autor nem apague conversas. Preserve primeiro, denuncie depois.</p>
+  <div class="cards-4"><div class="card-rule"><p class="label">01</p><h3 class="step-title">Capturar</h3><ul class="step-list"><li>Screenshots com URL visível, data e hora</li><li>Gravação de tela para stories e conteúdos efêmeros</li><li>Print do perfil do autor (nome, bio, seguidores)</li><li>Salvar a página completa como arquivo .html</li></ul></div><div class="card-rule"><p class="label">02</p><h3 class="step-title">Preservar</h3><ul class="step-list"><li>Ata notarial em Tabelionato de Notas</li><li>Plataformas: Verifact, PACWeb ou Certisign</li><li>Internet Archive (Wayback Machine)</li><li>Calcular hash SHA-256 dos arquivos capturados</li></ul><p class="step-note">A ata notarial tem fé pública e é a prova mais forte para o Judiciário.</p></div><div class="card-rule"><p class="label">03</p><h3 class="step-title">Registrar</h3><ul class="step-list"><li>Boletim de Ocorrência (delegacia presencial ou online)</li><li>Denúncia à CONIB, SaferNet, Disque 100 ou MPF</li><li>Guardar o número de protocolo de cada registro</li><li>Solicitar medida cautelar de preservação de registros (Marco Civil, art. 22)</li></ul></div><div class="card-rule"><p class="label">04</p><h3 class="step-title">Acompanhar</h3><ul class="step-list"><li>Consultar andamento processual (CNJ, PJe, e-SAJ)</li><li>Entrar em contato com o órgão que recebeu a denúncia</li><li>Buscar assistência jurídica (Defensoria Pública ou advogado)</li><li>Registrar novas evidências se o comportamento persistir</li></ul></div></div>
+</section>
+<section class="band" id="legislacao">
+  <div class="wrap section">
+    <p class="eyebrow">Marco jur&iacute;dico</p>
+    <h2 class="h2">Legisla&ccedil;&atilde;o, jurisprud&ecirc;ncia e normativos</h2>
+    <div class="chips"><button class="chip" type="button" data-filter="Todos" aria-pressed="true">Todos</button><button class="chip" type="button" data-filter="Legislação" aria-pressed="false">Legislação</button><button class="chip" type="button" data-filter="Jurisprudência" aria-pressed="false">Jurisprudência</button><button class="chip" type="button" data-filter="Normativos" aria-pressed="false">Normativos</button><button class="chip" type="button" data-filter="Projetos de Lei" aria-pressed="false">Projetos de Lei</button></div>
+    <div class="timeline" id="timeline"><article class="tl-item" data-kind="Legislação"><div><p class="tl-year">1988</p><p class="label tl-kind">Legislação</p></div><div><h3 class="h3">Constituição Federal — Art. 5º, XLII</h3><p class="body">A prática do racismo constitui crime inafiançável e imprescritível, sujeito à pena de reclusão.</p></div></article><article class="tl-item" data-kind="Legislação"><div><p class="tl-year">1989</p><p class="label tl-kind">Legislação</p></div><div><h3 class="h3">Lei nº 7.716/1989 (Lei Caó)</h3><p class="body">Define os crimes resultantes de preconceito de raça ou de cor. Art. 20: praticar, induzir ou incitar a discriminação. Art. 20 §1º: propaganda nazista. Pena: reclusão de 1 a 3 anos.</p></div></article><article class="tl-item" data-kind="Legislação"><div><p class="tl-year">1997</p><p class="label tl-kind">Legislação</p></div><div><h3 class="h3">Lei nº 9.459/1997</h3><p class="body">Amplia a Lei 7.716/89 para incluir discriminação por etnia, religião ou procedência nacional. Introduz a injúria qualificada (art. 140, §3º do CP).</p></div></article><article class="tl-item" data-kind="Jurisprudência"><div><p class="tl-year">2003</p><p class="label tl-kind">Jurisprudência</p></div><div><h3 class="h3">HC 82.424/RS — Caso Ellwanger (STF)</h3><p class="body">Marco histórico: o STF decidiu por 8 a 3 que o antissemitismo é racismo. Superou o conceito biológico de raça. Estabeleceu que a liberdade de expressão não protege a incitação ao ódio. Crime imprescritível e inafiançável.</p></div></article><article class="tl-item" data-kind="Legislação"><div><p class="tl-year">2014</p><p class="label tl-kind">Legislação</p></div><div><h3 class="h3">Marco Civil da Internet (Lei nº 12.965/2014)</h3><p class="body">Disciplina ordens judiciais de remoção de conteúdo e identificação de usuários (arts. 19 e 22). Base para combate ao discurso de ódio online.</p></div></article><article class="tl-item" data-kind="Jurisprudência"><div><p class="tl-year">2019</p><p class="label tl-kind">Jurisprudência</p></div><div><h3 class="h3">ADO 26 e MI 4733 (STF)</h3><p class="body">Reafirmou o conceito social de racismo do Caso Ellwanger para enquadrar homofobia e transfobia na Lei 7.716/89.</p></div></article><article class="tl-item" data-kind="Jurisprudência"><div><p class="tl-year">2021</p><p class="label tl-kind">Jurisprudência</p></div><div><h3 class="h3">RHC 146.303/DF (STF)</h3><p class="body">Definiu que injúria racial é espécie do gênero racismo: imprescritível e inafiançável. Base para a Lei 14.532/2023.</p></div></article><article class="tl-item" data-kind="Normativos"><div><p class="tl-year">2022</p><p class="label tl-kind">Normativos</p></div><div><h3 class="h3">CNJ — Tabelas Processuais Unificadas</h3><p class="body">Criação de assuntos de intolerância religiosa nas TPU e painel no DataJud, por ato administrativo. Precedente para marcador de antissemitismo.</p></div></article><article class="tl-item" data-kind="Legislação"><div><p class="tl-year">2023</p><p class="label tl-kind">Legislação</p></div><div><h3 class="h3">Lei nº 14.532/2023</h3><p class="body">Equiparou integralmente a injúria racial ao crime de racismo (imprescritível, inafiançável). Agravantes para crimes em redes sociais, eventos esportivos e culturais e racismo recreativo.</p></div></article><article class="tl-item" data-kind="Normativos"><div><p class="tl-year">2023</p><p class="label tl-kind">Normativos</p></div><div><h3 class="h3">Decretos municipais — definição IHRA (RJ e SP)</h3><p class="body">Municípios do Rio de Janeiro e São Paulo adotam a definição de antissemitismo da IHRA em novembro de 2023.</p></div></article><article class="tl-item" data-kind="Projetos de Lei"><div><p class="tl-year">2026</p><p class="label tl-kind">Projetos de Lei</p></div><div><h3 class="h3">PL 1.424/2026 (Câmara dos Deputados)</h3><p class="body">Projeto de lei em tramitação na Câmara dos Deputados sobre o enfrentamento ao antissemitismo.</p></div></article><article class="tl-item" data-kind="Normativos"><div><p class="tl-year">2026</p><p class="label tl-kind">Normativos</p></div><div><h3 class="h3">Iniciativa de Enfrentamento ao Antissemitismo (CDESS)</h3><p class="body">Instituída pelo Conselho de Desenvolvimento Econômico, Social e Sustentável da Presidência da República. Eixo 3 (Segurança e Monitoramento) propõe este Observatório.</p></div></article></div>
+  </div>
+</section>
+<section class="wrap section" id="sobre">
+  <div class="about-grid">
+    <div>
+      <p class="eyebrow">Sobre</p>
+      <h2 class="h2" style="max-width: none">Monitorar &eacute; o ponto de partida, n&atilde;o a conclus&atilde;o</h2>
+      <p style="margin: 24px 0 0">Este Observat&oacute;rio &eacute; um produto do Eixo 3 (Seguran&ccedil;a e Monitoramento) da Iniciativa de Enfrentamento ao Antissemitismo, institu&iacute;da pelo Conselho de Desenvolvimento Econ&ocirc;mico, Social e Sustent&aacute;vel (CDESS) da Presid&ecirc;ncia da Rep&uacute;blica. A proposta visa oferecer &agrave; sociedade uma plataforma p&uacute;blica de monitoramento, orienta&ccedil;&atilde;o e prote&ccedil;&atilde;o de direitos.</p>
+      <p style="margin: 16px 0 0">A agrega&ccedil;&atilde;o mostra o que est&aacute; sendo dito. A responsabiliza&ccedil;&atilde;o depende de den&uacute;ncia formal, prova preservada e acompanhamento processual.</p>
+      <div class="pills">
+        <a class="pill pill-solid" href="#denuncie">Denunciar &rarr;</a>
+        <a class="pill" href="#preservar">Preservar evid&ecirc;ncias &rarr;</a>
+      </div>
+    </div>
+    <ul class="specs"><li><span class="label">Coordenação técnica</span><span>Polícia Federal / CGCIBER</span></li><li><span class="label">Eixo 3</span><span>Segurança e Monitoramento</span></li><li><span class="label">Natureza</span><span>Proposta do Eixo 3</span></li><li><span class="label">Integrantes</span><span>Órgãos públicos, sociedade civil e comunidade judaica</span></li></ul>
+  </div>
+</section>
+</main>
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <div class="footer-cols">
+      <div>
+        <p class="footer-brand">Observat&oacute;rio do Antissemitismo</p>
+        <p class="footer-text">Plataforma p&uacute;blica de monitoramento de incidentes, orienta&ccedil;&atilde;o jur&iacute;dica, canais de den&uacute;ncia e preserva&ccedil;&atilde;o de evid&ecirc;ncias para o enfrentamento ao antissemitismo no Brasil.</p>
+        <p class="footer-org">Iniciativa de Enfrentamento ao Antissemitismo &mdash; CDESS / Presid&ecirc;ncia da Rep&uacute;blica</p>
+      </div>
+      <div>
+        <p class="footer-head">Navega&ccedil;&atilde;o</p>
+        <nav><a href="#topo">In&iacute;cio</a><a href="#painel">Painel</a><a href="#organizacao">Como está organizado</a><a href="#escopo">O que é e o que não é</a><a href="#denuncie">Denuncie</a><a href="#preservar">Preservar evidências</a><a href="#legislacao">Legislação</a><a href="#sobre">Sobre</a></nav>
+      </div>
+      <div>
+        <p class="footer-head">Institui&ccedil;&otilde;es</p>
+        <nav><a href="https://conib.org.br" target="_blank" rel="noopener">CONIB</a><a href="https://fisesp.org.br" target="_blank" rel="noopener">FISESP</a><a href="https://new.safernet.org.br" target="_blank" rel="noopener">SaferNet Brasil</a><a href="https://www.mpf.mp.br" target="_blank" rel="noopener">Ministério Público Federal</a><a href="https://www.gov.br/pf" target="_blank" rel="noopener">Polícia Federal</a><a href="https://www.gov.br/mdh/pt-br/assuntos/disque-100" target="_blank" rel="noopener">Disque 100</a></nav>
+      </div>
+    </div>
+    <p class="footer-legal">&copy; 2026 Observat&oacute;rio do Antissemitismo no Brasil &middot; Conex&atilde;o segura e criptografada &middot; SSL</p>
+  </div>
+</footer>
+<div class="lgpd" id="lgpd" hidden>
+  <div class="wrap lgpd-inner">
+    <div class="lgpd-text">
+      <p class="eyebrow">Prote&ccedil;&atilde;o de dados &middot; LGPD</p>
+      <p>Este portal utiliza apenas armazenamento local para prefer&ecirc;ncias de exibi&ccedil;&atilde;o. O tratamento de dados pessoais observa a Lei Geral de Prote&ccedil;&atilde;o de Dados (Lei n&ordm; 13.709/2018). Sem cookies de rastreamento e sem repasse a terceiros.</p>
+    </div>
+    <button class="btn-ink" id="lgpd-ok" type="button">Entendido</button>
+  </div>
+</div>
+<script src="js/app.js" defer></script>
 </body>
 </html>
