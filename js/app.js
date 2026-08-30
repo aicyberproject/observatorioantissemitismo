@@ -167,10 +167,7 @@
            'Endereço definitivo do painel ainda não definido');
   }
 
-  if (window.fetch) {
-    fetch('data/noticias.json', { cache: 'no-store' })
-      .then(function (r) { if (!r.ok) throw new Error('http'); return r.json(); })
-      .then(function (d) {
+  function recebe(d) {
         var itens = (d && d.itens) || [];
         if (!itens.length) throw new Error('vazio');
         for (var i = 0; i < itens.length; i++) {
@@ -197,7 +194,14 @@
           var carimbo = document.getElementById('tk-stamp');
           if (carimbo && hora) carimbo.textContent = itens.length + ' manchetes · ' + hora;
         }
-      })
+  }
+
+  if (window.__NOTICIAS__) {
+    try { recebe(window.__NOTICIAS__); } catch (e) { semPainel(); }
+  } else if (window.fetch) {
+    fetch('data/noticias.json', { cache: 'no-store' })
+      .then(function (r) { if (!r.ok) throw new Error('http'); return r.json(); })
+      .then(recebe)
       .catch(function () { semPainel(); });
   } else {
     semPainel();
