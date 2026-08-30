@@ -60,11 +60,19 @@
   </div>
   <nav class="wrap nav" aria-label="Navega&ccedil;&atilde;o principal"><a href="#painel">Painel</a><a href="#organizacao">Como está organizado</a><a href="#escopo">O que é e o que não é</a><a href="#denuncie">Denuncie</a><a href="#preservar">Preservar evidências</a><a href="#legislacao">Legislação</a><a href="biblioteca.html">Biblioteca</a><a href="#sobre">Sobre</a></nav>
 </header>
+<aside class="ticker" id="ticker" aria-label="Manchetes ao vivo" hidden>
+  <div class="ticker-head">
+    <span class="tk-live"><span class="tk-dot tk-dot-br"></span><span>Ao vivo</span></span>
+    <span class="tk-stamp" id="tk-stamp"></span>
+  </div>
+  <div class="tk-lane tk-lane-br"><div class="tk-flag"><span class="tk-dot tk-dot-br"></span><span>No Brasil</span></div><div class="tk-track"><div class="tk-tape" id="tk-tape-br"></div></div></div>
+  <div class="tk-lane tk-lane-wo"><div class="tk-flag"><span class="tk-dot tk-dot-wo"></span><span>No mundo</span></div><div class="tk-track"><div class="tk-tape" id="tk-tape-wo"></div></div></div>
+</aside>
 <main>
 <section class="wrap" id="topo" style="padding-top: clamp(52px, 7vw, 96px); padding-bottom: clamp(36px, 4vw, 56px)">
   <p class="eyebrow" style="margin-bottom: 26px">Observat&oacute;rio &middot; Monitoramento cont&iacute;nuo</p>
   <h1 class="h1">Incidentes, canais e provas em um s&oacute; lugar</h1>
-  <p class="lead" style="margin: 28px 0 0; max-width: 66ch">Monitoramento cont&iacute;nuo de incidentes de antissemitismo no Brasil, com orienta&ccedil;&atilde;o jur&iacute;dica, canais oficiais de den&uacute;ncia e procedimentos de preserva&ccedil;&atilde;o de evid&ecirc;ncias. Not&iacute;cias agregadas de fontes p&uacute;blicas, sempre com link para a publica&ccedil;&atilde;o de origem.</p>
+  <p class="lead" style="margin: 28px 0 0; max-width: 66ch">Monitoramento cont&iacute;nuo de incidentes de antissemitismo no Brasil, com orienta&ccedil;&atilde;o jur&iacute;dica, canais oficiais de den&uacute;ncia e procedimentos de preserva&ccedil;&atilde;o de evid&ecirc;ncias. Not&iacute;cias agregadas de 21 fontes p&uacute;blicas, com link para a publica&ccedil;&atilde;o de origem.</p>
 </section>
 <section class="metrics-band"><div class="wrap"><div class="metrics"><div class="metric"><p class="label">Casos registrados</p><p class="num">1.788</p><p class="metric-note">em 2024 · CONIB / FISESP / DSC</p></div><div class="metric"><p class="label">Variação</p><p class="num">+350%</p><p class="metric-note">sobre 2022, quando foram 397</p></div><div class="metric"><p class="label">Meio</p><p class="num">73%</p><p class="metric-note">ocorrências no ambiente digital</p></div><div class="metric"><p class="label">Frequência</p><p class="num">4,9</p><p class="metric-note">denúncias por dia</p></div></div></div></section>
 <section class="wrap section" id="painel">
@@ -75,20 +83,21 @@
   <div class="panel-split">
     <div>
       <h2 class="h2">&Uacute;ltimas not&iacute;cias</h2>
-      <p class="lead" style="margin: 20px 0 0; max-width: 54ch; font-size: 16px">O painel completo &mdash; filtros, busca, indicadores e relat&oacute;rios &mdash; roda em endere&ccedil;o pr&oacute;prio. Quando entrar em opera&ccedil;&atilde;o, os cart&otilde;es abaixo tr&atilde;o os itens mais recentes <span id="scope-label">no Brasil</span>.</p>
+      <p class="lead" style="margin: 20px 0 0; max-width: 54ch; font-size: 16px">Agrega&ccedil;&atilde;o autom&aacute;tica das 21 fontes registradas, com link para a publica&ccedil;&atilde;o de origem. Abaixo, os itens mais recentes <span id="scope-label">no Brasil</span>.</p>
       <div class="pills">
         <a class="pill pill-solid" href="#fontes">Fontes monitoradas &rarr;</a>
         <a class="pill" href="biblioteca.html">Biblioteca de refer&ecirc;ncia &rarr;</a>
       </div>
     </div>
-    <div class="notice">
-      <p class="notice-flag"><span class="dot"></span>Painel em implanta&ccedil;&atilde;o</p>
-      <p class="body" style="margin: 18px 0 0">As fontes j&aacute; est&atilde;o registradas e verificadas, e est&atilde;o listadas logo abaixo. O servi&ccedil;o que l&ecirc; esses feeds e preenche os cart&otilde;es ainda n&atilde;o est&aacute; em opera&ccedil;&atilde;o. Nada mais nesta p&aacute;gina depende dele.</p>
-      <p class="notice-addr">Endere&ccedil;o definitivo do painel ainda n&atilde;o definido</p>
+    <div class="notice" id="painel-estado">
+      <p class="notice-flag"><span class="dot"></span><span id="estado-rotulo">Carregando o painel</span></p>
+      <p class="body" style="margin: 18px 0 0" id="estado-texto">Buscando as manchetes mais recentes das 21 fontes registradas.</p>
+      <p class="notice-addr" id="estado-carimbo">Endere&ccedil;o definitivo do painel ainda n&atilde;o definido</p>
+      <noscript><p class="body" style="margin: 18px 0 0">O painel depende de JavaScript para carregar as manchetes. As fontes agregadas est&atilde;o listadas logo abaixo, com endere&ccedil;o, e podem ser assinadas diretamente.</p></noscript>
     </div>
   </div>
-  <div class="feed-grid"><article class="feed-card"><div class="feed-meta"><span>fonte</span><span>data</span></div><div class="feed-lines"><i></i><i></i><i></i></div><span class="feed-cta">Ler na fonte &rarr;</span></article><article class="feed-card"><div class="feed-meta"><span>fonte</span><span>data</span></div><div class="feed-lines"><i></i><i></i><i></i></div><span class="feed-cta">Ler na fonte &rarr;</span></article><article class="feed-card"><div class="feed-meta"><span>fonte</span><span>data</span></div><div class="feed-lines"><i></i><i></i><i></i></div><span class="feed-cta">Ler na fonte &rarr;</span></article><article class="feed-card"><div class="feed-meta"><span>fonte</span><span>data</span></div><div class="feed-lines"><i></i><i></i><i></i></div><span class="feed-cta">Ler na fonte &rarr;</span></article><article class="feed-card"><div class="feed-meta"><span>fonte</span><span>data</span></div><div class="feed-lines"><i></i><i></i><i></i></div><span class="feed-cta">Ler na fonte &rarr;</span></article><article class="feed-card"><div class="feed-meta"><span>fonte</span><span>data</span></div><div class="feed-lines"><i></i><i></i><i></i></div><span class="feed-cta">Ler na fonte &rarr;</span></article></div>
-  <p class="label" style="display: block; margin: 22px 0 0">Cart&otilde;es preenchidos automaticamente pelo agregador</p>
+  <div class="feed-grid" id="feed-grid"><article class="feed-card"><div class="feed-meta"><span>fonte</span><span>data</span></div><div class="feed-lines"><i></i><i></i><i></i></div><span class="feed-cta">Ler na fonte &rarr;</span></article><article class="feed-card"><div class="feed-meta"><span>fonte</span><span>data</span></div><div class="feed-lines"><i></i><i></i><i></i></div><span class="feed-cta">Ler na fonte &rarr;</span></article><article class="feed-card"><div class="feed-meta"><span>fonte</span><span>data</span></div><div class="feed-lines"><i></i><i></i><i></i></div><span class="feed-cta">Ler na fonte &rarr;</span></article><article class="feed-card"><div class="feed-meta"><span>fonte</span><span>data</span></div><div class="feed-lines"><i></i><i></i><i></i></div><span class="feed-cta">Ler na fonte &rarr;</span></article><article class="feed-card"><div class="feed-meta"><span>fonte</span><span>data</span></div><div class="feed-lines"><i></i><i></i><i></i></div><span class="feed-cta">Ler na fonte &rarr;</span></article><article class="feed-card"><div class="feed-meta"><span>fonte</span><span>data</span></div><div class="feed-lines"><i></i><i></i><i></i></div><span class="feed-cta">Ler na fonte &rarr;</span></article></div>
+  <p class="label" style="display: block; margin: 22px 0 0" id="feed-rodape">Cart&otilde;es preenchidos automaticamente pelo agregador</p>
   <div class="sources" id="fontes">
     <div class="sources-head">
       <h3>Fontes monitoradas</h3>
@@ -108,7 +117,7 @@
 <section class="wrap section" id="escopo">
   <p class="eyebrow">O que &eacute; e o que n&atilde;o &eacute;</p>
   <div class="scope-grid">
-    <div><h3 class="h3-display">O que &eacute;</h3><ul class="scope-list scope-is"><li>Plataforma pública de monitoramento de incidentes de antissemitismo no Brasil.</li><li>Superfície de leitura que sempre remete ao veículo original.</li><li>Guia prático de canais oficiais de denúncia e de preservação de provas.</li><li>Linha do tempo do marco jurídico brasileiro: legislação, jurisprudência e normativos.</li></ul></div>
+    <div><h3 class="h3-display">O que &eacute;</h3><ul class="scope-list scope-is"><li>Plataforma pública de monitoramento de incidentes de antissemitismo no Brasil.</li><li>Superfície de leitura que remete ao veículo original, com aviso explícito quando o item chega por intermediário de busca.</li><li>Guia prático de canais oficiais de denúncia e de preservação de provas.</li><li>Linha do tempo do marco jurídico brasileiro: legislação, jurisprudência e normativos.</li></ul></div>
     <div><h3 class="h3-display">O que n&atilde;o &eacute;</h3><ul class="scope-list scope-isnot"><li>Não é veículo de notícia: nada é reportado originalmente aqui.</li><li>Não emite opinião editorial nem carrega posição político-partidária.</li><li>Não substitui registro de ocorrência, denúncia formal ou assistência jurídica.</li><li>Não é fonte oficial: a autoridade é sempre a publicação de origem.</li></ul></div>
   </div>
 </section>

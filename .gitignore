@@ -1,2 +1,5 @@
 .firecrawl/
 preview/
+
+# gerado no build, nao versionado
+data/noticias.json

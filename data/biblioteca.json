@@ -129,7 +129,7 @@
         },
         {
           "titulo": "CC 146.983/RJ",
-          "meta": "Superior Tribunal de Justiça · Terceira Seção · 24 de maio de 2017",
+          "meta": "Superior Tribunal de Justiça · Terceira Seção · 24 de maio de 2017 · DJe 29 de junho de 2017",
           "corpo": "Fixou o critério de competência para o crime de racismo praticado pela internet. Não é necessário que a conduta discriminatória alcance uma coletividade para atrair a Justiça Federal: basta, nos termos do art. 109, V, da Constituição, que o crime esteja previsto em tratado ou convenção internacional de que o Brasil seja signatário e que haja indícios robustos de internacionalidade da conduta ou de seus resultados.",
           "url": "https://scon.stj.jus.br/SCON/",
           "url_label": "Jurisprudência do STJ",
@@ -137,7 +137,7 @@
         },
         {
           "titulo": "CC 163.420/PR",
-          "meta": "Superior Tribunal de Justiça · Terceira Seção · DJe 1º de junho de 2020",
+          "meta": "Superior Tribunal de Justiça · Terceira Seção · 13 de maio de 2020 · DJe 1º de junho de 2020",
           "corpo": "Conteúdo discriminatório contra o povo judeu divulgado em comentários no Facebook. A Terceira Seção assentou que, dada a potencialidade de o material disponível na internet ser acessado no exterior, configura-se a competência da Justiça Federal ainda que o conteúdo não tenha sido efetivamente visualizado fora do território nacional. É o precedente do STJ mais diretamente aplicável ao objeto deste Observatório.",
           "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/Crime-de-racismo-contra-judeus-em-rede-social-deve-ser-julgado-pela-Justica-Federal.aspx",
           "url_label": "Notícia do STJ",
@@ -159,7 +159,7 @@
           "nota": "Revisão: a entrega de pesquisa descrevia agravo regimental julgado em 21/05/2024, com origem no TRF-5 e sem número de processo. A verificação localizou recurso especial julgado em 21/10/2024, relatado pela Ministra Daniela Teixeira."
         },
         {
-          "titulo": "RHC 219.028",
+          "titulo": "RHC 219.028/SP",
           "meta": "Superior Tribunal de Justiça · Sexta Turma · 6 de abril de 2026",
           "corpo": "Racismo religioso contra muçulmanos, por divulgação de vídeos discriminatórios na internet. A Sexta Turma assentou que a suspensão condicional do processo não é direito subjetivo do réu e não é cabível nos crimes de preconceito de religião ou raça, estendendo ao instituto o raciocínio que o Supremo Tribunal Federal adotou no RHC 222.599 quanto ao acordo de não persecução penal. Não trata de antissemitismo, mas fixa o regime aplicável a todo o art. 20 da Lei 7.716/89.",
           "url": "https://www.migalhas.com.br/quentes/453255/stj-suspensao-do-processo-nao-se-aplica-em-caso-de-racismo-religioso",
@@ -189,11 +189,12 @@
       "resumo": "Produtores de série histórica e de indicadores. Fontes potenciais de dado agregado para o painel.",
       "entradas": [
         {
-          "titulo": "Kantor Center — Universidade de Tel Aviv",
-          "meta": "Antisemitism Worldwide Report · anual",
-          "corpo": "Série anual de referência internacional, com recorte por país. Publicada às vésperas do Yom HaShoah.",
-          "url": "https://cst.tau.ac.il/",
-          "url_label": "Centro"
+          "titulo": "Kantor Center for the Study of Contemporary European Jewry",
+          "meta": "Universidade de Tel Aviv · Annual Report on Antisemitism Worldwide",
+          "corpo": "Série anual de referência internacional, com recorte por país, divulgada a cada ano no Yom HaShoah. É a série global mais longa e mais citada sobre o tema. A edição de 2026, sobre o ano de 2025, apontou o maior número de mortes em atentados antissemitas em mais de três décadas.",
+          "url": "https://cst.tau.ac.il/annual-reports-on-worldwide-antisemitism/",
+          "url_label": "Relatórios anuais",
+          "nota": "Revisão: a entrega de pesquisa inverteu o nome, tratando o Kantor Center como designação antiga do Center for the Study of Contemporary European Jewry. É o contrário: o nome do centro é Kantor Center for the Study of Contemporary European Jewry. A afirmação de publicação ininterrupta desde 1994 não foi confirmada e por isso não consta."
         },
         {
           "titulo": "SICSA — Universidade Hebraica de Jerusalém",
@@ -231,6 +232,14 @@
           "url_label": "Relatório de 2024 (PDF)"
         },
         {
+          "titulo": "Ministério Público Federal",
+          "meta": "Procuradoria Federal dos Direitos do Cidadão · atuação temática",
+          "corpo": "A PFDC mantém relatoria temática de enfrentamento ao neonazismo, à intolerância e ao discurso de ódio, e o MPF opera desde 2006 em cooperação técnica com a SaferNet Brasil para receber, triar e encaminhar denúncias de páginas racistas e neonazistas na rede. É a via federal pela qual a denúncia digital chega à persecução penal.",
+          "url": "https://www.mpf.mp.br/",
+          "url_label": "Ministério Público Federal",
+          "nota": "Lacuna: a entrega de pesquisa indica quatro identificadores administrativos para essa atuação, entre portaria, relatório de pesquisa, procedimento de coordenação e termo de cooperação. Nenhum foi confirmado na verificação e por isso nenhum está transcrito aqui. O verbete registra a linha de atuação, não os atos que a formalizam."
+        },
+        {
           "titulo": "CONIB e Museu Judaico de São Paulo",
           "meta": "Documentação comunitária",
           "corpo": "Registro comunitário de incidentes e acervo de memória histórica. A CONIB é a instância de representação nacional da comunidade judaica brasileira.",
@@ -242,6 +251,6 @@
   ],
   "lacunas": [
     "Dois acórdãos citados na entrega de pesquisa não foram localizados na verificação: CC 175.525/SP e AgRg no AREsp 1.331.345/SP. Não estão registrados. O conteúdo atribuído ao primeiro coincide com o de CC 163.420/PR, que consta do bloco de leading cases.",
-    "Séries numéricas do Kantor Center e do Ministério Público Federal: nomeados na entrega como produtores de relatório, sem dado entregue. Os indicadores da página inicial têm lastro no relatório da CONIB, da FISESP e do DSC, registrado acima."
+    "Os identificadores administrativos da atuação temática do Ministério Público Federal, indicados na entrega, não foram confirmados. O verbete do MPF registra a linha de atuação sem transcrevê-los."
   ]
 }

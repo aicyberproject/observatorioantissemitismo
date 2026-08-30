@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # A coleta de noticias roda no build. Sem execucao periodica o painel
+  # congela na ultima publicacao, por isso o agendamento de meia em meia hora.
+  schedule:
+    - cron: '*/30 * * * *'
 
 permissions:
   contents: read
@@ -22,6 +26,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      # Gera data/noticias.json apenas dentro do artefato publicado. Nada e
+      # gravado no repositorio: o historico nao recebe commit automatico.
+      # Se a coleta falhar por inteiro, o site sobe assim mesmo e a pagina
+      # exibe o estado de painel indisponivel.
+      - name: Agregar noticias das fontes registradas
+        continue-on-error: true
+        run: python3 scripts/agregar.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

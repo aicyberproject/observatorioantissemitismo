@@ -2,7 +2,8 @@
   "esquema": "catalogo-de-fontes/1",
   "atualizado_em": "2026-08-30",
   "origem": "Pesquisa de fontes do Observatório do Antissemitismo, entregue em 30/08/2026. Endereços reconferidos por requisição HTTP na mesma data.",
-  "natureza": "Catálogo de fontes públicas a serem agregadas. Não contém notícias. O serviço que lê estes feeds ainda não está em operação.",
+  "natureza": "Catálogo de fontes públicas agregadas pelo painel. Não contém notícias: o resultado da coleta é gerado no build e servido em data/noticias.json.",
+  "nota_tecnica": "As fontes de tipo radar_de_busca são consultas ao Google Notícias, não veículos. Cada <item> do XML traz <source url=\"...\">Nome do Veículo</source>, que identifica a autoria. O <link> do item, porém, é um endereço de redirecionamento em news.google.com. O agregador exibe o nome do veículo extraído de <source> e marca o item com o rótulo \"via Google Notícias\", de modo que o leitor saiba que o clique passa pelo intermediário antes de chegar à publicação de origem.",
   "total_registrado": 21,
   "categorias": [
     {
@@ -16,7 +17,8 @@
           "formato": "rss",
           "idioma": "EN",
           "escopo": "Global",
-          "foco": "Movimento internacional de coalizão. Publica relatórios de incidentes e acompanha a adoção da definição da IHRA."
+          "foco": "Movimento internacional de coalizão. Publica relatórios de incidentes e acompanha a adoção da definição da IHRA.",
+          "tipo": "veiculo"
         },
         {
           "id": "fra",
@@ -25,7 +27,8 @@
           "formato": "rss",
           "idioma": "EN",
           "escopo": "União Europeia",
-          "foco": "Agência da UE para direitos fundamentais. Levantamentos periódicos sobre antissemitismo nos Estados-membros."
+          "foco": "Agência da UE para direitos fundamentais. Levantamentos periódicos sobre antissemitismo nos Estados-membros.",
+          "tipo": "veiculo"
         },
         {
           "id": "swu",
@@ -34,7 +37,8 @@
           "formato": "rss",
           "idioma": "EN",
           "escopo": "Global",
-          "foco": "Organização educacional. Cobertura de incidentes em ambiente universitário e escolar."
+          "foco": "Organização educacional. Cobertura de incidentes em ambiente universitário e escolar.",
+          "tipo": "veiculo"
         }
       ]
     },
@@ -49,7 +53,8 @@
           "formato": "rss",
           "idioma": "EN",
           "escopo": "Global",
-          "foco": "Agência de notícias judaica fundada em 1917. Cobertura factual de amplo alcance geográfico."
+          "foco": "Agência de notícias judaica fundada em 1917. Cobertura factual de amplo alcance geográfico.",
+          "tipo": "veiculo"
         },
         {
           "id": "toi",
@@ -58,7 +63,8 @@
           "formato": "rss",
           "idioma": "EN",
           "escopo": "Global",
-          "foco": "Cobertura diária, com editoria específica de antissemitismo na diáspora."
+          "foco": "Cobertura diária, com editoria específica de antissemitismo na diáspora.",
+          "tipo": "veiculo"
         },
         {
           "id": "jpost",
@@ -67,7 +73,8 @@
           "formato": "rss",
           "idioma": "EN",
           "escopo": "Diáspora",
-          "foco": "Recorte de diáspora do jornal. Feed dedicado a comunidades fora de Israel, incluindo a América Latina."
+          "foco": "Recorte de diáspora do jornal. Feed dedicado a comunidades fora de Israel, incluindo a América Latina.",
+          "tipo": "veiculo"
         },
         {
           "id": "alge",
@@ -76,7 +83,8 @@
           "formato": "rss",
           "idioma": "EN",
           "escopo": "Global",
-          "foco": "Cobertura de incidentes e de antissemitismo em universidades norte-americanas e europeias."
+          "foco": "Cobertura de incidentes e de antissemitismo em universidades norte-americanas e europeias.",
+          "tipo": "veiculo"
         },
         {
           "id": "fwd",
@@ -85,7 +93,8 @@
           "formato": "rss",
           "idioma": "EN",
           "escopo": "Global",
-          "foco": "Publicação de referência da imprensa judaica dos Estados Unidos. Reportagem e análise."
+          "foco": "Publicação de referência da imprensa judaica dos Estados Unidos. Reportagem e análise.",
+          "tipo": "veiculo"
         },
         {
           "id": "jj",
@@ -94,7 +103,8 @@
           "formato": "rss",
           "idioma": "EN",
           "escopo": "Estados Unidos",
-          "foco": "Cobertura comunitária, com foco na Califórnia e em incidentes locais."
+          "foco": "Cobertura comunitária, com foco na Califórnia e em incidentes locais.",
+          "tipo": "veiculo"
         },
         {
           "id": "fathom",
@@ -103,7 +113,8 @@
           "formato": "rss",
           "idioma": "EN",
           "escopo": "Global",
-          "foco": "Publicação analítica. Ensaios sobre antissemitismo contemporâneo e suas formas de manifestação."
+          "foco": "Publicação analítica. Ensaios sobre antissemitismo contemporâneo e suas formas de manifestação.",
+          "tipo": "veiculo"
         }
       ]
     },
@@ -118,7 +129,8 @@
           "formato": "rss",
           "idioma": "PT",
           "escopo": "Global",
-          "foco": "Serviço de notícias da ONU em português. Única fonte internacional do catálogo já em língua portuguesa."
+          "foco": "Serviço de notícias da ONU em português. Única fonte internacional do catálogo já em língua portuguesa.",
+          "tipo": "veiculo"
         },
         {
           "id": "un-en",
@@ -127,7 +139,8 @@
           "formato": "rss",
           "idioma": "EN",
           "escopo": "Global",
-          "foco": "Versão em inglês, mais completa e com publicação mais frequente que a edição em português."
+          "foco": "Versão em inglês, mais completa e com publicação mais frequente que a edição em português.",
+          "tipo": "veiculo"
         }
       ]
     },
@@ -142,7 +155,8 @@
           "formato": "rss",
           "idioma": "PT",
           "escopo": "Nacional",
-          "foco": "Portal de notícias do STF. Fonte primária para decisões que compõem a linha do tempo jurídica deste Observatório."
+          "foco": "Portal de notícias do STF. Fonte primária para decisões que compõem a linha do tempo jurídica deste Observatório.",
+          "tipo": "veiculo"
         },
         {
           "id": "conjur",
@@ -151,7 +165,8 @@
           "formato": "rss",
           "idioma": "PT",
           "escopo": "Nacional",
-          "foco": "Cobertura jurídica diária. Acompanha cortes superiores, Ministério Público e legislação em tramitação."
+          "foco": "Cobertura jurídica diária. Acompanha cortes superiores, Ministério Público e legislação em tramitação.",
+          "tipo": "veiculo"
         }
       ]
     },
@@ -167,7 +182,9 @@
           "idioma": "PT",
           "escopo": "Nacional",
           "foco": "Termo isolado, de maior alcance. Cobre desde a imprensa nacional até veículos locais e comunitários.",
-          "expressao_de_busca": "antissemitismo"
+          "tipo": "radar_de_busca",
+          "expressao_de_busca": "antissemitismo",
+          "exige_resolucao_de_url": true
         },
         {
           "id": "radar-br-racismo",
@@ -177,7 +194,9 @@
           "idioma": "PT",
           "escopo": "Nacional",
           "foco": "Amplia o recorte para além do antissemitismo, alcançando as demais formas de intolerância religiosa e os crimes de ódio.",
-          "expressao_de_busca": "\"racismo religioso\" OR \"crimes de ódio\""
+          "tipo": "radar_de_busca",
+          "expressao_de_busca": "\"racismo religioso\" OR \"crimes de ódio\"",
+          "exige_resolucao_de_url": true
         },
         {
           "id": "radar-br-justica",
@@ -187,7 +206,9 @@
           "idioma": "PT",
           "escopo": "Nacional",
           "foco": "Cruza os termos do fenômeno com as instituições de persecução. É o recorte que alimenta a leitura de desfecho, hoje a principal lacuna de rastreabilidade.",
-          "expressao_de_busca": "(antissemitismo OR \"crime de ódio\" OR \"racismo religioso\") (STF OR STJ OR \"Ministério Público\" OR PF)"
+          "tipo": "radar_de_busca",
+          "expressao_de_busca": "(antissemitismo OR \"crime de ódio\" OR \"racismo religioso\") (STF OR STJ OR \"Ministério Público\" OR PF)",
+          "exige_resolucao_de_url": true
         },
         {
           "id": "radar-en",
@@ -197,7 +218,9 @@
           "idioma": "EN",
           "escopo": "Global",
           "foco": "Cobre as duas grafias correntes em inglês, que indexam conjuntos distintos de veículos.",
-          "expressao_de_busca": "antisemitism OR \"anti-semitism\""
+          "tipo": "radar_de_busca",
+          "expressao_de_busca": "antisemitism OR \"anti-semitism\"",
+          "exige_resolucao_de_url": true
         },
         {
           "id": "radar-en-leis",
@@ -207,7 +230,9 @@
           "idioma": "EN",
           "escopo": "Global",
           "foco": "Recorte de resposta institucional no exterior: legislação, decisão judicial, prisão e denúncia. Base para leitura comparada.",
-          "expressao_de_busca": "antisemitism (legislation OR court OR ruling OR arrest OR prosecution)"
+          "tipo": "radar_de_busca",
+          "expressao_de_busca": "antisemitism (legislation OR court OR ruling OR arrest OR prosecution)",
+          "exige_resolucao_de_url": true
         },
         {
           "id": "radar-es",
@@ -217,7 +242,9 @@
           "idioma": "ES",
           "escopo": "Iberoamérica",
           "foco": "Recorte de língua espanhola, ancorado na Argentina, país com a maior comunidade judaica da América Latina.",
-          "expressao_de_busca": "antisemitismo"
+          "tipo": "radar_de_busca",
+          "expressao_de_busca": "antisemitismo",
+          "exige_resolucao_de_url": true
         },
         {
           "id": "radar-fr",
@@ -227,7 +254,9 @@
           "idioma": "FR",
           "escopo": "França e Europa",
           "foco": "Recorte de língua francesa. A França concentra a maior comunidade judaica da Europa e a série de incidentes mais documentada do continente.",
-          "expressao_de_busca": "antisemitisme"
+          "tipo": "radar_de_busca",
+          "expressao_de_busca": "antisemitisme",
+          "exige_resolucao_de_url": true
         }
       ]
     }

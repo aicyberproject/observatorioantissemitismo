@@ -152,7 +152,7 @@ O STF declarou a inconstitucionalidade parcial e progressiva do art. 19 do Marco
 
 ### CC 146.983/RJ
 
-`Superior Tribunal de Justiça · Terceira Seção · 24 de maio de 2017`
+`Superior Tribunal de Justiça · Terceira Seção · 24 de maio de 2017 · DJe 29 de junho de 2017`
 
 Fixou o critério de competência para o crime de racismo praticado pela internet. Não é necessário que a conduta discriminatória alcance uma coletividade para atrair a Justiça Federal: basta, nos termos do art. 109, V, da Constituição, que o crime esteja previsto em tratado ou convenção internacional de que o Brasil seja signatário e que haja indícios robustos de internacionalidade da conduta ou de seus resultados.
 
@@ -162,7 +162,7 @@ Fixou o critério de competência para o crime de racismo praticado pela interne
 
 ### CC 163.420/PR
 
-`Superior Tribunal de Justiça · Terceira Seção · DJe 1º de junho de 2020`
+`Superior Tribunal de Justiça · Terceira Seção · 13 de maio de 2020 · DJe 1º de junho de 2020`
 
 Conteúdo discriminatório contra o povo judeu divulgado em comentários no Facebook. A Terceira Seção assentou que, dada a potencialidade de o material disponível na internet ser acessado no exterior, configura-se a competência da Justiça Federal ainda que o conteúdo não tenha sido efetivamente visualizado fora do território nacional. É o precedente do STJ mais diretamente aplicável ao objeto deste Observatório.
 
@@ -188,7 +188,7 @@ Manteve a condenação por racismo de advogado que publicou no Facebook a negaç
 
 > **Revisão.** A entrega de pesquisa descrevia agravo regimental julgado em 21/05/2024, com origem no TRF-5 e sem número de processo. A verificação localizou recurso especial julgado em 21/10/2024, relatado pela Ministra Daniela Teixeira.
 
-### RHC 219.028
+### RHC 219.028/SP
 
 `Superior Tribunal de Justiça · Sexta Turma · 6 de abril de 2026`
 
@@ -222,13 +222,15 @@ A Corte reconheceu que um Estado pode proibir a queima de cruz praticada com int
 
 Produtores de série histórica e de indicadores. Fontes potenciais de dado agregado para o painel.
 
-### Kantor Center — Universidade de Tel Aviv
+### Kantor Center for the Study of Contemporary European Jewry
 
-`Antisemitism Worldwide Report · anual`
+`Universidade de Tel Aviv · Annual Report on Antisemitism Worldwide`
 
-Série anual de referência internacional, com recorte por país. Publicada às vésperas do Yom HaShoah.
+Série anual de referência internacional, com recorte por país, divulgada a cada ano no Yom HaShoah. É a série global mais longa e mais citada sobre o tema. A edição de 2026, sobre o ano de 2025, apontou o maior número de mortes em atentados antissemitas em mais de três décadas.
 
-[Centro](https://cst.tau.ac.il/)
+[Relatórios anuais](https://cst.tau.ac.il/annual-reports-on-worldwide-antisemitism/)
+
+> **Revisão.** A entrega de pesquisa inverteu o nome, tratando o Kantor Center como designação antiga do Center for the Study of Contemporary European Jewry. É o contrário: o nome do centro é Kantor Center for the Study of Contemporary European Jewry. A afirmação de publicação ininterrupta desde 1994 não foi confirmada e por isso não consta.
 
 ### SICSA — Universidade Hebraica de Jerusalém
 
@@ -270,6 +272,16 @@ Série anual consolidada a partir das centrais de denúncia mantidas pela CONIB 
 
 [Relatório de 2024 (PDF)](https://combateaoantissemitismo.org.br/wp-content/uploads/2025/04/Relatorio_Antissemitismo-no-Brasil-2024_v4-web.pdf)
 
+### Ministério Público Federal
+
+`Procuradoria Federal dos Direitos do Cidadão · atuação temática`
+
+A PFDC mantém relatoria temática de enfrentamento ao neonazismo, à intolerância e ao discurso de ódio, e o MPF opera desde 2006 em cooperação técnica com a SaferNet Brasil para receber, triar e encaminhar denúncias de páginas racistas e neonazistas na rede. É a via federal pela qual a denúncia digital chega à persecução penal.
+
+[Ministério Público Federal](https://www.mpf.mp.br/)
+
+> **Lacuna.** A entrega de pesquisa indica quatro identificadores administrativos para essa atuação, entre portaria, relatório de pesquisa, procedimento de coordenação e termo de cooperação. Nenhum foi confirmado na verificação e por isso nenhum está transcrito aqui. O verbete registra a linha de atuação, não os atos que a formalizam.
+
 ### CONIB e Museu Judaico de São Paulo
 
 `Documentação comunitária`
@@ -285,7 +297,7 @@ Registro comunitário de incidentes e acervo de memória histórica. A CONIB é 
 O que a pesquisa anunciou e não entregou fica consignado. A lacuna é achado, não falha.
 
 - Dois acórdãos citados na entrega de pesquisa não foram localizados na verificação: CC 175.525/SP e AgRg no AREsp 1.331.345/SP. Não estão registrados. O conteúdo atribuído ao primeiro coincide com o de CC 163.420/PR, que consta do bloco de leading cases.
-- Séries numéricas do Kantor Center e do Ministério Público Federal: nomeados na entrega como produtores de relatório, sem dado entregue. Os indicadores da página inicial têm lastro no relatório da CONIB, da FISESP e do DSC, registrado acima.
+- Os identificadores administrativos da atuação temática do Ministério Público Federal, indicados na entrega, não foram confirmados. O verbete do MPF registra a linha de atuação sem transcrevê-los.
 
 ---
 
