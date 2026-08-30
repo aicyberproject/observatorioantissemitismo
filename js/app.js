@@ -1,6 +1,19 @@
 
 (function () {
   var root = document.documentElement;
+
+  /* A faixa de prototipo e sticky no topo. O cabecalho, tambem sticky, precisa
+     parar logo abaixo dela: --proto-h carrega a altura medida. */
+  function syncProtoHeight() {
+    var b = document.querySelector('.proto-bar');
+    root.style.setProperty('--proto-h', (b ? b.getBoundingClientRect().height : 0) + 'px');
+  }
+  syncProtoHeight();
+  window.addEventListener('resize', syncProtoHeight);
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(syncProtoHeight).catch(function () {});
+  }
+
   function syncLgpdHeight() {
     var l = document.getElementById('lgpd');
     var h = (l && !l.hidden) ? l.getBoundingClientRect().height : 0;

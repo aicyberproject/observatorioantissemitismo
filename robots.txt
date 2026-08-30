@@ -1,0 +1,6 @@
+# Prototipo em elaboracao no Eixo 3 (Seguranca e Monitoramento).
+# Versao de trabalho, sem carater oficial, ainda nao apreciada pelo Eixo
+# nem pela reuniao de coordenadores. Enquanto durar essa condicao, o
+# conteudo nao deve ser indexado.
+User-agent: *
+Disallow: /

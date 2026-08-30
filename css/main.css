@@ -190,9 +190,37 @@ button { font: inherit; }
 .btn-skip { border: none; padding: 9px 4px; }
 .btn-skip:hover { color: #F5F3EF; }
 
+/* ---------- faixa de prototipo ----------
+   Fica acima da abertura (z-index 9999) para que a marcacao de status seja
+   visivel desde o primeiro quadro. Nao e dispensavel pelo leitor: enquanto a
+   pagina nao for apreciada pelo Eixo 3, a marcacao acompanha toda visita. */
+.proto-bar {
+  position: sticky; top: 0; z-index: 10000;
+  background: var(--rust); color: #FFF6F0;
+  border-bottom: 1px solid rgba(0,0,0,.28);
+}
+.proto-inner {
+  display: flex; align-items: baseline; gap: 14px;
+  padding-top: 9px; padding-bottom: 9px;
+}
+.proto-tag {
+  flex: none; font-family: var(--f-mono); font-size: 11px; font-weight: 700;
+  letter-spacing: var(--mono-lsp); text-transform: uppercase;
+  border: 1px solid rgba(255,246,240,.55); border-radius: 2px;
+  padding: 3px 8px; white-space: nowrap;
+}
+.proto-text {
+  margin: 0; font-family: var(--f-body); font-size: 13px; line-height: 1.5;
+  max-width: 92ch;
+}
+@media (max-width: 640px) {
+  .proto-inner { flex-direction: column; align-items: flex-start; gap: 8px; }
+  .proto-text { font-size: 12.5px; }
+}
+
 /* ---------- cabecalho ---------- */
 .header {
-  position: sticky; top: 0; z-index: 60; background: rgba(245,243,239,.94);
+  position: sticky; top: var(--proto-h, 0px); z-index: 60; background: rgba(245,243,239,.94);
   backdrop-filter: blur(10px); border-bottom: 1px solid var(--rule);
 }
 .header-top {

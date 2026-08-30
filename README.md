@@ -1,10 +1,12 @@
-# Observatório do Antissemitismo no Brasil
+# Observatório do Antissemitismo no Brasil — protótipo
+
+> **Versão de trabalho, sem caráter oficial.** Protótipo em elaboração no Eixo 3 — Segurança e Monitoramento, ainda não apreciado pelo Eixo nem pela reunião de coordenadores. Não representa posição do CDESS, da Presidência da República ou de qualquer órgão citado no conteúdo. A página traz faixa permanente com essa marcação e está fora de indexação (`noindex` e `robots.txt`).
 
 > Monitoramento contínuo de incidentes, orientação jurídica, canais de denúncia e preservação de evidências para o enfrentamento ao antissemitismo no Brasil.
 
 ## Sobre
 
-O Observatório do Antissemitismo no Brasil é uma plataforma pública de monitoramento, orientação jurídica e proteção de direitos, proposta pelo **Eixo 3 — Segurança e Monitoramento** da **Iniciativa de Enfrentamento ao Antissemitismo**, instituída pelo Conselho de Desenvolvimento Econômico, Social e Sustentável (CDESS) da Presidência da República.
+Este protótipo demonstra o desenho de uma plataforma pública de monitoramento, orientação jurídica e proteção de direitos. É uma proposta em elaboração no **Eixo 3 — Segurança e Monitoramento** da **Iniciativa de Enfrentamento ao Antissemitismo**. Os canais de denúncia listados são oficiais e funcionam de forma independente deste protótipo.
 
 ### Definição Adotada
 
