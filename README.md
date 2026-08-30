@@ -2,7 +2,7 @@
 
 > **Versão de trabalho, sem caráter oficial.** Protótipo em elaboração no Eixo 3 — Segurança e Monitoramento, ainda não apreciado pelo Eixo nem pela reunião de coordenadores. Não representa posição do CDESS, da Presidência da República ou de qualquer órgão citado no conteúdo. A página traz faixa permanente com essa marcação e está fora de indexação (`noindex` e `robots.txt`).
 
-> Monitoramento contínuo de incidentes, orientação jurídica, canais de denúncia e preservação de evidências para o enfrentamento ao antissemitismo no Brasil.
+> Monitoramento de incidentes, indicadores, orientação jurídica, canais de denúncia e preservação de evidências para o enfrentamento ao antissemitismo no Brasil.
 
 ## Sobre
 
@@ -12,9 +12,10 @@ Este protótipo demonstra o desenho de uma plataforma pública de monitoramento,
 
 Este Observatório adota a definição de antissemitismo estabelecida pelo **Supremo Tribunal Federal** no julgamento do **HC 82.424/RS (Caso Ellwanger, 2003)**, que qualificou o antissemitismo como racismo — crime inafiançável e imprescritível nos termos do art. 5º, XLII, da Constituição Federal.
 
-## Funcionalidades (MVP)
+## Funcionalidades
 
-- 📰 **Painel de notícias** — Agregação automática de 21 fontes públicas, atualizada a cada trinta minutos, com link para a publicação de origem
+- 📊 **Indicadores e KPIs** — Página própria, em duas camadas: as séries que hoje são mensuráveis a partir de fontes secundárias, e o painel das vinte lacunas que nenhuma base preenche, com o motivo de cada uma
+- 📰 **Painel de notícias** — Agregação automática de 21 fontes públicas, atualizada a cada trinta minutos, com link para a publicação de origem e declaração de quantas fontes responderam em cada coleta
 - 📡 **Fita ao vivo** — Duas faixas em movimento, No Brasil e No mundo, com as manchetes mais recentes
 - 📚 **Biblioteca de referência** — Marcos conceituais internacionais, legislação brasileira, leading cases (STF, TEDH, SCOTUS) e centros de pesquisa, em página própria
 - 📋 **Canais de Denúncia** — Links diretos para CONIB, FISESP, SaferNet, Disque 100, MPF, Polícia Federal e órgãos estaduais
@@ -24,9 +25,16 @@ Este Observatório adota a definição de antissemitismo estabelecida pelo **Sup
 ## Roadmap
 
 - [x] MVP: Ticker + Denúncias + Preservação + Timeline
+- [x] Marcação de protótipo e retirada da atribuição institucional
+- [x] Área de indicadores e KPIs, com painel de lacunas e dados abertos
+- [ ] **Persistir instantâneos do painel.** Item com prazo: `data/noticias.json` é regerado a cada trinta minutos e sobrescreve o anterior. Enquanto não houver persistência, o Observatório não poderá produzir série própria do que monitora, e cada ciclo apaga o anterior
+- [ ] Confirmar com CONIB e FISESP o endereço dos canais dedicados de denúncia
+- [ ] Conferir no Relatório CONIB 2025 integral os valores hoje extraídos do Sumário Executivo
+- [ ] Verificar na publicação primária os números da SaferNet, do MPF, da ADL e da FRA
 - [ ] Resolver o redirecionamento dos itens do radar até a URL final do veículo
 - [ ] Busca e filtro por período no painel
-- [ ] Dashboard estatístico (dados CONIB, ADL, SaferNet)
+- [ ] Página de metodologia autônoma, política de privacidade e canal de errata
+- [ ] Migração incremental para páginas em pastas (`/preservar/`, `/denunciar/`)
 - [ ] Feed RSS próprio
 - [ ] Newsletter semanal
 - [ ] Glossário
@@ -40,25 +48,67 @@ Este Observatório adota a definição de antissemitismo estabelecida pelo **Sup
 - Sem dependências externas de código
 - Tipografia: Libre Caslon Display, Work Sans e Space Mono (Google Fonts)
 - Responsivo (mobile-first)
-- Acessível (WCAG 2.1)
-- LGPD compliance
+- LGPD: apenas armazenamento local para preferências de exibição
+
+## Acessibilidade
+
+O protótipo **não declara conformidade com a WCAG 2.1**, porque ela não foi auditada.
+O que está atendido, e verificado no código:
+
+- `prefers-reduced-motion` dispensa a abertura e desliga as animações da fita;
+- link de salto para o conteúdo em todas as páginas, visível ao receber foco;
+- `:focus-visible` com contorno em todos os elementos interativos;
+- filtros do painel como botões com `aria-pressed`, ligados por `aria-controls` à região que atualizam, que é `aria-live` e `aria-busy`;
+- gráficos com tabela equivalente em `<details>`, alcançável por teclado, e `<title>` em cada marca;
+- links externos avisam que abrem em nova aba por texto oculto dentro do próprio link;
+- `noscript` no painel de notícias.
+
+Pendente: auditoria por ferramenta e por leitor de tela, revisão de contraste em toda
+a paleta de interface e teste de navegação completa por teclado.
 
 ## Estrutura
 
 ```
-├── index.html            # Página principal
-├── biblioteca.html       # Biblioteca de referência
-├── BIBLIOTECA.md         # Mesma biblioteca em Markdown
-├── css/main.css          # Estilos e tokens de design
-├── js/app.js             # Abertura, fita ao vivo, painel, filtros e LGPD
-├── scripts/agregar.py    # Coleta dos feeds, roda no build
-├── img/                  # Imagem de abertura (1200 / 1800 / 2400 px)
-├── data/feeds.json       # Catálogo das fontes a agregar (não contém notícias)
-├── data/biblioteca.json  # Biblioteca em formato estruturado
-├── data/noticias.json    # Resultado da coleta, gerado no build e não versionado
-├── .github/workflows/    # Deploy automático
+├── index.html                    # Página principal
+├── indicadores.html              # Indicadores e KPIs (gerado por script)
+├── biblioteca.html               # Biblioteca de referência
+├── BIBLIOTECA.md                 # Mesma biblioteca em Markdown
+├── css/main.css                  # Estilos e tokens de design
+├── css/indicadores.css           # Estilos da página de indicadores
+├── js/app.js                     # Abertura, fita ao vivo, painel, filtros e LGPD
+├── js/indicadores.js             # Leitura por ponteiro e teclado nos gráficos
+├── scripts/agregar.py            # Coleta dos feeds, roda no build
+├── scripts/gerar_indicadores.py  # Gera indicadores.html a partir das séries
+├── img/                          # Imagem de abertura (1200 / 1800 / 2400 px)
+├── data/feeds.json               # Catálogo das fontes a agregar
+├── data/biblioteca.json          # Biblioteca em formato estruturado
+├── data/indicadores/             # Séries em CSV e dicionário de campos
+├── data/noticias.json            # Resultado da coleta, gerado no build
+├── robots.txt                    # Bloqueio de indexação enquanto for protótipo
+├── LICENSE                       # MIT
+├── .github/workflows/            # Deploy automático
 └── README.md
 ```
+
+## Página de indicadores
+
+`indicadores.html` **não é editada à mão**: é gerada por `scripts/gerar_indicadores.py`,
+onde as séries ficam declaradas em estruturas Python e a geometria dos gráficos é
+calculada. Para atualizar um número, altere a série no script e rode:
+
+```
+python3 scripts/gerar_indicadores.py
+```
+
+Os gráficos são SVG embutido, sem dependência externa de código. Cada figura traz
+tabela equivalente em `<details>`, de modo que nenhum valor dependa do ponteiro.
+A paleta de duas cores (`#1f5fae` e `#c2531f`) foi validada para daltonismo e para
+contraste de 3:1 sobre o papel do site.
+
+A página declara o grau de verificação de cada bloco: **conferido no acervo**, para
+número checado contra o documento de origem, e **citado, primária não consultada**,
+para número cuja fonte está declarada mas cuja publicação não foi aberta. Nenhum
+identificador administrativo ou número de processo não confirmado foi transcrito.
 
 ## Identidade visual
 
@@ -76,7 +126,7 @@ O filtro por termo se aplica a todas as fontes menos as sete do radar, que já s
 
 ## Fontes e biblioteca
 
-`data/feeds.json` registra 21 feeds públicos, agrupados em cinco categorias, com idioma, escopo e foco de cobertura. Os endereços foram reconferidos por requisição HTTP em 30/08/2026: todos responderam 200 com conteúdo válido.
+`data/feeds.json` registra 21 feeds públicos, agrupados em cinco categorias, com idioma, escopo e foco de cobertura. Os endereços foram reconferidos por requisição HTTP em 30/08/2026 e todos responderam 200 na bancada. **Isso não garante que respondam no build:** a coleta de 30/08 às 07h59 registrou falha de The Times of Israel, cujo endereço responde 200 em requisição local. A causa provável é bloqueio ao IP do runner, e não endereço inválido. Por isso a página passou a declarar quantas fontes responderam em cada coleta, com a lista das que faltaram.
 
 Quatorze são feeds de veículos e instituições. Os outros sete são o radar por palavras-chave — buscas permanentes no Google Notícias em português, inglês, espanhol e francês, com a expressão booleana registrada ao lado da URL e os atributos `tipo: radar_de_busca` e `exige_resolucao_de_url: true`. Esses sete não são veículos: cada item traz `<source url="...">` com o nome do veículo, mas o `<link>` é um endereço de redirecionamento em `news.google.com`. O agregador exibe o nome do veículo e marca o item com o rótulo **via Google Notícias**, para que o leitor saiba que o clique passa por um intermediário. Resolver o redirecionamento até a URL final está no roadmap.
 

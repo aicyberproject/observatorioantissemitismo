@@ -1,0 +1,15 @@
+tema,indicador,periodo,valor,base_de_calculo,fonte,procedencia
+Neonazismo,Denúncias recebidas,2022-2024,2774,,"SaferNet Brasil e MPF — Report System",citado
+Neonazismo,Arquivadas por falta de materialidade,2022-2024,2261,2774,"SaferNet Brasil e MPF — Report System",citado
+Neonazismo,Procedimentos instaurados no MPF,2022-2024,255,2774,"SaferNet Brasil e MPF — Report System",citado
+Neonazismo,Remoções administrativas por provedores,2022-2024,204,2774,"SaferNet Brasil e MPF — Report System",citado
+Neonazismo,Remetidas a Ministérios Públicos estaduais,2022-2024,54,2774,"SaferNet Brasil e MPF — Report System",citado
+Intolerância religiosa,Denúncias recebidas,2022-2024,2575,,"SaferNet Brasil e MPF — Report System",citado
+Intolerância religiosa,Procedimentos instaurados no MPF,2022-2024,58,2575,"SaferNet Brasil e MPF — Report System",citado
+Racismo em geral,Denúncias recebidas,2022-2024,7210,,"SaferNet Brasil e MPF — Report System",citado
+Racismo em geral,Procedimentos instaurados no MPF,2022-2024,161,7210,"SaferNet Brasil e MPF — Report System",citado
+Benchmark EUA,Incidentes apurados no ano,2024,9354,,"ADL — Audit of Antisemitic Incidents 2024",citado
+Benchmark EUA,Incidentes com menção a Israel ou sionismo,2024,5452,9354,"ADL — Audit of Antisemitic Incidents 2024",citado
+Benchmark UE,Vítimas que não notificam autoridade (%),2023-2024,80,,"FRA — Agência da UE para os Direitos Fundamentais",citado
+Benchmark UE,Relataram alguma forma de antissemitismo no ano (%),2023-2024,96,,"FRA — Agência da UE para os Direitos Fundamentais",citado
+Benchmark UE,Estados-membros com registro desagregado,2025,14,27,"FRA — Agência da UE para os Direitos Fundamentais",citado

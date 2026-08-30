@@ -41,25 +41,9 @@
       showLgpd();
     }, motionOk ? 700 : 0);
   }
-  function playOverture() {
-    if (!ov) return;
-    var clone = ov.cloneNode(true);
-    ov.parentNode.replaceChild(clone, ov);
-    ov = clone;
-    ov.hidden = false;
-    ov.classList.remove('is-leaving');
-    bindOverture();
-    timer = setTimeout(closeOverture, 6600);
-  }
   function bindOverture() {
     var skip = ov.querySelector('#btn-skip');
-    var sound = ov.querySelector('#btn-sound');
     if (skip) skip.addEventListener('click', closeOverture);
-    if (sound) sound.addEventListener('click', function () {
-      var on = sound.getAttribute('aria-pressed') === 'true';
-      sound.setAttribute('aria-pressed', String(!on));
-      sound.querySelector('#sound-label').textContent = !on ? 'Som ativado' : 'Ativar som';
-    });
   }
   var abertaNaSessao = false;
   try { abertaNaSessao = !!sessionStorage.getItem('abertura'); } catch (e) {}
@@ -67,8 +51,6 @@
     /* Sem animacao a abertura seria uma tela escura e imovel: dispensa-se. */
     ov.hidden = true;
     showLgpd();
-    var rp = document.getElementById('sw-replay');
-    if (rp) rp.hidden = true;
   } else if (ov && abertaNaSessao) {
     ov.hidden = true;
     showLgpd();
@@ -87,11 +69,13 @@
   var scopeLabel = document.getElementById('scope-label');
   for (var t = 0; t < tabs.length; t++) {
     tabs[t].addEventListener('click', function () {
-      for (var j = 0; j < tabs.length; j++) tabs[j].setAttribute('aria-selected', 'false');
-      this.setAttribute('aria-selected', 'true');
+      for (var j = 0; j < tabs.length; j++) tabs[j].setAttribute('aria-pressed', 'false');
+      this.setAttribute('aria-pressed', 'true');
       recorte = this.dataset.scope === 'No Brasil' ? 'br' : 'mundo';
       if (scopeLabel) scopeLabel.textContent = recorte === 'br' ? 'no Brasil' : 'no mundo';
       pintaPainel();
+      var g = document.getElementById('feed-grid');
+      if (g) g.setAttribute('aria-label', 'Manchetes ' + (recorte === 'br' ? 'no Brasil' : 'no mundo'));
     });
   }
 
@@ -119,15 +103,24 @@
     a.target = '_blank';
     a.rel = 'noopener noreferrer';
   }
+  /* O destino externo abre em nova aba. O aviso precisa chegar a quem usa leitor
+     de tela sem poluir a tela: vai em texto oculto dentro do proprio link.
+     aria-description foi descartado por falta de suporte nas tecnologias
+     assistivas. */
+  function avisoNovaAba() {
+    return el('span', 'sr-only', ' (abre em nova aba, no site de origem)');
+  }
 
   function pintaPainel() {
     var grade = document.getElementById('feed-grid');
     if (!grade) return;
     var itens = NOTICIAS[recorte] || [];
+    grade.setAttribute('aria-busy', 'true');
     grade.textContent = '';
     if (!itens.length) {
       grade.appendChild(el('p', 'feed-empty',
         'Nenhuma manchete recente neste recorte. Alterne o recorte ou consulte as fontes abaixo.'));
+      grade.setAttribute('aria-busy', 'false');
       return;
     }
     for (var i = 0; i < Math.min(itens.length, 6); i++) {
@@ -141,8 +134,10 @@
       card.appendChild(el('p', 'feed-title', n.titulo));
       if (n.via) card.appendChild(el('span', 'feed-via', 'via ' + n.via));
       card.appendChild(el('span', 'feed-cta', 'Ler na fonte →'));
+      card.appendChild(avisoNovaAba());
       grade.appendChild(card);
     }
+    grade.setAttribute('aria-busy', 'false');
   }
 
   function montaFita(fita, itens) {
@@ -157,6 +152,7 @@
       a.appendChild(el('span', 'tk-src', n.fonte || ''));
       a.appendChild(el('span', 'tk-ttl', n.titulo));
       if (n.via) a.appendChild(el('span', 'tk-via', 'via ' + n.via));
+      a.appendChild(avisoNovaAba());
       bloco.appendChild(a);
     }
     fita.appendChild(bloco.cloneNode(true));
@@ -192,11 +188,30 @@
     if (c && carimbo) c.textContent = carimbo;
   }
 
+  /* Nomeia as fontes que nao responderam. Sem esta lista o leitor nao tem como
+     saber que a cobertura da coleta foi parcial. */
+  function pintaFalhas(lista) {
+    var alvo = document.getElementById('coleta-falhas');
+    if (!alvo) return;
+    alvo.textContent = '';
+    if (!lista.length) { alvo.hidden = true; return; }
+    var nomes = [];
+    for (var i = 0; i < lista.length; i++) {
+      nomes.push(String(lista[i]).split(':')[0].trim());
+    }
+    alvo.appendChild(el('span', 'label', lista.length === 1
+      ? 'Fonte sem resposta nesta coleta'
+      : 'Fontes sem resposta nesta coleta'));
+    alvo.appendChild(el('span', 'coleta-nomes', nomes.join(' · ')));
+    alvo.hidden = false;
+  }
+
   function semPainel() {
     estado('Painel em implantação',
            'O serviço de agregação não respondeu. As fontes estão registradas e listadas abaixo, '
            + 'com endereço, e podem ser assinadas diretamente.',
            'Endereço definitivo do painel ainda não definido');
+    pintaFalhas([]);
   }
 
   function recebe(d) {
@@ -208,11 +223,18 @@
         var g = new Date(d.gerado_em);
         var hora = isNaN(g) ? '' : g.toLocaleString('pt-BR',
           { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' });
+        /* O agregador registra as fontes que nao responderam. Declarar apenas o
+           total consultado esconderia a falha: a pagina informa o que respondeu. */
+        var consultadas = d.fontes_consultadas || 21;
+        var falhas = (d.fontes_com_falha || []).length;
+        var responderam = consultadas - falhas;
         estado('Painel no ar',
-               'Agregação automática de ' + (d.fontes_consultadas || 21) + ' fontes públicas. '
-               + itens.length + ' manchetes: ' + (d.no_brasil || 0) + ' no Brasil e '
-               + (d.no_mundo || 0) + ' no mundo. Cada item remete à publicação de origem.',
+               'Agregação automática de fontes públicas: ' + responderam + ' de ' + consultadas
+               + ' responderam nesta coleta. ' + itens.length + ' manchetes: '
+               + (d.no_brasil || 0) + ' no Brasil e ' + (d.no_mundo || 0)
+               + ' no mundo. Cada item remete à publicação de origem.',
                hora ? 'Última coleta em ' + hora : '');
+        pintaFalhas(d.fontes_com_falha || []);
         var rodape = document.getElementById('feed-rodape');
         if (rodape) rodape.textContent = 'Seis itens mais recentes do recorte selecionado';
         pintaPainel();

@@ -180,15 +180,47 @@ button { font: inherit; }
   background: none; color: #CFC8BF; font-family: var(--f-mono); font-size: 10px;
   letter-spacing: var(--mono-lsp); text-transform: uppercase; cursor: pointer;
 }
-.btn-sound {
-  display: flex; align-items: center; gap: 10px;
-  border: 1px solid rgba(245,243,239,.28); padding: 9px 15px; border-radius: 999px;
-}
-.btn-sound:hover { border-color: rgba(245,243,239,.7); color: #F5F3EF; }
-.btn-sound .dot { width: 6px; height: 6px; border-radius: 999px; background: #968D83; }
-.btn-sound[aria-pressed="true"] .dot { background: var(--dark-hover); }
 .btn-skip { border: none; padding: 9px 4px; }
 .btn-skip:hover { color: #F5F3EF; }
+
+.metrics-band-src {
+  margin: 20px 0 0; font-family: var(--f-body); font-size: 13px; color: #5C544B;
+}
+.metrics-band-src a { color: var(--blue); }
+
+/* A etapa 03 de Preservar remete a secao de denuncia: precisa ler como link. */
+.step-list a { color: var(--blue); text-decoration: underline; text-underline-offset: 2px; }
+.step-list a:hover { color: var(--ink); }
+.bridge {
+  margin: 30px 0 0; font-family: var(--f-body); font-size: 15.5px; color: var(--ink);
+}
+.bridge a { color: var(--blue); text-decoration: underline; text-underline-offset: 3px; }
+.bridge a:hover { color: var(--ink); }
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+/* ---------- salto para o conteudo ----------
+   Visivel apenas ao receber foco por teclado. Sem ele, a navegacao por tabulacao
+   atravessa cabecalho e menu inteiros antes de chegar ao texto. */
+.skip {
+  position: absolute; left: -9999px; top: 0; z-index: 10001;
+  background: var(--ink); color: var(--paper);
+  font-family: var(--f-ui); font-size: 14px; padding: 12px 18px;
+  text-decoration: none;
+}
+.skip:focus { left: 0; }
+
+/* ---------- fontes sem resposta na coleta ---------- */
+.coleta-falhas {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px;
+  margin: 18px 0 0; padding: 10px 14px;
+  border-left: 2px solid var(--rust); background: rgba(122,74,52,.05);
+}
+.coleta-falhas[hidden] { display: none; }
+.coleta-nomes { font-family: var(--f-body); font-size: 13.5px; color: var(--ink); }
 
 /* ---------- faixa de prototipo ----------
    Fica acima da abertura (z-index 9999) para que a marcacao de status seja
@@ -272,7 +304,7 @@ button { font: inherit; }
   letter-spacing: var(--mono-lsp-lg); text-transform: uppercase; cursor: pointer; border-radius: 2px;
 }
 .tab:hover { border-color: var(--ink); }
-.tab[aria-selected="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.tab[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
 .panel-split {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: clamp(28px, 4vw, 56px); align-items: start;
