@@ -1,0 +1,202 @@
+{
+  "esquema": "biblioteca-de-referencia/1",
+  "atualizado_em": "2026-08-30",
+  "origem": "Pesquisa de fontes do Observatório do Antissemitismo, entregue em 30/08/2026. Endereços reconferidos por requisição HTTP na mesma data. Cada verbete foi revisto antes do registro.",
+  "aviso": "Material de orientação. Não substitui a leitura do texto normativo nem a assistência jurídica.",
+  "blocos": [
+    {
+      "id": "bib-marcos",
+      "titulo": "Marcos conceituais internacionais",
+      "ambito": "Âmbito internacional · não vinculante",
+      "resumo": "Instrumentos que definem o antissemitismo e delimitam a fronteira entre manifestação protegida e incitação vedada.",
+      "entradas": [
+        {
+          "titulo": "Definição Prática de Antissemitismo da IHRA",
+          "meta": "International Holocaust Remembrance Alliance · 2016",
+          "corpo": "Definição de trabalho acompanhada de onze exemplos contemporâneos. Não é norma jurídica e não cria tipo penal: opera como referência de classificação, adotada por dezenas de Estados, pela União Europeia e pela OEA. No Brasil não há adoção federal; os municípios do Rio de Janeiro e de São Paulo a incorporaram por decreto em 2023.",
+          "url": "https://holocaustremembrance.com/resources/working-definition-antisemitism",
+          "url_label": "Texto da definição"
+        },
+        {
+          "titulo": "Estratégia da UE contra o Antissemitismo e de Apoio à Vida Judaica",
+          "meta": "Comissão Europeia · 2021–2030",
+          "corpo": "Plano decenal estruturado em prevenção e combate a todas as formas de antissemitismo, proteção e fomento da vida judaica e educação, pesquisa e memória do Holocausto. Serve de parâmetro comparado para o desenho de política pública.",
+          "url": "https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/combatting-discrimination/racism-and-xenophobia/combating-antisemitism_en",
+          "url_label": "Página da Comissão"
+        },
+        {
+          "titulo": "Plano de Ação de Rabat",
+          "meta": "ACNUDH · 2012",
+          "corpo": "Estabelece teste de seis fatores para separar a manifestação protegida da incitação vedada pelo art. 20 do Pacto Internacional sobre Direitos Civis e Políticos: contexto, emissor, intenção, conteúdo e forma, extensão do alcance e probabilidade de dano, incluída a iminência. É o critério de referência quando a liberdade de expressão é invocada em defesa de discurso antissemita.",
+          "url": "https://www.ohchr.org/en/freedom-of-expression",
+          "url_label": "ACNUDH"
+        },
+        {
+          "titulo": "Resoluções da Assembleia Geral da ONU",
+          "meta": "A/RES/60/7 (2005) e A/RES/76/250 (2022)",
+          "corpo": "A primeira instituiu o 27 de janeiro como Dia Internacional em Memória das Vítimas do Holocausto e rejeitou a negação do evento. A segunda condenou expressamente a negação e a distorção do Holocausto, inclusive em ambiente digital.",
+          "url": "https://news.un.org/pt/",
+          "url_label": "ONU Notícias"
+        }
+      ]
+    },
+    {
+      "id": "bib-legislacao",
+      "titulo": "Legislação brasileira",
+      "ambito": "Direito brasileiro · vigente",
+      "resumo": "O antissemitismo é crime de racismo no direito brasileiro. A linha do tempo da página inicial ordena estes marcos por ano.",
+      "entradas": [
+        {
+          "titulo": "Constituição Federal",
+          "meta": "1988 · art. 5º, XLII, VI e VIII",
+          "corpo": "O inciso XLII torna a prática do racismo crime inafiançável e imprescritível, sujeito a pena de reclusão. O inciso VI garante a inviolabilidade da liberdade de consciência e de crença e assegura o livre exercício dos cultos religiosos. O inciso VIII veda a privação de direitos por motivo de crença religiosa.",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "url_label": "Texto constitucional"
+        },
+        {
+          "titulo": "Lei nº 7.716/1989 — Lei Caó",
+          "meta": "Crimes resultantes de preconceito de raça ou de cor",
+          "corpo": "Art. 20: praticar, induzir ou incitar a discriminação ou preconceito de raça, cor, etnia, religião ou procedência nacional — reclusão de um a três anos e multa. Art. 20, § 1º: fabricar, comercializar, distribuir ou veicular símbolos, emblemas, ornamentos, distintivos ou propaganda que utilizem a cruz suástica ou gamada para fins de divulgação do nazismo — reclusão de dois a cinco anos e multa. Art. 20, § 2º: pena agravada quando o crime é cometido por intermédio dos meios de comunicação social ou publicação de qualquer natureza.",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l7716.htm",
+          "url_label": "Texto da lei"
+        },
+        {
+          "titulo": "Lei nº 9.459/1997",
+          "meta": "Ampliação do rol e injúria qualificada",
+          "corpo": "Estendeu a Lei 7.716/89 à discriminação por etnia, religião e procedência nacional. É a alteração que torna o antissemitismo alcançável pelo tipo, tanto na dimensão étnica quanto na religiosa. Introduziu também a injúria por elemento racial no art. 140, § 3º, do Código Penal.",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9459.htm",
+          "url_label": "Texto da lei"
+        },
+        {
+          "titulo": "Lei nº 14.532/2023",
+          "meta": "Injúria racial equiparada a racismo · art. 2º-A",
+          "corpo": "Deslocou a injúria racial do Código Penal para a Lei 7.716/89, na condição de crime de racismo. A consequência prática é a imprescritibilidade e a inafiançabilidade. Prevê agravantes para condutas praticadas em contexto de atividade esportiva, artística ou cultural e para o chamado racismo recreativo.",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14532.htm",
+          "url_label": "Texto da lei"
+        },
+        {
+          "titulo": "Marco Civil da Internet — Lei nº 12.965/2014",
+          "meta": "arts. 19, 21 e 22 · regime alterado pelo STF em 2025",
+          "corpo": "O art. 22 disciplina o requerimento judicial de preservação de registros de conexão e de acesso, instrumento diretamente útil na cadeia de custódia de prova digital. O art. 19 condicionava a responsabilidade civil do provedor ao descumprimento de ordem judicial de remoção. Esse regime foi alterado: em 26 de junho de 2025 o Supremo Tribunal Federal declarou a inconstitucionalidade parcial e progressiva do art. 19.",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm",
+          "url_label": "Texto da lei",
+          "nota": "Revisão: a entrega de pesquisa descrevia o art. 19 como base de remoção célere, o que não corresponde à redação original nem ao regime atual. O verbete foi reescrito e o julgamento de 2025 foi registrado à parte, entre os leading cases."
+        },
+        {
+          "titulo": "Resolução CNJ nº 492/2023",
+          "meta": "Conselho Nacional de Justiça · 17 de março de 2023",
+          "corpo": "Institui como obrigatória, para todo o Poder Judiciário, a adoção do Protocolo para Julgamento com Perspectiva de Gênero. Determina que a formação inicial e continuada de magistrados contemple direitos humanos, gênero, raça e etnia em perspectiva interseccional. É por esse último comando que a resolução interessa ao enfrentamento do antissemitismo.",
+          "url": "https://atos.cnj.jus.br/files/original144414202303206418713e177b3.pdf",
+          "url_label": "Texto da resolução",
+          "nota": "Revisão: a entrega descrevia a resolução como protocolo de julgamento com perspectiva antidiscriminatória. O objeto declarado é a perspectiva de gênero; a dimensão racial e étnica aparece no dever de formação, não no protocolo."
+        }
+      ]
+    },
+    {
+      "id": "bib-jurisprudencia",
+      "titulo": "Leading cases",
+      "ambito": "Cortes · Brasil, Europa e Estados Unidos",
+      "resumo": "Decisões que fixaram o enquadramento do antissemitismo e os limites da liberdade de expressão.",
+      "entradas": [
+        {
+          "titulo": "HC 82.424/RS — Caso Ellwanger",
+          "meta": "Supremo Tribunal Federal · 2003",
+          "corpo": "Decisão fundante no direito brasileiro. Por oito votos a três, o STF assentou que o antissemitismo constitui racismo para os fins do art. 5º, XLII, da Constituição, superando o conceito biológico de raça em favor de um conceito social. Firmou que a liberdade de expressão não abriga o discurso que prega o ódio ou a destruição de um grupo. Crime imprescritível e inafiançável.",
+          "url": "https://portal.stf.jus.br/",
+          "url_label": "Portal do STF"
+        },
+        {
+          "titulo": "ADO 26 e MI 4733",
+          "meta": "Supremo Tribunal Federal · 2019",
+          "corpo": "Reafirmou o conceito social de racismo firmado no Caso Ellwanger, agora para enquadrar a homofobia e a transfobia na Lei 7.716/89. Interessa ao Observatório como confirmação da ratio: o tipo penal alcança grupos definidos socialmente, não apenas por critério biológico.",
+          "url": "https://portal.stf.jus.br/",
+          "url_label": "Portal do STF"
+        },
+        {
+          "titulo": "RHC 146.303/DF",
+          "meta": "Supremo Tribunal Federal · 2021",
+          "corpo": "Definiu que a injúria racial é espécie do gênero racismo, e portanto imprescritível. Precedente que a Lei 14.532/2023 converteu em texto legal.",
+          "url": "https://portal.stf.jus.br/",
+          "url_label": "Portal do STF"
+        },
+        {
+          "titulo": "RE 1.037.396 (Tema 987) e RE 1.057.258 (Tema 533)",
+          "meta": "Supremo Tribunal Federal · 26 de junho de 2025",
+          "corpo": "O STF declarou a inconstitucionalidade parcial e progressiva do art. 19 do Marco Civil da Internet. A exigência de ordem judicial permanece como regra geral e foi preservada para os crimes contra a honra. Para um rol determinado de condutas graves — que inclui discriminação e discurso de ódio e atos antidemocráticos — passou a incidir dever de cuidado: o provedor responde por falha sistêmica quando não adota medidas adequadas para impedir a circulação desse conteúdo. Para as demais hipóteses, a notificação extrajudicial fundamentada basta para constituir o provedor em mora. Tese aplicável desde 26 de junho de 2025, até que sobrevenha legislação.",
+          "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=987",
+          "url_label": "Tema 987 no portal do STF",
+          "nota": "Inferência: como o antissemitismo é racismo por força do HC 82.424/RS, conteúdo antissemita se enquadra no item de discriminação e discurso de ódio do rol. A tese não nomeia o antissemitismo expressamente."
+        },
+        {
+          "titulo": "Garaudy c. França e Williamson c. Alemanha",
+          "meta": "Tribunal Europeu dos Direitos Humanos · 2003 e 2019",
+          "corpo": "Em ambos os casos a Corte de Estrasburgo declarou inadmissíveis as queixas fundadas em liberdade de expressão. A negação do Holocausto foi tratada como abuso de direito, nos termos do art. 17 da Convenção Europeia: quem invoca a Convenção para destruir os direitos nela reconhecidos não encontra nela proteção.",
+          "url": "https://hudoc.echr.coe.int/",
+          "url_label": "Base HUDOC"
+        },
+        {
+          "titulo": "Virginia v. Black",
+          "meta": "Suprema Corte dos Estados Unidos · 538 U.S. 343 (2003)",
+          "corpo": "A Corte reconheceu que um Estado pode proibir a queima de cruz praticada com intenção de intimidar, por configurar ameaça verdadeira, categoria não protegida pela Primeira Emenda. Declarou inconstitucional, porém, o dispositivo que tratava o ato como prova prima facie da intenção de intimidar. O precedente é útil como contraponto comparado: mesmo no ordenamento mais protetivo da liberdade de expressão, a intimidação deliberada não é discurso protegido.",
+          "url": "https://supreme.justia.com/cases/federal/us/538/343/",
+          "url_label": "Inteiro teor",
+          "nota": "Revisão: a entrega descrevia o precedente apenas como proibição da queima de símbolos e da intimidação deliberada, sem registrar que a Corte derrubou o dispositivo que presumia a intenção de intimidar a partir do ato."
+        }
+      ]
+    },
+    {
+      "id": "bib-centros",
+      "titulo": "Centros de pesquisa e relatórios periódicos",
+      "ambito": "Produção de dado · academia e sociedade civil",
+      "resumo": "Produtores de série histórica e de indicadores. Fontes potenciais de dado agregado para o painel.",
+      "entradas": [
+        {
+          "titulo": "Kantor Center — Universidade de Tel Aviv",
+          "meta": "Antisemitism Worldwide Report · anual",
+          "corpo": "Série anual de referência internacional, com recorte por país. Publicada às vésperas do Yom HaShoah.",
+          "url": "https://cst.tau.ac.il/",
+          "url_label": "Centro"
+        },
+        {
+          "titulo": "SICSA — Universidade Hebraica de Jerusalém",
+          "meta": "Vidal Sassoon International Center for the Study of Antisemitism",
+          "corpo": "Pesquisa acadêmica interdisciplinar. Acervo bibliográfico e publicações sobre antissemitismo contemporâneo e histórico.",
+          "url": "https://sicsa.huji.ac.il/",
+          "url_label": "Centro"
+        },
+        {
+          "titulo": "ISGAP",
+          "meta": "Institute for the Study of Global Antisemitism and Policy",
+          "corpo": "Pesquisa aplicada e formulação de política pública, com programas em cooperação com universidades na Europa e nos Estados Unidos.",
+          "url": "https://isgap.org/",
+          "url_label": "Instituto"
+        },
+        {
+          "titulo": "ADL H.E.A.T. Map",
+          "meta": "Anti-Defamation League · Estados Unidos",
+          "corpo": "Mapa georreferenciado interativo de incidentes de ódio, extremismo, antissemitismo e terrorismo. Referência de método para a dimensão territorial do painel.",
+          "url": "https://www.adl.org/resources/tools-to-track-hate/heat-map",
+          "url_label": "Mapa"
+        },
+        {
+          "titulo": "SaferNet Brasil",
+          "meta": "Central Nacional de Denúncias · indicadores públicos",
+          "corpo": "Série histórica de denúncias anônimas de crimes cibernéticos, com recortes de neonazismo, racismo, xenofobia e intolerância religiosa. É a fonte brasileira com maior profundidade temporal em ambiente digital.",
+          "url": "https://indicadores.safernet.org.br/",
+          "url_label": "Indicadores"
+        },
+        {
+          "titulo": "CONIB e Museu Judaico de São Paulo",
+          "meta": "Documentação comunitária",
+          "corpo": "Registro comunitário de incidentes e acervo de memória histórica. A CONIB é a instância de representação nacional da comunidade judaica brasileira.",
+          "url": "https://conib.org.br/",
+          "url_label": "CONIB"
+        }
+      ]
+    }
+  ],
+  "lacunas": [
+    "Jurisprudência do Superior Tribunal de Justiça: anunciada na entrega de pesquisa, sem acórdão indicado. Não registrada.",
+    "Séries numéricas: a entrega de pesquisa nomeia CONIB, Kantor Center, SaferNet e Ministério Público Federal como produtores de relatório, mas não entregou nenhum dado. Os indicadores exibidos na página inicial seguem sem lastro documental nesta biblioteca."
+  ]
+}

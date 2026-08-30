@@ -63,6 +63,9 @@
     bindOverture();
     timer = setTimeout(closeOverture, 6600);
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeOverture(); });
+  } else {
+    /* paginas internas nao tem abertura: o aviso de LGPD entra direto */
+    showLgpd();
   }
 
   /* ---- abas de recorte ---- */

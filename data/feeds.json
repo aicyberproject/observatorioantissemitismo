@@ -1,182 +1,167 @@
-[
-  {
-    "title": "Aumento de denúncias de antissemitismo em escolas públicas de São Paulo",
-    "link": "https://example.com/news/1",
-    "source": "Folha de S.Paulo",
-    "summary": "Levantamento da CONIB aponta crescimento de 30% nos casos de ofensas contra alunos judeus no estado.",
-    "published_at": "2026-08-28T14:30:00Z",
-    "category": "antissemitismo",
-    "country": "br"
-  },
-  {
-    "title": "STF reafirma que antissemitismo é crime inafiançável e imprescritível",
-    "link": "https://example.com/news/2",
-    "source": "G1",
-    "summary": "Em nova decisão, corte cita precedente histórico do Caso Ellwanger para manter prisão de acusado de racismo.",
-    "published_at": "2026-08-27T10:15:00Z",
-    "category": "legislacao",
-    "country": "br"
-  },
-  {
-    "title": "Vandalismo em sinagoga no Rio de Janeiro será investigado como crime de ódio",
-    "link": "https://example.com/news/3",
-    "source": "O Globo",
-    "summary": "Pichações com suásticas foram encontradas na fachada do templo no fim de semana.",
-    "published_at": "2026-08-25T08:45:00Z",
-    "category": "antissemitismo",
-    "country": "br"
-  },
-  {
-    "title": "Projeto de Lei propõe ensino sobre o Holocausto obrigatório no currículo nacional",
-    "link": "https://example.com/news/4",
-    "source": "Agência Senado",
-    "summary": "Iniciativa visa combater a desinformação e o negacionismo nas escolas brasileiras.",
-    "published_at": "2026-08-24T16:20:00Z",
-    "category": "legislacao",
-    "country": "br"
-  },
-  {
-    "title": "Crescimento de ataques virtuais a perfis de instituições judaicas",
-    "link": "https://example.com/news/5",
-    "source": "Estadão",
-    "summary": "Relatório da SaferNet revela aumento expressivo de discurso de ódio contra judeus nas redes sociais.",
-    "published_at": "2026-08-22T09:00:00Z",
-    "category": "antissemitismo",
-    "country": "br"
-  },
-  {
-    "title": "Polícia Federal deflagra operação contra célula neonazista no Sul do país",
-    "link": "https://example.com/news/6",
-    "source": "CNN Brasil",
-    "summary": "Cinco suspeitos foram presos por disseminar propaganda antissemita e planejar ataques.",
-    "published_at": "2026-08-20T07:30:00Z",
-    "category": "antissemitismo",
-    "country": "br"
-  },
-  {
-    "title": "Observatório lança cartilha sobre como identificar o antissemitismo moderno",
-    "link": "https://example.com/news/7",
-    "source": "Agência Brasil",
-    "summary": "Material didático será distribuído para professores e agentes públicos em todo o país.",
-    "published_at": "2026-08-18T11:45:00Z",
-    "category": "legislacao",
-    "country": "br"
-  },
-  {
-    "title": "ADL reports 140% surge in antisemitic incidents across the US",
-    "link": "https://example.com/news/8",
-    "source": "New York Times",
-    "summary": "Annual audit shows record levels of harassment, vandalism, and assaults targeting Jewish communities.",
-    "published_at": "2026-08-27T18:00:00Z",
-    "category": "internacional",
-    "country": "us"
-  },
-  {
-    "title": "European Union adopts new strategy to combat antisemitism",
-    "link": "https://example.com/news/9",
-    "source": "Reuters",
-    "summary": "Multi-year plan focuses on education, security for Jewish premises, and tackling online hate.",
-    "published_at": "2026-08-26T12:30:00Z",
-    "category": "internacional",
-    "country": "eu"
-  },
-  {
-    "title": "UK university adopts IHRA definition of antisemitism after student protests",
-    "link": "https://example.com/news/10",
-    "source": "BBC News",
-    "summary": "Administration commits to combating discrimination on campus following series of incidents.",
-    "published_at": "2026-08-23T15:10:00Z",
-    "category": "internacional",
-    "country": "uk"
-  },
-  {
-    "title": "Unesco lança programa global contra o negacionismo do Holocausto",
-    "link": "https://example.com/news/11",
-    "source": "ONU News",
-    "summary": "Agência fecha parceria com empresas de tecnologia para reduzir a disseminação de teorias da conspiração.",
-    "published_at": "2026-08-21T09:20:00Z",
-    "category": "internacional",
-    "country": "int"
-  },
-  {
-    "title": "MPF denuncia grupo por publicações antissemitas em fóruns anônimos",
-    "link": "https://example.com/news/12",
-    "source": "Ministério Público Federal",
-    "summary": "Investigação identificou dezenas de postagens incitando violência contra judeus e apologia ao nazismo.",
-    "published_at": "2026-08-15T14:00:00Z",
-    "category": "antissemitismo",
-    "country": "br"
-  },
-  {
-    "title": "Justiça condena influenciador por falas racistas e antissemitas em podcast",
-    "link": "https://example.com/news/13",
-    "source": "Consultor Jurídico",
-    "summary": "Pena inclui prisão preventiva revertida em prestação de serviços e multa revertida a ONGs de direitos humanos.",
-    "published_at": "2026-08-10T11:30:00Z",
-    "category": "legislacao",
-    "country": "br"
-  },
-  {
-    "title": "Prefeito sanciona lei que pune estabelecimentos que tolerarem discriminação",
-    "link": "https://example.com/news/14",
-    "source": "UOL Notícias",
-    "summary": "Nova regulamentação prevê suspensão de alvará para locais que praticarem racismo, incluindo antissemitismo.",
-    "published_at": "2026-08-05T08:15:00Z",
-    "category": "legislacao",
-    "country": "br"
-  },
-  {
-    "title": "Ataque a cemitério judaico na França gera condenação internacional",
-    "link": "https://example.com/news/15",
-    "source": "Le Monde",
-    "summary": "Dezenas de túmulos foram profanados em incidente que líderes chamaram de 'ataque à República'.",
-    "published_at": "2026-08-01T17:45:00Z",
-    "category": "internacional",
-    "country": "eu"
-  },
-  {
-    "title": "CDESS debate inclusão de diretrizes contra o antissemitismo no Plano Nacional de Direitos Humanos",
-    "link": "https://example.com/news/16",
-    "source": "Gov.br",
-    "summary": "Conselho de Desenvolvimento Econômico e Social Sustentável avança em propostas de combate ao ódio.",
-    "published_at": "2026-07-28T10:00:00Z",
-    "category": "legislacao",
-    "country": "br"
-  },
-  {
-    "title": "Relatório aponta interseccionalidade entre misoginia e antissemitismo online",
-    "link": "https://example.com/news/17",
-    "source": "Revista Piauí",
-    "summary": "Estudo de pesquisadores brasileiros mapeia como grupos extremistas combinam diferentes formas de preconceito.",
-    "published_at": "2026-07-25T13:20:00Z",
-    "category": "antissemitismo",
-    "country": "br"
-  },
-  {
-    "title": "Alemanha aprova legislação mais rígida para crimes de ódio na internet",
-    "link": "https://example.com/news/18",
-    "source": "Deutsche Welle",
-    "summary": "Plataformas terão multas maiores se não removerem conteúdo antissemita em até 24 horas.",
-    "published_at": "2026-07-20T09:10:00Z",
-    "category": "internacional",
-    "country": "eu"
-  },
-  {
-    "title": "Jogadores de futebol são punidos após gestos antissemitas em partida",
-    "link": "https://example.com/news/19",
-    "source": "Globo Esporte",
-    "summary": "Tribunal de Justiça Desportiva aplica suspensão de 12 jogos e multa severa aos envolvidos.",
-    "published_at": "2026-07-15T16:00:00Z",
-    "category": "antissemitismo",
-    "country": "br"
-  },
-  {
-    "title": "Conferência em Brasília reúne especialistas para debater o Caso Ellwanger",
-    "link": "https://example.com/news/20",
-    "source": "Jota",
-    "summary": "Evento marca mais de 20 anos da decisão histórica do STF e seu impacto na jurisprudência atual.",
-    "published_at": "2026-07-10T14:30:00Z",
-    "category": "legislacao",
-    "country": "br"
-  }
-]
+{
+  "esquema": "catalogo-de-fontes/1",
+  "atualizado_em": "2026-08-30",
+  "origem": "Pesquisa de fontes do Observatório do Antissemitismo, entregue em 30/08/2026. Endereços reconferidos por requisição HTTP na mesma data.",
+  "natureza": "Catálogo de fontes públicas a serem agregadas. Não contém notícias. O serviço que lê estes feeds ainda não está em operação.",
+  "total_registrado": 14,
+  "categorias": [
+    {
+      "nome": "Observatórios e entidades",
+      "resumo": "Relatórios de incidentes, adoção de diretrizes internacionais e iniciativas de enfrentamento.",
+      "fontes": [
+        {
+          "id": "cam",
+          "nome": "Combat Antisemitism Movement",
+          "url": "https://combatantisemitism.org/feed/",
+          "formato": "rss",
+          "idioma": "EN",
+          "escopo": "Global",
+          "foco": "Movimento internacional de coalizão. Publica relatórios de incidentes e acompanha a adoção da definição da IHRA."
+        },
+        {
+          "id": "fra",
+          "nome": "EU Fundamental Rights Agency",
+          "url": "https://fra.europa.eu/en/rss.xml",
+          "formato": "rss",
+          "idioma": "EN",
+          "escopo": "União Europeia",
+          "foco": "Agência da UE para direitos fundamentais. Levantamentos periódicos sobre antissemitismo nos Estados-membros."
+        },
+        {
+          "id": "swu",
+          "nome": "StandWithUs",
+          "url": "https://standwithus.com/feed",
+          "formato": "rss",
+          "idioma": "EN",
+          "escopo": "Global",
+          "foco": "Organização educacional. Cobertura de incidentes em ambiente universitário e escolar."
+        }
+      ]
+    },
+    {
+      "nome": "Imprensa especializada",
+      "resumo": "Cobertura jornalística de incidentes, investigações e análise. A autoridade é sempre o veículo de origem.",
+      "fontes": [
+        {
+          "id": "jta",
+          "nome": "Jewish Telegraphic Agency",
+          "url": "https://www.jta.org/feed",
+          "formato": "rss",
+          "idioma": "EN",
+          "escopo": "Global",
+          "foco": "Agência de notícias judaica fundada em 1917. Cobertura factual de amplo alcance geográfico."
+        },
+        {
+          "id": "toi",
+          "nome": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/feed/",
+          "formato": "rss",
+          "idioma": "EN",
+          "escopo": "Global",
+          "foco": "Cobertura diária, com editoria específica de antissemitismo na diáspora."
+        },
+        {
+          "id": "jpost",
+          "nome": "The Jerusalem Post — Diaspora",
+          "url": "https://www.jpost.com/rss/rssfeedsdiaspora.aspx",
+          "formato": "rss",
+          "idioma": "EN",
+          "escopo": "Diáspora",
+          "foco": "Recorte de diáspora do jornal. Feed dedicado a comunidades fora de Israel, incluindo a América Latina."
+        },
+        {
+          "id": "alge",
+          "nome": "The Algemeiner",
+          "url": "https://www.algemeiner.com/feed/",
+          "formato": "rss",
+          "idioma": "EN",
+          "escopo": "Global",
+          "foco": "Cobertura de incidentes e de antissemitismo em universidades norte-americanas e europeias."
+        },
+        {
+          "id": "fwd",
+          "nome": "The Forward",
+          "url": "https://forward.com/feed/",
+          "formato": "rss",
+          "idioma": "EN",
+          "escopo": "Global",
+          "foco": "Publicação de referência da imprensa judaica dos Estados Unidos. Reportagem e análise."
+        },
+        {
+          "id": "jj",
+          "nome": "Jewish Journal",
+          "url": "https://jewishjournal.com/feed/",
+          "formato": "rss",
+          "idioma": "EN",
+          "escopo": "Estados Unidos",
+          "foco": "Cobertura comunitária, com foco na Califórnia e em incidentes locais."
+        },
+        {
+          "id": "fathom",
+          "nome": "Fathom Journal",
+          "url": "https://fathomjournal.org/feed/",
+          "formato": "rss",
+          "idioma": "EN",
+          "escopo": "Global",
+          "foco": "Publicação analítica. Ensaios sobre antissemitismo contemporâneo e suas formas de manifestação."
+        }
+      ]
+    },
+    {
+      "nome": "Direitos humanos e organismos multilaterais",
+      "resumo": "Resoluções, tratados e comunicados sobre discurso de ódio e intolerância religiosa.",
+      "fontes": [
+        {
+          "id": "onu-pt",
+          "nome": "ONU Notícias — Direitos Humanos",
+          "url": "https://news.un.org/feed/subscribe/pt/news/topic/human-rights/feed/rss.xml",
+          "formato": "rss",
+          "idioma": "PT",
+          "escopo": "Global",
+          "foco": "Serviço de notícias da ONU em português. Única fonte internacional do catálogo já em língua portuguesa."
+        },
+        {
+          "id": "un-en",
+          "nome": "UN News — Human Rights",
+          "url": "https://news.un.org/feed/subscribe/en/news/topic/human-rights/feed/rss.xml",
+          "formato": "rss",
+          "idioma": "EN",
+          "escopo": "Global",
+          "foco": "Versão em inglês, mais completa e com publicação mais frequente que a edição em português."
+        }
+      ]
+    },
+    {
+      "nome": "Institucional e jurídico (Brasil)",
+      "resumo": "Julgamentos, atuação ministerial e decisões sobre crimes de racismo e discriminação.",
+      "fontes": [
+        {
+          "id": "stf",
+          "nome": "Supremo Tribunal Federal",
+          "url": "https://noticias.stf.jus.br/feed/",
+          "formato": "rss",
+          "idioma": "PT",
+          "escopo": "Nacional",
+          "foco": "Portal de notícias do STF. Fonte primária para decisões que compõem a linha do tempo jurídica deste Observatório."
+        },
+        {
+          "id": "conjur",
+          "nome": "Consultor Jurídico",
+          "url": "https://www.conjur.com.br/feed/",
+          "formato": "rss",
+          "idioma": "PT",
+          "escopo": "Nacional",
+          "foco": "Cobertura jurídica diária. Acompanha cortes superiores, Ministério Público e legislação em tramitação."
+        }
+      ]
+    }
+  ],
+  "lacunas": [
+    {
+      "titulo": "Radar por palavras-chave",
+      "descricao": "Feeds dinâmicos de alta frequência, agregando veículos locais e internacionais por operadores booleanos, nos recortes Brasil (PT), Iberoamérica (ES), França e Europa (FR) e global (EN).",
+      "situacao": "Descritos na entrega de pesquisa, sem endereço informado.",
+      "pendencia": "Obter as expressões de busca e as URLs correspondentes antes do registro."
+    }
+  ]
+}
