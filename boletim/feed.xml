@@ -6,7 +6,7 @@
   <atom:link href="https://aicyberproject.github.io/observatorioantissemitismo/boletim/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Edicoes semanais do boletim. Prototipo em elaboracao no Eixo 3, sem carater oficial. Cada item remete a publicacao de origem.</description>
   <language>pt-BR</language>
-  <lastBuildDate>Thu, 03 Sep 2026 15:36:03 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 03 Sep 2026 00:00:00 +0000</lastBuildDate>
   <generator>scripts/gerar_boletim.py</generator>
   <item>
    <title>Boletim 2026-S36</title>

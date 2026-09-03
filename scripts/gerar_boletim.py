@@ -236,13 +236,24 @@ def gera_indice(edicoes):
 
 
 def gera_feed(edicoes):
-    agora = format_datetime(datetime.now(timezone.utc))
+    """Feed deterministico: lastBuildDate deriva da edicao mais recente, e nao
+    da hora da execucao. Sem isso o arquivo mudaria a cada build, sujando o diff
+    de um arquivo que e versionado como retaguarda."""
+    def carimbo(iso):
+        try:
+            return format_datetime(datetime.fromisoformat(iso).replace(tzinfo=timezone.utc))
+        except (TypeError, ValueError):
+            return None
+    agora = None
+    for e in edicoes:
+        agora = carimbo(e.get("ultimo_dia"))
+        if agora:
+            break
+    if not agora:
+        agora = format_datetime(datetime(2026, 1, 1, tzinfo=timezone.utc))
     itens = []
     for e in edicoes[:EDICOES_NO_FEED]:
-        try:
-            pub = format_datetime(datetime.fromisoformat(e["ultimo_dia"]).replace(tzinfo=timezone.utc))
-        except (TypeError, ValueError):
-            pub = agora
+        pub = carimbo(e.get("ultimo_dia")) or agora
         link = f"{BASE}/boletim/{e['semana']}.html"
         desc = (f"{e['periodo']}. {e['total']} manchetes agregadas, "
                 f"{e['br']} no Brasil e {e['total'] - e['br']} no mundo. "
