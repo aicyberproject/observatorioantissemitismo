@@ -8,10 +8,11 @@ data/noticias.json
 # Fora de main para que o historico do codigo nao receba commit automatico.
 data/historico/
 
-# Boletim: gerado no build a partir do historico, como indicadores.html o e
-# a partir das series. Nao versionado para nao poluir o diff a cada semana.
-boletim/*.html
-boletim/feed.xml
+# boletim/ e indicadores.html sao gerados por script mas FICAM versionados, de
+# proposito. Os dois estao no menu das tres paginas: se a geracao falhar no build,
+# que e tolerante a erro, a ultima versao boa continua publicada em vez de o link
+# quebrar. O boletim e regerado a cada deploy a partir do historico; o commit e a
+# retaguarda, nao a fonte.
 
 # Cache do Python
 __pycache__/

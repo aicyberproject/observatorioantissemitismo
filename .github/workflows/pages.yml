@@ -67,26 +67,54 @@ jobs:
         continue-on-error: true
         run: python3 scripts/gerar_boletim.py
 
-      # 5. Devolve o historico ao branch de dados. Sem este passo nada se
-      #    acumula: o artefato publicado e efemero.
-      - name: Gravar historico no branch de dados
-        continue-on-error: true
-        run: |
-          if [ ! -d data/historico ]; then echo "nada a gravar"; exit 0; fi
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f data/historico
-          if git diff --cached --quiet; then echo "historico sem mudanca"; exit 0; fi
-          git stash push --staged -m historico
-          git checkout -B "$BRANCH_DADOS"
-          git rm -r --cached . -q
-          git stash pop
-          git add -f data/historico
-          git commit -q -m "Instantaneo de $(date -u +%F)"
-          git push -f origin "$BRANCH_DADOS"
-
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
       - uses: actions/deploy-pages@v4
+
+      # 5. Por ultimo, devolve o historico ao branch de dados. Sem este passo
+      #    nada se acumula: o artefato publicado e efemero.
+      #
+      #    Roda DEPOIS do deploy, e nao antes, porque monta o branch orfao em
+      #    diretorio separado. Fazer isso na propria arvore de trabalho
+      #    destruiria os arquivos do sitio antes do upload do artefato.
+      #
+      #    DECISAO ABERTA: este passo introduz commit automatico no repositorio,
+      #    em branch proprio. Trocar `if: false` por `if: true` para ativar.
+      - name: Gravar historico no branch de dados
+        if: false
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          if [ ! -d data/historico ] || [ -z "$(ls -A data/historico 2>/dev/null)" ]; then
+            echo "sem historico a gravar"; exit 0
+          fi
+          area="$(mktemp -d)"
+          cp -a data/historico/. "$area/"
+
+          repo="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          clone="$(mktemp -d)"
+          if git clone --depth 1 --branch "$BRANCH_DADOS" "$repo" "$clone" 2>/dev/null; then
+            echo "branch $BRANCH_DADOS recuperado"
+          else
+            echo "branch $BRANCH_DADOS ainda nao existe: criando"
+            git init -q "$clone"
+            git -C "$clone" remote add origin "$repo"
+            git -C "$clone" checkout -q --orphan "$BRANCH_DADOS"
+          fi
+
+          rm -rf "$clone/data/historico"
+          mkdir -p "$clone/data/historico"
+          cp -a "$area/." "$clone/data/historico/"
+
+          cd "$clone"
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f data/historico
+          if git diff --cached --quiet; then echo "historico sem mudanca"; exit 0; fi
+          git commit -q -m "Instantaneo de $(date -u +%F)"
+          git push -f origin "HEAD:$BRANCH_DADOS"
+          echo "historico gravado em $BRANCH_DADOS"
