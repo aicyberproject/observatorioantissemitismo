@@ -5,18 +5,28 @@ on:
     branches: [main]
   workflow_dispatch:
   # A coleta de noticias roda no build. Sem execucao periodica o painel
-  # congela na ultima publicacao, por isso o agendamento de meia em meia hora.
+  # congela na ultima publicacao.
+  #
+  # CADENCIA: decisao aberta. A cada 30 minutos sao ~48 publicacoes por dia do
+  # sitio inteiro para atualizar um arquivo de 40 KB. Como o historico agora
+  # tem granularidade diaria, a serie nao perde nada com cadencia menor.
+  # Para reduzir, troque por '0 */2 * * *' (de duas em duas horas).
   schedule:
     - cron: '*/30 * * * *'
 
 permissions:
-  contents: read
+  contents: write        # necessario para gravar o historico no branch de dados
   pages: write
   id-token: write
 
 concurrency:
   group: pages
   cancel-in-progress: false
+
+# Branch orfao que guarda apenas data/historico/. Fica fora de main para que o
+# historico do codigo nao receba commit automatico a cada coleta.
+env:
+  BRANCH_DADOS: dados
 
 jobs:
   deploy:
@@ -29,13 +39,52 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      # Gera data/noticias.json apenas dentro do artefato publicado. Nada e
-      # gravado no repositorio: o historico nao recebe commit automatico.
-      # Se a coleta falhar por inteiro, o site sobe assim mesmo e a pagina
-      # exibe o estado de painel indisponivel.
+
+      # 1. Recupera o historico ja acumulado. Se o branch ainda nao existe, o
+      #    passo e tolerante e a serie comeca no primeiro dia.
+      - name: Recuperar historico acumulado
+        continue-on-error: true
+        run: |
+          git fetch origin "$BRANCH_DADOS" --depth=1 || exit 0
+          git restore --source="origin/$BRANCH_DADOS" -- data/historico || true
+          ls -la data/historico 2>/dev/null || echo "sem historico previo"
+
+      # 2. Coleta. Falha total nao derruba o deploy: o site sobe e a pagina
+      #    exibe o estado de painel indisponivel.
       - name: Agregar noticias das fontes registradas
         continue-on-error: true
         run: python3 scripts/agregar.py
+
+      # 3. Persiste o instantaneo do dia e reconstroi o indice. Granularidade
+      #    diaria: a execucao do dia sobrescreve o arquivo do dia, acumulando
+      #    itens novos. Dias anteriores nunca sao tocados.
+      - name: Persistir instantaneo do dia
+        continue-on-error: true
+        run: python3 scripts/historico.py
+
+      # 4. Gera as edicoes semanais do boletim a partir do historico.
+      - name: Gerar boletim semanal
+        continue-on-error: true
+        run: python3 scripts/gerar_boletim.py
+
+      # 5. Devolve o historico ao branch de dados. Sem este passo nada se
+      #    acumula: o artefato publicado e efemero.
+      - name: Gravar historico no branch de dados
+        continue-on-error: true
+        run: |
+          if [ ! -d data/historico ]; then echo "nada a gravar"; exit 0; fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f data/historico
+          if git diff --cached --quiet; then echo "historico sem mudanca"; exit 0; fi
+          git stash push --staged -m historico
+          git checkout -B "$BRANCH_DADOS"
+          git rm -r --cached . -q
+          git stash pop
+          git add -f data/historico
+          git commit -q -m "Instantaneo de $(date -u +%F)"
+          git push -f origin "$BRANCH_DADOS"
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

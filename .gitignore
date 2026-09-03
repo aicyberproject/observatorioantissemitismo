@@ -3,3 +3,16 @@ preview/
 
 # gerado no build, nao versionado
 data/noticias.json
+
+# Historico da coleta: vive no branch orfao `dados`, gravado pelo deploy.
+# Fora de main para que o historico do codigo nao receba commit automatico.
+data/historico/
+
+# Boletim: gerado no build a partir do historico, como indicadores.html o e
+# a partir das series. Nao versionado para nao poluir o diff a cada semana.
+boletim/*.html
+boletim/feed.xml
+
+# Cache do Python
+__pycache__/
+*.pyc

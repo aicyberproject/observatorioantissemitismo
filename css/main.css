@@ -202,6 +202,46 @@ button { font: inherit; }
   overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
 }
 
+/* Cada marco da linha do tempo pode declarar a fonte publica de onde saiu. */
+.tl-src { margin: 12px 0 0; font-family: var(--f-mono); font-size: 11px;
+  letter-spacing: var(--mono-lsp); text-transform: uppercase; }
+.tl-src a { color: var(--blue); }
+.tl-src a:hover { color: var(--ink); }
+
+/* ---------- painel de integridade probatoria ---------- */
+.prov-bloco { margin: clamp(40px, 5vw, 64px) 0 0; padding-top: clamp(30px, 4vw, 46px);
+  border-top: 1px solid var(--rule); }
+.prov-aviso {
+  margin: 20px 0 0; max-width: 78ch; padding: 14px 18px;
+  border-left: 2px solid var(--blue); background: rgba(47,77,117,.06);
+  font-family: var(--f-body); font-size: 14px; line-height: 1.6; color: var(--ink);
+}
+.prov-aviso code { font-family: var(--f-mono); font-size: 12.5px;
+  background: rgba(21,18,15,.06); padding: 1px 5px; border-radius: 2px; }
+.prov-painel { margin: 24px 0 0; }
+.prov-acoes { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.prov-escolher { cursor: pointer; }
+.prov-estado { font-family: var(--f-mono); font-size: 11px;
+  letter-spacing: var(--mono-lsp); text-transform: uppercase; color: #6E655B; }
+.prov-vazio { margin: 18px 0 0; font-family: var(--f-body); font-size: 14px;
+  color: #6E655B; }
+.prov-vazio[hidden] { display: none; }
+
+.hash-lista { list-style: none; margin: 20px 0 0; padding: 0; }
+.hash-item { padding: 16px 0; border-top: 1px solid var(--rule); }
+.hash-top { display: flex; flex-wrap: wrap; align-items: baseline;
+  justify-content: space-between; gap: 14px; }
+.hash-nome { font-family: var(--f-body); font-size: 15px; font-weight: 500;
+  color: var(--ink); word-break: break-word; }
+.hash-tam { font-family: var(--f-mono); font-size: 10.5px;
+  letter-spacing: var(--mono-lsp); text-transform: uppercase; color: #6E655B; }
+.hash-valor { display: block; margin: 10px 0 0; font-family: var(--f-mono);
+  font-size: 12px; line-height: 1.6; color: var(--blue); word-break: break-all;
+  background: rgba(21,18,15,.04); padding: 9px 12px; border-radius: 2px;
+  -webkit-user-select: all; user-select: all; }
+.hash-quando { margin: 8px 0 0; font-family: var(--f-mono); font-size: 10.5px;
+  letter-spacing: var(--mono-lsp); text-transform: uppercase; color: #8C837A; }
+
 /* ---------- salto para o conteudo ----------
    Visivel apenas ao receber foco por teclado. Sem ele, a navegacao por tabulacao
    atravessa cabecalho e menu inteiros antes de chegar ao texto. */

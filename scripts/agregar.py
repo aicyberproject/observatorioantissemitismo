@@ -137,9 +137,19 @@ def coletar(fonte, categoria):
             continue
         veiculo = it["veiculo"] or nome
         if radar:
-            # O Google Noticias entrega o titulo como "Manchete - Veiculo".
-            t = re.sub(r"\s+-\s+[^-]{2,40}$", "", it["titulo"]).strip()
-            it["titulo"] = t or it["titulo"]
+            # O Google Noticias entrega o titulo como "Manchete - Veiculo". O
+            # sufixo pode conter hifen no proprio nome do veiculo, e por isso a
+            # remocao por padrao generico falha. Primeiro tenta casar o nome do
+            # veiculo declarado no <source>, que e o caso exato.
+            bruto = it["titulo"]
+            if veiculo:
+                alvo = sem_acento(veiculo)
+                nu = sem_acento(bruto)
+                pos = nu.rfind(" - " + alvo)
+                if pos > 0 and pos + 3 + len(alvo) == len(nu):
+                    bruto = bruto[:pos].strip()
+            t = re.sub(r"\s+-\s+[^-]{2,40}$", "", bruto).strip()
+            it["titulo"] = t or bruto or it["titulo"]
         saida.append({
             "titulo": it["titulo"][:220],
             "link": it["link"],

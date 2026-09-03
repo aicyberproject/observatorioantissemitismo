@@ -116,6 +116,48 @@
 .dl-fmt { font-family: var(--f-mono); font-size: 10.5px; letter-spacing: var(--mono-lsp);
   color: #6E655B; }
 
+/* ---------- boletim ---------- */
+.assinar { display: grid; grid-template-columns: 1.15fr .85fr; gap: clamp(28px, 4vw, 56px);
+  align-items: start; margin: 0 0 clamp(40px, 5vw, 64px); }
+
+.bol-h2 { margin: clamp(30px, 4vw, 48px) 0 0; }
+.bol-lista { list-style: none; margin: 22px 0 0; padding: 0; counter-reset: bol; }
+.bol-item { counter-increment: bol; padding: 18px 0 18px 46px; position: relative;
+  border-top: 1px solid var(--rule); }
+.bol-item::before {
+  content: counter(bol, decimal-leading-zero);
+  position: absolute; left: 0; top: 21px;
+  font-family: var(--f-mono); font-size: 11px; letter-spacing: var(--mono-lsp);
+  color: #8C837A;
+}
+.bol-item > a { font-family: var(--f-body); font-size: 16.5px; line-height: 1.45;
+  font-weight: 500; color: var(--ink); text-decoration: none; }
+.bol-item > a:hover { color: var(--blue); text-decoration: underline;
+  text-underline-offset: 3px; }
+.bol-meta { display: flex; flex-wrap: wrap; gap: 14px; margin: 8px 0 0;
+  font-family: var(--f-mono); font-size: 10.5px; letter-spacing: var(--mono-lsp);
+  text-transform: uppercase; color: #6E655B; }
+.bol-via { color: var(--rust); }
+.bol-nav { display: flex; gap: 6px; margin: clamp(32px, 4vw, 48px) 0 0;
+  font-family: var(--f-mono); font-size: 11px; letter-spacing: var(--mono-lsp);
+  text-transform: uppercase; }
+.bol-nav a { color: var(--blue); }
+
+.bol-edicoes { list-style: none; margin: 0; padding: 0; }
+.bol-edicao a { display: grid; grid-template-columns: 120px 1fr auto; gap: 20px;
+  align-items: baseline; padding: 20px 0; border-top: 1px solid var(--rule);
+  text-decoration: none; color: var(--ink); }
+.bol-edicao a:hover { background: rgba(31,95,174,.05); }
+.bol-sem { font-family: var(--f-mono); font-size: 12px; letter-spacing: var(--mono-lsp); }
+.bol-per { font-family: var(--f-body); font-size: 15.5px; }
+.bol-tot { font-family: var(--f-mono); font-size: 10.5px; letter-spacing: var(--mono-lsp);
+  text-transform: uppercase; color: #6E655B; }
+
+@media (max-width: 860px) {
+  .assinar { grid-template-columns: minmax(0, 1fr); }
+  .bol-edicao a { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+}
+
 /* ---------- leitura por ponteiro ---------- */
 .viz-tip {
   position: fixed; z-index: 200; pointer-events: none; opacity: 0;

@@ -372,7 +372,7 @@ CAB = """<!DOCTYPE html>
       <a class="btn-solid" href="index.html#denuncie">Denunciar</a>
     </div>
   </div>
-  <nav class="wrap nav" aria-label="Navega&ccedil;&atilde;o principal"><a href="index.html#painel">Painel</a><a href="indicadores.html" aria-current="page">Indicadores</a><a href="index.html#preservar">Preservar evid&ecirc;ncias</a><a href="index.html#denuncie">Denunciar</a><a href="index.html#legislacao">Legisla&ccedil;&atilde;o</a><a href="biblioteca.html">Biblioteca</a><a href="index.html#escopo">Escopo</a><a href="index.html#sobre">Sobre</a></nav>
+  <nav class="wrap nav" aria-label="Navega&ccedil;&atilde;o principal"><a href="index.html#painel">Painel</a><a href="indicadores.html" aria-current="page">Indicadores</a><a href="boletim/index.html">Boletim</a><a href="index.html#preservar">Preservar evid&ecirc;ncias</a><a href="index.html#denuncie">Denunciar</a><a href="index.html#legislacao">Legisla&ccedil;&atilde;o</a><a href="biblioteca.html">Biblioteca</a><a href="index.html#escopo">Escopo</a><a href="index.html#sobre">Sobre</a></nav>
 </header>
 <main>
 """
@@ -388,7 +388,7 @@ RODAPE = """</main>
       </div>
       <div>
         <p class="footer-head">Navega&ccedil;&atilde;o</p>
-        <nav><a href="index.html#topo">In&iacute;cio</a><a href="index.html#painel">Painel</a><a href="indicadores.html">Indicadores</a><a href="index.html#preservar">Preservar evid&ecirc;ncias</a><a href="index.html#denuncie">Denunciar</a><a href="index.html#legislacao">Legisla&ccedil;&atilde;o</a><a href="biblioteca.html">Biblioteca</a><a href="index.html#sobre">Sobre</a></nav>
+        <nav><a href="index.html#topo">In&iacute;cio</a><a href="index.html#painel">Painel</a><a href="indicadores.html">Indicadores</a><a href="boletim/index.html">Boletim</a><a href="index.html#preservar">Preservar evid&ecirc;ncias</a><a href="index.html#denuncie">Denunciar</a><a href="index.html#legislacao">Legisla&ccedil;&atilde;o</a><a href="biblioteca.html">Biblioteca</a><a href="index.html#sobre">Sobre</a></nav>
       </div>
       <div>
         <p class="footer-head">Fontes dos indicadores</p>

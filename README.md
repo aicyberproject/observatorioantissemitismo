@@ -19,7 +19,8 @@ Este Observatório adota a definição de antissemitismo estabelecida pelo **Sup
 - 📡 **Fita ao vivo** — Duas faixas em movimento, No Brasil e No mundo, com as manchetes mais recentes
 - 📚 **Biblioteca de referência** — Marcos conceituais internacionais, legislação brasileira, leading cases (STF, TEDH, SCOTUS) e centros de pesquisa, em página própria
 - 📋 **Canais de Denúncia** — Links diretos para CONIB, FISESP, SaferNet, Disque 100, MPF, Polícia Federal e órgãos estaduais
-- 🔒 **Preservar Evidências** — Guia prático de preservação de provas digitais com cadeia de custódia
+- 🔒 **Preservar Evidências** — Guia prático de preservação de provas digitais com cadeia de custódia, e uma ferramenta de apoio que calcula o resumo SHA-256 dos arquivos **no próprio navegador**
+- 📬 **Boletim semanal** — Uma edição por semana ISO, gerada do histórico do painel, com feed RSS próprio
 - ⚖️ **Linha do Tempo** — Legislação, jurisprudência e normativos de enfrentamento ao antissemitismo
 
 ## Roadmap
@@ -27,7 +28,10 @@ Este Observatório adota a definição de antissemitismo estabelecida pelo **Sup
 - [x] MVP: Ticker + Denúncias + Preservação + Timeline
 - [x] Marcação de protótipo e retirada da atribuição institucional
 - [x] Área de indicadores e KPIs, com painel de lacunas e dados abertos
-- [ ] **Persistir instantâneos do painel.** Item com prazo: `data/noticias.json` é regerado a cada trinta minutos e sobrescreve o anterior. Enquanto não houver persistência, o Observatório não poderá produzir série própria do que monitora, e cada ciclo apaga o anterior
+- [x] Persistir instantâneos do painel (instantâneo diário + índice acumulado)
+- [x] Boletim semanal gerado do histórico, com feed RSS próprio
+- [ ] **Decidir a cadência do deploy e confirmar o branch de dados.** O mecanismo de persistência está pronto; o passo que grava no branch `dados` precisa de confirmação antes do primeiro envio
+- [ ] Decidir o envio do boletim por e-mail: serviço externo, lista institucional ou apenas RSS. Depende de política de privacidade publicada
 - [ ] Confirmar com CONIB e FISESP o endereço dos canais dedicados de denúncia
 - [ ] Conferir no Relatório CONIB 2025 integral os valores hoje extraídos do Sumário Executivo
 - [ ] Verificar na publicação primária os números da SaferNet, do MPF, da ADL e da FRA
@@ -71,6 +75,7 @@ a paleta de interface e teste de navegação completa por teclado.
 ```
 ├── index.html                    # Página principal
 ├── indicadores.html              # Indicadores e KPIs (gerado por script)
+├── boletim/                      # Edições semanais e feed RSS (geradas por script)
 ├── biblioteca.html               # Biblioteca de referência
 ├── BIBLIOTECA.md                 # Mesma biblioteca em Markdown
 ├── css/main.css                  # Estilos e tokens de design
@@ -79,16 +84,70 @@ a paleta de interface e teste de navegação completa por teclado.
 ├── js/indicadores.js             # Leitura por ponteiro e teclado nos gráficos
 ├── scripts/agregar.py            # Coleta dos feeds, roda no build
 ├── scripts/gerar_indicadores.py  # Gera indicadores.html a partir das séries
+├── scripts/historico.py          # Instantâneo diário e índice acumulado
+├── scripts/gerar_boletim.py      # Gera as edições semanais e o feed
 ├── img/                          # Imagem de abertura (1200 / 1800 / 2400 px)
 ├── data/feeds.json               # Catálogo das fontes a agregar
 ├── data/biblioteca.json          # Biblioteca em formato estruturado
 ├── data/indicadores/             # Séries em CSV e dicionário de campos
+├── data/historico/               # Instantâneos diários e índice (branch `dados`)
 ├── data/noticias.json            # Resultado da coleta, gerado no build
 ├── robots.txt                    # Bloqueio de indexação enquanto for protótipo
 ├── LICENSE                       # MIT
 ├── .github/workflows/            # Deploy automático
 └── README.md
 ```
+
+## Ferramenta de integridade probatória
+
+`js/preservar.js` calcula o resumo SHA-256 dos arquivos escolhidos pela pessoa, usando
+`crypto.subtle.digest`. É a única parte do sítio que recebe entrada do usuário, e por isso
+tem uma regra de projeto explícita: **nada sai do navegador.**
+
+O arquivo não contém, e não pode conter, nenhuma chamada de rede: sem `fetch`, sem
+`XMLHttpRequest`, sem `sendBeacon`, sem `WebSocket`, sem `<form action>`. Também não usa
+`localStorage`, `sessionStorage` nem IndexedDB — aparelho compartilhado ou apreendido
+transforma persistência em passivo, não em conveniência. O conteúdo do arquivo é lido
+apenas para o cálculo do resumo, não é retido nem exibido, e fechar a página descarta tudo.
+
+Conferência, que deve não retornar nada:
+
+```
+grep -nE 'fetch\(|XMLHttpRequest|sendBeacon|WebSocket|localStorage|sessionStorage|indexedDB|<form' js/preservar.js
+```
+
+`crypto.subtle` só existe em contexto seguro. Em `https` funciona; ao abrir a página direto
+do disco, não. O painel detecta e se retira, exibindo no lugar os comandos de terminal
+equivalentes. O guia de quatro etapas continua valendo por si.
+
+O resultado foi conferido contra `sha256sum`: mesmo arquivo, mesmo valor.
+
+## Persistência e boletim
+
+`data/noticias.json` é regerado a cada execução do deploy e sobrescreve o anterior.
+Sem persistência nada do que o Observatório observa sobrevive ao ciclo seguinte, e
+série própria nunca se forma.
+
+`scripts/historico.py` grava um instantâneo por dia em `data/historico/AAAA-MM-DD.json`
+e mantém `indice.json` com contagem por dia e por semana ISO. A granularidade é diária,
+não por execução: a execução do dia sobrescreve o arquivo do dia, acumulando itens novos
+e deduplicando por URL normalizada. Dias anteriores nunca são tocados. A retenção é de
+400 dias.
+
+**O que o histórico mede.** Manchetes agregadas por dia, não incidentes. É indicador de
+cobertura de imprensa e de alcance das fontes monitoradas, não de incidência do fenômeno.
+O `indice.json` carrega esse aviso no próprio arquivo.
+
+`scripts/gerar_boletim.py` monta uma edição por semana ISO em `boletim/`, com índice e
+feed RSS. A seleção é por data, sem juízo editorial: não cabe a este protótipo escolher
+o que é mais relevante. Cada item remete à publicação de origem.
+
+**Duas decisões abertas.** O passo do workflow que grava `data/historico/` no branch
+órfão `dados` está escrito e precisa de confirmação antes do primeiro envio, porque
+introduz commit automático. E o envio do boletim por e-mail exige guardar uma lista de
+assinantes, o que um sítio estático não faz: depende de serviço externo ou de lista
+institucional, e de política de privacidade publicada. Enquanto isso, o protótipo **não
+coleta endereço de e-mail** e a assinatura é pelo feed.
 
 ## Página de indicadores
 
