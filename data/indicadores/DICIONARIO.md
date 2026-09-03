@@ -6,6 +6,9 @@ Versão de trabalho, sem caráter oficial. Última revisão em 30 de agosto de 2
 Nenhum dado aqui é produzido pelo Observatório. Todos vêm de relatórios publicados
 por terceiros. A autoridade é sempre a publicação de origem, citada no campo `fonte`.
 
+Fonte primária da série brasileira, pública e conferida na íntegra:
+<https://combateaoantissemitismo.org.br/wp-content/uploads/2026/04/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK3_web.pdf>
+
 Não há, em nenhum arquivo, dado pessoal, denúncia individualizada, identificação de
 vítima, denunciante ou investigado, nem informação sob sigilo. Todos os valores são
 agregados.
@@ -16,7 +19,7 @@ Presente em todos os arquivos. Declara o grau de verificação do valor.
 
 | Valor | Significado |
 |---|---|
-| `conferido` | Número conferido contra o documento de origem, disponível no acervo do Eixo 3. |
+| `conferido` | Número conferido contra o documento de origem. Para a série brasileira, contra o Relatório CONIB 2025 integral, público e linkado acima. |
 | `citado` | Fonte declarada, publicação primária não consultada nesta versão. Usar com a ressalva. |
 | `inferido` | Resíduo calculado a partir de valores publicados, não transcrito da fonte. |
 
@@ -55,6 +58,10 @@ A soma da série mensal de 2023 é 1.410, valor da edição de 2024 do relatóri
 
 Três recortes do ano de 2025: destino do registro na triagem, distribuição geográfica
 e plataforma da ocorrência digital.
+
+**Nota sobre a triagem.** A taxa de descarte em 2025 foi de 30,74%. Em 2024 o canal
+recebeu 3.167 denúncias brutas e descartou 43,55% delas. A queda no volume validado de
+2025 decorre em parte disso, e não apenas de variação do fenômeno.
 
 **Ressalvas.**
 

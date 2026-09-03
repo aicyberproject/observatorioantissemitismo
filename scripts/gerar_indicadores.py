@@ -79,7 +79,7 @@ TRIAGEM_2025 = [
     ("Sem conteúdo antissemita identificado", 216),
     ("Registro em duplicidade", 141),
     ("Informação insuficiente sobre o fato", 68),
-    ("Outras razões", 14),
+    ("Avaliações inconclusivas", 14),
 ]
 
 FUNIL_MPF = [
@@ -144,6 +144,13 @@ KPIS = [
     ("Índice de interoperabilidade", "Coordenação da Iniciativa", SEM_FONTE,
      "Depende de decisão de governança ainda não tomada."),
 ]
+
+# Relatorio CONIB 2025 na integra, publico. Todos os valores da serie foram
+# conferidos contra este documento, e nao apenas contra o Sumario Executivo.
+CONIB25 = ("https://combateaoantissemitismo.org.br/wp-content/uploads/2026/04/"
+           "Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK3_web.pdf")
+LINK25 = (f'<a href="{CONIB25}" target="_blank" rel="noopener">'
+          'Relat&oacute;rio de Antissemitismo no Brasil 2025</a>')
 
 FMT = lambda n: f"{n:,}".replace(",", ".")
 E = lambda s: html.escape(str(s), quote=True)
@@ -432,7 +439,7 @@ def main():
   <div class="metric"><p class="label">Meio</p><p class="num">80,9%</p><p class="metric-note">ocorr&ecirc;ncias no ambiente digital</p></div>
   <div class="metric"><p class="label">Frequ&ecirc;ncia</p><p class="num">2,7</p><p class="metric-note">ocorr&ecirc;ncias validadas por dia</p></div>
 </div>
-<p class="metrics-src">Relat&oacute;rio Anual sobre Antissemitismo no Brasil 2025 &mdash; CONIB, FISESP e Departamento de Seguran&ccedil;a Comunit&aacute;ria. {selo("verificado")}</p>
+<p class="metrics-src">{LINK25} &mdash; CONIB, FISESP e Departamento de Seguran&ccedil;a Comunit&aacute;ria. {selo("verificado")}</p>
 </div></section>
 
 <section class="wrap section">
@@ -454,7 +461,7 @@ def main():
         svg_linha_mensal(),
         tabela(["Mês", "2022", "2023", "2024"], linhas),
         f'Fonte: Relatório de Antissemitismo no Brasil 2024 — CONIB, FISESP e DSC. {selo("verificado")} '
-        'A série mensal de 2025 não consta do Sumário Executivo e não foi incluída.',
+        f'A série mensal de 2025 não consta do {LINK25} e por isso não foi incluída.',
         id_="serie-mensal"))
 
     # ---------------- colunas anuais ----------------
@@ -464,8 +471,9 @@ def main():
         "Quatro anos completos. A retração de 2025 devolve o volume a um patamar acima do de 2022 e abaixo do pico de 2024. A participação do ambiente digital continuou subindo mesmo com a queda do total.",
         svg_colunas_anuais(),
         tabela(["Ano", "Total", "Online", "Offline", "% online"], linhas),
-        f'Fontes: Relatórios de Antissemitismo no Brasil 2024 e 2025 — CONIB, FISESP e DSC. {selo("verificado")} '
-        'O total de 2023 aparece como 1.410 no relatório de 2024 e como 1.412 no de 2025. Adotou-se o valor revisado.',
+        f'Fontes: Relatório de Antissemitismo no Brasil 2024 e {LINK25}, CONIB, FISESP e DSC. {selo("verificado")} '
+        'O total de 2023 aparece como 1.410 no relatório de 2024 e como 1.412 no de 2025. Adotou-se o valor revisado. '
+        'A própria fonte registra que 2025 permanece 149,1% acima da linha de base de 2022.',
         legenda=[("Online", S1), ("Offline", S2)],
         id_="serie-anual"))
 
@@ -477,8 +485,10 @@ def main():
         svg_barras(TRIAGEM_2025, destaque={"Validadas como antissemitismo"}, unidade="registros",
                    rotulo_eixo="Destino dos 1.428 registros recebidos em 2025"),
         tabela(["Destino do registro", "Registros", "% de 1.428"], linhas),
-        f'Fonte: Sumário Executivo do Relatório Anual sobre Antissemitismo 2025 — CONIB. {selo("verificado")} '
-        'A categoria "outras razões" é o resíduo entre o total de descartes e as três razões discriminadas na fonte.',
+        f'Fonte: {LINK25}, CONIB, FISESP e DSC. {selo("verificado")} '
+        'A taxa de descarte em 2025 foi de 30,74%. Em 2024 o canal recebeu 3.167 denúncias brutas e '
+        'descartou 43,55% delas: menos registros em duplicidade e menos registros impulsionados pelo '
+        'clima de crise explicam parte da queda no volume validado.',
         id_="triagem"))
 
     # ---------------- geografia ----------------
@@ -490,7 +500,7 @@ def main():
         svg_barras(GEO_2025, destaque={"Sem estado informado"},
                    rotulo_eixo="Ocorrências validadas de 2025 por recorte geográfico"),
         tabela(["Recorte", "Ocorrências", "% de 989"], linhas),
-        f'Fonte: Sumário Executivo 2025 — CONIB. {selo("verificado")} '
+        f'Fonte: {LINK25}. {selo("verificado")} '
         '<strong>Não comparar com 2024.</strong> Em 2024, São Paulo respondia por 900 ocorrências (50,3%) e o grupo sem definição por 132 (7,4%). '
         'A inversão entre os dois anos reflete mudança na forma de captar a localização, e não migração do fenômeno.',
         id_="geografia"))
@@ -503,7 +513,7 @@ def main():
         svg_barras(PLATAFORMA_2025, altura_barra=24,
                    rotulo_eixo="Ocorrências online de 2025 por plataforma"),
         tabela(["Plataforma", "Ocorrências", "% de 800"], linhas),
-        f'Fonte: Sumário Executivo 2025 — CONIB. {selo("verificado")} '
+        f'Fonte: {LINK25}. {selo("verificado")} '
         '<strong>Bases diferentes entre anos.</strong> Em 2024 o relatório apurou X com 402 ocorrências (48%) e Instagram com 314 (37%), '
         'mas sobre uma base de 846 casos classificados em redes sociais, e não sobre o total de 1.310 ocorrências online. '
         'A troca de liderança entre X e Instagram é real, e a magnitude não é comparável.',
@@ -603,7 +613,8 @@ def main():
     </div>
     <div>
       <h3 class="h3">Subnotifica&ccedil;&atilde;o</h3>
-      <p class="body">A s&eacute;rie brasileira mede den&uacute;ncias recebidas por canais da sociedade civil, n&atilde;o incid&ecirc;ncia. Toda leitura de alta ou de queda mistura varia&ccedil;&atilde;o do fen&ocirc;meno com varia&ccedil;&atilde;o da propens&atilde;o a denunciar e do alcance dos canais. A refer&ecirc;ncia europeia, de 80% de subnotifica&ccedil;&atilde;o, d&aacute; a ordem de grandeza do que fica de fora.</p>
+      <p class="body">A s&eacute;rie brasileira mede den&uacute;ncias recebidas por canais da sociedade civil, n&atilde;o incid&ecirc;ncia. Toda leitura de alta ou de queda mistura varia&ccedil;&atilde;o do fen&ocirc;meno com varia&ccedil;&atilde;o da propens&atilde;o a denunciar e do alcance dos canais.</p>
+      <p class="body">A pr&oacute;pria fonte mede esse limite. Na pesquisa intracomunit&aacute;ria de 2025, apenas 32,58% de quem sofreu um incidente o denunciou. Entre as raz&otilde;es para n&atilde;o denunciar: 19,27% n&atilde;o consideraram o fato grave o suficiente, 14,01% n&atilde;o confiavam na efic&aacute;cia do registro, 11,84% n&atilde;o sabiam onde denunciar, 8,05% temeram exposi&ccedil;&atilde;o social e 6,65% relataram medo de retalia&ccedil;&atilde;o. A refer&ecirc;ncia europeia, de 80% de subnotifica&ccedil;&atilde;o, aponta a mesma ordem de grandeza.</p>
       <h3 class="h3" style="margin-top: 26px">Bases de c&aacute;lculo</h3>
       <p class="body">Percentual sem base declarada &eacute; percentual que engana. Cada gr&aacute;fico informa sobre que denominador foi calculado. Onde a base mudou entre um ano e outro, a compara&ccedil;&atilde;o direta est&aacute; desaconselhada no pr&oacute;prio gr&aacute;fico, com a raz&atilde;o.</p>
       <h3 class="h3" style="margin-top: 26px">Aus&ecirc;ncia de dado estatal</h3>

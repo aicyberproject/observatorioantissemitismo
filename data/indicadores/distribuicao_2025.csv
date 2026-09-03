@@ -1,22 +1,22 @@
 dimensao,categoria,ocorrencias,base_de_calculo,percentual,fonte,procedencia
-Triagem,Validadas como antissemitismo,989,1428,69.3,"CONIB — Sumário Executivo 2025",conferido
-Triagem,Sem conteúdo antissemita identificado,216,1428,15.1,"CONIB — Sumário Executivo 2025",conferido
-Triagem,Registro em duplicidade,141,1428,9.9,"CONIB — Sumário Executivo 2025",conferido
-Triagem,Informação insuficiente sobre o fato,68,1428,4.8,"CONIB — Sumário Executivo 2025",conferido
-Triagem,Outras razões,14,1428,1.0,"Resíduo calculado entre o total de descartes e as razões discriminadas",inferido
-Geografia,Sem estado informado,462,989,46.7,"CONIB — Sumário Executivo 2025",conferido
-Geografia,São Paulo,238,989,24.1,"CONIB — Sumário Executivo 2025",conferido
+Triagem,Validadas como antissemitismo,989,1428,69.3,"CONIB — Relatório de Antissemitismo no Brasil 2025 (integral)",conferido
+Triagem,Sem conteúdo antissemita identificado,216,1428,15.1,"CONIB — Relatório de Antissemitismo no Brasil 2025 (integral)",conferido
+Triagem,Registro em duplicidade,141,1428,9.9,"CONIB — Relatório de Antissemitismo no Brasil 2025 (integral)",conferido
+Triagem,Informação insuficiente sobre o fato,68,1428,4.8,"CONIB — Relatório de Antissemitismo no Brasil 2025 (integral)",conferido
+Triagem,Avaliações inconclusivas,14,1428,1.0,"CONIB — Relatório de Antissemitismo no Brasil 2025 (integral)",conferido
+Geografia,Sem estado informado,462,989,46.7,"CONIB — Relatório de Antissemitismo no Brasil 2025 (integral)",conferido
+Geografia,São Paulo,238,989,24.1,"CONIB — Relatório de Antissemitismo no Brasil 2025 (integral)",conferido
 Geografia,Demais estados,126,989,12.7,"Resíduo calculado entre o total e os estados discriminados",inferido
-Geografia,Rio de Janeiro,100,989,10.1,"CONIB — Sumário Executivo 2025",conferido
-Geografia,Rio Grande do Sul,63,989,6.4,"CONIB — Sumário Executivo 2025",conferido
-Plataforma,Instagram,297,800,37.1,"CONIB — Sumário Executivo 2025",conferido
-Plataforma,Não categorizadas,151,800,18.9,"CONIB — Sumário Executivo 2025",conferido
-Plataforma,X (Twitter),111,800,13.9,"CONIB — Sumário Executivo 2025",conferido
-Plataforma,Facebook,93,800,11.6,"CONIB — Sumário Executivo 2025",conferido
-Plataforma,YouTube,54,800,6.8,"CONIB — Sumário Executivo 2025",conferido
-Plataforma,WhatsApp,33,800,4.1,"CONIB — Sumário Executivo 2025",conferido
-Plataforma,Threads,27,800,3.4,"CONIB — Sumário Executivo 2025",conferido
-Plataforma,TikTok,15,800,1.9,"CONIB — Sumário Executivo 2025",conferido
-Plataforma,Telegram,12,800,1.5,"CONIB — Sumário Executivo 2025",conferido
-Plataforma,Bluesky,5,800,0.6,"CONIB — Sumário Executivo 2025",conferido
-Plataforma,Discord,2,800,0.3,"CONIB — Sumário Executivo 2025",conferido
+Geografia,Rio de Janeiro,100,989,10.1,"CONIB — Relatório de Antissemitismo no Brasil 2025 (integral)",conferido
+Geografia,Rio Grande do Sul,63,989,6.4,"CONIB — Relatório de Antissemitismo no Brasil 2025 (integral)",conferido
+Plataforma,Instagram,297,800,37.1,"CONIB — Relatório de Antissemitismo no Brasil 2025 (integral)",conferido
+Plataforma,Não categorizadas,151,800,18.9,"CONIB — Relatório de Antissemitismo no Brasil 2025 (integral)",conferido
+Plataforma,X (Twitter),111,800,13.9,"CONIB — Relatório de Antissemitismo no Brasil 2025 (integral)",conferido
+Plataforma,Facebook,93,800,11.6,"CONIB — Relatório de Antissemitismo no Brasil 2025 (integral)",conferido
+Plataforma,YouTube,54,800,6.8,"CONIB — Relatório de Antissemitismo no Brasil 2025 (integral)",conferido
+Plataforma,WhatsApp,33,800,4.1,"CONIB — Relatório de Antissemitismo no Brasil 2025 (integral)",conferido
+Plataforma,Threads,27,800,3.4,"CONIB — Relatório de Antissemitismo no Brasil 2025 (integral)",conferido
+Plataforma,TikTok,15,800,1.9,"CONIB — Relatório de Antissemitismo no Brasil 2025 (integral)",conferido
+Plataforma,Telegram,12,800,1.5,"CONIB — Relatório de Antissemitismo no Brasil 2025 (integral)",conferido
+Plataforma,Bluesky,5,800,0.6,"CONIB — Relatório de Antissemitismo no Brasil 2025 (integral)",conferido
+Plataforma,Discord,2,800,0.3,"CONIB — Relatório de Antissemitismo no Brasil 2025 (integral)",conferido
