@@ -142,12 +142,70 @@ O `indice.json` carrega esse aviso no próprio arquivo.
 feed RSS. A seleção é por data, sem juízo editorial: não cabe a este protótipo escolher
 o que é mais relevante. Cada item remete à publicação de origem.
 
-**Duas decisões abertas.** O passo do workflow que grava `data/historico/` no branch
-órfão `dados` está escrito e precisa de confirmação antes do primeiro envio, porque
-introduz commit automático. E o envio do boletim por e-mail exige guardar uma lista de
-assinantes, o que um sítio estático não faz: depende de serviço externo ou de lista
-institucional, e de política de privacidade publicada. Enquanto isso, o protótipo **não
-coleta endereço de e-mail** e a assinatura é pelo feed.
+### O branch de dados
+
+**O problema.** GitHub Pages publica um artefato efêmero. O que o build gera existe
+enquanto o site está no ar e desaparece na publicação seguinte. Um sítio estático não tem
+banco. Sem um lugar durável, cada coleta apagaria a anterior e série própria nunca se
+formaria.
+
+**A solução, e por que é um branch.** O histórico vive em `dados`, um **branch órfão** —
+não tem ancestral comum com `main`, não contém código, não aparece em diff de código e
+não interfere no histórico do projeto. Guarda só `data/historico/`.
+
+Por que não em `main`: doze coletas por dia gerariam doze commits automáticos diários no
+mesmo histórico onde ficam as mudanças de código. Em uma semana, o log ficaria ilegível e
+qualquer revisão de código teria que garimpar entre commits de robô. Separando, `main`
+continua sendo o registro do que pessoas decidiram, e `dados` é o registro do que a
+máquina observou.
+
+Por que não um banco externo: exigiria servidor, credencial e custo, para guardar
+40 KB por dia de dado público que já é, ele mesmo, aberto.
+
+**O ciclo, a cada execução:**
+
+```
+1. recupera data/historico/ do branch dados        (git restore --source)
+2. coleta as 21 fontes                             (agregar.py)
+3. acumula no arquivo do dia, deduplicando         (historico.py)
+4. gera as edições do boletim                      (gerar_boletim.py)
+5. publica o site, já com o histórico dentro       (deploy-pages)
+6. devolve data/historico/ ao branch dados         (clone em diretório separado)
+```
+
+O passo 6 roda **depois** do deploy e monta o branch por clone em diretório temporário.
+Fazer isso na árvore de trabalho destruiria os arquivos do sítio antes da publicação.
+
+**Reversibilidade.** Desativar é uma linha: `if: false` no passo 6. O branch permanece e
+nada se perde. Apagar o branch `dados` não afeta o sítio nem o código; só interrompe a
+série.
+
+### A cadência
+
+**Doze coletas por dia**, de duas em duas horas. Era de trinta em trinta minutos.
+
+A redução não custa nada à série, e a razão é o desenho da persistência. A granularidade
+do histórico é **diária**: a coleta do dia abre o arquivo do dia, acrescenta o que ainda
+não viu e deduplica por URL normalizada. Não sobrescreve. Então o que importa não é a
+frequência, é a cobertura — e uma matéria publicada às 9h continua no feed da fonte às
+10h, às 11h e no dia seguinte. Doze passagens cobrem o ciclo noticioso com folga.
+
+O que a frequência alta custava: 48 publicações diárias do sítio inteiro, cada uma
+consumindo minutos de Actions e produzindo uma entrada no histórico de deploys, para
+atualizar um arquivo de 40 KB.
+
+Para adensar em período de crise, uma linha: `cron: '0 * * * *'` dá uma coleta por hora.
+
+**O que a série mede, e o que não mede.** Manchetes agregadas por dia, não incidentes. É
+indicador de cobertura de imprensa e de alcance das fontes monitoradas. O aviso está
+dentro do próprio `indice.json`, para que ninguém o perca ao reutilizar o arquivo.
+
+### O boletim por e-mail
+
+O envio automático por e-mail exige guardar uma lista de assinantes, o que um sítio
+estático não faz. Depende de serviço externo ou de lista institucional. O protótipo **não
+coleta endereço de e-mail** e a assinatura é pelo feed RSS, que funciona em qualquer
+leitor e em vários clientes de e-mail, sem que este protótipo guarde endereço de ninguém.
 
 ## Página de indicadores
 

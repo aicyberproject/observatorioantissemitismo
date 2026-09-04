@@ -8,7 +8,7 @@ coleta; o que foi obtido e publicado, e o que faltou fica registrado.
 
     python3 scripts/agregar.py [caminho_de_saida]
 """
-import json, pathlib, re, sys, unicodedata
+import gzip, json, pathlib, re, sys, unicodedata, zlib
 import urllib.request, urllib.error
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
@@ -51,14 +51,37 @@ def pertinente(texto):
     return any(termo in n for termo in TERMOS)
 
 
+def descomprimir(bruto, codificacao):
+    """Alguns servidores comprimem mesmo sem o cliente pedir.
+
+    O feed da ONU, nas duas linguas, devolve gzip com Content-Encoding declarado
+    ainda que a requisicao nao anuncie Accept-Encoding. O urllib nao descomprime
+    sozinho, e o resultado chegava ao parser como binario: ParseError silencioso,
+    duas fontes perdidas em toda coleta. A checagem do numero magico cobre tambem
+    o servidor que comprime sem declarar.
+    """
+    if bruto[:2] == b"\x1f\x8b":
+        return gzip.decompress(bruto)
+    cod = (codificacao or "").lower()
+    if "gzip" in cod:
+        return gzip.decompress(bruto)
+    if "deflate" in cod:
+        try:
+            return zlib.decompress(bruto)
+        except zlib.error:
+            return zlib.decompress(bruto, -zlib.MAX_WBITS)
+    return bruto
+
+
 def baixar(url):
     req = urllib.request.Request(url, headers={
         "User-Agent": UA,
         "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
+        "Accept-Encoding": "gzip, deflate",
         "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8",
     })
     with urllib.request.urlopen(req, timeout=TEMPO_LIMITE) as r:
-        return r.read()
+        return descomprimir(r.read(), r.headers.get("Content-Encoding"))
 
 
 def texto(el):
