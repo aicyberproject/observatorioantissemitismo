@@ -2,15 +2,45 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-04",
  "semana_iso": "2026-S36",
- "atualizado_em": "2026-09-04T08:58:20+00:00",
+ "atualizado_em": "2026-09-04T12:39:36+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 97,
- "no_brasil": 24,
- "no_mundo": 73,
+ "total": 104,
+ "no_brasil": 29,
+ "no_mundo": 75,
  "itens": [
+  {
+   "titulo": "The Origins of Antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1GNi16NXlNaC1aVHdtak1PQWd0SVI2V1VscGdEalpHWE1hOXZJd1dhcTllR3hhQWxLR3NaOHkxaGZoRU5WYmZENkVuREVuXzg4blF5SVdleXd6ZTF1TTI0WTdFTFZCN09ZN0pSWU14aUo?oc=5",
+   "fonte": "compactmag.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T12:00:32+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Confederação Israelita lança atlas e plataforma para identificar manifestações de antissemitismo no Brasil",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxORHZ1TWVTb2xWcl9aSjlxU19Kd3B6WnJyeHl3bVBEakdSVWdyYlhFUFdicTlnNi1Hb3pPcGNRemgzd3JiR2lLSks1cVlTUG1HdXMzdVVwalYwZHBtSGdBWXVNWURmd2tpaVlJdUtlS2hLN0d1WHRPN253cERlXzFXQlJ5YnI3WTRjWGFkVWw4REpQazBxZHJoNTNSX1JfYV9zVjhVNTZQUTkxb21CTWd0Rk00QUs4UW4zNEdqZktyVHg2OGVvQWxoMm9uMnhyRVhseTh0SVd6QnI0VnhXcnFPeFVIZmJEWjRuQTZtUTFLVEM5bDBGbGtQRWgxQm51d9IBjAJBVV95cUxOQ0tYLUEyU0J5aHBHZkRxdVN2NFNONEk1VUhyVVlRQVZCem90YVBpXzZZT0ZfdW45NHJYVnVGeWI2Tl9kVno5c2xMWFZtcUREUEpiRFhIeXBCUGJCdWU3OEU0M2FaZ05MT09YQUZnMExkMkx4V1F0Zkh4Yy1HbFpQdjh5TVctQXE3NXBMcXFmVHk0TDNkVzhJUzVqTS1VVkl2LW00SUFxYlVNWnh2RUVCeXlwVk9oYmJEcFVPdGpsMncxWWhTVWZxOWZKU2NpZzR3cnRhWFF6V2RianhURVJxV2dDNUxfLXYtYWpuMEdiT3lkejZZakp1YkVLb1BCdTh4Rk12VEd1cVRtOFdQ?oc=5",
+   "fonte": "O GLOBO",
+   "escopo": "br",
+   "publicado_em": "2026-09-04T10:53:31+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Une journée de lutte contre l'antisémitisme dans les lycées d'Auvergne-Rhône-Alpes",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOQzAwbVowSldxNTFya1NmRFJENjhqTGx5eGdXNTRKakV6ZlBFWW9QODlOa0RlUl9vTFotNFJtUF9rSlc3dmg4bEVVeXRVemNqWmxOUndEN3dWM2lwWTBPTXJHMjFxQzhRYll0UXg2V3BjYzU2a3pmcEpNYUI0OU9pZ0JoZkQ2bXJpa0hfUk1vNFlkUDFSTzdDTnVtakJiLW1IUkZ1dE1yUzlrTUlJYzV6cDVDWC1JOVQ4bzlUT0F4OG8xNHBjUTVOWXI0ZHdDVEFNV2UtWEdxVDRDV1dLNlVqRm9ybHpQdDA?oc=5",
+   "fonte": "La Montagne",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T10:44:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Une premiere journée régionale contre l'antisémitisme dans les lycées",
    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMU9jaFhlbUJzQlJGZjJmb2tpS1d0TU13NFg0T3g2MDZvbzJMVXliZ0U3bEt5X3lBYmpSRXcxMkNHTVJpUEE2QXBkUzBLb0tHRE0wOXVJQ2RESVZUNU0zenFSU3lMU3B5ZkFnVGJaX1pkakZ2clk0aGFvcXlKY1dwN3FtN2ROMXBJam03M01BS1lkWWlhd1BZVGd3LTZNOXdXbHhDMEVJdW93WFN4U1ctT2t3RnBZdjF2dmxFNFFWMG83a3h3ejlqbG93LUlNTzNsUTZXOQ?oc=5",
@@ -130,6 +160,26 @@
    "via": null,
    "feed": "alge",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Projeto decodifica novas formas de antissemitismo",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYW5NYWZHMGFjOFFZVHVuYk9weWxxbFREUTd6dXIxaFh4UEVfMGJlZXZpcHdjbjJhSWhncVRtelpxVHVmUTYxR2ZrRG1wSmQxLXZlSEg5b2xzWl9obERpTzJ2eWl3aGpiRkU4bjlSUUxiVEhWQ085dFE0RHRTRndHSUJBUmhnb1F5UVdjbGZvZ24?oc=5",
+   "fonte": "Estadão",
+   "escopo": "br",
+   "publicado_em": "2026-09-03T21:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Atlas lista emojis e imagens de antissemitismo e ensina a identificar ódio a judeus nas redes",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOd0JHWm5EMUlNTlo2NW8wYlY2dTBPSGpNSGY2eU5tclVETGhJSXdRSXc1OTdVeWZWMnFzVEx2dXVEU3I5V1BfY2NxTDNRU19neVlyOUlkRjlib1BUVTFpY3hJQjVnR1RFQVp0Z1pxUFZ5a0I2TFpKeTlkZ3ZTVXFtblhiZS0xWXdDY2RFTXpiVGtKR0R6dEszNWg4Y2RMWnhaaGRtbDFJX3lLdVIyMDZyRGdzbWdNc2J4SzJvVDlzQlJNb3JVUEw00gHMAUFVX3lxTFAtSEIxWnAzc3pEVlc5OWgza2NjVEtUTVBHU1FLdnlqN0VERTV0Q0ZrZnVEc0kzaURuVXVnajJqN2h2RTBLTTVBOEFuX3FWT3pIdXE5QTBjUWI0anJmMGJJaFl4anU1WTBrOXdnRHlHTWdhMTV2R3VpVW55THlZczRjeGhXeGRhUW5GaTFFNWNQWjFqVHlQSWVGV0lEdGtDR3JfV0tXWXRpSGVTZHdlN2p3LVVzWjhfcEVGQlZmTFhsMTRzWUFEaUppVXNCMw?oc=5",
+   "fonte": "Estadão",
+   "escopo": "br",
+   "publicado_em": "2026-09-03T21:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Updates on Antisemitism Litigation Against Harvard",
@@ -942,11 +992,31 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "STF condena advogado por praticar antissemitismo",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNV0NhX2FKTkxnTThCRDRVVF9RRFpjUVFFR0t3V0lBZjlVVmQ0RDdNU2RieFRET05kMjJENVFTSXpQOWIyS3dzbXNlWG14VURLR3RHZGdRbDhjMEFSeHBXek1aMm1ZaGlPbHRWQXRsTmJ6bFZ4MXNpalZ3NjRERTNwcVJtQ1EzUUpVMjc0?oc=5",
+   "fonte": "Midiamax",
+   "escopo": "br",
+   "publicado_em": "2026-01-16T08:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Caso Cláudia Leitte: o que se sabe sobre acusação de racismo religioso",
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQ3J5MWVFTlFXTWFTQzBEV1lkNTkwN0ZhSGZDcDFhTnZLZFdDc0JoX0JHMXVDakQ5VmNROHRleE1QTXZBdC0tNm9yQkc5VFBPX3VhS1VUbi0zdmo4OV9lVzM2WVdrdmtNSFFHYlJpaWVlZXd3YUUxTUdBNzBhcGFtMVFoNngyTUN0TEFYbGxCa0tSSTNxV3JxZkFCVzRsNndZWm4xT3ExQTJ2b1pMVDZlUVcxWUYwMjZTeGx3Vw?oc=5",
    "fonte": "cnnbrasil.com.br",
    "escopo": "br",
    "publicado_em": "2025-12-20T08:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Perfil de internet em AL recrutava crianças para crimes de ódio, diz PF",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOT3BwOEhZaFpxbF84S0NaSWZDLXYwMVRCZzl6VXRoc2xpNFRGcmtwcUwxeVp5RU93RWloNk1KZGtNUmsyRG1xSjNPWHFLQXIyZmlBZWZrbTdSVnFsUW5WdnZKWUh0elg5bEVzYVBKMlhNTlRVc0ZtUHI0cnFtUU1Jd05tR2F0cko5YVUzLXhOVEhtTEZIZG0wSWdUMjJnbnJaczJCdmVMeURTYXNRQTVpTkptdlJ0WExYeS1VZ1N2bUNUOGUzWnJrend3N3B4bVlpbWltdFFKUdIB5gFBVV95cUxOWUQ0SHd6XzhwT1RVMC1Cb19wa0w3Sk5NZTBGU3Q3VDNrWjJURU5qQTV3VWdjOTJ3UEZCYU9FaGlJYkxDN2RmN1hGOWR4SFFHaGRrRmNDOU85WlRXTEpVMkdjcFRmRk42RFdpa3k2WG42eUduclhiOWFwaTRVMERDN2JNUktKRFFBUzV0VW5CLXhtRjV0T3AtSnh3RHdQa1V1TFNpZ19la0pyY2pCaUN0NFlBSnVsdGROLXRGS3ctekFPOURQYTgydHZmazFRMmhpR29rZHBySzdNODFhWUZOT3l1X3NZQQ?oc=5",
+   "fonte": "G1",
+   "escopo": "br",
+   "publicado_em": "2025-11-14T08:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
    "categoria": "Radar por palavras-chave"
