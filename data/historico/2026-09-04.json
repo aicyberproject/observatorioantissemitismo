@@ -2,22 +2,25 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-04",
  "semana_iso": "2026-S36",
- "atualizado_em": "2026-09-04T08:23:43+00:00",
+ "atualizado_em": "2026-09-04T08:28:17+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
-  "The Times of Israel: HTTPError",
-  "Radar Brasil — Antissemitismo: HTTPError",
-  "Radar Brasil — Racismo religioso e crimes de ódio: HTTPError",
-  "Radar Brasil — Judiciário e persecução penal: HTTPError",
-  "Radar Global — Antisemitism: HTTPError",
-  "Radar Global — Leis, processos e prisões: HTTPError",
-  "Radar Iberoamérica — Antisemitismo: HTTPError",
-  "Radar Europa — Antisémitisme: HTTPError"
+  "The Times of Israel: HTTPError"
  ],
- "total": 94,
+ "total": 95,
  "no_brasil": 23,
- "no_mundo": 71,
+ "no_mundo": 72,
  "itens": [
+  {
+   "titulo": "Une premiere journée régionale contre l'antisémitisme dans les lycées",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMU9jaFhlbUJzQlJGZjJmb2tpS1d0TU13NFg0T3g2MDZvbzJMVXliZ0U3bEt5X3lBYmpSRXcxMkNHTVJpUEE2QXBkUzBLb0tHRE0wOXVJQ2RESVZUNU0zenFSU3lMU3B5ZkFnVGJaX1pkakZ2clk0aGFvcXlKY1dwN3FtN2ROMXBJam03M01BS1lkWWlhd1BZVGd3LTZNOXdXbHhDMEVJdW93WFN4U1ctT2t3RnBZdjF2dmxFNFFWMG83a3h3ejlqbG93LUlNTzNsUTZXOQ?oc=5",
+   "fonte": "TL7, Télévision loire 7",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T07:47:09+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Auvergne-Rhône-Alpes : La Région annonce une journée contre l'antisémitisme dans les lycées",
    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMTJaUXdsV215cmJJYXNGc1B2Q25RX2ppS0hwN0txeGRSVFdjSkhPRm41LWlRUnpHbDZFZlZiNmRpNXZoX0lWNDFublU2M25pT3djMjBQZUJBY1NWMW1YdTAtSnMwS09GWkRtanktdE55dTEtZDE1OWRob1hKOVgyRlBwczVNclk3NGVUNEFkWU9qenpuQzVrekZNdmZ5Qm5qeml5U0ZrWDJqS0prc2xrR1NabjVWRXdqRDZrYWdNM3BWXzI0cTNHc3h0djVCbm8?oc=5",
