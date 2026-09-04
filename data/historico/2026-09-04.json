@@ -2,13 +2,13 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-04",
  "semana_iso": "2026-S36",
- "atualizado_em": "2026-09-04T15:24:03+00:00",
+ "atualizado_em": "2026-09-04T15:34:02+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 113,
- "no_brasil": 31,
+ "total": 115,
+ "no_brasil": 33,
  "no_mundo": 82,
  "itens": [
   {
@@ -972,6 +972,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "STF mantém condenação de Rafael Tavares por crime de ódio e deixa vereador inelegível",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbWQ3S3oxZ3BaUnEwMnVjSHREelBYY2lhUTdUazBQWGxrUHV6Rlo2RUZSNWQxRW5uOXYtSVkxdDdCc194dVRvcnZjYVQwTHZESXJSZW11RlJaY2RmamNVX2ZmWGRNYnB6TW9weWZidnhjUHZHOXM5ZHZmb2RYaXJIQ0ZqTGg2dHVvbklTTnVncFlPZ29pZWNIOA?oc=5",
+   "fonte": "folhams.com.br",
+   "escopo": "br",
+   "publicado_em": "2026-07-21T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Critical Theory, October 7, and the Critique of Antisemitism and Sexism",
    "link": "https://fathomjournal.org/critical-theory/",
    "fonte": "Fathom Journal",
@@ -1057,6 +1067,16 @@
    "fonte": "migalhas.com.br",
    "escopo": "br",
    "publicado_em": "2026-04-06T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Esquerda histérica contra Tabata Amaral",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9EVUZZa0o3RG5KaTNOSGw1M1RPZW8zcGhnRUx0aGlSbWVXMDE1M0hHTkdpTDkzOHNXU09fZWd6bGMyQXEtNTJKLWJRTDJWT0hEdVRhQTNxSXBjWS1ER3dSc01ETzZ0Z0ZWVG9oZDJMdElJQnN6bjZhMUhHMA?oc=5",
+   "fonte": "Crusoé",
+   "escopo": "br",
+   "publicado_em": "2026-04-03T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
    "categoria": "Radar por palavras-chave"
