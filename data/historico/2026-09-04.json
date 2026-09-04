@@ -2,14 +2,14 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-04",
  "semana_iso": "2026-S36",
- "atualizado_em": "2026-09-04T14:17:41+00:00",
+ "atualizado_em": "2026-09-04T15:24:03+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 112,
+ "total": 113,
  "no_brasil": 31,
- "no_mundo": 81,
+ "no_mundo": 82,
  "itens": [
   {
    "titulo": "American Jewish community security spending surpasses $1 billion, new data shows",
@@ -779,6 +779,16 @@
    "publicado_em": "2026-09-01T14:30:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "El choque contra la realidad: ¿por qué el Zeitgeist moderno necesita al antisemitismo?",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWGp3UGRyOXhMaFVYYnlYbDV0RGd3ZGpjRFNwSzFQdXN6TFpZb3VVb0NxcXFCQUV0WWhJa1k5TTBGYVJWZDZFc2wwYXFncDNvbmwtbklmbjZ0YmVDUTVyM0VLYjhEdXNlTkxxdUFYT3BPZ0pCVEd6RGs3T0RRX2NCZWY5MEdZRlpHU0Izel9naFAtWm1BVm81cGVXWF9hc0hmdDJDOUYxeUgtOC1IVTBnblRCR3hCR2tLQlBvNXljNW9JXzRhWVJzdVJTbXBKSXZS0gHrAUFVX3lxTE4wUEcyTkJxdVJfd3hGb2x3SUxUQVpQNEVSQ3RVSDFNa1BZbllieEszVHp0YmE2UG5rd0hQUjh4NnlXUzJoRFRLalpzT1BESFdZMVhsT0FEQTVoeE03NXRLLVlFcWdtNDRqV1ZTTzc3dW1yRlJFbUctcXBVWmVYZnpYSm5YM1o4X0NIS0YwY1ZaalhtbnRvSldzS004eXI3ZHJPbTM2UlF1NERTeGtIb0FvVm5KSjNnLXRWN0VGbkFkMC1qbWRNRHk3VERDNWM0X1FnbjhRSWVJSUhNZV8tX1pfRDZqZVdNOE5RTGc?oc=5",
+   "fonte": "Infobae",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-01T12:04:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
   },
   {
