@@ -2,14 +2,14 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-04",
  "semana_iso": "2026-S36",
- "atualizado_em": "2026-09-04T08:28:17+00:00",
+ "atualizado_em": "2026-09-04T08:28:43+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 95,
+ "total": 96,
  "no_brasil": 23,
- "no_mundo": 72,
+ "no_mundo": 73,
  "itens": [
   {
    "titulo": "Une premiere journée régionale contre l'antisémitisme dans les lycées",
@@ -259,6 +259,16 @@
    "publicado_em": "2026-09-03T15:37:41+00:00",
    "via": "Google Notícias",
    "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Israel Boycotts: Full List of Democrats Voting to Cut Funding to Colleges",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdVdEV01aTExnRk4xU3NxUjlwcDg1YkRCTW50eXFpbEVyVE5QbmRDVGRLRV9IRzFwV3o5X0NrVzRCZ1ZGMzdfOXFmbDctV3FNZXhfMFZrbnYwUzlrTUdrU3ZfUlE0R3ZRMU11MVJfbTEyY3B6LW9ScHBITVNCWUIwaFZEY2hUTm5wdWlOLWs4VmV5LUtwQ05sUndhM0hfQQ?oc=5",
+   "fonte": "newsweek.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-03T15:29:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
    "categoria": "Radar por palavras-chave"
   },
   {
