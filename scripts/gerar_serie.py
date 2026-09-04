@@ -21,19 +21,13 @@ INICIO = date(2026, 9, 7)          # segunda-feira da semana 1
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from serie_dados import PERFIS, PENDENTES  # noqa: E402
-from gerar_paginas import FAIXA, ATUALIZADO  # noqa: E402
+from gerar_paginas import ATUALIZADO  # noqa: E402
+from layout import CABECALHO, RODAPE  # noqa: E402
 
 E = lambda s: html.escape(str(s or ""), quote=True)
 MES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho",
        "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"]
 
-MENU = [
- ("index.html#painel", "Painel"), ("indicadores.html", "Indicadores"),
- ("boletim/index.html", "Boletim"), ("index.html#preservar", "Preservar evid&ecirc;ncias"),
- ("index.html#denuncie", "Denunciar"), ("index.html#legislacao", "Legisla&ccedil;&atilde;o"),
- ("serie/index.html", "S&eacute;rie"), ("acervo.html", "Acervos"),
- ("biblioteca.html", "Biblioteca"), ("sobre.html", "Sobre"),
-]
 
 
 def semana_de(n):
@@ -44,14 +38,9 @@ def semana_de(n):
     return f"{d.day} de {MES[d.month-1]} a {f.day} de {MES[f.month-1]} de {f.year}"
 
 
-def cabeca(titulo, descricao, canonico):
-    itens = []
-    for h, r in MENU:
-        # os caminhos sao relativos a serie/: o proprio indice da serie fica local
-        alvo = "index.html" if h == "serie/index.html" else "../" + h
-        atual = ' aria-current="page"' if h == "serie/index.html" else ""
-        itens.append(f'<a href="{alvo}"{atual}>{r}</a>')
-    menu = "".join(itens)
+def cabeca(titulo, descricao, canonico, pagina):
+    # A navegacao vem de layout.py. Toda pagina desta secao marca "Serie" como
+    # posicao corrente, e nao so o indice: e a secao que esta corrente.
     return f"""<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -76,51 +65,13 @@ def cabeca(titulo, descricao, canonico):
 <link rel="stylesheet" href="../css/indicadores.css">
 </head>
 <body>
-{FAIXA}
-<a class="skip" href="#topo">Pular para o conte&uacute;do</a>
-<header class="header">
-  <div class="wrap header-top">
-    <a class="brand" href="../index.html#topo">
-      <span class="brand-mark" aria-hidden="true"></span>
-      <span>
-        <span class="brand-name">Observat&oacute;rio do Antissemitismo</span>
-        <span class="brand-sub">Prot&oacute;tipo &middot; Eixo 3, Seguran&ccedil;a e Monitoramento</span>
-      </span>
-    </a>
-    <div class="header-actions">
-      <a class="btn-solid" href="../index.html#denuncie">Denunciar</a>
-    </div>
-  </div>
-  <nav class="wrap nav" aria-label="Navega&ccedil;&atilde;o principal">{menu}</nav>
-</header>
+{CABECALHO(pagina, "serie/index.html")}
 <main>
 """
 
 
-RODAPE = """</main>
-<footer class="footer">
-  <div class="wrap footer-inner">
-    <div class="footer-cols">
-      <div>
-        <p class="footer-brand">Observat&oacute;rio do Antissemitismo</p>
-        <p class="footer-text">Quem enfrentou o antissemitismo. S&eacute;rie semanal, com fonte p&uacute;blica conferida em cada perfil.</p>
-        <p class="footer-org">Prot&oacute;tipo em elabora&ccedil;&atilde;o no Eixo 3 &mdash; Seguran&ccedil;a e Monitoramento, no &acirc;mbito da Iniciativa de Enfrentamento ao Antissemitismo. Documento de trabalho, sem car&aacute;ter oficial e sem valida&ccedil;&atilde;o do CDESS ou da Presid&ecirc;ncia da Rep&uacute;blica.</p>
-      </div>
-      <div>
-        <p class="footer-head">Navega&ccedil;&atilde;o</p>
-        <nav><a href="../index.html#topo">In&iacute;cio</a><a href="index.html">S&eacute;rie</a><a href="../acervo.html">Acervos e mem&oacute;ria</a><a href="../indicadores.html">Indicadores</a><a href="../boletim/index.html">Boletim</a><a href="../biblioteca.html">Biblioteca</a></nav>
-      </div>
-      <div>
-        <p class="footer-head">Institucional</p>
-        <nav><a href="../sobre.html">Sobre o Observat&oacute;rio</a><a href="index.html">S&eacute;rie: quem enfrentou</a><a href="../acervo.html">Acervos e mem&oacute;ria</a><a href="../metodologia.html">Metodologia</a><a href="../taxonomia.html">Taxonomia proposta</a><a href="../privacidade.html">Pol&iacute;tica de privacidade</a><a href="../termos.html">Termos de uso</a><a href="../boletim/feed.xml">Feed RSS</a></nav>
-      </div>
-    </div>
-    <p class="footer-legal">&copy; 2026 Observat&oacute;rio do Antissemitismo no Brasil &middot; Prot&oacute;tipo, vers&atilde;o de trabalho &middot; C&oacute;digo e conte&uacute;do sob licen&ccedil;a MIT</p>
-  </div>
-</footer>
-</body>
-</html>
-"""
+def rodape(pagina):
+    return RODAPE(pagina, texto="Quem enfrentou o antissemitismo. S&eacute;rie semanal, com fonte p&uacute;blica conferida em cada perfil.", lgpd=False, app=False)
 
 
 def perfil(p, ant, seg):
@@ -142,7 +93,8 @@ def perfil(p, ant, seg):
     return cabeca(
         f'{p["nome"]} &middot; semana {p["n"]}',
         f'{p["nome"]}: {p["chamada"]}',
-        f'{BASE}/serie/{p["id"]}.html'
+        f'{BASE}/serie/{p["id"]}.html',
+        f'serie/{p["id"]}.html'
     ) + f"""<section class="wrap" id="topo" style="padding-top: clamp(40px, 5vw, 68px); padding-bottom: clamp(10px, 2vw, 20px)">
   <p class="crumb"><a href="../index.html">Observat&oacute;rio</a> &nbsp;/&nbsp; <a href="index.html">S&eacute;rie</a> &nbsp;/&nbsp; Semana {p["n"]}</p>
   <p class="ser-bloco">{p["bloco"]}</p>
@@ -163,7 +115,7 @@ def perfil(p, ant, seg):
   </div>
   <p class="bol-nav">{" &nbsp;&middot;&nbsp; ".join(nav)}</p>
 </section>
-""" + RODAPE
+""" + rodape(f'serie/{p["id"]}.html')
 
 
 def indice():
@@ -180,7 +132,8 @@ def indice():
     return cabeca(
         "Quem enfrentou o antissemitismo",
         "Serie semanal de perfis, com fonte publica conferida em cada um. Comeca pelos brasileiros.",
-        f"{BASE}/serie/"
+        f"{BASE}/serie/",
+        "serie/index.html"
     ) + f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 6vw, 80px); padding-bottom: clamp(10px, 2vw, 20px)">
   <p class="crumb"><a href="../index.html">Observat&oacute;rio</a> &nbsp;/&nbsp; S&eacute;rie</p>
   <h1 class="h1" style="margin-top: 24px">Quem enfrentou o antissemitismo</h1>
@@ -207,7 +160,7 @@ def indice():
   <p class="body" style="margin: 20px 0 0; max-width: 74ch">Tr&ecirc;s itens previstos n&atilde;o entraram. Registrar isso &eacute; parte do m&eacute;todo: perfil sem fonte prim&aacute;ria aberta n&atilde;o se publica.</p>
   <div class="repr-lista">{pend}</div>
 </div></section>
-""" + RODAPE
+""" + rodape("serie/index.html")
 
 
 def main():

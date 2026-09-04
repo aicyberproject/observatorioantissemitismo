@@ -44,6 +44,8 @@ com o método de verificação, está em
 - [x] Série editorial semanal, com dezesseis perfis de endereço próprio
 - [x] Página de acervos e memória, com a curadoria declarada
 - [x] Natureza e grau de verificação de cada número, no modelo ODIHR
+- [x] Cabeçalho e rodapé unificados numa fonte de verdade única, com conferência de links, âncoras, ativos e menu
+- [x] Canal de contato e procedimento de errata
 
 ### Aberto: decisões de coordenação
 
@@ -52,7 +54,6 @@ com o método de verificação, está em
 
 ### Aberto: conteúdo
 
-- [ ] Canal de contato e procedimento de errata. Hoje não há nenhum endereço de contato no sítio, e sem ele um leitor que encontre erro num verbete ou num indicador não tem o que fazer
 - [ ] Glossário. A fonte está pronta em `EIXO3/00_CONFIG/CONVENCOES_E_GLOSSARIO.md`
 - [ ] Agenda de datas
 - [ ] Confirmar com CONIB e FISESP o endereço dos canais dedicados de denúncia
@@ -63,7 +64,6 @@ com o método de verificação, está em
 
 ### Aberto: técnico
 
-- [ ] Unificar cabeçalho e rodapé num módulo único. Há cinco definições independentes, e os rodapés divergem entre si
 - [ ] Busca e filtro por período no painel. Implementável desde que o histórico passou a acumular
 - [ ] Estado dos filtros refletido na URL, para que um recorte seja compartilhável
 - [ ] Resolver o redirecionamento dos itens do radar até a URL final do veículo
@@ -78,6 +78,52 @@ com o método de verificação, está em
 - [ ] Checklist de medidas de emergência dos primeiros 60 minutos. Não recolhe dado
 - [ ] Formulário de qualificação da notícia-crime. Recolhe dado, e por isso é decisão à parte
 - [ ] Geração e exportação de dossiê preliminar. Mesmo caso
+
+## Navegação e conferência
+
+### Uma fonte de verdade
+
+`scripts/layout.py` declara a faixa de protótipo, o menu, o cabeçalho e o rodapé. Todos os
+geradores o importam. Antes dele havia cinco definições independentes de navegação, e a
+consequência foi um defeito no ar: oito itens de menu apontando para âncoras que não
+existiam nas páginas onde estavam, mais rodapés que divergiam entre si, de modo que da
+página de acervos não se alcançava a série.
+
+Os destinos são declarados **relativos à raiz** do sítio. A função `caminho()` os reescreve
+relativos ao diretório da página que está sendo gerada, o que resolve num só lugar os três
+casos que antes eram feitos à mão em cada gerador: página na raiz, página em subdiretório e
+link para a própria página ou para um vizinho no mesmo subdiretório. Tem autoteste:
+
+```bash
+python3 scripts/layout.py     # 14 casos de caminho
+```
+
+### As duas páginas mantidas à mão
+
+`index.html` e `biblioteca.html` não são geradas. Para que não voltem a divergir:
+
+```bash
+python3 scripts/sincroniza_navegacao.py             # aplica a navegação canônica
+python3 scripts/sincroniza_navegacao.py --conferir  # só verifica, não escreve
+```
+
+O script substitui no lugar apenas três blocos, o menu do cabeçalho e os dois `<nav>` do
+rodapé. É idempotente: rodar duas vezes não muda nada na segunda.
+
+### Antes de publicar
+
+```bash
+python3 scripts/verifica_sitio.py
+```
+
+Quatro conferências sobre todas as páginas: todo link local resolve em arquivo existente,
+toda âncora existe na página de destino, todo ativo referenciado existe, e o menu principal
+tem os mesmos rótulos na mesma ordem em toda parte. Devolve 1 na primeira falha, nomeando o
+arquivo e o alvo.
+
+Não está ligado ao deploy. Os passos do workflow são tolerantes a erro de propósito, para
+que uma falha de coleta não derrube a publicação, e transformar a conferência em portão de
+publicação é decisão de coordenação, não detalhe de implementação.
 
 ## Tecnologia
 
@@ -107,19 +153,28 @@ a paleta de interface e teste de navegação completa por teclado.
 ## Estrutura
 
 ```
-├── index.html                    # Página principal
+├── index.html                    # Página principal (mantida à mão)
 ├── indicadores.html              # Indicadores e KPIs (gerado por script)
 ├── boletim/                      # Edições semanais e feed RSS (geradas por script)
-├── biblioteca.html               # Biblioteca de referência
+├── serie/                        # Série semanal de perfis (gerada por script)
+├── acervo.html                   # Acervos e memória (gerado por script)
+├── contato.html                  # Contato e errata (gerado por script)
+├── biblioteca.html               # Biblioteca de referência (mantida à mão)
 ├── BIBLIOTECA.md                 # Mesma biblioteca em Markdown
 ├── css/main.css                  # Estilos e tokens de design
 ├── css/indicadores.css           # Estilos da página de indicadores
 ├── js/app.js                     # Abertura, fita ao vivo, painel, filtros e LGPD
 ├── js/indicadores.js             # Leitura por ponteiro e teclado nos gráficos
+├── scripts/layout.py             # Fonte de verdade única do cabeçalho e do rodapé
 ├── scripts/agregar.py            # Coleta dos feeds, roda no build
+├── scripts/gerar_paginas.py      # Páginas institucionais, inclusive contato
 ├── scripts/gerar_indicadores.py  # Gera indicadores.html a partir das séries
+├── scripts/gerar_serie.py        # Gera a série de perfis
+├── scripts/gerar_acervo.py       # Gera a página de acervos
 ├── scripts/historico.py          # Instantâneo diário e índice acumulado
 ├── scripts/gerar_boletim.py      # Gera as edições semanais e o feed
+├── scripts/sincroniza_navegacao.py  # Aplica a navegação canônica nas duas páginas à mão
+├── scripts/verifica_sitio.py     # Confere links, âncoras, ativos e menu
 ├── img/                          # Imagem de abertura (1200 / 1800 / 2400 px)
 ├── data/feeds.json               # Catálogo das fontes a agregar
 ├── data/biblioteca.json          # Biblioteca em formato estruturado

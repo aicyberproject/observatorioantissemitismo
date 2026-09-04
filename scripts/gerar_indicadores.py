@@ -10,8 +10,12 @@ uma serie reproduz a pagina inteira.
 """
 import html
 import pathlib
+import sys
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+
+from layout import CABECALHO, RODAPE  # noqa: E402
 
 # Paleta de graficos. Os dois tons passam os seis testes do validador sobre o
 # papel #F5F3EF: faixa de luminosidade, piso de croma, separacao para daltonismo,
@@ -354,66 +358,11 @@ CAB = """<!DOCTYPE html>
 <link rel="stylesheet" href="css/indicadores.css">
 </head>
 <body>
-<div class="proto-bar" role="note">
-  <div class="wrap proto-inner">
-    <span class="proto-tag">Prot&oacute;tipo</span>
-    <p class="proto-text">Vers&atilde;o de trabalho, sem car&aacute;ter oficial. Em elabora&ccedil;&atilde;o no Eixo 3 &mdash; Seguran&ccedil;a e Monitoramento, ainda n&atilde;o apreciada pelo Eixo nem pela reuni&atilde;o de coordenadores. N&atilde;o representa posi&ccedil;&atilde;o do CDESS, da Presid&ecirc;ncia da Rep&uacute;blica ou de qualquer &oacute;rg&atilde;o citado.</p>
-  </div>
-</div>
-<a class="skip" href="#topo">Pular para o conte&uacute;do</a>
-<header class="header">
-  <div class="wrap header-top">
-    <a class="brand" href="index.html#topo">
-      <span class="brand-mark" aria-hidden="true"></span>
-      <span>
-        <span class="brand-name">Observat&oacute;rio do Antissemitismo</span>
-        <span class="brand-sub">Prot&oacute;tipo &middot; Eixo 3, Seguran&ccedil;a e Monitoramento</span>
-      </span>
-    </a>
-    <div class="header-actions">
-      <a class="btn-solid" href="index.html#denuncie">Denunciar</a>
-    </div>
-  </div>
-  <nav class="wrap nav" aria-label="Navega&ccedil;&atilde;o principal"><a href="index.html#painel">Painel</a><a href="indicadores.html" aria-current="page">Indicadores</a><a href="boletim/index.html">Boletim</a><a href="index.html#preservar">Preservar evid&ecirc;ncias</a><a href="index.html#denuncie">Denunciar</a><a href="index.html#legislacao">Legisla&ccedil;&atilde;o</a><a href="serie/index.html">S&eacute;rie</a><a href="acervo.html">Acervos</a><a href="biblioteca.html">Biblioteca</a><a href="sobre.html">Sobre</a></nav>
-</header>
+""" + CABECALHO("indicadores.html", "indicadores.html") + """
 <main>
 """
 
-RODAPE = """</main>
-<footer class="footer">
-  <div class="wrap footer-inner">
-    <div class="footer-cols">
-      <div>
-        <p class="footer-brand">Observat&oacute;rio do Antissemitismo</p>
-        <p class="footer-text">Plataforma p&uacute;blica de monitoramento de incidentes, orienta&ccedil;&atilde;o jur&iacute;dica, canais de den&uacute;ncia e preserva&ccedil;&atilde;o de provas.</p>
-        <p class="footer-org">Prot&oacute;tipo em elabora&ccedil;&atilde;o no Eixo 3 &mdash; Seguran&ccedil;a e Monitoramento, no &acirc;mbito da Iniciativa de Enfrentamento ao Antissemitismo. Documento de trabalho, sem car&aacute;ter oficial e sem valida&ccedil;&atilde;o do CDESS ou da Presid&ecirc;ncia da Rep&uacute;blica.</p>
-      </div>
-      <div>
-        <p class="footer-head">Navega&ccedil;&atilde;o</p>
-        <nav><a href="index.html#topo">In&iacute;cio</a><a href="index.html#painel">Painel</a><a href="indicadores.html">Indicadores</a><a href="boletim/index.html">Boletim</a><a href="index.html#preservar">Preservar evid&ecirc;ncias</a><a href="index.html#denuncie">Denunciar</a><a href="index.html#legislacao">Legisla&ccedil;&atilde;o</a><a href="biblioteca.html">Biblioteca</a><a href="index.html#sobre">Sobre</a></nav>
-      </div>
-      <div>
-        <p class="footer-head">Institucional</p>
-        <nav><a href="sobre.html">Sobre o Observat&oacute;rio</a><a href="serie/index.html">S&eacute;rie: quem enfrentou</a><a href="acervo.html">Acervos e mem&oacute;ria</a><a href="metodologia.html">Metodologia</a><a href="taxonomia.html">Taxonomia proposta</a><a href="privacidade.html">Pol&iacute;tica de privacidade</a><a href="termos.html">Termos de uso</a><a href="boletim/feed.xml">Feed RSS</a></nav>
-      </div>
-    </div>
-    <p class="footer-legal">&copy; 2026 Observat&oacute;rio do Antissemitismo no Brasil &middot; Prot&oacute;tipo, vers&atilde;o de trabalho &middot; C&oacute;digo e conte&uacute;do sob licen&ccedil;a MIT</p>
-  </div>
-</footer>
-<div class="lgpd" id="lgpd" hidden>
-  <div class="wrap lgpd-inner">
-    <div class="lgpd-text">
-      <p class="eyebrow">Prote&ccedil;&atilde;o de dados &middot; LGPD</p>
-      <p>Este portal utiliza apenas armazenamento local para prefer&ecirc;ncias de exibi&ccedil;&atilde;o. O tratamento de dados pessoais observa a Lei Geral de Prote&ccedil;&atilde;o de Dados. Nenhum dado pessoal, den&uacute;ncia ou identifica&ccedil;&atilde;o de v&iacute;tima consta desta p&aacute;gina: todos os n&uacute;meros s&atilde;o agregados e de origem p&uacute;blica.</p>
-    </div>
-    <button class="btn-ink" id="lgpd-ok" type="button">Entendido</button>
-  </div>
-</div>
-<script src="js/app.js" defer></script>
-<script src="js/indicadores.js" defer></script>
-</body>
-</html>
-"""
+RODAPE = RODAPE("indicadores.html", scripts=("js/indicadores.js",))
 
 
 # Natureza do dado, no modelo do ODIHR. Aquele organismo mantem dois acervos

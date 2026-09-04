@@ -1,79 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Gera as paginas institucionais: sobre, privacidade e termos de uso.
+"""Gera as paginas institucionais: sobre, privacidade, termos, metodologia,
+taxonomia e contato.
 
-Compartilham cabecalho, menu e rodape com o resto do sitio. Ficam em script para
-que a navegacao nao divirja entre paginas quando um item novo entra no menu.
+Cabecalho, menu e rodape vem de scripts/layout.py, que e a fonte de verdade
+unica da navegacao do sitio. Este modulo nao declara mais menu proprio.
 
     python3 scripts/gerar_paginas.py
 """
-import pathlib
+import pathlib, sys
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
-BASE = "https://aicyberproject.github.io/observatorioantissemitismo"
-ATUALIZADO = "4 de setembro de 2026"
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 
-FAIXA = """<div class="proto-bar" role="note">
-  <div class="wrap proto-inner">
-    <span class="proto-tag">Prot&oacute;tipo</span>
-    <p class="proto-text">Vers&atilde;o de trabalho, sem car&aacute;ter oficial. Em elabora&ccedil;&atilde;o no Eixo 3 &mdash; Seguran&ccedil;a e Monitoramento, ainda n&atilde;o apreciada pelo Eixo nem pela reuni&atilde;o de coordenadores. N&atilde;o representa posi&ccedil;&atilde;o do CDESS, da Presid&ecirc;ncia da Rep&uacute;blica ou de qualquer &oacute;rg&atilde;o citado.</p>
-  </div>
-</div>"""
-
-def MENU(atual=""):
-    itens = [
-        ("index.html#painel", "Painel"),
-        ("indicadores.html", "Indicadores"),
-        ("boletim/index.html", "Boletim"),
-        ("index.html#preservar", "Preservar evid&ecirc;ncias"),
-        ("index.html#denuncie", "Denunciar"),
-        ("index.html#legislacao", "Legisla&ccedil;&atilde;o"),
-        ("serie/index.html", "S&eacute;rie"),
-        ("acervo.html", "Acervos"),
-        ("biblioteca.html", "Biblioteca"),
-        ("sobre.html", "Sobre"),
-    ]
-    return "".join(
-        f'<a href="{h}"{" aria-current=\"page\"" if h == atual else ""}>{r}</a>'
-        for h, r in itens)
-
-
-def RODAPE():
-    return f"""</main>
-<footer class="footer">
-  <div class="wrap footer-inner">
-    <div class="footer-cols">
-      <div>
-        <p class="footer-brand">Observat&oacute;rio do Antissemitismo</p>
-        <p class="footer-text">Plataforma p&uacute;blica de monitoramento de incidentes, orienta&ccedil;&atilde;o jur&iacute;dica, canais de den&uacute;ncia e preserva&ccedil;&atilde;o de provas.</p>
-        <p class="footer-org">Prot&oacute;tipo em elabora&ccedil;&atilde;o no Eixo 3 &mdash; Seguran&ccedil;a e Monitoramento, no &acirc;mbito da Iniciativa de Enfrentamento ao Antissemitismo. Documento de trabalho, sem car&aacute;ter oficial e sem valida&ccedil;&atilde;o do CDESS ou da Presid&ecirc;ncia da Rep&uacute;blica.</p>
-      </div>
-      <div>
-        <p class="footer-head">Navega&ccedil;&atilde;o</p>
-        <nav><a href="index.html#topo">In&iacute;cio</a><a href="index.html#painel">Painel</a><a href="indicadores.html">Indicadores</a><a href="boletim/index.html">Boletim</a><a href="index.html#preservar">Preservar evid&ecirc;ncias</a><a href="index.html#denuncie">Denunciar</a><a href="biblioteca.html">Biblioteca</a></nav>
-      </div>
-      <div>
-        <p class="footer-head">Institucional</p>
-        <nav><a href="sobre.html">Sobre o Observat&oacute;rio</a><a href="metodologia.html">Metodologia</a><a href="taxonomia.html">Taxonomia proposta</a><a href="privacidade.html">Pol&iacute;tica de privacidade</a><a href="termos.html">Termos de uso</a><a href="boletim/feed.xml">Feed RSS</a><a href="indicadores.html#dados">Dados abertos</a></nav>
-      </div>
-    </div>
-    <p class="footer-legal">&copy; 2026 Observat&oacute;rio do Antissemitismo no Brasil &middot; Prot&oacute;tipo, vers&atilde;o de trabalho &middot; C&oacute;digo e conte&uacute;do sob licen&ccedil;a MIT</p>
-  </div>
-</footer>
-<div class="lgpd" id="lgpd" hidden>
-  <div class="wrap lgpd-inner">
-    <div class="lgpd-text">
-      <p class="eyebrow">Prote&ccedil;&atilde;o de dados &middot; LGPD</p>
-      <p>Este portal n&atilde;o usa cookie de rastreamento, n&atilde;o coleta endere&ccedil;o de e-mail e n&atilde;o pede dado pessoal. Guarda apenas prefer&ecirc;ncia de exibi&ccedil;&atilde;o no seu pr&oacute;prio navegador. <a href="privacidade.html">Leia a pol&iacute;tica de privacidade</a>.</p>
-    </div>
-    <button class="btn-ink" id="lgpd-ok" type="button">Entendido</button>
-  </div>
-</div>
-<script src="js/app.js" defer></script>
-</body>
-</html>
-"""
-
+from layout import BASE, ATUALIZADO, CONTATO, FAIXA, CABECALHO, RODAPE  # noqa: E402
 
 def pagina(arquivo, titulo, descricao, atual, corpo):
     doc = f"""<!DOCTYPE html>
@@ -100,26 +40,10 @@ def pagina(arquivo, titulo, descricao, atual, corpo):
 <link rel="stylesheet" href="css/indicadores.css">
 </head>
 <body>
-{FAIXA}
-<a class="skip" href="#topo">Pular para o conte&uacute;do</a>
-<header class="header">
-  <div class="wrap header-top">
-    <a class="brand" href="index.html#topo">
-      <span class="brand-mark" aria-hidden="true"></span>
-      <span>
-        <span class="brand-name">Observat&oacute;rio do Antissemitismo</span>
-        <span class="brand-sub">Prot&oacute;tipo &middot; Eixo 3, Seguran&ccedil;a e Monitoramento</span>
-      </span>
-    </a>
-    <div class="header-actions">
-      <a class="btn-solid" href="index.html#denuncie">Denunciar</a>
-    </div>
-  </div>
-  <nav class="wrap nav" aria-label="Navega&ccedil;&atilde;o principal">{MENU(atual)}</nav>
-</header>
+{CABECALHO(arquivo, atual)}
 <main>
 {corpo}
-{RODAPE()}"""
+{RODAPE(arquivo)}"""
     (RAIZ / arquivo).write_text(doc, encoding="utf-8")
     return arquivo
 
@@ -191,7 +115,7 @@ SOBRE = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 6vw,
 
 <section class="wrap section">
   <h2 class="h2" style="max-width: 26ch">Correções e contato</h2>
-  <p class="body" style="margin: 18px 0 0; max-width: 72ch">Erro em verbete, indicador, data ou endere&ccedil;o &eacute; defeito a corrigir, n&atilde;o detalhe. Enquanto este prot&oacute;tipo n&atilde;o tiver endere&ccedil;o institucional definitivo, o caminho para apontar erro &eacute; o reposit&oacute;rio p&uacute;blico do c&oacute;digo, onde qualquer pessoa pode abrir uma questão.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 72ch">Erro em verbete, indicador, data ou endere&ccedil;o &eacute; defeito a corrigir, n&atilde;o detalhe. A p&aacute;gina de <a href="contato.html">contato e errata</a> re&uacute;ne os dois caminhos: o endere&ccedil;o de trabalho do prot&oacute;tipo e o reposit&oacute;rio p&uacute;blico do c&oacute;digo, onde qualquer pessoa pode abrir uma quest&atilde;o e onde o pedido e a resposta ficam vis&iacute;veis.</p>
   <div class="pills" style="margin-top: 22px">
     <a class="pill pill-solid" href="https://github.com/aicyberproject/observatorioantissemitismo/issues" target="_blank" rel="noopener">Apontar erro ou sugerir corre&ccedil;&atilde;o &rarr;</a>
     <a class="pill" href="indicadores.html#metodologia">Metodologia &rarr;</a>
@@ -258,7 +182,11 @@ PRIVACIDADE = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px
   <h2 class="h2" style="max-width: 30ch">Seus direitos sob a LGPD</h2>
   <p class="body" style="margin: 18px 0 0; max-width: 74ch">A Lei Geral de Prote&ccedil;&atilde;o de Dados, Lei n&ordm; 13.709/2018, assegura ao titular os direitos de confirma&ccedil;&atilde;o, acesso, corre&ccedil;&atilde;o, anonimiza&ccedil;&atilde;o, portabilidade, elimina&ccedil;&atilde;o e revoga&ccedil;&atilde;o de consentimento.</p>
   <p class="body" style="margin: 14px 0 0; max-width: 74ch">Como este prot&oacute;tipo n&atilde;o coleta dado pessoal, n&atilde;o h&aacute; base de dados sua a acessar, corrigir ou eliminar. Se e quando passar a haver, esta p&aacute;gina ser&aacute; atualizada <strong>antes</strong> da coleta come&ccedil;ar, e n&atilde;o depois, e o registro da mudan&ccedil;a ficar&aacute; p&uacute;blico no hist&oacute;rico do c&oacute;digo.</p>
-  <p class="body" style="margin: 14px 0 0; max-width: 74ch">Enquanto o prot&oacute;tipo n&atilde;o tiver endere&ccedil;o institucional definitivo, n&atilde;o h&aacute; encarregado de prote&ccedil;&atilde;o de dados designado, porque n&atilde;o h&aacute; tratamento a encarregar. Quest&otilde;es sobre esta pol&iacute;tica podem ser levantadas no <a href="https://github.com/aicyberproject/observatorioantissemitismo/issues" target="_blank" rel="noopener">reposit&oacute;rio p&uacute;blico do c&oacute;digo</a>.</p>
+  <p class="body" style="margin: 14px 0 0; max-width: 74ch">Enquanto o prot&oacute;tipo n&atilde;o tiver endere&ccedil;o institucional definitivo, n&atilde;o h&aacute; encarregado de prote&ccedil;&atilde;o de dados designado, porque n&atilde;o h&aacute; tratamento a encarregar. Quest&otilde;es sobre esta pol&iacute;tica, e exerc&iacute;cio dos direitos acima se e quando houver dado a que se referirem, podem ser dirigidas a <a href="mailto:{CONTATO}"><code>{CONTATO}</code></a> ou levantadas no <a href="https://github.com/aicyberproject/observatorioantissemitismo/issues" target="_blank" rel="noopener">reposit&oacute;rio p&uacute;blico do c&oacute;digo</a>. A <a href="contato.html">p&aacute;gina de contato</a> detalha os dois caminhos.</p>
+
+  <h2 class="h2" style="max-width: 26ch; margin-top: clamp(34px, 4vw, 50px)">Se voc&ecirc; escrever para o endere&ccedil;o de contato</h2>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">O s&iacute;tio n&atilde;o tem formul&aacute;rio: o link de contato abre o seu pr&oacute;prio programa de correio, e nenhum dado seu trafega por este servidor. A mensagem que voc&ecirc; enviar por vontade pr&oacute;pria fica na caixa postal do endere&ccedil;o de trabalho, &eacute; lida pela equipe do Eixo 3 e serve apenas para tratar o que voc&ecirc; apontou. N&atilde;o alimenta lista de divulga&ccedil;&atilde;o, n&atilde;o &eacute; usada para outra finalidade e n&atilde;o &eacute; repassada a terceiro.</p>
+  <p class="body" style="margin: 14px 0 0; max-width: 74ch">Por isso a p&aacute;gina de contato pede que a mensagem <strong>n&atilde;o</strong> contenha dado pessoal, seu ou de terceiro, nem conte&uacute;do de den&uacute;ncia ou de procedimento sigiloso. Uma errata sobre n&uacute;mero publicado n&atilde;o precisa de nenhum deles, e o endere&ccedil;o de trabalho de um prot&oacute;tipo n&atilde;o &eacute; lugar para dado sens&iacute;vel.</p>
 </div></section>
 
 <section class="wrap section">
@@ -521,6 +449,66 @@ TAXONOMIA = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 
 </section>
 """
 
+# ---------------------------------------------------------------------------
+# Contato e errata
+# ---------------------------------------------------------------------------
+
+CONTATO_PAG = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 6vw, 80px); padding-bottom: clamp(10px, 2vw, 20px)">
+  <p class="crumb"><a href="index.html">Observat&oacute;rio</a> &nbsp;/&nbsp; Contato e errata</p>
+  <h1 class="h1" style="margin-top: 24px">Contato e errata</h1>
+  <p class="lead" style="margin: 26px 0 0; max-width: 70ch">Um observat&oacute;rio que publica n&uacute;mero e verbete precisa ter como receber corre&ccedil;&atilde;o. Esta p&aacute;gina existe para isso, e diz com precis&atilde;o o que este canal &eacute; e o que ele n&atilde;o &eacute;.</p>
+</section>
+
+<section class="wrap section" style="padding-top: clamp(24px, 3vw, 40px)">
+  <div class="met-grid">
+    <div>
+      <h2 class="h2" style="max-width: 26ch">Este canal n&atilde;o recebe den&uacute;ncia</h2>
+      <p class="body" style="margin: 18px 0 0"><strong>Se voc&ecirc; foi v&iacute;tima ou testemunha de um incidente antissemita, n&atilde;o escreva para c&aacute;.</strong> Este prot&oacute;tipo n&atilde;o recebe den&uacute;ncia, n&atilde;o a encaminha e n&atilde;o tem compet&ecirc;ncia para apurar. Um relato enviado para este endere&ccedil;o n&atilde;o produz efeito legal e n&atilde;o interrompe prazo nenhum.</p>
+      <p class="body" style="margin: 14px 0 0">Os canais que recebem est&atilde;o na <a href="index.html#denuncie">se&ccedil;&atilde;o de den&uacute;ncia</a>, s&atilde;o das pr&oacute;prias institui&ccedil;&otilde;es e funcionam de forma independente deste prot&oacute;tipo. Antes disso, a <a href="index.html#preservar">se&ccedil;&atilde;o de preserva&ccedil;&atilde;o</a> orienta como guardar a prova, que &eacute; o que costuma se perder primeiro.</p>
+
+      <h2 class="h2" style="max-width: 26ch; margin-top: clamp(34px, 4vw, 50px)">Para que serve, ent&atilde;o</h2>
+      <p class="body" style="margin: 18px 0 0">Para apontar erro no que est&aacute; publicado aqui. Especificamente:</p>
+      <ul class="body" style="margin: 14px 0 0; padding-left: 20px">
+        <li>dado errado num indicador, ou fonte que n&atilde;o confirma o n&uacute;mero citado;</li>
+        <li>verbete da <a href="biblioteca.html">biblioteca</a> com refer&ecirc;ncia incorreta, incompleta ou desatualizada;</li>
+        <li>erro de fato na linha do tempo, inclusive placar de julgamento e data;</li>
+        <li>endere&ccedil;o quebrado, canal de den&uacute;ncia que mudou, acervo que saiu do ar;</li>
+        <li>perfil da <a href="serie/index.html">s&eacute;rie</a> cuja fonte prim&aacute;ria diga outra coisa;</li>
+        <li>problema de acessibilidade que impe&ccedil;a a leitura da p&aacute;gina.</li>
+      </ul>
+
+      <h2 class="h2" style="max-width: 26ch; margin-top: clamp(34px, 4vw, 50px)">Endere&ccedil;o</h2>
+      <p class="body" style="margin: 18px 0 0"><a href="mailto:{CONTATO}"><code>{CONTATO}</code></a></p>
+      <div class="ser-diverg" style="margin-top: 18px">
+        <p class="label">Leia antes de escrever</p>
+        <p class="body">Este &eacute; um endere&ccedil;o de trabalho do prot&oacute;tipo, em dom&iacute;nio <strong>pessoal</strong>, e n&atilde;o um canal institucional. N&atilde;o &eacute; endere&ccedil;o do CDESS, da Presid&ecirc;ncia da Rep&uacute;blica nem de qualquer &oacute;rg&atilde;o citado no conte&uacute;do, e escrever para ele n&atilde;o constitui peti&ccedil;&atilde;o, requerimento nem protocolo perante nenhum deles. Quando o Observat&oacute;rio tiver endere&ccedil;o institucional definitivo, este canal ser&aacute; substitu&iacute;do e a mudan&ccedil;a ficar&aacute; registrada aqui.</p>
+      </div>
+
+      <h2 class="h2" style="max-width: 26ch; margin-top: clamp(34px, 4vw, 50px)">O que ajuda numa errata</h2>
+      <p class="body" style="margin: 18px 0 0">Quatro coisas, e s&oacute; elas: o <strong>endere&ccedil;o da p&aacute;gina</strong>, o <strong>trecho</strong> como est&aacute; publicado, <strong>o que estaria correto</strong> e a <strong>fonte p&uacute;blica</strong> que sustenta a corre&ccedil;&atilde;o. Sem a fonte, a corre&ccedil;&atilde;o entra na fila de confer&ecirc;ncia como qualquer outra; com ela, resolve-se na leitura.</p>
+      <p class="body" style="margin: 14px 0 0"><strong>N&atilde;o inclua dado pessoal</strong>, seu ou de terceiro, nem conte&uacute;do de den&uacute;ncia, de procedimento sigiloso ou de investiga&ccedil;&atilde;o. Uma errata sobre um n&uacute;mero publicado n&atilde;o precisa de nada disso.</p>
+    </div>
+    <div>
+      <h2 class="h2" style="max-width: 22ch">Como a corre&ccedil;&atilde;o aparece</h2>
+      <p class="body" style="margin: 18px 0 0">Erro confirmado n&atilde;o &eacute; apagado em sil&ecirc;ncio. A pr&aacute;tica j&aacute; aplicada nesta plataforma &eacute; publicar a <strong>nota de revis&atilde;o</strong> ao lado do item corrigido, dizendo o que estava escrito, o que passou a estar e em que fonte se conferiu. O hist&oacute;rico do c&oacute;digo &eacute; p&uacute;blico, e a altera&ccedil;&atilde;o fica rastre&aacute;vel nele.</p>
+      <p class="body" style="margin: 14px 0 0">A biblioteca tem hoje dez notas desse tipo. A mais recente corrigiu o placar do <em>habeas corpus</em> 82.424/RS, que constava como oito a tr&ecirc;s e &eacute; de sete a tr&ecirc;s conforme a not&iacute;cia do julgamento no portal do Supremo.</p>
+
+      <h2 class="h2" style="max-width: 22ch; margin-top: clamp(34px, 4vw, 50px)">Canal alternativo</h2>
+      <p class="body" style="margin: 18px 0 0">Quem preferir registro p&uacute;blico pode abrir a quest&atilde;o no <a href="https://github.com/aicyberproject/observatorioantissemitismo/issues" rel="noopener">reposit&oacute;rio do c&oacute;digo</a>, onde o pedido e a resposta ficam vis&iacute;veis a qualquer pessoa. Para errata, esse caminho &eacute; prefer&iacute;vel: a corre&ccedil;&atilde;o e a raz&atilde;o dela ficam documentadas junto da mudan&ccedil;a.</p>
+
+      <h2 class="h2" style="max-width: 22ch; margin-top: clamp(34px, 4vw, 50px)">O que acontece com sua mensagem</h2>
+      <p class="body" style="margin: 18px 0 0">O s&iacute;tio n&atilde;o tem formul&aacute;rio e n&atilde;o coleta endere&ccedil;o de e-mail: o link acima abre o seu pr&oacute;prio programa de correio, e nada trafega por aqui. A mensagem que voc&ecirc; enviar fica na caixa postal do endere&ccedil;o, &eacute; lida pela equipe de trabalho do Eixo 3 e serve apenas para tratar o que voc&ecirc; apontou.</p>
+      <p class="body" style="margin: 14px 0 0">N&atilde;o h&aacute; lista de divulga&ccedil;&atilde;o, e seu endere&ccedil;o n&atilde;o &eacute; usado para outra finalidade nem repassado a terceiro. A <a href="privacidade.html">pol&iacute;tica de privacidade</a> registra isso.</p>
+
+      <h2 class="h2" style="max-width: 22ch; margin-top: clamp(34px, 4vw, 50px)">Prazo</h2>
+      <p class="body" style="margin: 18px 0 0">Nenhum prazo &eacute; prometido. O prot&oacute;tipo &eacute; mantido por equipe de trabalho, sem plant&atilde;o. Erro de fato em n&uacute;mero publicado tem prioridade sobre pedido de conte&uacute;do novo, porque n&uacute;mero errado no ar &eacute; o defeito mais grave que um observat&oacute;rio pode ter.</p>
+    </div>
+  </div>
+  <p class="body" style="margin: 26px 0 0; max-width: 70ch">Atualizada em {ATUALIZADO}.</p>
+</section>
+"""
+
+
 def main():
     feitos = [
         pagina("sobre.html", "Sobre o Observat&oacute;rio",
@@ -538,6 +526,9 @@ def main():
         pagina("taxonomia.html", "Taxonomia proposta",
                "Quinze campos para classificar uma ocorrencia. Proposta do Eixo 3, com leitura comparada de cinco jurisdicoes.",
                "", TAXONOMIA),
+        pagina("contato.html", "Contato e errata",
+               "Como apontar erro no que esta publicado. Este canal nao recebe denuncia: os canais que recebem estao na secao de denuncia.",
+               "", CONTATO_PAG),
     ]
     print("paginas institucionais: " + ", ".join(feitos))
     return 0
