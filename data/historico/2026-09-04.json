@@ -2,15 +2,35 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-04",
  "semana_iso": "2026-S36",
- "atualizado_em": "2026-09-04T16:22:50+00:00",
+ "atualizado_em": "2026-09-04T17:32:14+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 115,
- "no_brasil": 33,
- "no_mundo": 82,
+ "total": 119,
+ "no_brasil": 34,
+ "no_mundo": 85,
  "itens": [
+  {
+   "titulo": "Spanish far-right activists use Nazi-style salutes in anti-migrant protests",
+   "link": "https://www.jta.org/2026/09/04/global/spanish-far-right-activists-use-nazi-style-salutes-in-anti-migrant-protests",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T16:44:50+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Why I Built a Publishing House for the Jewish Stories That the Mass Media Refused to Sell",
+   "link": "https://www.algemeiner.com/2026/09/04/why-i-built-publishing-house-jewish-stories-mass-media-refused-sell/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T16:36:47+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
   {
    "titulo": "American Jewish community security spending surpasses $1 billion, new data shows",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-907599",
@@ -47,6 +67,16 @@
    "fonte": "itongadol.com",
    "escopo": "mundo",
    "publicado_em": "2026-09-04T12:18:43+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Opinión | Sudamérica está dando un giro, y eso es bueno para la comunidad judía",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTTRqWFQydFpaVGFLYzRCdkt6NDNzYjFFRGNEZGJfMUkyTEdjWUVHT1ZfUVZDTHZWQzl0VWxPVVFmdVFIS3hUaEQ0eEFaZC1MN3h2OC1YaXUwRTlvTmZqcWoxNEp0MW1Ha25JVWNCRTRsUWwwcXpxbWVMVWtUN0dHbHRVUHBTaWpGaUIySVZ0bHRqTS1LV0JtdzRaOWlLUFgwTWNwckFJZ2Z2UQ?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T12:04:21+00:00",
    "via": "Google Notícias",
    "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
@@ -779,6 +809,16 @@
    "publicado_em": "2026-09-01T14:30:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Piauí já registra 11 denúncias de racismo religioso este ano",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUWt1SGVqT0hHTlRhUVMxc2lWWTRPTlVGR0hxN0hINGZyamVadG5qMmZVdWtVQkF3ZTVUeFpBNG4tRVluZTJfenpOQVR6dzhveHlTZ2VlYkpRMHpzQm91V2hmQU1yTFhNLUtkQ1RFTFJ3T3FFRDN2dEpRbmtqYWtUMHQtWE4yYl9QR1JpcnVNSFAybnJ3V3FhdFF0VkU0NWtDcDhtN01veG5SLVBpTzJEdms0a1A2ZzhpMldzUHI1S195S2Z5aDFNcGVsYWPSAdsBQVVfeXFMTTlUR3FxanBkSHZlV21pTlJRSWRmOTBiUzJRSV9ELVMzdmZRMHNjLTJJbnJsYXc2ZXhfZ3ZnV0NRUlZLbmpTUXZudEhWRlR4dGNCWEt3T1FzMnhCT0xJZ1hjUWpFY0tlQTJJWUt5Q3ByTkQwY3dnLW1TbGROUWhHbjFzNy1rMUJpS3Q1NWM5YlpqV1h2bmNTVUF3VzExa1Q0enNUR2VYZmY3OUxUWGRCMExKWUxsWGJFbFZHUHE4S2dNc2UzY3dzQ2MwWTJmeGNLUXlGRWxQTGxGSWFZ?oc=5",
+   "fonte": "G1",
+   "escopo": "br",
+   "publicado_em": "2026-09-01T12:35:30+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
    "categoria": "Radar por palavras-chave"
   },
   {
