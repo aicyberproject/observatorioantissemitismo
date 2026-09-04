@@ -2,16 +2,14 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-04",
  "semana_iso": "2026-S36",
- "atualizado_em": "2026-09-04T00:50:58+00:00",
+ "atualizado_em": "2026-09-04T00:53:39+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
-  "The Times of Israel: HTTPError",
-  "ONU Notícias — Direitos Humanos: ParseError",
-  "UN News — Human Rights: ParseError"
+  "The Times of Israel: HTTPError"
  ],
- "total": 76,
+ "total": 77,
  "no_brasil": 18,
- "no_mundo": 58,
+ "no_mundo": 59,
  "itens": [
   {
    "titulo": "Canadian federal court rules to release redacted sections of 1986 Nazi resettlement report",
@@ -642,6 +640,16 @@
    "via": "Google Notícias",
    "feed": "radar-br-racismo",
    "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "África do Sul: ONU alerta para explosão de violência xenófoba",
+   "link": "https://news.un.org/feed/view/pt/story/2026/08/1854192",
+   "fonte": "ONU News - Perspectiva Global Reportagens Humanas",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-27T12:00:00+00:00",
+   "via": null,
+   "feed": "onu-pt",
+   "categoria": "Direitos humanos e organismos multilaterais"
   },
   {
    "titulo": "FRA contributes to webinar on the Holocaust and Latin America",
