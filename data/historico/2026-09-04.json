@@ -2,15 +2,55 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-04",
  "semana_iso": "2026-S36",
- "atualizado_em": "2026-09-04T20:40:03+00:00",
+ "atualizado_em": "2026-09-04T23:53:33+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 130,
+ "total": 141,
  "no_brasil": 38,
- "no_mundo": 92,
+ "no_mundo": 103,
  "itens": [
+  {
+   "titulo": "Hollywood’s Jews take sides in Mark Ruffalo-Paramount antisemitism row",
+   "link": "https://www.jta.org/2026/09/04/united-states/hollywoods-jews-take-sides-in-mark-ruffalo-paramount-antisemitism-row",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T23:00:36+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "European Rabbis Unveil Seven-Point Plan to Confront ‘Infrastructure of Hatred’ Amid Rising Antisemitic Violence",
+   "link": "https://www.algemeiner.com/2026/09/04/european-rabbis-unveil-seven-point-plan-confront-infrastructure-hatred-amid-rising-antisemitic-violence/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T21:50:22+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "‘Jews for Abdul’ Co-Founder Slams El-Sayed’s Views on Israel, Says Candidate Struggling to Reach Jewish Voters",
+   "link": "https://www.algemeiner.com/2026/09/04/jews-abdul-co-founder-slams-el-sayeds-views-israel-says-candidate-struggling-reach-jewish-voters/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T21:44:17+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "HHS Issues New Guidance on Antisemitism in Health Care",
+   "link": "https://www.algemeiner.com/2026/09/04/hhs-issues-new-guidance-antisemitism-health-care/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T21:02:16+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
   {
    "titulo": "How I learned to stop worrying and love my Jewish curls",
    "link": "https://forward.com/forward-newsletters/looking-forward/848720/jewish-hair-curly-straightening-frizz/",
@@ -332,6 +372,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "RELEASE: House Passes Gottheimer, Foxx Bipartisan Bill to Hold Higher Education Accountable for Hate-Driven BDS Activity that Targets Jewish Students and Professors",
+   "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQX0huOWVyMGptZ1hLZ1lkVWM5YU5LNlE5Zm1zVnpnbURobUxCQzNuaVYtWjJqekFweUZjbzhyS2N3ejZfRklILWRJMjBUU0ZIcEZwS3hTRjA1Qk9sNUJqQVNLU014WGp4cnRuRENaZS1oLVRlS1ZGbjk3QU84UF9MY1lLbWZ0d0hYNm9TMGkzZjZhSnJvWno1aFY3MEo1amxockdtcGF4VFd1MFdxb2d0aXNrUXVEVXZFZU56WFJlU0xWY0pkREtvUjE1a3dDZ2NGek1JRUlJV3hMYnJpb2kya2gxa2FvNmkzc2VyeWVrVzFiYzJuZGJxdHRRRzd4SWxTMzdHbmRIVjhwUV9XRjM4QWdBNm5fdFU4a29zd3N0QkxzV1E?oc=5",
+   "fonte": "House.gov",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-03T20:53:55+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Updates on Antisemitism Litigation Against Harvard",
    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOLUk2cnVVcG4xNDlSQlVKT3d4WTZRYnJVMVByazZoZnpxXzZGZU1SYVc3LWJnMkU5d3ZnUDNscU8wek5PekdBWGdmal9fb3ozWTFyUExYcEY0aGE1bGxyajI1amVXSXZQcWhvSlM2QV8xRUt2TmVtNm1rNWw5NVh2cjdsVXI4SF9uZ0E?oc=5",
    "fonte": "Harvard Independent",
@@ -512,6 +562,16 @@
    "categoria": "Observatórios e entidades"
   },
   {
+   "titulo": "¡Basta Ya!: más de 180 artistas judíos de Hollywood apoyan a Mark Ruffalo tras haber sido acusado de antisemitismo",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcWFfT1RFeGVvQnZjZTBfNVBLeVZlbndPTVA4MWRuRnV6cktMV1lrdEpncGZVdGhDVFR5RlhxMzVYd09VVHJzX2t2RG5ObUh5cVZkNU1SeHZMblhQWnZsMmNNY1QxaVVVTXNsUTRpTmxjU3RZUDBUdWR5c1pBQVZ3T2Z0MlNfZDVlb1pSR2NrQUZ2cVNWOGdxTzlKN0pWQ08xU2ptaTktVWRPbVRTVXhBd1lnQXEyN0xnTEpLOVZfbWl0RE1ILWR2SnNmONIB0wFBVV95cUxNOWVhUnZJbXRYMkNfbUtqUXc1bzN6SEZoN1Z0RGtQLWEyWm9lMTNHSEx5U2l6bG9meDF4dTRHa25NSjlod1ZTNk1CZ0FCaS1XczB6Sm1NUzViU1hfSnNJWEFaRDV0SVgyQ0prbUh3TktVQ3hpRHZKRk5FR0xHVVNoV2dPMFBlSGEyaTJIZXpqeUkySmw3S3lvX0lOci01UkJHd2FDbDBYNkgxWkNOcTBwREFaSlozSmlWdWhpclY2aUpHR0lzLXlCZTZvMjd1SFE1Vm1N?oc=5",
+   "fonte": "La Izquierda Diario",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-03T13:40:45+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "After Outcry Over ‘Justice for Palestine’ Concert Headlined by Antisemitic French Rapper, European Parliament Bans Use of Logo by Outside Groups",
    "link": "https://combatantisemitism.org/cam-news/after-outcry-over-justice-for-palestine-concert-headlined-by-antisemitic-french-rapper-european-parliament-bans-use-of-logo-by-outside-groups/",
    "fonte": "Combat Antisemitism Movement",
@@ -672,6 +732,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "UK courts sentence two offenders for antisemitic attacks on Jewish community, children",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5KYnp4UXRMcW1lZVFqc1BsZllmM192N3U2MGtmcUxkOC1SM2hWLWhpUjVpb1kyYUZJcEJPV2h2Mkp6cUhVY2kyaHM2TUtudVhKZ3NhY2V3UzRQM3psTzE0R1VEdnk3MDBYTVE?oc=5",
+   "fonte": "The Jerusalem Post",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-02T18:02:47+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Debate. Antisemitismo y crítica a Israel: una distinción necesaria",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSFV6YjNlY3FtUms0TXlBNlNYaXZpUG1Ldzc2UzZHb1ZGTkZiZHNqNklwcDZPWW9zdlNfVVhraFF3dEEwNWQyaW1hcElXcXFxQ2kwa2hpNnhRS1VVS2NWRGRTTHFvYUdkOXY0NWZLUWVBcFVQUnZWYnQtMVk4Y21NeklLYTkwQjJ2SmZ5c3ZMUkxSRFhZMGx6aVY0X3dPTW4wd2c?oc=5",
    "fonte": "La Voz del Interior",
@@ -722,6 +792,26 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Más de 180 figuras de Hollywood salen en defensa de Mark Ruffalo tras la acusación de antisemitismo de Paramount",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVE54VzJ0QllZaGFqTzRpUlFlYTJTbEVRcHU3bHY3MGd6bDRTMXc1TE0zMndSdXFwbmFsQ0hNMk5rYUVYcHA3QnBIUnBLUGNFRm1ELTZnT1lwT3NnXzZLd3RFZFBQZEdnZDhVVTFpbFhEajkwOHZfT2NvUkJJa0x1UzRBNEtmTFdtTWhiZHJDa3dfWGZkVnZBVFBuYnN6M2JFcHN5ajBoM0l0U3FOQm95a2pSNUhhLXQ3U1k0eUY3dkpsLUN3eVJQOXJEQnRJeEJnWXfSAdcBQVVfeXFMT0t5WDYybVFyMzlJUTlQVzU0b2dQT1VFM2FJZlV2bkxCQjl2a1FtZXB3R2ZJUy1EMExPaGdCT1RMeWtFdGc5WG9fVm5GSXFYTHVOUGtoMVdzUERoeGg1cWpoS0JwaUlOZ25PQ1VlWVQ2OHpQR3BBRHp3QTlrZ2RpaVdrUHpSRmlQQ0w1MkRSak94b0JLejVONlJnb2I0LTYybXI2UFpxdUZvMWpjc3REZHVNYVdMMlh6cTNQaFJZSVBPcEtMZzkxRmtWaGRhZ3Fkc2RxQmxkSHM?oc=5",
+   "fonte": "Clarin.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-02T15:05:27+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Más de 180 artistas judíos de Hollywood apoyan a Mark Ruffalo tras acusaciones de antisemitismo",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNV2cxZFI0YzlDUl84UnBWV1JtWnQzMklDRXJ1V2Nwb0pPYUNwNTBBdVRLOHhFMkZVQ2tVZWQzUGpvb0dxRXk1ZjdMT3EzX1l5X0I2V3JhbUVXTGVTRGpQQ1VXYTF2emVmNnpjU0tmbXhsTmI4YVZpNG9pQ0RDVUJSdnhDMmJPZ2dwT01OTl9qTHllQWhwcHJqYm0xeWx1eFNCTHlYNWlzaVF4VG0zdGZkalZzM05hdXB4YkI3d3I4QW1IVlJBSngzZ1NMN21CeDRFSkIycy04N05RLXRT0gHcAUFVX3lxTE1XZzFkUjRjOUNSXzhScFZXUm1adDMySUNFcnVXY3BvSk9hQ3A1MEF1VEs4eEUyRlVDa1VlZDNQam9vR3FFeTVmN0xPcTNfWXlfQjZXcmFtRVdMZVNEalBDVVdhMXZ6ZWY2emNTS2ZteGxOYjhhVmk0b2lDRENVQlJ2eEMyYk9nZ3BPTU5OX2pMeWVBaHBwcmpibTF5bHV4U0JMeVg1aXNpUXhUbTN0ZmRqVnMzTmF1cHhiQjd3cjhBbUhWUkFKeDNnU0w3bUJ4NEVKQjJzLTg3TlEtdFM?oc=5",
+   "fonte": "Rosario3",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-02T15:03:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "ADL affiliate JLens launches tracker ranking 100 US companies on Jewish employee support",
    "link": "https://www.jpost.com/diaspora/article-907256",
    "fonte": "The Jerusalem Post — Diaspora",
@@ -730,6 +820,16 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Artistas judíos de Hollywood expresaron su apoyo a Mark Ruffalo tras las acusaciones de antisemitismo contra el actor",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQQWYxT1ktUDBjckh5LXc3Ri1yM0FKdlRfZFVVNENFenRNbDJ6T3NlaGV0WmtORmRLa0pKNWhHejgxc0ljMmFmaWl6OGpwUzlZaVZneEd2Rl9TYUs1Y2hJWlAySW8wbFNPMjdqYk5DQkJxdUpMNGVHdWhyVGZFNEVDbWtVZWsyRV9vbHd2cnFZZnUxa01scHVxamR0cDF5SFdjclprenJVQm9MdlA3eUk0UEtyQTczWlhpeTJST0tvVHQwVEhvZUZka2dSYy01NmtFRU12X1VYdm5rUG5RbS0weC1nUdIB6AFBVV95cUxOaGU2dVMxWGpzMXlUV0tySVlqZjFVb3NURS1RSGxXWFkxNEUwVHNPNmREa0dqUi01d21yUUZHTTVVNkNUR2dEdENIYmdQX3Jld19iUDFxVWRSMUFUQXVVM0M4R1lubDdiejhOX3MwWUJxMFZfWDBOTE1qamhUUDVGdVFxZFNUbUpKTVdXenRvN1hkZjBuNURFcWlBUXhpNE1NR0IwT2c0WXh2VVZZU05fcnBLN1cyUUFFUGZaS1dpYUswc2pkS2dUYXhIekV0TlVrWDN0QjJPbF9MTDJpeURwRjN4Y2U2djNr?oc=5",
+   "fonte": "Ambito",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-02T14:53:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Accusations d'antisémitisme, rachat de Warner Bros par Paramount... Pourquoi les propos de Mark Ruffalo enflamment Hollywood",
@@ -789,6 +889,16 @@
    "publicado_em": "2026-09-02T09:54:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Más de 180 artistas judíos de Hollywood apoyan a Mark Ruffalo después de que se le acusara de antisemitismo",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQ3l1dFZCU09jb3dUQmw4cE1RX013anp2ZF9jbHZtSWFlQXNVa3lRTUhCVUdzbzEzeGx6Ykt1UTdmSUN6eUhfT213N1gyRmZpTjRkcURzRTlWRDZCWVBISlJfTWRLNVRFbDhxUzBEWHNuajB5YXJVaF9RS2d4alcyTmwtbk43a3Q0SGNqS2dPYUNTUGFjTjExWnFRcGM2NjZpVGN3T0s3eGNhUDlDTTU4X01DSDByWndNWlg4NXVkcTIwRnhhQlc0X3lWZVdsdlR4Zm83WXN3TGZJQmc?oc=5",
+   "fonte": "elpais.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-02T08:28:44+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
   },
   {
