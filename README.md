@@ -222,6 +222,26 @@ tabela equivalente em `<details>`, de modo que nenhum valor dependa do ponteiro.
 A paleta de duas cores (`#1f5fae` e `#c2531f`) foi validada para daltonismo e para
 contraste de 3:1 sobre o papel do site.
 
+### Natureza do dado
+
+Cada número carrega, além do selo de procedência, uma **marca de natureza**: contagem de
+fonte comunitária, registro oficial agregado, monitoramento de imprensa, pesquisa de
+percepção ou apuração de outra jurisdição.
+
+**Números de naturezas diferentes não são somados nem comparados diretamente.** A prática
+vem do ODIHR, organismo da OSCE que mantém dois acervos separados e nunca os junta: o que
+vem do Estado é registrado como crime, o que vem da sociedade civil como incidente, com a
+razão declarada de que não se consegue verificar se o segundo grupo se qualifica como
+crime.
+
+A razão de adotar aqui é prática. Como nenhuma base estatal brasileira tem categoria
+autônoma de antissemitismo, misturar a contagem comunitária da CONIB com dado policial do
+Anuário do FBSP, ou com a apuração da ADL em outro país, produziria número sem
+denominador. A marca torna a ausência de marcador estatal informação declarada, em vez de
+constrangimento silencioso.
+
+### Grau de verificação
+
 A página declara o grau de verificação de cada bloco: **conferido no acervo**, para
 número checado contra o documento de origem, e **citado, primária não consultada**,
 para número cuja fonte está declarada mas cuja publicação não foi aberta. Nenhum

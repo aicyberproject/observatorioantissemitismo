@@ -304,7 +304,7 @@ def tabela(cab, linhas, cls="tab-dados"):
     return "".join(h)
 
 
-def figura(titulo, subtitulo, svg, tab, nota, legenda=None, id_=None):
+def figura(titulo, subtitulo, svg, tab, nota, legenda=None, id_=None, nat=None):
     leg = ""
     if legenda:
         itens = "".join(
@@ -315,6 +315,7 @@ def figura(titulo, subtitulo, svg, tab, nota, legenda=None, id_=None):
     return f"""<figure class="fig"{ident}>
   <figcaption>
     <h3 class="fig-title">{titulo}</h3>
+    {natureza(nat) if nat else ""}
     <p class="fig-sub">{subtitulo}</p>
   </figcaption>
   {leg}
@@ -415,6 +416,37 @@ RODAPE = """</main>
 """
 
 
+# Natureza do dado, no modelo do ODIHR. Aquele organismo mantem dois acervos
+# separados e nunca os soma: o que vem do Estado e registrado como "crimes", o que
+# vem de sociedade civil como "incidents", com a razao declarada de que nao consegue
+# verificar se o segundo grupo se qualifica como crime.
+#
+# Aqui a mesma disciplina. A serie da CONIB e contagem comunitaria; o Anuario do
+# FBSP e dado policial estadual; a ADL e apuracao de outro pais; a G100 e pesquisa
+# de percepcao. Somar ou comparar diretamente numeros de naturezas distintas e o
+# erro que a ausencia de marcador estatal torna tentador.
+NATUREZAS = {
+    "comunitaria": ("contagem de fonte comunitária",
+                    "Apurado por entidade da sociedade civil a partir de denúncia recebida em canal próprio. "
+                    "Mede o que chega ao canal, não a incidência."),
+    "oficial": ("registro oficial agregado",
+                "Produzido por órgão público a partir de registro administrativo ou policial. "
+                "Nenhuma base estatal brasileira possui categoria autônoma de antissemitismo."),
+    "imprensa": ("monitoramento de imprensa",
+                 "Derivado de cobertura jornalística agregada. Mede alcance da cobertura, não incidência."),
+    "percepcao": ("pesquisa de percepção",
+                  "Levantamento amostral de atitudes declaradas. Não conta ocorrências."),
+    "externa": ("apuração de outra jurisdição",
+                "Produzido em outro país, com definição, canais e população distintos. "
+                "Serve para ordem de grandeza e para leitura de instrumento, não para comparação de volume."),
+}
+
+
+def natureza(chave):
+    rot, exp = NATUREZAS[chave]
+    return (f'<span class="nat nat-{chave}" title="{E(exp)}">{rot}</span>')
+
+
 def selo(grau):
     cls = {"verificado": "sel-ok", "citado": "sel-cit", "lacuna": "sel-lac"}[grau]
     txt = {"verificado": "conferido no acervo",
@@ -440,7 +472,7 @@ def main():
   <div class="metric"><p class="label">Meio</p><p class="num">80,9%</p><p class="metric-note">ocorr&ecirc;ncias no ambiente digital</p></div>
   <div class="metric"><p class="label">Frequ&ecirc;ncia</p><p class="num">2,7</p><p class="metric-note">ocorr&ecirc;ncias validadas por dia</p></div>
 </div>
-<p class="metrics-src">{LINK25} &mdash; CONIB, FISESP e Departamento de Seguran&ccedil;a Comunit&aacute;ria. {selo("verificado")}</p>
+<p class="metrics-src">{LINK25} &mdash; CONIB, FISESP e Departamento de Seguran&ccedil;a Comunit&aacute;ria. {selo("verificado")} {natureza("comunitaria")}</p>
 </div></section>
 
 <section class="wrap section">
@@ -463,7 +495,7 @@ def main():
         tabela(["Mês", "2022", "2023", "2024"], linhas),
         f'Fonte: Relatório de Antissemitismo no Brasil 2024 — CONIB, FISESP e DSC. {selo("verificado")} '
         f'A série mensal de 2025 não consta do {LINK25} e por isso não foi incluída.',
-        id_="serie-mensal"))
+        id_="serie-mensal", nat="comunitaria"))
 
     # ---------------- colunas anuais ----------------
     linhas = [[str(a), FMT(t), FMT(on), FMT(off), f"{on/t*100:.1f}%"] for a, t, on, off in ANUAL]
@@ -476,7 +508,7 @@ def main():
         'O total de 2023 aparece como 1.410 no relatório de 2024 e como 1.412 no de 2025. Adotou-se o valor revisado. '
         'A própria fonte registra que 2025 permanece 149,1% acima da linha de base de 2022.',
         legenda=[("Online", S1), ("Offline", S2)],
-        id_="serie-anual"))
+        id_="serie-anual", nat="comunitaria"))
 
     # ---------------- triagem ----------------
     linhas = [[r, FMT(v), f"{v/1428*100:.1f}%"] for r, v in TRIAGEM_2025]
@@ -490,7 +522,7 @@ def main():
         'A taxa de descarte em 2025 foi de 30,74%. Em 2024 o canal recebeu 3.167 denúncias brutas e '
         'descartou 43,55% delas: menos registros em duplicidade e menos registros impulsionados pelo '
         'clima de crise explicam parte da queda no volume validado.',
-        id_="triagem"))
+        id_="triagem", nat="comunitaria"))
 
     # ---------------- geografia ----------------
     tot25 = sum(v for _, v in GEO_2025)
@@ -504,7 +536,7 @@ def main():
         f'Fonte: {LINK25}. {selo("verificado")} '
         '<strong>Não comparar com 2024.</strong> Em 2024, São Paulo respondia por 900 ocorrências (50,3%) e o grupo sem definição por 132 (7,4%). '
         'A inversão entre os dois anos reflete mudança na forma de captar a localização, e não migração do fenômeno.',
-        id_="geografia"))
+        id_="geografia", nat="comunitaria"))
 
     # ---------------- plataformas ----------------
     linhas = [[r, FMT(v), f"{v/800*100:.1f}%"] for r, v in PLATAFORMA_2025]
@@ -518,7 +550,7 @@ def main():
         '<strong>Bases diferentes entre anos.</strong> Em 2024 o relatório apurou X com 402 ocorrências (48%) e Instagram com 314 (37%), '
         'mas sobre uma base de 846 casos classificados em redes sociais, e não sobre o total de 1.310 ocorrências online. '
         'A troca de liderança entre X e Instagram é real, e a magnitude não é comparável.',
-        id_="plataformas"))
+        id_="plataformas", nat="comunitaria"))
     out.append("</div>")
 
     # ---------------- resposta institucional ----------------
@@ -538,7 +570,7 @@ def main():
         f'Fonte: SaferNet Brasil e Ministério Público Federal, Report System. {selo("citado")} '
         'Os números constam do levantamento reunido para o Eixo 3 em agosto de 2026. A publicação primária não foi consultada nesta versão do protótipo, '
         'e os identificadores administrativos indicados no levantamento seguem sem confirmação.',
-        id_="funil"))
+        id_="funil", nat="oficial"))
 
     linhas = [[r, FMT(d), FMT(i), f"{i/d*100:.2f}%"] for r, d, i in INSTAURACAO]
     barras = [(r, round(i / d * 10000) / 100) for r, d, i in INSTAURACAO]
@@ -551,7 +583,7 @@ def main():
         tabela(["Tema", "Denúncias", "Instaurações", "Taxa"], linhas),
         f'Fonte: SaferNet Brasil e MPF. {selo("citado")} '
         'A categoria de intolerância religiosa é genérica: absorve o antissemitismo sem distingui-lo, o que é exatamente a lacuna que o Eixo 3 documenta.',
-        id_="instauracao"))
+        id_="instauracao", nat="oficial"))
     out.append("</div></section>")
 
     # ---------------- benchmark internacional ----------------
@@ -560,8 +592,8 @@ def main():
   <h2 class="h2">Refer&ecirc;ncia internacional</h2>
   <p class="body" style="margin: 20px 0 0; max-width: 74ch">Os dois indicadores abaixo servem a prop&oacute;sitos distintos. O primeiro d&aacute; ordem de grandeza a uma s&eacute;rie madura, com 46 anos de apura&ccedil;&atilde;o. O segundo mede a subnotifica&ccedil;&atilde;o, que &eacute; o que a s&eacute;rie brasileira n&atilde;o consegue enxergar.</p>
   <div class="tiles">
-    <div class="tile"><p class="label">Estados Unidos &middot; 2024</p><p class="tile-num">9.354</p><p class="tile-txt">incidentes apurados no ano, alta de 5% sobre 2023 e de 893% em dez anos. Em 58,3% deles houve men&ccedil;&atilde;o a Israel ou ao sionismo, a primeira vez que esse recorte &eacute; maioria em 46 anos de s&eacute;rie.</p><p class="tile-src">ADL, Audit of Antisemitic Incidents 2024. {selo("citado")}</p></div>
-    <div class="tile"><p class="label">Uni&atilde;o Europeia</p><p class="tile-num">80%</p><p class="tile-txt">das v&iacute;timas n&atilde;o levam o incidente &agrave; pol&iacute;cia ou a qualquer autoridade. Na mesma pesquisa, 96% relataram ter sofrido alguma forma de antissemitismo no ano anterior, e menos de metade dos 27 Estados-membros mant&eacute;m registro desagregado.</p><p class="tile-src">FRA, Ag&ecirc;ncia da Uni&atilde;o Europeia para os Direitos Fundamentais. {selo("citado")}</p></div>
+    <div class="tile"><p class="label">Estados Unidos &middot; 2024</p><p class="tile-num">9.354</p><p class="tile-txt">incidentes apurados no ano, alta de 5% sobre 2023 e de 893% em dez anos. Em 58,3% deles houve men&ccedil;&atilde;o a Israel ou ao sionismo, a primeira vez que esse recorte &eacute; maioria em 46 anos de s&eacute;rie.</p><p class="tile-src">ADL, Audit of Antisemitic Incidents 2024. {selo("citado")} {natureza("externa")}</p></div>
+    <div class="tile"><p class="label">Uni&atilde;o Europeia</p><p class="tile-num">80%</p><p class="tile-txt">das v&iacute;timas n&atilde;o levam o incidente &agrave; pol&iacute;cia ou a qualquer autoridade. Na mesma pesquisa, 96% relataram ter sofrido alguma forma de antissemitismo no ano anterior, e menos de metade dos 27 Estados-membros mant&eacute;m registro desagregado.</p><p class="tile-src">FRA, Ag&ecirc;ncia da Uni&atilde;o Europeia para os Direitos Fundamentais. {selo("citado")} {natureza("percepcao")}</p></div>
   </div>
   <p class="body" style="margin: 26px 0 0; max-width: 74ch"><strong>A leitura que interessa ao Eixo 3 n&atilde;o &eacute; a compara&ccedil;&atilde;o de volume.</strong> Os n&uacute;meros brasileiro e norte-americano contam populações, canais e defini&ccedil;&otilde;es diferentes, e coloc&aacute;-los lado a lado sugeriria uma raz&atilde;o que os dados n&atilde;o sustentam. O que se compara &eacute; a exist&ecirc;ncia do instrumento: h&aacute; s&eacute;rie hist&oacute;rica de 46 anos em uma jurisdi&ccedil;&atilde;o, marcador oficial em 14 de 27 Estados-membros em outra, e nenhuma categoria aut&ocirc;noma em nenhuma base estatal brasileira.</p>
 </section>""")
@@ -609,6 +641,10 @@ def main():
       <p class="body">O enquadramento &eacute; o fixado pelo Supremo Tribunal Federal no HC 82.424/RS, de 2003: o antissemitismo se qualifica como racismo, crime inafian&ccedil;&aacute;vel e imprescrit&iacute;vel. As fontes agregadas nesta p&aacute;gina adotam defini&ccedil;&otilde;es operacionais pr&oacute;prias, que nem sempre coincidem entre si.</p>
       <h3 class="h3" style="margin-top: 26px">O que entra</h3>
       <p class="body">Somente dado agregado, de origem p&uacute;blica e j&aacute; publicado por terceiro. Nenhum n&uacute;mero desta p&aacute;gina foi produzido pelo Observat&oacute;rio. N&atilde;o h&aacute;, em nenhum ponto, dado pessoal, den&uacute;ncia individualizada ou informa&ccedil;&atilde;o sob sigilo.</p>
+      <h3 class="h3" style="margin-top: 26px">Natureza do dado, e por que ela importa</h3>
+      <p class="body">Cada n&uacute;mero desta p&aacute;gina carrega uma marca de natureza. {natureza("comunitaria")} vem de entidade da sociedade civil, a partir de den&uacute;ncia recebida em canal pr&oacute;prio. {natureza("oficial")} vem de &oacute;rg&atilde;o p&uacute;blico, a partir de registro administrativo. {natureza("externa")} foi apurado em outro pa&iacute;s. {natureza("percepcao")} &eacute; levantamento amostral de atitudes, e n&atilde;o contagem de ocorr&ecirc;ncias.</p>
+      <p class="body"><strong>N&uacute;meros de naturezas diferentes n&atilde;o s&atilde;o somados nem comparados diretamente nesta p&aacute;gina.</strong> A pr&aacute;tica vem do ODIHR, organismo da OSCE que mant&eacute;m dois acervos separados e nunca os junta: o que vem do Estado &eacute; registrado como crime, o que vem da sociedade civil como incidente, com a raz&atilde;o declarada de que n&atilde;o se consegue verificar se o segundo grupo se qualifica como crime. Aqui a disciplina &eacute; a mesma, por um motivo pr&aacute;tico: como nenhuma base estatal brasileira tem categoria aut&ocirc;noma de antissemitismo, misturar contagem comunit&aacute;ria com dado policial produziria n&uacute;mero sem denominador.</p>
+
       <h3 class="h3" style="margin-top: 26px">Grau de verifica&ccedil;&atilde;o</h3>
       <p class="body">Cada bloco traz um selo. {selo("verificado")} indica n&uacute;mero conferido contra o documento de origem, dispon&iacute;vel no acervo do Eixo 3. {selo("citado")} indica n&uacute;mero cuja fonte est&aacute; declarada, mas cuja publica&ccedil;&atilde;o primária n&atilde;o foi consultada nesta vers&atilde;o. Nenhum identificador administrativo ou n&uacute;mero de processo n&atilde;o confirmado foi transcrito.</p>
     </div>
