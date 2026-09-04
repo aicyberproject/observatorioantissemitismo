@@ -736,6 +736,155 @@ PRESERVAR = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 
 """
 
 
+# ---------------------------------------------------------------------------
+# Glossario
+# ---------------------------------------------------------------------------
+#
+# Item 7 da secao 8.2 da auditoria. A fonte e
+# EIXO3/00_CONFIG/CONVENCOES_E_GLOSSARIO.md, curada em tres pontos:
+#
+# 1. Sairam os termos de processo interno, que nao dizem nada a um leitor de
+#    fora: Frente 1, Frente 2, Diligencia D01-D17 e Matriz de Diligencias.
+# 2. Entraram os termos que o proprio sitio usa e definia so de passagem:
+#    natureza do dado, grau de verificacao, subnotificacao, lacuna, ata
+#    notarial, resumo criptografico. As definicoes sao as ja publicadas nas
+#    respectivas paginas, e nao versoes novas.
+# 3. A entrada de taxonomia NAO repete a contagem da fonte interna, que fala
+#    em "8 camadas". A pagina publicada declara quinze campos e nao usa a
+#    palavra camada. Divergencia registrada na auditoria; aqui vale o que o
+#    sitio sustenta.
+#
+# IHRA e a Declaracao de Jerusalem entram como o que sao, e nao como
+# enquadramento adotado: o sitio adota o do STF no HC 82.424/RS e declara nao
+# tomar posicao na controversia. A entrada repete essa posicao, em vez de
+# deixar o leitor supor.
+
+GRUPOS = [
+    ("iniciativa", "A Iniciativa e este protótipo", [
+        ("Iniciativa de Enfrentamento ao Antissemitismo", None,
+         'Denominação oficial desde 31 de julho de 2026. Documentos expedidos antes disso preservam a denominação anterior, "GT Enfrentamento ao Antissemitismo".'),
+        ("CDESS", "Conselho de Desenvolvimento Econômico, Social e Sustentável",
+         'Colegiado no âmbito do qual a Iniciativa se desenvolve. Este protótipo não foi apreciado por ele e não constitui sua manifestação.'),
+        ("Eixo 3", "Segurança e Monitoramento",
+         'Um dos eixos temáticos da Iniciativa, e o responsável por este protótipo. Seu mandato é validar limitações institucionais de registro e monitoramento, não padronizar canais de denúncia.'),
+        ("Protótipo", None,
+         'A condição declarada deste sítio. Versão de trabalho, sem caráter oficial, não apreciada pelo Eixo nem pela reunião de coordenadores, e fora de indexação enquanto durar essa condição.'),
+    ]),
+    ("medida", "Como o fenômeno é medido, e por que mal se mede", [
+        ("Invisibilidade estatística", None,
+         'Diluição do fenômeno em categorias genéricas, o que produz falsa negatividade nas séries. Nenhuma base pública brasileira examinada tem categoria autônoma de antissemitismo: o fato entra como injúria racial, racismo, intolerância religiosa, ameaça ou "outros crimes", e deixa de ser contável como antissemitismo.'),
+        ("Marcador", None,
+         'Campo ou etiqueta que permite separar o antissemitismo de categorias mais amplas, sem criar tipo penal novo. É a recomendação central do Eixo 3, e não depende de lei: o Conselho Nacional de Justiça inseriu assuntos de intolerância religiosa nas Tabelas Processuais Unificadas por ato administrativo.'),
+        ("Funil institucional", None,
+         'Modelo de conversão denúncia → registro → apuração → processo, usado como referência metodológica. Serve para localizar em que etapa o caso se perde.'),
+        ("Subnotificação", None,
+         'Distância entre incidentes ocorridos e incidentes denunciados. Na pesquisa intracomunitária de 2025, 32,58% de quem sofreu um incidente o denunciou. Toda leitura de alta ou de queda nas séries mistura variação do fenômeno com variação da propensão a denunciar.'),
+        ("Natureza do dado", None,
+         'Marca que cada número da página de indicadores carrega, para que números de origens diferentes não sejam somados: contagem de fonte comunitária, registro oficial agregado, apuração de outra jurisdição e pesquisa de percepção. A prática vem do ODIHR, que mantém dois acervos separados e nunca os junta.'),
+        ("Grau de verificação", None,
+         'Selo que declara até onde a conferência foi: conferido no acervo, quando o valor foi checado contra o documento de origem; citado, primária não consultada, quando a fonte está declarada mas a publicação não foi aberta.'),
+        ("Lacuna", None,
+         'Ausência de dado que nenhuma base preenche. Neste trabalho a lacuna é registrada como achado, e não omitida como falha: a página de indicadores mantém painel próprio com vinte delas e o motivo de cada uma.'),
+    ]),
+    ("definicao", "Definição do fenômeno", [
+        ("HC 82.424/RS", "Caso Ellwanger, 2003",
+         'Julgamento em que o Supremo Tribunal Federal fixou que o antissemitismo se qualifica como racismo, crime inafiançável e imprescritível nos termos do art. 5º, XLII, da Constituição. É o enquadramento adotado por este Observatório. Decidido por maioria de sete a três.'),
+        ("IHRA", "International Holocaust Remembrance Alliance",
+         'Organização intergovernamental que mantém uma definição de trabalho de antissemitismo, adotada por diversos países. Este Observatório não adota instrumento internacional: o enquadramento vigente no direito brasileiro é o do HC 82.424/RS, e sobre a controvérsia quanto às definições internacionais o Observatório não toma posição e não é a instância competente para resolvê-la.'),
+        ("Declaração de Jerusalém", "JDA, Jerusalem Declaration on Antisemitism",
+         'Definição alternativa proposta por um grupo de acadêmicos, em parte como crítica à da IHRA. Vale aqui a mesma posição declarada acima.'),
+    ]),
+    ("instrumentos", "Instrumentos propostos pelo Eixo 3", [
+        ("Taxonomia proposta", None,
+         'Conjunto de quinze campos para classificar uma ocorrência, sete obrigatórios e oito facultativos. É proposta, e não padrão adotado: nenhuma base pública brasileira a implementa. O detalhamento está na página de taxonomia.'),
+        ("Ficha Padrão Nacional", None,
+         'Conjunto mínimo de campos proposto para registro de denúncia, de modo que canais diferentes produzam dado comparável.'),
+        ("Nota de fronteira", None,
+         'Documento que delimita a competência entre dois canais que se sobrepõem, por exemplo entre o Comunica PF e a Ouvidoria da Polícia Federal. Serve para que o denunciante não seja devolvido de um para o outro.'),
+    ]),
+    ("canais", "Canais e órgãos brasileiros", [
+        ("Comunica PF", None,
+         'Canal de notícia-crime da Polícia Federal.'),
+        ("Disque 100", "Ouvidoria Nacional de Direitos Humanos, ONDH",
+         'Canal de denúncia de violações de direitos humanos, no Ministério dos Direitos Humanos e da Cidadania.'),
+        ("Fala.BR", None,
+         'Plataforma integrada de ouvidoria e acesso à informação, da Controladoria-Geral da União.'),
+        ("DECRADI", "Delegacia de Crimes Raciais e Delitos de Intolerância",
+         'Delegacia especializada da Polícia Civil de São Paulo.'),
+        ("GECRADI", "Grupo Especial de Combate aos Crimes Raciais e Delitos de Intolerância",
+         'Grupo especializado no Ministério Público de São Paulo.'),
+        ("MPF", "Ministério Público Federal",
+         'Recebe representação sobre crime de competência federal, inclusive conteúdo online de alcance interestadual.'),
+        ("Defensoria Pública", None,
+         'Assistência jurídica gratuita a quem não tem condição de contratar advogado. É o caminho recomendado nesta plataforma para quem precisa de orientação sobre o próprio caso, que este protótipo não presta.'),
+        ("TPU e DataJud", "Tabelas Processuais Unificadas e Base Nacional de Dados do Poder Judiciário",
+         'Instrumentos do Conselho Nacional de Justiça. É onde um marcador de motivação produziria série judicial, e é o precedente de que a inserção pode ser feita por ato administrativo.'),
+    ]),
+    ("fontes", "Entidades e fontes de dados", [
+        ("CONIB", "Confederação Israelita do Brasil",
+         'Entidade de representação nacional. Publica relatório anual de antissemitismo no Brasil, que é a fonte dos indicadores da série brasileira desta plataforma.'),
+        ("FISESP", "Federação Israelita do Estado de São Paulo",
+         'Entidade estadual, com canal próprio de recebimento de relatos.'),
+        ("SaferNet", None,
+         'Organização da sociedade civil que opera central nacional de denúncias de crimes cibernéticos, em cooperação com o Ministério Público Federal.'),
+        ("Fórum Brasileiro de Segurança Pública", "FBSP",
+         'Organização que publica o Anuário Brasileiro de Segurança Pública, principal compilação de dados criminais do país. Examinado neste trabalho, e sem categoria autônoma de antissemitismo.'),
+        ("ODIHR", "Office for Democratic Institutions and Human Rights",
+         'Escritório da OSCE que mantém o principal acervo comparado de crimes de ódio. A disciplina de não somar dado oficial com dado da sociedade civil, adotada nesta plataforma, vem dele.'),
+        ("FRA", "European Union Agency for Fundamental Rights",
+         'Agência da União Europeia que produz pesquisas de percepção e de experiência de antissemitismo entre judeus europeus.'),
+        ("ADL", "Anti-Defamation League",
+         'Organização estadunidense que publica levantamento anual de incidentes antissemitas naquele país.'),
+        ("INHOPE", None,
+         'Rede internacional de hotlines de denúncia de conteúdo ilegal online.'),
+    ]),
+    ("prova", "Preservação de prova", [
+        ("Ata notarial", None,
+         'Instrumento lavrado em Tabelionato de Notas em que o tabelião atesta o que constatou. Tem fé pública, e é a prova mais forte para o Judiciário entre as tratadas nesta plataforma.'),
+        ("Resumo criptográfico", "hash, SHA-256",
+         'Valor calculado a partir de um arquivo, que muda se o arquivo mudar. Demonstra depois que o arquivo entregue é exatamente o capturado. Não substitui a ata notarial: um mostra que o arquivo não mudou, a outra atesta o que o tabelião viu.'),
+        ("Wayback Machine", "Internet Archive",
+         'Serviço que guarda cópia datada de uma página, feita por terceiro e independente do denunciante. Útil quando o conteúdo original é removido.'),
+        ("Marco Civil da Internet", "Lei nº 12.965/2014",
+         'Norma que disciplina, entre outras coisas, a guarda de registros de conexão e de acesso, e a responsabilidade de provedores. O texto e o histórico de julgamento estão na biblioteca e na seção de legislação.'),
+    ]),
+]
+
+
+def _glossario_indice():
+    return "".join(
+        f'<li><a href="#{chave}">{titulo}</a></li>'
+        for chave, titulo, _ in GRUPOS)
+
+
+def _glossario_corpo():
+    blocos = []
+    for chave, titulo, termos in GRUPOS:
+        itens = []
+        for termo, sigla, texto in sorted(termos, key=lambda x: x[0].lower()):
+            marca = f' <span class="glo-sigla">{sigla}</span>' if sigla else ""
+            itens.append(f"<dt>{termo}{marca}</dt><dd>{texto}</dd>")
+        blocos.append(
+            f'<div class="glo-bloco" id="{chave}">'
+            f'<h2 class="h2" style="max-width: 26ch">{titulo}</h2>'
+            f'<dl class="glo-lista">{"".join(itens)}</dl></div>')
+    return "".join(blocos)
+
+
+GLOSSARIO = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 6vw, 80px); padding-bottom: clamp(10px, 2vw, 20px)">
+  <p class="crumb"><a href="index.html">Observatório</a> &nbsp;/&nbsp; Glossário</p>
+  <h1 class="h1" style="margin-top: 24px">Glossário</h1>
+  <p class="lead" style="margin: 26px 0 0; max-width: 70ch">Os termos que aparecem nesta plataforma, incluindo os que são propostos pelo Eixo 3 e ainda não são padrão em nenhuma base pública. Onde a distinção importa, ela está dita na própria entrada.</p>
+  <ul class="glo-indice">{_glossario_indice()}</ul>
+</section>
+
+<section class="wrap section" style="padding-top: clamp(24px, 3vw, 40px)">
+  {_glossario_corpo()}
+  <p class="body" style="margin: clamp(34px, 4vw, 50px) 0 0; max-width: 74ch">Atualizada em {ATUALIZADO}. Sigla de órgão e denominação de entidade seguem a forma usada pela própria instituição. Onde um termo é proposta deste Eixo, e não padrão vigente, a entrada diz.</p>
+</section>
+"""
+
+
 def main():
     feitos = [
         pagina("sobre.html", "Sobre o Observat&oacute;rio",
@@ -756,6 +905,9 @@ def main():
         pagina("preservar.html", "Preservar evidências",
                "Como preservar prova de ato antissemita: os primeiros 60 minutos e o roteiro de cada tipo de ocorrencia.",
                "preservar.html", PRESERVAR),
+        pagina("glossario.html", "Glossário",
+               "Os termos usados nesta plataforma, com a distincao entre o que e padrao vigente e o que e proposta do Eixo 3.",
+               "glossario.html", GLOSSARIO),
         pagina("contato.html", "Contato e errata",
                "Como apontar erro no que esta publicado. Este canal nao recebe denuncia: os canais que recebem estao na secao de denuncia.",
                "", CONTATO_PAG),

@@ -76,6 +76,7 @@ RODAPE_INST = [
     ("acervo.html",           "Acervos e mem&oacute;ria"),
     ("metodologia.html",      "Metodologia"),
     ("taxonomia.html",        "Taxonomia proposta"),
+    ("glossario.html",        "Gloss&aacute;rio"),
     ("contato.html",          "Contato e errata"),
     ("privacidade.html",      "Pol&iacute;tica de privacidade"),
     ("termos.html",           "Termos de uso"),

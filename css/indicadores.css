@@ -361,3 +361,47 @@
   opacity: .7;
 }
 .prs-volta { margin: 16px 0 0; font-size: 14px; }
+
+/* ---------------------------------------------------------------------------
+   Glossário (glossario.html)
+   --------------------------------------------------------------------------- */
+.glo-bloco { margin-top: clamp(30px, 4vw, 46px); scroll-margin-top: 140px; }
+.glo-lista { margin: 18px 0 0; }
+.glo-lista dt {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid var(--rule-2);
+  font-weight: 700;
+  line-height: 1.35;
+}
+.glo-lista dt:first-child { margin-top: 0; }
+.glo-lista dd {
+  margin: 6px 0 0;
+  max-width: 74ch;
+  line-height: 1.6;
+  color: var(--ink-2);
+}
+.glo-sigla {
+  font-family: var(--f-mono);
+  font-size: .82em;
+  letter-spacing: .04em;
+  opacity: .75;
+  font-weight: 400;
+}
+.glo-indice {
+  list-style: none;
+  margin: 22px 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.glo-indice a {
+  display: block;
+  padding: 7px 13px;
+  border: 1px solid var(--rule-2);
+  background: var(--paper-2);
+  font-size: 14px;
+  color: inherit;
+}
+.glo-indice a:hover, .glo-indice a:focus-visible { border-color: var(--ink); }

@@ -4,7 +4,7 @@
 
 Existe por causa de um defeito que ficou no ar: oito itens de menu apontando
 para ancoras que nao existiam nas paginas onde estavam. Nenhum teste pegaria
-isso, porque nao havia teste. Estas quatro conferencias sao baratas e pegam a
+isso, porque nao havia teste. Estas cinco conferencias sao baratas e pegam a
 classe inteira.
 
     python3 scripts/verifica_sitio.py
@@ -80,6 +80,26 @@ def main():
         else:
             menus[rel] = tuple(RE_ROTULO.findall(m.group(1)))
 
+    # 5. nenhuma pagina fica orfa. Uma pagina publicada que nenhuma outra
+    #    aponta so e alcancavel por quem ja sabe o endereco, o que e a mesma
+    #    classe de defeito de um item de menu sem destino. Esta conferencia
+    #    entrou depois de o glossario ter sido publicado orfao e as quatro
+    #    conferencias acima passarem sem notar.
+    apontadas = set()
+    for p, texto in docs.items():
+        for alvo in set(RE_HREF.findall(texto)):
+            if externo(alvo) or not alvo:
+                continue
+            arq = alvo.partition("#")[0]
+            if not arq:
+                continue
+            destino = (p.parent / arq).resolve()
+            if destino != p and destino in docs:
+                apontadas.add(destino)
+    for p in sorted(docs):
+        if p not in apontadas and p.name != "index.html":
+            falhas.append(f"pagina orfa        {p.relative_to(RAIZ)}: nenhuma outra pagina a aponta")
+
     if menus:
         comum = max(set(menus.values()), key=lambda k: list(menus.values()).count(k))
         for rel, rotulos in sorted(menus.items()):
@@ -99,7 +119,7 @@ def main():
         for f in falhas:
             print("  " + f)
         return 1
-    print("links locais, ancoras, ativos e menu: tudo consistente")
+    print("links locais, ancoras, ativos, menu e alcancabilidade: tudo consistente")
     return 0
 
 
