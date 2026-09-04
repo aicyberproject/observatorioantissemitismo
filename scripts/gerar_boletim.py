@@ -146,7 +146,7 @@ def gera_edicao(sem, dados, anterior, seguinte):
   <p class="bol-nav">{" &nbsp;·&nbsp; ".join(nav)}</p>
 </section>
 """
-    pag = cabeca(f"{titulo} · Prot&oacute;tipo do Observat&oacute;rio",
+    pag = cabeca(f"{titulo} · Protótipo do Observatório",
                  f"Boletim semanal do Observatório: {periodo}.",
                  f"{BASE}/boletim/{sem}.html",
                  f"boletim/{sem}.html") + corpo + rodape(f"boletim/{sem}.html")
@@ -194,7 +194,7 @@ def gera_indice(edicoes):
   {lista}
 </section>
 """
-    pag = cabeca("Boletim semanal &middot; Prot&oacute;tipo do Observat&oacute;rio",
+    pag = cabeca("Boletim semanal · Protótipo do Observatório",
                  "Edições semanais do boletim do Observatório, geradas a partir do histórico do painel.",
                  f"{BASE}/boletim/",
                  "boletim/index.html") + corpo + rodape("boletim/index.html")
