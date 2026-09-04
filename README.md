@@ -46,6 +46,11 @@ com o método de verificação, está em
 - [x] Natureza e grau de verificação de cada número, no modelo ODIHR
 - [x] Cabeçalho e rodapé unificados numa fonte de verdade única, com conferência de links, âncoras, ativos e menu
 - [x] Canal de contato e procedimento de errata
+- [x] Aviso de LGPD nas 31 páginas, e não só nas da raiz
+- [x] Página de preservação: triagem de risco, checklist dos primeiros 60 minutos e roteiro dos seis tipos de ocorrência
+- [x] Glossário, com 37 termos e a distinção entre padrão vigente e proposta do Eixo 3
+- [x] Ficha da fonte nos sete indicadores, com método de coleta, cobertura e data de extração
+- [x] Série versionada do boletim: endereço permanente, planilha por edição e resumo SHA-256 reproduzível
 
 ### Aberto: decisões de coordenação
 
@@ -54,28 +59,23 @@ com o método de verificação, está em
 
 ### Aberto: conteúdo
 
-- [ ] Glossário. A fonte está pronta em `EIXO3/00_CONFIG/CONVENCOES_E_GLOSSARIO.md`
 - [ ] Agenda de datas
 - [ ] Confirmar com CONIB e FISESP o endereço dos canais dedicados de denúncia
 - [ ] Conferir no Relatório CONIB 2025 integral os valores hoje extraídos do Sumário Executivo
 - [ ] Verificar na publicação primária os números da SaferNet, do MPF, da ADL e da FRA
-- [ ] Ficha de fonte por indicador: faltam método de coleta, cobertura e data de extração como campos próprios
-- [ ] Série versionada com caminho fixo por edição e resumo SHA-256 por edição
 
 ### Aberto: técnico
 
 - [ ] Busca e filtro por período no painel. Implementável desde que o histórico passou a acumular
 - [ ] Estado dos filtros refletido na URL, para que um recorte seja compartilhável
 - [ ] Resolver o redirecionamento dos itens do radar até a URL final do veículo
-- [ ] Migração incremental para páginas em pastas (`/preservar/`, `/denunciar/`)
+- [ ] Migração incremental para páginas em pastas. `preservar.html` nasceu como página própria; `/denunciar/` segue como âncora
 - [ ] Auditoria de acessibilidade por ferramenta e por leitor de tela
 - [ ] Bilinguismo (PT/EN). Depende do endereço definitivo
 - [ ] `sitemap.xml` e dados estruturados JSON-LD. Só fazem sentido depois de a página sair do `noindex`
 
 ### Frentes da página de preservação, na ordem sugerida
 
-- [ ] Seletor de tipo de incidente, com o roteiro correspondente. Não recolhe dado
-- [ ] Checklist de medidas de emergência dos primeiros 60 minutos. Não recolhe dado
 - [ ] Formulário de qualificação da notícia-crime. Recolhe dado, e por isso é decisão à parte
 - [ ] Geração e exportação de dossiê preliminar. Mesmo caso
 
