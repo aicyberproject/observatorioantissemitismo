@@ -2,21 +2,71 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-04",
  "semana_iso": "2026-S36",
- "atualizado_em": "2026-09-04T12:39:36+00:00",
+ "atualizado_em": "2026-09-04T14:17:41+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 104,
- "no_brasil": 29,
- "no_mundo": 75,
+ "total": 112,
+ "no_brasil": 31,
+ "no_mundo": 81,
  "itens": [
+  {
+   "titulo": "American Jewish community security spending surpasses $1 billion, new data shows",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-907599",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T16:21:28+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "'Holocaust Remembrance Means Little if We Fail to Protect Living Jewish Communities': An Interview With Spanish MEP Antonio López-Istúriz White",
+   "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPcTE1dTdrNzVncjVDUm4waTJwUnViQWc2bjNhbFVCQUFSTW52bVlWWmlIeUdlVlBlVGhMUU1DQTc5Q1B2MUZnSWxRSDZhaE1aTkpIVm1TaTR1QWduaWV4VGJPYVdrcG5DUmhJUVMzSlFTOG5pU2ZxcHZpSmx1OW5seUliVmJiNks2VWh2MTFwWmFybVFidEVxUUZhRFJVbkhnRnBfTGFPbk51UW9ZX2xZbHhQWk8xdEp6blVRX2NGZHRFdVQxaW5iRExVSkhhS3NhU1BPX1ZUTUw3OWs4Z2pDRTN6cE9TcUV0MHdtSmdPUG1SRjZ3c2dCd3BXX3pyVEptZlJtWjZra19rdTNrdTlJ?oc=5",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T14:12:41+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "‘Holocaust Remembrance Means Little if We Fail to Protect Living Jewish Communities’: An Interview With Spanish MEP Antonio López-Istúriz White",
+   "link": "https://combatantisemitism.org/interview/holocaust-remembrance-means-little-if-we-fail-to-protect-living-jewish-communities-an-interview-with-spanish-mep-antonio-lopez-isturiz-white/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T14:08:18+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Orgullo Buber en las Olimpíadas Charito",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUnJFUzBkdWJaX2U2Y29Qa1A1SkkydEVuUExaVFBxTXluYVBma0s0Q3ZFRklzZ1hwYVB6alZpQzItNmduN0F0cngxTnBjbGNWSXNwLTV4OVNpUVEzU0pPdE1oSHAyR2dteW1hem9pSjlqQ3pzN1ZTRDI5YnpzS2NCV05TRExTbm0wWUhwVzdjSGo?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T12:18:43+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "The Origins of Antisemitism",
    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1GNi16NXlNaC1aVHdtak1PQWd0SVI2V1VscGdEalpHWE1hOXZJd1dhcTllR3hhQWxLR3NaOHkxaGZoRU5WYmZENkVuREVuXzg4blF5SVdleXd6ZTF1TTI0WTdFTFZCN09ZN0pSWU14aUo?oc=5",
    "fonte": "compactmag.com",
    "escopo": "mundo",
    "publicado_em": "2026-09-04T12:00:32+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Human rights advocates: Is Qatar encouraging antisemitism on college campuses?",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdi1WRUIxSjdsSWx1YWtwcXdaTDZrUHZuZHZzSDFCZVJ2Q1VkOTAzZDJ0d0Fid2FScUVKZnp5TmpLSHRTcXMtNkFWZTItcVhKajBkVUVtTjctRTI4M3NMR1lIOHNQSC1raEMwbXo0Rld2M1Jwa082OXNfZlJ2MF81YkpPRmtkUi1sdllLYWY0NG1NS011eTRQYVZ3?oc=5",
+   "fonte": "Chicago Tribune",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T11:00:16+00:00",
    "via": "Google Notícias",
    "feed": "radar-en",
    "categoria": "Radar por palavras-chave"
@@ -592,6 +642,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Advierten que el antisemitismo «no da tregua» en España",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONU5rX1VfNlBOMERiWUJWLW41Z0RCcGVjSkJfV2JPbGhLbHNIaGJ3OVl3RGhGM1R1VlJYTlE2bDVoVWM3SVNVVTZ2Q3VkcDd1aW1xRTFnYU9PWllYUXRZOUpwbENYaEFXV3JiN1RvaWw1Z2VnX0gxUU9kVkxMZUlTdVJMYmNvT0R6elIyR0hya2pLWmg4ZnJGOERHa0U?oc=5",
+   "fonte": "Israel Económico",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-02T13:34:14+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Haiti saved Jewish lives then. Our silence is not an option now.",
    "link": "https://forward.com/opinion/848057/haiti-world-war-2-saved-jewish-lives/",
    "fonte": "The Forward",
@@ -952,11 +1012,31 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Condenado por crime de ódio contra minorias, Tavares denuncia empresário por \"ameaças\"",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUTZVcEY1clFNTXctcmVBZkdMWDZfSmd2QWw1TURMRzJXUXF5cTlxcUwtRFJLa1RQMWpVdGtwMEpPbFgybUcwRHhxS2ZuUWkyaklzZHBZbFpBSkRHdm40Z1ZwNmVMOGp4MU42NlRNSmdTdVJPdnRKYW9nS2FsVGZxMjV5X29qbEtxcU10dW5TdUc0UjItSHRuaTAtT1d5VzRacGpZRldHR25OWVFEc2lKMjBJNkNPVi1MMDhNb1ZPNA?oc=5",
+   "fonte": "ojacare.com.br",
+   "escopo": "br",
+   "publicado_em": "2026-05-08T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Projeto de Lei equipara antissemitismo a racismo",
    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZzNyUWk4TG5PMWRVX003RFZfcXRydUNrWHNGNnV6UU1qc29mTTh6WnpJbDl6bXlhZkRVV205dGczUmZOMlRnWERWQXNwbzVEV1lJS21LeTRwT3lXMTJtaWpaUU9KRkV5dTZHX1FJcWhaakNaQWpwMzBzaHVLN1lYZDBzTDJLdGJSNWZV?oc=5",
    "fonte": "Diário Causa Operária",
    "escopo": "br",
    "publicado_em": "2026-04-28T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "O Estadão entre o anti-STF e o antissemitismo, por Luís Nassif",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSVl4UDNSUm9vejFEeXhPMTJEczFBcU5pT0FaR0JrNEp6OGpMcjg0b3lTYzhsSm4xeXlNejk5RGJWLVNDU0dFd2F1LThYYk5fSWRzZGlLeE02ZngyTEIzNFhDeUR4SjFVbExtVTVmdEZtWG93M0VaYWdPbUdEeXRteFlEQzFNUQ?oc=5",
+   "fonte": "Jornal GGN",
+   "escopo": "br",
+   "publicado_em": "2026-04-12T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
    "categoria": "Radar por palavras-chave"
