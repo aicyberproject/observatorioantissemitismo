@@ -2,15 +2,55 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-04",
  "semana_iso": "2026-S36",
- "atualizado_em": "2026-09-04T00:54:34+00:00",
+ "atualizado_em": "2026-09-04T07:09:37+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 77,
- "no_brasil": 18,
- "no_mundo": 59,
+ "total": 94,
+ "no_brasil": 23,
+ "no_mundo": 71,
  "itens": [
+  {
+   "titulo": "Auvergne-Rhône-Alpes : La Région annonce une journée contre l'antisémitisme dans les lycées",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMTJaUXdsV215cmJJYXNGc1B2Q25RX2ppS0hwN0txeGRSVFdjSkhPRm41LWlRUnpHbDZFZlZiNmRpNXZoX0lWNDFublU2M25pT3djMjBQZUJBY1NWMW1YdTAtSnMwS09GWkRtanktdE55dTEtZDE1OWRob1hKOVgyRlBwczVNclk3NGVUNEFkWU9qenpuQzVrekZNdmZ5Qm5qeml5U0ZrWDJqS0prc2xrR1NabjVWRXdqRDZrYWdNM3BWXzI0cTNHc3h0djVCbm8?oc=5",
+   "fonte": "ODS Radio",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T06:37:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Triatlón. Irlanda del Norte: excluyen a los atletas israelíes de una competencia",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRzh2TkRKYWl6Yl9YZmc1dWdzLU5uejRFOUhiVGV4eUFKWVFLTmVoNHl1TE9FbG1YUk5UMnNKV2pzZUZrVlpUeXhLYW1Qbi1lWDJ0SmN6eWRiRVBoTzZIS01zSFo2SUNuWjMxNzlsaXlaLUtEbmxCT1NyLTF0dGFGazlqUllDM1prdTc2cm84dU40b0k1dXNOcXNSQTJUc1F0VlhBRERyYkFsLVk5YVBvVmRjbko?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T05:48:35+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Une journée contre l’antisémitisme organisée pour la première fois dans les lycées d’Auvergne-Rhône-Alpes le 10 décembre",
+   "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPZ0NYWmZDZ1IybV9yZ3R5c2wtc3Q0MnFMNUpYUzJUT2lUUkotZXBidXRjUlNOYlpvczFOaWJZbzQzLVliWXJVZWtrOE11Qjc3ZXlSZG1BV2J5UXFUcHNmUVNHNnl4LXFvZGltbUM5M2NJRG5jaWhWeXJ4ZFgzc0hHSWlsbUs1bHRHZHowR2VmdlR6MFAxMkhMLUJHRGpjUXF5VXpaNmJVRnJsVzZqT2dYUWZBZ0tSdUJZWkdmMWpDTGFhRGVQMl9ubVAwaG9jM2h0NC1hMm40dU9QNHhUcVZrY1ZZMDY5RXlENlRvbGJaQ2VhdjRSWGN2TUZOU0JTNE9WamZwd21CWF9MWnlVZlZybnpyQQ?oc=5",
+   "fonte": "ici.fr",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T05:00:04+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Old-New Anti-Semitism",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORmEwa0JZSVpxTUJyZHIxVUltVHhTeW9xdUVWV2F6dWRkNWdUOTBmVmdxRjZQRDduQkNiZmc1MlpMY1JyQWlkNU81bU5wYWcyUzdISEtwcWdmWHcxXzJpdnBlUFZta0txcGlnV1NFWFotNGpsMjdKUU02Qjc5RnZWdjF0M3BPcnNISUJOdjFR?oc=5",
+   "fonte": "Tikvah Ideas",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T05:00:01+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Canadian federal court rules to release redacted sections of 1986 Nazi resettlement report",
    "link": "https://www.jpost.com/diaspora/article-907563",
@@ -20,6 +60,16 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Daughter of Bondi Beach Hanukkah Massacre Victim Takes Fight Against Antisemitism to Canberra",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQWUNoTWxnR25LejhCQmxBcXJlU1lKNjdqaFk4UzE3a3ZaWERXNkRUTUUxMExwMDNGbHlPQy13NHItZ2gzNWVDRDNWbVdHdTFQY3ZScmk1ZWVhRDg1QW5EVk5WYUphamhidThOSkxCbTdEV3VPWkJPcmFiLUJUZnlHRG0yS1NidURhV3N6cXJqUWRIM1dKcWJCWmF3LWdlc2RnVHRIdnlMNGJwMldPSmtJdUFwY2J3aERnY09LeFRZejk3ODdMUjI2bEVsc1VWaWM?oc=5",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T01:32:41+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Missouri aprobó una ley contra el antisemitismo en las escuelas… y abrió otra discusión sobre libertad de expresión",
@@ -162,6 +212,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "HHS Office for Civil Rights Issues Guidance on Discrimination Rooted in Antisemitism in Healthcare Settings",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWjYzZ2I5Tjg4dlhEbTZienFMcGRaV0lWYkVjQzdKd0hOMUxSN2tlMUs2N1RuWDI3RkpZSVM3UGZwRzNxQ3FNdGo0RFpYdE1sSTZhYUF1dW5yd1NqMGFoVTNxeTc2c1JEQkh6U3gyV210aFFyTmhrcmF1X1JBYWlkM3Q5SDhWcWE2SURnU0VfM0ZjOFBYTjQ1QjdLMA?oc=5",
+   "fonte": "HHS.gov",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-03T17:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "As the Academic Year Starts, Antisemitism Comes to K-12 Schools in Addition to Universities",
    "link": "https://www.algemeiner.com/2026/09/03/academic-year-starts-antisemitism-comes-k-12-schools-addition-universities/",
    "fonte": "The Algemeiner",
@@ -242,6 +302,16 @@
    "categoria": "Observatórios e entidades"
   },
   {
+   "titulo": "Daughter of Bondi Beach Hanukkah Massacre Victim Takes Advocacy Against Antisemitism to Leaders in Australian Capital",
+   "link": "https://combatantisemitism.org/cam-news/daughter-of-bondi-beach-hanukkah-massacre-victim-takes-advocacy-against-antisemitism-in-australia-to-leaders-in-canberra/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-03T13:04:56+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
    "titulo": "Where Hatred Lies | Omer Bartov",
    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOemdJbjNBRDZZcmczdDR3aWw2U21rMVRhRlhJY3QxRE1GVXlpMnF5cGdtcUVIQ04teHBPWTZ0aC1GWFpmd3FDb29RM2pMNHloMW9QUnp2TFBYQXVpX3hxSU5tZjk2dmF1S1FRVlNmZHpEV2hPSFBPZ0k4U1IzT0hWLWdpeWQ3LVRxbzB0YlRWMXdGVXdjZXc?oc=5",
    "fonte": "The New York Review of Books",
@@ -289,6 +359,16 @@
    "publicado_em": "2026-09-03T07:12:02+00:00",
    "via": "Google Notícias",
    "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Conférence à Genève: un débat sur l’antisémitisme échauffe les esprits",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZEhyS2taa21MYVNLalBoMzFuVkxCWU1yYWYwbmVnTFd4RW8wMm1JbzdxaTVLMk5xcGR1M0k4VVJiM2dveVFoRzdXN2NZUmNfcVV0VnYxSmtBSm12YTBsZnVSUTVLa1Q4WERRZDNSZDlFZ3czSFBhU1lHLVNnZmFMT2N5Qk1EcmtMZFB6MlhrNFBJTGRO?oc=5",
+   "fonte": "Tribune de Genève",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-03T04:34:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -472,6 +552,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Mark Ruffalo é defendido por Joaquin Phoenix e mais de 180 personalidades judias após acusações de antissemitismo",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNQURoUU5XLUZ2dXlwSUxQWkd3dmh3YUUxRUR2bE9ZWE1uQjlFR0xCNXZMNU9jMW5IZWpKM1pYTEJIN09Pb20tUzEwSHlGMFBDZnFaZnF6di1ERnQ2QTdCdllxWUozSW1IWXdIVklBbXRiOGJ1amxYYS1SYmRxZFZ0eEg3MmRzUEZ5Q09EckRONlFaS18wbTFqeG4xMDdfNm90eW1vT1BiLVpwejBMSXZ1MDIyRUVJczhrM2N4YUpwS09ib1pkeHZjQU8tTWQwTkJFelNUXzhhNnYzZGRPckxVWU9KTjJUUdIB4AFBVV95cUxQRG1pOEtYZnRWdW12bGVWcHBLeXpmSDB4Z0FmZUsyYmtEcGstQ1Y4RGU3Q2JWaktDNy1fdXRwZUJSZ1JqUFhBaGZvWWhnSGRNNGNqdG9DVHJBOFo3RldFMGFpckM0NTliZURrME1UbzhiWF9HVG9ia2puVEZnY0RqQlRvT2FsZi1PS0M2WFllVXpvaVM2SWhNMC1QOTJiZjF3LXZ4a05qWTVGcDEwY0M1Q2NpUEYyUndDUFlDMzdzWE5lTHVDTXdkUlJhU1RXNGJDNkZsWnFEaHhPa0ZRVDRSbQ?oc=5",
+   "fonte": "cmjornal.pt",
+   "escopo": "br",
+   "publicado_em": "2026-09-02T09:54:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Jewish leader slams Bruce Blakeman for ‘Islamophobia’ after post of Hochul in a hijab",
    "link": "https://www.jta.org/2026/09/01/ny/jewish-leader-slams-bruce-blakeman-for-islamophobia-after-post-of-hochul-in-a-hijab",
    "fonte": "Jewish Telegraphic Agency",
@@ -582,6 +672,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "What Is the Jewish American Security Act and What Would It Do?",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOczVCT1liZktVOWM1SWZkN0tWanNxWmNfWlpwNXN4NWNESlB3T1o1bUVuM3hCc2RiRGNINHNPaXJQaHNJWjFWNUNSbUphVElEcnNoTGktYmVpbXNWTTF1LXZxdmQ3aXA1Ynlodzg5UkMyMDZBdjlDX3NNOG1JQ0xhTFVwaktvQ1h3MnI2cWRocw?oc=5",
+   "fonte": "ajc.org",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-01T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Antisemitism | History, Meaning, Facts, & Examples",
    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBxRnNldnFQbVE3amVrY3RtZHJ1OWo2cHRkemVuY1c0SGNBYjVUQTdhX3JJcnl0RWFPUHdBZFh4Rm5YSHlNRExrTkZuQzhkYjQxNlc5cnRIT1E?oc=5",
    "fonte": "Britannica",
@@ -597,6 +697,16 @@
    "fonte": "Parlamentario",
    "escopo": "mundo",
    "publicado_em": "2026-09-01T01:40:01+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "¿Quiénes impulsan el antisemitismo?",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ZQnFRemszaUtvdFBmRFJDdC1NYVl0ZVNmZVNrUWxTQU1SY3F0d3hBVkFIUGxobzFSaEIyVmR6ZGVhemJfUVdfVGdNTjVGQ21Pb1REZlM4ZldnRHFpSzB5U2dodDNHRjdaa1pxbXBGQm9vUzNGT1RoOGxueXBBUQ?oc=5",
+   "fonte": "Página|12",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-31T23:20:56+00:00",
    "via": "Google Notícias",
    "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
@@ -620,6 +730,16 @@
    "via": null,
    "feed": "fra",
    "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Black and Jewish Youth Build Bridges Through Basketball, On the Court and Beyond",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWHgySnZlZXUwQ0xLbmtWZjJINnR2ekYtTFlBUGkyOHZxcXU3cVJOSDlFWW54cjFvT2FWV0R2ZXlJUUNfYWdEZU43NnhSWU1sc2YwUXc0bG0yVllvcHhmRE1FLUJuSXlCVjI0N2NlVHUyYlB6SHRRaFo4MGNoUUEwM2prR3N5dHNOWW81ZUp3U3lQM1BZZmhGaTNrZVF2YnpkYVhEUThUbGpJSlQzSm13T2FoWkloVFpzbi1XLQ?oc=5",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-31T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Profissionais do Disque 100 participam de capacitação sobre racismo religioso e intolerância religiosa",
@@ -692,6 +812,16 @@
    "categoria": "Observatórios e entidades"
   },
   {
+   "titulo": "Isère : Nuñez et Bergé dénoncent des propos antisémites d'une commerçante de la station des Deux Alpes, une enquête ouverte",
+   "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPajFfYWlNaHAtNzRXOTRLVXZHblBoQnRPN3VNc3ZiMVd3ZU1hZ3JuUFUwTFdHMWVnLTQzSUVTMUR6YUh1UnF4QWdFVC1nQnJNTFhZbWdKb2hoU3plZThDTXlNODVFSkRSc2hPVjFLLU9iNXZDa1BaUnlBaTJLSHU2eE9GNy1QcVQ2UnRRT2hEcmJkMDNNODNzcmlaVE00YWdZRjhwR3FSS0g4N2Jraml6Z2FoWWF6eVFjbGFxb0UtTklzWVAxWW44ZjZOX1N6SFJVR3UxZkJDb09nNzhfblNTaFF3OGlQQ1F1bmRoVXA1Sy10TlBjZjhJZVdNRThZOU9RRHRTRDlFdXRkRzFvZFdHdElEdjJIUkZuUGdvSA?oc=5",
+   "fonte": "TF1 Info",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-15T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Jewish Bund Ghosts vs. Living Jewish State",
    "link": "https://fathomjournal.org/jewish-bund-ghosts-vs-living-jewish-state/",
    "fonte": "Fathom Journal",
@@ -722,6 +852,26 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Como o STF transformou a denúncia do sionismo em crime",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY1ItS2VfUk1EOVJIN21EcVc5V2xEV2tnblY5Umk3TGFMVHBrTmpIQnFNbWh2SlkzdDdicUpyTXF1MFhyRVFQNFgtVm1JdzhRcEpBSUF3OXlrYXE3N0pSRWpTZ1JKX3VVc1g2MVBqYkduSW0tVE8tZVpjQ3JiOUZXbnJZNHBPYndXR3RDalMtUEpIa1U?oc=5",
+   "fonte": "Diário Causa Operária",
+   "escopo": "br",
+   "publicado_em": "2026-07-17T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Há um direito ao proselitismo? Limites à liberdade religiosa na jurisprudência do STF",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWGdWeThnNkRzekVRQTV1aURoWDZzZWR6eW5TNDVjbVljeG12UHh6eVBsOVNhT3NfNk9kcW5oenpGMG1zUXI4aXdrVWdRWnlaMUJXVDB1ODRiclA0OW0xb0k1d2k5V25LV1ZsVmtqRDZ6VHlYRGFCWGMxQmpTdFFzUFU4M0tibTlYUXBlQzZ3SmxyRUxEcm9wYm5EbTFLOXRHa1cwSnVjbHB5cFR0Nlh5eEEzNnJ6YmZYOVY4a0Z3?oc=5",
+   "fonte": "Consultor Jurídico",
+   "escopo": "br",
+   "publicado_em": "2026-07-14T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Nira Broner Worcman | O antissemitismo aprendeu a falar em código",
    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcFVWS2JtUHlWSmJfZUFzY3Rqc2NTTVk4RVJqSGdyNC1ZYXZwZ1NmS2dteGVxbkhwSlFHSlBUd0ZwdHJsOXRTa2tfektWLXJsUnZ1Y3VjVFhHYUQ5YkxKd2ptdk1tSXBHMzdUS0xQNWRiZjF6eko1Z1hpaVBlQWtHTGk0bVlyaDQ?oc=5",
    "fonte": "Poder360",
@@ -737,6 +887,26 @@
    "fonte": "Diário Causa Operária",
    "escopo": "br",
    "publicado_em": "2026-04-28T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "STJ: Suspensão do processo não se aplica em caso de racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTktaT3ZFdVRGMXlicVNybzZIMnlnZXI3cGJyeHplQ0xHYjF0N3ZrNkN1cnQ1YjBFVGNOMlR6S0l1OEdRSnhCYnNiWTRsVndtaTkzUzEtOEhFc1k5a3AzdGhWM2lQQUMyZ05LZThsb0pJOVI0VWx3VUpVeENGeS1FRUpZdy14QjU1TGpTdGpTSmRCbnhSWUFRQnlkeUFJSXFEOWd1ZzRVYzFzT0QtdjlRSw?oc=5",
+   "fonte": "migalhas.com.br",
+   "escopo": "br",
+   "publicado_em": "2026-04-06T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Condenado por antissemitismo, vereador Adilson volta novamente à Câmara de São Paulo",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSWYza0o2TmU2cXVMcFVCMFBzX1RsYnI2ZnluMGFWT1RkcVU3ZVBMY0Q3MlJGRXh1bXlqWkdqVGUtei0wSGNSbXRNYzFVRmtXMm1lRTFsb0x2VUFUa2x0MVVEclVGcDFzaTN5VEl0WDJXVUV4ZGhta2dMdnBCOHNYeThCSFNtNTVOU2FEejZMckdTSlJVMGx6VTVMLW1qYzJHM0pzUHRrUnVlYzAxYWdycjd6cDdFak5vY0x4V3loc9IBxAFBVV95cUxQdm5vNnAzdzJZLUtZc1E4U2ROWkZiVzJET1M0eWdiVXFMZWw4SW9GTUI1bUZzZm9EWU5PS1hxNEVJY05xOXpJLW1IWU9xeVpGQ19qNVhrb05WRHF1OEwybVZ5dFotRGF1U1hYd084VWI0YUlaNUZiZWpReUg5Nk0zRk9ZMGJMQmtMS3BYaVFjX292eVhDcjJVM2FXUlJucXpCdlFUYjhfaWlEbzAwSURaNm9fX3plMjNqVlVFejkxZFdhOEFj?oc=5",
+   "fonte": "InfoMoney",
+   "escopo": "br",
+   "publicado_em": "2026-02-04T08:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
    "categoria": "Radar por palavras-chave"
