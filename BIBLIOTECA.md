@@ -120,7 +120,11 @@ Decisões que fixaram o enquadramento do antissemitismo e os limites da liberdad
 
 `Supremo Tribunal Federal · 2003`
 
-Decisão fundante no direito brasileiro. Por oito votos a três, o STF assentou que o antissemitismo constitui racismo para os fins do art. 5º, XLII, da Constituição, superando o conceito biológico de raça em favor de um conceito social. Firmou que a liberdade de expressão não abriga o discurso que prega o ódio ou a destruição de um grupo. Crime imprescritível e inafiançável.
+Decisão fundante no direito brasileiro. Em 17 de setembro de 2003, por sete votos a três, o Plenário assentou que o antissemitismo constitui racismo para os fins do art. 5º, XLII, da Constituição, superando o conceito biológico de raça em favor de um conceito social. Firmou que a liberdade de expressão não abriga o discurso que prega o ódio ou a destruição de um grupo. Crime imprescritível e inafiançável. A tese vencedora não veio do relator: o ministro Moreira Alves votou por conceder a ordem, e a divergência aberta pelo ministro Maurício Corrêa é que prevaleceu. Vencidos Moreira Alves, Marco Aurélio e Carlos Ayres Britto.
+
+> **Nota de revisão.** Uma versão anterior deste verbete registrava oito votos a três. A notícia do julgamento no portal do STF informa maioria de **sete a três**, vencidos Moreira Alves, Marco Aurélio e Carlos Ayres Britto. Corrigido em 04/09/2026.
+
+[Notícia do julgamento no portal do STF](https://noticias.stf.jus.br/postsnoticias/stf-nega-habeas-corpus-a-editor-de-livros-condenado-por-racismo-contra-judeus/)
 
 [Portal do STF](https://portal.stf.jus.br/)
 
@@ -268,9 +272,9 @@ Série histórica de denúncias anônimas de crimes cibernéticos, com recortes 
 
 `CONIB, FISESP e Departamento de Segurança Comunitária · anual`
 
-Série anual consolidada a partir das centrais de denúncia mantidas pela CONIB e pela FISESP. É a fonte dos quatro indicadores exibidos na página inicial: 1.788 casos em 2024, alta de 350% sobre os 397 casos de 2022, 73% das ocorrências em ambiente digital e média de 4,9 denúncias por dia. A edição de 2024 foi publicada em abril de 2025.
+Série anual consolidada a partir das centrais de denúncia mantidas pela CONIB e pela FISESP. É a fonte dos quatro indicadores exibidos na página inicial: 989 ocorrências validadas em 2025, de 1.428 registros recebidos, alta de 149,1% sobre as 397 de 2022, 80,9% das ocorrências em ambiente digital e média de 2,7 por dia. A série completa vai de 2022 a 2025: 397, 1.412, 1.788 e 989. A edição de 2025 foi publicada em abril de 2026 e os valores foram conferidos contra o documento integral.
 
-[Relatório de 2024 (PDF)](https://combateaoantissemitismo.org.br/wp-content/uploads/2025/04/Relatorio_Antissemitismo-no-Brasil-2024_v4-web.pdf)
+[Relatório de 2025, íntegra (PDF)](https://combateaoantissemitismo.org.br/wp-content/uploads/2026/04/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK3_web.pdf)
 
 ### Ministério Público Federal
 
