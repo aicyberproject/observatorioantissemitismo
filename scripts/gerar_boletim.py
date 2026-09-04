@@ -190,7 +190,8 @@ def gera_edicao(sem, dados, anterior, seguinte):
     (SAIDA / f"{sem}.html").write_text(pag, encoding="utf-8")
     return {"semana": sem, "periodo": periodo, "total": len(itens),
             "br": len([i for i in itens if i.get("escopo") == "br"]),
-            "ultimo_dia": dias[-1] if dias else None}
+            "ultimo_dia": dias[-1] if dias else None,
+            "itens_br": br, "itens_wo": wo}
 
 
 def gera_indice(edicoes):
@@ -224,6 +225,7 @@ def gera_indice(edicoes):
       <p class="notice-flag"><span class="dot"></span><span>Envio por e-mail em decis&atilde;o</span></p>
       <p class="body" style="margin: 16px 0 0">O envio autom&aacute;tico por e-mail exige guardar uma lista de assinantes, o que um s&iacute;tio est&aacute;tico n&atilde;o faz. Depende de servi&ccedil;o externo ou de lista institucional, e de pol&iacute;tica de privacidade publicada.</p>
       <p class="body" style="margin: 14px 0 0">Enquanto essa decis&atilde;o n&atilde;o for tomada, este prot&oacute;tipo <strong>n&atilde;o coleta endere&ccedil;o de e-mail</strong>. A assinatura &eacute; pelo feed.</p>
+      <p class="body" style="margin: 14px 0 0"><strong>Quem prefere receber por e-mail j&aacute; consegue.</strong> O feed carrega a edi&ccedil;&atilde;o inteira, com todas as manchetes e links, e n&atilde;o apenas um aviso. Qualquer servi&ccedil;o de RSS para e-mail entrega o boletim completo na caixa de entrada. O endere&ccedil;o fica com o servi&ccedil;o escolhido por voc&ecirc;, e n&atilde;o conosco.</p>
     </div>
   </div>
   {lista}
@@ -233,6 +235,34 @@ def gera_indice(edicoes):
                  "Edições semanais do boletim do Observatório, geradas a partir do histórico do painel.",
                  f"{BASE}/boletim/") + corpo + RODAPE
     (SAIDA / "index.html").write_text(pag, encoding="utf-8")
+
+
+def corpo_feed(e, resumo, link):
+    """A edicao inteira dentro do feed.
+
+    Sem isso o assinante recebe so um link, e quem usa RSS-por-e-mail recebe uma
+    mensagem vazia. Com o conteudo embutido, o boletim chega inteiro em qualquer
+    leitor, sem que este prototipo precise guardar o endereco de ninguem.
+    """
+    def lista(itens, rotulo):
+        if not itens:
+            return ""
+        li = "".join(
+            "<li><a href=\"{}\">{}</a><br><small>{}{}{}</small></li>".format(
+                E(n.get("link")), E(n.get("titulo")), E(n.get("fonte")),
+                " &middot; " + E((n.get("publicado_em") or "")[:10]) if n.get("publicado_em") else "",
+                " &middot; via " + E(n.get("via")) if n.get("via") else "")
+            for n in itens)
+        return f"<h3>{E(rotulo)}</h3><ol>{li}</ol>"
+
+    return ("<p>" + E(resumo) + "</p>"
+            + "<p><em>Este boletim nao reporta nada originalmente e nao emite juizo "
+              "editorial. A selecao e por data. A autoridade e sempre a publicacao "
+              "de origem.</em></p>"
+            + lista(e.get("itens_br") or [], "No Brasil")
+            + lista(e.get("itens_wo") or [], "No mundo")
+            + f'<p><a href="{E(link)}">Ver a edicao completa no Observatorio</a></p>'
+            + "<p><small>Prototipo em elaboracao no Eixo 3, sem carater oficial.</small></p>")
 
 
 def gera_feed(edicoes):
@@ -255,18 +285,19 @@ def gera_feed(edicoes):
     for e in edicoes[:EDICOES_NO_FEED]:
         pub = carimbo(e.get("ultimo_dia")) or agora
         link = f"{BASE}/boletim/{e['semana']}.html"
-        desc = (f"{e['periodo']}. {e['total']} manchetes agregadas, "
-                f"{e['br']} no Brasil e {e['total'] - e['br']} no mundo. "
-                "Cada item remete a publicacao de origem.")
+        resumo = (f"{e['periodo']}. {e['total']} manchetes agregadas, "
+                  f"{e['br']} no Brasil e {e['total'] - e['br']} no mundo. "
+                  "Cada item remete a publicacao de origem.")
         itens.append(f"""  <item>
    <title>{E('Boletim ' + e['semana'])}</title>
    <link>{E(link)}</link>
    <guid isPermaLink="true">{E(link)}</guid>
    <pubDate>{E(pub)}</pubDate>
-   <description>{E(desc)}</description>
+   <description>{E(resumo)}</description>
+   <content:encoded><![CDATA[{corpo_feed(e, resumo, link)}]]></content:encoded>
   </item>""")
     xml = f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
  <channel>
   <title>Boletim do Observatorio do Antissemitismo (prototipo)</title>
   <link>{BASE}/boletim/</link>
