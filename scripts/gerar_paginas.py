@@ -28,6 +28,7 @@ def MENU(atual=""):
         ("index.html#preservar", "Preservar evid&ecirc;ncias"),
         ("index.html#denuncie", "Denunciar"),
         ("index.html#legislacao", "Legisla&ccedil;&atilde;o"),
+        ("serie/index.html", "S&eacute;rie"),
         ("acervo.html", "Acervos"),
         ("biblioteca.html", "Biblioteca"),
         ("sobre.html", "Sobre"),

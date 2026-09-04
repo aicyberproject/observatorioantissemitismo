@@ -20,6 +20,8 @@ Este Observatório adota a definição de antissemitismo estabelecida pelo **Sup
 - 📚 **Biblioteca de referência** — Marcos conceituais internacionais, legislação brasileira, leading cases (STF, TEDH, SCOTUS) e centros de pesquisa, em página própria
 - 📋 **Canais de Denúncia** — Links diretos para CONIB, FISESP, SaferNet, Disque 100, MPF, Polícia Federal e órgãos estaduais
 - 🔒 **Preservar Evidências** — Guia prático de preservação de provas digitais com cadeia de custódia, e uma ferramenta de apoio que calcula o resumo SHA-256 dos arquivos **no próprio navegador**
+- 🕯️ **Série: quem enfrentou o antissemitismo** — Dezesseis perfis, um por semana, com fonte pública conferida em cada um. Começa pelos brasileiros. Onde a fonte primária não confirma um dado de ampla circulação, a divergência fica registrada em bloco próprio, em vez de resolvida por escolha
+- 🏛️ **Acervos e memória** — Catálogo de acervos, memoriais e material de referência, com endereço verificado. Registra também o que foi examinado e não recomendado, com o motivo
 - 📬 **Boletim semanal** — Uma edição por semana ISO, gerada do histórico do painel, com feed RSS próprio
 - ⚖️ **Linha do Tempo** — Legislação, jurisprudência e normativos de enfrentamento ao antissemitismo
 
@@ -121,6 +123,27 @@ do disco, não. O painel detecta e se retira, exibindo no lugar os comandos de t
 equivalentes. O guia de quatro etapas continua valendo por si.
 
 O resultado foi conferido contra `sha256sum`: mesmo arquivo, mesmo valor.
+
+## Série e acervos
+
+`scripts/serie_dados.py` guarda os dezesseis perfis; `scripts/gerar_serie.py` emite o índice
+e uma página por perfil, com endereço próprio para citação isolada.
+`scripts/gerar_acervo.py` emite o catálogo de acervos.
+
+Duas regras editoriais que os dois observam:
+
+**Fato muito repetido não é fato verificado.** Cada perfil declara as fontes conferidas.
+Onde a fonte primária não confirma um dado de circulação corrente, a divergência é
+publicada. Números de pessoas salvas variam muito: em um caso as duas cifras divergem *na
+mesma página* da mesma instituição; em outro, a própria fonte declara que o número exato é
+desconhecido. A semana 9 é inteiramente dedicada a um fato de altíssima circulação que não
+se confirma na instituição que o concederia.
+
+**Código 200 não é garantia de conteúdo.** Quatro endereços examinados para o catálogo
+respondiam normalmente e não serviam o que o título prometia. Nenhum entrou como remissão.
+
+Nenhum perfil de pessoa cuja atuação seja objeto de disputa política corrente no Brasil. Em
+dois casos o escopo foi recortado por essa razão, e a página diz isso.
 
 ## Persistência e boletim
 

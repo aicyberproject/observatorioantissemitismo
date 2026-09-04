@@ -102,7 +102,7 @@ def cabeca(titulo, descricao, canonico, extra_css=""):
       <a class="btn-solid" href="../index.html#denuncie">Denunciar</a>
     </div>
   </div>
-  <nav class="wrap nav" aria-label="Navega&ccedil;&atilde;o principal"><a href="../index.html#painel">Painel</a><a href="../indicadores.html">Indicadores</a><a href="index.html" aria-current="page">Boletim</a><a href="../index.html#preservar">Preservar evid&ecirc;ncias</a><a href="../index.html#denuncie">Denunciar</a><a href="../index.html#legislacao">Legisla&ccedil;&atilde;o</a><a href="../acervo.html">Acervos</a><a href="../biblioteca.html">Biblioteca</a><a href="../sobre.html">Sobre</a></nav>
+  <nav class="wrap nav" aria-label="Navega&ccedil;&atilde;o principal"><a href="../index.html#painel">Painel</a><a href="../indicadores.html">Indicadores</a><a href="index.html" aria-current="page">Boletim</a><a href="../index.html#preservar">Preservar evid&ecirc;ncias</a><a href="../index.html#denuncie">Denunciar</a><a href="../index.html#legislacao">Legisla&ccedil;&atilde;o</a><a href="../serie/index.html">S&eacute;rie</a><a href="../acervo.html">Acervos</a><a href="../biblioteca.html">Biblioteca</a><a href="../sobre.html">Sobre</a></nav>
 </header>
 <main>
 """
@@ -123,7 +123,7 @@ RODAPE = """</main>
       </div>
       <div>
         <p class="footer-head">Institucional</p>
-        <nav><a href="../sobre.html">Sobre o Observat&oacute;rio</a><a href="../acervo.html">Acervos e mem&oacute;ria</a><a href="../metodologia.html">Metodologia</a><a href="../taxonomia.html">Taxonomia proposta</a><a href="../privacidade.html">Pol&iacute;tica de privacidade</a><a href="../termos.html">Termos de uso</a><a href="feed.xml">Feed RSS</a><a href="../indicadores.html#dados">Dados abertos</a></nav>
+        <nav><a href="../sobre.html">Sobre o Observat&oacute;rio</a><a href="../serie/index.html">S&eacute;rie: quem enfrentou</a><a href="../acervo.html">Acervos e mem&oacute;ria</a><a href="../metodologia.html">Metodologia</a><a href="../taxonomia.html">Taxonomia proposta</a><a href="../privacidade.html">Pol&iacute;tica de privacidade</a><a href="../termos.html">Termos de uso</a><a href="feed.xml">Feed RSS</a></nav>
       </div>
     </div>
     <p class="footer-legal">&copy; 2026 Observat&oacute;rio do Antissemitismo no Brasil &middot; Prot&oacute;tipo, vers&atilde;o de trabalho &middot; C&oacute;digo e conte&uacute;do sob licen&ccedil;a MIT</p>
