@@ -2,14 +2,13 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-04",
  "semana_iso": "2026-S36",
- "atualizado_em": "2026-09-04T08:42:33+00:00",
+ "atualizado_em": "2026-09-04T08:49:03+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
-  "The Times of Israel: HTTPError",
-  "Supremo Tribunal Federal: HTTPError"
+  "The Times of Israel: HTTPError"
  ],
- "total": 96,
- "no_brasil": 23,
+ "total": 97,
+ "no_brasil": 24,
  "no_mundo": 73,
  "itens": [
   {
@@ -948,6 +947,16 @@
    "fonte": "cnnbrasil.com.br",
    "escopo": "br",
    "publicado_em": "2025-12-20T08:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Confederação Israelita repudia ataques antissemitas contra Fux",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdXd0cjBDZmE4LVk0TVhzZF9YcXVfeXlOQm9tNUx3b0VoamJDOTNYaUFIclB3MnVLQjNfdlFvblFfQjZhZzNYXzF3NUFmQXJpYUdxdGxYNDVwblpKQVMzcTVmaGZDZ2EtZ2xJXy01NVlUS2k3enVTZjJBVWlqT0U0a3NWSFlUeENGdFRUX1BxQnkxQTBxOGt0UnhDZjNvWlZRd29XeEpQZjBOOC15QWVscm53?oc=5",
+   "fonte": "congressoemfoco.com.br",
+   "escopo": "br",
+   "publicado_em": "2025-09-12T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
    "categoria": "Radar por palavras-chave"
