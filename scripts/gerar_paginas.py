@@ -22,19 +22,19 @@ FAIXA = """<div class="proto-bar" role="note">
 
 def MENU(atual=""):
     itens = [
-        ("index.html#painel", "Painel", "painel"),
-        ("indicadores.html", "Indicadores", "indicadores"),
-        ("boletim/index.html", "Boletim", "boletim"),
-        ("index.html#preservar", "Preservar evid&ecirc;ncias", "preservar"),
-        ("index.html#denuncie", "Denunciar", "denunciar"),
-        ("index.html#legislacao", "Legisla&ccedil;&atilde;o", "legislacao"),
-        ("biblioteca.html", "Biblioteca", "biblioteca"),
-        ("metodologia.html", "Metodologia", "metodologia"),
-        ("sobre.html", "Sobre", "sobre"),
+        ("index.html#painel", "Painel"),
+        ("indicadores.html", "Indicadores"),
+        ("boletim/index.html", "Boletim"),
+        ("index.html#preservar", "Preservar evid&ecirc;ncias"),
+        ("index.html#denuncie", "Denunciar"),
+        ("index.html#legislacao", "Legisla&ccedil;&atilde;o"),
+        ("acervo.html", "Acervos"),
+        ("biblioteca.html", "Biblioteca"),
+        ("sobre.html", "Sobre"),
     ]
     return "".join(
-        f'<a href="{h}"{" aria-current=\"page\"" if k == atual else ""}>{r}</a>'
-        for h, r, k in itens)
+        f'<a href="{h}"{" aria-current=\"page\"" if h == atual else ""}>{r}</a>'
+        for h, r in itens)
 
 
 def RODAPE():
@@ -524,7 +524,7 @@ def main():
     feitos = [
         pagina("sobre.html", "Sobre o Observat&oacute;rio",
                "O que e o prototipo do Observatorio, qual definicao adota, de onde vem o conteudo e o que ele nao e.",
-               "sobre", SOBRE),
+               "sobre.html", SOBRE),
         pagina("privacidade.html", "Pol&iacute;tica de privacidade",
                "Este sitio nao coleta dado pessoal. O que fica no navegador, quais terceiros estao envolvidos e seus direitos sob a LGPD.",
                "", PRIVACIDADE),
@@ -533,7 +533,7 @@ def main():
                "", TERMOS),
         pagina("metodologia.html", "Metodologia",
                "Como cada numero foi obtido, sobre que base foi calculado e o que ele nao mede.",
-               "metodologia", METODOLOGIA),
+               "", METODOLOGIA),
         pagina("taxonomia.html", "Taxonomia proposta",
                "Quinze campos para classificar uma ocorrencia. Proposta do Eixo 3, com leitura comparada de cinco jurisdicoes.",
                "", TAXONOMIA),

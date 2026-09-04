@@ -118,6 +118,30 @@
 .tab-kpi .fonte-kpi { font-family: var(--f-mono); font-size: 11.5px; color: #6E655B; }
 .tab-kpi .motivo { font-size: 13.5px; color: #4A443D; max-width: 42ch; }
 
+/* ---------- catalogo de acervos ---------- */
+.acv-lista { margin: 32px 0 0; }
+.acv-item { display: grid; grid-template-columns: 300px 1fr; gap: 32px;
+  padding: 24px 0; border-top: 1px solid var(--rule); }
+.acv-nome { margin: 0; font-family: var(--f-body); font-weight: 600; font-size: 16.5px;
+  line-height: 1.35; color: var(--ink); }
+.acv-oferta { margin: 8px 0 0; font-family: var(--f-body); font-size: 13.5px;
+  line-height: 1.55; color: #5C544B; }
+.acv-idioma { margin: 0 0 10px; font-family: var(--f-mono); font-size: 10.5px;
+  letter-spacing: var(--mono-lsp); text-transform: uppercase; color: #6E655B; }
+.acv-item .body { margin: 0; }
+.acv-item .tl-src { margin-top: 12px; }
+
+.repr-lista { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 30px; margin: 32px 0 0; }
+.repr-item { border-top: 2px solid var(--rust); padding-top: 16px; }
+.repr-nome { margin: 0 0 10px; font-family: var(--f-body); font-weight: 600;
+  font-size: 16px; color: var(--ink); }
+
+@media (max-width: 860px) {
+  .acv-item { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .repr-lista { grid-template-columns: minmax(0, 1fr); }
+}
+
 /* ---------- leitura comparada na taxonomia ---------- */
 .comp-lista { margin: 32px 0 0; }
 .comp-item { display: grid; grid-template-columns: 200px 1fr; gap: 28px;
