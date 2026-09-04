@@ -658,7 +658,7 @@ PRESERVAR = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 
     <ul class="body prs-lista">
       <li><strong>Atendimento primeiro.</strong> <span class="prs-fone">192</span> para o SAMU, <span class="prs-fone">190</span> para a polícia. Aqui a ordem se inverte: preservação vem depois do cuidado.</li>
       <li>Procure <strong>atendimento médico ainda que a lesão pareça pequena</strong>. O registro do atendimento é o que documenta a lesão depois que ela cicatriza.</li>
-      <li>Peça o <strong>exame de corpo de delito</strong> ao registrar a ocorrência. É ele que produz o laudo, e o prazo útil é curto.</li>
+      <li>Peça o <strong>exame de corpo de delito</strong> no momento em que registrar a ocorrência. É ele que produz o laudo da lesão, e é por isso que o atendimento médico e o registro não devem ser deixados para depois.</li>
       <li>Fotografe as <strong>lesões</strong> no dia, e de novo nos dias seguintes: hematoma muda de cor e a evolução é informativa.</li>
       <li>Guarde <strong>roupa e objetos</strong> como estão, sem lavar, em saco de papel e não de plástico.</li>
       <li>Anote <strong>testemunhas</strong> antes de sair do local, se for possível fazê-lo com segurança.</li>
