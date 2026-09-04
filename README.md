@@ -27,25 +27,57 @@ Este Observatório adota a definição de antissemitismo estabelecida pelo **Sup
 
 ## Roadmap
 
+Situação verificada em 04/09/2026 contra a página publicada. O quadro completo,
+com o método de verificação, está em
+`EIXO3/01_ESTADO/PENDENCIAS_Site_2026-09-04.md` no repositório da Iniciativa.
+
+### Concluído
+
 - [x] MVP: Ticker + Denúncias + Preservação + Timeline
 - [x] Marcação de protótipo e retirada da atribuição institucional
 - [x] Área de indicadores e KPIs, com painel de lacunas e dados abertos
 - [x] Persistir instantâneos do painel (instantâneo diário + índice acumulado)
-- [x] Boletim semanal gerado do histórico, com feed RSS próprio
-- [ ] **Decidir a cadência do deploy e confirmar o branch de dados.** O mecanismo de persistência está pronto; o passo que grava no branch `dados` precisa de confirmação antes do primeiro envio
-- [ ] Decidir o envio do boletim por e-mail: serviço externo, lista institucional ou apenas RSS. Depende de política de privacidade publicada
+- [x] Boletim semanal gerado do histórico, com feed RSS próprio em `boletim/feed.xml`
+- [x] **Cadência do deploy decidida e branch de dados confirmado.** Ativo desde 04/09/2026: doze coletas diárias, gravação em `dados`
+- [x] Metodologia e taxonomia como páginas próprias e citáveis
+- [x] Política de privacidade e termos de uso publicados
+- [x] Série editorial semanal, com dezesseis perfis de endereço próprio
+- [x] Página de acervos e memória, com a curadoria declarada
+- [x] Natureza e grau de verificação de cada número, no modelo ODIHR
+
+### Aberto: decisões de coordenação
+
+- [ ] **Situação institucional e endereço definitivo.** Trava divulgação, indexação, `sitemap.xml`, bilinguismo e lista institucional de boletim
+- [ ] **Envio do boletim por e-mail:** serviço externo, lista institucional ou apenas RSS. O bloqueio anterior caiu com a publicação da política de privacidade
+
+### Aberto: conteúdo
+
+- [ ] Canal de contato e procedimento de errata. Hoje não há nenhum endereço de contato no sítio, e sem ele um leitor que encontre erro num verbete ou num indicador não tem o que fazer
+- [ ] Glossário. A fonte está pronta em `EIXO3/00_CONFIG/CONVENCOES_E_GLOSSARIO.md`
+- [ ] Agenda de datas
 - [ ] Confirmar com CONIB e FISESP o endereço dos canais dedicados de denúncia
 - [ ] Conferir no Relatório CONIB 2025 integral os valores hoje extraídos do Sumário Executivo
 - [ ] Verificar na publicação primária os números da SaferNet, do MPF, da ADL e da FRA
+- [ ] Ficha de fonte por indicador: faltam método de coleta, cobertura e data de extração como campos próprios
+- [ ] Série versionada com caminho fixo por edição e resumo SHA-256 por edição
+
+### Aberto: técnico
+
+- [ ] Unificar cabeçalho e rodapé num módulo único. Há cinco definições independentes, e os rodapés divergem entre si
+- [ ] Busca e filtro por período no painel. Implementável desde que o histórico passou a acumular
+- [ ] Estado dos filtros refletido na URL, para que um recorte seja compartilhável
 - [ ] Resolver o redirecionamento dos itens do radar até a URL final do veículo
-- [ ] Busca e filtro por período no painel
-- [ ] Página de metodologia autônoma, política de privacidade e canal de errata
 - [ ] Migração incremental para páginas em pastas (`/preservar/`, `/denunciar/`)
-- [ ] Feed RSS próprio
-- [ ] Newsletter semanal
-- [ ] Glossário
-- [ ] Agenda de eventos
-- [ ] Bilinguismo (PT/EN)
+- [ ] Auditoria de acessibilidade por ferramenta e por leitor de tela
+- [ ] Bilinguismo (PT/EN). Depende do endereço definitivo
+- [ ] `sitemap.xml` e dados estruturados JSON-LD. Só fazem sentido depois de a página sair do `noindex`
+
+### Frentes da página de preservação, na ordem sugerida
+
+- [ ] Seletor de tipo de incidente, com o roteiro correspondente. Não recolhe dado
+- [ ] Checklist de medidas de emergência dos primeiros 60 minutos. Não recolhe dado
+- [ ] Formulário de qualificação da notícia-crime. Recolhe dado, e por isso é decisão à parte
+- [ ] Geração e exportação de dossiê preliminar. Mesmo caso
 
 ## Tecnologia
 
