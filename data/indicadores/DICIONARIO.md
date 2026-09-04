@@ -1,7 +1,13 @@
 # Dicionário de campos e procedência
 
 **Protótipo do Observatório do Antissemitismo no Brasil — Eixo 3 (Segurança e Monitoramento).**
-Versão de trabalho, sem caráter oficial. Última revisão em 30 de agosto de 2026.
+Versão de trabalho, sem caráter oficial. Última revisão em 4 de setembro de 2026.
+
+> **Nota de data.** A versão anterior deste arquivo declarava revisão em 30 de agosto de
+> 2026. A data estava errada: o relógio do ambiente de trabalho estava quatro dias
+> atrasado, e o desvio foi herdado pelos carimbos de vários arquivos deste acervo. A data
+> real daquela revisão é 3 de setembro de 2026. O desvio está documentado na auditoria do
+> Eixo 3.
 
 Nenhum dado aqui é produzido pelo Observatório. Todos vêm de relatórios publicados
 por terceiros. A autoridade é sempre a publicação de origem, citada no campo `fonte`.
@@ -12,6 +18,34 @@ Fonte primária da série brasileira, pública e conferida na íntegra:
 Não há, em nenhum arquivo, dado pessoal, denúncia individualizada, identificação de
 vítima, denunciante ou investigado, nem informação sob sigilo. Todos os valores são
 agregados.
+
+## Ficha da fonte
+
+Cinco campos, na forma padrão do gênero. Os dois primeiros já existiam como campo nos
+arquivos; os três últimos passaram a ser declarados aqui e na página de indicadores.
+
+### Série brasileira — CONIB, FISESP e Departamento de Segurança Comunitária
+
+| Campo | Valor |
+|---|---|
+| Procedência | `conferido`. Checado contra o Relatório de Antissemitismo no Brasil 2025, integral e público, linkado acima. |
+| Base de cálculo | Declarada por recorte no campo `base_de_calculo`, quando há percentual. |
+| Método de coleta | Denúncia recebida em canal próprio das entidades, com triagem e validação posterior por equipe. Mede denúncia recebida, e não incidência: não há busca ativa nem varredura automatizada. |
+| Cobertura | Nacional, com localização declarada por quem denuncia. Em 2025, 462 dos 989 casos validados (46,7%) não trazem estado informado. |
+| Data de extração | 3 de setembro de 2026. |
+
+### Resposta institucional — SaferNet, MPF, e referência internacional
+
+| Campo | Valor |
+|---|---|
+| Procedência | `citado`. Publicação primária não consultada nesta versão. |
+| Base de cálculo | Declarada quando há percentual. |
+| Método de coleta | **Não declarado.** O levantamento de origem não descreve como a apuração foi feita. |
+| Cobertura | **Não declarada.** Nenhum recorte tem categoria específica de antissemitismo; o neonazismo é o proxy mais próximo. |
+| Data de extração | Agosto de 2026, do levantamento reunido para o Eixo 3. |
+
+Onde o campo não é conhecido, esta ficha declara que não é, em vez de omitir a linha.
+Ficha que só mostra o que se sabe induz a supor que o resto foi apurado.
 
 ## Campo `procedencia`
 

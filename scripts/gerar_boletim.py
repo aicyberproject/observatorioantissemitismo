@@ -12,7 +12,10 @@ prototipo escolher o que e mais relevante.
 
     python3 scripts/gerar_boletim.py
 """
+import csv
+import hashlib
 import html
+import io
 import json
 import pathlib
 import sys
@@ -128,6 +131,8 @@ def gera_edicao(sem, dados, anterior, seguinte):
         nav.append(f'<a href="{anterior}.html">&larr; Edi&ccedil;&atilde;o anterior</a>')
     if seguinte:
         nav.append(f'<a href="{seguinte}.html">Edi&ccedil;&atilde;o seguinte &rarr;</a>')
+    resumo = resumo_edicao(itens)
+    grava_planilha(sem, itens)
     falhas = ""
     if dados["falhas"]:
         falhas = ('<p class="coleta-falhas" style="margin-top:22px">'
@@ -145,6 +150,20 @@ def gera_edicao(sem, dados, anterior, seguinte):
   {bloco_itens(wo, "No mundo")}
   <p class="bol-nav">{" &nbsp;·&nbsp; ".join(nav)}</p>
 </section>
+<section class="wrap section" style="padding-top: clamp(10px, 2vw, 24px)">
+  <div class="fic-edicao">
+    <p class="eyebrow">Proced&ecirc;ncia desta edi&ccedil;&atilde;o</p>
+    <h2 class="h2" style="max-width: 26ch">Como citar e como conferir</h2>
+    <p class="body" style="margin: 18px 0 0; max-width: 72ch">A p&aacute;gina acima mostra as {POR_ESCOPO} manchetes mais recentes de cada recorte. A <strong>planilha</strong> ao lado traz as <strong>{len(itens)}</strong> da edi&ccedil;&atilde;o inteira, que &eacute; a base do resumo abaixo.</p>
+    <dl class="fic-lista" style="margin-top: 20px">
+      <div><span class="fic-k">Endere&ccedil;o permanente</span><p class="fic-v"><code>{BASE}/boletim/{E(sem)}.html</code></p></div>
+      <div><span class="fic-k">Planilha</span><p class="fic-v"><a href="{E(sem)}.csv">{E(sem)}.csv</a> &middot; {len(itens)} itens, campos <code>{" · ".join(CAMPOS_CSV)}</code></p></div>
+      <div><span class="fic-k">Resumo SHA-256</span><p class="fic-v"><code class="bol-hash">{resumo}</code></p></div>
+      <div><span class="fic-k">Per&iacute;odo</span><p class="fic-v">{E(periodo)}</p></div>
+    </dl>
+    <p class="step-note" style="margin: 18px 0 0; max-width: 72ch">O resumo <strong>n&atilde;o &eacute; do arquivo HTML</strong>, que muda quando o menu muda. &Eacute; do conte&uacute;do da edi&ccedil;&atilde;o, na forma canon&iacute;ca descrita no <a href="https://github.com/aicyberproject/observatorioantissemitismo#s%C3%A9rie-versionada-do-boletim" target="_blank" rel="noopener">README</a>: uma linha por item, campos separados por tabula&ccedil;&atilde;o, linhas em ordem alfab&eacute;tica, uma quebra ao fim. Qualquer pessoa pode recalcular a partir da planilha e conferir.</p>
+  </div>
+</section>
 """
     pag = cabeca(f"{titulo} · Protótipo do Observatório",
                  f"Boletim semanal do Observatório: {periodo}.",
@@ -154,7 +173,46 @@ def gera_edicao(sem, dados, anterior, seguinte):
     return {"semana": sem, "periodo": periodo, "total": len(itens),
             "br": len([i for i in itens if i.get("escopo") == "br"]),
             "ultimo_dia": dias[-1] if dias else None,
+            "resumo_sha256": resumo,
             "itens_br": br, "itens_wo": wo}
+
+
+# Serie versionada: caminho fixo por edicao, planilha ao lado e resumo SHA-256
+# por edicao. Item da secao 11.3 da auditoria.
+#
+# O resumo NAO e do arquivo HTML. Seria inutil: o HTML carrega cabecalho, rodape
+# e navegacao, que mudam quando se acrescenta um item de menu, e o resumo mudaria
+# sem que a edicao tivesse mudado. O resumo e do CONTEUDO da edicao, na forma
+# canonica abaixo, que e a mesma coisa que a planilha publicada ao lado.
+#
+# A regra e publicada no README para que qualquer pessoa possa recalcular a
+# partir do CSV e conferir. Resumo que ninguem consegue reproduzir nao serve de
+# nada.
+
+CAMPOS_CSV = ["escopo", "publicado_em", "fonte", "via", "titulo", "link"]
+
+
+def _linhas_canonicas(itens):
+    """Uma linha por item, campos na ordem de CAMPOS_CSV, separados por tabulacao.
+    Ordenacao estavel e independente da ordem de coleta."""
+    linhas = []
+    for it in itens:
+        linhas.append("\t".join(str(it.get(c) or "") for c in CAMPOS_CSV))
+    return sorted(linhas)
+
+
+def resumo_edicao(itens):
+    texto = "\n".join(_linhas_canonicas(itens)) + "\n"
+    return hashlib.sha256(texto.encode("utf-8")).hexdigest()
+
+
+def grava_planilha(sem, itens):
+    buf = io.StringIO(newline="")
+    w = csv.writer(buf, lineterminator="\n")
+    w.writerow(CAMPOS_CSV)
+    for linha in _linhas_canonicas(itens):
+        w.writerow(linha.split("\t"))
+    (SAIDA / f"{sem}.csv").write_text(buf.getvalue(), encoding="utf-8")
 
 
 def gera_indice(edicoes):
@@ -163,7 +221,8 @@ def gera_indice(edicoes):
             f'<li class="bol-edicao"><a href="{E(e["semana"])}.html">'
             f'<span class="bol-sem">{E(e["semana"])}</span>'
             f'<span class="bol-per">{E(e["periodo"])}</span>'
-            f'<span class="bol-tot">{e["total"]} manchetes</span></a></li>'
+            f'<span class="bol-tot">{e["total"]} manchetes</span>'
+            f'<span class="bol-resumo">{E(e["resumo_sha256"][:16])}&hellip;</span></a></li>'
             for e in edicoes)
         lista = f'<ol class="bol-edicoes">{linhas}</ol>'
     else:

@@ -308,7 +308,61 @@ def tabela(cab, linhas, cls="tab-dados"):
     return "".join(h)
 
 
-def figura(titulo, subtitulo, svg, tab, nota, legenda=None, id_=None, nat=None):
+# Ficha de fonte por indicador. A varredura de observatorios comparaveis apurou
+# que a ficha padrao do genero tem cinco campos. Dois ja existiam aqui, o selo de
+# procedencia e a base de calculo. Estes tres faltavam.
+#
+# Onde o campo nao e conhecido, a ficha DECLARA que nao e, em vez de omitir a
+# linha. Lacuna e achado, e uma ficha que so mostra o que se sabe induz a supor
+# que o resto foi apurado.
+
+FICHA_COMUNITARIA = [
+    ("Método de coleta",
+     "Denúncia recebida em canal próprio das entidades, com triagem e validação "
+     "posterior por equipe. Mede denúncia recebida, e não incidência: não há busca "
+     "ativa nem varredura automatizada, e só entra o que alguém relatou."),
+    ("Cobertura",
+     "Nacional, com a localização declarada por quem denuncia. Em 2025, 462 dos 989 "
+     "casos validados (46,7%) não trazem estado informado. A distribuição geográfica "
+     "de 2025 não é comparável com a de 2024: mudou a forma de captar a localização."),
+    ("Data de extração",
+     "3 de setembro de 2026, do Relatório de Antissemitismo no Brasil 2025, de CONIB, "
+     "FISESP e Departamento de Segurança Comunitária, conferido contra o documento "
+     "integral, que é público."),
+]
+
+FICHA_OFICIAL = [
+    ("Método de coleta", None,
+     "Não declarado nesta versão. A publicação primária não foi consultada, e o "
+     "levantamento de origem não descreve como a apuração foi feita."),
+    ("Cobertura", None,
+     "Não declarada. Nenhum dos recortes tem categoria específica de antissemitismo: "
+     "o neonazismo é o proxy mais próximo, e a categoria de intolerância religiosa "
+     "absorve o antissemitismo sem distingui-lo."),
+    ("Data de extração", None,
+     "Agosto de 2026, do levantamento reunido para o Eixo 3. Os identificadores "
+     "administrativos indicados naquele levantamento não foram confirmados e por "
+     "isso não estão transcritos."),
+]
+
+
+def ficha(campos):
+    if not campos:
+        return ""
+    linhas = []
+    for campo in campos:
+        if len(campo) == 3:
+            rot, _, val = campo
+            classe = ' class="fic-v fic-vazio"'
+        else:
+            rot, val = campo
+            classe = ' class="fic-v"'
+        linhas.append(f'<div><span class="fic-k">{rot}</span><p{classe}>{val}</p></div>')
+    return (f'<details class="fic"><summary>Ficha da fonte</summary>'
+            f'<div class="fic-lista">{"".join(linhas)}</div></details>')
+
+
+def figura(titulo, subtitulo, svg, tab, nota, legenda=None, id_=None, nat=None, fic=None):
     leg = ""
     if legenda:
         itens = "".join(
@@ -326,6 +380,7 @@ def figura(titulo, subtitulo, svg, tab, nota, legenda=None, id_=None, nat=None):
   <div class="viz-wrap">{svg}</div>
   <details class="tabela"><summary>Ver os números em tabela</summary>{tab}</details>
   <p class="fonte">{nota}</p>
+  {ficha(fic)}
 </figure>"""
 
 
@@ -444,7 +499,7 @@ def main():
         tabela(["Mês", "2022", "2023", "2024"], linhas),
         f'Fonte: Relatório de Antissemitismo no Brasil 2024 — CONIB, FISESP e DSC. {selo("verificado")} '
         f'A série mensal de 2025 não consta do {LINK25} e por isso não foi incluída.',
-        id_="serie-mensal", nat="comunitaria"))
+        id_="serie-mensal", nat="comunitaria", fic=FICHA_COMUNITARIA))
 
     # ---------------- colunas anuais ----------------
     linhas = [[str(a), FMT(t), FMT(on), FMT(off), f"{on/t*100:.1f}%"] for a, t, on, off in ANUAL]
@@ -457,7 +512,7 @@ def main():
         'O total de 2023 aparece como 1.410 no relatório de 2024 e como 1.412 no de 2025. Adotou-se o valor revisado. '
         'A própria fonte registra que 2025 permanece 149,1% acima da linha de base de 2022.',
         legenda=[("Online", S1), ("Offline", S2)],
-        id_="serie-anual", nat="comunitaria"))
+        id_="serie-anual", nat="comunitaria", fic=FICHA_COMUNITARIA))
 
     # ---------------- triagem ----------------
     linhas = [[r, FMT(v), f"{v/1428*100:.1f}%"] for r, v in TRIAGEM_2025]
@@ -471,7 +526,7 @@ def main():
         'A taxa de descarte em 2025 foi de 30,74%. Em 2024 o canal recebeu 3.167 denúncias brutas e '
         'descartou 43,55% delas: menos registros em duplicidade e menos registros impulsionados pelo '
         'clima de crise explicam parte da queda no volume validado.',
-        id_="triagem", nat="comunitaria"))
+        id_="triagem", nat="comunitaria", fic=FICHA_COMUNITARIA))
 
     # ---------------- geografia ----------------
     tot25 = sum(v for _, v in GEO_2025)
@@ -485,7 +540,7 @@ def main():
         f'Fonte: {LINK25}. {selo("verificado")} '
         '<strong>Não comparar com 2024.</strong> Em 2024, São Paulo respondia por 900 ocorrências (50,3%) e o grupo sem definição por 132 (7,4%). '
         'A inversão entre os dois anos reflete mudança na forma de captar a localização, e não migração do fenômeno.',
-        id_="geografia", nat="comunitaria"))
+        id_="geografia", nat="comunitaria", fic=FICHA_COMUNITARIA))
 
     # ---------------- plataformas ----------------
     linhas = [[r, FMT(v), f"{v/800*100:.1f}%"] for r, v in PLATAFORMA_2025]
@@ -499,7 +554,7 @@ def main():
         '<strong>Bases diferentes entre anos.</strong> Em 2024 o relatório apurou X com 402 ocorrências (48%) e Instagram com 314 (37%), '
         'mas sobre uma base de 846 casos classificados em redes sociais, e não sobre o total de 1.310 ocorrências online. '
         'A troca de liderança entre X e Instagram é real, e a magnitude não é comparável.',
-        id_="plataformas", nat="comunitaria"))
+        id_="plataformas", nat="comunitaria", fic=FICHA_COMUNITARIA))
     out.append("</div>")
 
     # ---------------- resposta institucional ----------------
@@ -519,7 +574,7 @@ def main():
         f'Fonte: SaferNet Brasil e Ministério Público Federal, Report System. {selo("citado")} '
         'Os números constam do levantamento reunido para o Eixo 3 em agosto de 2026. A publicação primária não foi consultada nesta versão do protótipo, '
         'e os identificadores administrativos indicados no levantamento seguem sem confirmação.',
-        id_="funil", nat="oficial"))
+        id_="funil", nat="oficial", fic=FICHA_OFICIAL))
 
     linhas = [[r, FMT(d), FMT(i), f"{i/d*100:.2f}%"] for r, d, i in INSTAURACAO]
     barras = [(r, round(i / d * 10000) / 100) for r, d, i in INSTAURACAO]
@@ -532,7 +587,7 @@ def main():
         tabela(["Tema", "Denúncias", "Instaurações", "Taxa"], linhas),
         f'Fonte: SaferNet Brasil e MPF. {selo("citado")} '
         'A categoria de intolerância religiosa é genérica: absorve o antissemitismo sem distingui-lo, o que é exatamente a lacuna que o Eixo 3 documenta.',
-        id_="instauracao", nat="oficial"))
+        id_="instauracao", nat="oficial", fic=FICHA_OFICIAL))
     out.append("</div></section>")
 
     # ---------------- benchmark internacional ----------------

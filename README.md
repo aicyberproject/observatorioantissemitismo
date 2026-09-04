@@ -317,6 +317,52 @@ estático não faz. Depende de serviço externo ou de lista institucional. O pro
 coleta endereço de e-mail** e a assinatura é pelo feed RSS, que funciona em qualquer
 leitor e em vários clientes de e-mail, sem que este protótipo guarde endereço de ninguém.
 
+## Série versionada do boletim
+
+Cada edição tem três coisas ao lado do texto, para poder ser citada e conferida:
+
+| | |
+|---|---|
+| **Endereço permanente** | `boletim/<semana-ISO>.html`, que não muda |
+| **Planilha** | `boletim/<semana-ISO>.csv`, com a edição inteira e não apenas as manchetes exibidas |
+| **Resumo SHA-256** | do conteúdo da edição, na forma canônica descrita abaixo |
+
+A página mostra as dez manchetes mais recentes de cada recorte; o CSV traz todas as da
+semana. É o CSV que é a base do resumo.
+
+### A forma canônica, e por que não é o hash do HTML
+
+O resumo **não** é do arquivo HTML. Seria inútil: o HTML carrega cabeçalho, menu e rodapé,
+que mudam quando um item novo entra na navegação, e o resumo mudaria sem que a edição
+tivesse mudado. O resumo é do conteúdo.
+
+A forma canônica é esta:
+
+1. Um registro por manchete, com os campos `escopo`, `publicado_em`, `fonte`, `via`,
+   `titulo`, `link`, nessa ordem, separados por tabulação. Campo vazio entra vazio.
+2. Os registros em ordem alfabética crescente, o que torna o resumo independente da
+   ordem em que a coleta encontrou os itens.
+3. Os registros unidos por `\n`, com um `\n` ao final.
+4. `SHA-256` desse texto em UTF-8.
+
+### Como conferir
+
+Da planilha publicada, sem depender deste repositório:
+
+```bash
+python3 - <<'EOF'
+import csv, hashlib
+with open("2026-S36.csv", encoding="utf-8", newline="") as f:
+    r = csv.reader(f); next(r)
+    linhas = ["\t".join(x) for x in r]
+print(hashlib.sha256(("\n".join(sorted(linhas)) + "\n").encode("utf-8")).hexdigest())
+EOF
+```
+
+O valor deve bater com o publicado na própria edição. Resumo que ninguém consegue
+reproduzir não serve de nada, e é por isso que a regra está escrita aqui e não só no
+código.
+
 ## Página de indicadores
 
 `indicadores.html` **não é editada à mão**: é gerada por `scripts/gerar_indicadores.py`,

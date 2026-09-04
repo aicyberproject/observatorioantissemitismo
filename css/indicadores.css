@@ -405,3 +405,49 @@
   color: inherit;
 }
 .glo-indice a:hover, .glo-indice a:focus-visible { border-color: var(--ink); }
+
+/* Ficha de fonte por indicador. Prática padrão do gênero, apurada na varredura
+   de observatórios comparáveis: o selo de procedência e a base de cálculo já
+   existiam; método de coleta, cobertura e data de extração faltavam como campos
+   próprios. Onde o campo não é conhecido, a ficha diz que não é, em vez de
+   omitir a linha. */
+.fic { margin: 14px 0 0; border-top: 1px solid var(--rule-2); }
+.fic > summary {
+  padding: 10px 0 0;
+  cursor: pointer;
+  font-family: var(--f-mono);
+  font-size: 11px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.fic > summary:hover { color: var(--ink); }
+.fic-lista { margin: 12px 0 4px; display: grid; gap: 10px; }
+.fic-lista > div {
+  display: grid;
+  gap: 2px 14px;
+  grid-template-columns: minmax(0, 148px) minmax(0, 1fr);
+}
+@media (max-width: 560px) { .fic-lista > div { grid-template-columns: 1fr; } }
+.fic-k {
+  font-family: var(--f-mono);
+  font-size: 11px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  padding-top: 2px;
+}
+.fic-v { margin: 0; font-size: 14px; line-height: 1.55; color: var(--ink-2); }
+.fic-vazio { font-style: italic; }
+
+/* Procedência da edição do boletim: endereço permanente, planilha e resumo. */
+.fic-edicao { border-top: 2px solid var(--ink); padding-top: clamp(24px, 3vw, 34px); }
+.fic-edicao .fic-lista > div { grid-template-columns: minmax(0, 176px) minmax(0, 1fr); }
+@media (max-width: 620px) { .fic-edicao .fic-lista > div { grid-template-columns: 1fr; } }
+.bol-hash { word-break: break-all; font-size: 12px; }
+.bol-resumo {
+  font-family: var(--f-mono);
+  font-size: 11px;
+  letter-spacing: .04em;
+  color: var(--ink-3);
+}
