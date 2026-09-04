@@ -2,15 +2,85 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-04",
  "semana_iso": "2026-S36",
- "atualizado_em": "2026-09-04T17:32:14+00:00",
+ "atualizado_em": "2026-09-04T20:40:03+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 119,
- "no_brasil": 34,
- "no_mundo": 85,
+ "total": 130,
+ "no_brasil": 38,
+ "no_mundo": 92,
  "itens": [
+  {
+   "titulo": "How I learned to stop worrying and love my Jewish curls",
+   "link": "https://forward.com/forward-newsletters/looking-forward/848720/jewish-hair-curly-straightening-frizz/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T20:03:23+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Jewish institutions spend record-high $1 billion on security",
+   "link": "https://www.jta.org/2026/09/04/ny/jewish-institutions-spend-record-high-1-billion-on-security",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T19:29:42+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Comenda Odé Kayodê celebra resistência e combate ao racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOakY3LXpVbTdPajlkV0o5dGpDTVJhX1ZOMzZuWnZILTUxLUFxR1JNRTBKVk01YXlQbEVUX3ZldmtPbUNkYWx5RTU2ajNyVVBfcVZXRjAwVDlpcUFDcFlnOXk1TktlOHF3QWFYNVVUV3JNd1YyRGZaOFk0Q082c3lWaVR6eG1EZi1FZ1ZfZVdqUUR2Wmt6SzlSWk5kNmlQTFIxZXJMN2FMSjVfODRSVk9VdkZyNjNDU19uTjNTZGZmQm1COTFLYXplRnZJT1ZtZGVJ?oc=5",
+   "fonte": "Termômetro da Política",
+   "escopo": "br",
+   "publicado_em": "2026-09-04T19:07:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Jim Joseph Foundation Releases Unprecedented Research on Jewish Young Adults",
+   "link": "https://jewishjournal.com/community/391866/jim-joseph-foundation-releases-unprecedented-research-on-jewish-young-adults/",
+   "fonte": "Jewish Journal",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T18:48:53+00:00",
+   "via": null,
+   "feed": "jj",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Hillel International, Repair the World Expand Popular Fellowship for Jewish and Non-Jewish Students",
+   "link": "https://www.algemeiner.com/2026/09/04/hillel-international-repair-the-world-expand-popular-fellowship-jewish-non-jewish-students/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T18:20:35+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "At ‘Death to Zionism’ Protest in Switzerland, Demonstrators Praise Hamas, Call for Israel’s Destruction",
+   "link": "https://combatantisemitism.org/cam-news/at-death-to-zionism-protest-in-switzerland-demonstrators-praise-hamas-call-for-israels-destruction/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T18:12:04+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Un grupo rabínico acusa a unos artistas judíos de «encubrir el antisemitismo» en la defensa de Mark Ruffalo",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQb0c2UE82NDVTUmtMbHIyLXdXNlJYVGdUWjdvcWpDZ2E1YTBuOGFzbHFqZzBnZmppb19jYTItN1g3akcxaHFic2tyUjhJaXFXZmtOeDJyX0xMWHZyeXN1Z1ppTkIxWUVzMUt2RFdtVGhGb2lRMkNfOXUxZVNMZjJJQ2NCU3lfSlZaZ2tJZWNVcmpOcEN1LWU5b3lDV1dZVFFnX0ppM0cyNzUtWmF1cWk4NGxDNEJKN0UxU3FUbHJ2MVNaMXpXb2lN0gHHAUFVX3lxTFBvRzZQTzY0NVNSa0xscjItd1c2UlhUZ1RaN29xakNnYTVhMG44YXNscWpnMGdmamlvX2NhMi03WDdqRzFocWJza3JSOElpcVdma054MnJfTExYdnJ5c3VnWmlOQjFZRXMxS3ZEV21UaEZvaVEyQ185dTFlU0xmMklDY0JTeV9KVlpna0llY1Vyak5wQ3UtZTlveUNXV1lUUWdfSmkzRzI3NS1aYXVxaTg0bEM0Qko3RTFTcVRscnYxU1oxeldvaU0?oc=5",
+   "fonte": "Fox News",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T17:29:10+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Spanish far-right activists use Nazi-style salutes in anti-migrant protests",
    "link": "https://www.jta.org/2026/09/04/global/spanish-far-right-activists-use-nazi-style-salutes-in-anti-migrant-protests",
@@ -842,6 +912,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "California lawmakers pass bills to address antisemitism, deem ‘Jewish’ an ethnicity and protect religious observance",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUUVtR0R3N2tSYmVOUXE5eTRQWE5RR1RYM0lodTFHS3JJZGdDWk9SYVFuLVlmb0hiYzBCX3VrQm5YUFRTZmQtMENpUWNaV1NOZmlseGJPSm5PQk9hZFB0WTZvdmh6M0dCMDVxdzhsSHY3SDgydkp6dlhRT2pwbVQ1TzFIeUppd0xYZlN3Zkx3RFBlRERwS281TDM5NUlyTTRRSGhJTWtkNTFBVEFTZXFWTHpXalBYaGxBVGNXUDFQWlFyUG9nMF9uYV8yLW84dU5vWE5DY2cyNlhOVkNZYktoZEMzS3NUOUdF?oc=5",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-01T10:52:30+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Vance courts Jewish Republicans, but leaves Tucker Carlson ties unanswered",
    "link": "https://www.jta.org/2026/09/01/politics/vance-courts-jewish-republicans-but-leaves-tucker-carlson-ties-unanswered",
    "fonte": "Jewish Telegraphic Agency",
@@ -1022,6 +1102,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "STF mantém condenação de vereador por crime de ódio",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZW9XaDZkcHE3MVNxWXJ2RkRfemljS2ZGenczZGo2cERqY05wWUd4LVZDbERJWnpoblFZd0tPeERTZWFTMjZ4dWczaWxMYWJvQjlDXzB5ZnllNFNDU0FQVGdRZFdkVG4xYy1LMERFQVY2czZMQWs4a0otOG0wUFBZcG5ET2NFSU5mOGlYRW9NazJFSkNxLUFWTEtxT0RkblQzRk5Cbm9kQ0tLMnptN1ZOdWZfcFc4YVY0VENEWNIBvAFBVV95cUxNb1RDQm9CWjUyd1p3Nm9DeXRpM1dDNGRiV2NNM0ljaDQ4QlZacGVzN3JUUGEzU2VGUkVMVElOeXYzUGZsb3hsMlR6WFdCcW5WZWdKZkhvTUZHQW5JaHJwVVpqcFFLXzZwVUVoZEVZdTJEbXpaQkt3bXpyeUhzOGUwZ2FlWW9oZ2I3bGd3dzlXdzFkbncxR19TLU1QN3YxaDdCNEx4bEljTGJNbHBLblFod1FsZllIRHl5VHYtYg?oc=5",
+   "fonte": "Campo Grande News",
+   "escopo": "br",
+   "publicado_em": "2026-07-20T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Critical Theory, October 7, and the Critique of Antisemitism and Sexism",
    "link": "https://fathomjournal.org/critical-theory/",
    "fonte": "Fathom Journal",
@@ -1067,6 +1157,16 @@
    "fonte": "Poder360",
    "escopo": "br",
    "publicado_em": "2026-07-12T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "PF encontra R$ 800 mil com alvo de operação que mira ex-prefeito e ex-chefe da Polícia do Rio",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbGdjZl80Q3piMkg1ZThuRnEySTdrXzlnRVdYX2JJTFNIaDlleGJhbnNMNVdVcnlrZllqSXByVjFQRUtzRlh1UVlLQ29ESmRfeGgtV3F2UG1YWVk2Y1JleWpPR2lsdU8wRkRVclBkaC1HNTA1WHpBel94SHphNGJPZy0xblBXWVRXbmNwMXhyOE5RQV9hSWtVUEpXVjdneGtLYmw4M1hHWTJDdkcxN202b3Jjb3NkRS1tWjJjMklwZERjUTZtSU9nT21B?oc=5",
+   "fonte": "Estadão",
+   "escopo": "br",
+   "publicado_em": "2026-07-07T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
    "categoria": "Radar por palavras-chave"
@@ -1145,6 +1245,16 @@
    "titulo": "STF condena advogado por praticar antissemitismo",
    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNV0NhX2FKTkxnTThCRDRVVF9RRFpjUVFFR0t3V0lBZjlVVmQ0RDdNU2RieFRET05kMjJENVFTSXpQOWIyS3dzbXNlWG14VURLR3RHZGdRbDhjMEFSeHBXek1aMm1ZaGlPbHRWQXRsTmJ6bFZ4MXNpalZ3NjRERTNwcVJtQ1EzUUpVMjc0?oc=5",
    "fonte": "Midiamax",
+   "escopo": "br",
+   "publicado_em": "2026-01-16T08:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Não pode haver álibi para o racismo",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeHNKWXBBeHZ3VUJ1RGhUU203dF8zR1VxNUV4LWw5OTRZNVh5UmJfMGZlc2hRRG0xTHd0ZkZfLUwwZ091bVF2cm95WWJUNGFmemNqOHFnSUg1ZDNlbkZoYk5IU3dfSjBzM1JlQ1h6bzhIMFJFTzBsZDNaRzhaWnVkSzBNR2NCQ0pMeTFMUE1wdEZCWE9lYkJJdXNmOXhrd9IBrAFBVV95cUxPamRYS2tTZjZYQjYwWU5IRF9zOWhsbS1YTnV6eWVsdFV4NFM2NkxrTmkwNzhjeW5WTVZSaEpnVThuYWcwMGM0LWI0eDlfcnM5RkQ1Y2NsMTh5a0tQejdmdUcyUXhSbEE4ZGluQzd1REJvWGJ5bzdxdXB2TFBOZXNvZTk1RDdiNzNtUGlkNzBsamZ6cnN4NGo5dWtrSEQ3VXA2ejVuRXA0ck5sYjB6?oc=5",
+   "fonte": "O GLOBO",
    "escopo": "br",
    "publicado_em": "2026-01-16T08:00:00+00:00",
    "via": "Google Notícias",
