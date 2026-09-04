@@ -29,6 +29,7 @@ def MENU(atual=""):
         ("index.html#denuncie", "Denunciar", "denunciar"),
         ("index.html#legislacao", "Legisla&ccedil;&atilde;o", "legislacao"),
         ("biblioteca.html", "Biblioteca", "biblioteca"),
+        ("metodologia.html", "Metodologia", "metodologia"),
         ("sobre.html", "Sobre", "sobre"),
     ]
     return "".join(
@@ -52,7 +53,7 @@ def RODAPE():
       </div>
       <div>
         <p class="footer-head">Institucional</p>
-        <nav><a href="sobre.html">Sobre o Observat&oacute;rio</a><a href="privacidade.html">Pol&iacute;tica de privacidade</a><a href="termos.html">Termos de uso</a><a href="boletim/feed.xml">Feed RSS</a><a href="indicadores.html#dados">Dados abertos</a></nav>
+        <nav><a href="sobre.html">Sobre o Observat&oacute;rio</a><a href="metodologia.html">Metodologia</a><a href="taxonomia.html">Taxonomia proposta</a><a href="privacidade.html">Pol&iacute;tica de privacidade</a><a href="termos.html">Termos de uso</a><a href="boletim/feed.xml">Feed RSS</a><a href="indicadores.html#dados">Dados abertos</a></nav>
       </div>
     </div>
     <p class="footer-legal">&copy; 2026 Observat&oacute;rio do Antissemitismo no Brasil &middot; Prot&oacute;tipo, vers&atilde;o de trabalho &middot; C&oacute;digo e conte&uacute;do sob licen&ccedil;a MIT</p>
@@ -335,6 +336,190 @@ TERMOS = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 6vw
 """
 
 
+# ---------------------------------------------------------------------------
+# Metodologia
+# ---------------------------------------------------------------------------
+
+METODOLOGIA = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 6vw, 80px); padding-bottom: clamp(10px, 2vw, 20px)">
+  <p class="crumb"><a href="index.html">Observat&oacute;rio</a> &nbsp;/&nbsp; Metodologia</p>
+  <h1 class="h1" style="margin-top: 24px">Metodologia</h1>
+  <p class="lead" style="margin: 26px 0 0; max-width: 70ch">Como cada n&uacute;mero desta p&aacute;gina foi obtido, sobre que base foi calculado, e o que ele n&atilde;o mede. Atualizada em {{ATUALIZADO}}.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 70ch">Esta p&aacute;gina tem endere&ccedil;o pr&oacute;prio de prop&oacute;sito. Metodologia enterrada dentro de um relat&oacute;rio n&atilde;o &eacute; cit&aacute;vel, e quem contesta um n&uacute;mero precisa poder apontar exatamente para a regra que o produziu.</p>
+</section>
+
+<section class="wrap section" style="padding-top: clamp(20px, 3vw, 36px)">
+  <div class="met-grid">
+    <div>
+      <h2 class="h2" style="max-width: 24ch">Defini&ccedil;&atilde;o adotada</h2>
+      <p class="body" style="margin: 18px 0 0">O enquadramento &eacute; o fixado pelo Supremo Tribunal Federal no HC 82.424/RS, de 2003: o antissemitismo se qualifica como racismo, crime inafian&ccedil;&aacute;vel e imprescrit&iacute;vel nos termos do art. 5&ordm;, XLII, da Constitui&ccedil;&atilde;o Federal. &Eacute; o enquadramento vigente no direito brasileiro e n&atilde;o depende de ado&ccedil;&atilde;o de instrumento internacional.</p>
+      <p class="body" style="margin: 14px 0 0">As fontes agregadas nesta p&aacute;gina adotam defini&ccedil;&otilde;es operacionais pr&oacute;prias, que nem sempre coincidem entre si. Onde a diverg&ecirc;ncia afeta a leitura, o texto diz.</p>
+
+      <h2 class="h2" style="max-width: 24ch; margin-top: clamp(34px, 4vw, 50px)">O que entra</h2>
+      <p class="body" style="margin: 18px 0 0">Somente dado agregado, de origem p&uacute;blica e j&aacute; publicado por terceiro. <strong>Nenhum n&uacute;mero &eacute; produzido pelo Observat&oacute;rio.</strong> N&atilde;o h&aacute;, em nenhum ponto, dado pessoal, den&uacute;ncia individualizada ou informa&ccedil;&atilde;o sob sigilo.</p>
+
+      <h2 class="h2" style="max-width: 24ch; margin-top: clamp(34px, 4vw, 50px)">Bases de c&aacute;lculo</h2>
+      <p class="body" style="margin: 18px 0 0">Percentual sem base declarada &eacute; percentual que engana. Cada gr&aacute;fico informa sobre que denominador foi calculado. Onde a base mudou entre um ano e outro, a compara&ccedil;&atilde;o direta est&aacute; desaconselhada no pr&oacute;prio gr&aacute;fico, com a raz&atilde;o.</p>
+      <p class="body" style="margin: 14px 0 0">Dois exemplos que est&atilde;o na p&aacute;gina. A distribui&ccedil;&atilde;o geogr&aacute;fica de 2025 n&atilde;o &eacute; compar&aacute;vel com a de 2024, porque mudou a forma de captar a localiza&ccedil;&atilde;o. E os percentuais de plataforma de 2024 incidiam sobre 846 casos classificados em redes sociais, e n&atilde;o sobre as 1.310 ocorr&ecirc;ncias online do ano.</p>
+    </div>
+    <div>
+      <h2 class="h2" style="max-width: 26ch">Natureza do dado</h2>
+      <p class="body" style="margin: 18px 0 0">Cada n&uacute;mero carrega uma marca de natureza: contagem de fonte comunit&aacute;ria, registro oficial agregado, monitoramento de imprensa, pesquisa de percep&ccedil;&atilde;o ou apura&ccedil;&atilde;o de outra jurisdi&ccedil;&atilde;o.</p>
+      <p class="body" style="margin: 14px 0 0"><strong>N&uacute;meros de naturezas diferentes n&atilde;o s&atilde;o somados nem comparados diretamente.</strong> A pr&aacute;tica vem do ODIHR, organismo da OSCE que mant&eacute;m dois acervos separados e nunca os junta: o que vem do Estado &eacute; registrado como crime, o que vem da sociedade civil como incidente, com a raz&atilde;o declarada de que n&atilde;o se consegue verificar se o segundo grupo se qualifica como crime.</p>
+      <p class="body" style="margin: 14px 0 0">Aqui a disciplina &eacute; a mesma, por motivo pr&aacute;tico: como nenhuma base estatal brasileira tem categoria aut&ocirc;noma de antissemitismo, misturar contagem comunit&aacute;ria com dado policial produziria n&uacute;mero sem denominador.</p>
+
+      <h2 class="h2" style="max-width: 26ch; margin-top: clamp(34px, 4vw, 50px)">Grau de verifica&ccedil;&atilde;o</h2>
+      <p class="body" style="margin: 18px 0 0">Cada bloco tamb&eacute;m traz um selo. <strong>Conferido no acervo</strong> indica n&uacute;mero checado contra o documento de origem. <strong>Citado, prim&aacute;ria n&atilde;o consultada</strong> indica n&uacute;mero cuja fonte est&aacute; declarada, mas cuja publica&ccedil;&atilde;o n&atilde;o foi aberta.</p>
+      <p class="body" style="margin: 14px 0 0">Nenhum identificador administrativo ou n&uacute;mero de processo n&atilde;o confirmado foi transcrito em lugar nenhum do s&iacute;tio.</p>
+    </div>
+  </div>
+</section>
+
+<section class="band"><div class="wrap section">
+  <h2 class="h2" style="max-width: 32ch">Subnotifica&ccedil;&atilde;o: o limite que a pr&oacute;pria fonte declara</h2>
+  <p class="body" style="margin: 20px 0 0; max-width: 74ch">A s&eacute;rie brasileira mede den&uacute;ncias recebidas por canais da sociedade civil, <strong>n&atilde;o incid&ecirc;ncia</strong>. Toda leitura de alta ou de queda mistura varia&ccedil;&atilde;o do fen&ocirc;meno com varia&ccedil;&atilde;o da propens&atilde;o a denunciar e do alcance dos canais.</p>
+  <p class="body" style="margin: 14px 0 0; max-width: 74ch">A pr&oacute;pria fonte mede esse limite. Na pesquisa intracomunit&aacute;ria de 2025, apenas 32,58% de quem sofreu um incidente o denunciou. Entre as raz&otilde;es declaradas para n&atilde;o denunciar: 19,27% n&atilde;o consideraram o fato grave o suficiente, 14,01% n&atilde;o confiavam na efic&aacute;cia do registro, 11,84% n&atilde;o sabiam onde denunciar, 8,05% temeram exposi&ccedil;&atilde;o social e 6,65% relataram medo de retalia&ccedil;&atilde;o.</p>
+  <p class="body" style="margin: 14px 0 0; max-width: 74ch">A refer&ecirc;ncia europeia aponta a mesma ordem de grandeza: a Ag&ecirc;ncia da Uni&atilde;o Europeia para os Direitos Fundamentais estima que 80% das v&iacute;timas n&atilde;o levam o incidente a nenhuma autoridade.</p>
+</div></section>
+
+<section class="wrap section">
+  <div class="met-grid">
+    <div>
+      <h2 class="h2" style="max-width: 26ch">Como o painel de not&iacute;cias funciona</h2>
+      <p class="body" style="margin: 18px 0 0">Vinte e uma fontes p&uacute;blicas consultadas doze vezes por dia. Quatorze s&atilde;o feeds de ve&iacute;culos e institui&ccedil;&otilde;es. Sete s&atilde;o buscas permanentes no Google Not&iacute;cias, em quatro idiomas: esses itens chegam com endere&ccedil;o de redirecionamento e por isso trazem o aviso <em>via Google Not&iacute;cias</em>.</p>
+      <p class="body" style="margin: 14px 0 0">Deduplica&ccedil;&atilde;o por URL normalizada e por similaridade de t&iacute;tulo. Filtro por termo aplicado a todas as fontes menos as sete de busca e o feed dedicado ao tema.</p>
+      <p class="body" style="margin: 14px 0 0">A p&aacute;gina declara <strong>quantas fontes responderam</strong> em cada coleta e nomeia as que faltaram. Sem isso, uma fonte pode falhar indefinidamente sem que ningu&eacute;m perceba, o que de fato aconteceu com duas at&eacute; 04/09/2026.</p>
+    </div>
+    <div>
+      <h2 class="h2" style="max-width: 26ch">Como o hist&oacute;rico e o boletim funcionam</h2>
+      <p class="body" style="margin: 18px 0 0">Cada coleta acumula no arquivo do dia, deduplicando. Dias anteriores nunca s&atilde;o alterados. Reten&ccedil;&atilde;o de 400 dias.</p>
+      <p class="body" style="margin: 14px 0 0"><strong>O que a s&eacute;rie mede:</strong> manchetes agregadas por dia, e n&atilde;o incidentes. &Eacute; indicador de cobertura de imprensa e de alcance das fontes monitoradas. O aviso est&aacute; dentro do pr&oacute;prio arquivo de &iacute;ndice, para que n&atilde;o se perca na reutiliza&ccedil;&atilde;o.</p>
+      <p class="body" style="margin: 14px 0 0">O boletim re&uacute;ne uma edi&ccedil;&atilde;o por semana ISO, com sele&ccedil;&atilde;o <strong>por data e sem ju&iacute;zo editorial</strong>. N&atilde;o cabe a este prot&oacute;tipo escolher o que &eacute; mais relevante.</p>
+    </div>
+  </div>
+  <div class="pills" style="margin-top: 26px">
+    <a class="pill pill-solid" href="taxonomia.html">Taxonomia proposta &rarr;</a>
+    <a class="pill" href="indicadores.html#dados">Dados abertos e dicion&aacute;rio &rarr;</a>
+    <a class="pill" href="indicadores.html">Painel de lacunas &rarr;</a>
+  </div>
+</section>
+"""
+
+
+
+# ---------------------------------------------------------------------------
+# Taxonomia proposta
+# ---------------------------------------------------------------------------
+
+CAMPOS = [
+    ("Natureza do fato", "Sim", "explícito / implícito / potencial / não confirmado"),
+    ("Modalidade principal", "Sim", "discurso de ódio / ameaça / incitação / violência / vandalismo / propaganda extremista / negacionismo / discriminação / assédio / conspiração"),
+    ("Modalidade secundária", "Não", "as mesmas categorias, em seleção múltipla"),
+    ("Meio de ocorrência", "Sim", "online / offline / híbrido"),
+    ("Ambiente específico", "Não", "rede social / escola / universidade / culto / evento / trabalho / outro"),
+    ("Alvo atingido", "Sim", "pessoa / grupo / instituição / patrimônio"),
+    ("Motivação aparente", "Não", "estereótipo clássico / neonazismo / negacionismo / conspiração / religioso / político instrumentalizado / não identificado"),
+    ("Nível de risco", "Sim", "1 / 2 / 3 / 4"),
+    ("Risco imediato", "Sim", "sim / não"),
+    ("Escalada potencial", "Não", "sim / não"),
+    ("Organização", "Não", "isolado / reiterado / grupo / célula extremista / rede digital"),
+    ("Evidência disponível", "Não", "print / vídeo / áudio / link / documento"),
+    ("Evidência preservada", "Não", "sim / não"),
+    ("Encaminhamento", "Sim", "Polícia Federal / Polícia Civil / Ministério Público / MDHC / arquivado / outro"),
+    ("Status do caso", "Sim", "recebido / em triagem / encaminhado / concluído / arquivado"),
+]
+
+COMPARADO = [
+    ("OSCE / ODIHR", "57 Estados participantes",
+     "Nove motivações de viés, cada uma com página própria: racista e xenófoba, anti-Roma, "
+     "antissemita, anti-muçulmana, anticristã, outra por religião ou crença, por deficiência, "
+     "de gênero e anti-LGBTI.",
+     "Define crime de ódio como ofensa penal <strong>somada a</strong> motivação de viés.",
+     "https://hatecrime.osce.org/our-methodology"),
+    ("CST", "Reino Unido",
+     "Seis categorias de incidente: violência extrema, agressão, dano e profanação, ameaças, "
+     "material impresso e comportamento abusivo. Cruzadas com o eixo online e offline.",
+     "Publica também o número de relatos recebidos e descartados na triagem.",
+     "https://cst.org.uk/antisemitism/report-antisemitism"),
+    ("SPCJ", "França",
+     "Dois eixos, atos contra pessoas e atos contra bens, subdivididos e cruzados com cinco "
+     "tipos de local: internet, espaço público, meio escolar, sítios comunitários e esfera privada.",
+     "A estrutura deriva da terminologia do Ministério do Interior francês.",
+     "https://www.spcj.org/antisemitisme/guide-classification-rapport-antisemtisme"),
+    ("RIAS", "Alemanha",
+     "Adota a definição de trabalho da IHRA, operacionalizada para o contexto alemão, "
+     "e analisa quatro eixos: tipo de incidente, pessoas atingidas, formas de manifestação "
+     "e fundo político-ideológico.",
+     "Os relatos são verificados em diálogo com quem relatou antes do registro.",
+     "https://report-antisemitism.de/en/arbeitsweisen/"),
+    ("FRA", "União Europeia",
+     "Documento de 2026 com seção dedicada ao reconhecimento e registro da motivação de viés "
+     "antissemita, defendendo policiais treinados para identificar indicadores de viés.",
+     "Declara que o registro é inconsistente entre Estados-membros e que os dados não são comparáveis.",
+     "https://fra.europa.eu/en/publication/2026/antisemitism-overview"),
+]
+
+TAXONOMIA = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 6vw, 80px); padding-bottom: clamp(10px, 2vw, 20px)">
+  <p class="crumb"><a href="index.html">Observat&oacute;rio</a> &nbsp;/&nbsp; <a href="metodologia.html">Metodologia</a> &nbsp;/&nbsp; Taxonomia</p>
+  <h1 class="h1" style="margin-top: 24px">Taxonomia proposta</h1>
+  <p class="lead" style="margin: 26px 0 0; max-width: 70ch">Quinze campos para classificar uma ocorr&ecirc;ncia de antissemitismo. &Eacute; <strong>proposta do Eixo 3</strong>, e n&atilde;o padr&atilde;o adotado: nenhuma base p&uacute;blica brasileira a implementa hoje.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 70ch">Esta p&aacute;gina existe por uma raz&atilde;o pr&aacute;tica. A taxonomia &eacute; o &uacute;nico artefato do trabalho que pode ser publicado <strong>antes</strong> de haver dado para classificar, e &eacute; o que se leva a uma mesa institucional para sustentar a proposta de marcador. Ter endere&ccedil;o pr&oacute;prio e cit&aacute;vel &eacute; parte da fun&ccedil;&atilde;o.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 70ch">Atualizada em {ATUALIZADO}. Corresponde ao Anexo II dos instrumentos de modelagem do Eixo 3.</p>
+</section>
+
+<section class="band"><div class="wrap section">
+  <p class="eyebrow">O ponto central</p>
+  <h2 class="h2" style="max-width: 34ch">Vi&eacute;s &eacute; atributo do fato, n&atilde;o tipo penal</h2>
+  <p class="body" style="margin: 20px 0 0; max-width: 74ch">O antissemitismo <strong>n&atilde;o precisa virar crime aut&ocirc;nomo para ser contado.</strong> Precisa ser um marcador de motiva&ccedil;&atilde;o, anexo a crimes que j&aacute; existem no direito brasileiro: inj&uacute;ria racial, racismo, amea&ccedil;a, dano, incita&ccedil;&atilde;o.</p>
+  <p class="body" style="margin: 14px 0 0; max-width: 74ch">Essa &eacute; a forma adotada por cinco das principais plataformas internacionais examinadas, e nenhuma delas trata o antissemitismo como tipo penal pr&oacute;prio. E h&aacute; precedente dom&eacute;stico da mesma natureza: em 2022 o Conselho Nacional de Justi&ccedil;a inseriu assuntos de intoler&acirc;ncia religiosa nas Tabelas Processuais Unificadas <strong>por ato administrativo</strong>, e mant&eacute;m painel extra&iacute;do do DataJud. A recomenda&ccedil;&atilde;o central deste Eixo n&atilde;o depende de lei nova.</p>
+  <p class="body" style="margin: 14px 0 0; max-width: 74ch">O argumento emp&iacute;rico est&aacute; na <a href="indicadores.html#instauracao">p&aacute;gina de indicadores</a>: quando o n&uacute;cleo tem&aacute;tico &eacute; tipificado na entrada, a taxa de instaura&ccedil;&atilde;o no Minist&eacute;rio P&uacute;blico Federal quadruplica. A persecu&ccedil;&atilde;o responde ao que consegue enxergar.</p>
+</div></section>
+
+<section class="wrap section">
+  <h2 class="h2" style="max-width: 30ch">Os quinze campos</h2>
+  <p class="body" style="margin: 18px 0 0; max-width: 72ch">Formato operacional, pensado para formul&aacute;rio ou sistema de registro. Sete campos obrigat&oacute;rios, oito facultativos.</p>
+  <div class="tab-rolagem">
+    <table class="tab-kpi">
+      <caption class="sr-only">Campos da taxonomia proposta, com obrigatoriedade e op&ccedil;&otilde;es padronizadas</caption>
+      <thead><tr><th scope="col">Campo</th><th scope="col">Obrigat&oacute;rio</th><th scope="col">Op&ccedil;&otilde;es padronizadas</th></tr></thead>
+      <tbody>{''.join(
+        f'<tr><th scope="row">{c}</th>'
+        f'<td><span class="status {"st-par" if o == "Sim" else "st-sem"}">{o}</span></td>'
+        f'<td class="motivo">{v}</td></tr>' for c, o, v in CAMPOS)}</tbody>
+    </table>
+  </div>
+  <p class="fonte" style="margin-top: 22px">O instrumento original tra&iacute;a tamb&eacute;m regras de valida&ccedil;&atilde;o autom&aacute;tica, como alerta para risco 3 ou 4 e encaminhamento priorit&aacute;rio quando h&aacute; ind&iacute;cio de c&eacute;lula extremista. Essas regras pressup&otilde;em um sistema que ainda n&atilde;o existe e por isso n&atilde;o s&atilde;o reproduzidas aqui como se estivessem em opera&ccedil;&atilde;o.</p>
+</section>
+
+<section class="band"><div class="wrap section">
+  <p class="eyebrow">Leitura comparada</p>
+  <h2 class="h2" style="max-width: 32ch">Como outras jurisdi&ccedil;&otilde;es classificam</h2>
+  <p class="body" style="margin: 20px 0 0; max-width: 74ch">Cinco plataformas com taxonomia declarada, conferidas em 04/09/2026 por leitura da p&aacute;gina de metodologia de cada uma. Nenhuma trata antissemitismo como tipo penal aut&ocirc;nomo.</p>
+  <div class="comp-lista">{''.join(
+    f'<div class="comp-item"><div class="comp-id"><span class="comp-nome">{n}</span>'
+    f'<span class="comp-org">{o}</span></div><div><p class="body">{d}</p>'
+    f'<p class="comp-nota">{nota}</p>'
+    f'<p class="tl-src"><a href="{u}" target="_blank" rel="noopener">Metodologia declarada &rarr;</a></p></div></div>'
+    for n, o, d, nota, u in COMPARADO)}</div>
+</div></section>
+
+<section class="wrap section">
+  <h2 class="h2" style="max-width: 32ch">O que falta para a taxonomia funcionar</h2>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">Uma taxonomia sem campo na entrada &eacute; documento, n&atilde;o instrumento. O <a href="indicadores.html">painel de lacunas</a> registra os vinte indicadores da matriz proposta e o motivo de cada um estar vazio. A s&iacute;ntese &eacute; esta:</p>
+  <ul class="scope-list scope-isnot" style="margin-top: 20px; max-width: 76ch">
+    <li>Nenhuma base p&uacute;blica examinada tem categoria aut&ocirc;noma de antissemitismo: Anu&aacute;rio do F&oacute;rum Brasileiro de Seguran&ccedil;a P&uacute;blica, SaferNet, Comunica PF, Disque 100, boletins de ocorr&ecirc;ncia estaduais e Tabelas Processuais Unificadas do CNJ.</li>
+    <li>Nenhuma base de entrada classifica risco em quatro n&iacute;veis.</li>
+    <li>N&atilde;o h&aacute; campo que distinga alvo institucional de alvo individual.</li>
+    <li>N&atilde;o h&aacute; campo de preserva&ccedil;&atilde;o de evid&ecirc;ncia.</li>
+    <li>O desfecho processual esbarra em limite normativo leg&iacute;timo, o segredo de justi&ccedil;a, que n&atilde;o &eacute; falha a contornar.</li>
+  </ul>
+  <p class="body" style="margin: 20px 0 0; max-width: 74ch">Duas causas cumulativas, portanto. A aus&ecirc;ncia de categoria na entrada, san&aacute;vel por ato administrativo. E a aus&ecirc;ncia de rastreabilidade na sa&iacute;da, que decorre em parte de prote&ccedil;&atilde;o leg&iacute;tima. <strong>Apenas a primeira depende de decis&atilde;o t&eacute;cnica.</strong></p>
+  <div class="pills" style="margin-top: 24px">
+    <a class="pill pill-solid" href="indicadores.html">Painel de lacunas &rarr;</a>
+    <a class="pill" href="metodologia.html">Metodologia &rarr;</a>
+  </div>
+</section>
+"""
+
 def main():
     feitos = [
         pagina("sobre.html", "Sobre o Observat&oacute;rio",
@@ -346,6 +531,12 @@ def main():
         pagina("termos.html", "Termos de uso",
                "Natureza do servico, limites da orientacao juridica, conteudo de terceiros, licenca e reuso.",
                "", TERMOS),
+        pagina("metodologia.html", "Metodologia",
+               "Como cada numero foi obtido, sobre que base foi calculado e o que ele nao mede.",
+               "metodologia", METODOLOGIA),
+        pagina("taxonomia.html", "Taxonomia proposta",
+               "Quinze campos para classificar uma ocorrencia. Proposta do Eixo 3, com leitura comparada de cinco jurisdicoes.",
+               "", TAXONOMIA),
     ]
     print("paginas institucionais: " + ", ".join(feitos))
     return 0
