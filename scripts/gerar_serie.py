@@ -71,7 +71,7 @@ def cabeca(titulo, descricao, canonico, pagina):
 
 
 def rodape(pagina):
-    return RODAPE(pagina, texto="Quem enfrentou o antissemitismo. S&eacute;rie semanal, com fonte p&uacute;blica conferida em cada perfil.", lgpd=False, app=False)
+    return RODAPE(pagina, texto="Quem enfrentou o antissemitismo. S&eacute;rie semanal, com fonte p&uacute;blica conferida em cada perfil.")
 
 
 def perfil(p, ant, seg):

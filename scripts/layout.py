@@ -161,10 +161,14 @@ def CABECALHO(pagina, atual=""):
 def RODAPE(pagina, texto=None, lgpd=True, app=True, scripts=()):
     """Rodape completo.
 
-    `lgpd` e `app` ficam parametrizados porque hoje as paginas de serie e de
-    boletim nao carregam o aviso de LGPD nem o js/app.js, e este modulo nao
-    muda esse comportamento: unifica a navegacao, que era o defeito apurado.
-    A ausencia do aviso naquelas paginas esta registrada como achado proprio.
+    `lgpd` e `app` seguem parametrizados, mas hoje toda pagina do sitio usa os
+    dois. As paginas de serie e de boletim nao os carregavam, e o efeito era
+    que dezoito das vinte e nove paginas nao exibiam aviso de LGPD nenhum.
+
+    js/app.js e defensivo: cada acesso ao DOM e guardado, ha ramo proprio para
+    "paginas internas nao tem abertura", e a busca do painel so ocorre onde o
+    painel existe. Rodar em pagina interna nao tem efeito alem de medir a faixa
+    de prototipo e exibir o aviso.
     """
     nav = RODAPE_NAV + RODAPE_EXTRA.get(pagina, [])
     aviso = ""

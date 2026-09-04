@@ -259,7 +259,14 @@
         }
   }
 
-  if (window.__NOTICIAS__) {
+  /* Paginas internas nao tem painel. Sem esta guarda o fetch abaixo resolveria
+     um caminho relativo inexistente e devolveria 404 em cada uma delas: o catch
+     tratava, mas a requisicao era feita por nada. */
+  var temPainel = !!document.getElementById('feed-grid');
+
+  if (!temPainel) {
+    /* nada a carregar */
+  } else if (window.__NOTICIAS__) {
     try { recebe(window.__NOTICIAS__); } catch (e) { semPainel(); }
   } else if (window.fetch) {
     fetch('data/noticias.json', { cache: 'no-store' })

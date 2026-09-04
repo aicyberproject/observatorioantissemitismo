@@ -93,7 +93,7 @@ def cabeca(titulo, descricao, canonico, pagina, extra_css=""):
 
 
 def rodape(pagina):
-    return _RODAPE(pagina, texto="Boletim semanal derivado do painel de monitoramento. Cada item remete &agrave; publica&ccedil;&atilde;o de origem.", lgpd=False, app=False)
+    return _RODAPE(pagina, texto="Boletim semanal derivado do painel de monitoramento. Cada item remete &agrave; publica&ccedil;&atilde;o de origem.")
 
 
 def bloco_itens(itens, rotulo):
