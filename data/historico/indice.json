@@ -1,6 +1,6 @@
 {
  "esquema": "indice-historico/1",
- "atualizado_em": "2026-09-04T07:09:37+00:00",
+ "atualizado_em": "2026-09-04T08:23:43+00:00",
  "aviso": "Contagem de manchetes agregadas por dia, nao de incidentes. Mede cobertura de imprensa e alcance das fontes monitoradas, nao incidencia do fenomeno.",
  "primeiro_dia": "2026-09-04",
  "ultimo_dia": "2026-09-04",
@@ -12,7 +12,7 @@
    "total": 94,
    "no_brasil": 23,
    "no_mundo": 71,
-   "fontes_com_falha": 1,
+   "fontes_com_falha": 8,
    "arquivo": "2026-09-04.json"
   }
  ],
