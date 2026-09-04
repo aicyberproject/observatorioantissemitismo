@@ -509,6 +509,233 @@ CONTATO_PAG = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px
 """
 
 
+# ---------------------------------------------------------------------------
+# Preservar evidencias
+# ---------------------------------------------------------------------------
+#
+# Frentes 24 e 25 da secao 8.5 da auditoria: seletor de tipo de incidente com o
+# roteiro correspondente, e checklist dos primeiros 60 minutos. Nenhuma das duas
+# recolhe dado, e e por isso que a auditoria manda fazer estas antes das outras
+# duas frentes, que recolhem e sao decisao a parte.
+#
+# TRES DECISOES DE DESENHO, todas com a mesma razao: quem chega aqui pode estar
+# em aparelho alheio, com conexao ruim, ou com pressa.
+#
+# 1. Os tipos sao ANCORAS, e nao filtro em JavaScript. Todo o conteudo esta no
+#    DOM. Funciona sem script, imprime inteiro, e cada tipo tem endereco proprio
+#    para poder ser passado a alguem.
+# 2. O checklist usa caixa nativa, SEM script e SEM persistencia. Nada e gravado,
+#    nem no proprio aparelho: marcar etapa concluida numa pagina de preservacao
+#    de prova seria guardar rastro de caso, e nao preferencia de exibicao.
+# 3. A ferramenta de hash NAO foi movida. Continua em index.html#preservar, onde
+#    esta verificada e funcionando. Esta pagina remete a ela.
+
+TIPOS = [
+    ("online", "Conteúdo em rede social, site ou comentário",
+     "discurso de ódio, negacionismo, conspiração", "online"),
+    ("ameaca", "Mensagem direta, ameaça ou intimidação",
+     "ameaça, assédio", "online ou híbrido"),
+    ("patrimonio", "Pichação, dano ou profanação de patrimônio",
+     "vandalismo", "offline"),
+    ("fisica", "Agressão física, ou tentativa",
+     "violência", "offline"),
+    ("institucional", "Discriminação em escola, universidade ou trabalho",
+     "discriminação, assédio", "offline ou híbrido"),
+    ("objeto", "Material impresso, panfleto ou objeto deixado",
+     "propaganda extremista", "offline"),
+]
+
+def _tipos_grade():
+    itens = []
+    for i, (chave, titulo, _, _) in enumerate(TIPOS, 1):
+        itens.append(
+            f'<li><a class="prs-tipo" href="#{chave}">'
+            f'<span class="prs-tipo-n">{i:02d}</span>'
+            f'<span class="prs-tipo-t">{titulo}</span></a></li>')
+    return "".join(itens)
+
+def _check(itens):
+    linhas = []
+    for i, (titulo, porque) in enumerate(itens, 1):
+        linhas.append(
+            f'<li><input type="checkbox" id="chk{i}">'
+            f'<label for="chk{i}"><span class="prs-check-t">{titulo}</span>'
+            f'<span class="prs-check-q">{porque}</span></label></li>')
+    return "".join(linhas)
+
+SESSENTA = [
+    ("Grave a tela do conteúdo que se apaga sozinho",
+     "Story, status, mensagem temporária e transmissão ao vivo somem em horas, e print não captura vídeo nem áudio. É o único item que pode ser impossível daqui a pouco."),
+    ("Capture o perfil de quem publicou",
+     "Nome de exibição, nome de usuário, endereço do perfil, biografia e número de seguidores. O perfil pode ser apagado, trocado de nome ou fechado em minutos, e sem ele a autoria fica em aberto."),
+    ("Capture o conteúdo com o endereço, a data e a hora visíveis na tela",
+     "Print em que se leia a URL inteira. Sem o endereço na imagem, a captura vale menos: não se sabe de onde saiu."),
+    ("Salve a página completa, e não só a imagem",
+     "Salvar como página web completa guarda o código, os comentários e a estrutura. É o que permite conferir depois o que o print recortou."),
+    ("Anote quem viu",
+     "Nome e contato de testemunhas, e o que cada uma presenciou. Memória se desfaz e disponibilidade se perde, e isso não se recupera com ferramenta nenhuma."),
+    ("Fotografe o contexto físico antes de qualquer limpeza",
+     "Foto ampla que situe o local, e depois a aproximação. Pichação é apagada rápido, muitas vezes no mesmo dia e por boa intenção."),
+    ("Salve o endereço no Internet Archive",
+     "A Wayback Machine cria uma cópia datada por terceiro, independente de você. Leva segundos e não depende do seu arquivo."),
+    ("Só então calcule o resumo criptográfico",
+     "O arquivo já é seu, e o hash pode ser calculado com calma. É o último passo justamente porque nada nele se perde com o tempo."),
+]
+
+PRESERVAR = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 6vw, 80px); padding-bottom: clamp(10px, 2vw, 20px)">
+  <p class="crumb"><a href="index.html">Observatório</a> &nbsp;/&nbsp; Preservar evidências</p>
+  <h1 class="h1" style="margin-top: 24px">Preservar evidências</h1>
+  <p class="lead" style="margin: 26px 0 0; max-width: 70ch">Prova de ato antissemita se perde por conta própria. Post é apagado, story expira, perfil é fechado, pichação é limpa. O que se captura na primeira hora costuma ser o que ainda existe.</p>
+
+  <div class="prs-risco" role="note">
+    <p class="prs-risco-t">Se há risco agora, não comece preservando.</p>
+    <p class="body" style="margin: 10px 0 0">Ameaça em curso, perseguição, alguém ferido ou risco de agressão: ligue <span class="prs-fone">190</span>, ou <span class="prs-fone">192</span> se houver ferido. Integridade de pessoa vem antes de prova, e prova nenhuma compensa dano que podia ser evitado.</p>
+    <p class="body" style="margin: 10px 0 0">É a exceção declarada à regra desta página. Fora dela, preserve antes de denunciar: o registro formal pode esperar minutos, o conteúdo online não.</p>
+  </div>
+</section>
+
+<section class="wrap section" style="padding-top: clamp(24px, 3vw, 40px)">
+  <p class="eyebrow">Os primeiros 60 minutos</p>
+  <h2 class="h2" style="max-width: 26ch">Na ordem do que desaparece primeiro</h2>
+  <p class="body" style="margin: 18px 0 0; max-width: 72ch">A ordem abaixo <strong>não é por importância</strong>, e sim por prazo de validade. O que expira sozinho vem antes do que fica parado esperando. Um hash pode ser calculado amanhã; um story, não.</p>
+  <p class="body" style="margin: 12px 0 0; max-width: 72ch">Nem tudo se aplica ao seu caso. Pule o que não couber.</p>
+
+  <ul class="prs-check">{_check(SESSENTA)}</ul>
+  <p class="step-note" style="margin: 14px 0 0">As caixas acima servem só para você não se perder na sequência. <strong>Nada é enviado e nada é guardado</strong>, nem neste aparelho: ao recarregar a página elas voltam em branco, de propósito.</p>
+</section>
+
+<section class="wrap section" style="padding-top: clamp(10px, 2vw, 24px)">
+  <p class="eyebrow">Roteiro por tipo</p>
+  <h2 class="h2" style="max-width: 24ch">O que capturar, em cada situação</h2>
+  <p class="body" style="margin: 18px 0 0; max-width: 72ch">Seis situações, porque o procedimento muda entre elas. Cada uma tem endereço próprio e pode ser passada a quem precisa.</p>
+  <ul class="prs-tipos">{_tipos_grade()}</ul>
+
+  <div class="prs-roteiro" id="online">
+    <h3 class="h3-display">01 &middot; Conteúdo em rede social, site ou comentário</h3>
+    <ul class="body prs-lista">
+      <li>Print com o <strong>endereço completo visível</strong> na barra do navegador, mais data e hora do aparelho na tela.</li>
+      <li>Print do <strong>perfil do autor</strong>: nome de exibição, nome de usuário, endereço do perfil e biografia. Nome de exibição muda; o nome de usuário e o endereço são o que identifica.</li>
+      <li><strong>Salvar como página web completa</strong>, não só imagem. Guarda comentários, código e o que o print recortou.</li>
+      <li>Se houver comentários relevantes, capture-os <strong>com o autor de cada um</strong>. Comentário sem autoria não serve para nada depois.</li>
+      <li>Salve o endereço na <a href="https://web.archive.org/save" target="_blank" rel="noopener">Wayback Machine</a>, que gera cópia datada por terceiro.</li>
+      <li><strong>Denuncie na própria plataforma também</strong>, e guarde o número do protocolo. É o que demonstra, depois, que a plataforma foi avisada e quando.</li>
+    </ul>
+    <p class="body" style="margin: 14px 0 0; max-width: 72ch"><strong>Conteúdo que se apaga sozinho</strong> &mdash; story, status, mensagem temporária, transmissão ao vivo &mdash; exige <strong>gravação de tela</strong>, e não print: print perde o vídeo, o áudio e a duração. Este é o caso em que a primeira hora decide se há prova.</p>
+    <p class="prs-tax">Na taxonomia proposta: discurso de ódio, negacionismo, conspiração &middot; meio online</p>
+    <p class="prs-volta"><a href="#topo">Voltar ao início</a></p>
+  </div>
+
+  <div class="prs-roteiro" id="ameaca">
+    <h3 class="h3-display">02 &middot; Mensagem direta, ameaça ou intimidação</h3>
+    <ul class="body prs-lista">
+      <li><strong>Não responda e não confronte.</strong> Resposta costuma provocar escalada e, em alguns casos, apagamento do que existia.</li>
+      <li><strong>Não apague a conversa</strong>, mesmo que seja penoso mantê-la. Apagar destrói a prova, não o fato.</li>
+      <li>Capture a conversa <strong>inteira e em sequência</strong>, incluindo o que veio antes. Recorte de uma frase perde o contexto que mostra a intenção.</li>
+      <li>Capture o <strong>número, o endereço de e-mail ou o perfil</strong> de origem, e o horário de cada mensagem.</li>
+      <li>Se vier por carta, telefone ou recado: anote data, hora e teor logo, enquanto está fresco, e <strong>guarde o objeto sem manusear mais</strong> que o necessário.</li>
+      <li>Havendo <strong>menção a arma, a endereço seu, a rotina sua ou a familiares</strong>, trate como risco imediato: <span class="prs-fone">190</span> primeiro.</li>
+    </ul>
+    <p class="prs-tax">Na taxonomia proposta: ameaça, assédio &middot; meio online ou híbrido</p>
+    <p class="prs-volta"><a href="#topo">Voltar ao início</a></p>
+  </div>
+
+  <div class="prs-roteiro" id="patrimonio">
+    <h3 class="h3-display">03 &middot; Pichação, dano ou profanação de patrimônio</h3>
+    <ul class="body prs-lista">
+      <li><strong>Não limpe, não cubra e não remova antes de fotografar.</strong> É o erro mais comum, e é feito por boa intenção: a vontade de apagar a ofensa apaga também a prova.</li>
+      <li>Fotografe em <strong>três distâncias</strong>: o conjunto que situa o local, o plano médio, e a aproximação em que se leia a inscrição ou o símbolo.</li>
+      <li>Inclua uma <strong>referência de escala</strong> na foto de aproximação, como uma régua ou objeto de tamanho conhecido, e registre a data e a hora.</li>
+      <li>Registre <strong>onde exatamente</strong> foi: fachada, muro, portão, lápide, sala de aula. Em cemitério e em templo, o local é elemento do fato.</li>
+      <li>Procure <strong>câmeras</strong> no local e na vizinhança e peça a preservação da gravação <strong>logo</strong>: sistema comum sobrescreve em poucos dias.</li>
+      <li>Avise a <strong>administração do imóvel ou da instituição</strong> por escrito, e guarde o comprovante do aviso.</li>
+    </ul>
+    <p class="prs-tax">Na taxonomia proposta: vandalismo &middot; meio offline</p>
+    <p class="prs-volta"><a href="#topo">Voltar ao início</a></p>
+  </div>
+
+  <div class="prs-roteiro" id="fisica">
+    <h3 class="h3-display">04 &middot; Agressão física, ou tentativa</h3>
+    <ul class="body prs-lista">
+      <li><strong>Atendimento primeiro.</strong> <span class="prs-fone">192</span> para o SAMU, <span class="prs-fone">190</span> para a polícia. Aqui a ordem se inverte: preservação vem depois do cuidado.</li>
+      <li>Procure <strong>atendimento médico ainda que a lesão pareça pequena</strong>. O registro do atendimento é o que documenta a lesão depois que ela cicatriza.</li>
+      <li>Peça o <strong>exame de corpo de delito</strong> ao registrar a ocorrência. É ele que produz o laudo, e o prazo útil é curto.</li>
+      <li>Fotografe as <strong>lesões</strong> no dia, e de novo nos dias seguintes: hematoma muda de cor e a evolução é informativa.</li>
+      <li>Guarde <strong>roupa e objetos</strong> como estão, sem lavar, em saco de papel e não de plástico.</li>
+      <li>Anote <strong>testemunhas</strong> antes de sair do local, se for possível fazê-lo com segurança.</li>
+    </ul>
+    <p class="prs-tax">Na taxonomia proposta: violência &middot; meio offline &middot; risco imediato: sim</p>
+    <p class="prs-volta"><a href="#topo">Voltar ao início</a></p>
+  </div>
+
+  <div class="prs-roteiro" id="institucional">
+    <h3 class="h3-display">05 &middot; Discriminação em escola, universidade ou trabalho</h3>
+    <ul class="body prs-lista">
+      <li>Há <strong>dois caminhos, e eles não se substituem</strong>: o canal interno da instituição e o externo. Usar o interno não impede o registro policial, e o interno costuma ter prazo próprio.</li>
+      <li>Registre por escrito no <strong>canal formal</strong> &mdash; ouvidoria, coordenação, comissão, recursos humanos &mdash; e guarde o protocolo. Conversa de corredor não deixa rastro.</li>
+      <li>Prefira <strong>e-mail a conversa presencial</strong> quando puder escolher: gera data, destinatário e teor.</li>
+      <li>Mantenha uma <strong>cronologia própria</strong>: data, hora, local, quem estava, o que foi dito. Em caso reiterado, a sequência importa mais que o episódio isolado.</li>
+      <li>Guarde <strong>o que já é documento</strong>: mensagens de grupo da turma ou da equipe, atas, avaliações, escalas, e-mails.</li>
+      <li>Em <strong>escola com estudante menor de idade</strong>, o responsável deve ser comunicado e o Conselho Tutelar pode ser acionado.</li>
+    </ul>
+    <p class="prs-tax">Na taxonomia proposta: discriminação, assédio &middot; ambiente escola, universidade ou trabalho</p>
+    <p class="prs-volta"><a href="#topo">Voltar ao início</a></p>
+  </div>
+
+  <div class="prs-roteiro" id="objeto">
+    <h3 class="h3-display">06 &middot; Material impresso, panfleto ou objeto deixado</h3>
+    <ul class="body prs-lista">
+      <li><strong>Manuseie o mínimo.</strong> Se for possível fotografar sem pegar, fotografe primeiro.</li>
+      <li>Registre <strong>onde estava e como estava</strong>: sob a porta, na caixa de correio, no para-brisa, colado em poste. O modo de entrega diz se houve deslocamento até você.</li>
+      <li>Fotografe <strong>frente e verso</strong>, e o conjunto se houver mais de um exemplar.</li>
+      <li>Guarde em <strong>envelope ou saco de papel</strong>, um item por invólucro, com data e local anotados por fora.</li>
+      <li>Verifique se <strong>vizinhos receberam</strong> o mesmo. Distribuição em série muda a natureza do fato e sugere ação organizada.</li>
+      <li>Se houver <strong>indício de organização</strong> &mdash; sigla, símbolo de grupo, endereço, convite para reunião &mdash; registre e mencione ao denunciar.</li>
+    </ul>
+    <p class="prs-tax">Na taxonomia proposta: propaganda extremista &middot; organização: possivelmente grupo ou célula</p>
+    <p class="prs-volta"><a href="#topo">Voltar ao início</a></p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap section">
+    <p class="eyebrow">Vale para todos os casos</p>
+    <h2 class="h2" style="max-width: 24ch">O que não fazer</h2>
+    <ul class="body prs-lista" style="max-width: 72ch">
+      <li><strong>Não confronte o autor.</strong> Não melhora a prova e pode agravar o risco.</li>
+      <li><strong>Não apague nada</strong>, nem a conversa, nem o e-mail, nem o objeto.</li>
+      <li><strong>Não edite o arquivo original.</strong> Recorte, ajuste de brilho e marcação alteram o arquivo. Trabalhe sobre cópia e guarde o original intacto.</li>
+      <li><strong>Não limpe o local</strong> antes de fotografar.</li>
+      <li><strong>Não publique o print com dado pessoal de terceiro</strong> à mostra. Divulgar o endereço, o telefone ou o local de trabalho de alguém cria problema novo, inclusive para você.</li>
+      <li><strong>Não conte só com a plataforma.</strong> Conteúdo denunciado é removido, e removido você não recupera. Capture antes de denunciar lá.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="wrap section">
+  <div class="met-grid">
+    <div>
+      <h2 class="h2" style="max-width: 24ch">Depois de preservar</h2>
+      <p class="body" style="margin: 18px 0 0">Com a captura feita, três coisas dão peso ao que você guardou:</p>
+      <ul class="body prs-lista">
+        <li>O <a href="index.html#preservar">inventário de integridade</a> calcula o resumo SHA-256 dos seus arquivos. O cálculo é local e nada sai do navegador. Guarde o valor junto da prova.</li>
+        <li>A <strong>ata notarial</strong>, em Tabelionato de Notas, tem fé pública, e é a prova mais forte para o Judiciário. O hash não substitui a ata: um demonstra que o arquivo não mudou, a outra atesta o que o tabelião viu.</li>
+        <li>O <a href="index.html#denuncie">registro formal</a>, nos canais das próprias instituições. Guarde o número de protocolo de cada um.</li>
+      </ul>
+      <p class="bridge" style="margin-top: 26px">Prova preservada, próximo passo é a denúncia. <a href="index.html#denuncie">Ir para os canais de denúncia &rarr;</a></p>
+    </div>
+    <div>
+      <h2 class="h2" style="max-width: 22ch">Limites desta página</h2>
+      <p class="body" style="margin: 18px 0 0">Orientação informativa, e não parecer. Não considera as circunstâncias do seu caso e não cria relação de patrocínio. Antes de agir com base no que leu aqui, procure orientação profissional: <strong>Defensoria Pública</strong> ou advogado.</p>
+      <p class="body" style="margin: 14px 0 0">Esta página <strong>não recebe denúncia</strong> e não substitui boletim de ocorrência. Os <a href="index.html#denuncie">canais de denúncia</a> são das próprias instituições e funcionam de forma independente deste protótipo.</p>
+      <p class="body" style="margin: 14px 0 0">A base legal aplicável está na <a href="index.html#legislacao">seção de legislação</a> e na <a href="biblioteca.html">biblioteca</a>, com link para o texto de origem de cada norma. Norma muda e prazo corre: confira na origem.</p>
+      <p class="body" style="margin: 14px 0 0">As classificações citadas ao pé de cada roteiro remetem à <a href="taxonomia.html">taxonomia proposta</a> pelo Eixo 3. É <strong>proposta, e não padrão adotado</strong>: nenhuma base pública brasileira a implementa hoje. Servem para leitura do fenômeno, e não como campo a preencher em formulário existente.</p>
+      <p class="body" style="margin: 14px 0 0">Atualizada em {ATUALIZADO}.</p>
+    </div>
+  </div>
+</section>
+"""
+
+
 def main():
     feitos = [
         pagina("sobre.html", "Sobre o Observat&oacute;rio",
@@ -526,6 +753,9 @@ def main():
         pagina("taxonomia.html", "Taxonomia proposta",
                "Quinze campos para classificar uma ocorrencia. Proposta do Eixo 3, com leitura comparada de cinco jurisdicoes.",
                "", TAXONOMIA),
+        pagina("preservar.html", "Preservar evidências",
+               "Como preservar prova de ato antissemita: os primeiros 60 minutos e o roteiro de cada tipo de ocorrencia.",
+               "preservar.html", PRESERVAR),
         pagina("contato.html", "Contato e errata",
                "Como apontar erro no que esta publicado. Este canal nao recebe denuncia: os canais que recebem estao na secao de denuncia.",
                "", CONTATO_PAG),
