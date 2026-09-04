@@ -372,7 +372,7 @@ CAB = """<!DOCTYPE html>
       <a class="btn-solid" href="index.html#denuncie">Denunciar</a>
     </div>
   </div>
-  <nav class="wrap nav" aria-label="Navega&ccedil;&atilde;o principal"><a href="index.html#painel">Painel</a><a href="indicadores.html" aria-current="page">Indicadores</a><a href="boletim/index.html">Boletim</a><a href="index.html#preservar">Preservar evid&ecirc;ncias</a><a href="index.html#denuncie">Denunciar</a><a href="index.html#legislacao">Legisla&ccedil;&atilde;o</a><a href="biblioteca.html">Biblioteca</a><a href="index.html#escopo">Escopo</a><a href="index.html#sobre">Sobre</a></nav>
+  <nav class="wrap nav" aria-label="Navega&ccedil;&atilde;o principal"><a href="index.html#painel">Painel</a><a href="indicadores.html" aria-current="page">Indicadores</a><a href="boletim/index.html">Boletim</a><a href="index.html#preservar">Preservar evid&ecirc;ncias</a><a href="index.html#denuncie">Denunciar</a><a href="index.html#legislacao">Legisla&ccedil;&atilde;o</a><a href="biblioteca.html">Biblioteca</a><a href="sobre.html">Sobre</a></nav>
 </header>
 <main>
 """
@@ -391,8 +391,8 @@ RODAPE = """</main>
         <nav><a href="index.html#topo">In&iacute;cio</a><a href="index.html#painel">Painel</a><a href="indicadores.html">Indicadores</a><a href="boletim/index.html">Boletim</a><a href="index.html#preservar">Preservar evid&ecirc;ncias</a><a href="index.html#denuncie">Denunciar</a><a href="index.html#legislacao">Legisla&ccedil;&atilde;o</a><a href="biblioteca.html">Biblioteca</a><a href="index.html#sobre">Sobre</a></nav>
       </div>
       <div>
-        <p class="footer-head">Fontes dos indicadores</p>
-        <nav><a href="https://conib.org.br" target="_blank" rel="noopener">CONIB</a><a href="https://fisesp.org.br" target="_blank" rel="noopener">FISESP</a><a href="https://new.safernet.org.br" target="_blank" rel="noopener">SaferNet Brasil</a><a href="https://www.adl.org" target="_blank" rel="noopener">ADL</a><a href="https://fra.europa.eu" target="_blank" rel="noopener">FRA / Uni&atilde;o Europeia</a><a href="https://forumseguranca.org.br" target="_blank" rel="noopener">F&oacute;rum Brasileiro de Seguran&ccedil;a P&uacute;blica</a></nav>
+        <p class="footer-head">Institucional</p>
+        <nav><a href="sobre.html">Sobre o Observat&oacute;rio</a><a href="privacidade.html">Pol&iacute;tica de privacidade</a><a href="termos.html">Termos de uso</a><a href="boletim/feed.xml">Feed RSS</a><a href="indicadores.html#dados">Dados abertos</a></nav>
       </div>
     </div>
     <p class="footer-legal">&copy; 2026 Observat&oacute;rio do Antissemitismo no Brasil &middot; Prot&oacute;tipo, vers&atilde;o de trabalho &middot; C&oacute;digo e conte&uacute;do sob licen&ccedil;a MIT</p>

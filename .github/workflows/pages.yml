@@ -7,12 +7,17 @@ on:
   # A coleta de noticias roda no build. Sem execucao periodica o painel
   # congela na ultima publicacao.
   #
-  # CADENCIA: decisao aberta. A cada 30 minutos sao ~48 publicacoes por dia do
-  # sitio inteiro para atualizar um arquivo de 40 KB. Como o historico agora
-  # tem granularidade diaria, a serie nao perde nada com cadencia menor.
-  # Para reduzir, troque por '0 */2 * * *' (de duas em duas horas).
+  # CADENCIA: de duas em duas horas, doze coletas por dia.
+  #
+  # Era de 30 minutos, o que produzia cerca de 48 publicacoes diarias do sitio
+  # inteiro. Como o historico tem granularidade diaria e a coleta do dia acumula
+  # itens novos sem sobrescrever os ja vistos, doze passagens cobrem o ciclo
+  # noticioso sem perder manchete: uma materia publicada as 9h continua no feed
+  # da fonte as 10h. O que muda e o custo, nao a serie.
+  #
+  # Para adensar em periodo de crise, '0 * * * *' da uma coleta por hora.
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '0 */2 * * *'
 
 permissions:
   contents: write        # necessario para gravar o historico no branch de dados
@@ -80,10 +85,10 @@ jobs:
       #    diretorio separado. Fazer isso na propria arvore de trabalho
       #    destruiria os arquivos do sitio antes do upload do artefato.
       #
-      #    DECISAO ABERTA: este passo introduz commit automatico no repositorio,
-      #    em branch proprio. Trocar `if: false` por `if: true` para ativar.
+      #    ATIVO desde 04/09/2026, por decisao da coordenacao. Grava apenas
+      #    data/historico/ e apenas no branch de dados. O branch main nunca
+      #    recebe commit automatico, e o historico do codigo segue limpo.
       - name: Gravar historico no branch de dados
-        if: false
         continue-on-error: true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
