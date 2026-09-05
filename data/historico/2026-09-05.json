@@ -2,15 +2,65 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-05",
  "semana_iso": "2026-S36",
- "atualizado_em": "2026-09-05T10:25:28+00:00",
+ "atualizado_em": "2026-09-05T14:59:46+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 80,
- "no_brasil": 20,
- "no_mundo": 60,
+ "total": 91,
+ "no_brasil": 24,
+ "no_mundo": 67,
  "itens": [
+  {
+   "titulo": "Australian man charged over alleged antisemitic threats against Zionist council",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-907638",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-05T17:45:02+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "California man faces trial over alleged threats to shoot up Jewish community center",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-907630",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-05T13:39:10+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Antisémitisme : la sécurité va être renforcée pendant les fêtes juives",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWU4zR1lUcGU2NEV2RXlBaUFIYWoxdjJVNWI3Tm9WUWNyaS1wb1dRTmdvVmlZbEd3RkluOVMtTGRqTlZrTzBTVnJzMVo0Q2hXQ19SUVBqb01oMC1ZdHZESTlLSU9PSGVXWUtuaHBMSWFUNjZDU21ibDlubkQ4TXh4SHVkOW9NSEw3S0tHMEZib1ZheGRkckFNMnVISlppeU9tMzI0LU9lOWFNRklkY3VV?oc=5",
+   "fonte": "la-croix.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-05T13:27:48+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Opinion | Gloria Steinem was a feminist icon – and \"wherever there's antisemitism, a Jew\"",
+   "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOaTRQdWVWbDdoQ21NOHozd20yYVYxZ0RhZi1feXBhN2EyMXJQTlZzbEtMaHdESWpsb21SS3JMUEJMSGNMOUtOTlg0X3dkbS1kYWxDSkVjZUtKSEJHZmVEMThha0RpMXZyQUxXYjFCeHlabEgxeGs1eHU1NVctOUc3eHFoYW9VRW1nMldXWFpnN0FuTjd6aEpNY3FWWHROTmF2R25LSHNEbDFEeWx5eF9wTjA4b1gwdDBGZUlpQWpRNERzSDI4Z1lDOFBFMWxqc013ZFdLYmdqZ0sycTNBak92aTRBWGZRYWdHQ1FLSVZSNHhHMDBRSThGV3JSdWVIWjczanB3bHY5WjFzcTBMN3c?oc=5",
+   "fonte": "Haaretz",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-05T13:24:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Antisémitisme : Beauvau ordonne un renforcement de la sécurité pour les fêtes juives",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNeV9SYUdDT1VCcV9WM25zZ1Z3aExISmQxT2Y0ekxqdDEtTy1YMzd5eHJjLV9VSEJuaWc1ZHQtY2REbXhXTWdvNFpzNjVTOElaaW5TTkJoWVpPdF9BT3F4ZnExRkdiLXpvSHdHNW9JUHhWZ19kNENwbU1CM0pPWlJXVTB3andOWVhRZ3c5cXJNYXA5eHViSTl3V2w2NGtwMnBlZG9XTnRmQktBam1UUzBwby1fUnZZVWsxRHc?oc=5",
+   "fonte": "lejdd.fr",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-05T10:51:49+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Contributor: Combating Islamophobia and antisemitism is a shared responsibility",
    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdjJyTHZqVVFTZTZDMnhuNkNyRWtnamNhTmpUQVlQOXNjbWJaYmhFZDVUWVEteUEwUjlWNUdOU2kyOFdsMzFUcXl4akdTQlBRWkpqdW1ENVQ2X2tNUGc0YUNnakhBRS1hOFY3T2hpalBRLXgtV21fRTVNTWNaaWpvVWFXMkJhU3NmeHo5VDRPVUlNUDR5R01FdndvR3FqakV4aDVSNmxhRlQtZw?oc=5",
@@ -202,6 +252,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Atlas sobre antissemitismo é lançado para combater o discurso de ódio",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYjlXejM2MlZDRk1VMzBKSVo3b3VhaTA2ckdSczJwOVpkeE9EYVFvVEtJZ3NuQTJQeFVaSGtYblYwMjdYQ1l1YXR6eUVRUUk0N3I4SkdDOFBkV2ZodUh1NmRNMmxFMU9KZG9abmNNc1Z6XzNKMnhHdl80cDBYbHRkdDd5V1N2ZVRDU2dlM1JzQ1dsVFNkQUVCT0w4Q0U5ZW0xNGZFRA?oc=5",
+   "fonte": "Revista Oeste",
+   "escopo": "br",
+   "publicado_em": "2026-09-04T09:30:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Canadian federal court rules to release redacted sections of 1986 Nazi resettlement report",
    "link": "https://www.jpost.com/diaspora/article-907563",
    "fonte": "The Jerusalem Post — Diaspora",
@@ -362,6 +422,16 @@
    "categoria": "Observatórios e entidades"
   },
   {
+   "titulo": "Contundente respaldo a Mark Ruffalo ante las acusaciones de Paramount: \"Señalar las conexiones entre lo",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQl9fekE4NFBnVlJVWFhvZFZsUlAwNEtCazlOWld2X2phOGQ0a3BCVjF1U0pRblR1MGJGWVVqNUFGYmNDUGp0WHNfM0VCZ1ZpQkNrTU9XZGxzeGViZ3RHTlo4WHNEa1JfNHJiM0l3XzRkdEJGQlMteDQ3RndHb19HTU82aEpsMjBuU0t5UWtjS1k2ZnPSAZgBQVVfeXFMT3NtZ2p2Zko1MEZhWG12OXVmWndKekJfWmtHeGhEMUJ2NFlsc2ZLMENzdVA1MEUyQ0tzN3gxTFprT19qVkx0LUJpV0dMcnNuZFdSMWk3YWV0Uy1SOHJkaHBic2NEWVh0bmRhWENGZjZmaVk4NW9YOU9FdmRhNVJHSUhXUTk1LWx6ektXM1F1clhXclhBd3RNQ0k?oc=5",
+   "fonte": "Tiempo Argentino",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-03T14:08:44+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "¡Basta Ya!: más de 180 artistas judíos de Hollywood apoyan a Mark Ruffalo tras haber sido acusado de antisemitismo",
    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcWFfT1RFeGVvQnZjZTBfNVBLeVZlbndPTVA4MWRuRnV6cktMV1lrdEpncGZVdGhDVFR5RlhxMzVYd09VVHJzX2t2RG5ObUh5cVZkNU1SeHZMblhQWnZsMmNNY1QxaVVVTXNsUTRpTmxjU3RZUDBUdWR5c1pBQVZ3T2Z0MlNfZDVlb1pSR2NrQUZ2cVNWOGdxTzlKN0pWQ08xU2ptaTktVWRPbVRTVXhBd1lnQXEyN0xnTEpLOVZfbWl0RE1ILWR2SnNmONIB0wFBVV95cUxNOWVhUnZJbXRYMkNfbUtqUXc1bzN6SEZoN1Z0RGtQLWEyWm9lMTNHSEx5U2l6bG9meDF4dTRHa25NSjlod1ZTNk1CZ0FCaS1XczB6Sm1NUzViU1hfSnNJWEFaRDV0SVgyQ0prbUh3TktVQ3hpRHZKRk5FR0xHVVNoV2dPMFBlSGEyaTJIZXpqeUkySmw3S3lvX0lOci01UkJHd2FDbDBYNkgxWkNOcTBwREFaSlozSmlWdWhpclY2aUpHR0lzLXlCZTZvMjd1SFE1Vm1N?oc=5",
    "fonte": "La Izquierda Diario",
@@ -432,6 +502,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Conib lança Atlas para combater alta dos casos de antissemitismo no Brasil",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZmlsTV80UmhrN2stVEpxeGd3X25nTkplUG05N3VJWXd1THVqTVNkV2RUeTF1WUphVEVHd3pMbU9ZWDVOelBrdTFnb3QxbEI2TmUxcVBBMFFmQUNYOEdOUFdYMUtxSEU2bzZSekVxeDZDREkwU0d0ZERwUWY1NTJwMUdwUmRMdlRITUUzcmh0d0hDRWk4cUtYMVJ1Ti1kdl9SODVJOGtMWTUwWEtBTHM2SDhB?oc=5",
+   "fonte": "CNN Brasil",
+   "escopo": "br",
+   "publicado_em": "2026-09-03T00:17:47+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Paramount acusó de antisemitismo a Mark Ruffalo por criticar la fusión con Warner y la industria respaldó al actor",
    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPZFJFSXdJQmJvRHVidGlzdGlkNEhOQm5tQnBqMFNTU3RiamZJZ1N5dDIzTGJEMG9HY1owalphM3hMejUtQjdTVW40bWtwbVotUF9wM0dIV3BlVEhBcVhGa3FSYTFYcTE2MHEyc3ZWQ0p4aE5teHdHcTdVVzBRMVh4cjZYOGthN0lXblE0UlJBdDU2bGozLXVSQWs3Snd2RjNjV3dUUUxPbi03VVRkNURLSG4zTmg1QXpIeEZLOFRwSVRKTG12eExYQ19JT0FvZ2lvMkpScllzYW8wRFhoRjNtQkd4MmtHa29mcmc?oc=5",
    "fonte": "Página|12",
@@ -450,6 +530,16 @@
    "via": null,
    "feed": "fwd",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Ecos do antissemitismo e a vida psíquica na Palestina ocupada",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSnVPdW13UlpvblNybEZpSTNuZk5BT1ZQeWpZV2hUSVlFdjRNREI4WEdqblMtNW5QOFpyMU5iSWwzZ1JiVi1WWlFHU2N0dVFUN2QzQUI2azUxTlFiQWpiRml3dnhPb1JCcjZJTTljc3lrM1FXZklUdTAwcDIxVEw5LXRXSWY0cjVFd1hmOVlSUXpLOXBIVUNhRg?oc=5",
+   "fonte": "Mídia NINJA",
+   "escopo": "br",
+   "publicado_em": "2026-09-02T20:30:11+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "A great Jewish sculptor gave a gift to America. The Trump administration is taking it away.",
@@ -652,6 +742,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Israel e católicos dos EUA se unem contra o antissemitismo em iniciativa diplomática",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMnc1MkItS002OUxEbm9sMEJPUGtvVy05NEpYdGt4bmxZdWkxdTVXQ1Y2emZzenVOUTVtbUh3b25zWkZUZ1hCRUdnd0dkNjhhSTE2dV9aaWZYUjdDdFR6MlgwMUFjMjJmajlmVUJkWEJqTUV1a3EzUzlQR2lkekQtdjBpcG5yQ2hDSmgwOXo1anh6MUhEUUkxSHItZDVtbDd1dmg2TkczdWNud1EwUk5iazBhd1hEUURCWHc?oc=5",
+   "fonte": "gazetadopovo.com.br",
+   "escopo": "br",
+   "publicado_em": "2026-08-31T20:08:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Webinar to focus on learning lessons from surging antisemitism",
    "link": "https://fra.europa.eu/en/event/2026/webinar-focus-learning-lessons-surging-antisemitism",
    "fonte": "EU Fundamental Rights Agency",
@@ -720,6 +820,16 @@
    "via": null,
    "feed": "swu",
    "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Judge Dismisses Federal Government’s Antisemitism Case Against Harvard",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMkdqdTNsaGQyNkptVTBGeUd0aVRfYUhMeXRndl9oVmNzbThwcHNkX3BYbUtzZlpWOElsR2ZfU08xdDVYeXFuUXJHSHcxTjUycDRmbGhtcXFSSEZYRlkyV0ZjR0RTb21DbzVpUUlHY2Z6NWtKbFF1bjZwQkJIVUlHdDNnOWM?oc=5",
+   "fonte": "The New York Times",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-13T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Jewish Bund Ghosts vs. Living Jewish State",
