@@ -2,15 +2,25 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-05",
  "semana_iso": "2026-S36",
- "atualizado_em": "2026-09-05T18:05:10+00:00",
+ "atualizado_em": "2026-09-05T22:01:31+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 98,
- "no_brasil": 25,
- "no_mundo": 73,
+ "total": 105,
+ "no_brasil": 28,
+ "no_mundo": 77,
  "itens": [
+  {
+   "titulo": "L'ambassadeur américain en Israël accuse le gouvernement britannique d'antisémitisme",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNTZHWnNhVjhnal9EMU5IdnRWbDh6eGY5dXoxVEVTd3FZekVDNXhTNkQ3Slc3U1FUTVJ6NGVONGtvbDMwSXY4YWkxT1NIRWFPVWw4WkM4M2lDeFlMSUozRUF1d0hOUkVjREVWblNJcGFfWE5DV3V0NC1PeXcteXhhQWQ3ZW5uaHF6QjYwQThHR3p0MjhsSHQzcWgwQnJmVXRIcnc1RkVMVUpyNnZlS0QzWEFwMHhPbHZTSnlKYVVPZlB1NlFSODlHVnFLRQ?oc=5",
+   "fonte": "Le Figaro",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-05T18:47:02+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Australian man charged over alleged antisemitic threats against Zionist council",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-907638",
@@ -94,6 +104,16 @@
   {
    "titulo": "“Hay un enorme potencial para Argentina en Medio Oriente”",
    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5PT3VxMGJqOGF6UEFYYmdXY0NvRUQyTjNwQ3hydm54cmc2elpwY2dPSEpmbV9ySlRBZXRHNGR3Sm56SFRmbXNyb01SQzkwaWNRaXFpYk9leVQ3a2stbXR2b1ZYVktTaGRUZC1PcU9fVXlTMlhLT28xUGwwMGs?oc=5",
+   "fonte": "Revista Seúl",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-05T07:58:43+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "“Hay un enorme potencial para Argentina en Medio Oriente”",
+   "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE5uMnFaZVlRWExETUR0djcyNTlGTlFVVlRsQXFIQkFfdUtTcWlreE9PSndvWTNWYnZpVTl4Ug?oc=5",
    "fonte": "Revista Seúl",
    "escopo": "mundo",
    "publicado_em": "2026-09-05T07:58:43+00:00",
@@ -362,6 +382,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Atlas lista emojis e imagens de antissemitismo e ensina a identificar ódio a judeus nas redes",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLUhCMVpwM3N6RFZXOTloM2tjY1RLVE1QR1NRS3Z5ajdFREU1dENGa2Z1RHNJM2lEblV1Z2oyajdodkUwS001QThBbl9xVk96SHVxOUEwY1FiNGpyZjBiSWhZeGp1NVkwazl3Z0R5R01nYTE1dkd1aVVueUx5WXM0Y3hoV3hkYVFuRmkxRTVjUFoxalR5UEllRldJRHRrQ0dyX1dLV1l0aUhlU2R3ZTdqdy1Vc1o4X3BFRkJWZkxYbDE0c1lBRGlKaVVzQjPSAcwBQVVfeXFMUC1IQjFacDNzekRWVzk5aDNrY2NUS1RNUEdTUUt2eWo3RURFNXRDRmtmdURzSTNpRG5VdWdqMmo3aHZFMEtNNUE4QW5fcVZPekh1cTlBMGNRYjRqcmYwYkloWXhqdTVZMGs5d2dEeUdNZ2ExNXZHdWlVbnlMeVlzNGN4aFd4ZGFRbkZpMUU1Y1BaMWpUeVBJZUZXSUR0a0NHcl9XS1dZdGlIZVNkd2U3anctVXNaOF9wRUZCVmZMWGwxNHNZQURpSmlVc0Iz?oc=5",
+   "fonte": "Estadão",
+   "escopo": "br",
+   "publicado_em": "2026-09-03T21:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "RELEASE: House Passes Gottheimer, Foxx Bipartisan Bill to Hold Higher Education Accountable for Hate-Driven BDS Activity that Targets Jewish Students and Professors",
    "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQX0huOWVyMGptZ1hLZ1lkVWM5YU5LNlE5Zm1zVnpnbURobUxCQzNuaVYtWjJqekFweUZjbzhyS2N3ejZfRklILWRJMjBUU0ZIcEZwS3hTRjA1Qk9sNUJqQVNLU014WGp4cnRuRENaZS1oLVRlS1ZGbjk3QU84UF9MY1lLbWZ0d0hYNm9TMGkzZjZhSnJvWno1aFY3MEo1amxockdtcGF4VFd1MFdxb2d0aXNrUXVEVXZFZU56WFJlU0xWY0pkREtvUjE1a3dDZ2NGek1JRUlJV3hMYnJpb2kya2gxa2FvNmkzc2VyeWVrVzFiYzJuZGJxdHRRRzd4SWxTMzdHbmRIVjhwUV9XRjM4QWdBNm5fdFU4a29zd3N0QkxzV1E?oc=5",
    "fonte": "House.gov",
@@ -500,6 +530,16 @@
    "via": null,
    "feed": "cam",
    "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Where Hatred Lies | Omer Bartov",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOemdJbjNBRDZZcmczdDR3aWw2U21rMVRhRlhJY3QxRE1GVXlpMnF5cGdtcUVIQ04teHBPWTZ0aC1GWFpmd3FDb29RM2pMNHloMW9QUnp2TFBYQXVpX3hxSU5tZjk2dmF1S1FRVlNmZHpEV2hPSFBPZ0k4U1IzT0hWLWdpeWQ3LVRxbzB0YlRWMXdGVXdjZXc?oc=5",
+   "fonte": "The New York Review of Books",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-03T12:22:26+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Une vague de solidarité inédite en soutien à Mark Ruffalo accusé à tort d’antisémitisme",
@@ -932,6 +972,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Jornada de reflexión sobre antisemitismo y discriminación",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeU0xelpYZ2plbFFmU2dwVlhvbHN5clk5M3k1SGQ4aUR4NHFxOWVLSVRnODljR1FQU096S3haT2dFTFMwNHNIZzFJN1lUYVJwaEJkS21FaUJac01EQk9tUUo1dGNEU0N4X0I4V2J6MDJVWlAxQy1QUmpRaHB0YUNIeTNPMzcxMklwVkw1eG5ac2ZyOUVwamVxNE1nMHNVZjBscmlNeU91Z1hDSDZLV3Faa1BtRFM?oc=5",
+   "fonte": "consejomagistratura.gov.ar",
+   "escopo": "mundo",
+   "publicado_em": "2026-07-20T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Critical Theory, October 7, and the Critique of Antisemitism and Sexism",
    "link": "https://fathomjournal.org/critical-theory/",
    "fonte": "Fathom Journal",
@@ -987,6 +1037,26 @@
    "fonte": "Migalhas",
    "escopo": "br",
    "publicado_em": "2026-04-06T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Não pode haver álibi para o racismo",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeHNKWXBBeHZ3VUJ1RGhUU203dF8zR1VxNUV4LWw5OTRZNVh5UmJfMGZlc2hRRG0xTHd0ZkZfLUwwZ091bVF2cm95WWJUNGFmemNqOHFnSUg1ZDNlbkZoYk5IU3dfSjBzM1JlQ1h6bzhIMFJFTzBsZDNaRzhaWnVkSzBNR2NCQ0pMeTFMUE1wdEZCWE9lYkJJdXNmOXhrd9IBrAFBVV95cUxPamRYS2tTZjZYQjYwWU5IRF9zOWhsbS1YTnV6eWVsdFV4NFM2NkxrTmkwNzhjeW5WTVZSaEpnVThuYWcwMGM0LWI0eDlfcnM5RkQ1Y2NsMTh5a0tQejdmdUcyUXhSbEE4ZGluQzd1REJvWGJ5bzdxdXB2TFBOZXNvZTk1RDdiNzNtUGlkNzBsamZ6cnN4NGo5dWtrSEQ3VXA2ejVuRXA0ck5sYjB6?oc=5",
+   "fonte": "O GLOBO",
+   "escopo": "br",
+   "publicado_em": "2026-01-16T08:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Decisões do STF reforçam combate à intolerância religiosa",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxON05PR25FdGdwbDFlSTUxTHJ5YlRXRzR3b2hUYmJJblRpNlJubVJhMFZTRXprc05iVVFZWUN3clplS2MzRkNQaXVCcElRbkZybGZUdThtZkFKZF94WXh1dTV6QTYtVmFwTU1FM2RmRWlaMi1vQ0FISWUyZk5GcUFmQ2ZiSUZHdTZXX2RkbXc4a2pLSTEzRW42b3VZRTVvVjJfT1E?oc=5",
+   "fonte": "noticias.stf.jus.br",
+   "escopo": "br",
+   "publicado_em": "2025-01-21T08:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
    "categoria": "Radar por palavras-chave"
