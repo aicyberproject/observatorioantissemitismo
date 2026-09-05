@@ -2,14 +2,14 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-05",
  "semana_iso": "2026-S36",
- "atualizado_em": "2026-09-05T14:59:46+00:00",
+ "atualizado_em": "2026-09-05T18:05:10+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 91,
- "no_brasil": 24,
- "no_mundo": 67,
+ "total": 98,
+ "no_brasil": 25,
+ "no_mundo": 73,
  "itens": [
   {
    "titulo": "Australian man charged over alleged antisemitic threats against Zionist council",
@@ -20,6 +20,26 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Mauricio Stycer resgata em livro a fuga de sua família da guerra e do antissemitismo",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPc1o1RXpNT1ZQay03RWZvVUVLMmFSbjJNTG1ZcncweUg3c0FqYzFTcy1XdnFMYVYyTWFNYmhzLXRkYlBTUFF6dHViTGYxRUJTNGV5SmE0SzJFVDFyZDBCNHBUOHl3UURSNGVkWU9nRmJUS0FGbHJVYWlPRV9rN25GcWp6bDVUVmlMVm1KLW12UUxtQnE3bV9IMVBfbDZpd19UWUVDZ0xuWGs4R0FuOFZVQ283cFBsMjBXS05oVlRCVmp0MmFEUDY1Nm5zSUttMjcyWTVMQw?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "escopo": "br",
+   "publicado_em": "2026-09-05T16:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "« Le dernier des juifs » : Agnès Jaoui et Michael Zindel face à l’antisémitisme ordinaire",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQMEI2SGQyYnpRYmNYdEdVVklES1lZeHJTUzZpRTVYWVZkbndrZmNzdUpuQnVKbWVGc0VPVmVHWVJxSHRsdG5HeFh0ZkhPaTBZLUp4SF8yTWFPbV9xSjZJUGtDbGxXdEZwVXc1SThuWlk1X1ZlNks3STdGcHMzYTI5WGhRbHJLMWI2SF84NnpoWkxoVHBldDhkZXN6NkFMTmFidGwxTDl5YVdhOGNPcHd6cDJHd0ZjeGJLZUw0Nm4wUnpDdHIwTDItZmQ2bndVTEFxckNYb1BKSkQ?oc=5",
+   "fonte": "Le Nouvel Obs",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-05T15:45:06+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "California man faces trial over alleged threats to shoot up Jewish community center",
@@ -72,6 +92,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "“Hay un enorme potencial para Argentina en Medio Oriente”",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5PT3VxMGJqOGF6UEFYYmdXY0NvRUQyTjNwQ3hydm54cmc2elpwY2dPSEpmbV9ySlRBZXRHNGR3Sm56SFRmbXNyb01SQzkwaWNRaXFpYk9leVQ3a2stbXR2b1ZYVktTaGRUZC1PcU9fVXlTMlhLT28xUGwwMGs?oc=5",
+   "fonte": "Revista Seúl",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-05T07:58:43+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "IMPACT's Digital Defender 102 workshop helps Jews aged 55 and up fight online antisemitism",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-907618",
    "fonte": "The Jerusalem Post — Diaspora",
@@ -80,6 +110,16 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Un alcalde belga impide el partido del Hapoel Beersheba en la Europa League por supuestas preocupaciones de seguridad",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQMy12ZEFpLUdHVWxlZnRyWG1keko3UWI4NGJ5WE4zbFM1aWNJR3p0LWhRVDdNZnQtWVpWdDMwUXdmc1FVWW9OcnhqZm5FNUU5NVduYWpBaGY0NXRiY3VwQ0Q3LUZBUGFBSHJQdFlBRURma3pvYWw3alFzQ0xjNzZBbWhEOG5IS0t0V1d2U0czRnV1eV9HVzJwVGRPbDdFbkNiZWZyVGVMa1M3VUE1MzZqY2J4a3VFMFNjaV80bDkyTU0tRVBLVmd4b3FFdVhoMXMtS0RnZmI2N2l4emJfYXVuTklwLTNhNDl4?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-05T02:01:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "“Você sabia que eles frequentam terreiro?”: o caso Érica Mitidieri e o racismo religioso na disputa eleitoral",
@@ -562,6 +602,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Debate. Antisemitismo y crítica a Israel: una distinción necesaria",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSFV6YjNlY3FtUms0TXlBNlNYaXZpUG1Ldzc2UzZHb1ZGTkZiZHNqNklwcDZPWW9zdlNfVVhraFF3dEEwNWQyaW1hcElXcXFxQ2kwa2hpNnhRS1VVS2NWRGRTTHFvYUdkOXY0NWZLUWVBcFVQUnZWYnQtMVk4Y21NeklLYTkwQjJ2SmZ5c3ZMUkxSRFhZMGx6aVY0X3dPTW4wd2c?oc=5",
+   "fonte": "La Voz del Interior",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-02T17:48:15+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Germany has found the culprit behind a deadly antisemitic arson fire. It still hasn’t learned its lesson.",
    "link": "https://forward.com/opinion/848105/german-antisemitism-arson-attack-1970-afd-neo-nazi/",
    "fonte": "The Forward",
@@ -739,6 +789,26 @@
    "publicado_em": "2026-09-01T05:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Santillán y Glinski coincidieron en impulsar una agenda común contra el antisemitismo en América Latina",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNeDZvWVZzNWM2RTNWZVl2WTMyb3VlYzBQdmg3UU4xOEFkQjNVRWNYRGdCU2F1eU53Rmg4NlV6RTc1M1E1UjVPS0liV25vM1M2MEhBT05JSzVUWDNCWWVLOEwwV0w1VkpDYXM5SEhTNEFxWHB0dVRKekdsTG5WLVg0ZnBNUTBYTUxHdEZ1b3ItTDZlelBfTzlQcVZHUW9yTm4xeE9UYk5tbXhLak92c1dxRjFNcE9hVi1WRWN5T3RZSEtXcUNlZzRZVUFtaDltMkp2WHNPM0Y4UExKWHFPc0E?oc=5",
+   "fonte": "Parlamentario",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-01T01:07:56+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "¿Quiénes impulsan el antisemitismo?",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ZQnFRemszaUtvdFBmRFJDdC1NYVl0ZVNmZVNrUWxTQU1SY3F0d3hBVkFIUGxobzFSaEIyVmR6ZGVhemJfUVdfVGdNTjVGQ21Pb1REZlM4ZldnRHFpSzB5U2dodDNHRjdaa1pxbXBGQm9vUzNGT1RoOGxueXBBUQ?oc=5",
+   "fonte": "Página|12",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-31T23:20:56+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
   },
   {
