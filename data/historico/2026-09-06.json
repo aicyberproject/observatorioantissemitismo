@@ -2,14 +2,14 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-06",
  "semana_iso": "2026-S36",
- "atualizado_em": "2026-09-06T15:20:42+00:00",
+ "atualizado_em": "2026-09-06T18:11:54+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 91,
- "no_brasil": 20,
- "no_mundo": 71,
+ "total": 97,
+ "no_brasil": 22,
+ "no_mundo": 75,
  "itens": [
   {
    "titulo": "New report flags widespread failures in Canadian universities’ antisemitism response",
@@ -20,6 +20,26 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "CAIR-LA Names Cenk Uygur Gala Keynote After He Claimed Israel Controls Congress",
+   "link": "https://combatantisemitism.org/cam-news/cair-la-names-cenk-uygur-gala-keynote-after-he-claimed-israel-controls-congress/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-06T17:41:59+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "As antisemitism rises, the Jewish world faces a turning point",
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5EcWFoUDhFaTMxaHlDaTlDNUJaQzRROU91QmdBU2NfaDBPcm0ydHF4VmtndEVfUTBEOE5oRWFUa2xvVkpNVWVxRXl3RHp0S3dkeFNpQ1BmVQ?oc=5",
+   "fonte": "The Jerusalem Post",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-06T17:26:54+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Conference of European Rabbis launch seven-point manifesto to combat antisemitism in the EU",
@@ -40,6 +60,26 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Incidente en la frontera siria: tres personas se acercaron a la valla y huyeron",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOLURNRUFPeG1CTmRpalJxWTNGLV9uUTQxREJpazd1UnAzbmlNZmdvT3V6alM5ckczX3lNbnAxbEIxSlpvR2tUdzAtYXd0UndjSU01YWxfUkdKT0FIQUZnVy1JQlpSVVBJWi1jLXJROVJ5T0REbFJveXNOeFl1aFNWNnpOWmtMWmh2R1ZPSFhSc3FOM1FjSl9id3R5bjg5SmdSazA5Y19hbkFvSWo0SDQ5eUhRM3g?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-06T15:36:07+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "\"Il faut stopper l'escalade !\" À Orléans, la Licra aux côtés des commerçants victimes de racisme, d'antisémitisme ou autres discriminations",
+   "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQamlqVmxFcVJRX0lNWU9VSVZVMDJyWVl1Y3FPaDJzYnNUeFgxOXBoYWhaMHV3SW8zaDlBalAyZ0Z2RURFbk5XOVlMNC02aFpyeWZON3dFVFZoeHNpMTVKVFFNOFBWYy1sMm5lQVVQbTFQcmtaMm90V3kxYVhUUnZEa3FSbU51cHpiZDJtaVlraERxdHROTmpCVGZiOVdVd3Awdzg2SklfSkFIM25tcV84MVJ5VFBObnlfV0VnSkJUVnhNdzJfbjhIOXpHTHU0RFhqZTlkVTMwMWFidVRoWXZWa0hlUVNzV29yYWtERmtOdExDWUNZdHRWczdhVGt6ZngxMVUtQV9Vb1hRQ2JwNFJvVFphYVRvSUw5?oc=5",
+   "fonte": "La République du Centre",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-06T15:29:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "US antisemitism envoy opposes Vilnius building on Jewish cemetery",
@@ -337,6 +377,16 @@
    "fonte": "oglobo.globo.com",
    "escopo": "br",
    "publicado_em": "2026-09-04T10:53:31+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Atlas sobre antissemitismo é lançado para combater o discurso de ódio",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYjlXejM2MlZDRk1VMzBKSVo3b3VhaTA2ckdSczJwOVpkeE9EYVFvVEtJZ3NuQTJQeFVaSGtYblYwMjdYQ1l1YXR6eUVRUUk0N3I4SkdDOFBkV2ZodUh1NmRNMmxFMU9KZG9abmNNc1Z6XzNKMnhHdl80cDBYbHRkdDd5V1N2ZVRDU2dlM1JzQ1dsVFNkQUVCT0w4Q0U5ZW0xNGZFRA?oc=5",
+   "fonte": "Revista Oeste",
+   "escopo": "br",
+   "publicado_em": "2026-09-04T09:30:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br",
    "categoria": "Radar por palavras-chave"
@@ -889,6 +939,16 @@
    "publicado_em": "2026-07-07T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "O que é racismo religioso? Tribuna Cast explica esse conceito",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPc2JScmhtQTN0TzByY2VXUnpCaXBwUTVJY2dOck5XUldTT3ZTT0FnT1Vpbmd0TXQtVVZCei1WUUk5MmpTR29keER3WllocFY5UlJ5RG5wM3FfeXdyODNzVTE1cGE5djRlY29raHh5VzlxUUgwZzlfNi1oaTJLRTBzLXlCOTdJVmZTOTNjbW1zYlloOGJtWm5wVzJMOGFFbWFtOW10NlRTVmc0cXh5?oc=5",
+   "fonte": "Câmara Municipal de Curitiba",
+   "escopo": "br",
+   "publicado_em": "2026-07-06T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
    "categoria": "Radar por palavras-chave"
   },
   {
