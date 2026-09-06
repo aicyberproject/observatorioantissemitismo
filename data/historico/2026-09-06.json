@@ -2,15 +2,35 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-06",
  "semana_iso": "2026-S36",
- "atualizado_em": "2026-09-06T04:14:48+00:00",
+ "atualizado_em": "2026-09-06T10:44:43+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 76,
- "no_brasil": 18,
- "no_mundo": 58,
+ "total": 81,
+ "no_brasil": 19,
+ "no_mundo": 62,
  "itens": [
+  {
+   "titulo": "« Vandalisme inadmissible » : des croix gammées et d’autres symboles nazis tagués sur un skatepark, en Normandie",
+   "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPZWhKYjVsdEttNVEzbkVGOXpYa3hHX243cGdPcGtYREluLTdWXzVrenlCUTVwYjQ4NTVUcGk4cVNnWXVxVUZBVUR5WDBNZ1BSbmZ0U3pyTGFJRXB5RkZHTHhRVTBnWGZ6TUtMWGl1S1NMOHpaTVZLREV0VTZZOFdFQkY1RkVRX29scEp6TU03R0MtTW1BVEV0QTd3MV9XUEZJcU02SXZTVjJWQjA0UzlONDlDZFlLSWpYRXlVZlRxT2wwNjhhMGI4c0hQMW9jcjFKWFRJWHZGdkdjYWxfSzhYRWVLXzVHYTg2ZjUwVGlPZWEzRDdIeDFuRzUwc1diWU5yWnBBMEtsTEFybUlIcjhDejZQMjBvVG5qUXN3?oc=5",
+   "fonte": "Ouest-France",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-06T10:15:33+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Opinion | Republicans seem to only call out antisemitism when it suits them politically. Elon Musk proves it.",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOGNmTzdFcktJUzE0MVRFeDlOYmQ1QWdaVUxvdHVGUVk0dUdMN1V4TWl2Q093SW5hWlFnSUtYUUJpVXZXaDRQMy1ENExKUHZDd3dNdnl4UUkzUE9MdjZ6Vm5heVU4dFZYcUlFTGVpS3FQMmowSXE0WGdpaXNzMzJhenhrSDA?oc=5",
+   "fonte": "MS NOW",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-06T10:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "A personal encounter with antisemitism",
    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTnV1dDI5bUJJLThEX19ycXpaX3pYMEIybGp5WjVhV1RsS1lBYzdxdXF0SlctSTc5N1UtM0ZZRzhzbVBsSzlkZEFzUmN1QU5laGc1ellaVFlVX0F5OGExdmh6a2tZUGZlbXhxb1VoSEplNTFnQlZHb09iMGpvS1RCOHM0TU0xdw?oc=5",
@@ -240,6 +260,16 @@
    "via": null,
    "feed": "cam",
    "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Confederação Israelita lança atlas e plataforma para identificar manifestações de antissemitismo no Brasil",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxORHZ1TWVTb2xWcl9aSjlxU19Kd3B6WnJyeHl3bVBEakdSVWdyYlhFUFdicTlnNi1Hb3pPcGNRemgzd3JiR2lLSks1cVlTUG1HdXMzdVVwalYwZHBtSGdBWXVNWURmd2tpaVlJdUtlS2hLN0d1WHRPN253cERlXzFXQlJ5YnI3WTRjWGFkVWw4REpQazBxZHJoNTNSX1JfYV9zVjhVNTZQUTkxb21CTWd0Rk00QUs4UW4zNEdqZktyVHg2OGVvQWxoMm9uMnhyRVhseTh0SVd6QnI0VnhXcnFPeFVIZmJEWjRuQTZtUTFLVEM5bDBGbGtQRWgxQm51d9IBjAJBVV95cUxOQ0tYLUEyU0J5aHBHZkRxdVN2NFNONEk1VUhyVVlRQVZCem90YVBpXzZZT0ZfdW45NHJYVnVGeWI2Tl9kVno5c2xMWFZtcUREUEpiRFhIeXBCUGJCdWU3OEU0M2FaZ05MT09YQUZnMExkMkx4V1F0Zkh4Yy1HbFpQdjh5TVctQXE3NXBMcXFmVHk0TDNkVzhJUzVqTS1VVkl2LW00SUFxYlVNWnh2RUVCeXlwVk9oYmJEcFVPdGpsMncxWWhTVWZxOWZKU2NpZzR3cnRhWFF6V2RianhURVJxV2dDNUxfLXYtYWpuMEdiT3lkejZZakp1YkVLb1BCdTh4Rk12VEd1cVRtOFdQ?oc=5",
+   "fonte": "oglobo.globo.com",
+   "escopo": "br",
+   "publicado_em": "2026-09-04T10:53:31+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "ADL, AJMA, Brandeis Center, SWU and CCA, Hadassah, and JFNA Issue Statement on HHS OCR Guidance Addressing Antisemitic Discrimination in Healthcare",
@@ -472,6 +502,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "Más de 180 figuras de Hollywood salen en defensa de Mark Ruffalo tras la acusación de antisemitismo de Paramount",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVE54VzJ0QllZaGFqTzRpUlFlYTJTbEVRcHU3bHY3MGd6bDRTMXc1TE0zMndSdXFwbmFsQ0hNMk5rYUVYcHA3QnBIUnBLUGNFRm1ELTZnT1lwT3NnXzZLd3RFZFBQZEdnZDhVVTFpbFhEajkwOHZfT2NvUkJJa0x1UzRBNEtmTFdtTWhiZHJDa3dfWGZkVnZBVFBuYnN6M2JFcHN5ajBoM0l0U3FOQm95a2pSNUhhLXQ3U1k0eUY3dkpsLUN3eVJQOXJEQnRJeEJnWXfSAdcBQVVfeXFMT0t5WDYybVFyMzlJUTlQVzU0b2dQT1VFM2FJZlV2bkxCQjl2a1FtZXB3R2ZJUy1EMExPaGdCT1RMeWtFdGc5WG9fVm5GSXFYTHVOUGtoMVdzUERoeGg1cWpoS0JwaUlOZ25PQ1VlWVQ2OHpQR3BBRHp3QTlrZ2RpaVdrUHpSRmlQQ0w1MkRSak94b0JLejVONlJnb2I0LTYybXI2UFpxdUZvMWpjc3REZHVNYVdMMlh6cTNQaFJZSVBPcEtMZzkxRmtWaGRhZ3Fkc2RxQmxkSHM?oc=5",
+   "fonte": "Clarin.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-02T15:05:27+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Mark Ruffalo briga com Paramount, é acusado de antissemitismo e recebe apoio de artistas judeus",
    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNNUdKdDhlN3RndHlaQUhNNnlpYUk0WUJLcTh6NWFVVTZhdm4tdkRVMGtiR0ZmNm5oWlpIVHlWMWVpeE9QZkxiak0zZG83Ukd6QmNVeG9uUG5wVjhTczJZdmhEeXBrNmdPWTZtckVGYXRtQS12YjB1OGg4STJFZk94blE5cmtEV1pPampBekNIb1VfdUN0YjJDMG1mWXZRU3VobzFHdmE2WUJNbUM4blBGMGY3NnlFVUs4TXBSNnBzY3Z0Z2NrcjJ4clBpNnFrQ1FIOUZuaTJwbFFjdFdmcy1MSjg0VnBZX1V6RzhJQdIB-wFBVV95cUxNbWxvamc5b2xEOE9iUEZhajJsTnRrRkhZWXJrM21pNTBoaUJzLU9zQnNrcDVHTXVlUjMyenNRV1VvbENDdklhTFhpMVJKMXNpd0NnNElUVmxrYVBDb2Exc3VUNFdkMmhNekdPUHJjSW1HZjc5MDJJcGl6aU1wQmFxLUthWEdSNU9ibExGZ0s1cklBNVpSTVBTLWczRW5xUXFzMHNaenJRSUtKcFNsS1huTl9RaEhjQzhPWFFSakIweXRlWEd5Zkc5TGd0bXNrdnJZNE1UVFpsX2hiYnBUd3JmMm5kelVyNF9UalFTM3dJSjhWbDllZW1RYkFTMA?oc=5",
    "fonte": "G1",
@@ -479,6 +519,16 @@
    "publicado_em": "2026-09-02T11:18:58+00:00",
    "via": "Google Notícias",
    "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Más de 180 artistas judíos de Hollywood apoyan a Mark Ruffalo después de que se le acusara de antisemitismo",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQ3l1dFZCU09jb3dUQmw4cE1RX013anp2ZF9jbHZtSWFlQXNVa3lRTUhCVUdzbzEzeGx6Ykt1UTdmSUN6eUhfT213N1gyRmZpTjRkcURzRTlWRDZCWVBISlJfTWRLNVRFbDhxUzBEWHNuajB5YXJVaF9RS2d4alcyTmwtbk43a3Q0SGNqS2dPYUNTUGFjTjExWnFRcGM2NjZpVGN3T0s3eGNhUDlDTTU4X01DSDByWndNWlg4NXVkcTIwRnhhQlc0X3lWZVdsdlR4Zm83WXN3TGZJQmfSAe8BQVVfeXFMUG0xNDM2bFF2VTRVMllUSzBIZll4cURlSDREQW1tdmtPSmNxdlBfQUo5WXk5bGJSeDdJSUxLLTd3WVZiYlFiaUI0bm1wSXJhMkI2Wm1QTk10M0pVcWU3eFozZVNwV0ZYRkU0LVJ0WFJTVjVOUjdZSGpmQlN2ckp5WHN2ZTVhZnRKNV82cVJmV0F3bFowVFZVT3ZNZ0hIWmZoMmhZbXVQeElUT1F5X01OQjgybXpCS1lGQ3B1YlAzaTU5WU5KYUJucmk1Q2hFYjNsNDZhMUx6ZEExbGs2VVRoazU5NXZ5R0F2Y2hKWldxaUk?oc=5",
+   "fonte": "EL PAÍS",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-02T08:28:44+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
   },
   {
