@@ -2,15 +2,75 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-06",
  "semana_iso": "2026-S36",
- "atualizado_em": "2026-09-06T10:44:43+00:00",
+ "atualizado_em": "2026-09-06T15:20:42+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 81,
- "no_brasil": 19,
- "no_mundo": 62,
+ "total": 91,
+ "no_brasil": 20,
+ "no_mundo": 71,
  "itens": [
+  {
+   "titulo": "New report flags widespread failures in Canadian universities’ antisemitism response",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-907729",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-06T18:17:45+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Conference of European Rabbis launch seven-point manifesto to combat antisemitism in the EU",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-907721",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-06T16:50:24+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "CAM weekly antisemitism report - Chicago mayor dismisses antisemitism concerns as ‘witchcraft'",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-907715",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-06T15:44:08+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "US antisemitism envoy opposes Vilnius building on Jewish cemetery",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTWtwZWEwaWRhc2xqR000MEtQMV9Bcms4UTlQY0psUnJvZ0NKRkExMFZ5RWNWeVRYNG0ta0RmTzZHTWZ6c1VESU1TdjhtUUxlNDVqcGk1aUJMUl9ENE5jUDdVc0tyT0xsbVFyVkNKdVhTb295WWNSZG5DUmR4YkR5QllERjQwV1F4RFFSeXNSWHFSdVRPNDgwazVDYVRSTDhTYUJJV19B?oc=5",
+   "fonte": "JNS.org",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-06T12:51:43+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Estadão",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWjMwbEVrR1doUGN2WnZsc3BIMDFpN3ZtX1BFR0RLc0o0UU9ucHFiNC1lQ182dEF0WU4yZWU3TXBxN3AybDZxb1cxNXdmTUtCcXNsb3h2dDUteWI5UUNMeDg3OHhSYjVGd0tNVHpFeGFnU05KNGpYTGQtcXU1NkVBbXVlN0huamVLbUtEc210SkdfejRxcFo5c2xmMTVYckFZT2lZblZ6TXNuR0lGMEw4QWYtNEJzVV92dVVYcENaenZuMFZ2UTJnSVBhcWZVSFozVkE?oc=5",
+   "fonte": "Estadão",
+   "escopo": "br",
+   "publicado_em": "2026-09-06T10:52:43+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "He went to a different Manhattan synagogue every week. Here’s what it taught him.",
+   "link": "https://www.jta.org/2026/09/06/culture/he-went-to-a-different-manhattan-synagogue-every-week-heres-what-it-taught-him",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-06T10:45:00+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
   {
    "titulo": "« Vandalisme inadmissible » : des croix gammées et d’autres symboles nazis tagués sur un skatepark, en Normandie",
    "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPZWhKYjVsdEttNVEzbkVGOXpYa3hHX243cGdPcGtYREluLTdWXzVrenlCUTVwYjQ4NTVUcGk4cVNnWXVxVUZBVUR5WDBNZ1BSbmZ0U3pyTGFJRXB5RkZHTHhRVTBnWGZ6TUtMWGl1S1NMOHpaTVZLREV0VTZZOFdFQkY1RkVRX29scEp6TU03R0MtTW1BVEV0QTd3MV9XUEZJcU02SXZTVjJWQjA0UzlONDlDZFlLSWpYRXlVZlRxT2wwNjhhMGI4c0hQMW9jcjFKWFRJWHZGdkdjYWxfSzhYRWVLXzVHYTg2ZjUwVGlPZWEzRDdIeDFuRzUwc1diWU5yWnBBMEtsTEFybUlIcjhDejZQMjBvVG5qUXN3?oc=5",
@@ -29,6 +89,16 @@
    "publicado_em": "2026-09-06T10:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Mike Huckabee Accuse Le Gouvernement Britannique D'antisémitisme",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOM0dtVUNRWVFycFF4MzcwVVJZdHY1LVFFUC1vTjhQblVET2sxV294cjhOWFlUX3BaWTBaSW5TSHdvV1AyODBjRWRuN2p1RjhRX1JNbnRvVm9hWk9vSm10OGt0SzhPYW56UUU1RC1reXhOUDMzTjNxRWE0MWV4SXYxQUVYMEI2NXZXOWNsMmVEVnhOM2tKN3FHTFpmZW82QlFjM0x4a2NXNkF0UjJoRHFwVFNVZ2I?oc=5",
+   "fonte": "i24NEWS",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-06T06:37:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -412,6 +482,16 @@
    "categoria": "Observatórios e entidades"
   },
   {
+   "titulo": "Where Hatred Lies | Omer Bartov",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOemdJbjNBRDZZcmczdDR3aWw2U21rMVRhRlhJY3QxRE1GVXlpMnF5cGdtcUVIQ04teHBPWTZ0aC1GWFpmd3FDb29RM2pMNHloMW9QUnp2TFBYQXVpX3hxSU5tZjk2dmF1S1FRVlNmZHpEV2hPSFBPZ0k4U1IzT0hWLWdpeWQ3LVRxbzB0YlRWMXdGVXdjZXc?oc=5",
+   "fonte": "nybooks.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-03T12:22:26+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Une vague de solidarité inédite en soutien à Mark Ruffalo accusé à tort d’antisémitisme",
    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOFJQQ0hPZGp0ODJCeGxHTTduUjJJRVZLZGd4TVp6amlTOE5NNy1wc2pRY0dWWFE0MWFaY0xkZ09UMHI2b0F1aDA3UHM2VjFnZ2d0b0l0c2pYNUFwbFZSWTdDT2g0NW1KNTYtdFNTZmpYc1ZucUhScVktQ04wc0VMM2RwaVctbHFVTERaOGl0c3ZvNXo4X1BzQ0U0SE16SGZfdTdEUE8wSGNtNWlQVHZYUXRnYzNGSElyUDN5RWpqYnJ2RlR4YktYZGhB?oc=5",
    "fonte": "humanite.fr",
@@ -439,6 +519,16 @@
    "publicado_em": "2026-09-03T00:17:47+00:00",
    "via": "Google Notícias",
    "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Paramount acusó de antisemitismo a Mark Ruffalo por criticar la fusión con Warner y la industria respaldó al actor",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPZFJFSXdJQmJvRHVidGlzdGlkNEhOQm5tQnBqMFNTU3RiamZJZ1N5dDIzTGJEMG9HY1owalphM3hMejUtQjdTVW40bWtwbVotUF9wM0dIV3BlVEhBcVhGa3FSYTFYcTE2MHEyc3ZWQ0p4aE5teHdHcTdVVzBRMVh4cjZYOGthN0lXblE0UlJBdDU2bGozLXVSQWs3Snd2RjNjV3dUUUxPbi03VVRkNURLSG4zTmg1QXpIeEZLOFRwSVRKTG12eExYQ19JT0FvZ2lvMkpScllzYW8wRFhoRjNtQkd4MmtHa29mcmc?oc=5",
+   "fonte": "Página|12",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-02T20:59:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -565,6 +655,16 @@
    "titulo": "Long talks but no deal to modify California law combating antisemitism in schools",
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNG96V0ZBZ0lXMGo2U0Z4d3UzSVdDYWdXcGdESjVoSjJzX3BvWjRTYjhjODJia3NkZEVXNGRzZ3FLXzhlMVhiNVRObFk1TEFNWjVBaFJ4ZXA2TV9JNXdMakRXd3JDRmZ5QU5MWDBCeVdDVDhuaHNjMEdpT3p0Vjc0VEFXUXpJOE4tVWI3dS1NVlBGWlc5T2ViNjRaUFBLM3dRYi1xcDRjY2JiaGpjMzhrNUFleDg?oc=5",
    "fonte": "edsource.org",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-01T16:23:08+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Long talks but no deal to modify California law combating antisemitism in schools",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNG96V0ZBZ0lXMGo2U0Z4d3UzSVdDYWdXcGdESjVoSjJzX3BvWjRTYjhjODJia3NkZEVXNGRzZ3FLXzhlMVhiNVRObFk1TEFNWjVBaFJ4ZXA2TV9JNXdMakRXd3JDRmZ5QU5MWDBCeVdDVDhuaHNjMEdpT3p0Vjc0VEFXUXpJOE4tVWI3dS1NVlBGWlc5T2ViNjRaUFBLM3dRYi1xcDRjY2JiaGpjMzhrNUFleDjSAbwBQVVfeXFMT3RMYWRsTUx5SmpkOWZJckdKWFlwb1hRV212RXBXQWw5MS1HaVN1N0I0TVBLRlMxd0NZeEduV3FWc1Z5SkJNbFVFTVpFRzZ0a0Q2cWV4ZFd6Uy1UQlZXaXZFS1NOdGd6TmRKbWNiYkZHUTBuS0tfMjZmSWRFaUVJYUVXTHhFZ01tVHFVWk1qVU5MMS13UE8tRWtacEJReV9UdUt6NzBORVZXSklZZ1ZxZVlRMGZJdFFMN3E4bXc?oc=5",
+   "fonte": "EdSource",
    "escopo": "mundo",
    "publicado_em": "2026-09-01T16:23:08+00:00",
    "via": "Google Notícias",
