@@ -2,15 +2,85 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-07",
  "semana_iso": "2026-S37",
- "atualizado_em": "2026-09-07T12:14:02+00:00",
+ "atualizado_em": "2026-09-07T18:41:00+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 83,
+ "total": 96,
  "no_brasil": 19,
- "no_mundo": 64,
+ "no_mundo": 77,
  "itens": [
+  {
+   "titulo": "International Jewish-Kurdish conference kicks off in London",
+   "link": "https://www.jpost.com/diaspora/article-907858",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T18:37:26+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "US antisemitism envoy pressures Lithuania to stop construction on Vilnius Jewish cemetery",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-907862",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T18:20:10+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "How synagogues and Southern Jews came to mourn Robert E. Lee",
+   "link": "https://forward.com/news/848861/robert-lee-jewish-synagogue-mourning/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T18:02:23+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Police arrest suspect in connection to pair of Monticello synagogue break-ins",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-907857",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T17:59:45+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Soldado israelí que lidera campaña de Adidas pide apoyo tras ser víctima de una campaña de odio",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUkJpVV84dkcwQTVNM1BwMWlWc1J1aUVRRlBsRHJPRm1LS1pzbWtCOVJQZVZwQzR2dG9JLVdSY0FFRzV6eXlTNEpuaGZTMFhEaUd4SkNrck9yeGJQNllmSld6c2NScE1EdFZXNHRmTUFWakxIbExnRkQyLXNVNXJzMDc1d1IwZ1BJUjFSeE9VaWoxYTdDUEJrdXpmZmJzamFqRlhTTk9vYnZLUElkQjgzY25GNkRuLXZnWVlBaVVMOXltNG8xVkZwY3pSTQ?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T16:13:41+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "« En Israël, la politique génocidaire n’est remise en cause par aucun parti susceptible de gouverner » : entretien avec le philosophe Étienne Balibar",
+   "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQbENsQ29jMUQ3TnF5ZjNUZ0h6bzNhakwtYUxNejBkcGt6TnRJeGF5QnctVGNHUFVnZ0tvXzRxR0hVVTFwMWFWLTFSVjVRTUZLaUdUSVdkRVl6bEpzYTZYekZmb2F6SVpMZXpOakpZZ3BxNGNRU19LNlNMY2djTXE5R1VPMXlNN2Y4NVkwVlhzN1ZMQkoxdmRQYy1iWjZIUENiTllTcGlUX011dWREQjVjREpDZi1MNE0zWFpRNFpyQ204Z2tkTWtCNlFaYzRZbDZRTEVwY1Y1Y0psbS1BbmFTcXFDTmJJVzl4NlVBNUFiMGxfblRoUEg1eDBYWHdORmJHZUFhLW9rZy0wV1hCdmJ0REdR?oc=5",
+   "fonte": "L'Humanité",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T15:02:38+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "California Lawmakers Pass Bills to Address Antisemitism, Deem ‘Jewish’ an Ethnicity and Protect Religious Observance",
+   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOTnRiSHdISG8wbktFa0p2UU9LZDAxR3VWLXpUVUh5ZXVEdG5XZ25ONWgteXctRXN3OHl2bUJDOU15X2doQmctakV2Wk9wWnQ2WnRKUjRyTDk4TjlGOVRxWi1mTVB2UHRJamNSQk1yT2VzMk1FdHZTazNPN0hlekpwNkxVWVFNM2tlYlhjbXZxMmZfa3V3V3oyOXJidXNONUUzX2UyN0tpVGNqOVBYc0l3UTV2aXd5TGhBSHFTN3BqUVNOVVE2bnI0cnpmTE8tTlZFTjQ5OEVBUk5PdERDM0ZvWVBYVUdZNHJZN1AwTQ?oc=5",
+   "fonte": "Jewish Press of Tampa",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T14:05:58+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "What AfD's election victory in Germany's Saxony-Anhalt could mean for Jewish life - analysis",
    "link": "https://www.jpost.com/international/article-907814",
@@ -172,6 +242,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "\"Il faut stopper l'escalade !\" À Orléans, la Licra aux côtés des commerçants victimes de racisme, d'antisémitisme ou autres discriminations",
+   "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQamlqVmxFcVJRX0lNWU9VSVZVMDJyWVl1Y3FPaDJzYnNUeFgxOXBoYWhaMHV3SW8zaDlBalAyZ0Z2RURFbk5XOVlMNC02aFpyeWZON3dFVFZoeHNpMTVKVFFNOFBWYy1sMm5lQVVQbTFQcmtaMm90V3kxYVhUUnZEa3FSbU51cHpiZDJtaVlraERxdHROTmpCVGZiOVdVd3Awdzg2SklfSkFIM25tcV84MVJ5VFBObnlfV0VnSkJUVnhNdzJfbjhIOXpHTHU0RFhqZTlkVTMwMWFidVRoWXZWa0hlUVNzV29yYWtERmtOdExDWUNZdHRWczdhVGt6ZngxMVUtQV9Vb1hRQ2JwNFJvVFphYVRvSUw5?oc=5",
+   "fonte": "La République du Centre",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-06T15:29:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Israel diz que França está alimentando o antissemitismo",
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcXJtMTFhbW9pRHI2bUx6UmNIUE1qeEFmMHRoazVoZGNJUmxCb1pKODYwcmZIS244TlhiLVBORk9PMl80dDc1emd4dWp3LS0tTkp4dXJYQlhzT1VLcF9naWd1QW94Sjd6NXdfM2pwN05jbHVVMDQ5Y2ZacXA4aUJCQTQ4eTBqaEREbllvaXVkUzJjLXBYdDFxbWxzTDhwOXhSNFNaWVJFSExONnZRNGduN2VuVlBzNFBH?oc=5",
    "fonte": "Gazeta do Povo",
@@ -192,6 +272,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "L'ambassadeur américain en Israël accuse le gouvernement britannique d'antisémitisme",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNTZHWnNhVjhnal9EMU5IdnRWbDh6eGY5dXoxVEVTd3FZekVDNXhTNkQ3Slc3U1FUTVJ6NGVONGtvbDMwSXY4YWkxT1NIRWFPVWw4WkM4M2lDeFlMSUozRUF1d0hOUkVjREVWblNJcGFfWE5DV3V0NC1PeXcteXhhQWQ3ZW5uaHF6QjYwQThHR3p0MjhsSHQzcWgwQnJmVXRIcnc1RkVMVUpyNnZlS0QzWEFwMHhPbHZTSnlKYVVPZlB1NlFSODlHVnFLRQ?oc=5",
+   "fonte": "Le Figaro",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-05T18:47:02+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Australian man charged over alleged antisemitic threats against Zionist council",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-907638",
    "fonte": "The Jerusalem Post — Diaspora",
@@ -209,6 +299,16 @@
    "publicado_em": "2026-09-05T16:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "« Le dernier des juifs » : Agnès Jaoui et Michael Zindel face à l’antisémitisme ordinaire",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQMEI2SGQyYnpRYmNYdEdVVklES1lZeHJTUzZpRTVYWVZkbndrZmNzdUpuQnVKbWVGc0VPVmVHWVJxSHRsdG5HeFh0ZkhPaTBZLUp4SF8yTWFPbV9xSjZJUGtDbGxXdEZwVXc1SThuWlk1X1ZlNks3STdGcHMzYTI5WGhRbHJLMWI2SF84NnpoWkxoVHBldDhkZXN6NkFMTmFidGwxTDl5YVdhOGNPcHd6cDJHd0ZjeGJLZUw0Nm4wUnpDdHIwTDItZmQ2bndVTEFxckNYb1BKSkQ?oc=5",
+   "fonte": "Le Nouvel Obs",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-05T15:45:06+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -359,6 +459,16 @@
    "publicado_em": "2026-09-04T10:53:31+00:00",
    "via": "Google Notícias",
    "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Zohran Mamdani pris à partie dans un quartier juif : \"C’est à cause de vous qu’il y a autant d’antisémitisme\"",
+   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPNzd2M29FSFpqVXRmX3pBRzFfSDVpUTZuQWNOWV9OZGVXT2xNV2hjdEc1TUs5RXd5UXVoSzZqRTFRZW5Ib2JiNGNmdkhReGo4VWsyYWxJVk9XQ2g2cnRxR3hYYUFLUTFvUUlhdXlfLVRpbXVYV0FLN2FCSWNLbmcydzVMVmpPTHcwQ0NLMmFUQmZKWmZMNGtPV253dUJPNG5aUnZwejRLdTY1REtsc3dHakg5ZVMzSUNxQThEVDRFWklRLWF3M0hKbnlkNXFCMnRYT0NmdVhIc2JHdjM2S1JESW8xSXBKR1AtaFFlbnJlNEwza1JDZXRrVg?oc=5",
+   "fonte": "i24NEWS",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T09:53:41+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -582,6 +692,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Más de 180 figuras de Hollywood salen en defensa de Mark Ruffalo tras la acusación de antisemitismo de Paramount",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVE54VzJ0QllZaGFqTzRpUlFlYTJTbEVRcHU3bHY3MGd6bDRTMXc1TE0zMndSdXFwbmFsQ0hNMk5rYUVYcHA3QnBIUnBLUGNFRm1ELTZnT1lwT3NnXzZLd3RFZFBQZEdnZDhVVTFpbFhEajkwOHZfT2NvUkJJa0x1UzRBNEtmTFdtTWhiZHJDa3dfWGZkVnZBVFBuYnN6M2JFcHN5ajBoM0l0U3FOQm95a2pSNUhhLXQ3U1k0eUY3dkpsLUN3eVJQOXJEQnRJeEJnWXfSAdcBQVVfeXFMT0t5WDYybVFyMzlJUTlQVzU0b2dQT1VFM2FJZlV2bkxCQjl2a1FtZXB3R2ZJUy1EMExPaGdCT1RMeWtFdGc5WG9fVm5GSXFYTHVOUGtoMVdzUERoeGg1cWpoS0JwaUlOZ25PQ1VlWVQ2OHpQR3BBRHp3QTlrZ2RpaVdrUHpSRmlQQ0w1MkRSak94b0JLejVONlJnb2I0LTYybXI2UFpxdUZvMWpjc3REZHVNYVdMMlh6cTNQaFJZSVBPcEtMZzkxRmtWaGRhZ3Fkc2RxQmxkSHM?oc=5",
+   "fonte": "Clarin.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-02T15:05:27+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Accusations d'antisémitisme, rachat de Warner Bros par Paramount... Pourquoi les propos de Mark Ruffalo enflamment Hollywood",
    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQVzVZRFZXUzZneGs4Y2k5Ny1GUVQ4WV9qOUV1U1dmWmcyaENIWkZ6UWdkdXZBQUd0cU1KSGpzVHI4OExfMkktM0pCRFlkN1pWbHlBLW5rYnlrcXozMVlkTmNFWDNGbWUyNk5GaFhpcnNLODRYWUFBNXRwVzllSkxiTVZ0LW1pdEd6b2tPdHhKSW51LXNvcTFJcUJQc2lYeFVGblJZVE9lZlBHRmlQbUJZSmRJUk9QRFE5SF9UM3RDWHBvNW1ZX0x2VUNpLWI3WU5zQkVmTlBNVWcwRS14X1p0LVlCNzBZUjZsRFZkUVRVanN3VWJlbW85NEZUNVZCSVk?oc=5",
    "fonte": "RTL",
@@ -737,6 +857,16 @@
    "fonte": "NPR",
    "escopo": "mundo",
    "publicado_em": "2026-08-14T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Judge Dismisses Federal Government’s Antisemitism Case Against Harvard",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMkdqdTNsaGQyNkptVTBGeUd0aVRfYUhMeXRndl9oVmNzbThwcHNkX3BYbUtzZlpWOElsR2ZfU08xdDVYeXFuUXJHSHcxTjUycDRmbGhtcXFSSEZYRlkyV0ZjR0RTb21DbzVpUUlHY2Z6NWtKbFF1bjZwQkJIVUlHdDNnOWM?oc=5",
+   "fonte": "The New York Times",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-13T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-en-leis",
    "categoria": "Radar por palavras-chave"
