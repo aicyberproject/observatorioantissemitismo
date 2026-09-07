@@ -2,15 +2,85 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-07",
  "semana_iso": "2026-S37",
- "atualizado_em": "2026-09-07T04:13:58+00:00",
+ "atualizado_em": "2026-09-07T12:14:02+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 74,
- "no_brasil": 18,
- "no_mundo": 56,
+ "total": 83,
+ "no_brasil": 19,
+ "no_mundo": 64,
  "itens": [
+  {
+   "titulo": "What AfD's election victory in Germany's Saxony-Anhalt could mean for Jewish life - analysis",
+   "link": "https://www.jpost.com/international/article-907814",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T13:12:24+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Titulares del día en Israel",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3QmRJTmxUQ2otN0o1TlVWQ2N4a3RHbF9MUEM1YVJ5VTdwaGtRUElpcGhwaU80T3lUYTlVV1BGS0tjYmgxTVpwcVRpQy1nYjJ5THhLRU9QTjZqaUxwRWY0cE5UX005RlRDM3FKaXQ1dzRXUXdTeFE?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T11:51:16+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "What antisemitism and homophobia share, and why it matters",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNc2c0ZENXQ25uQnozTGZWd0puWGpwaXBTV1NBamt0S2pOc1BjYTZPN3pmdXVVaHlwWFNsaWVxVFNpa2xFT3lFQ2VOUlNGYmktTlZFUG92MmxmX01VWW9DeGk0bWRudnQtNXQxLWJuTWU0ZEFWNkM4YXB6dEtYdFYtQUNDMnVOak9vdEJRTWhaQmZiS244US13ZtIBlwFBVV95cUxPUloxTWdLdlhWOUNacHQ5eHFicUVhSzB3Q05xVjJIVGJoV0x1aExGekxSQTZjYk1iRkpobmhZQUlsZGR1NEpKbTVZdk9zQlNFZGZtcXVKWEZDRl9PZlJZWmJQczFLRDlEOHV0WUctdHBQT0xaVGo0MEd1Nlo4T2xMTEtfTF9laUpTVThwMmxtUHN4SVlYYzJj?oc=5",
+   "fonte": "ucanews.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T11:35:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Rising antisemitism means Israelis must rethink travel",
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB3Y2h5ZjJCRVhwWXNTUkNJcHBpMWtOMHBuSTdFWmtmV1F1bHF3eUhacF9PSE45SVVwSExFNDNrdXh0cWVXV1hkUWFiTEhrSkFYelBTQk1ZOA?oc=5",
+   "fonte": "The Jerusalem Post",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T11:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Don't let Israel's defenders decide what counts as antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRExHLU9JbHNjQVd0RzlPems4QVNLUGQySkg1TEpTMzN1WVFvSWJ2dDlUQjFHNm1wWDlZckR0eDNDSFlnWVdTUHVVVzhheWt6ZHZDVEs2c291UkdvbW12UHBSbFAwVjlEd0ZrcGVRY09ka0xGN1hzSEhlcTl3NXpGRElFZXN1Q3RIczlsRDdDdGozQU95SFRuQTh2dFhOMkNQRVRCYUl4MHdMLTc0TG56UnkxTnZxaGVlTkhvc0ZGNEw0SVdhNXJlZmpzNXlDbmJX?oc=5",
+   "fonte": "Hannah Ferguson | Substack",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T07:02:49+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Nouveau maccarthysme universitaire aux États-Unis : l'accusation d'antisémitisme, instrument de censure et de mise au pas",
+   "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNbnQzUUVNNEZtS2xVNDJtSWFXdGlkSjhZNGpOUl9jb2RRaV9kU2RkblNYN2ZXSWpIOE1xRHJqVXI4dUlaOGEtLXo5ZkQzTjFpU2lEVzd6RHJqZVFjUmhib2pCTlhxSE5hS01RaW5aWGtlN3JQS0hYaVl4b3liUzJOdXZpWmRfS2JWRUl1QjJ1SXhvRXpIU2NPeDQyeEZOMEtxY0ltUno5cGQxRG4xT29oR1REaFJPQXNGVzhneGhNTmJRaklSVlRqdUgtbEdFZTQ3T1hKYVFsbDM3eHVNVlpOWWtHNTJLTWZ1VFF6VHJlODUxdVNzei0tSWdzQ0p2WlhpM3NfZXFPVnhkdw?oc=5",
+   "fonte": "Le Média",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T06:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Noticias de Israel y del mundo judío en español",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9iWXUtWFA0cUNnc2k5emNhSDZpWGM3b1o5S0JHTWhvN25mWnlwYlItT3FPOG8wSUQtVlNjelNUYUx3c2pBbjJiNkc1SGpBUFlTenBsSVZ2QUxtR09DY0ZPbkZKeWVnbzB4b0s0cXpZRm1rZ0NZSjhNNUx1UXE?oc=5",
+   "fonte": "Aurora Israel",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T05:10:55+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Op-Ed: Bondi Was But One Example of Unchecked Hate. And We’re All Paying the Price for It",
    "link": "https://combatantisemitism.org/special-features/op-ed-bondi-was-but-one-example-of-unchecked-hate-and-were-all-paying-the-price-for-it/",
@@ -522,6 +592,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "In Missouri schools, new law targeting antisemitism raises First Amendment concerns",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOV1RCbGVxcVVuOTFCaFBoeVNNblN6bHBWY1NHZTM2STh0OG1NOF9NaVBWWDRUOWZJdnJaWjBSR1B1V1FNNjJPX1NaTl96MDFyeEtwSVgwZ0pyOXB5eXBncjBPU0dsbG9ob3VnQ242VUhYYTFYallvMkVRYzNnWktkMVJTNms0T1IwbHdlUzNOWVlJNWFIbEJhM19sVTI?oc=5",
+   "fonte": "kcur.org",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-02T09:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Long talks but no deal to modify California law combating antisemitism in schools",
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNG96V0ZBZ0lXMGo2U0Z4d3UzSVdDYWdXcGdESjVoSjJzX3BvWjRTYjhjODJia3NkZEVXNGRzZ3FLXzhlMVhiNVRObFk1TEFNWjVBaFJ4ZXA2TV9JNXdMakRXd3JDRmZ5QU5MWDBCeVdDVDhuaHNjMEdpT3p0Vjc0VEFXUXpJOE4tVWI3dS1NVlBGWlc5T2ViNjRaUFBLM3dRYi1xcDRjY2JiaGpjMzhrNUFleDjSAbwBQVVfeXFMT3RMYWRsTUx5SmpkOWZJckdKWFlwb1hRV212RXBXQWw5MS1HaVN1N0I0TVBLRlMxd0NZeEduV3FWc1Z5SkJNbFVFTVpFRzZ0a0Q2cWV4ZFd6Uy1UQlZXaXZFS1NOdGd6TmRKbWNiYkZHUTBuS0tfMjZmSWRFaUVJYUVXTHhFZ01tVHFVWk1qVU5MMS13UE8tRWtacEJReV9UdUt6NzBORVZXSklZZ1ZxZVlRMGZJdFFMN3E4bXc?oc=5",
    "fonte": "EdSource",
@@ -737,6 +817,16 @@
    "fonte": "O GLOBO",
    "escopo": "br",
    "publicado_em": "2026-01-16T08:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Confederação Israelita no Brasil repudia \"ataques antissemitas\" contra Fux",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNakw2SlhRQmZqb0lHVFMtS3FqeEdxQmI1YW5faEZERzRlMkhGMFVYS0o3MVNBUDk4dm9sN192LUxicXZRcTRJWFl1aGhHbWREYkhfa1RjUkFBdDkxUGhzQVczRFdzQV9zSXRqYjRURnkxUjV6SGpBOU9FUk11dHpHd2lxbnVvZFdpaXlkUzJLdzViNkxJZHFYU3hrbTNydkVjcUh5eGFRYXh1T1VUdzZ2Nw?oc=5",
+   "fonte": "CNN Brasil",
+   "escopo": "br",
+   "publicado_em": "2025-09-15T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
    "categoria": "Radar por palavras-chave"
