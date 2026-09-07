@@ -1,0 +1,755 @@
+{
+ "esquema": "instantaneo-diario/1",
+ "dia": "2026-09-07",
+ "semana_iso": "2026-S37",
+ "atualizado_em": "2026-09-07T04:13:58+00:00",
+ "fontes_consultadas": 21,
+ "fontes_com_falha": [
+  "The Times of Israel: HTTPError"
+ ],
+ "total": 74,
+ "no_brasil": 18,
+ "no_mundo": 56,
+ "itens": [
+  {
+   "titulo": "Op-Ed: Bondi Was But One Example of Unchecked Hate. And We’re All Paying the Price for It",
+   "link": "https://combatantisemitism.org/special-features/op-ed-bondi-was-but-one-example-of-unchecked-hate-and-were-all-paying-the-price-for-it/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T02:06:08+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Israel-American Council urges Ed Sheeran to toss Macklemore from tour after criticizing Israel onstage",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNMlQ4R3Q0RTVkM1JFRmdaeHRVQURuVFBubUFsR1hzaUdkMHUxZDViNWdITUJ3OUtsN3NQSnB6Ni1DTmw5TVliSHNtbXA3aEh6QkZUcDRHdVd6RnpBaW5RUEk4T2JQa2ItRE5KMGl0LTBNLV84bFdCZEFuUkJTVkpOYWlocnoxdnBJTHV5UVZlTFZBV05UbHNsXzhKWTZxa1pDS1B6RERfLS1oTGVBVUtndlBESTRCT2VDRk1LYWFSWUhOZEJ5LVhZanc2NU1pVXUtZ3IzSXlfYW5wS29mOWFZ?oc=5",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-06T20:58:11+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "New report flags widespread failures in Canadian universities’ antisemitism response",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-907729",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-06T18:17:45+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Italia. Ahora Susan Sarandon dice que pierde papeles en películas por culpa de \"los sionistas\"",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQc0pUd1JzV2NySjdHVnEtM2IwaVdRZWZYZzF5NXI1NldQaFlqZzNvbUU0YXcyVE5jQTA2M3dZUDNmT1ZXbU44NmlNV1E3QXI1S1pjaUJyemtUenZkQjQ2OFl1N2hQMHU3Znk5elNCSDlYVHFzNHk0Ym0wNjh5eDI2X2xMZEJVbkdSaE1PZ3kzZFRfMW9LV3c2WGlIQ2dzUEFsdUY1UkNSZG1XTy02dzhxMUg4VU0zZ2xpS1hIUUtJcGhiNkhwZ1E?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-06T18:08:47+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "CAIR-LA Names Cenk Uygur Gala Keynote After He Claimed Israel Controls Congress",
+   "link": "https://combatantisemitism.org/cam-news/cair-la-names-cenk-uygur-gala-keynote-after-he-claimed-israel-controls-congress/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-06T17:41:59+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "As antisemitism rises, the Jewish world faces a turning point",
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5EcWFoUDhFaTMxaHlDaTlDNUJaQzRROU91QmdBU2NfaDBPcm0ydHF4VmtndEVfUTBEOE5oRWFUa2xvVkpNVWVxRXl3RHp0S3dkeFNpQ1BmVQ?oc=5",
+   "fonte": "The Jerusalem Post",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-06T17:26:54+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "“Hay un enorme potencial para Argentina en Medio Oriente”",
+   "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE5uMnFaZVlRWExETUR0djcyNTlGTlFVVlRsQXFIQkFfdUtTcWlreE9PSndvWTNWYnZpVTl4Ug?oc=5",
+   "fonte": "Revista Seúl",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-06T17:18:17+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Conference of European Rabbis launch seven-point manifesto to combat antisemitism in the EU",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-907721",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-06T16:50:24+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "CAM weekly antisemitism report - Chicago mayor dismisses antisemitism concerns as ‘witchcraft'",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-907715",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-06T15:44:08+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Israel diz que França está alimentando o antissemitismo",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcXJtMTFhbW9pRHI2bUx6UmNIUE1qeEFmMHRoazVoZGNJUmxCb1pKODYwcmZIS244TlhiLVBORk9PMl80dDc1emd4dWp3LS0tTkp4dXJYQlhzT1VLcF9naWd1QW94Sjd6NXdfM2pwN05jbHVVMDQ5Y2ZacXA4aUJCQTQ4eTBqaEREbllvaXVkUzJjLXBYdDFxbWxzTDhwOXhSNFNaWVJFSExONnZRNGduN2VuVlBzNFBH?oc=5",
+   "fonte": "Gazeta do Povo",
+   "escopo": "br",
+   "publicado_em": "2026-09-06T11:31:45+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "He went to a different Manhattan synagogue every week. Here’s what it taught him.",
+   "link": "https://www.jta.org/2026/09/06/culture/he-went-to-a-different-manhattan-synagogue-every-week-heres-what-it-taught-him",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-06T10:45:00+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Australian man charged over alleged antisemitic threats against Zionist council",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-907638",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-05T17:45:02+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Mauricio Stycer resgata em livro a fuga de sua família da guerra e do antissemitismo",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPc1o1RXpNT1ZQay03RWZvVUVLMmFSbjJNTG1ZcncweUg3c0FqYzFTcy1XdnFMYVYyTWFNYmhzLXRkYlBTUFF6dHViTGYxRUJTNGV5SmE0SzJFVDFyZDBCNHBUOHl3UURSNGVkWU9nRmJUS0FGbHJVYWlPRV9rN25GcWp6bDVUVmlMVm1KLW12UUxtQnE3bV9IMVBfbDZpd19UWUVDZ0xuWGs4R0FuOFZVQ283cFBsMjBXS05oVlRCVmp0MmFEUDY1Nm5zSUttMjcyWTVMQw?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "escopo": "br",
+   "publicado_em": "2026-09-05T16:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "California man faces trial over alleged threats to shoot up Jewish community center",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-907630",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-05T13:39:10+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Antisémitisme : la sécurité va être renforcée pendant les fêtes juives",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWU4zR1lUcGU2NEV2RXlBaUFIYWoxdjJVNWI3Tm9WUWNyaS1wb1dRTmdvVmlZbEd3RkluOVMtTGRqTlZrTzBTVnJzMVo0Q2hXQ19SUVBqb01oMC1ZdHZESTlLSU9PSGVXWUtuaHBMSWFUNjZDU21ibDlubkQ4TXh4SHVkOW9NSEw3S0tHMEZib1ZheGRkckFNMnVISlppeU9tMzI0LU9lOWFNRklkY3VV?oc=5",
+   "fonte": "La Croix",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-05T13:27:48+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Hollywood’s Jews take sides in Mark Ruffalo-Paramount antisemitism row",
+   "link": "https://www.jta.org/2026/09/04/united-states/hollywoods-jews-take-sides-in-mark-ruffalo-paramount-antisemitism-row",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T23:00:36+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "European Rabbis Unveil Seven-Point Plan to Confront ‘Infrastructure of Hatred’ Amid Rising Antisemitic Violence",
+   "link": "https://www.algemeiner.com/2026/09/04/european-rabbis-unveil-seven-point-plan-confront-infrastructure-hatred-amid-rising-antisemitic-violence/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T21:50:22+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "‘Jews for Abdul’ Co-Founder Slams El-Sayed’s Views on Israel, Says Candidate Struggling to Reach Jewish Voters",
+   "link": "https://www.algemeiner.com/2026/09/04/jews-abdul-co-founder-slams-el-sayeds-views-israel-says-candidate-struggling-reach-jewish-voters/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T21:44:17+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "HHS Issues New Guidance on Antisemitism in Health Care",
+   "link": "https://www.algemeiner.com/2026/09/04/hhs-issues-new-guidance-antisemitism-health-care/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T21:02:16+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "How I learned to stop worrying and love my Jewish curls",
+   "link": "https://forward.com/forward-newsletters/looking-forward/848720/jewish-hair-curly-straightening-frizz/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T20:03:23+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Jewish institutions spend record-high $1 billion on security",
+   "link": "https://www.jta.org/2026/09/04/ny/jewish-institutions-spend-record-high-1-billion-on-security",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T19:29:42+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Comenda Odé Kayodê celebra resistência e combate ao racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOakY3LXpVbTdPajlkV0o5dGpDTVJhX1ZOMzZuWnZILTUxLUFxR1JNRTBKVk01YXlQbEVUX3ZldmtPbUNkYWx5RTU2ajNyVVBfcVZXRjAwVDlpcUFDcFlnOXk1TktlOHF3QWFYNVVUV3JNd1YyRGZaOFk0Q082c3lWaVR6eG1EZi1FZ1ZfZVdqUUR2Wmt6SzlSWk5kNmlQTFIxZXJMN2FMSjVfODRSVk9VdkZyNjNDU19uTjNTZGZmQm1COTFLYXplRnZJT1ZtZGVJ?oc=5",
+   "fonte": "termometrodapolitica.com.br",
+   "escopo": "br",
+   "publicado_em": "2026-09-04T19:07:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Jim Joseph Foundation Releases Unprecedented Research on Jewish Young Adults",
+   "link": "https://jewishjournal.com/community/391866/jim-joseph-foundation-releases-unprecedented-research-on-jewish-young-adults/",
+   "fonte": "Jewish Journal",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T18:48:53+00:00",
+   "via": null,
+   "feed": "jj",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Hillel International, Repair the World Expand Popular Fellowship for Jewish and Non-Jewish Students",
+   "link": "https://www.algemeiner.com/2026/09/04/hillel-international-repair-the-world-expand-popular-fellowship-jewish-non-jewish-students/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T18:20:35+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "At ‘Death to Zionism’ Protest in Switzerland, Demonstrators Praise Hamas, Call for Israel’s Destruction",
+   "link": "https://combatantisemitism.org/cam-news/at-death-to-zionism-protest-in-switzerland-demonstrators-praise-hamas-call-for-israels-destruction/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T18:12:04+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Spanish far-right activists use Nazi-style salutes in anti-migrant protests",
+   "link": "https://www.jta.org/2026/09/04/global/spanish-far-right-activists-use-nazi-style-salutes-in-anti-migrant-protests",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T16:44:50+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "‘Holocaust Remembrance Means Little if We Fail to Protect Living Jewish Communities’: An Interview With Spanish MEP Antonio López-Istúriz White",
+   "link": "https://combatantisemitism.org/interview/holocaust-remembrance-means-little-if-we-fail-to-protect-living-jewish-communities-an-interview-with-spanish-mep-antonio-lopez-isturiz-white/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T14:08:18+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Confederação Israelita lança atlas e plataforma para identificar manifestações de antissemitismo no Brasil",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxORHZ1TWVTb2xWcl9aSjlxU19Kd3B6WnJyeHl3bVBEakdSVWdyYlhFUFdicTlnNi1Hb3pPcGNRemgzd3JiR2lLSks1cVlTUG1HdXMzdVVwalYwZHBtSGdBWXVNWURmd2tpaVlJdUtlS2hLN0d1WHRPN253cERlXzFXQlJ5YnI3WTRjWGFkVWw4REpQazBxZHJoNTNSX1JfYV9zVjhVNTZQUTkxb21CTWd0Rk00QUs4UW4zNEdqZktyVHg2OGVvQWxoMm9uMnhyRVhseTh0SVd6QnI0VnhXcnFPeFVIZmJEWjRuQTZtUTFLVEM5bDBGbGtQRWgxQm51d9IBjAJBVV95cUxOQ0tYLUEyU0J5aHBHZkRxdVN2NFNONEk1VUhyVVlRQVZCem90YVBpXzZZT0ZfdW45NHJYVnVGeWI2Tl9kVno5c2xMWFZtcUREUEpiRFhIeXBCUGJCdWU3OEU0M2FaZ05MT09YQUZnMExkMkx4V1F0Zkh4Yy1HbFpQdjh5TVctQXE3NXBMcXFmVHk0TDNkVzhJUzVqTS1VVkl2LW00SUFxYlVNWnh2RUVCeXlwVk9oYmJEcFVPdGpsMncxWWhTVWZxOWZKU2NpZzR3cnRhWFF6V2RianhURVJxV2dDNUxfLXYtYWpuMEdiT3lkejZZakp1YkVLb1BCdTh4Rk12VEd1cVRtOFdQ?oc=5",
+   "fonte": "O GLOBO",
+   "escopo": "br",
+   "publicado_em": "2026-09-04T10:53:31+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Atlas sobre antissemitismo é lançado para combater o discurso de ódio",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYjlXejM2MlZDRk1VMzBKSVo3b3VhaTA2ckdSczJwOVpkeE9EYVFvVEtJZ3NuQTJQeFVaSGtYblYwMjdYQ1l1YXR6eUVRUUk0N3I4SkdDOFBkV2ZodUh1NmRNMmxFMU9KZG9abmNNc1Z6XzNKMnhHdl80cDBYbHRkdDd5V1N2ZVRDU2dlM1JzQ1dsVFNkQUVCT0w4Q0U5ZW0xNGZFRA?oc=5",
+   "fonte": "Revista Oeste",
+   "escopo": "br",
+   "publicado_em": "2026-09-04T09:30:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "ADL, AJMA, Brandeis Center, SWU and CCA, Hadassah, and JFNA Issue Statement on HHS OCR Guidance Addressing Antisemitic Discrimination in Healthcare",
+   "link": "https://standwithus.com/news/legal/adl-ajma-brandeis-center-swu-and-cca-hadassah-and-jfna-issue-statement-on-hhs-ocr-guidance-addressing-antisemitic-discrimination-in-healthcare/",
+   "fonte": "StandWithUs",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-03T22:09:46+00:00",
+   "via": null,
+   "feed": "swu",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Atlas lista emojis e imagens de antissemitismo e ensina a identificar ódio a judeus nas redes",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOd0JHWm5EMUlNTlo2NW8wYlY2dTBPSGpNSGY2eU5tclVETGhJSXdRSXc1OTdVeWZWMnFzVEx2dXVEU3I5V1BfY2NxTDNRU19neVlyOUlkRjlib1BUVTFpY3hJQjVnR1RFQVp0Z1pxUFZ5a0I2TFpKeTlkZ3ZTVXFtblhiZS0xWXdDY2RFTXpiVGtKR0R6dEszNWg4Y2RMWnhaaGRtbDFJX3lLdVIyMDZyRGdzbWdNc2J4SzJvVDlzQlJNb3JVUEw00gHMAUFVX3lxTFAtSEIxWnAzc3pEVlc5OWgza2NjVEtUTVBHU1FLdnlqN0VERTV0Q0ZrZnVEc0kzaURuVXVnajJqN2h2RTBLTTVBOEFuX3FWT3pIdXE5QTBjUWI0anJmMGJJaFl4anU1WTBrOXdnRHlHTWdhMTV2R3VpVW55THlZczRjeGhXeGRhUW5GaTFFNWNQWjFqVHlQSWVGV0lEdGtDR3JfV0tXWXRpSGVTZHdlN2p3LVVzWjhfcEVGQlZmTFhsMTRzWUFEaUppVXNCMw?oc=5",
+   "fonte": "Estadão",
+   "escopo": "br",
+   "publicado_em": "2026-09-03T21:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "RELEASE: House Passes Gottheimer, Foxx Bipartisan Bill to Hold Higher Education Accountable for Hate-Driven BDS Activity that Targets Jewish Students and Professors",
+   "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQX0huOWVyMGptZ1hLZ1lkVWM5YU5LNlE5Zm1zVnpnbURobUxCQzNuaVYtWjJqekFweUZjbzhyS2N3ejZfRklILWRJMjBUU0ZIcEZwS3hTRjA1Qk9sNUJqQVNLU014WGp4cnRuRENaZS1oLVRlS1ZGbjk3QU84UF9MY1lLbWZ0d0hYNm9TMGkzZjZhSnJvWno1aFY3MEo1amxockdtcGF4VFd1MFdxb2d0aXNrUXVEVXZFZU56WFJlU0xWY0pkREtvUjE1a3dDZ2NGek1JRUlJV3hMYnJpb2kya2gxa2FvNmkzc2VyeWVrVzFiYzJuZGJxdHRRRzd4SWxTMzdHbmRIVjhwUV9XRjM4QWdBNm5fdFU4a29zd3N0QkxzV1E?oc=5",
+   "fonte": "House.gov",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-03T20:53:55+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Updates on Antisemitism Litigation Against Harvard",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOLUk2cnVVcG4xNDlSQlVKT3d4WTZRYnJVMVByazZoZnpxXzZGZU1SYVc3LWJnMkU5d3ZnUDNscU8wek5PekdBWGdmal9fb3ozWTFyUExYcEY0aGE1bGxyajI1amVXSXZQcWhvSlM2QV8xRUt2TmVtNm1rNWw5NVh2cjdsVXI4SF9uZ0E?oc=5",
+   "fonte": "Harvard Independent",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-03T20:41:58+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Gloria Steinem, Jewish feminist trailblazer, dies at 92",
+   "link": "https://www.jta.org/2026/09/03/obituaries/gloria-steinem-jewish-feminist-trailblazer-dies-at-92",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-03T18:06:45+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Spain’s Jewish federation reports over 200 antisemitic incidents in 2025",
+   "link": "https://www.jta.org/2026/09/03/global/spains-jewish-federation-reports-over-200-antisemitic-incidents-in-2025",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-03T17:27:04+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "HHS Office for Civil Rights Issues Guidance on Discrimination Rooted in Antisemitism in Healthcare Settings",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWjYzZ2I5Tjg4dlhEbTZienFMcGRaV0lWYkVjQzdKd0hOMUxSN2tlMUs2N1RuWDI3RkpZSVM3UGZwRzNxQ3FNdGo0RFpYdE1sSTZhYUF1dW5yd1NqMGFoVTNxeTc2c1JEQkh6U3gyV210aFFyTmhrcmF1X1JBYWlkM3Q5SDhWcWE2SURnU0VfM0ZjOFBYTjQ1QjdLMA?oc=5",
+   "fonte": "HHS.gov",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-03T17:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Defensoria Pública de Goiás lança projeto de combate ao racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcUF5NjJyYWNkUDhOTmI0UnJXeWJyVHdsMnlSckFaaGd0ZmtYQnBkbC1TdmpNQUY4THY2UmpnMXhxRDFUX05SRTJGT256T0N0YXZ2X0FoWlpMcFAwSVlCWU9Lczdhd2J6djh3VFlBQzh2cGR2UjRkRGpyRXpCVWFiY3JrRm8yMUo1aElqMFY2a3dwRE9qQ0k2QjYwRjkxX0E?oc=5",
+   "fonte": "A Redação",
+   "escopo": "br",
+   "publicado_em": "2026-09-03T15:47:31+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "An unvarnished look at Polish Hasidic life before the Holocaust",
+   "link": "https://forward.com/yiddish-world/848405/unvarnished-polish-hasidic-life-before-holocaust-warsaw-shtibl-shtiebel/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-03T15:20:32+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Da depredação de terreiros à violência contra lideranças: casos de racismo religioso se multiplicam no Brasil e atingem a Amazônia",
+   "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNLWtBam1odWhFYXdRc2VkYm5ESmR6clJ4N3ZJTlY4WEZIQ0d2U0dTUmk0eVlhbWVfNGtGYVZmVmNKY21nNDAxUFZITlpLY3pETGZsczBuWHVaUzF5MFQ0RGY0Qi1kelJoNmlydGtmYXpheG5uU01qT1BWU2xvMWtia0MyeE5wQV9SRHhySmFrZ0tmU0N2VHl2cE5FWTd6TGt3LWQ1NzZXQ0VOd1JQT0s2SUliVUJQVGxrbmxuSHlqRmoxZVA5eTMzREJEVjA0WnpWZDZBUUJsRGNDazJPSXpMTnY4aXA2OVV3a1JzdXhCNjFEcFdyQUV2N1VHUzlZSXNBZExjcjZR?oc=5",
+   "fonte": "TAPAJÓS DE FATO",
+   "escopo": "br",
+   "publicado_em": "2026-09-03T15:06:55+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "‘A True Prescription to Combat Antisemitism Head On’: US House of Representatives Passes ‘Protect Economic and Academic Freedom Act’",
+   "link": "https://combatantisemitism.org/government-and-policy/a-true-prescription-to-combat-antisemitism-head-on-us-house-of-representatives-passes-protect-economic-and-academic-freedom-act/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-03T14:28:51+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Analysis: The Muslim Brotherhood Goes to Washington",
+   "link": "https://combatantisemitism.org/special-features/analysis-the-muslim-brotherhood-goes-to-washington/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-03T14:18:36+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "¡Basta Ya!: más de 180 artistas judíos de Hollywood apoyan a Mark Ruffalo tras haber sido acusado de antisemitismo",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcWFfT1RFeGVvQnZjZTBfNVBLeVZlbndPTVA4MWRuRnV6cktMV1lrdEpncGZVdGhDVFR5RlhxMzVYd09VVHJzX2t2RG5ObUh5cVZkNU1SeHZMblhQWnZsMmNNY1QxaVVVTXNsUTRpTmxjU3RZUDBUdWR5c1pBQVZ3T2Z0MlNfZDVlb1pSR2NrQUZ2cVNWOGdxTzlKN0pWQ08xU2ptaTktVWRPbVRTVXhBd1lnQXEyN0xnTEpLOVZfbWl0RE1ILWR2SnNmONIB0wFBVV95cUxNOWVhUnZJbXRYMkNfbUtqUXc1bzN6SEZoN1Z0RGtQLWEyWm9lMTNHSEx5U2l6bG9meDF4dTRHa25NSjlod1ZTNk1CZ0FCaS1XczB6Sm1NUzViU1hfSnNJWEFaRDV0SVgyQ0prbUh3TktVQ3hpRHZKRk5FR0xHVVNoV2dPMFBlSGEyaTJIZXpqeUkySmw3S3lvX0lOci01UkJHd2FDbDBYNkgxWkNOcTBwREFaSlozSmlWdWhpclY2aUpHR0lzLXlCZTZvMjd1SFE1Vm1N?oc=5",
+   "fonte": "La Izquierda Diario",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-03T13:40:45+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Where Hatred Lies | Omer Bartov",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOemdJbjNBRDZZcmczdDR3aWw2U21rMVRhRlhJY3QxRE1GVXlpMnF5cGdtcUVIQ04teHBPWTZ0aC1GWFpmd3FDb29RM2pMNHloMW9QUnp2TFBYQXVpX3hxSU5tZjk2dmF1S1FRVlNmZHpEV2hPSFBPZ0k4U1IzT0hWLWdpeWQ3LVRxbzB0YlRWMXdGVXdjZXc?oc=5",
+   "fonte": "The New York Review of Books",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-03T12:22:26+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Une vague de solidarité inédite en soutien à Mark Ruffalo accusé à tort d’antisémitisme",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOFJQQ0hPZGp0ODJCeGxHTTduUjJJRVZLZGd4TVp6amlTOE5NNy1wc2pRY0dWWFE0MWFaY0xkZ09UMHI2b0F1aDA3UHM2VjFnZ2d0b0l0c2pYNUFwbFZSWTdDT2g0NW1KNTYtdFNTZmpYc1ZucUhScVktQ04wc0VMM2RwaVctbHFVTERaOGl0c3ZvNXo4X1BzQ0U0SE16SGZfdTdEUE8wSGNtNWlQVHZYUXRnYzNGSElyUDN5RWpqYnJ2RlR4YktYZGhB?oc=5",
+   "fonte": "L'Humanité",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-03T08:47:12+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "LFI confie à Danièle Obono une réunion sur l’antisémitisme malgré ses propos sur le Hamas",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNR081TE1ILXFsMVN2VFZHOGFueWd5c2NaLWtiUm5reHgteDV4aV9ZeTRHQkJVaC1IQnVZWFhWbXdXRUVodHFZOEItd25SNW8ydEViN3duNk91VXRaYXRBdlp3NFUyTHU4bEMtcFRINTJTYXBZYlhkYklCUXNLVmRyZUZsZEFhcnpNNDU0d1doSjdGanl6M3NxN2xoVTdqMXQwcnhsbFVNNEttVDlyWnBUQ0UwOTZwSm16a2NVWEYyb0NfV25UQXB1cGZMcHk?oc=5",
+   "fonte": "i24NEWS",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-03T08:24:21+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Conférence à Genève: un débat sur l’antisémitisme échauffe les esprits",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZEhyS2taa21MYVNLalBoMzFuVkxCWU1yYWYwbmVnTFd4RW8wMm1JbzdxaTVLMk5xcGR1M0k4VVJiM2dveVFoRzdXN2NZUmNfcVV0VnYxSmtBSm12YTBsZnVSUTVLa1Q4WERRZDNSZDlFZ3czSFBhU1lHLVNnZmFMT2N5Qk1EcmtMZFB6MlhrNFBJTGRO?oc=5",
+   "fonte": "Tribune de Genève",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-03T04:34:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Conib lança Atlas para combater alta dos casos de antissemitismo no Brasil",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZmlsTV80UmhrN2stVEpxeGd3X25nTkplUG05N3VJWXd1THVqTVNkV2RUeTF1WUphVEVHd3pMbU9ZWDVOelBrdTFnb3QxbEI2TmUxcVBBMFFmQUNYOEdOUFdYMUtxSEU2bzZSekVxeDZDREkwU0d0ZERwUWY1NTJwMUdwUmRMdlRITUUzcmh0d0hDRWk4cUtYMVJ1Ti1kdl9SODVJOGtMWTUwWEtBTHM2SDhB?oc=5",
+   "fonte": "CNN Brasil",
+   "escopo": "br",
+   "publicado_em": "2026-09-03T00:17:47+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Paramount acusó de antisemitismo a Mark Ruffalo por criticar la fusión con Warner y la industria respaldó al actor",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPZFJFSXdJQmJvRHVidGlzdGlkNEhOQm5tQnBqMFNTU3RiamZJZ1N5dDIzTGJEMG9HY1owalphM3hMejUtQjdTVW40bWtwbVotUF9wM0dIV3BlVEhBcVhGa3FSYTFYcTE2MHEyc3ZWQ0p4aE5teHdHcTdVVzBRMVh4cjZYOGthN0lXblE0UlJBdDU2bGozLXVSQWs3Snd2RjNjV3dUUUxPbi03VVRkNURLSG4zTmg1QXpIeEZLOFRwSVRKTG12eExYQ19JT0FvZ2lvMkpScllzYW8wRFhoRjNtQkd4MmtHa29mcmc?oc=5",
+   "fonte": "Página|12",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-02T20:59:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "UK courts sentence two offenders for antisemitic attacks on Jewish community, children",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5KYnp4UXRMcW1lZVFqc1BsZllmM192N3U2MGtmcUxkOC1SM2hWLWhpUjVpb1kyYUZJcEJPV2h2Mkp6cUhVY2kyaHM2TUtudVhKZ3NhY2V3UzRQM3psTzE0R1VEdnk3MDBYTVE?oc=5",
+   "fonte": "The Jerusalem Post",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-02T18:02:47+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Debate. Antisemitismo y crítica a Israel: una distinción necesaria",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSFV6YjNlY3FtUms0TXlBNlNYaXZpUG1Ldzc2UzZHb1ZGTkZiZHNqNklwcDZPWW9zdlNfVVhraFF3dEEwNWQyaW1hcElXcXFxQ2kwa2hpNnhRS1VVS2NWRGRTTHFvYUdkOXY0NWZLUWVBcFVQUnZWYnQtMVk4Y21NeklLYTkwQjJ2SmZ5c3ZMUkxSRFhZMGx6aVY0X3dPTW4wd2c?oc=5",
+   "fonte": "La Voz del Interior",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-02T17:48:15+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Accusations d'antisémitisme, rachat de Warner Bros par Paramount... Pourquoi les propos de Mark Ruffalo enflamment Hollywood",
+   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQVzVZRFZXUzZneGs4Y2k5Ny1GUVQ4WV9qOUV1U1dmWmcyaENIWkZ6UWdkdXZBQUd0cU1KSGpzVHI4OExfMkktM0pCRFlkN1pWbHlBLW5rYnlrcXozMVlkTmNFWDNGbWUyNk5GaFhpcnNLODRYWUFBNXRwVzllSkxiTVZ0LW1pdEd6b2tPdHhKSW51LXNvcTFJcUJQc2lYeFVGblJZVE9lZlBHRmlQbUJZSmRJUk9QRFE5SF9UM3RDWHBvNW1ZX0x2VUNpLWI3WU5zQkVmTlBNVWcwRS14X1p0LVlCNzBZUjZsRFZkUVRVanN3VWJlbW85NEZUNVZCSVk?oc=5",
+   "fonte": "RTL",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-02T14:26:31+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Long talks but no deal to modify California law combating antisemitism in schools",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNG96V0ZBZ0lXMGo2U0Z4d3UzSVdDYWdXcGdESjVoSjJzX3BvWjRTYjhjODJia3NkZEVXNGRzZ3FLXzhlMVhiNVRObFk1TEFNWjVBaFJ4ZXA2TV9JNXdMakRXd3JDRmZ5QU5MWDBCeVdDVDhuaHNjMEdpT3p0Vjc0VEFXUXpJOE4tVWI3dS1NVlBGWlc5T2ViNjRaUFBLM3dRYi1xcDRjY2JiaGpjMzhrNUFleDjSAbwBQVVfeXFMT3RMYWRsTUx5SmpkOWZJckdKWFlwb1hRV212RXBXQWw5MS1HaVN1N0I0TVBLRlMxd0NZeEduV3FWc1Z5SkJNbFVFTVpFRzZ0a0Q2cWV4ZFd6Uy1UQlZXaXZFS1NOdGd6TmRKbWNiYkZHUTBuS0tfMjZmSWRFaUVJYUVXTHhFZ01tVHFVWk1qVU5MMS13UE8tRWtacEJReV9UdUt6NzBORVZXSklZZ1ZxZVlRMGZJdFFMN3E4bXc?oc=5",
+   "fonte": "EdSource",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-01T16:23:08+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "California lawmakers pass bills to address antisemitism, deem ‘Jewish’ an ethnicity and protect religious observance",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUUVtR0R3N2tSYmVOUXE5eTRQWE5RR1RYM0lodTFHS3JJZGdDWk9SYVFuLVlmb0hiYzBCX3VrQm5YUFRTZmQtMENpUWNaV1NOZmlseGJPSm5PQk9hZFB0WTZvdmh6M0dCMDVxdzhsSHY3SDgydkp6dlhRT2pwbVQ1TzFIeUppd0xYZlN3Zkx3RFBlRERwS281TDM5NUlyTTRRSGhJTWtkNTFBVEFTZXFWTHpXalBYaGxBVGNXUDFQWlFyUG9nMF9uYV8yLW84dU5vWE5DY2cyNlhOVkNZYktoZEMzS3NUOUdF?oc=5",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-01T10:52:30+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "What Is the Jewish American Security Act and What Would It Do?",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOczVCT1liZktVOWM1SWZkN0tWanNxWmNfWlpwNXN4NWNESlB3T1o1bUVuM3hCc2RiRGNINHNPaXJQaHNJWjFWNUNSbUphVElEcnNoTGktYmVpbXNWTTF1LXZxdmQ3aXA1Ynlodzg5UkMyMDZBdjlDX3NNOG1JQ0xhTFVwaktvQ1h3MnI2cWRocw?oc=5",
+   "fonte": "American Jewish Committee (AJC)",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-01T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Antisemitism | History, Meaning, Facts, & Examples",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBxRnNldnFQbVE3amVrY3RtZHJ1OWo2cHRkemVuY1c0SGNBYjVUQTdhX3JJcnl0RWFPUHdBZFh4Rm5YSHlNRExrTkZuQzhkYjQxNlc5cnRIT1E?oc=5",
+   "fonte": "Britannica",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-01T05:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Santillán y Glinski coincidieron en impulsar una agenda común contra el antisemitismo en América Latina",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNeDZvWVZzNWM2RTNWZVl2WTMyb3VlYzBQdmg3UU4xOEFkQjNVRWNYRGdCU2F1eU53Rmg4NlV6RTc1M1E1UjVPS0liV25vM1M2MEhBT05JSzVUWDNCWWVLOEwwV0w1VkpDYXM5SEhTNEFxWHB0dVRKekdsTG5WLVg0ZnBNUTBYTUxHdEZ1b3ItTDZlelBfTzlQcVZHUW9yTm4xeE9UYk5tbXhLak92c1dxRjFNcE9hVi1WRWN5T3RZSEtXcUNlZzRZVUFtaDltMkp2WHNPM0Y4UExKWHFPc0E?oc=5",
+   "fonte": "Parlamentario",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-01T01:07:56+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Webinar to focus on learning lessons from surging antisemitism",
+   "link": "https://fra.europa.eu/en/event/2026/webinar-focus-learning-lessons-surging-antisemitism",
+   "fonte": "EU Fundamental Rights Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-31T09:51:41+00:00",
+   "via": null,
+   "feed": "fra",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Profissionais do Disque 100 participam de capacitação sobre racismo religioso e intolerância religiosa",
+   "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNQm8wTURDbUpOeDYzdkxkT2MzWGxpSXNNTl9qRlVvVk5hTzFPRVM4Z0ZxaUxKWTFOMTd3V0VFSy1zWWhKWW1MWmQtS01EYXVxYTdGaWp0Mmh4LUFXNWVYdkxwdEN5akhkLUloelR0YlB3WEtjbWs5WE41aW43MzhVLUJfNUNoNHZEWDVXcm9rRThmLVNhN1oxenpRS2lNZ3JlcUtld1ptc0N5R1pmVDc1MWZweXg3dFpPV3lFMUxFblVvWlhKel9VUDJvZ0pZMjZyTDdyb2NnNktrdDM4dHM5SjV3MjU2NDFCcmx0SlN0NGJvTHE1WHZoaDlhSFJaTFhUWHRyTXZqaVo2dw?oc=5",
+   "fonte": "www.gov.br",
+   "escopo": "br",
+   "publicado_em": "2026-08-28T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Cercle Bernard Lazare - L'antisémitisme, une vieille haine toujours au présent",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRTZUMU1oWmg4Ulp5T3NSN2lpR0IzX19BWm9SdEkzeTA2cEJKZmNiNWl6VElpYXZZUUVOa2pCeVVfZXhWOXhJNzhFN3JQUnViOGZ4VlJyTEIyOTJ0MHZQRTBCMGNCcnIwU1ZYRjdWWm1UOUxHcXJWZ0dQeEIwZGcxcTdxdExWaUtqdDM0ZThISUt3SzlQZlo0Sm1wOC1rS3hRVmV2UE1jMFVRanNNdXhKcnVnYnROMkpMTG9B?oc=5",
+   "fonte": "Ville de Grenoble",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-27T21:38:54+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "África do Sul: ONU alerta para explosão de violência xenófoba",
+   "link": "https://news.un.org/feed/view/pt/story/2026/08/1854192",
+   "fonte": "ONU News - Perspectiva Global Reportagens Humanas",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-27T12:00:00+00:00",
+   "via": null,
+   "feed": "onu-pt",
+   "categoria": "Direitos humanos e organismos multilaterais"
+  },
+  {
+   "titulo": "FRA contributes to webinar on the Holocaust and Latin America",
+   "link": "https://fra.europa.eu/en/news/2026/fra-contributes-webinar-holocaust-and-latin-america",
+   "fonte": "EU Fundamental Rights Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-27T07:41:29+00:00",
+   "via": null,
+   "feed": "fra",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Prefeitura de Itabuna vai assinar Acordo de Cooperação com a estratégia de combate ao racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdTd1bnk4TXJEbzBtcWhzbUZnLXlWZjJST19nZVZUSHdJRnpkR0NqN3RkMVZhRkp0U0lhdEsxY2ZVQWhIZ3U5ZkFVbmF2Z1pZT1ZBTVptRTA2eFdyaXBHUTVNZDJjSm1SMUVSdV9qOWZlQ0xpSm95MzNlZGdpaDdQUkc4VTk5ek9xRWYzNnUxLXB2UlVsNWttcERVOHdBeTZXNnFIai1Fb2xwTVdKVHVFTnBoVDVIdjIzekpMZV81dGNVRVZlUGs4ZDNBU2pUc2RaeTROZUt6RUo?oc=5",
+   "fonte": "Prefeitura de Itabuna",
+   "escopo": "br",
+   "publicado_em": "2026-08-27T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "How Parents and Kids Can Foster Jewish Educational Spaces",
+   "link": "https://standwithus.com/news/how-parents-and-kids-can-foster-jewish-educational-spaces/",
+   "fonte": "StandWithUs",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-25T18:05:16+00:00",
+   "via": null,
+   "feed": "swu",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "EEOC Finds Reasonable Cause to Believe University of Illinois at Chicago Subjected Jewish and Israeli Faculty to Unlawful Harassment",
+   "link": "https://standwithus.com/news/legal/eeoc-uic-jewish-israeli-faculty-harassment/",
+   "fonte": "StandWithUs",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-18T19:07:27+00:00",
+   "via": null,
+   "feed": "swu",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Judge dismisses Trump administration lawsuit alleging antisemitism at Harvard University",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBhZ2w2YTBJNGF1TEU0dHFrN25BV0xhUkVvQjBsS3B6VjNkM3ZNOWFVYi10NkowaUtXVEJ6NXV4Mi1ONmgtcVN5TXA0aG5LRGxQOTZBZE8xaEZVWUYyeU1yTnZoYk5QNE1QeTJ2dmRHX1p1MTF5YVktYQ?oc=5",
+   "fonte": "NPR",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-14T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Jewish Bund Ghosts vs. Living Jewish State",
+   "link": "https://fathomjournal.org/jewish-bund-ghosts-vs-living-jewish-state/",
+   "fonte": "Fathom Journal",
+   "escopo": "mundo",
+   "publicado_em": "2026-07-28T08:36:20+00:00",
+   "via": null,
+   "feed": "fathom",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "STF mantém condenação de Rafael Tavares por crime de ódio e deixa vereador inelegível",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbWQ3S3oxZ3BaUnEwMnVjSHREelBYY2lhUTdUazBQWGxrUHV6Rlo2RUZSNWQxRW5uOXYtSVkxdDdCc194dVRvcnZjYVQwTHZESXJSZW11RlJaY2RmamNVX2ZmWGRNYnB6TW9weWZidnhjUHZHOXM5ZHZmb2RYaXJIQ0ZqTGg2dHVvbklTTnVncFlPZ29pZWNIOA?oc=5",
+   "fonte": "Folha MS",
+   "escopo": "br",
+   "publicado_em": "2026-07-21T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "STF mantém condenação de vereador por crime de ódio",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZW9XaDZkcHE3MVNxWXJ2RkRfemljS2ZGenczZGo2cERqY05wWUd4LVZDbERJWnpoblFZd0tPeERTZWFTMjZ4dWczaWxMYWJvQjlDXzB5ZnllNFNDU0FQVGdRZFdkVG4xYy1LMERFQVY2czZMQWs4a0otOG0wUFBZcG5ET2NFSU5mOGlYRW9NazJFSkNxLUFWTEtxT0RkblQzRk5Cbm9kQ0tLMnptN1ZOdWZfcFc4YVY0VENEWNIBvAFBVV95cUxNb1RDQm9CWjUyd1p3Nm9DeXRpM1dDNGRiV2NNM0ljaDQ4QlZacGVzN3JUUGEzU2VGUkVMVElOeXYzUGZsb3hsMlR6WFdCcW5WZWdKZkhvTUZHQW5JaHJwVVpqcFFLXzZwVUVoZEVZdTJEbXpaQkt3bXpyeUhzOGUwZ2FlWW9oZ2I3bGd3dzlXdzFkbncxR19TLU1QN3YxaDdCNEx4bEljTGJNbHBLblFod1FsZllIRHl5VHYtYg?oc=5",
+   "fonte": "Campo Grande News",
+   "escopo": "br",
+   "publicado_em": "2026-07-20T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Critical Theory, October 7, and the Critique of Antisemitism and Sexism",
+   "link": "https://fathomjournal.org/critical-theory/",
+   "fonte": "Fathom Journal",
+   "escopo": "mundo",
+   "publicado_em": "2026-07-19T14:14:33+00:00",
+   "via": null,
+   "feed": "fathom",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "O que é racismo religioso? Tribuna Cast explica esse conceito",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPc2JScmhtQTN0TzByY2VXUnpCaXBwUTVJY2dOck5XUldTT3ZTT0FnT1Vpbmd0TXQtVVZCei1WUUk5MmpTR29keER3WllocFY5UlJ5RG5wM3FfeXdyODNzVTE1cGE5djRlY29raHh5VzlxUUgwZzlfNi1oaTJLRTBzLXlCOTdJVmZTOTNjbW1zYlloOGJtWm5wVzJMOGFFbWFtOW10NlRTVmc0cXh5?oc=5",
+   "fonte": "Câmara Municipal de Curitiba",
+   "escopo": "br",
+   "publicado_em": "2026-07-06T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "STJ: Suspensão do processo não se aplica em caso de racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTktaT3ZFdVRGMXlicVNybzZIMnlnZXI3cGJyeHplQ0xHYjF0N3ZrNkN1cnQ1YjBFVGNOMlR6S0l1OEdRSnhCYnNiWTRsVndtaTkzUzEtOEhFc1k5a3AzdGhWM2lQQUMyZ05LZThsb0pJOVI0VWx3VUpVeENGeS1FRUpZdy14QjU1TGpTdGpTSmRCbnhSWUFRQnlkeUFJSXFEOWd1ZzRVYzFzT0QtdjlRSw?oc=5",
+   "fonte": "Migalhas",
+   "escopo": "br",
+   "publicado_em": "2026-04-06T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "O antissemitismo",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSWd3bjZkank4UjdPc0JIbkFJOTlqdG43XzRwaU9DLVQxRzdDbU5OOFdSTVg4bHdYMWRkeEh6bXI1Ymk2QVZnUzBYUnZwSlFWWDc5RG1MZjhGNWV4SmtYVDRCVWVYZElXNGJTZE5JYjJtZE56VHNLM3J1dnRJaXhsTGlVX1ZPeTRiTDl6YmJPQk90dERVQzdjcG1sQ2g3NDQ?oc=5",
+   "fonte": "Migalhas",
+   "escopo": "br",
+   "publicado_em": "2026-02-10T08:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Não pode haver álibi para o racismo",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeHNKWXBBeHZ3VUJ1RGhUU203dF8zR1VxNUV4LWw5OTRZNVh5UmJfMGZlc2hRRG0xTHd0ZkZfLUwwZ091bVF2cm95WWJUNGFmemNqOHFnSUg1ZDNlbkZoYk5IU3dfSjBzM1JlQ1h6bzhIMFJFTzBsZDNaRzhaWnVkSzBNR2NCQ0pMeTFMUE1wdEZCWE9lYkJJdXNmOXhrd9IBrAFBVV95cUxPamRYS2tTZjZYQjYwWU5IRF9zOWhsbS1YTnV6eWVsdFV4NFM2NkxrTmkwNzhjeW5WTVZSaEpnVThuYWcwMGM0LWI0eDlfcnM5RkQ1Y2NsMTh5a0tQejdmdUcyUXhSbEE4ZGluQzd1REJvWGJ5bzdxdXB2TFBOZXNvZTk1RDdiNzNtUGlkNzBsamZ6cnN4NGo5dWtrSEQ3VXA2ejVuRXA0ck5sYjB6?oc=5",
+   "fonte": "O GLOBO",
+   "escopo": "br",
+   "publicado_em": "2026-01-16T08:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Decisões do STF reforçam combate à intolerância religiosa",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxON05PR25FdGdwbDFlSTUxTHJ5YlRXRzR3b2hUYmJJblRpNlJubVJhMFZTRXprc05iVVFZWUN3clplS2MzRkNQaXVCcElRbkZybGZUdThtZkFKZF94WXh1dTV6QTYtVmFwTU1FM2RmRWlaMi1vQ0FISWUyZk5GcUFmQ2ZiSUZHdTZXX2RkbXc4a2pLSTEzRW42b3VZRTVvVjJfT1E?oc=5",
+   "fonte": "stf noticias",
+   "escopo": "br",
+   "publicado_em": "2025-01-21T08:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  }
+ ]
+}
