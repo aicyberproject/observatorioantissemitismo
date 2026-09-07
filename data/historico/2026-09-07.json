@@ -2,15 +2,85 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-07",
  "semana_iso": "2026-S37",
- "atualizado_em": "2026-09-07T18:41:00+00:00",
+ "atualizado_em": "2026-09-07T22:44:12+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 96,
- "no_brasil": 19,
- "no_mundo": 77,
+ "total": 106,
+ "no_brasil": 20,
+ "no_mundo": 86,
  "itens": [
+  {
+   "titulo": "Jewish Family Sues France for $25 Million for Using Home as Embassy in Baghdad",
+   "link": "https://www.algemeiner.com/2026/09/07/jewish-family-sues-france-25-million-using-home-embassy-baghdad/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T21:31:30+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Jewish Nominee for Ohio Governor Targeted by Armed Man",
+   "link": "https://www.algemeiner.com/2026/09/07/jewish-nominee-ohio-governor-targeted-armed-man/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T21:19:13+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Armed attacker arrested after lunging at Ohio Jewish gubernatorial candidate Amy Acton",
+   "link": "https://www.jta.org/2026/09/07/politics/armed-attacker-arrested-after-lunging-at-ohio-jewish-gubernatorial-candidate-amy-acton",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T21:19:01+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "El creador de Fauda califica a Mark Ruffalo como una 'rara combinación de ignorante y estúpido'",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZDRPUWRmelh5WXQ0Q1FSOUhjc1p6NVJ6UlpVb2YwMFp0SE9YS0FyUlVhWmVkenNoZWZabVhPWlhENUdBb2E2NmVVOUc2ZVczVmpJZmhFQ210RGsyMF9DS1JLX0NTbFdJZjhKaW15WUQxVFdsUXB3cnltbUZaYlQzTURIMTQ4Tm42NU1pQ25jOGNIeFZZN2FuYmhvR1U0ZjFIbVpzRjViNkNGeXpJVWZ3ODZ6VGFJdlRoOU5LRFp2Z3hJM0RKV2ZYLTBRRlFkNjkwWkFaNFpR?oc=5",
+   "fonte": "JNS.org",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T21:11:44+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Noticias de Israel y del mundo judío en español",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5XYzhfcW8yOVl6Ty1DenBXWE1zMzlrSFFnWVZjTUNmQ0I4ZDJLeTkxUzB1Q1d1V2pGUzFmX3V3U080RS12SzVZcE92UVlzSExPdHJxRXZnbnBSZnBFdGV3Wk5FOHNUSmwzT2RaSmtSc3B0MHZxLVBvZjRDSQ?oc=5",
+   "fonte": "aurora-israel.co.il",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T20:58:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Far-Right AfD Party’s German Election Victory Alarms Jewish Community, Israeli Leaders",
+   "link": "https://www.algemeiner.com/2026/09/07/far-right-afd-partys-german-election-victory-alarms-jewish-community-israeli-leaders/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T20:07:23+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "After X Ban, Antisemitic Operator Returns Within a Day — and Keeps Getting Paid",
+   "link": "https://combatantisemitism.org/studies-reports/after-x-ban-antisemitic-operator-returns-within-a-day-and-keeps-getting-paid/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T18:56:28+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
   {
    "titulo": "International Jewish-Kurdish conference kicks off in London",
    "link": "https://www.jpost.com/diaspora/article-907858",
@@ -50,6 +120,16 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Eisenkot advirtió que Israel enfrenta un “peligro inmediato” y pidió a la oposición unirse tras las elecciones",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRUdGRDNfd1ZDMnQ0YWU0cHRia3JQbUE1azZtU2RSdlpBNXlhMDNHS2hEX0U4bWdPVHNFZVBkQ1Bqb0hMX0tEazd3RzdEZzZVVkU4cDZRYWNNS0xJZXlyWllPN3dSRXhFWFJDc1hfMmx0WVowMjYwOU1ORzhvbWZPbXk4V2IzRUlUUGN4SG1UMWdSWVFocmxBVHZpZ3d6RHdUZzM1UGtESkpISUNta2hhTEhTakVORFIzTzlrazNjRDR2T0kteWFaeERmRW9Dc3dVdmpj?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T17:59:05+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Soldado israelí que lidera campaña de Adidas pide apoyo tras ser víctima de una campaña de odio",
@@ -330,6 +410,16 @@
    "via": "Google Notícias",
    "feed": "radar-fr",
    "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Spain’s Jewish federation reports over 200 antisemitic incidents in 2025",
+   "link": "https://forward.com/fast-forward/848477/spains-jewish-federation-reports-over-200-antisemitic-incidents-in-2025/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-05T10:00:59+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
   },
   {
    "titulo": "Hollywood’s Jews take sides in Mark Ruffalo-Paramount antisemitism row",
@@ -925,6 +1015,16 @@
    "titulo": "STJ: Suspensão do processo não se aplica em caso de racismo religioso",
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTktaT3ZFdVRGMXlicVNybzZIMnlnZXI3cGJyeHplQ0xHYjF0N3ZrNkN1cnQ1YjBFVGNOMlR6S0l1OEdRSnhCYnNiWTRsVndtaTkzUzEtOEhFc1k5a3AzdGhWM2lQQUMyZ05LZThsb0pJOVI0VWx3VUpVeENGeS1FRUpZdy14QjU1TGpTdGpTSmRCbnhSWUFRQnlkeUFJSXFEOWd1ZzRVYzFzT0QtdjlRSw?oc=5",
    "fonte": "Migalhas",
+   "escopo": "br",
+   "publicado_em": "2026-04-06T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Projeto sobre antissemitismo gera crise e polêmica na Câmara; entenda",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONTI4cWVPdnZFTVh6dHZESEJuSlpLOUFiSjRielNMMHlMOXNqdEJIWGttQnBKNWExZml2NE91M1NWNDRqUnJib0xUZnl0Q0lMZ2V0R2dhVnRYdjMzZ0c0eVhlVTlaZzFDWGpjMFk3M2lxQU04LThuZHlhdUNjc3VQamhmdTF6ZHBXaURCdmllYXo1SXdXNWwwWXpDY0k3SUNya3hr?oc=5",
+   "fonte": "band.com.br",
    "escopo": "br",
    "publicado_em": "2026-04-06T07:00:00+00:00",
    "via": "Google Notícias",
