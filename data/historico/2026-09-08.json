@@ -2,15 +2,96 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-08",
  "semana_iso": "2026-S37",
- "atualizado_em": "2026-09-08T11:03:52+00:00",
+ "atualizado_em": "2026-09-08T16:29:09+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
-  "The Times of Israel: HTTPError"
+  "The Times of Israel: HTTPError",
+  "Fathom Journal: HTTPError"
  ],
- "total": 81,
+ "total": 95,
  "no_brasil": 19,
- "no_mundo": 62,
+ "no_mundo": 76,
  "itens": [
+  {
+   "titulo": "UK police step up security measures amid antisemitism concerns before Jewish holidays",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-907995",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T19:17:06+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Advocacy groups launch witness appeal after alleged assault of Jewish boy outside London station",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-907992",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T18:38:11+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "LeDor VaDor: ¡Así nos preparamos para la cena de Rosh Hashaná!",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOTVzTlkwYWFwMUJGdFRoOHl2OW52RmRyNXVGWnRheVdxSE9lOTdhajc0QmJ6dXJiWWc0cW1STldGSGV3Sk5ZZGlOVmpxd3NITEg5bGVaNU12VlRXYW9JdW9QT0VPRUpIMDhzaVhPQ0h0a01wVndCVEZmMFVIdkQ2bzg4WXV5U1JBb3d5VFRtVVdCUEZSdTlSazZaU3FPMDNOTXNJc2JjQUtMZVFjMHpBWl9uRQ?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T16:23:17+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "What Is Germany’s AfD, and What Does Its Rise Mean for Jews?",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQWVQWFRtM1lFanZhb0VQbWg2Z2xLT1hzLWQtOHVoeElEQ0FGc0FEV3pObHhBSlQ0ZHNvb2pvTTk1YWFYbE9uUWlFQTd3dVYxRy1FRk96eEhVbjM1OU91bVh1Z1NKeXRBUXFzbHFTb2ljZzdDeEtMTzNLcktLdmdwZUp2UmVoZXB4Y1E?oc=5",
+   "fonte": "American Jewish Committee (AJC)",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T14:43:58+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Foro Latinoamericano contra el Antisemitismo en Santo Domingo contó con la participación de Venezuela",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbjZvelAwNV9PaG5zc19GRjBiNGxxVmFZck5ZcGxyd2U2YWJlMHo0M0NXRnhfQ0RWbTUwbkJRdEFZbjZucHVnWjZMRVFBOW1MSE1YV3pVNFhKVUFsb3NTNVAwVDN1NnZWNTY4NFRKR0JWcEhtNTc1OTNHbTRuWkZfUVlKS05nc3UzLTAwV3lpdURnbjZTU25FaWpvUHo3NXBlSHQ1cVUydlU5TVVScGltbmxvTjJmbzc0TFVMM05zN1MzMDQ?oc=5",
+   "fonte": "Nuevo Mundo Israelita",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T14:27:28+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Tidbits: New German textbooks about the Jewish religion",
+   "link": "https://forward.com/yiddish/848909/tidbits-new-german-textbooks-about-the-jewish-religion/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T14:13:08+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Opinion | U.K. settlement sanctions are about accountability, not antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQZlV6Q1l1aHlvaUNSLXZFTWMtZ3FoTXNWQzBqcXIxMFBfVWVjRllRd2pScmxQZDlMblNOSXVzUWQtMlNJRzJ5eUxQbHVhbzR2aTlkTUVTTjJlVWdPbHZzT3RKVlRObWxEU0FUejV5X1hjUHFDSUxqNGJad29XU2xTY3dNN2plMmtKLWtWeXpZelhkYWdnSF9zU3FQTVVxa3FSTnc0Z1B5WnVUbkxQaFprdUJWWWs5bDA5Y3RwVU5mVHg0aEstRWhvUjZhSzJfQzY3SFhPNW5OQkF5WmFMaEZQQ1Q3cGxIZ2tWZ3ZzaTYtT0RUeE5mZXdLa183SlN5UXRDVTVCMg?oc=5",
+   "fonte": "Haaretz",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T12:49:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "ADL CEO Credits Harvard With “Real Shift” on Antisemitism, Says Work Remains",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ITnVJektWclpra1pFcDdtVzF1N2xLSk1URFZCMlZUMVEwQXVaellJWWtlVEdSVjZybEZQbTdybF82V2MtQ1AtMEh0WTBkVkYzN29uVUZaN3RaeUhkRS1EWXpDZExxLUNFOVVMcGw0aWp3S2t0MmppdGNBbkdadw?oc=5",
+   "fonte": "The Harvard Crimson",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T12:00:01+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Israel. El presidente Herzog aseguró que una prohibición británica al comercio con asentamientos sería una “grave interferencia” en las elecciones",
    "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPZllrQ1BJdVlCVzBFTEpLREpMdWJRa2FZWUdGYWNEMnNPQjZiTDM5aUpZUDRYcVNXbGNIdTJrV2ZqemRtV3YxR2pjNlY5bW51Uno1ZXFhQXBFZmxCSkZvd3dHSC1ubnd6bkhabEtOSG1CZm9nbV9QXy1hMENTdHNRQkRMa05sVW15SmhFQ2lZQ0sxTndhaFEtcnF6UkZHT2MwSjFZVnpOdTdicThoVDdnRVBjVGFTNGJJN2loamwyc1FHVGdKcHdzU2lUVU1jVzByajhraUVpd1RuTjRhU1RQcTJfSTJPMnNLWkN0T3BEb2FhM2tRaTEtZFptbFA3V3BWcUE?oc=5",
@@ -262,6 +343,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "StandWithUs Canada Builds National Legal Network To Support Jewish Students Facing Antisemitism | TheJ.ca",
+   "link": "https://standwithus.com/news/standwithus-canada-builds-national-legal-network-to-support-jewish-students-facing-antisemitism-thej-ca/",
+   "fonte": "StandWithUs",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T14:45:09+00:00",
+   "via": null,
+   "feed": "swu",
+   "categoria": "Observatórios e entidades"
+  },
+  {
    "titulo": "California Lawmakers Pass Bills to Address Antisemitism, Deem ‘Jewish’ an Ethnicity and Protect Religious Observance",
    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOTnRiSHdISG8wbktFa0p2UU9LZDAxR3VWLXpUVUh5ZXVEdG5XZ25ONWgteXctRXN3OHl2bUJDOU15X2doQmctakV2Wk9wWnQ2WnRKUjRyTDk4TjlGOVRxWi1mTVB2UHRJamNSQk1yT2VzMk1FdHZTazNPN0hlekpwNkxVWVFNM2tlYlhjbXZxMmZfa3V3V3oyOXJidXNONUUzX2UyN0tpVGNqOVBYc0l3UTV2aXd5TGhBSHFTN3BqUVNOVVE2bnI0cnpmTE8tTlZFTjQ5OEVBUk5PdERDM0ZvWVBYVUdZNHJZN1AwTQ?oc=5",
    "fonte": "Jewish Press of Tampa",
@@ -280,6 +371,16 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Antisémitisme et racisme : le gouvernement présente un projet de loi pour renforcer les poursuites et les sanctions",
+   "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPSmVjWU55SG1YYVd3TWZDUm4tNTI2M3Y2TGFiaDFITW5Oa1dvM0VEZjcxWHZXWjMxWTItU1JqRzBPWWw2UDEtYUhEeWh6aUNpbVpfMVRLQldZaGFKLXZkeFJfQ1hxYTdnUExWYV9JbkxJREtoaEhSdGc4ajdWaXEzajNWSmNieU9odmpyQTB2RHh5aF85Ym41Y3p1cjBmU1ZnekZtRV9YbDJGMm5iMUhRQkNtSGduc0w1WEd5VFRqUTJyV19BQld2OFlqUTNIY1NldkZzYWRTQWNTZy1kU3RCWmktamVnTWlybDMweGdvbWFqZ3gtc1d4b1g3aXFFNVE5T2lUbg?oc=5",
+   "fonte": "franceinfo",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Nouveau maccarthysme universitaire aux États-Unis : l'accusation d'antisémitisme, instrument de censure et de mise au pas",
@@ -372,6 +473,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "California man faces trial over alleged threats to shoot up Jewish community center",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9tUHVScmtPOWNxOVBGT2Z3Q0RFTzJPSFRoWjVTQ1Y5a1FNek9SaHZad3hhcE56Ti11eU9KbnBQYmRtT2oyNzR2QUYzYWFZVGpFcGExZE9Cd0xOVW1Sc3ppMUhpNnowd0hYYlE?oc=5",
+   "fonte": "The Jerusalem Post",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-05T10:39:10+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Spain’s Jewish federation reports over 200 antisemitic incidents in 2025",
    "link": "https://forward.com/fast-forward/848477/spains-jewish-federation-reports-over-200-antisemitic-incidents-in-2025/",
    "fonte": "The Forward",
@@ -449,6 +560,16 @@
    "publicado_em": "2026-09-04T14:08:18+00:00",
    "via": null,
    "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "StandWithUs Canada launches new legal department to support Jewish students | The Canadian Jewish News",
+   "link": "https://standwithus.com/news/standwithus-canada-launches-new-legal-department-to-support-jewish-students/",
+   "fonte": "StandWithUs",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-04T13:39:00+00:00",
+   "via": null,
+   "feed": "swu",
    "categoria": "Observatórios e entidades"
   },
   {
@@ -539,6 +660,16 @@
    "publicado_em": "2026-09-03T12:22:26+00:00",
    "via": "Google Notícias",
    "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Une vague de solidarité inédite en soutien à Mark Ruffalo accusé à tort d’antisémitisme",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOFJQQ0hPZGp0ODJCeGxHTTduUjJJRVZLZGd4TVp6amlTOE5NNy1wc2pRY0dWWFE0MWFaY0xkZ09UMHI2b0F1aDA3UHM2VjFnZ2d0b0l0c2pYNUFwbFZSWTdDT2g0NW1KNTYtdFNTZmpYc1ZucUhScVktQ04wc0VMM2RwaVctbHFVTERaOGl0c3ZvNXo4X1BzQ0U0SE16SGZfdTdEUE8wSGNtNWlQVHZYUXRnYzNGSElyUDN5RWpqYnJ2RlR4YktYZGhB?oc=5",
+   "fonte": "L'Humanité",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-03T08:47:12+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -749,6 +880,16 @@
    "publicado_em": "2026-07-20T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Jornada de reflexión sobre antisemitismo y discriminación",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeU0xelpYZ2plbFFmU2dwVlhvbHN5clk5M3k1SGQ4aUR4NHFxOWVLSVRnODljR1FQU096S3haT2dFTFMwNHNIZzFJN1lUYVJwaEJkS21FaUJac01EQk9tUUo1dGNEU0N4X0I4V2J6MDJVWlAxQy1QUmpRaHB0YUNIeTNPMzcxMklwVkw1eG5ac2ZyOUVwamVxNE1nMHNVZjBscmlNeU91Z1hDSDZLV3Faa1BtRFM?oc=5",
+   "fonte": "consejomagistratura.gov.ar",
+   "escopo": "mundo",
+   "publicado_em": "2026-07-20T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
   },
   {
