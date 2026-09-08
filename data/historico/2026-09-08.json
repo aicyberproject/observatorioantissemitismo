@@ -2,16 +2,45 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-08",
  "semana_iso": "2026-S37",
- "atualizado_em": "2026-09-08T16:29:09+00:00",
+ "atualizado_em": "2026-09-08T21:01:14+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
-  "The Times of Israel: HTTPError",
-  "Fathom Journal: HTTPError"
+  "The Times of Israel: HTTPError"
  ],
- "total": 95,
- "no_brasil": 19,
- "no_mundo": 76,
+ "total": 108,
+ "no_brasil": 21,
+ "no_mundo": 87,
  "itens": [
+  {
+   "titulo": "Jewish leaders in Sweden warn of antisemitism in the Left Party",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-907999",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T21:30:00+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "They traveled to the U.S. as Jewish teens. Here’s how these 4 Israelis see America now.",
+   "link": "https://forward.com/opinion/849023/how-4-israelis-see-america/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T20:04:56+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Prefeito de Parauapebas pode sofrer impeachment após denúncia de racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcDF4X2JuX1lNWDl4ZS1ZQTNGX1A0YXZiTEpzUElpRmd4RGktT1Ewc3VMY3RvR2k2dHpvLTVSeFh4UmU1ZGRRUTNpaTNrbzhVaF9WLUlVcUZmZTQ0VjliR2s0d3RrN2FHTWw2NjFybE9yUlRNRGRTNFdLZC1FVTVBVkZyNTVVbFNzRUNIUC13?oc=5",
+   "fonte": "Belém.com.br",
+   "escopo": "br",
+   "publicado_em": "2026-09-08T19:51:27+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "UK police step up security measures amid antisemitism concerns before Jewish holidays",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-907995",
@@ -33,6 +62,76 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "L'antisémitisme partout",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNakVka2pKUy05WG5uZWFCb1d4NHkzSWp3NV9Lem1hRnlfcDdpRTdlS21INFhXQzdxc3AxU2xFR0FEWUlHU3NLdFBaYXdnV0dzV2hkc2ZJOC1rQ1pEN29SUFJUbU9MUEFDTlBSMS1UZ04xZUhJZmhOWVJjMGd2UVlQUGxkaUg3V2ZrbzNYdGtPU0hQV1M5MXRmb193eThMOEZQYVVHWGRxS1lkTk0?oc=5",
+   "fonte": "actualitte.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T18:30:32+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Antisemitism in Sweden's Left Party, Jewish leaders warn",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBoWEQ4bkZ3a3drN3JRQTIwRGFPbWhsRE5wOGo2by1nZTllaFhUV1RsNjNZdkJLaEFLMkxCWW5IeWY0eVFMSGNTS2xsQ2lTd00ybF9lMHpYeDhlUE4yZHRJRHQyd0dmZVpQN0E?oc=5",
+   "fonte": "The Jerusalem Post",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T18:30:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "‘A Sign of Hope for Universal Brotherhood’: CAM Welcomes Father Alexandre Comte to European Advisory Board",
+   "link": "https://combatantisemitism.org/cam-news/a-sign-of-hope-for-universal-brotherhood-cam-welcomes-father-alexandre-comte-to-european-advisory-board/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T17:54:48+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "North Miami Beach Joins Growing Group of Florida Cities Embracing IHRA Antisemitism Definition",
+   "link": "https://combatantisemitism.org/cam-news/north-miami-beach-joins-growing-group-of-florida-cities-embracing-ihra-antisemitism-definition/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T17:51:38+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Baltimore Events Explore Antisemitism’s Long American History",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQk5SeTFYUlM2NUNIZ003enBHZ3lIeEpsbTJBSjNQSnU0RUpuZ3otY19JcGZ1WDVNNFVBMGE4ckVpckplVkZnVHVfakwzV2VyTFFnbEYtXy1YTS1YZFZvOWlXYU1WVnluY28yeXJ2dDFhOXFKZEZqdGZpV2ljc0lCUVRZdWRiM05qdTNBQlhyVVVLazQ?oc=5",
+   "fonte": "Baltimore Jewish Times",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T17:37:54+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "LinkedIn Asked Me to Reconsider Using the Word ‘Antisemitism’",
+   "link": "https://www.algemeiner.com/2026/09/08/linkedin-asked-me-reconsider-using-word-antisemitism/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T17:04:38+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Prefeito de Parauapebas corre risco de sofrer impeachment por acusação de racismo religioso | Política | O Liberal",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZlg0cTJoNm1ZZEpkdUpkUW1KbWN4eTNlZG1YWE45VlBuNVVsQTBBdHpmd08waTZfbnhmT1czMHdkZ3VLbnJpRlh2OGgxbzM5ZkZjMmwxMmc2dm83clBZelk2QTJRd1hFRUxQWW1hZ2NiMW9yeTJaTlVheFRtQ042REtXR3JIOHZxZGRqNXBzT09FNlBQRmZMZzdwd3ZTMElCb0s3dE9tVWlLeXFMaGVBRGtyWkd6T1dsV3JEYUNMWXNfSm1wSHJkbzdzMDBMSzRk0gHWAUFVX3lxTFBoV3R1ODBxb1hONUo2TkhJZzBsOTROYkVnM1VNalFYUGE1QW1qS3NHdW1rdTc2V2J6RVFqNEY5Ul9xODJyc042Sk5PMUIwM24wdXdFYm1qYXl1dW5RcHhwRmEtYmI3RWVRVjZqVG1xX0QyVWZuVUl2UUpNbndMV2s5OWhYRWFlbzZzcDZrRTJGaG9KdkRtZ0xRRUpkeVFsaDBfRjhwS0w2WXdsVmtoamxCeUFsdzBxUk1JWjVYbS11eGVrVHVFMGlnYmJnYll1MkprX2cyaHc?oc=5",
+   "fonte": "O Liberal",
+   "escopo": "br",
+   "publicado_em": "2026-09-08T16:40:31+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "LeDor VaDor: ¡Así nos preparamos para la cena de Rosh Hashaná!",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOTVzTlkwYWFwMUJGdFRoOHl2OW52RmRyNXVGWnRheVdxSE9lOTdhajc0QmJ6dXJiWWc0cW1STldGSGV3Sk5ZZGlOVmpxd3NITEg5bGVaNU12VlRXYW9JdW9QT0VPRUpIMDhzaVhPQ0h0a01wVndCVEZmMFVIdkQ2bzg4WXV5U1JBb3d5VFRtVVdCUEZSdTlSazZaU3FPMDNOTXNJc2JjQUtMZVFjMHpBWl9uRQ?oc=5",
    "fonte": "itongadol.com",
@@ -41,6 +140,16 @@
    "via": "Google Notícias",
    "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Meta Removes Iran-Linked Network That Faked American Personas to Sway US Political Debate",
+   "link": "https://combatantisemitism.org/cam-news/meta-removes-iran-linked-network-that-faked-american-personas-to-sway-us-political-debate/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T16:04:28+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
   },
   {
    "titulo": "What Is Germany’s AfD, and What Does Its Rise Mean for Jews?",
@@ -361,6 +470,16 @@
    "via": "Google Notícias",
    "feed": "radar-en",
    "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Macklemore Accuses Israel of ‘Genocide’ and ‘Apartheid’ at Ed Sheeran’s MetLife Stadium Shows",
+   "link": "https://combatantisemitism.org/cam-news/macklemore-accuses-israel-of-genocide-and-apartheid-at-ed-sheerans-metlife-stadium-shows/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T14:04:01+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
   },
   {
    "titulo": "What AfD's election victory in Germany's Saxony-Anhalt could mean for Jewish life - analysis",
@@ -848,6 +967,16 @@
    "fonte": "NPR",
    "escopo": "mundo",
    "publicado_em": "2026-08-14T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Judge Dismisses Federal Government’s Antisemitism Case Against Harvard",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMkdqdTNsaGQyNkptVTBGeUd0aVRfYUhMeXRndl9oVmNzbThwcHNkX3BYbUtzZlpWOElsR2ZfU08xdDVYeXFuUXJHSHcxTjUycDRmbGhtcXFSSEZYRlkyV0ZjR0RTb21DbzVpUUlHY2Z6NWtKbFF1bjZwQkJIVUlHdDNnOWM?oc=5",
+   "fonte": "The New York Times",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-13T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-en-leis",
    "categoria": "Radar por palavras-chave"
