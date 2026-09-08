@@ -1,6 +1,6 @@
 {
  "esquema": "indice-historico/1",
- "atualizado_em": "2026-09-08T04:14:49+00:00",
+ "atualizado_em": "2026-09-08T11:03:52+00:00",
  "aviso": "Contagem de manchetes agregadas por dia, nao de incidentes. Mede cobertura de imprensa e alcance das fontes monitoradas, nao incidencia do fenomeno.",
  "primeiro_dia": "2026-09-03",
  "ultimo_dia": "2026-09-08",
@@ -54,9 +54,9 @@
   {
    "dia": "2026-09-08",
    "semana_iso": "2026-S37",
-   "total": 73,
-   "no_brasil": 18,
-   "no_mundo": 55,
+   "total": 81,
+   "no_brasil": 19,
+   "no_mundo": 62,
    "fontes_com_falha": 1,
    "arquivo": "2026-09-08.json"
   }
@@ -74,9 +74,9 @@
   {
    "semana_iso": "2026-S37",
    "dias": 2,
-   "total": 179,
-   "no_brasil": 38,
-   "no_mundo": 141,
+   "total": 187,
+   "no_brasil": 39,
+   "no_mundo": 148,
    "primeiro_dia": "2026-09-07",
    "ultimo_dia": "2026-09-08"
   }

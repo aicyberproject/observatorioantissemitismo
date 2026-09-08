@@ -2,15 +2,65 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-08",
  "semana_iso": "2026-S37",
- "atualizado_em": "2026-09-08T04:14:49+00:00",
+ "atualizado_em": "2026-09-08T11:03:52+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 73,
- "no_brasil": 18,
- "no_mundo": 55,
+ "total": 81,
+ "no_brasil": 19,
+ "no_mundo": 62,
  "itens": [
+  {
+   "titulo": "Israel. El presidente Herzog aseguró que una prohibición británica al comercio con asentamientos sería una “grave interferencia” en las elecciones",
+   "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPZllrQ1BJdVlCVzBFTEpLREpMdWJRa2FZWUdGYWNEMnNPQjZiTDM5aUpZUDRYcVNXbGNIdTJrV2ZqemRtV3YxR2pjNlY5bW51Uno1ZXFhQXBFZmxCSkZvd3dHSC1ubnd6bkhabEtOSG1CZm9nbV9QXy1hMENTdHNRQkRMa05sVW15SmhFQ2lZQ0sxTndhaFEtcnF6UkZHT2MwSjFZVnpOdTdicThoVDdnRVBjVGFTNGJJN2loamwyc1FHVGdKcHdzU2lUVU1jVzByajhraUVpd1RuTjRhU1RQcTJfSTJPMnNLWkN0T3BEb2FhM2tRaTEtZFptbFA3V3BWcUE?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T10:32:58+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Orange County sheriff unites multi-county law enforcement to combat antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTTdveHhsbTk3Q3J4TzNZeUplUEhkbnctb2pCRUhEeWpZNS01U1pjS2RVamFNU3dUbXhHNUJONXdOUnI5LXFuNEo1NDRsV01nNDNsLVdwX05iWHQ3Qkc2N3BDV3JFd1JLVUp0ZVhPN1VmSkNQWXRlSU85dEc2cU1fOEZnVVVzaVR4UHNqekRfWnY3OHg1a3VNeUdQQ2Ixd0Y5SXoyUFV3TnhXeGE2bGw5Ny1xbVhYdm4yZ0E?oc=5",
+   "fonte": "Mid Hudson News",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T10:25:24+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Best Jewish Advocacy Organization",
+   "link": "https://standwithus.com/news/best-jewish-advocacy-organization/",
+   "fonte": "StandWithUs",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T08:44:34+00:00",
+   "via": null,
+   "feed": "swu",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "They tried to punish Jews for calling out antisemitism. Federal court said no – opinion",
+   "link": "https://standwithus.com/news/they-tried-to-punish-jews-for-calling-out-antisemitism-federal-court-said-no-opinion/",
+   "fonte": "StandWithUs",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T08:35:10+00:00",
+   "via": null,
+   "feed": "swu",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Pittsburgher joins push for Peloton to address Jewish users’ concerns over anti-Zionism",
+   "link": "https://standwithus.com/news/pittsburgher-joins-push-for-peloton-to-address-jewish-users-concerns-over-anti-zionism/",
+   "fonte": "StandWithUs",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T08:16:52+00:00",
+   "via": null,
+   "feed": "swu",
+   "categoria": "Observatórios e entidades"
+  },
   {
    "titulo": "US Assistant Attorney General for Civil Rights says antisemitism in America is 'national crisis'",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-907888",
@@ -39,6 +89,16 @@
    "publicado_em": "2026-09-08T02:27:10+00:00",
    "via": "Google Notícias",
    "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "'A Call to Courage': Czech Parliament to Pay Historic Tribute to 129 'Righteous Among the Nations' Citizens",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQWFF5WkpjM0FkeXNYc3k1SjRTTTlkY1EyOHM4NXJ6bkZzSFZyZG44NmlwZ1hGNXBjS0dUcDY0ckxLd0JiMGpfeFZ0Wi0zRkZITDV6TzdhNXdNN2g5NmpET3J1QU1WTkxFUGY0dlZLa09uaEtCSjNiVWlrQ3dTaTduMkJRclRmZW5HOU02RnJjZXJLYldSSlNzeXE5aVl4QjNZX08tUTdXRmc5eXlvN0loS0RtSE11UDhlalpyYUVqNktQVGlmTjcyemZ6QXVQcjhRc3AxVU5xVWY4Qzg?oc=5",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T00:53:17+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -189,6 +249,16 @@
    "publicado_em": "2026-09-07T15:02:38+00:00",
    "via": "Google Notícias",
    "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Israeli lawyer faces ethics complaint over expert opinion used to target IDF reservist in UK",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5jdFNRUXg4RHItVkxkUHM4ZnRQTlg3aWFIeFBNZWx0cXFweXR6YkZ5NGtLblZSdHBGdTB3dENXVmh6STFyNzZNaDZrUFl0VDhFckphMHJjdTNjNUdhSy1zaDRiM0ZYU3hGS0E?oc=5",
+   "fonte": "The Jerusalem Post",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T14:57:20+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -735,6 +805,16 @@
    "titulo": "STJ: Suspensão do processo não se aplica em caso de racismo religioso",
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTktaT3ZFdVRGMXlicVNybzZIMnlnZXI3cGJyeHplQ0xHYjF0N3ZrNkN1cnQ1YjBFVGNOMlR6S0l1OEdRSnhCYnNiWTRsVndtaTkzUzEtOEhFc1k5a3AzdGhWM2lQQUMyZ05LZThsb0pJOVI0VWx3VUpVeENGeS1FRUpZdy14QjU1TGpTdGpTSmRCbnhSWUFRQnlkeUFJSXFEOWd1ZzRVYzFzT0QtdjlRSw?oc=5",
    "fonte": "Migalhas",
+   "escopo": "br",
+   "publicado_em": "2026-04-06T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Projeto sobre antissemitismo gera crise e polêmica na Câmara; entenda",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONTI4cWVPdnZFTVh6dHZESEJuSlpLOUFiSjRielNMMHlMOXNqdEJIWGttQnBKNWExZml2NE91M1NWNDRqUnJib0xUZnl0Q0lMZ2V0R2dhVnRYdjMzZ0c0eVhlVTlaZzFDWGpjMFk3M2lxQU04LThuZHlhdUNjc3VQamhmdTF6ZHBXaURCdmllYXo1SXdXNWwwWXpDY0k3SUNya3hr?oc=5",
+   "fonte": "band.com.br",
    "escopo": "br",
    "publicado_em": "2026-04-06T07:00:00+00:00",
    "via": "Google Notícias",
