@@ -2,15 +2,155 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-09",
  "semana_iso": "2026-S37",
- "atualizado_em": "2026-09-09T11:08:33+00:00",
+ "atualizado_em": "2026-09-09T16:26:02+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 101,
- "no_brasil": 21,
- "no_mundo": 80,
+ "total": 120,
+ "no_brasil": 26,
+ "no_mundo": 94,
  "itens": [
+  {
+   "titulo": "Analysis: 25 Years Later, Antisemites Are Winning the War to Rewrite the Facts of 9/11",
+   "link": "https://combatantisemitism.org/special-features/analysis-25-years-later-antisemites-are-winning-the-war-to-rewrite-the-facts-of-9-11/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T15:37:21+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Après un concert de Barbara Butch annulé à Amiens, l’association France-Palestine Solidarité crie « victoire »",
+   "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNTGxUcGNrM0lIQ2dOS1hvbHpZUHpsb2ZoZUV5Q0s1MWRzUDdrSWIwWXpLeHBVZGhDMGFMMkVJeFVTVTl1T3pTbmRhT29fS0dVVVd5Vm9JcjVaM081TXVpRXlHYzBuTFltSTlVYmxpbFlPTTNmekt0Ykp4YXdURndhRW9Fczd0MVpMOUJ6QWF1d0wxaWxGSmhMZXR0S3dNbnV0SVdTVl94Sm9SUVFZUW9rMGV3T2UyTVJCeThHbG1IOW44czVvRzdGTkZwZGV6RU9veS0wRG9JVURtbF81RVNSZXBuZ014dzBTSFJLaEVPRE5CQ0xLZHJvVHJ5a3h0eGJiS0xNZDVhUWhoWmRUT1FmY2dUMnF6d01IZG9N?oc=5",
+   "fonte": "Ouest-France",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T15:16:47+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Boulder Valley settles federal antisemitism complaint filed by ADL",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYnFWTDFjNEMwQ2Q0OG5LaWVUTDhvRExBcXRpR1BTdjNhNFNsWmhfUkxNbno0Rm9uWVpxR1pnZjJZM3ZMYm0wMlhqZ3lZNFl2b0JtbVZzc0VlTS1YbGJtbG8tbDNkY1ZBVjA0SHF1Uy0tZkpsc3dOVm9YY3ZoMWZ4WDMteTRZSnBSZWM3WFprQWgxeDVaYWJrcnRWTjZtbjFWYzhZT2R4cUMzZw?oc=5",
+   "fonte": "Daily Camera",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T15:10:02+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Hamas, Hezbollah Flags Reported at Rome Protest Over Antisemitism Bill",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNV3FNOTMyVWEwTGlibHZQR1lqeUY0WDFBUFBsM1NScHJEck96RWp6QTVMVjVuaXA4TUl1eU5zYzRKSm1jclFjWnpIeEFFVTNzOE80N0hEMW9lVWVfaHNHMmY3VGhXQW5iSFhJbWlhNU5VLXNERE5XLTBKcHdvelB3ck1YanNxRXI2SlJFVmJzdXRUSXctbE1WSm42QXNzNVFtM0h6Zml2Ui0?oc=5",
+   "fonte": "The Media Line",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T14:49:52+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Câmara de Parauapebas abre processo de impeachment contra prefeito por suposto racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNY2twQUtWS3lwbXBUUk15UWFCaDBuVDR1cmNOTFFfQUZ3TFQ5YVJXZFlrZG5mNHExemZTd3U2U0g1eVRSeUg0NTR0U2VhTnNJbXUtbE9kLTFZcnhWS0tZMENSMUZndk9RS2tRV051SXlCaWNTTUtmZ2J3b1F5MHUwSjRsdnNNTDl2NVcxbXZEQnNIWkU3S3gwNzctNEZNRGZ2LVY1Qjg4anFJckVVM1RMU3p2aExLcFYtQ2I5aHJGenFJdjZyMnA0NkZ2SnduUTJlbHprNk1QN2dFY0F6SktGQVUtSlfSAfMBQVVfeXFMUGFwOW1iUFpBR0RHTVZ6RUtINnZLYnJkc1FROXUwak1GLW1SQ1RUM2ZZOUIwMFV0WnV2SE1TNDVTMmJEOGp2Y0VjYndoSjUtRHlMMUFfbHZybTZBZDhtaHduX1Jid2toQXBUcXlYbjdoVjFnUDFYVjZpWkI1bkVkTEpmTkFOWkhReGZvekZDTGlqenNJQXc0R0tWZmhhSlVwYWxHWlpub1RGYVBCMVprQWZLRFhlc0VteVFCQzZ1MXkzYjFCeUFNSEk1bEhNWkxNX3J1bWx6Q1BmUXB5TWtUTFB0YVBfTllsSFVQOVpzamJNY05n?oc=5",
+   "fonte": "G1",
+   "escopo": "br",
+   "publicado_em": "2026-09-09T14:28:59+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "“Todo macumbeiro é um derrotado”: Marçal é denunciado por racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUjNveGRCUkotRlVvOVk0WTJOdUhXM1g4VUZBRWxLQ3VwcVdEVDVwdS1TXzhJOWM1ZkZSaDNUTklMYXFCSGJmM0dCNno1anYwcmVuYmVNeW9lUHUydFhqVWpKbWR5d0RlUmtaTGtSVlM3emVaWW9PTmMxa1BNMDJsOEdBX2k3M1B0cHJiN05UaHBUWGVYXzhPY215SVNVYkwtMndNU3hzNkkzS0dhbW9tTExYZVk?oc=5",
+   "fonte": "Diário do Centro do Mundo",
+   "escopo": "br",
+   "publicado_em": "2026-09-09T14:28:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Poll shows two-thirds of U.S. Jewish voters will favor Democrats in November",
+   "link": "https://www.jta.org/2026/09/09/politics/poll-shows-two-thirds-of-u-s-jewish-voters-will-favor-democrats-in-november",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T14:12:03+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Judíos de EEUU se sienten “vulnerables” en los Días Sagrados por temor al antisemitismo",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOc0MybkhPRzZBVzdQdHY0UGJFTlZVaU4zNnpFU1hFX1Z3cTNDRWxPdjcwRlZTZWpPbkpocktJUlczLXVPVndJTmRFY2NRSzZaTEd3WGp6ODZWd3c5OTY3eklCaUNLYUlxOGFVaVRwUzVVQ3ZZc0xNR1d2ckY4UWx4Q1ZQWTNIUVVuOXZDQmtYRDNPaVlMTWNhcW5JU3duenB3dzZMTUVZb1lpUFNJS0lwZ0dVYVpWSHkwYnBjNnp2OW5Rc3BIanZVUFg3SmNBRTdfZ08yazBFUnA1bzQ?oc=5",
+   "fonte": "Independent en Español",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T14:11:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Pablo Marçal é denunciado ao MP após acusação de racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNc2NLLU1hVk90Rm5UXzJTTktJWFZmMi1Eb184dVRJWWNDMDlDc2J6aHhIcE1ibEdHS1Vydkw2Mi11RWNOMFZHLU02anJXdXdvcnVaYTJTSGMwd0FfaHNLX2Z3WVdtT0I4bk82V0o2OXVHblpQUi0wQlVMcXZmdTFQbXhhXzhwZw?oc=5",
+   "fonte": "revistaforum.com.br",
+   "escopo": "br",
+   "publicado_em": "2026-09-09T13:56:50+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "U.S. Jews feel 'precarious' as High Holy Days approach amid antisemitism fears and internal divisions",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRGF0YWtBakwwdG5MZTRIWW5XOEQwcllYMGpBVm1pamtFVG9EZHM1MU1pYzJNbGNMdG01UDBLaUtRSmRCVHlwd00wR0lYSVV0eUxTQ053dUNYUVlQRHMzNlI0QlFUWjc4RHNuY3duZE5GdEdiX1NjM2dXM3V4eHdJcGFCNXRpYjN0OS1WbERZbHptYVFrVGRCdUlrbEJXeTVjMUNFcGJISHlfaFpoVmNIb21Oem5xTkZGbzl0b0p6U3FWNUVMVlBfV1c1d1d3OXViQ0lvTFRVN2xXVGJlVGxVR2t3?oc=5",
+   "fonte": "Los Angeles Times",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T13:38:56+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Jorge Macri en acto por Rosh Hashana: “En nuestra ciudad el antisemitismo no tiene lugar”",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQXzBuYlBaX290LTRJT3pFbV9VXzlDZndkZDNtalRLMkgzSWlBemtTWmMtcHBFYUFwcFZqamxxTDY2a25YNmdHNUlhcFZkcXdub0tTYTJSMWxHWXVoYmZ0ajJpdExucWN2TDRfZFEzY1U4d0VBWmg5VllvWm9WLThnTk83Q0ZTVkJtZmZWeDdTWWVpQWRLcjhNS2tmN29aWDVMTEFsaWlqemgwTjk5S1hJR0NpbWJOamVFZndDS0xfZw?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T13:19:46+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Jueces, fiscales y defensores en una obra colectiva sobre discriminación, antisemitismo y derecho",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQd1YzY0hXdzgtd3lDaUdodGtGcjE4ZHdvQWVrYzlVb3VXN3VrN1RMWUdnYVN6LWgyYnFiYV9NQU04Ui1sUUVsbGpnOXRGN1gyMHN4OFFscDFpRC1aZ3lLRTlfTGFPejN4QjA3Q3R4ZlBsQmJEN1VDS00zTWtCUlotZUxrMzR4bEdCcFFQZjdZZUd6b1lpNjNOQi1zaHdnaGlYSmtFaThEbzNCTjVhTXF3OTJIS1pQUEJRNFZWNGtjQXNXSXFnTHltQkpXQ1dxM0w3NXhYeTY3azFId9IB9AFBVV95cUxONDFwblBFREVVRXJjVXYwY1o5TmZETWRXYWNpZHNWU2NZVFNmZUdFLXktMi1NTHRZajB0TDVFRTVsWVpLRkV0cGk5UVF6OTZiY3lSUzlIYmdGalJUTlVhTUFtLVQwRDZwTlBuVzNQazd0ckxYZ2w4WTRJc1kzREI2MTFsZ1psSG5RU09Ta1hwcllYQ0JodXpDOXNrYy1TVk10SjJtU3JCclVNSE9icVZSb0NhSE1PZ29oczlCTkJiNG41d2Rvejc2Sm9MZWNyVVVtTGhNWHpTZW5TM0pJaExSdm5HNHJqdXE5cDh0eXo5UFFkQlFC?oc=5",
+   "fonte": "Infobae",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T12:52:06+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "At a national Jewish conference, a speaker said Muslims should ‘get the f— out’ of America. Its organizers won’t condemn him.",
+   "link": "https://forward.com/news/849251/mosab-hassan-yousef-jewish-american-summit/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T11:56:19+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Pablo Marçal é acusado de racismo religioso após falas sobre macumba",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZEJFX3hTa09jYU1NVTAwRVgyLWVGNVNIWVVhWWZiN3RQcUNLWXhEX0lIYVRfMFU0ZVdFcjN4MjNOMEdiUXJlNGotTUpBZEs4YVBpZXlma29sZTd3Y0s4bkhZYmRRblVsNmZMdnYwN3RnTFR1Wng1WkJpbE1leXhHMG1BeWVneEtTamNEWUJ6WEJUU0pMdG9sVUZ5OG1zMHVwZ3ZB?oc=5",
+   "fonte": "Brasil 247",
+   "escopo": "br",
+   "publicado_em": "2026-09-09T11:48:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "'I am appalled': Holocaust survivor raises alarm over far-right AfD victory in Germany",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-908066",
@@ -29,6 +169,16 @@
    "publicado_em": "2026-09-09T10:43:52+00:00",
    "via": "Google Notícias",
    "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Qui est Hasan Piker, le streamer américain accusé d’antisémitisme invité par le PTB?",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVDNxR0RBVGFha2U0c1UzU0JrNlFscTIyY2ZiT0g4SEtxSTdET2hmbDdVZXIzUF9qY1EtTnFrMVB0S1ZmeVFnbnFrMnBKSXRQVENFQ1hGeVFVb1N6TTVkWXlDcG81VE0wYUJPdXdhSzc2NlIyZ2tHRHVRdmJsNElraHZiZ1JoV2ktek5mTlBQTUtTbzBOMWQzdTNxOFJtckVwaEhpQkR3ZVdTc0Z3Z1diYV9HRGhSNnNMNmc?oc=5",
+   "fonte": "7sur7.be",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T10:26:24+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -382,6 +532,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "Boulder SJP Opens Academic Year With Call to Eliminate Israel and Support Palestinian ‘Resistance’",
+   "link": "https://combatantisemitism.org/cam-news/boulder-sjp-opens-academic-year-with-call-to-eliminate-israel-and-support-palestinian-resistance/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T12:48:50+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
    "titulo": "Fauda aborda la masacre del 7 de octubre y las actitudes del público hacia Israel",
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbXR2VDRkRVNWUDlmbkJMbnlVeGk1bUZ0TkJ2VEMtZHAtWm94Z1RoeWU3cS1SVWJXSmdMZ2NLX0FpeW9ya0lsNlR1MmJPdVJuVWFkLTVlc2tKVGlDOWEwWVBkU09QUi1Ha0JSRncyalJqSE5adlFYRDZIeXFvUGhtTk5BREZMcTVsY2dDMmpIaXNibUh4SWZzRXYxWlFENG9yVDQ4N3FTNHJYTnBoWUR5bw?oc=5",
    "fonte": "itongadol.com",
@@ -429,6 +589,16 @@
    "publicado_em": "2026-09-08T08:16:52+00:00",
    "via": null,
    "feed": "swu",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Antisemitic Flyers Blame ‘Zionists’ for Manhattan Public Housing Redevelopment Project",
+   "link": "https://combatantisemitism.org/cam-news/antisemitic-flyers-blame-zionists-for-manhattan-public-housing-redevelopment-project/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T07:40:21+00:00",
+   "via": null,
+   "feed": "cam",
    "categoria": "Observatórios e entidades"
   },
   {
@@ -702,6 +872,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Atlas lista emojis e imagens de antissemitismo e ensina a identificar ódio a judeus nas redes",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOd0JHWm5EMUlNTlo2NW8wYlY2dTBPSGpNSGY2eU5tclVETGhJSXdRSXc1OTdVeWZWMnFzVEx2dXVEU3I5V1BfY2NxTDNRU19neVlyOUlkRjlib1BUVTFpY3hJQjVnR1RFQVp0Z1pxUFZ5a0I2TFpKeTlkZ3ZTVXFtblhiZS0xWXdDY2RFTXpiVGtKR0R6dEszNWg4Y2RMWnhaaGRtbDFJX3lLdVIyMDZyRGdzbWdNc2J4SzJvVDlzQlJNb3JVUEw0?oc=5",
+   "fonte": "Estadão",
+   "escopo": "br",
+   "publicado_em": "2026-09-03T21:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "HHS Office for Civil Rights Issues Guidance on Discrimination Rooted in Antisemitism in Healthcare Settings",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWjYzZ2I5Tjg4dlhEbTZienFMcGRaV0lWYkVjQzdKd0hOMUxSN2tlMUs2N1RuWDI3RkpZSVM3UGZwRzNxQ3FNdGo0RFpYdE1sSTZhYUF1dW5yd1NqMGFoVTNxeTc2c1JEQkh6U3gyV210aFFyTmhrcmF1X1JBYWlkM3Q5SDhWcWE2SURnU0VfM0ZjOFBYTjQ1QjdLMA?oc=5",
    "fonte": "HHS.gov",
@@ -867,6 +1047,16 @@
    "fonte": "Perfil",
    "escopo": "mundo",
    "publicado_em": "2026-08-25T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Grave crecimiento del antisemitismo",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcld6SVJmd3M0R1lfZkpNSW56WjdQelZXa0gtN21PdnQ2endxQWJhNzhUWmxvUkNZaTNZb2k4Z0FDVHR5UEFIVkNocXdudndBT2h1NGlQdWM2UlN4MEM5aGdtNVl0SmNGTkVvcHZUb1RrcEdBcUl6RWdaaldWUUFFYXBnUk1TSjg?oc=5",
+   "fonte": "Clarin.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-16T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
