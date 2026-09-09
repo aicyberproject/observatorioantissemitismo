@@ -2,15 +2,45 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-09",
  "semana_iso": "2026-S37",
- "atualizado_em": "2026-09-09T00:00:02+00:00",
+ "atualizado_em": "2026-09-09T04:32:29+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 76,
- "no_brasil": 18,
- "no_mundo": 58,
+ "total": 84,
+ "no_brasil": 20,
+ "no_mundo": 64,
  "itens": [
+  {
+   "titulo": "Débat Soral-Guénolé : anatomie d’une mécanique complotiste",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNc1BXdjhIRXVpYU9xYTNNOVlrVG1vSXhSQ2xrUTFBQmVINWxDbHhSLXQ4Rzh5bHMwRGJvOU1BNmF1Q19RbnFmWGhmSmJoeDU1cFgtczQ5MVpORVdUSlhpWE1kWlBnenJOcHJva1ZJYmJycWZqM1ZDcDZWb3gyYk5XZWlVUGtzMGxvZFU2THY5UWUxZFpoTUtFZFl0eXg1VEVic2ZRQ3VWZ0huMXMzUHB5R1Jn?oc=5",
+   "fonte": "FrontPopulaire.fr",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T04:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Irán atacó una base militar estadounidense en Jordania tras la ofensiva norteamericana a la isla de Kharg",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVGJKbnJsc2dncE9odVI2SnpvcWE4ZUtMRlRlV1B0N3N3UDF3eFpVZjY4RTdiaTR3Wk9yMzZ4am1oY2FqTXY3emUyM2draFJIcXJSakprWGY4b25wWEFOTnk1d1pBYUkzOW53Uk40NkVKUGZFWFMtQjBQV3hEdks2TnltTkVlU21CUGxKamx5R1JZcThsYnE2UWNBbVA4MXE4UGgwdGRLN1RRRmx6V0hNOFhabW9PZ3ZqcmhfZXduNE5XbEZPTElDM1Q3aVNQODFuSDMyLUJxY1k?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T01:50:30+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "RELEASE: Gottheimer, Stefanik Discuss Combating Antisemitism on College Campuses at Vanderbilt University, Launch New Bipartisan Caucus on Campus Antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOa2lyVmRQVnpXZ0ZYcWdHRnZfdUhyM3BUZWdoMVBOS2RNZzQ2OV8zOF95emN4Tk01c09tWXVfTDFYZG9vbFYzSE9XVzBPOEJ6MlM5RXRDU3JVay1HVDBKSTlOai1ZUzRxcjRDbGM5cDFFcEF0QmU2YjdBdTVzWF9DY2h3NjB2U3N3QjRWbXA3bzVuYVNPenl2YlAwMTE2ZEF5TEhSWGswRjVEM2JQaXBwTF9TejdRcVRUQWhxQkRiaFltVVFXOXprcmRHTjFQMTgwRlZ6ZWs4U2VycGZYbW5tb29JU1JEcEVvZmhRQTRnMjF3Q3lPZTdBSDhqbzBxRHoyZ29FcFdadHhqLU11Z05KNEVuX2JLTGRYQ2c?oc=5",
+   "fonte": "House.gov",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T01:08:11+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Antisionismo no es anitsemitismo Mark Ruffalo y la censura por defender lo obvio",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVkJmcE1NaWhpeEhsMzFGY21fSFFLYktialhBeW5nak8tTGZZM3NhUFBpaVYySThlY0lEUllXODRfcEZXaEUzd21pWmxHN0xCS1ZhckxXRVZIblpCMW5qLTFLb216aW43amFQby1IWEIwZWgtSzhSSUJiSlR0dUM3MnI2V1ZmbTNIWHZaY2RnRExUM0lFOWtjZkhqT3VTUHIyMGg1MTJBTlp6NlhNb2ZhdW8td2pkQQ?oc=5",
@@ -152,6 +182,16 @@
    "categoria": "Observatórios e entidades"
   },
   {
+   "titulo": "D.A. Bragg Announces Hate Crime Indictment Of Man For Stabbing Two Men In An Antisemitic Attack On The Upper West Side",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVVpjTGNjWHA2M1M3aGlLdkhCXzRMOGxIZG9rUHdndjRHY1ptaWlNMXNISUozMDU3ZmxWY0YyZHhJWktQakZWbWhDdjdxY2plV185a3B3THE2a2hReEh1aENJdnBhUWt6OUFjbXNwSjRsN2YyUXhBeHl2WmJsR1lENXZ5UGw2NUhGUDZ4aXhERmw4bXRRLUpMU2gxWU9lT2w4Z3d1cDJXY2htQkVkUUNnNTBDbTNVZHktT2s0T3JpNDl3Q2pfMHh0TVFkZ3YwUGY4emh0bWJIU0hzZw?oc=5",
+   "fonte": "Manhattan District Attorney's Office",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T17:41:19+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Baltimore Events Explore Antisemitism’s Long American History",
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQk5SeTFYUlM2NUNIZ003enBHZ3lIeEpsbTJBSjNQSnU0RUpuZ3otY19JcGZ1WDVNNFVBMGE4ckVpckplVkZnVHVfakwzV2VyTFFnbEYtXy1YTS1YZFZvOWlXYU1WVnluY28yeXJ2dDFhOXFKZEZqdGZpV2ljc0lCUVRZdWRiM05qdTNBQlhyVVVLazQ?oc=5",
    "fonte": "Baltimore Jewish Times",
@@ -159,6 +199,16 @@
    "publicado_em": "2026-09-08T17:37:54+00:00",
    "via": "Google Notícias",
    "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "CONIB lança plataforma para identificar e combater antissemitismo disfarçado",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPS2dfRkVXa3BTNUhCRFplSGtjWDlzT0FMc2F5M2J4Z1NibUhzdVBQclRBaDFRWk1ScHFqUXdUZVl6Y1NPNE1RN1kxcHJ1ZXpwZFN1NGxob2YtY3lVaElOb2N0Q2cyUWM0c05KRFc0NEdYOXJESjF1QzZFMGpBQTlJWC1BQWgxWkpjRThBTWt5dUxaSk5tWDVHaVp2YlVSWEpYMnJlMlNieFJiMTNNZ09UeW00SW1Ra3RCMVBVLWRZdjhmeHF5cEJsUEV30gHPAUFVX3lxTE4zejRob1NFZUZ0dEdPYnRkc05lMzduOHpJcHVvY2R6OUJDSklxb1BkWFFVVU5RVmRMMVNMZWtzOHBEbmFJV3hVT2FFZEJOcWZocVljNE44TWRyZ29wblZlTGtXUGJuUHNxZTZ5ZElXcUtvUElaT2ZyRjNBbW1ZMHhPWnNBTGdHZlF5NENkMWttSVl0R0tESGEwcEJRNnFULVNqU1g5QmNOenN3cHdiUkRiSEpzdVhhWXlhQUJRYUhOQ3JOOW9jYm5EbF9GWFZRVQ?oc=5",
+   "fonte": "guiame.com.br",
+   "escopo": "br",
+   "publicado_em": "2026-09-08T17:16:05+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -369,6 +419,16 @@
    "publicado_em": "2026-09-07T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "“Hay un enorme potencial para Argentina en Medio Oriente”",
+   "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE5uMnFaZVlRWExETUR0djcyNTlGTlFVVlRsQXFIQkFfdUtTcWlreE9PSndvWTNWYnZpVTl4Ug?oc=5",
+   "fonte": "Revista Seúl",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-06T17:18:17+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -652,6 +712,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Isère : Nuñez et Bergé dénoncent des propos antisémites d'une commerçante de la station des Deux Alpes, une enquête ouverte",
+   "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPajFfYWlNaHAtNzRXOTRLVXZHblBoQnRPN3VNc3ZiMVd3ZU1hZ3JuUFUwTFdHMWVnLTQzSUVTMUR6YUh1UnF4QWdFVC1nQnJNTFhZbWdKb2hoU3plZThDTXlNODVFSkRSc2hPVjFLLU9iNXZDa1BaUnlBaTJLSHU2eE9GNy1QcVQ2UnRRT2hEcmJkMDNNODNzcmlaVE00YWdZRjhwR3FSS0g4N2Jraml6Z2FoWWF6eVFjbGFxb0UtTklzWVAxWW44ZjZOX1N6SFJVR3UxZkJDb09nNzhfblNTaFF3OGlQQ1F1bmRoVXA1Sy10TlBjZjhJZVdNRThZOU9RRHRTRDlFdXRkRzFvZFdHdElEdjJIUkZuUGdvSA?oc=5",
+   "fonte": "TF1 Info",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-15T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Judge dismisses Trump administration lawsuit alleging antisemitism at Harvard University",
    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBhZ2w2YTBJNGF1TEU0dHFrN25BV0xhUkVvQjBsS3B6VjNkM3ZNOWFVYi10NkowaUtXVEJ6NXV4Mi1ONmgtcVN5TXA0aG5LRGxQOTZBZE8xaEZVWUYyeU1yTnZoYk5QNE1QeTJ2dmRHX1p1MTF5YVktYQ?oc=5",
    "fonte": "NPR",
@@ -729,6 +799,16 @@
    "publicado_em": "2026-07-17T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "O que é racismo religioso? Tribuna Cast explica esse conceito",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPc2JScmhtQTN0TzByY2VXUnpCaXBwUTVJY2dOck5XUldTT3ZTT0FnT1Vpbmd0TXQtVVZCei1WUUk5MmpTR29keER3WllocFY5UlJ5RG5wM3FfeXdyODNzVTE1cGE5djRlY29raHh5VzlxUUgwZzlfNi1oaTJLRTBzLXlCOTdJVmZTOTNjbW1zYlloOGJtWm5wVzJMOGFFbWFtOW10NlRTVmc0cXh5?oc=5",
+   "fonte": "Câmara Municipal de Curitiba",
+   "escopo": "br",
+   "publicado_em": "2026-07-06T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
    "categoria": "Radar por palavras-chave"
   },
   {
