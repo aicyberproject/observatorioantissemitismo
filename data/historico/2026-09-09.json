@@ -2,15 +2,135 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-09",
  "semana_iso": "2026-S37",
- "atualizado_em": "2026-09-09T04:32:29+00:00",
+ "atualizado_em": "2026-09-09T11:08:33+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 84,
- "no_brasil": 20,
- "no_mundo": 64,
+ "total": 101,
+ "no_brasil": 21,
+ "no_mundo": 80,
  "itens": [
+  {
+   "titulo": "'I am appalled': Holocaust survivor raises alarm over far-right AfD victory in Germany",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-908066",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T11:46:33+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "El jefe del Estado Mayor israelí visitó a soldados heridos antes de Rosh Hashaná",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOb0xPSG9oR0JlS3dETmphUzVIdGU4REJxenZGQ0JkYnVicGVaRUZMSkZjamhWVEs3S01CZ1BQUEYyYnpwcGhPTkhlNnJmVkNVRklMdGFVWVdzX1BLLVJROGMxWi1ld1hxVV9XbF9KS2ZtSDhIeEZ2a2w1Z011MEpWRF9VdlFjUm1WZEdzZzFLQm0wTG1XTWU4TWU0cTVpOW5oMUdUaDZpbDdfakY0TkE?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T10:43:52+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Qui est Hasan Piker, l’influenceur américain accusé d’antisémitisme invité par le PTB?",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdkYwR3ppbHhYZk9fOFN1UUFJRGpOMktvTW9CV2djY0VBTDZpUVJUQ0t3OF94TElCX3ZYSHlwellaZWNnc0FDWnBHQlNONDk4TkNoaTJIdFo0N0I0cTFuOHZjZFo5TUd3VjBNd2Y0TlZ4MUYyRDV3aVYtVjBZTFcteHFTeGIxU3hpakxKVXV6WnNZcWZtckIxNUlpQ3I4NHh4U0RFNURJMUlfSlB5MVlkQ0pqd2dMYVlMQ0tB?oc=5",
+   "fonte": "7sur7.be",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T10:26:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Jewish Students' Bill of Rights helps communities fight K-12 antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTFhNaVpGU2RSRUwyUTU0S1dWZ1JBN01iaGVveWV4UEhXalpyWl9XbnBjRnpGbmJVc0NRSXVIN0RTemptM3d2UUlCejdNaGNia1d3TDFSR3c5ZE9aZE0zUW5fX0Q4eXpCeE4yUHJKa0dvdUp6S0g2QjFfSWFLSHhuT3dodFVyS3dJQ0Q0cmZJRmdZRDdBcHdJUnJVYTUzemtLQnE3dTZVV0tESWNLSHc2V21LYkVYV0x5eFZBQld0cw?oc=5",
+   "fonte": "The Jewish Federations of North America",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T10:02:49+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "He photographed the defining image of 9/11 – and Jewish history for 50 years",
+   "link": "https://forward.com/news/849203/september-11-robert-cumins-world-trade-center-photo-israel/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T10:00:48+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "New Jewish Students’ Bill of Rights to help parents, schools combat K-12 antisemitism",
+   "link": "https://standwithus.com/news/new-jewish-students-bill-of-rights-to-help-parents-schools-combat-k-12-antisemitism/",
+   "fonte": "StandWithUs",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T10:00:00+00:00",
+   "via": null,
+   "feed": "swu",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "California Bill Would Add Jewish Identity to State Demographic Data",
+   "link": "https://jewishjournal.com/community/391974/california-bill-would-add-jewish-identity-to-state-demographic-data/",
+   "fonte": "Jewish Journal",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T09:40:05+00:00",
+   "via": null,
+   "feed": "jj",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Jewish Federation Los Angeles Names Becky Sobelman-Stern Deputy CEO",
+   "link": "https://jewishjournal.com/community/391971/jewish-federation-los-angeles-names-becky-sobelman-stern-deputy-ceo/",
+   "fonte": "Jewish Journal",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T09:36:59+00:00",
+   "via": null,
+   "feed": "jj",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Reinforcing Holocaust and human rights education and awareness raising",
+   "link": "https://fra.europa.eu/en/event/2026/reinforcing-holocaust-and-human-rights-education-and-awareness-raising",
+   "fonte": "EU Fundamental Rights Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T09:34:51+00:00",
+   "via": null,
+   "feed": "fra",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "FRA presents European Conference on Antisemitism outcomes",
+   "link": "https://fra.europa.eu/en/news/2026/fra-presents-european-conference-antisemitism-outcomes",
+   "fonte": "EU Fundamental Rights Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T09:32:06+00:00",
+   "via": null,
+   "feed": "fra",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Sweden: Jewish Leaders Warn Of Antisemitism Within The Left Party",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZVI1S2IyNk5MaE1YUVd0bTR2bjlmSm02RmxGRDJua2RyNzBJUER1RmI2ZzBHeFNTRE5ZMmhfVUZQTW0zNUZvYkF6WjIwU1ZEVjlfZTVvaEZ6MUJtTEZ3NTJJMGVCbzNUanpqcENsdWZCSW42N3JNdVo0TzZwWjFuZHVPaGRtN3FwYk9FdEZ4RjJtSjBrUE5Tb0ltZ0kwRFZONm5tWUdDU0FfVjZoYXJJWXJoZUZQelNINl9pNGhB?oc=5",
+   "fonte": "i24NEWS",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T06:01:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Suède : Des Responsables Juifs Alertent Sur L’antisémitisme Au Sein Du Parti De Gauche",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSVBCbl9PbHZVcWtuaWw2blhoblZmLTZST3laeFhkbGh6S0FPX3o4cTR6NTJWSHVfRnFiZWRPbG9mNV82YTBMamNERFZzQ1FWTF9NU3dLeHdpcEtBT2R6SVAyU1JBVzFILXpiUXdtWkRYYWF0bC1CdTlQeG5TdEdxZG5TaXpRWTVvanVmUDVMVlBZWkNFdW01YS00WEk4cmR6SkVNRnJiWWlGdi0zdHdhMUY5NUtSUEJheVEteG1CMU9pejd1akhYMVdJamZvbFF2cFdoUWpUNUw?oc=5",
+   "fonte": "i24NEWS",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T05:19:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Débat Soral-Guénolé : anatomie d’une mécanique complotiste",
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNc1BXdjhIRXVpYU9xYTNNOVlrVG1vSXhSQ2xrUTFBQmVINWxDbHhSLXQ4Rzh5bHMwRGJvOU1BNmF1Q19RbnFmWGhmSmJoeDU1cFgtczQ5MVpORVdUSlhpWE1kWlBnenJOcHJva1ZJYmJycWZqM1ZDcDZWb3gyYk5XZWlVUGtzMGxvZFU2THY5UWUxZFpoTUtFZFl0eXg1VEVic2ZRQ3VWZ0huMXMzUHB5R1Jn?oc=5",
@@ -392,6 +512,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "« En Israël, la politique génocidaire n’est remise en cause par aucun parti susceptible de gouverner » : entretien avec le philosophe Étienne Balibar",
+   "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQbENsQ29jMUQ3TnF5ZjNUZ0h6bzNhakwtYUxNejBkcGt6TnRJeGF5QnctVGNHUFVnZ0tvXzRxR0hVVTFwMWFWLTFSVjVRTUZLaUdUSVdkRVl6bEpzYTZYekZmb2F6SVpMZXpOakpZZ3BxNGNRU19LNlNMY2djTXE5R1VPMXlNN2Y4NVkwVlhzN1ZMQkoxdmRQYy1iWjZIUENiTllTcGlUX011dWREQjVjREpDZi1MNE0zWFpRNFpyQ204Z2tkTWtCNlFaYzRZbDZRTEVwY1Y1Y0psbS1BbmFTcXFDTmJJVzl4NlVBNUFiMGxfblRoUEg1eDBYWHdORmJHZUFhLW9rZy0wV1hCdmJ0REdR?oc=5",
+   "fonte": "L'Humanité",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T15:02:38+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "StandWithUs Canada Builds National Legal Network To Support Jewish Students Facing Antisemitism | TheJ.ca",
    "link": "https://standwithus.com/news/standwithus-canada-builds-national-legal-network-to-support-jewish-students-facing-antisemitism-thej-ca/",
    "fonte": "StandWithUs",
@@ -432,6 +562,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "\"Il faut stopper l'escalade !\" À Orléans, la Licra aux côtés des commerçants victimes de racisme, d'antisémitisme ou autres discriminations",
+   "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQamlqVmxFcVJRX0lNWU9VSVZVMDJyWVl1Y3FPaDJzYnNUeFgxOXBoYWhaMHV3SW8zaDlBalAyZ0Z2RURFbk5XOVlMNC02aFpyeWZON3dFVFZoeHNpMTVKVFFNOFBWYy1sMm5lQVVQbTFQcmtaMm90V3kxYVhUUnZEa3FSbU51cHpiZDJtaVlraERxdHROTmpCVGZiOVdVd3Awdzg2SklfSkFIM25tcV84MVJ5VFBObnlfV0VnSkJUVnhNdzJfbjhIOXpHTHU0RFhqZTlkVTMwMWFidVRoWXZWa0hlUVNzV29yYWtERmtOdExDWUNZdHRWczdhVGt6ZngxMVUtQV9Vb1hRQ2JwNFJvVFphYVRvSUw5?oc=5",
+   "fonte": "La République du Centre",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-06T15:29:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Israel diz que França está alimentando o antissemitismo",
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcXJtMTFhbW9pRHI2bUx6UmNIUE1qeEFmMHRoazVoZGNJUmxCb1pKODYwcmZIS244TlhiLVBORk9PMl80dDc1emd4dWp3LS0tTkp4dXJYQlhzT1VLcF9naWd1QW94Sjd6NXdfM2pwN05jbHVVMDQ5Y2ZacXA4aUJCQTQ4eTBqaEREbllvaXVkUzJjLXBYdDFxbWxzTDhwOXhSNFNaWVJFSExONnZRNGduN2VuVlBzNFBH?oc=5",
    "fonte": "Gazeta do Povo",
@@ -450,6 +590,16 @@
    "via": null,
    "feed": "jta",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "« Vandalisme inadmissible » : des croix gammées et d’autres symboles nazis tagués sur un skatepark, en Normandie",
+   "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPZWhKYjVsdEttNVEzbkVGOXpYa3hHX243cGdPcGtYREluLTdWXzVrenlCUTVwYjQ4NTVUcGk4cVNnWXVxVUZBVUR5WDBNZ1BSbmZ0U3pyTGFJRXB5RkZHTHhRVTBnWGZ6TUtMWGl1S1NMOHpaTVZLREV0VTZZOFdFQkY1RkVRX29scEp6TU03R0MtTW1BVEV0QTd3MV9XUEZJcU02SXZTVjJWQjA0UzlONDlDZFlLSWpYRXlVZlRxT2wwNjhhMGI4c0hQMW9jcjFKWFRJWHZGdkdjYWxfSzhYRWVLXzVHYTg2ZjUwVGlPZWEzRDdIeDFuRzUwc1diWU5yWnBBMEtsTEFybUlIcjhDejZQMjBvVG5qUXN3?oc=5",
+   "fonte": "Ouest-France",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-06T10:15:33+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Mauricio Stycer resgata em livro a fuga de sua família da guerra e do antissemitismo",
@@ -712,6 +862,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "De Zárate a Irán: la larga sombra del antisemitismo en sectores del peronismo",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMXQ3cFh5VDVKeC1vRERXSjN6OXdsSElXZFdqNEROVmdqRjJUQTBSRkVrWWtkUGNiZDItWFI5YU5kNkQ2enhOWG1VdHBmUGlmTEJCbkRlcTMyVmJWWWVkMmRScm5DcHJKem9yWWxvT2lxQ05yV1RnRmJPcWRfYWZtNXFZaVQxbkRMb1hZMHZaYWg5SUdwVVNhS2pUYmNzS1M3czFlaXd2ZjBmLVFzRDUtQTY1a0QtM2QwZXpxOU0zSEFOMXQ40gHKAUFVX3lxTFBkYURRWVIyb3hQam03Ry04bWtRc3hzTlBRTWhJZ1llYWRWa0NDMEMtdUQ2Nll1MHNMMURRWldrME5RVmVjSHV6NWd0cGhZQXl4WGhaQTBobGJwQlQ1OERkTGItVzJxSGl6Ti1HUE9lZzlyMXNGbGotSE9Ed1Q3Q21zTEFZdHotUE8zNU5DV3BkYnZITTVLbFVpRkI2T3F3UC1QTjZoQm9PM0hJN3RTQ0MxX2dOcE91bjhNVWk2SzY1MWoyVndER0NUVUE?oc=5",
+   "fonte": "Perfil",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-25T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Isère : Nuñez et Bergé dénoncent des propos antisémites d'une commerçante de la station des Deux Alpes, une enquête ouverte",
    "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPajFfYWlNaHAtNzRXOTRLVXZHblBoQnRPN3VNc3ZiMVd3ZU1hZ3JuUFUwTFdHMWVnLTQzSUVTMUR6YUh1UnF4QWdFVC1nQnJNTFhZbWdKb2hoU3plZThDTXlNODVFSkRSc2hPVjFLLU9iNXZDa1BaUnlBaTJLSHU2eE9GNy1QcVQ2UnRRT2hEcmJkMDNNODNzcmlaVE00YWdZRjhwR3FSS0g4N2Jraml6Z2FoWWF6eVFjbGFxb0UtTklzWVAxWW44ZjZOX1N6SFJVR3UxZkJDb09nNzhfblNTaFF3OGlQQ1F1bmRoVXA1Sy10TlBjZjhJZVdNRThZOU9RRHRTRDlFdXRkRzFvZFdHdElEdjJIUkZuUGdvSA?oc=5",
    "fonte": "TF1 Info",
@@ -819,6 +979,16 @@
    "publicado_em": "2026-06-15T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "O Estadão entre o anti-STF e o antissemitismo, por Luís Nassif",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSVl4UDNSUm9vejFEeXhPMTJEczFBcU5pT0FaR0JrNEp6OGpMcjg0b3lTYzhsSm4xeXlNejk5RGJWLVNDU0dFd2F1LThYYk5fSWRzZGlLeE02ZngyTEIzNFhDeUR4SjFVbExtVTVmdEZtWG93M0VaYWdPbUdEeXRteFlEQzFNUQ?oc=5",
+   "fonte": "jornalggn.com.br",
+   "escopo": "br",
+   "publicado_em": "2026-04-12T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
    "categoria": "Radar por palavras-chave"
   },
   {
