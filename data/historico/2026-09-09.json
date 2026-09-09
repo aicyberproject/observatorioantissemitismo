@@ -2,15 +2,125 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-09",
  "semana_iso": "2026-S37",
- "atualizado_em": "2026-09-09T16:26:02+00:00",
+ "atualizado_em": "2026-09-09T20:49:56+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 120,
- "no_brasil": 26,
- "no_mundo": 94,
+ "total": 136,
+ "no_brasil": 30,
+ "no_mundo": 106,
  "itens": [
+  {
+   "titulo": "US Reps announce new caucus focused on combatting antisemitism on campuses",
+   "link": "https://www.jpost.com/diaspora/article-908158",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T21:27:53+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Argentine court orders return of Nazi-looted painting to Jewish collector’s heir",
+   "link": "https://www.jta.org/2026/09/09/global/argentine-court-orders-return-of-nazi-looted-painting-to-jewish-collectors-heir",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T20:33:48+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "‘Todo macumbeiro é derrotado’: Pablo Marçal é denunciado ao MPE por racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9Makh6M3dMSkh3M25OcEd0SnBWRjUxSVN5ak5DVXlxd1hCRG9ac0hidkhnRFlPQ0xCbEpqNTJ4UDkxT1Z3U3RmckdNSFJmX3V1UE1ZOHk4bzB0bzNab3lGTFRPUWpTeU1tNFRkUEhxemVUTnZRVWc?oc=5",
+   "fonte": "Alma Preta Jornalismo",
+   "escopo": "br",
+   "publicado_em": "2026-09-09T19:54:31+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Danny Danon veut faire de la lutte contre l'antisémitisme une priorité pour le prochain chef de l’ONU",
+   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQSDZUWVFEQTh6OXlxSjVxNTVQandZajBtTEVuaUp2S3UwNUl6SndIYjRRYkJkU0VOVHhMVW1VRTBYdXhCX0ZheTMtWWhzazB4eGlsS1RmSHhsT3BMdUhOOFliWUpRVUwtQ1gtUWxJOUtrUEo0azlNUXl3S2RWT1AwWUFfcjFUbE9McUJGQVIyc3ZqNGNmbG8zNUxVRW54UW5BbXd6MlRxYXBpMEpvY3ZFekdWM0dtUkVISF9iVFpsS0QwbVNNVGhuanVpMG0wMVlOU0FpNEJVYXl0TW94Sk5nVWpwRmp4NFdmZ3lOeHprbmI1dExBcUE?oc=5",
+   "fonte": "i24news.tv",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T19:07:11+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Pablo Marçal é acusado de racismo religioso após falas sobre macumba",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMlNzWTNBdV9fQnhmRGYyRWFEZDRfR2VUbTlCWDB2ekY3Z21FMWJCZXN1TVFFbXliVndya0xibGF3TE5YRnNlYnVNUDJhQkFvQVZYMDhvU3RDblN6aXV3TjMyZ2FfMm5MdTdDM0FGb01hVWg3V1JSWHBEOWhsbHNiV2loUUM1X3VUU2JxR1ZnamU3MGcxYlkwVVZZaTZQUQ?oc=5",
+   "fonte": "Notícia Preta",
+   "escopo": "br",
+   "publicado_em": "2026-09-09T19:04:39+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Denúncia de racismo religioso leva Aurélio Goiano a processo de impeachment em Parauapebas",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQWZXT3RhUDUzaXRQUVRraDFIRUdLeVp4Mk0yQWZwNEU1YWlyTkU0TDZYQjUwOUtCTVIwUGZtZHNad2NoaEVCRGk1Um9BSU9uXzlMbC1ZQ1RYQkl4ZVJaTjVhN204OHpsMWpMd0VDaDVQVFJNdjJDd0xSdGw0WHRheUd2NVVJZkt0ODVVTFlWOUVQWWdiODczN0hLaDNWYzRra0NLSVdIekU0QzZaX3FQbU13RDVDLTNDSkZobUhUQ1hsLWFmQ1E?oc=5",
+   "fonte": "ponto de pauta",
+   "escopo": "br",
+   "publicado_em": "2026-09-09T18:55:04+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Germany takes a step back to its Nazi past — and Donald Trump is cheering them on",
+   "link": "https://forward.com/opinion/849413/trump-afd-maga-make-germany-great-again-saxony-anhalt/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T17:53:29+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Bipartisan duo launches congressional caucus to confront antisemitism at colleges",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcDc4Xzd0TFExcGdZTUVRTk5zc2cyT19ySFBVQ01pZmt5b0lnRjNvTlUwbkpZZjBROHVJbk9zSjZhZ3daZm15N2k1WUh3RjNGSmR6VW11SGJaZ1B1dGczVjhXc1hnU1k2UVA3dVBwc212a1dyc010M2E3dGlJOHl3SUJUTzI0VEJtOC1DX1V0MUpURHRvNTNtc0hjSUxkZUZJRGRDeTN3TXhGYWRz0gGyAUFVX3lxTFBxOUdXUXU0Z1h5YUZxMXlGRjZSd2h6ZnZzdWVnb3lVUGtYQURrMDFhM3Z1cXNkelF1S2ZFSFFSZU5OUGYzRXY1ODlqRzlkZnhmX29LNlo1dEhCMGhUbXIzSU9wMDMyZFJ3bU5XOVItbDdwME0zMVowUUxFZDB1NmJFUnRhWTBFZTJMYktaWlI4MmU5NlRhNUxuM21pWHktV3dTUHNnZUhKanZtV3VpZGxHVnc?oc=5",
+   "fonte": "Fox News",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T17:29:37+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Approaching Three Years Since 10/7/23: Antisemitism on Campus Now",
+   "link": "https://www.algemeiner.com/2026/09/09/approaching-three-years-since-10-7-23-antisemitism-on-campus-now/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T17:22:58+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "The Jewish world before Sept. 11 — and the world it became",
+   "link": "https://www.jta.org/2026/09/09/united-states/the-jewish-world-before-sept-11-and-the-world-it-became",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T17:21:32+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "We’re losing control of AI. Is Judaism the key to keeping it from killing us?",
+   "link": "https://forward.com/culture/835118/ai-alignment-rsi-talmud-torah-judaism-halakha/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T16:43:54+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
   {
    "titulo": "Analysis: 25 Years Later, Antisemites Are Winning the War to Rewrite the Facts of 9/11",
    "link": "https://combatantisemitism.org/special-features/analysis-25-years-later-antisemites-are-winning-the-war-to-rewrite-the-facts-of-9-11/",
@@ -37,6 +147,16 @@
    "fonte": "Daily Camera",
    "escopo": "mundo",
    "publicado_em": "2026-09-09T15:10:02+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Howard Jacobson's 'Howl' is a dark meditation on post-Oct. 7 antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcUsyRWdSTmlWYS1MaHd0bjllTDBfaUMwb2tUYV9nMFp5WVB4bVlFcV83WjR6Y3RlQTNYcGx1dUphZWVhT0tFTzFPS0xnNV96a2RJbGZPUEo1cy1MZGNteThPalUwNlotbjRzQzUza3A5RkV2bWhYcy12TWFSazZmY0hfaXNQT09HNzRuVnItWnpJRnJ1RS1Mbl94LVVZODM3ZkFLZ2VTTlM5QQ?oc=5",
+   "fonte": "Religion News Service",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T14:59:30+00:00",
    "via": "Google Notícias",
    "feed": "radar-en",
    "categoria": "Radar por palavras-chave"
@@ -70,6 +190,26 @@
    "via": "Google Notícias",
    "feed": "radar-br-racismo",
    "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Research Confirms: Teaching Antisemitism as a Cyclical Conspiracy Theory Works",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNkZ1T1NBb2Uwd0kzOEd6Ung3R3hJS0U3YWJFeDVIUHdrYm55NjN0TWhfZXV1ZFdCUjdwMTdBd1o4ZUdPOEJ2Z3NlWjNDdWhSY3EzWjdkeDdpQjA3c09UQlJxUGFYSU53bENiOGxjSzMxY3lzT2Z3eGxaRWFYMkhCSVVJZlozSXpZVHFMVVk3MkpjRkpNYzdPVDlXdl9SZWxuWDc3M05ZZkNRVDgxNlpv?oc=5",
+   "fonte": "Anti-Defamation League",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T14:20:18+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Portuguese Comedian Quits Jerry Seinfeld-Headlined Festival, Accuses Israel of ‘Genocide’",
+   "link": "https://combatantisemitism.org/cam-news/portuguese-comedian-quits-jerry-seinfeld-headlined-festival-accuses-israel-of-genocide/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T14:12:48+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
   },
   {
    "titulo": "Poll shows two-thirds of U.S. Jewish voters will favor Democrats in November",
@@ -382,6 +522,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "Disabled IDF Veteran Faces Online Hate Campaign After Adidas Ad Sparks Boycott Calls",
+   "link": "https://combatantisemitism.org/cam-news/disabled-idf-veteran-faces-online-hate-campaign-after-adidas-ad-sparks-boycott-calls/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T20:11:02+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
    "titulo": "They traveled to the U.S. as Jewish teens. Here’s how these 4 Israelis see America now.",
    "link": "https://forward.com/opinion/849023/how-4-israelis-see-america/",
    "fonte": "The Forward",
@@ -390,6 +540,16 @@
    "via": null,
    "feed": "fwd",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "CONIB lança plataforma para identificar e combater antissemitismo disfarçado",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYXBPeXlsVEFoamdNTmcyOVJxYng3cTN1QlZFV0hEbFQzcExKTExESWkzOGVFa0VWRFN4ZVo0TUtUMTcyTlE5NzhTM3RDYy1XVmdVMG43eTlJX1ItMFRtckZlVHphUExtYkJvOFZ1dHdvTWdGM2l6cXBEb05PbXl1Q1pWMU5PdHBaV3pYM3lxOXR3Q0t1YUczRXA0X3U0dFdseU1STkl2QWVDV0hoQmxaRTh0ZjZUcDgzd3B4emNEV2Nqa2_SAcgBQVVfeXFMUDQwZS04bVBmWXIwYVRuY0NoMWN2TUM3c1FVakluclhoZ3lVZkFCN3VMdzg4MllOZ3RZa0IwY1Z0RnpPWXZzdTAwSWZmcll1Ty1KQUxXZDJMOV94NW1GdXpnOTJ3aWhMTW10Y1gybkp0TmR2RnFERmtEekRna0JsUGdsNDl5eUFtTGtxWUlxQlJxSTJwSDlWRkRjTlVFMUtLVUl6WWw1MEdxTlA1ZzJnbG1lTzN2d01TX1Z6VV9jOE15ZXB2MDNOaUs?oc=5",
+   "fonte": "Guiame",
+   "escopo": "br",
+   "publicado_em": "2026-09-08T19:53:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Prefeito de Parauapebas pode sofrer impeachment após denúncia de racismo religioso",
