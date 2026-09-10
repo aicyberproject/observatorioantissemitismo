@@ -2,16 +2,85 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-10",
  "semana_iso": "2026-S37",
- "atualizado_em": "2026-09-10T00:01:35+00:00",
+ "atualizado_em": "2026-09-10T07:13:49+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
-  "The Times of Israel: HTTPError",
-  "Supremo Tribunal Federal: HTTPError"
+  "The Times of Israel: HTTPError"
  ],
- "total": 80,
- "no_brasil": 18,
- "no_mundo": 62,
+ "total": 98,
+ "no_brasil": 21,
+ "no_mundo": 77,
  "itens": [
+  {
+   "titulo": "Two-thirds of US Jewish voters to favor Democrats in November elections, poll shows",
+   "link": "https://www.jpost.com/diaspora/article-908186",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T07:24:12+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "‘Remembering September 11th Means Defending Historical Truth, Refusing to Legitimize Terrorism, and Rejecting Antisemitism’",
+   "link": "https://combatantisemitism.org/cam-news/remembering-september-11th-means-defending-historical-truth-refusing-to-legitimize-terrorism-and-rejecting-antisemitism/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T07:02:46+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Jewish groups launch 'Bill of Rights' to protect students from antisemitism",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-908182",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T06:29:07+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Diffamation, antisémitisme : procès choc à Brest",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQT3JNTGgwVGdER2RFRHNpbjNZZVFDaGRwcU5QLUoydU9VN2VvSUYwUGU1X25IdlM5ZjdaVXhScXRmZW1KaGNHUXZqcmk1RWpobld5alltN2JmRHdxeTh4bGxqV0xYY3RXMHhRaXhvV2s0QVlRZUtQSEpVZVJxM1N4YXJ0TDNyMTFXWXIyTFAwRmZWa2xUdm13c01n?oc=5",
+   "fonte": "Le Télégramme",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T04:00:03+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "New international initiative to combat antisemitism announced by Israel's UN ambassador",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-908178",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T03:53:27+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Una sobreviviente del Holocausto expresó su “consternación y tristeza” por la victoria del partido de ultraderecha AfD en Alemania",
+   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPdGNWaHJ3MFQ3b1VWVEZRVGlNNWhFR3pydWs4WWNkSXNRSVZpOUJ3N0R5Z3lGTmpiMEdNZE5RVE4xdmk4b3V1TTFyY2lEXzMzNTk5dXZ0SFNDZXp3SG1oT2dpXzQ2LTBmNzZzMkR3UUxwanBnT1hKR1hYUG43cE0zb3JhNkJpTHNRcWZ3SXJlaVBPejZUdUVQejZpck95a0RaUmdxd2xwMUtXb3RsOE1BTlJGajR4Y3JIbWUxYm5OellTNHA2d1pHRXlUSFlKa2xXX2JZWkt1Qmk0WHcwa1djWU9qVnZNQWNsRE81MXRyUlR1OHV5cXBz?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T01:13:10+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Judíos de EEUU se sienten “vulnerables” en los Días Sagrados por temor al antisemitismo",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPb3J1Qjl1ZEhhVnlEUUVVMzVsRGVuWXpxYUxiNFZvcWluSzA3aklYWjJYWURyQWlBNDkta1JLS2l2LW1idmhvS05jazEyMzBMSTZOakVjTTJIajBSVFkzMFNrejBJRElYU3k1YXJIc3A1Z2g2dld3UzlHUEYxd1hWXzFfR25haG9DYWJGMnhiZlFpYmc3LXVDR1NtRmpSTklwdlRjZ3RRZ0o5ZXpWT3M1VXpicFVIeklvZVc2RzA5TzJKVllfX0wwR2REVjhVQkdFaU15MnpnNnU1UQ?oc=5",
+   "fonte": "Los Angeles Times",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T00:43:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Jewish Parents Can’t Ignore What’s Being Taught in Schools",
    "link": "https://jewishjournal.com/commentary/opinion/392027/jewish-parents-cant-ignore-whats-being-taught-in-schools/",
@@ -61,6 +130,16 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Finding resilience amid rising antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9pdEswcTlzcVlsUF9JMkR6SlA5UzlHejZTTXJQRDRQOFdxNGlfYVVRdy0xZHdvdVl6bHZOTFI5RFZoUWNuWWU5Z3Y1dFRNZGd6TDN1WXN1VDVtNHhILXfSAWNBVV95cUxOT21kZUdwRVpmRzBlZGZSOU9JRjlBRXlBZllCajBrVlNmUGlVTmMtOHNiN0NEbkg3RktGb0lhY2FHN2FGNmNWMjZ6R3VvbEdQQjlIMEpzMS1lRkxYNE5kSWJRTTQ?oc=5",
+   "fonte": "FOX 5 DC",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T21:15:43+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Boulder Valley settles federal antisemitism complaint filed by ADL",
@@ -136,6 +215,16 @@
    "titulo": "Denúncia de racismo religioso leva Aurélio Goiano a processo de impeachment em Parauapebas",
    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQWZXT3RhUDUzaXRQUVRraDFIRUdLeVp4Mk0yQWZwNEU1YWlyTkU0TDZYQjUwOUtCTVIwUGZtZHNad2NoaEVCRGk1Um9BSU9uXzlMbC1ZQ1RYQkl4ZVJaTjVhN204OHpsMWpMd0VDaDVQVFJNdjJDd0xSdGw0WHRheUd2NVVJZkt0ODVVTFlWOUVQWWdiODczN0hLaDNWYzRra0NLSVdIekU0QzZaX3FQbU13RDVDLTNDSkZobUhUQ1hsLWFmQ1E?oc=5",
    "fonte": "pontodepauta.com",
+   "escopo": "br",
+   "publicado_em": "2026-09-09T18:55:04+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Acusado de racismo religioso, Aurélio Goiano enfrenta processo de impeachment em Parauapebas",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbWFhbllHSGdNc2ZTbUxidGVwSTZ3LW1sXzQ2YV9naFN0amppMWExOFhFZHlxeml5eHNsODVkei1PNzVZejR2TTUySl90eFNQdVNEWFFTdzhjVU84T0czZ3VIalJQWDJEV3F0dVR3c2YwTlBJbDdYVnBDY0pzdGZ1QXpjZFFuTGFZQlV0TkJRZlU1Z2RvRXh2czlQNjR1Ui1BZ1IyZ3F2WXRDX045R2paZHB5NEd3NXdiUmxXVXU3WWtzeWRjNE9n?oc=5",
+   "fonte": "ponto de pauta",
    "escopo": "br",
    "publicado_em": "2026-09-09T18:55:04+00:00",
    "via": "Google Notícias",
@@ -393,6 +482,26 @@
    "categoria": "Observatórios e entidades"
   },
   {
+   "titulo": "Suède : Des Responsables Juifs Alertent Sur L’antisémitisme Au Sein Du Parti De Gauche",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSVBCbl9PbHZVcWtuaWw2blhoblZmLTZST3laeFhkbGh6S0FPX3o4cTR6NTJWSHVfRnFiZWRPbG9mNV82YTBMamNERFZzQ1FWTF9NU3dLeHdpcEtBT2R6SVAyU1JBVzFILXpiUXdtWkRYYWF0bC1CdTlQeG5TdEdxZG5TaXpRWTVvanVmUDVMVlBZWkNFdW01YS00WEk4cmR6SkVNRnJiWWlGdi0zdHdhMUY5NUtSUEJheVEteG1CMU9pejd1akhYMVdJamZvbFF2cFdoUWpUNUw?oc=5",
+   "fonte": "i24NEWS",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T05:19:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Débat Soral-Guénolé : anatomie d’une mécanique complotiste",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNc1BXdjhIRXVpYU9xYTNNOVlrVG1vSXhSQ2xrUTFBQmVINWxDbHhSLXQ4Rzh5bHMwRGJvOU1BNmF1Q19RbnFmWGhmSmJoeDU1cFgtczQ5MVpORVdUSlhpWE1kWlBnenJOcHJva1ZJYmJycWZqM1ZDcDZWb3gyYk5XZWlVUGtzMGxvZFU2THY5UWUxZFpoTUtFZFl0eXg1VEVic2ZRQ3VWZ0huMXMzUHB5R1Jn?oc=5",
+   "fonte": "FrontPopulaire.fr",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T04:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "RELEASE: Gottheimer, Stefanik Discuss Combating Antisemitism on College Campuses at Vanderbilt University, Launch New Bipartisan Caucus on Campus Antisemitism",
    "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOa2lyVmRQVnpXZ0ZYcWdHRnZfdUhyM3BUZWdoMVBOS2RNZzQ2OV8zOF95emN4Tk01c09tWXVfTDFYZG9vbFYzSE9XVzBPOEJ6MlM5RXRDU3JVay1HVDBKSTlOai1ZUzRxcjRDbGM5cDFFcEF0QmU2YjdBdTVzWF9DY2h3NjB2U3N3QjRWbXA3bzVuYVNPenl2YlAwMTE2ZEF5TEhSWGswRjVEM2JQaXBwTF9TejdRcVRUQWhxQkRiaFltVVFXOXprcmRHTjFQMTgwRlZ6ZWs4U2VycGZYbW5tb29JU1JEcEVvZmhRQTRnMjF3Q3lPZTdBSDhqbzBxRHoyZ29FcFdadHhqLU11Z05KNEVuX2JLTGRYQ2c?oc=5",
    "fonte": "House.gov",
@@ -446,6 +555,16 @@
    "titulo": "CONIB lança plataforma para identificar e combater antissemitismo disfarçado",
    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPS2dfRkVXa3BTNUhCRFplSGtjWDlzT0FMc2F5M2J4Z1NibUhzdVBQclRBaDFRWk1ScHFqUXdUZVl6Y1NPNE1RN1kxcHJ1ZXpwZFN1NGxob2YtY3lVaElOb2N0Q2cyUWM0c05KRFc0NEdYOXJESjF1QzZFMGpBQTlJWC1BQWgxWkpjRThBTWt5dUxaSk5tWDVHaVp2YlVSWEpYMnJlMlNieFJiMTNNZ09UeW00SW1Ra3RCMVBVLWRZdjhmeHF5cEJsUEV30gHPAUFVX3lxTE4zejRob1NFZUZ0dEdPYnRkc05lMzduOHpJcHVvY2R6OUJDSklxb1BkWFFVVU5RVmRMMVNMZWtzOHBEbmFJV3hVT2FFZEJOcWZocVljNE44TWRyZ29wblZlTGtXUGJuUHNxZTZ5ZElXcUtvUElaT2ZyRjNBbW1ZMHhPWnNBTGdHZlF5NENkMWttSVl0R0tESGEwcEJRNnFULVNqU1g5QmNOenN3cHdiUkRiSEpzdVhhWXlhQUJRYUhOQ3JOOW9jYm5EbF9GWFZRVQ?oc=5",
    "fonte": "guiame.com.br",
+   "escopo": "br",
+   "publicado_em": "2026-09-08T19:53:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "CONIB lança plataforma para identificar e combater antissemitismo disfarçado",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYXBPeXlsVEFoamdNTmcyOVJxYng3cTN1QlZFV0hEbFQzcExKTExESWkzOGVFa0VWRFN4ZVo0TUtUMTcyTlE5NzhTM3RDYy1XVmdVMG43eTlJX1ItMFRtckZlVHphUExtYkJvOFZ1dHdvTWdGM2l6cXBEb05PbXl1Q1pWMU5PdHBaV3pYM3lxOXR3Q0t1YUczRXA0X3U0dFdseU1STkl2QWVDV0hoQmxaRTh0ZjZUcDgzd3B4emNEV2Nqa2_SAcgBQVVfeXFMUDQwZS04bVBmWXIwYVRuY0NoMWN2TUM3c1FVakluclhoZ3lVZkFCN3VMdzg4MllOZ3RZa0IwY1Z0RnpPWXZzdTAwSWZmcll1Ty1KQUxXZDJMOV94NW1GdXpnOTJ3aWhMTW10Y1gybkp0TmR2RnFERmtEekRna0JsUGdsNDl5eUFtTGtxWUlxQlJxSTJwSDlWRkRjTlVFMUtLVUl6WWw1MEdxTlA1ZzJnbG1lTzN2d01TX1Z6VV9jOE15ZXB2MDNOaUs?oc=5",
+   "fonte": "Guiame",
    "escopo": "br",
    "publicado_em": "2026-09-08T19:53:00+00:00",
    "via": "Google Notícias",
@@ -551,6 +670,26 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "« En Israël, la politique génocidaire n’est remise en cause par aucun parti susceptible de gouverner » : entretien avec le philosophe Étienne Balibar",
+   "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQbENsQ29jMUQ3TnF5ZjNUZ0h6bzNhakwtYUxNejBkcGt6TnRJeGF5QnctVGNHUFVnZ0tvXzRxR0hVVTFwMWFWLTFSVjVRTUZLaUdUSVdkRVl6bEpzYTZYekZmb2F6SVpMZXpOakpZZ3BxNGNRU19LNlNMY2djTXE5R1VPMXlNN2Y4NVkwVlhzN1ZMQkoxdmRQYy1iWjZIUENiTllTcGlUX011dWREQjVjREpDZi1MNE0zWFpRNFpyQ204Z2tkTWtCNlFaYzRZbDZRTEVwY1Y1Y0psbS1BbmFTcXFDTmJJVzl4NlVBNUFiMGxfblRoUEg1eDBYWHdORmJHZUFhLW9rZy0wV1hCdmJ0REdR?oc=5",
+   "fonte": "L'Humanité",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T15:02:38+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Israeli lawyer faces ethics complaint over expert opinion used to target IDF reservist in UK",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5jdFNRUXg4RHItVkxkUHM4ZnRQTlg3aWFIeFBNZWx0cXFweXR6YkZ5NGtLblZSdHBGdTB3dENXVmh6STFyNzZNaDZrUFl0VDhFckphMHJjdTNjNUdhSy1zaDRiM0ZYU3hGS0E?oc=5",
+   "fonte": "The Jerusalem Post",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T14:57:20+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "StandWithUs Canada Builds National Legal Network To Support Jewish Students Facing Antisemitism | TheJ.ca",
@@ -683,6 +822,26 @@
    "categoria": "Direitos humanos e organismos multilaterais"
   },
   {
+   "titulo": "Seven Arizonans advocate for legislation combating antisemitism in Washington, D.C.",
+   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPUzlNeXVOalM1TmpTTjdmbzljTE02TnpnTWxSRU5hejA3dGNmdUx2aXFPcXRkbzBvV0R5OHRSSFZDN0pqMEMyVmZLSHVXZnVDUkxUd1JQdlVJbW1OaGFMWWJCVXJTcjh4WXIxTERXN0NxM3RpbmpOWEJGZ2Y3QUphS2w0bE9Kc0ptNDVQenRMYV9NQmsxVWNXZ2dpaWVwYVFONElBTGlnUlU2VXZNQ3lZOC1YUGtGbWl4ejRPclJZa0hzZU5RTVZUbWxGdl92aFhDWE9TZFN2WURHSlM0ZjFXVWhvSFBNQWVrd0JjN3BJa2k4aWpfdkZ1YURR?oc=5",
+   "fonte": "jewishaz.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-27T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "De Zárate a Irán: la larga sombra del antisemitismo en sectores del peronismo",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMXQ3cFh5VDVKeC1vRERXSjN6OXdsSElXZFdqNEROVmdqRjJUQTBSRkVrWWtkUGNiZDItWFI5YU5kNkQ2enhOWG1VdHBmUGlmTEJCbkRlcTMyVmJWWWVkMmRScm5DcHJKem9yWWxvT2lxQ05yV1RnRmJPcWRfYWZtNXFZaVQxbkRMb1hZMHZaYWg5SUdwVVNhS2pUYmNzS1M3czFlaXd2ZjBmLVFzRDUtQTY1a0QtM2QwZXpxOU0zSEFOMXQ40gHKAUFVX3lxTFBkYURRWVIyb3hQam03Ry04bWtRc3hzTlBRTWhJZ1llYWRWa0NDMEMtdUQ2Nll1MHNMMURRWldrME5RVmVjSHV6NWd0cGhZQXl4WGhaQTBobGJwQlQ1OERkTGItVzJxSGl6Ti1HUE9lZzlyMXNGbGotSE9Ed1Q3Q21zTEFZdHotUE8zNU5DV3BkYnZITTVLbFVpRkI2T3F3UC1QTjZoQm9PM0hJN3RTQ0MxX2dOcE91bjhNVWk2SzY1MWoyVndER0NUVUE?oc=5",
+   "fonte": "Perfil",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-25T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Grave crecimiento del antisemitismo",
    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcld6SVJmd3M0R1lfZkpNSW56WjdQelZXa0gtN21PdnQ2endxQWJhNzhUWmxvUkNZaTNZb2k4Z0FDVHR5UEFIVkNocXdudndBT2h1NGlQdWM2UlN4MEM5aGdtNVl0SmNGTkVvcHZUb1RrcEdBcUl6RWdaaldWUUFFYXBnUk1TSjg?oc=5",
    "fonte": "Clarin.com",
@@ -710,6 +869,16 @@
    "publicado_em": "2026-08-15T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Judge dismisses Trump administration lawsuit alleging antisemitism at Harvard University",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBhZ2w2YTBJNGF1TEU0dHFrN25BV0xhUkVvQjBsS3B6VjNkM3ZNOWFVYi10NkowaUtXVEJ6NXV4Mi1ONmgtcVN5TXA0aG5LRGxQOTZBZE8xaEZVWUYyeU1yTnZoYk5QNE1QeTJ2dmRHX1p1MTF5YVktYQ?oc=5",
+   "fonte": "NPR",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-14T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -778,6 +947,16 @@
    "fonte": "Diário Causa Operária",
    "escopo": "br",
    "publicado_em": "2026-07-17T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Abertura de processo contra juiz por suposto´racismo religioso´",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcVBSQ0MzX0MyMjlyTmczZ19NN3V2RHpfUktxVWZSLXFFeHYxS2trcFB1bHhHSWJfR01mVFp3RTRldzYzQjNOeDVDSFljbGh0RS1wNzRRUHd1c01WNnpOX1lxWVBLWmJVT0xQdUJfc3FvR1AzWDg0SkhkZTZMN0U2ZWYwcjdVYW5Fa3dFUlZ2V1NXaDdYNTd6Mlo3dXhLNU9UVUVWdDh3bU9aYkJxOE5SeENn?oc=5",
+   "fonte": "Espaço Vital",
+   "escopo": "br",
+   "publicado_em": "2026-06-29T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
    "categoria": "Radar por palavras-chave"
