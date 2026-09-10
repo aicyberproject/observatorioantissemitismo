@@ -2,15 +2,105 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-10",
  "semana_iso": "2026-S37",
- "atualizado_em": "2026-09-10T07:13:49+00:00",
+ "atualizado_em": "2026-09-10T12:51:12+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 98,
- "no_brasil": 21,
- "no_mundo": 77,
+ "total": 109,
+ "no_brasil": 22,
+ "no_mundo": 87,
  "itens": [
+  {
+   "titulo": "Más de 5 mil líderes y figuras públicas firman una carta rechazando la acusación de 'genocidio' contra Israel",
+   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQUGJOcnd4Q3dwMzJsRlJlSWJxOHJTYUozUW53aF9zNUpobHlSOWthQlI5U1FJZVRMTzN3TE04OVZvWjhJMFBmQjh3RkZWNFh5RGtlMFVtbnhacTJyU3NsRHpjNXREeGJCUDJTdFd0UGZyWFBOaFNvMXFjTEtJVU8xSThrcVpZWk9mQTJEc0kyY1dJZUhPQXpNajF4TUhVckdwNXFQdEgwNjcyZ0ZyTGo1Ry1IYWc2M3hjYzZSeGFBRkZ2ZkxTYTNrTWJNY0ljOUNRWVVIUE00NFFaY2FUaEd0OU1LY2tIWmVwc3MtU2dvQ29ONzVQV21sZzhn?oc=5",
+   "fonte": "JNS.org",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T11:22:56+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Federal Civil Rights Investigations Opened Into Two Schools Over Alleged Anti-Semitism Against Jewish Students",
+   "link": "https://standwithus.com/news/legal/federal-civil-rights-investigations-opened-into-two-schools-over-alleged-anti-semitism-against-jewish-students/",
+   "fonte": "StandWithUs",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T11:00:00+00:00",
+   "via": null,
+   "feed": "swu",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Attacks on Mamdani test Jewish efforts to confront Islamophobia as 9/11 anniversary nears",
+   "link": "https://forward.com/news/849506/mamdani-911-attacks-islamophobia-jewish/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T10:48:33+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "How a new tool in Lithuania helps people read letters from their Jewish ancestors",
+   "link": "https://www.jta.org/2026/09/10/global/how-a-new-tool-in-lithuania-helps-people-read-letters-from-their-jewish-ancestors",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T10:46:47+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "What California’s new antisemitism law means for Santa Cruz County schools",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUnlXZ2FPbThqNnoyeVNYMmZhRl9YajJjUGtQTzByb1ZfNWFIYVJXNDVDVWF4ZVhTV1U1UVdtTkVwTlJwUm5oRV9ETnd0bllmTUtHbTk2NDZuaU5NQ05nX3BaWTE0X0J2QV9jdzhBTDU3d1N4bWhtVWRMYmwwQUJYZDQtMHMtb25SQ1hwYTMwanBGMGJjRmpvVzZSZTk4TDA?oc=5",
+   "fonte": "Lookout Santa Cruz",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T10:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "L’Shana Tova: In the Spirit of the Jewish New Year",
+   "link": "https://jewishjournal.com/culture/food/392095/lshana-tova-in-the-spirit-of-the-jewish-new-year/",
+   "fonte": "Jewish Journal",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T09:44:44+00:00",
+   "via": null,
+   "feed": "jj",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "As an­ti­se­mitic incidents rise, NYC Jewish in­sti­tu­tions prepare for High Holy Days",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYU1vLVl5cURpTmJ5VmhNcllPbGFJellIYnpxR25oVTcyNjR6VWNTNnNSNEY3YnhCUGZ1M0ZoTVlCcVkxWFRFZk5Wd3FHQzZIcHlqQnVUYUZLNkVrbDBFZ2FXOXhkbmRKbWFhbnZSbWNrMHp0RXRsMnYxZ1o5YXVwM2JfeHpEdGVYT0lYeHpoRWNQWEVHRmNOcS1XLUZDUFNETEpzZmpoRWtCb0x2blBQNDE0R0ZNa0F3NGI1d1dxOA?oc=5",
+   "fonte": "Spectrum News NY1",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T09:30:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Antisemitism Charges Plague the Literary World. New Publishers Are Pushing Back.",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTnNPRVcxMW8ydWFXem9YdTFwdEhSd2ZkSWs0bHlCb3BIbUJvRWxFZGlqUUlPbDhkREVRdTE4dUp5T3NkZ3NHVExUNENjajZiR1F3RGFLbTQ5UE5mOE5PallUcTI0LVNwakZZWGxMRkdzUW9yLWRXOVA3eGhuREV2SGFPU2VfWThLcElUa3N0U1RlUHZ5TXNGY2t2MHlGdHZkRDVvRg?oc=5",
+   "fonte": "WSJ",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T09:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Argentine court orders return of Nazi-looted painting to Jewish collector’s heir",
+   "link": "https://forward.com/fast-forward/849449/argentine-court-orders-return-of-nazi-looted-painting-to-jewish-collectors-heir/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T08:44:26+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
   {
    "titulo": "Two-thirds of US Jewish voters to favor Democrats in November elections, poll shows",
    "link": "https://www.jpost.com/diaspora/article-908186",
@@ -30,6 +120,16 @@
    "via": null,
    "feed": "cam",
    "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Antisémitisme et anti-sionisme s’invitent dans le débat sur le logement à New York",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPY0FPMV9kNHlNNTlvOFVXc1gzRThVd3ZubTNNaWdwajhISHFTZkdyTEZHYnNIaDQzRUMzTU1XOTRIWERjREZoZHE2WW01WGs3REZjZmUwa3BTcjVCWnpaT2hZbVdrY0RaazhqZGJXbUhwQlpSc2huU0RYaU5KMFhpd0Z4U0NiZE1zMF90eno4b3FvclE2UzJQOEY0eHJhSXBnNWhlVmE1eXVobVFVbmF3TdIBtgFBVV95cUxQU21DdlFIVlJEM3k4RHl4VVBVU2t1UTFmd2x6VnBhRnZmREZ2QjVtR05hT3gzV1BRREhYTER4QTBBV2NYdUk3Ykt4WGNsdzhGMVZQVkxjX2JaT2s3OVdQVEJPOUloY0dvRGxUbl9oY3lHa2VPQU5iY2Rfb3RvRDZnUzNsOWVCdzJfX21MM2RMenN4bWk0SWxPT3lIWUMzaU1nZE9kZnhEUWE1T2ZUeGdIcVdIVmdjUQ?oc=5",
+   "fonte": "The Times of Israël",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T06:38:25+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Jewish groups launch 'Bill of Rights' to protect students from antisemitism",
@@ -829,6 +929,16 @@
    "publicado_em": "2026-08-27T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Prefeitura de Itabuna vai assinar Acordo de Cooperação com a estratégia de combate ao racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdTd1bnk4TXJEbzBtcWhzbUZnLXlWZjJST19nZVZUSHdJRnpkR0NqN3RkMVZhRkp0U0lhdEsxY2ZVQWhIZ3U5ZkFVbmF2Z1pZT1ZBTVptRTA2eFdyaXBHUTVNZDJjSm1SMUVSdV9qOWZlQ0xpSm95MzNlZGdpaDdQUkc4VTk5ek9xRWYzNnUxLXB2UlVsNWttcERVOHdBeTZXNnFIai1Fb2xwTVdKVHVFTnBoVDVIdjIzekpMZV81dGNVRVZlUGs4ZDNBU2pUc2RaeTROZUt6RUo?oc=5",
+   "fonte": "Prefeitura de Itabuna",
+   "escopo": "br",
+   "publicado_em": "2026-08-27T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
    "categoria": "Radar por palavras-chave"
   },
   {
