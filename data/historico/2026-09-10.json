@@ -2,15 +2,45 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-10",
  "semana_iso": "2026-S37",
- "atualizado_em": "2026-09-10T17:37:45+00:00",
+ "atualizado_em": "2026-09-10T20:44:43+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 120,
+ "total": 126,
  "no_brasil": 26,
- "no_mundo": 94,
+ "no_mundo": 100,
  "itens": [
+  {
+   "titulo": "After 9/11, Jewish volunteers kept watch over the dead. 25 years later, the grief remains.",
+   "link": "https://forward.com/news/849698/shmira-9-11-ohab-zedek-stern-college/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T20:41:25+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Jewish Groups Issue ‘Jewish Student Bill of Rights’ Ahead of New Academic Year",
+   "link": "https://www.algemeiner.com/2026/09/10/jewish-groups-issue-jewish-student-bill-rights-ahead-new-academic-year/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T20:04:27+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "With Jewish New Yorkers on edge, Julie Menin says new protections will help keep them safe over High Holidays",
+   "link": "https://forward.com/news/849659/julie-menin-mamdani-high-holidays/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T19:32:13+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
   {
    "titulo": "Toronto debate on antisemitism takes place with mayors absence",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-908322",
@@ -22,6 +52,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "When Antisemitism Becomes Normal to People Who Don’t Think They’re Antisemitic",
+   "link": "https://www.algemeiner.com/2026/09/10/when-antisemitism-becomes-normal-to-people-who-dont-think-theyre-antisemitic/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T19:17:52+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
    "titulo": "Man accused of stabbing two men in an antisemitic attacks in New York charged with hate crime",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-908310",
    "fonte": "The Jerusalem Post — Diaspora",
@@ -30,6 +70,26 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "La experta de la ONU Albanese y manifestantes se oponen al proyecto de ley antisemita de Italia",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPYjN5LUxHQWI2SFExV3ZtanhkZXFGNEI3cmJhYzZEYzA2RGZvRkNyaGxXZF91ZVc5WUxrT3BlNE90N3RnMGEzUG9YanV1WUdxMGRrakZMaEZLMVpMaWlBU3pNX0VSZU5XTkNYVG9fZVNCQ3N0ZnU3RVM1cTJFR1dWWjdRemdYbVkwMkhVTjhiY3VLck5aZEk4Q3ZoWkEyTFRKdlN1T1RITFFiaDZ1TzVyZF95UzVTNlV1SzBPQjBrbUV4am02WF9vZUJfU0l0UlJVdDdoeU9xcWI2WW9pU2JBYQ?oc=5",
+   "fonte": "La Jornada",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T17:42:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "La comunidad judía sueca vuelve a alertar sobre el antisemitismo dentro del partido de izquierdas.",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPS3UyaUFJT2FpbkMteVVjSGdfenFFdmRoZ1ZkYjFQanJiaW42S3dBQ04yWktib3gtaFlNWUFpeUhsWWo1ejdqZTA1OVpucVB6RjljbGtQalkzMV8xOWRLQXZyRXg2UFFfUHYtNXpZYjNMeXJweGJ3Q0Jlc0pxbG40eFNoTjEwa2hubC01WWw4emp2OUNpeFpkb3RrM2xqSVVsRThFRXd3YmVLT20tWldfOS1tdDhBNVlUVkxMZlkwdzNheDVQbmV2YzZBWVF5VUJCWGt0ZnBGVQ?oc=5",
+   "fonte": "Diario Judío México",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T17:12:11+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Mônica Bergamo: Promotoria da Bahia investiga Marçal por dizer que 'todo macumbeiro é um derrotado na vida'",
