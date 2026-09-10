@@ -2,15 +2,95 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-10",
  "semana_iso": "2026-S37",
- "atualizado_em": "2026-09-10T12:51:12+00:00",
+ "atualizado_em": "2026-09-10T17:37:45+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 109,
- "no_brasil": 22,
- "no_mundo": 87,
+ "total": 120,
+ "no_brasil": 26,
+ "no_mundo": 94,
  "itens": [
+  {
+   "titulo": "Toronto debate on antisemitism takes place with mayors absence",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-908322",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T19:20:05+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Man accused of stabbing two men in an antisemitic attacks in New York charged with hate crime",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-908310",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T18:06:08+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Mônica Bergamo: Promotoria da Bahia investiga Marçal por dizer que 'todo macumbeiro é um derrotado na vida'",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNaTMwT1VpM0V2Z0JrVHdLZXlBWnlIamdtWTJ1VzRYN2JfaWE2YXNuRmlyaWlnVDRGVzFaNklDRWJRdFRBallGVE1UUHJXcDNac1ZUY1Y0OVlFbEUtNWN0dHM2djZmRGwzQ0Y4VEd6SU9XbDI1TDM4VkpNbjFuZDRCY3dKcnAtcGNmLTJOTkFCQU1QTGhNS09ISnJ6eUJCWWZNcHJXNzZGZUxJcTNwcFdWOGluYVBROTRWZ0lTN3dYSUJLRGNlSTAzbGdRVTllVjFMY1ZGMng5U19HQkhydmNjUC1IQUFrZzdMVGhn?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "escopo": "br",
+   "publicado_em": "2026-09-10T17:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "A Jewish audience applauded when this speaker called for Muslims to leave America. Here’s a better response.",
+   "link": "https://forward.com/opinion/849359/yousef-jewish-american-summit-newground/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T16:58:52+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "UN expert Albanese, protesters warn against Italy’s anti-Semitism bill",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaHY3Tm9lbFNVUXUtMHV0S0RIaEk0d2xIUGtONl9LREpLTVlKa3lVVV9VMUUzVnB4VndialZpRjRPVkw0OU9BNVJwUzgyTmlmNEc3T1Bwemlia3FTZjZBMGFaM05WckFWbUJJelB0ajV5eWk5OExPS2RfSFVQRWY2bXZLTGRNaHctaHBBdlZMV3NoRGRzMjgwdlpVQ2FlWnNoOXhZaEJyRU1mdGJjc1HSAbMBQVVfeXFMT0dXLTBRc2UxTzgtbjdjbjUzelJYS3dwa1JOWU04cUxzMFYyY05mVV9sZUdsVVRQVWtKYW5vV1dUYUNOVEJoQmY3Y3laTUNfaDN4dkxHM3dpaEVvUWVRVTY3dE4tRE13aVJORko4OHNnd2NSOVpmekllR2YyeVJ2djdTMS1Yb0dKZVBfT25NNGNVMUFHRi1UdmhETWVvWUN4S1NneldnaHd2Z2tLNnRWWGZUOVE?oc=5",
+   "fonte": "Al Jazeera",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T15:51:02+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Pablo Marçal se torna alvo de investigação sobre racismo religioso após declarações sobre a Bahia",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObmdCVWFCYWJzdXVJMmdISHFlSXpLem9JR1JEdm1VVVlxNWxTTzI3S00tdkV4ajZITzNaNlBUZnJwS1pSVVNiMkhsRGF3MzFmTk14NnNBcUNKYjRCcXBaMXVpUTEtUF94UVRjdU4tUFBEbUZvdDVzTDFUaDNwY012SklkMFl2dmtfWjRBa0VuWW12NnpOMjB5ZWM3MjRsQTdyZjFrS2xPT2hEWUdWeThpNTFaM3o5ZnlhbllfanJRZTRiQnVnbWVTbUhvekt5cVNmRHRzVS0xZ3J3dDVpc3FidXdkZ0I1TE0?oc=5",
+   "fonte": "Bahia Notícias",
+   "escopo": "br",
+   "publicado_em": "2026-09-10T15:40:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "CEAP leva à DECRADI representação contra Pablo Marçal por suspeita de racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWVhidXRIYWJUcGdEMmRqN0t5a2VvdWN6Y2dxWXlsc19KZXM0UG9YQ3RjVERxWnlxLW9TTGZ4MVIxeV9ZSWJZb1Fra1g4Yl84OUd6RzFweFhaYl9LUHBPa1VtQmE4bjlVUHJMNlRJODFRVjhJU1c0dTNFZDg2M190RVZTU1BMdkVGWUs4aHhlQlo3OGlSX1B3SXNUdFlxNUZaRFNTdlpHRXlIQTcwTGJSS0I2U213cE9YM3lnbVF6SDdaT25kUkI2U3d1aw?oc=5",
+   "fonte": "Combate Racismo Ambiental",
+   "escopo": "br",
+   "publicado_em": "2026-09-10T13:54:04+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "« Accuser d’antisémitisme sans fondement, c’est galvauder ce délit »: à Brest, un rassemblement en soutien à P.Y Cadalen",
+   "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNT1RjTGgzMW1QQUl2d3FoSlBaMU9WUHpMVEdjUTdpdHNPT1lreWJLYWhCYVc4VkNzb1ZxU1ZreGVTT2RiZkI1cW1EQjR5YXRNaDJ2N01Hc1lyTEI1QnFib09yaFFhdFl0WkwyNkZoeWt6cTRheVZtSVpEbGNzdlAzSlZZUTNacWEzamdoemRoMmJpZzdjYzJ3cWFBWlByNzUtQS05Q1RySzdxYlVRV3kwT3c0Yzk2QW9MVFUxOGxxdG1oNEJ4TDB6VGVJNE5NRmIxSnJRY01CMjJsS3NrSzlNLVM4YzYwUThXMGxWQVlpRGNmT1BRWHBPX0RpTmZVa3B2RWFVV3BNcjRpZjg3TEk3VC01bVBPUng3N3Axam1NWWtzNmxQ?oc=5",
+   "fonte": "ouest-france.fr",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T12:48:26+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Más de 5 mil líderes y figuras públicas firman una carta rechazando la acusación de 'genocidio' contra Israel",
    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQUGJOcnd4Q3dwMzJsRlJlSWJxOHJTYUozUW53aF9zNUpobHlSOWthQlI5U1FJZVRMTzN3TE04OVZvWjhJMFBmQjh3RkZWNFh5RGtlMFVtbnhacTJyU3NsRHpjNXREeGJCUDJTdFd0UGZyWFBOaFNvMXFjTEtJVU8xSThrcVpZWk9mQTJEc0kyY1dJZUhPQXpNajF4TUhVckdwNXFQdEgwNjcyZ0ZyTGo1Ry1IYWc2M3hjYzZSeGFBRkZ2ZkxTYTNrTWJNY0ljOUNRWVVIUE00NFFaY2FUaEd0OU1LY2tIWmVwc3MtU2dvQ29ONzVQV21sZzhn?oc=5",
@@ -77,6 +157,16 @@
    "fonte": "Spectrum News NY1",
    "escopo": "mundo",
    "publicado_em": "2026-09-10T09:30:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Michigan voters say antisemitism, Islamophobia increased in the past 2 years, according to poll",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPTnVrdzlMUDRqbFIwV1hPeGRXYVU3YkxxbXdEVjYxRnhLbE5xLUgyM25pN2lJUGZDZkg4ZkFvcXdxVWMyRmQydmpEQzlrUEVaMTlCQ29ON3l5Yk1nNVBGRmFQY2RtZUdZYUJfTlJVT1VMSXR1UDRIdnllVUQ1YzNBZ1pzaHlRYWZWUUhDVVNpQUZxbTMxbEgtRE1GbXBmUG9Ga1B1U19OTEJxVWlTMTl2N1h2MjJpeVdyWEs0YWh2ckJwRUtHamZtY3RwNW1tYmktRmdnV2gzUENOdWpnSWlPbg?oc=5",
+   "fonte": "ClickOnDetroit | WDIV Local 4",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T09:00:01+00:00",
    "via": "Google Notícias",
    "feed": "radar-en",
    "categoria": "Radar por palavras-chave"
@@ -862,6 +952,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Atlas lista emojis e imagens de antissemitismo e ensina a identificar ódio a judeus nas redes",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOd0JHWm5EMUlNTlo2NW8wYlY2dTBPSGpNSGY2eU5tclVETGhJSXdRSXc1OTdVeWZWMnFzVEx2dXVEU3I5V1BfY2NxTDNRU19neVlyOUlkRjlib1BUVTFpY3hJQjVnR1RFQVp0Z1pxUFZ5a0I2TFpKeTlkZ3ZTVXFtblhiZS0xWXdDY2RFTXpiVGtKR0R6dEszNWg4Y2RMWnhaaGRtbDFJX3lLdVIyMDZyRGdzbWdNc2J4SzJvVDlzQlJNb3JVUEw00gHMAUFVX3lxTFAtSEIxWnAzc3pEVlc5OWgza2NjVEtUTVBHU1FLdnlqN0VERTV0Q0ZrZnVEc0kzaURuVXVnajJqN2h2RTBLTTVBOEFuX3FWT3pIdXE5QTBjUWI0anJmMGJJaFl4anU1WTBrOXdnRHlHTWdhMTV2R3VpVW55THlZczRjeGhXeGRhUW5GaTFFNWNQWjFqVHlQSWVGV0lEdGtDR3JfV0tXWXRpSGVTZHdlN2p3LVVzWjhfcEVGQlZmTFhsMTRzWUFEaUppVXNCMw?oc=5",
+   "fonte": "Estadão",
+   "escopo": "br",
+   "publicado_em": "2026-09-03T21:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "In Missouri schools, new law targeting antisemitism raises First Amendment concerns",
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOV1RCbGVxcVVuOTFCaFBoeVNNblN6bHBWY1NHZTM2STh0OG1NOF9NaVBWWDRUOWZJdnJaWjBSR1B1V1FNNjJPX1NaTl96MDFyeEtwSVgwZ0pyOXB5eXBncjBPU0dsbG9ob3VnQ242VUhYYTFYallvMkVRYzNnWktkMVJTNms0T1IwbHdlUzNOWVlJNWFIbEJhM19sVTI?oc=5",
    "fonte": "KCUR",
@@ -939,6 +1039,16 @@
    "publicado_em": "2026-08-27T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Trump Administration Will Appeal Harvard Antisemitism Case",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbUNaTVdZR1BPWHdOaGY3aWZQMVdXbWl3enNwWXFZWUluLXNJSS1hVmZ0NmNRZHF5U2M1TWtGcU5JaHc2TUd1Y1VyT3o0d0pCb3VCOE5URS1yNjZqNE5Hc3ROYUlKaE94QktNTmZfNjZWTlk0aTUxU0pHekl1MTFyVEtNOWRHYktrcVJRR2JrUnpqanZmNnAxQnRQU1VVeE0xVnVyVllHSjR6M0Fn?oc=5",
+   "fonte": "The New York Times",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-27T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
    "categoria": "Radar por palavras-chave"
   },
   {
