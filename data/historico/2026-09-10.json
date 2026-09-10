@@ -2,15 +2,56 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-10",
  "semana_iso": "2026-S37",
- "atualizado_em": "2026-09-10T20:44:43+00:00",
+ "atualizado_em": "2026-09-10T23:57:05+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
-  "The Times of Israel: HTTPError"
+  "The Times of Israel: HTTPError",
+  "Fathom Journal: HTTPError"
  ],
- "total": 126,
- "no_brasil": 26,
- "no_mundo": 100,
+ "total": 132,
+ "no_brasil": 29,
+ "no_mundo": 103,
  "itens": [
+  {
+   "titulo": "Jewish groups to protest against antisemitism outside United Nations",
+   "link": "https://www.jta.org/2026/09/10/ny/jewish-groups-to-protest-against-antisemitism-outside-united-nations",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T22:06:01+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Facing Rising Antisemitism, Spain’s Jews Bring Jewish Life to the Public",
+   "link": "https://www.algemeiner.com/2026/09/10/facing-rising-antisemitism-spains-jews-bring-jewish-life-public/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T21:35:44+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "A derrota do sionismo em três tempos",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdTVmOHM1dVhwZm9XUzRqRUJzelg1MTJnbTh2X1dZdW1iS0RUXzlzNDl3ZDVGU3MyVTlKWXp5ODhFd2hlNDB6OHdURDZVbl9ZOHY5MENaU1d3WFptT0Q1UHZFTVRtQlhzQ0VVZUhLNkJoRTdjOC1zUXAzcUpBUHhaMEdQNUwxbXRrR0JIbg?oc=5",
+   "fonte": "Outras Palavras",
+   "escopo": "br",
+   "publicado_em": "2026-09-10T21:22:30+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Mensaje del presidente de Israel por Rosh Hashaná: “Somos judíos, somos israelíes y estamos orgullosos”",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdjFTVWtyX1dnRmFKM2ZLNlNiMVZJbVZ6MGhuM1BiQlFSQzJicnhoQ25kZWxtMUZ1c2NDUFh5Q2R6d2VuMnI4U3FhdkFodVZaUW1jNk5VVDFRNFloMGFENHJOMUptOGoxdUctaWNxQlBZejlKMFdsX0FWSGFNb18yTTY3bVNDSTJ6SWgwS0VERzFkdy1iSHRwQ1Z5WEY1MlFwZERydVUtdFFiX09lWjdWaUc5dzQtLXNJOWhIUXNWenIxM0JTVDBF?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T21:16:04+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "After 9/11, Jewish volunteers kept watch over the dead. 25 years later, the grief remains.",
    "link": "https://forward.com/news/849698/shmira-9-11-ohab-zedek-stern-college/",
@@ -20,6 +61,16 @@
    "via": null,
    "feed": "fwd",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "\"Se macumba funcionasse, a Bahia era Dubai\": Pablo Marçal se torna alvo de investigação por racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMGI2SVRvbmxzOC1vWDlXb0JDMHh3dmRsZmU2WU8tcWJpNTdGVUphYkJkVEpQRHlEc2FiNHFRSDUxck1mTW5PQ3lsVEFodXhiT0hwcFBSMl9UUE5OblJMRXBDYmRQcV9EZlV3QWRIS18xeC1NWHpUOXRzSlhMajJIOE5na1RPRDlKcWNFNzFkOUpSdDJaMTUzTVY4NmlRZkVEN1hvY1c5dlctdmtBVXVYVnY0ZUxDdVJsSThxWjJnUDBQMzA?oc=5",
+   "fonte": "Direito News",
+   "escopo": "br",
+   "publicado_em": "2026-09-10T20:27:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Jewish Groups Issue ‘Jewish Student Bill of Rights’ Ahead of New Academic Year",
@@ -60,6 +111,16 @@
    "via": null,
    "feed": "alge",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Três em cada quatro líderes de terreiros relatam já ter sofrido racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPcjdYR0J0d0ZPWmdFTU02YVUtbzRhT2UzenlRUno3LXVtbjFUNk1JaFFoNmdxVGlZOVNDQVdMV09GR054d2Joc043eGZYRF9OMVRDNm0zQ2xPNTZ0YWtFREYtUzB4dGtRMGxjTDFZTVQyS2g5WjBPRC1MQmJuSHJzTE03RTdhaW83UDgxUzFuSExVcklFbHllT2lCX0lzazRoa0RQSTJ6c0EwZzM0N2ZfMFpLN3JqcU1oUEhhU3FWc1p2MGwzdUNOVTdYblU2S0NQdWVsb0RwTW55dnhndDMzY0lXa3MxVmtDT01oddIB-wFBVV95cUxOM2d3Zjd0QThJVFo4SlowYjFCUi1iczRCMlR2YkJTajFodDFlS1RDNW5SQ1pXOG5Ca0lGYnM5WF9kalNSdWowUVZISTdsYTVGbzZSUnlnajVuWGc3SWRRWktGdWdBc1RYRkZuaTItT2I2TUxRckxUajR0R1BZdkp6Y29hT3NfVUNXZGs5eHJZTVpQdUY0VUx2WnhRMS00RVhuNVNoNlhVMC04dHp3UU8wMmgtV3JFeE1yT2dELVRJWXhZb1ltT1NacW9vNW1QcmxOeGdfdnlTMG1LWVZ1dFRQdDJXZ3pNZTJhdm5HYWVCeENoblZJZmtyRDlFQQ?oc=5",
+   "fonte": "g1.globo.com",
+   "escopo": "br",
+   "publicado_em": "2026-09-10T18:45:26+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Man accused of stabbing two men in an antisemitic attacks in New York charged with hate crime",
