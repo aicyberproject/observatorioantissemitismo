@@ -2,15 +2,35 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-11",
  "semana_iso": "2026-S37",
- "atualizado_em": "2026-09-11T16:19:21+00:00",
+ "atualizado_em": "2026-09-11T20:50:49+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 98,
- "no_brasil": 20,
- "no_mundo": 78,
+ "total": 110,
+ "no_brasil": 24,
+ "no_mundo": 86,
  "itens": [
+  {
+   "titulo": "Anápolis recebe ação inédita contra o racismo religioso em terreiros",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUmExS2ptd3hYNTgzaGhYQzdyUXJuOWFnOWF6V2NLYnhmeUc4X1Zxa3NyVlhGbXBjUjJ5dzBFR25wYUpHZGZwOVZDUUVfU2FvbHZLaFlyNk9LX0gxVE1zRTFucHVCVjc3T1dickV1VU0zcVZVMFlFR19DdHVQaG1Fa3dGeTN1eHp2MU1BTkV2RFR4Uy11bTJVYzJuR0w0MXgwdlE?oc=5",
+   "fonte": "diariodaredacao.com.br",
+   "escopo": "br",
+   "publicado_em": "2026-09-11T19:53:40+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Multimillonario judío reanuda donación a Harvard tras preocupaciones por el antisemitismo en el campus",
+   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZllyUGFKbG0ta1IyQk1yVGtKMUw1MXZhM1FSQXppV2ZvVUFDUWJkSENQNXBSQlEzMWtsVTdTNXdjS3VVc3hfbG9SVHJaTWgzeVZ0a1ZRbG1RenA4U1d3M05CQ1dmRXZ0eHNOTlpWSldMcWEzcjVGRzdGbjktSnl4RjFYWVpBdVZrMW1WX3c4cW1nc0RnSUx4eVFwZEQ4TmJJb0wxUGZudWxyV0w3NzFLam9TZnJhVjVNUExQZ2M3dFVueVQ1bTlWNEtIcUhoX2lObnVHbjV6d0dCbWFBSWZQeHJMMmFkNXJjem42Z2hBenIzVm8?oc=5",
+   "fonte": "JNS.org",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T19:30:42+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Dermer, WJC's Adams call for Israel to combat antisemitism with capabilities used to fight Iran",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-908388",
@@ -19,6 +39,56 @@
    "publicado_em": "2026-09-11T18:48:19+00:00",
    "via": null,
    "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Antisemitismo. Protesta en Suiza pidió la \"destrucción de Israel\" y reivindicó a Hamas como una organización de resistencia",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSENyZnZiUTFzRW84ay1PY21jcVRJclI5Y0ZrRVdQa2pTaHM2UHI4OTQ3ZlVJaDBlSVE0V2d6UnMzUmh4Nk52cjR0WmQ4VHoySGlVMEZGUkxVa1RhQ2RsanRhN3U5RjJoc01qcDRGNXhSbUJTWTlBVnI0WG1seFoteHhHSU1vX0I0QS1aLVhGZjVPd3JXNTVIdl9PRm5aQ0ZWcTAtb1JraEdnLS1kRXBGSTQtdnE0bmdJbHZTTjhVeG5uajN2OGxvd2RsWFFYTmZsd0xxczg3R0lXMldt?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T18:01:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "‘I Love Jewish Girls’: Historic Runway Show for New York Fashion Week Centers on Jewish Identity, Pride",
+   "link": "https://www.algemeiner.com/2026/09/11/i-love-jewish-girls-historic-runway-show-new-york-fashion-week-centers-jewish-identity-pride/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T18:00:03+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Fisioterapeuta denuncia racismo religioso após ser demitida durante iniciação no Candomblé",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNdklveUdTRHMyXzA0MVhmaTRrQldHSWt2ZXlJS2NnX0xaZjRmWU1wR3RQeEtITUNZYzJ0Y1FTTkN6V1lRQ1l1RXNSSWVaTS1GOFNJb3hxdF9aVjZETDJ6ZGxmUVB2MkRSeWY5Rzk0OTltSXI3MWppdjJ5WkRuZjZnRWFnQ0NWOVc4cm5WMHAwRHRCQ0lYbVU4ZmZUTDY1cEFON0txellCWWNuem5VYW9ldU5TRWE0SnJGWVFmWlVoQXhiOHZOYXNBRWV0SFhmcVZua2Y4dDJLUHRQSVVEXzFF?oc=5",
+   "fonte": "Jornal Opção",
+   "escopo": "br",
+   "publicado_em": "2026-09-11T17:48:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "The left’s latest win was not about Israel — and it hurts the Jewish community to insist it was",
+   "link": "https://forward.com/opinion/849866/providence-rhode-island-david-morales-brett-smiley-israel-dsa-mayoral-primary/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T16:19:21+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Repair the World, Hillel International Honor 9/11 Victims by Engaging Jewish Students in Service",
+   "link": "https://www.algemeiner.com/2026/09/11/repair-the-world-hillel-international-honor-9-11-victims-engaging-jewish-students-service/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T16:10:40+00:00",
+   "via": null,
+   "feed": "alge",
    "categoria": "Imprensa especializada"
   },
   {
@@ -222,6 +292,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "Bastos Sur I24NEWS : \"Antisioniste, C'est Une Cachette Pour L'antisémitisme\"",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdDhYek5xUDIzLWRQNnhKNEtmbjhrTmNYdGM3WjB4bGdNLTI0MmFwdjNJRWd2RjEwOUFweHIybkFFODIweHJXUXpxVWJCSWQ3RjJkS1FDTzRVUmNwNXpfcFVYc3daQ1lERlNma0ZoakViVUFSLXhNSWwyTURaRm9NeDhJOEJUcEF4Nm5DYzZiTmkxWmpWZ0duUEtVczRtblJHZENBU013amRuMnZNY241dGlPVHFhRXVHb3pDVG5KQQ?oc=5",
+   "fonte": "i24NEWS",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T20:34:51+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Jewish Groups Issue ‘Jewish Student Bill of Rights’ Ahead of New Academic Year",
    "link": "https://www.algemeiner.com/2026/09/10/jewish-groups-issue-jewish-student-bill-rights-ahead-new-academic-year/",
    "fonte": "The Algemeiner",
@@ -347,6 +427,16 @@
    "fonte": "Combat Antisemitism Movement",
    "escopo": "mundo",
    "publicado_em": "2026-09-10T13:22:40+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "London Bookshop That Sold Mein Kampf Also Stocks Book Branding Jews ‘Evil’",
+   "link": "https://combatantisemitism.org/cam-news/london-bookshop-that-sold-mein-kampf-also-stocks-book-branding-jews-evil/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T13:02:29+00:00",
    "via": null,
    "feed": "cam",
    "categoria": "Observatórios e entidades"
@@ -572,6 +662,16 @@
    "categoria": "Observatórios e entidades"
   },
   {
+   "titulo": "Câmara de Parauapebas abre processo de impeachment contra prefeito por suposto racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNY2twQUtWS3lwbXBUUk15UWFCaDBuVDR1cmNOTFFfQUZ3TFQ5YVJXZFlrZG5mNHExemZTd3U2U0g1eVRSeUg0NTR0U2VhTnNJbXUtbE9kLTFZcnhWS0tZMENSMUZndk9RS2tRV051SXlCaWNTTUtmZ2J3b1F5MHUwSjRsdnNNTDl2NVcxbXZEQnNIWkU3S3gwNzctNEZNRGZ2LVY1Qjg4anFJckVVM1RMU3p2aExLcFYtQ2I5aHJGenFJdjZyMnA0NkZ2SnduUTJlbHprNk1QN2dFY0F6SktGQVUtSlfSAfMBQVVfeXFMUGFwOW1iUFpBR0RHTVZ6RUtINnZLYnJkc1FROXUwak1GLW1SQ1RUM2ZZOUIwMFV0WnV2SE1TNDVTMmJEOGp2Y0VjYndoSjUtRHlMMUFfbHZybTZBZDhtaHduX1Jid2toQXBUcXlYbjdoVjFnUDFYVjZpWkI1bkVkTEpmTkFOWkhReGZvekZDTGlqenNJQXc0R0tWZmhhSlVwYWxHWlpub1RGYVBCMVprQWZLRFhlc0VteVFCQzZ1MXkzYjFCeUFNSEk1bEhNWkxNX3J1bWx6Q1BmUXB5TWtUTFB0YVBfTllsSFVQOVpzamJNY05n?oc=5",
+   "fonte": "G1",
+   "escopo": "br",
+   "publicado_em": "2026-09-09T14:28:59+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Portuguese Comedian Quits Jerry Seinfeld-Headlined Festival, Accuses Israel of ‘Genocide’",
    "link": "https://combatantisemitism.org/cam-news/portuguese-comedian-quits-jerry-seinfeld-headlined-festival-accuses-israel-of-genocide/",
    "fonte": "Combat Antisemitism Movement",
@@ -659,6 +759,16 @@
    "publicado_em": "2026-09-09T05:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Débat Soral-Guénolé : anatomie d’une mécanique complotiste",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNc1BXdjhIRXVpYU9xYTNNOVlrVG1vSXhSQ2xrUTFBQmVINWxDbHhSLXQ4Rzh5bHMwRGJvOU1BNmF1Q19RbnFmWGhmSmJoeDU1cFgtczQ5MVpORVdUSlhpWE1kWlBnenJOcHJva1ZJYmJycWZqM1ZDcDZWb3gyYk5XZWlVUGtzMGxvZFU2THY5UWUxZFpoTUtFZFl0eXg1VEVic2ZRQ3VWZ0huMXMzUHB5R1Jn?oc=5",
+   "fonte": "revue Front Populaire",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T04:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -777,6 +887,16 @@
    "fonte": "Estadão",
    "escopo": "br",
    "publicado_em": "2026-09-03T21:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Conib lança Atlas para combater alta dos casos de antissemitismo no Brasil",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZmlsTV80UmhrN2stVEpxeGd3X25nTkplUG05N3VJWXd1THVqTVNkV2RUeTF1WUphVEVHd3pMbU9ZWDVOelBrdTFnb3QxbEI2TmUxcVBBMFFmQUNYOEdOUFdYMUtxSEU2bzZSekVxeDZDREkwU0d0ZERwUWY1NTJwMUdwUmRMdlRITUUzcmh0d0hDRWk4cUtYMVJ1Ti1kdl9SODVJOGtMWTUwWEtBTHM2SDhB?oc=5",
+   "fonte": "CNN Brasil",
+   "escopo": "br",
+   "publicado_em": "2026-09-03T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br",
    "categoria": "Radar por palavras-chave"
