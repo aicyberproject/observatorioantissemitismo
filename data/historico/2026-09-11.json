@@ -2,15 +2,115 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-11",
  "semana_iso": "2026-S37",
- "atualizado_em": "2026-09-11T11:03:38+00:00",
+ "atualizado_em": "2026-09-11T16:19:21+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 82,
- "no_brasil": 18,
- "no_mundo": 64,
+ "total": 98,
+ "no_brasil": 20,
+ "no_mundo": 78,
  "itens": [
+  {
+   "titulo": "Dermer, WJC's Adams call for Israel to combat antisemitism with capabilities used to fight Iran",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-908388",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T18:48:19+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Let’s Create Real Support for Our Nation’s Jewish College Students",
+   "link": "https://jewishjournal.com/commentary/opinion/392183/lets-create-real-support-for-our-nations-jewish-college-students/",
+   "fonte": "Jewish Journal",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T15:53:08+00:00",
+   "via": null,
+   "feed": "jj",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "How the New York Jewish Week covered 9/11",
+   "link": "https://www.jta.org/2026/09/11/ny/how-the-new-york-jewish-week-covered-9-11",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T14:47:04+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Comunidades religiosas de matriz africana entregam carta-compromisso a candidatas",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOR0ZuVVY5WTJTQVVRUkFBWTZjMWV6bWNNdURTWXNYQ2kzLTlkMkl5cFRZRVFpMHJ0UXU5WlV4UVB0UG9ERWhvbWJzMXR5cDA2am12V3RnWFY2RDZDYlZISkZjME1PcEs1ek9zbHo5cW9XczdNRGphSXJzTkozdzREQTFheVB1b0toWWV4SWhyaUpPbVV5cWpTT283RTYzd29IcjB0TUNXdEVITW9hUy1DSF9aNTZnamg5M0k1SFl5Z0lhY2M?oc=5",
+   "fonte": "Brasil de Fato",
+   "escopo": "br",
+   "publicado_em": "2026-09-11T14:18:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Antisémitisme : un proche de Philippe devant la justice pour avoir dénoncé les «dérives» de LFI",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZjBySHFfWEZWYkhJYjIyMnZHdUlXYlhkSGR1TDVnY1E2Qy1DbEZvb2pveDU0OU1Obzc5eGlmZTFBN0JDWmNKREZ5aDRGRElNaVlRMUpZOGdVZmpNQ2t2NlpxSnVZbFFKSldJZXVnak9vYTFfMDZnMFlkNlpJT0hSV0lMbjhGazJCRHk1V2ExTlZwc3RJR3R0SUdiU1VaXzZ0djRZQ3J6MDV5bW44cUNNWWF2WExYVGNDSnhRZDh4WUU4ZWhsc3VnaQ?oc=5",
+   "fonte": "lejdd.fr",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T13:44:19+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Jewish and Muslim leaders avoided the hardest interfaith topic for years, and now face a ‘massive fault line’",
+   "link": "https://forward.com/news/849758/9-11-jewish-muslim-israel-palestinians/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T12:19:11+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "FAS Faculty Grew More Skeptical of Systemic Antisemitism as DOJ Pressed Its Case",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBtdERGSGtNZld6cFNMeExNUlBlTG94UWNucHl2Rm5lS1A0cjVLODAzTVMtSmh3cWxmX0tpSEFOejRkRjBGbTA2VVBZZmhmX1dUSXE2YXpsWEJzMnNXczV0OXRhZVhMZmhybHZwZnZ3aVNPZFZt?oc=5",
+   "fonte": "The Harvard Crimson",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T12:00:20+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "El fiscal interino de la Corte Penal Internacional afirma que las sanciones de EE.UU. contra el tribunal surgen de un “malentendido”",
+   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQV3Y5LTVaX3JxeGlmcjF4Rm5RZDdZT3dBcXBPN3AxeUowck5feENVTkE3UEdWbXM5UjBoVnU2TGdKLTNsZmRKT1laYzB5SHlKNFFGQ284eUhNUUhRNGVBUEdPRk1NQnpjNjYzNTc2TEdzZWE2ZkFWMHczdHl0enFfc1ROR0FRVFNhZzRvdm1vMFEyRFJXeURJc0xLSnZwTDRDdVN6eTltb0t1THhWbjFHRTI3b2ZFN1Z5SVM3ekdKUDRVbGF4Um5CTmNzOU9pcmhYVmRBMV9jRGZmZ091alc1QzRPYjVGRmlEcDl2UW5qX2pmYmdZQ2o3aUhrNA?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T11:53:08+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Report Examines Links Between Antisemitism and Transphobia in Far-Right Politics",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPM3VrUXU1MV9mQk9ONzZzOEhIT0VFQ1A2RDFUQl9ubHhVbUFVOWxOY1RNUUJYR3pXRVMxelJ5dmtMU1ZweUxXbnZWYmxGSWhSNjB6Tjh1RkhxdGh2dEtJSnBMbTNWNER2OTNkNXlGS3g0aFJ0NnZkQUd6UkVTeHdHbjVrbWVadw?oc=5",
+   "fonte": "Davis Vanguard",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T11:30:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Este Rosh Hashaná no podemos mirar solo hacia adentro",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWlZBUkFXWmJxVFRCTTQzc29DejQwVWswYnFmdGh4QWNZYk5CLWVxaGQ1Q0t5dTVtWkFVckVwTmhFNFJNbGlQejhwQmxoSFB6a1gwX3BEM2FBRjZ4SjYzUU5RVkhIbFNEYjdFMWl4U2E0LTJFUlBOZ0VfVVlhZWhXaTZOc1dQMzdFN1VIQ3J1UEhLZDAyeVlQbTV6R2VNS2MwbTdqNDVHMjDSAcMBQVVfeXFMTm1TTHFvZHRSRjcyT09MMkRVVk0wU2xwSXdFdnVTZG9xalkyZThoU2FZVlN4VGQzV1hDRTAycE9RVnAyVE43WTNZMnBjclZDNE5IOUs1SEV2dHgtTl9GWE9NYlVrYWNsWHQ3bERDSmhXVnl4T2lUbUlsMVY3bVlDNF9JS2R2UXhuVThNZEZDUnBTMFJUb1pnM3Y0bVpoZU1mT0ZiR0hWN3VNd3NBVGxnTmxOb3ExRjBydnV6VHlXUkNfc1Fr?oc=5",
+   "fonte": "Infobae",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T11:25:11+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Israel elimina al comandante de la Brigada de Khan Younis de Hamás",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTmJLenUtOVRCTFI5YWhUUXJLd2FRR0ozSktDd3pfSFBORXRjdF9Fd0F4Smk5a19lZXlmUGh2dTR6NDNIS2pzbERUZENYZzlqaUpTQlAzVC14Si11YkRYeHdvc1hTbDY1dzZKdWpuaFBabVNESDRncXNfTWZtbGEwaWx5ZTZaVFByX0JqWUctb0pxU0hrRExLWjktQmx5UDUwTU14Vg?oc=5",
@@ -40,6 +140,16 @@
    "via": "Google Notícias",
    "feed": "radar-en-leis",
    "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "CAM Launches ‘One Nation Under God’ Initiative to Celebrate America’s Judeo-Christian Heritage at 250",
+   "link": "https://combatantisemitism.org/cam-news/cam-launches-one-nation-under-god-initiative-to-celebrate-americas-judeo-christian-heritage-at-250/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T03:20:43+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
   },
   {
    "titulo": "El expresidente español José María Aznar pidió «normalizar relaciones» con Israel",
@@ -232,6 +342,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Real Madrid Fans Chant ‘Jew That I See, Jew That I Hit,’ Give Nazi Salutes Before Match",
+   "link": "https://combatantisemitism.org/cam-news/real-madrid-fans-chant-jew-that-i-see-jew-that-i-hit-give-nazi-salutes-before-match/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T13:22:40+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
    "titulo": "« Accuser d’antisémitisme sans fondement, c’est galvauder ce délit »: à Brest, un rassemblement en soutien à P.Y Cadalen",
    "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNT1RjTGgzMW1QQUl2d3FoSlBaMU9WUHpMVEdjUTdpdHNPT1lreWJLYWhCYVc4VkNzb1ZxU1ZreGVTT2RiZkI1cW1EQjR5YXRNaDJ2N01Hc1lyTEI1QnFib09yaFFhdFl0WkwyNkZoeWt6cTRheVZtSVpEbGNzdlAzSlZZUTNacWEzamdoemRoMmJpZzdjYzJ3cWFBWlByNzUtQS05Q1RySzdxYlVRV3kwT3c0Yzk2QW9MVFUxOGxxdG1oNEJ4TDB6VGVJNE5NRmIxSnJRY01CMjJsS3NrSzlNLVM4YzYwUThXMGxWQVlpRGNmT1BRWHBPX0RpTmZVa3B2RWFVV3BNcjRpZjg3TEk3VC01bVBPUng3N3Axam1NWWtzNmxQ?oc=5",
    "fonte": "Ouest-France",
@@ -250,6 +370,16 @@
    "via": null,
    "feed": "swu",
    "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "North Miami Beach joins growing group of Florida cities embracing IHRA antisemitism definition",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-908226",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T10:54:17+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
   },
   {
    "titulo": "Attacks on Mamdani test Jewish efforts to confront Islamophobia as 9/11 anniversary nears",
@@ -452,6 +582,16 @@
    "categoria": "Observatórios e entidades"
   },
   {
+   "titulo": "9/11 Families Condemn NYC Mayor Mamdani at Anti-Extremism Rally Outside DSA Headquarters",
+   "link": "https://combatantisemitism.org/cam-news/9-11-families-condemn-mamdani-at-anti-extremism-rally-outside-dsa-headquarters/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T13:59:59+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
    "titulo": "Jewish Students' Bill of Rights helps communities fight K-12 antisemitism",
    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTFhNaVpGU2RSRUwyUTU0S1dWZ1JBN01iaGVveWV4UEhXalpyWl9XbnBjRnpGbmJVc0NRSXVIN0RTemptM3d2UUlCejdNaGNia1d3TDFSR3c5ZE9aZE0zUW5fX0Q4eXpCeE4yUHJKa0dvdUp6S0g2QjFfSWFLSHhuT3dodFVyS3dJQ0Q0cmZJRmdZRDdBcHdJUnJVYTUzemtLQnE3dTZVV0tESWNLSHc2V21LYkVYV0x5eFZBQld0cw?oc=5",
    "fonte": "The Jewish Federations of North America",
@@ -510,6 +650,16 @@
    "via": null,
    "feed": "fra",
    "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Antisemitism | History, Meaning, Facts, & Examples",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBxRnNldnFQbVE3amVrY3RtZHJ1OWo2cHRkemVuY1c0SGNBYjVUQTdhX3JJcnl0RWFPUHdBZFh4Rm5YSHlNRExrTkZuQzhkYjQxNlc5cnRIT1E?oc=5",
+   "fonte": "Britannica",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T05:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Disabled IDF Veteran Faces Online Hate Campaign After Adidas Ad Sparks Boycott Calls",
@@ -800,6 +950,16 @@
    "via": null,
    "feed": "fathom",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Como o STF transformou a denúncia do sionismo em crime",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY1ItS2VfUk1EOVJIN21EcVc5V2xEV2tnblY5Umk3TGFMVHBrTmpIQnFNbWh2SlkzdDdicUpyTXF1MFhyRVFQNFgtVm1JdzhRcEpBSUF3OXlrYXE3N0pSRWpTZ1JKX3VVc1g2MVBqYkduSW0tVE8tZVpjQ3JiOUZXbnJZNHBPYndXR3RDalMtUEpIa1U?oc=5",
+   "fonte": "Diário Causa Operária",
+   "escopo": "br",
+   "publicado_em": "2026-07-17T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Abertura de processo contra juiz por suposto´racismo religioso´",
