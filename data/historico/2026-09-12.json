@@ -2,15 +2,35 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-12",
  "semana_iso": "2026-S37",
- "atualizado_em": "2026-09-12T12:05:45+00:00",
+ "atualizado_em": "2026-09-12T16:54:14+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 84,
- "no_brasil": 20,
- "no_mundo": 64,
+ "total": 89,
+ "no_brasil": 22,
+ "no_mundo": 67,
  "itens": [
+  {
+   "titulo": "Reporte: se pospone la ronda de conversaciones entre Israel y el Líbano en Roma",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY25hd2ZLNkxWb1hud3Awbl9ma1JKdEdxVDZLSEpxeVRxTWNQbmpuTi05WmExdWYxYVV4MTVRejFrZGtGc2xJLURpVm03b3p2Z0NycFIzWVhReUdvU1g1Y0x3eGE0M3dmLVhDcjlRY1Y3emdoeHR4Z1h6TEdWT1VhUWc2MF9teWsxS0FKZW9BbzEwRU4wS0hPc25KSWdpV1Y4Mnluc2hVT055OTNsMGc?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-12T16:14:40+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Ao apoiar Lula, coletivo judaico de esquerda ignora aumento do antissemitismo",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeVhaQjRvdmdDWDJmbm5fZ3FJYXRJLWRIOWhuMGF0UjdtdVNJOVdMNlRNVDdjOXR4SUxxb3FwdEFTNzlJQ0tUaXFtNHBBQnl1d3NjeWJCTWFfOW9fempCN29oVHd1M214Ty1icUQtVHpuYW10d3F3bzdtY0xWN296RWZJSzRvVjQzYVdxMW95WHN0TWc4VERiOWd1a3B5dWE5ekhpYWU4SnZMQ09iQTBLc3pHVkU0RU0?oc=5",
+   "fonte": "Gazeta do Povo",
+   "escopo": "br",
+   "publicado_em": "2026-09-12T14:11:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Oakland schools defend compliance with state antisemitism directives",
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOERPQjRDQWJ5Z0xMbDMtQl9UN3poekJGRjB6NDU5OUMzOExuclljek9NUTlUX2JpSWthOERUaVdIUlZ1cDBqaXNoUE1ScXhxZldMNmExUkJaVGhwUGpqLTcyU3ZuTHNqbWMtUnNlRU5KbmpHVlB3OUJNOUJySld6N1dnS1BFbkhNRndNdjZTNHMzMXQ3RHF1dWU0YTFoVF9mZVBjZkRWbHdVZHotU0JCVDl3?oc=5",
@@ -522,6 +542,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Danny Danon veut faire de la lutte contre l'antisémitisme une priorité pour le prochain chef de l’ONU",
+   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQSDZUWVFEQTh6OXlxSjVxNTVQandZajBtTEVuaUp2S3UwNUl6SndIYjRRYkJkU0VOVHhMVW1VRTBYdXhCX0ZheTMtWWhzazB4eGlsS1RmSHhsT3BMdUhOOFliWUpRVUwtQ1gtUWxJOUtrUEo0azlNUXl3S2RWT1AwWUFfcjFUbE9McUJGQVIyc3ZqNGNmbG8zNUxVRW54UW5BbXd6MlRxYXBpMEpvY3ZFekdWM0dtUkVISF9iVFpsS0QwbVNNVGhuanVpMG0wMVlOU0FpNEJVYXl0TW94Sk5nVWpwRmp4NFdmZ3lOeHprbmI1dExBcUE?oc=5",
+   "fonte": "i24news.tv",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T19:07:11+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Analysis: 25 Years Later, Antisemites Are Winning the War to Rewrite the Facts of 9/11",
    "link": "https://combatantisemitism.org/special-features/analysis-25-years-later-antisemites-are-winning-the-war-to-rewrite-the-facts-of-9-11/",
    "fonte": "Combat Antisemitism Movement",
@@ -530,6 +560,16 @@
    "via": null,
    "feed": "cam",
    "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Câmara de Parauapebas abre processo de impeachment contra prefeito por suposto racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNY2twQUtWS3lwbXBUUk15UWFCaDBuVDR1cmNOTFFfQUZ3TFQ5YVJXZFlrZG5mNHExemZTd3U2U0g1eVRSeUg0NTR0U2VhTnNJbXUtbE9kLTFZcnhWS0tZMENSMUZndk9RS2tRV051SXlCaWNTTUtmZ2J3b1F5MHUwSjRsdnNNTDl2NVcxbXZEQnNIWkU3S3gwNzctNEZNRGZ2LVY1Qjg4anFJckVVM1RMU3p2aExLcFYtQ2I5aHJGenFJdjZyMnA0NkZ2SnduUTJlbHprNk1QN2dFY0F6SktGQVUtSlfSAfMBQVVfeXFMUGFwOW1iUFpBR0RHTVZ6RUtINnZLYnJkc1FROXUwak1GLW1SQ1RUM2ZZOUIwMFV0WnV2SE1TNDVTMmJEOGp2Y0VjYndoSjUtRHlMMUFfbHZybTZBZDhtaHduX1Jid2toQXBUcXlYbjdoVjFnUDFYVjZpWkI1bkVkTEpmTkFOWkhReGZvekZDTGlqenNJQXc0R0tWZmhhSlVwYWxHWlpub1RGYVBCMVprQWZLRFhlc0VteVFCQzZ1MXkzYjFCeUFNSEk1bEhNWkxNX3J1bWx6Q1BmUXB5TWtUTFB0YVBfTllsSFVQOVpzamJNY05n?oc=5",
+   "fonte": "G1",
+   "escopo": "br",
+   "publicado_em": "2026-09-09T14:28:59+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Portuguese Comedian Quits Jerry Seinfeld-Headlined Festival, Accuses Israel of ‘Genocide’",
@@ -809,6 +849,16 @@
    "publicado_em": "2026-07-20T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Jornada de reflexión sobre antisemitismo y discriminación",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeU0xelpYZ2plbFFmU2dwVlhvbHN5clk5M3k1SGQ4aUR4NHFxOWVLSVRnODljR1FQU096S3haT2dFTFMwNHNIZzFJN1lUYVJwaEJkS21FaUJac01EQk9tUUo1dGNEU0N4X0I4V2J6MDJVWlAxQy1QUmpRaHB0YUNIeTNPMzcxMklwVkw1eG5ac2ZyOUVwamVxNE1nMHNVZjBscmlNeU91Z1hDSDZLV3Faa1BtRFM?oc=5",
+   "fonte": "consejomagistratura.gov.ar",
+   "escopo": "mundo",
+   "publicado_em": "2026-07-20T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
   },
   {
