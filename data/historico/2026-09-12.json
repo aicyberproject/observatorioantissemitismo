@@ -1,0 +1,372 @@
+{
+ "esquema": "instantaneo-diario/1",
+ "dia": "2026-09-12",
+ "semana_iso": "2026-S37",
+ "atualizado_em": "2026-09-12T00:04:03+00:00",
+ "fontes_consultadas": 21,
+ "fontes_com_falha": [
+  "The Times of Israel: HTTPError",
+  "Radar Brasil — Antissemitismo: HTTPError",
+  "Radar Brasil — Racismo religioso e crimes de ódio: HTTPError",
+  "Radar Brasil — Judiciário e persecução penal: HTTPError",
+  "Radar Global — Antisemitism: HTTPError",
+  "Radar Global — Leis, processos e prisões: HTTPError",
+  "Radar Iberoamérica — Antisemitismo: HTTPError",
+  "Radar Europa — Antisémitisme: HTTPError"
+ ],
+ "total": 35,
+ "no_brasil": 0,
+ "no_mundo": 35,
+ "itens": [
+  {
+   "titulo": "Jewish Pride: Celebrating the High Holidays Amidst Rising Antisemitism",
+   "link": "https://standwithus.com/news/jewish-pride-celebrating-the-high-holidays-amidst-rising-antisemitism/",
+   "fonte": "StandWithUs",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T22:11:12+00:00",
+   "via": null,
+   "feed": "swu",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "DSA-Backed Challenger Defeats Jewish Incumbent in Rhode Island Mayoral Race",
+   "link": "https://www.algemeiner.com/2026/09/11/dsa-backed-challenger-defeats-jewish-incumbent-rhode-island-mayoral-race/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T21:23:36+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Dermer, WJC's Adams call for Israel to combat antisemitism with capabilities used to fight Iran",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-908388",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T18:48:19+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "‘I Love Jewish Girls’: Historic Runway Show for New York Fashion Week Centers on Jewish Identity, Pride",
+   "link": "https://www.algemeiner.com/2026/09/11/i-love-jewish-girls-historic-runway-show-new-york-fashion-week-centers-jewish-identity-pride/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T18:00:03+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "The left’s latest win was not about Israel — and it hurts the Jewish community to insist it was",
+   "link": "https://forward.com/opinion/849866/providence-rhode-island-david-morales-brett-smiley-israel-dsa-mayoral-primary/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T16:19:21+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Let’s Create Real Support for Our Nation’s Jewish College Students",
+   "link": "https://jewishjournal.com/commentary/opinion/392183/lets-create-real-support-for-our-nations-jewish-college-students/",
+   "fonte": "Jewish Journal",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T15:53:08+00:00",
+   "via": null,
+   "feed": "jj",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "How the New York Jewish Week covered 9/11",
+   "link": "https://www.jta.org/2026/09/11/ny/how-the-new-york-jewish-week-covered-9-11",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T14:47:04+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Jewish and Muslim leaders avoided the hardest interfaith topic for years, and now face a ‘massive fault line’",
+   "link": "https://forward.com/news/849758/9-11-jewish-muslim-israel-palestinians/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T12:19:11+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "‘Remembering September 11th Means Defending Historical Truth, Refusing to Legitimize Terrorism, and Rejecting Antisemitism’",
+   "link": "https://combatantisemitism.org/cam-news/remembering-september-11th-means-defending-historical-truth-refusing-to-legitimize-terrorism-and-rejecting-antisemitism/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T07:02:46+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Antisemitic conspiracies blaming Jews for 9/11 resurface ahead of 25th anniversary, CyberWell warns",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-908360",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T05:48:56+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "CAM Launches ‘One Nation Under God’ Initiative to Celebrate America’s Judeo-Christian Heritage at 250",
+   "link": "https://combatantisemitism.org/cam-news/cam-launches-one-nation-under-god-initiative-to-celebrate-americas-judeo-christian-heritage-at-250/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T03:20:43+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Jewish groups to protest against antisemitism outside United Nations",
+   "link": "https://www.jta.org/2026/09/10/ny/jewish-groups-to-protest-against-antisemitism-outside-united-nations",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T22:06:01+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "After 9/11, Jewish volunteers kept watch over the dead. 25 years later, the grief remains.",
+   "link": "https://forward.com/news/849698/shmira-9-11-ohab-zedek-stern-college/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T20:41:25+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "With Jewish New Yorkers on edge, Julie Menin says new protections will help keep them safe over High Holidays",
+   "link": "https://forward.com/news/849659/julie-menin-mamdani-high-holidays/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T19:32:13+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Toronto debate on antisemitism takes place with mayors absence",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-908322",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T19:20:05+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Man accused of stabbing two men in antisemitic attacks in New York charged with hate crime",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-908310",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T18:06:08+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "A Jewish audience applauded when this speaker called for Muslims to leave America. Here’s a better response.",
+   "link": "https://forward.com/opinion/849359/yousef-jewish-american-summit-newground/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T16:58:52+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Real Madrid Fans Chant ‘Jew That I See, Jew That I Hit,’ Give Nazi Salutes Before Match",
+   "link": "https://combatantisemitism.org/cam-news/real-madrid-fans-chant-jew-that-i-see-jew-that-i-hit-give-nazi-salutes-before-match/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T13:22:40+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "London Bookshop That Sold Mein Kampf Also Stocks Book Branding Jews ‘Evil’",
+   "link": "https://combatantisemitism.org/cam-news/london-bookshop-that-sold-mein-kampf-also-stocks-book-branding-jews-evil/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T13:02:29+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Federal Civil Rights Investigations Opened Into Two Schools Over Alleged Anti-Semitism Against Jewish Students",
+   "link": "https://standwithus.com/news/legal/federal-civil-rights-investigations-opened-into-two-schools-over-alleged-anti-semitism-against-jewish-students/",
+   "fonte": "StandWithUs",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T11:00:00+00:00",
+   "via": null,
+   "feed": "swu",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "North Miami Beach joins growing group of Florida cities embracing IHRA antisemitism definition",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-908226",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T10:54:17+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "How a new tool in Lithuania helps people read letters from their Jewish ancestors",
+   "link": "https://www.jta.org/2026/09/10/global/how-a-new-tool-in-lithuania-helps-people-read-letters-from-their-jewish-ancestors",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T10:46:47+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "UWS stabber sent antisemitic texts before attack, prosecutors say",
+   "link": "https://www.jta.org/2026/09/09/ny/uws-stabber-sent-antisemitic-texts-before-attack-prosecutors-say",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T22:00:57+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "NY police to beef up security for Jewish New Year, 9/11 anniversary",
+   "link": "https://www.jta.org/2026/09/09/ny/ny-police-to-beef-up-security-for-jewish-new-year-9-11-anniversary",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T21:40:51+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Argentine court orders return of Nazi-looted painting found via a real estate ad",
+   "link": "https://www.jta.org/2026/09/09/global/argentine-court-orders-return-of-nazi-looted-painting-to-jewish-collectors-heir",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T20:33:48+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Analysis: 25 Years Later, Antisemites Are Winning the War to Rewrite the Facts of 9/11",
+   "link": "https://combatantisemitism.org/special-features/analysis-25-years-later-antisemites-are-winning-the-war-to-rewrite-the-facts-of-9-11/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T15:37:21+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Portuguese Comedian Quits Jerry Seinfeld-Headlined Festival, Accuses Israel of ‘Genocide’",
+   "link": "https://combatantisemitism.org/cam-news/portuguese-comedian-quits-jerry-seinfeld-headlined-festival-accuses-israel-of-genocide/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T14:12:48+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "New Jewish Students’ Bill of Rights to help parents, schools combat K-12 antisemitism",
+   "link": "https://standwithus.com/news/new-jewish-students-bill-of-rights-to-help-parents-schools-combat-k-12-antisemitism/",
+   "fonte": "StandWithUs",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T10:00:00+00:00",
+   "via": null,
+   "feed": "swu",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Reinforcing Holocaust and human rights education and awareness raising",
+   "link": "https://fra.europa.eu/en/event/2026/reinforcing-holocaust-and-human-rights-education-and-awareness-raising",
+   "fonte": "EU Fundamental Rights Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T09:34:51+00:00",
+   "via": null,
+   "feed": "fra",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Best Jewish Advocacy Organization",
+   "link": "https://standwithus.com/news/best-jewish-advocacy-organization/",
+   "fonte": "StandWithUs",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T08:44:34+00:00",
+   "via": null,
+   "feed": "swu",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "They tried to punish Jews for calling out antisemitism. Federal court said no – opinion",
+   "link": "https://standwithus.com/news/they-tried-to-punish-jews-for-calling-out-antisemitism-federal-court-said-no-opinion/",
+   "fonte": "StandWithUs",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T08:35:10+00:00",
+   "via": null,
+   "feed": "swu",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Pittsburgher joins push for Peloton to address Jewish users’ concerns over anti-Zionism",
+   "link": "https://standwithus.com/news/pittsburgher-joins-push-for-peloton-to-address-jewish-users-concerns-over-anti-zionism/",
+   "fonte": "StandWithUs",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-08T08:16:52+00:00",
+   "via": null,
+   "feed": "swu",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "África do Sul: ONU alerta para explosão de violência xenófoba",
+   "link": "https://news.un.org/feed/view/pt/story/2026/08/1854192",
+   "fonte": "ONU News - Perspectiva Global Reportagens Humanas",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-27T12:00:00+00:00",
+   "via": null,
+   "feed": "onu-pt",
+   "categoria": "Direitos humanos e organismos multilaterais"
+  },
+  {
+   "titulo": "Jewish Bund Ghosts vs. Living Jewish State",
+   "link": "https://fathomjournal.org/jewish-bund-ghosts-vs-living-jewish-state/",
+   "fonte": "Fathom Journal",
+   "escopo": "mundo",
+   "publicado_em": "2026-07-28T08:36:20+00:00",
+   "via": null,
+   "feed": "fathom",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Critical Theory, October 7, and the Critique of Antisemitism and Sexism",
+   "link": "https://fathomjournal.org/critical-theory/",
+   "fonte": "Fathom Journal",
+   "escopo": "mundo",
+   "publicado_em": "2026-07-19T14:14:33+00:00",
+   "via": null,
+   "feed": "fathom",
+   "categoria": "Imprensa especializada"
+  }
+ ]
+}
