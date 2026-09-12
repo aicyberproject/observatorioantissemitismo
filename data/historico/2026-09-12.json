@@ -2,15 +2,45 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-12",
  "semana_iso": "2026-S37",
- "atualizado_em": "2026-09-12T16:54:14+00:00",
+ "atualizado_em": "2026-09-12T20:26:50+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 89,
+ "total": 92,
  "no_brasil": 22,
- "no_mundo": 67,
+ "no_mundo": 70,
  "itens": [
+  {
+   "titulo": "‘It’s time to go home’: After 57 years in America, a Holocaust survivor comes home to Israel",
+   "link": "https://www.jpost.com/diaspora/article-908342",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-12T20:59:59+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Milan Jewish woman describes what it's like to be Jewish amid rising antisemitism - interview",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-908426",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-12T19:55:18+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Milan Jewish community vice-president warns about antisemitism in Italy",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB4NHl3RVRPTmhqc0FnTFpoUjUtWEVRTmo5TGZ1TjhvckhQQzg0S0RRYlJrakxoeUthNkxsYTh5cVBNMXZVR0lxSnFWQUVfaEdFN3NBWW9HZkdmdl9PLWptTXhfQmh1S1dVSkE?oc=5",
+   "fonte": "The Jerusalem Post",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-12T17:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Reporte: se pospone la ronda de conversaciones entre Israel y el Líbano en Roma",
    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY25hd2ZLNkxWb1hud3Awbl9ma1JKdEdxVDZLSEpxeVRxTWNQbmpuTi05WmExdWYxYVV4MTVRejFrZGtGc2xJLURpVm03b3p2Z0NycFIzWVhReUdvU1g1Y0x3eGE0M3dmLVhDcjlRY1Y3emdoeHR4Z1h6TEdWT1VhUWc2MF9teWsxS0FKZW9BbzEwRU4wS0hPc25KSWdpV1Y4Mnluc2hVT055OTNsMGc?oc=5",
