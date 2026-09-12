@@ -2,15 +2,35 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-12",
  "semana_iso": "2026-S37",
- "atualizado_em": "2026-09-12T07:04:56+00:00",
+ "atualizado_em": "2026-09-12T12:05:45+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 80,
- "no_brasil": 18,
- "no_mundo": 62,
+ "total": 84,
+ "no_brasil": 20,
+ "no_mundo": 64,
  "itens": [
+  {
+   "titulo": "Oakland schools defend compliance with state antisemitism directives",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOERPQjRDQWJ5Z0xMbDMtQl9UN3poekJGRjB6NDU5OUMzOExuclljek9NUTlUX2JpSWthOERUaVdIUlZ1cDBqaXNoUE1ScXhxZldMNmExUkJaVGhwUGpqLTcyU3ZuTHNqbWMtUnNlRU5KbmpHVlB3OUJNOUJySld6N1dnS1BFbkhNRndNdjZTNHMzMXQ3RHF1dWU0YTFoVF9mZVBjZkRWbHdVZHotU0JCVDl3?oc=5",
+   "fonte": "Daily Journal",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-12T11:44:58+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Prefeito de Parauapebas (PA) é alvo de processo de impeachment por racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORFhFMmhVam9SVFFZWUlFZlN0WGNuczhPVGJrczZSVG0xdmdPTHp2X0pmZlk2VXI4NW9NcDNaXzlLeVprQ2pjbHRPVXp3ME1KdTZPbUdXb3QwMF9OTGd6UlEyd0VoeG56dWQ2Z3hrbFdlOEZzdVI2T3F5ODhHekxvSHRRVHNwUkxNR3pRc2hkakRHRmlIM3NzMERuVTQxWmE1c1Rv?oc=5",
+   "fonte": "Alma Preta Jornalismo",
+   "escopo": "br",
+   "publicado_em": "2026-09-12T11:03:26+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Syrian national indicted for aiding 2025 Berlin Holocaust Memorial stabbing",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-908407",
@@ -342,6 +362,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "CEAP leva à DECRADI representação contra Pablo Marçal por suspeita de racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWVhidXRIYWJUcGdEMmRqN0t5a2VvdWN6Y2dxWXlsc19KZXM0UG9YQ3RjVERxWnlxLW9TTGZ4MVIxeV9ZSWJZb1Fra1g4Yl84OUd6RzFweFhaYl9LUHBPa1VtQmE4bjlVUHJMNlRJODFRVjhJU1c0dTNFZDg2M190RVZTU1BMdkVGWUs4aHhlQlo3OGlSX1B3SXNUdFlxNUZaRFNTdlpHRXlIQTcwTGJSS0I2U213cE9YM3lnbVF6SDdaT25kUkI2U3d1aw?oc=5",
+   "fonte": "Combate Racismo Ambiental",
+   "escopo": "br",
+   "publicado_em": "2026-09-10T13:54:04+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Real Madrid Fans Chant ‘Jew That I See, Jew That I Hit,’ Give Nazi Salutes Before Match",
    "link": "https://combatantisemitism.org/cam-news/real-madrid-fans-chant-jew-that-i-see-jew-that-i-hit-give-nazi-salutes-before-match/",
    "fonte": "Combat Antisemitism Movement",
@@ -665,6 +695,16 @@
    "titulo": "What Is the Jewish American Security Act and What Would It Do?",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOczVCT1liZktVOWM1SWZkN0tWanNxWmNfWlpwNXN4NWNESlB3T1o1bUVuM3hCc2RiRGNINHNPaXJQaHNJWjFWNUNSbUphVElEcnNoTGktYmVpbXNWTTF1LXZxdmQ3aXA1Ynlodzg5UkMyMDZBdjlDX3NNOG1JQ0xhTFVwaktvQ1h3MnI2cWRocw?oc=5",
    "fonte": "American Jewish Committee (AJC)",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-01T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Long talks but no deal to modify California law combating antisemitism in schools",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNG96V0ZBZ0lXMGo2U0Z4d3UzSVdDYWdXcGdESjVoSjJzX3BvWjRTYjhjODJia3NkZEVXNGRzZ3FLXzhlMVhiNVRObFk1TEFNWjVBaFJ4ZXA2TV9JNXdMakRXd3JDRmZ5QU5MWDBCeVdDVDhuaHNjMEdpT3p0Vjc0VEFXUXpJOE4tVWI3dS1NVlBGWlc5T2ViNjRaUFBLM3dRYi1xcDRjY2JiaGpjMzhrNUFleDjSAbwBQVVfeXFMT3RMYWRsTUx5SmpkOWZJckdKWFlwb1hRV212RXBXQWw5MS1HaVN1N0I0TVBLRlMxd0NZeEduV3FWc1Z5SkJNbFVFTVpFRzZ0a0Q2cWV4ZFd6Uy1UQlZXaXZFS1NOdGd6TmRKbWNiYkZHUTBuS0tfMjZmSWRFaUVJYUVXTHhFZ01tVHFVWk1qVU5MMS13UE8tRWtacEJReV9UdUt6NzBORVZXSklZZ1ZxZVlRMGZJdFFMN3E4bXc?oc=5",
+   "fonte": "EdSource",
    "escopo": "mundo",
    "publicado_em": "2026-09-01T07:00:00+00:00",
    "via": "Google Notícias",
