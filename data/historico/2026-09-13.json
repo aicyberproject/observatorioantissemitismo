@@ -2,15 +2,25 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-13",
  "semana_iso": "2026-S37",
- "atualizado_em": "2026-09-13T11:35:51+00:00",
+ "atualizado_em": "2026-09-13T16:04:31+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 82,
+ "total": 85,
  "no_brasil": 19,
- "no_mundo": 63,
+ "no_mundo": 66,
  "itens": [
+  {
+   "titulo": "Lituania cerró el aeropuerto de Vilna y la OTAN desplegó cazas ante la posible presencia de un dron",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTFA4ZWFTZ2RJZkE3M1NFN0p5ZFhVekZkWVZyQnhlb3J3azVnY1Biek1vaEdNMTVSOTlKQ3Y3NnloWXBzN2VNM01McUhHdmMxYXlwOUwycVhZVm1CcjZkVEFtUFl1MG5TRWd0Vk9uZ0NQQ3gyNTVhcThRQlUzdkFSV185Uy1BUDN3ajRUUFJnZzF0OW1VX01PNF90LXpEdTRnZ0VwOW16ZXNYVWwyWXZ4dE4tNWlSWlRjcndqSE5Bd1hhSkJOb19ZaEVHencxN0tJRUZR?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-13T12:04:43+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "La Policía investiga un ataque antisemita en Berlín",
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQV3Fhdm8tVU51dkh5V0J2WEljWFRZdWxzNHc5RjBNYzBNeVc5SmtnY3JIbWlBRzBKbzlXRVpQbTdCR29FdWRET0FQRWdlUzBHakMwLXlESkdYVlVzZGdSR1I0WDFTY1JjV3RpcFlJdUNTTEU0bEZfWDRtNF81UkljQXVPRU9MTS0ySmMtZ2dPYnVsY1JSY3M3YUx30gGaAUFVX3lxTFBRV1BBTVZzUXNrXzJGNzRxd3N6VVBZaEd3NXM4ZlFZOEtHZDM3WEJ5dEhWMGlCcTJPMnJQRW9URGVISHJUbjBaem5QSFo2QkNMeFFzYm9DakJRSkh0cUZQbExuVzNmT3JfYy13cVBFNnNUbnYzbjJlVDNKNmlMaVFoYjNBT2N3VnkxZDV5SU9OaU5GdnppRWVsNEE?oc=5",
@@ -712,6 +722,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Cercle Bernard Lazare - L'antisémitisme, une vieille haine toujours au présent",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRTZUMU1oWmg4Ulp5T3NSN2lpR0IzX19BWm9SdEkzeTA2cEJKZmNiNWl6VElpYXZZUUVOa2pCeVVfZXhWOXhJNzhFN3JQUnViOGZ4VlJyTEIyOTJ0MHZQRTBCMGNCcnIwU1ZYRjdWWm1UOUxHcXJWZ0dQeEIwZGcxcTdxdExWaUtqdDM0ZThISUt3SzlQZlo0Sm1wOC1rS3hRVmV2UE1jMFVRanNNdXhKcnVnYnROMkpMTG9B?oc=5",
+   "fonte": "grenoble.fr",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-27T21:38:54+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "África do Sul: ONU alerta para explosão de violência xenófoba",
    "link": "https://news.un.org/feed/view/pt/story/2026/08/1854192",
    "fonte": "ONU News - Perspectiva Global Reportagens Humanas",
@@ -759,6 +779,16 @@
    "publicado_em": "2026-08-15T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Fight to block California antisemitism law ends in defeat",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOS09Delk0alZ1Vm9jak55MUJyY2NJb282Ri1aOXBLNk11NHBVMk1sNDFNa3paY2hSdzY4U3owcHhwcklTZVBSV3BRX3BMUGJoa3p0QnpndEFManVZenJGcElrYk94dzJoczJIMHhWOHVQU1Z5azF2MThCQ2VMcXk2cHBUdFhwemNIaW1XYnJmWmlDUUU?oc=5",
+   "fonte": "Courthouse News",
+   "escopo": "mundo",
+   "publicado_em": "2026-07-29T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
    "categoria": "Radar por palavras-chave"
   },
   {
