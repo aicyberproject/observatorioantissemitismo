@@ -2,15 +2,55 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-13",
  "semana_iso": "2026-S37",
- "atualizado_em": "2026-09-13T16:04:31+00:00",
+ "atualizado_em": "2026-09-13T20:38:30+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 85,
- "no_brasil": 19,
- "no_mundo": 66,
+ "total": 93,
+ "no_brasil": 21,
+ "no_mundo": 72,
  "itens": [
+  {
+   "titulo": "US urges caution near Jewish, Israeli sites in UAE during Rosh Hashanah",
+   "link": "https://www.jpost.com/diaspora/article-908472",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-13T22:43:41+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Fighting Antisemitism Again and Again",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ZTkdsdUg0UThnT0tUQV9FYzdGeGpLYTY0MHp4ekJvWkxScjdSUDRmNXhEUTFjRlZkeC1hY2xxLVZvNVNyLVE2SFNnWlNleW9UR3RGSHdldG9TOEZ2d1hWSXVDZlhpVG9paEFoS1hUek5EY0hMaUwtakRR?oc=5",
+   "fonte": "The Times of Israel",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-13T20:22:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Opinion | Antisemitism Surges 25 Years After 9/11",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOLUo2clJ0ajh6Y3pSdThPaWhmWm1yUDFNdTdDNl9TN1F3Q1VJVDRCaHFNcmFJRDVsS3hIbGs5endUMVhOTC1Tdk9vUHRDMUhRVm5BQ3paWk9FQlNBMWl4aE84UE5JaENCTTE1SzFNOHZaLVBkb2RGbnQzR2ZQOWRIelhB?oc=5",
+   "fonte": "WSJ",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-13T19:24:21+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "El ministro de Cultura de Israel pidió revocar la ciudadanía de los directores de “NAZA” por “traicionar al país”",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUThxc2I4WE5XakZvWVVjZ28xZUtERXVrSnY4bmlwRHo4elV1ZVRFWVRnS1ljandBaGNlRnI2VEJRQnRaV0tvOVROOWdPd2xSV2VXdmFxa0lUa1Z0UjRsTTNyMmstZG1ZY0pqLTZ5Y0RYdVBYNHdrV3NPTU9WN1hHMktIdkxRQzFQUk12QXFvSXVYOFY3TFNDeHpWa3JPbjlJWkxNekJBd09KaWNQVmF4OFNJRk84aEMwSkhQMVFuMU5BT2I0RVFndjl1bDNKTDdqV3MxTA?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-13T19:15:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Lituania cerró el aeropuerto de Vilna y la OTAN desplegó cazas ante la posible presencia de un dron",
    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTFA4ZWFTZ2RJZkE3M1NFN0p5ZFhVekZkWVZyQnhlb3J3azVnY1Biek1vaEdNMTVSOTlKQ3Y3NnloWXBzN2VNM01McUhHdmMxYXlwOUwycVhZVm1CcjZkVEFtUFl1MG5TRWd0Vk9uZ0NQQ3gyNTVhcThRQlUzdkFSV185Uy1BUDN3ajRUUFJnZzF0OW1VX01PNF90LXpEdTRnZ0VwOW16ZXNYVWwyWXZ4dE4tNWlSWlRjcndqSE5Bd1hhSkJOb19ZaEVHencxN0tJRUZR?oc=5",
@@ -320,6 +360,16 @@
    "via": null,
    "feed": "fwd",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Três em cada quatro líderes de terreiros relatam já ter sofrido racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOM2d3Zjd0QThJVFo4SlowYjFCUi1iczRCMlR2YkJTajFodDFlS1RDNW5SQ1pXOG5Ca0lGYnM5WF9kalNSdWowUVZISTdsYTVGbzZSUnlnajVuWGc3SWRRWktGdWdBc1RYRkZuaTItT2I2TUxRckxUajR0R1BZdkp6Y29hT3NfVUNXZGs5eHJZTVpQdUY0VUx2WnhRMS00RVhuNVNoNlhVMC04dHp3UU8wMmgtV3JFeE1yT2dELVRJWXhZb1ltT1NacW9vNW1QcmxOeGdfdnlTMG1LWVZ1dFRQdDJXZ3pNZTJhdm5HYWVCeENoblZJZmtyRDlFQdIB-wFBVV95cUxOM2d3Zjd0QThJVFo4SlowYjFCUi1iczRCMlR2YkJTajFodDFlS1RDNW5SQ1pXOG5Ca0lGYnM5WF9kalNSdWowUVZISTdsYTVGbzZSUnlnajVuWGc3SWRRWktGdWdBc1RYRkZuaTItT2I2TUxRckxUajR0R1BZdkp6Y29hT3NfVUNXZGs5eHJZTVpQdUY0VUx2WnhRMS00RVhuNVNoNlhVMC04dHp3UU8wMmgtV3JFeE1yT2dELVRJWXhZb1ltT1NacW9vNW1QcmxOeGdfdnlTMG1LWVZ1dFRQdDJXZ3pNZTJhdm5HYWVCeENoblZJZmtyRDlFQQ?oc=5",
+   "fonte": "G1",
+   "escopo": "br",
+   "publicado_em": "2026-09-10T18:45:26+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Mônica Bergamo: Promotoria da Bahia investiga Marçal por dizer que 'todo macumbeiro é um derrotado na vida'",
@@ -632,6 +682,16 @@
    "categoria": "Observatórios e entidades"
   },
   {
+   "titulo": "« En Israël, la politique génocidaire n’est remise en cause par aucun parti susceptible de gouverner » : entretien avec le philosophe Étienne Balibar",
+   "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQbENsQ29jMUQ3TnF5ZjNUZ0h6bzNhakwtYUxNejBkcGt6TnRJeGF5QnctVGNHUFVnZ0tvXzRxR0hVVTFwMWFWLTFSVjVRTUZLaUdUSVdkRVl6bEpzYTZYekZmb2F6SVpMZXpOakpZZ3BxNGNRU19LNlNMY2djTXE5R1VPMXlNN2Y4NVkwVlhzN1ZMQkoxdmRQYy1iWjZIUENiTllTcGlUX011dWREQjVjREpDZi1MNE0zWFpRNFpyQ204Z2tkTWtCNlFaYzRZbDZRTEVwY1Y1Y0psbS1BbmFTcXFDTmJJVzl4NlVBNUFiMGxfblRoUEg1eDBYWHdORmJHZUFhLW9rZy0wV1hCdmJ0REdR?oc=5",
+   "fonte": "L'Humanité",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-07T15:02:38+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Mauricio Stycer resgata em livro a fuga de sua família da guerra e do antissemitismo",
    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPc1o1RXpNT1ZQay03RWZvVUVLMmFSbjJNTG1ZcncweUg3c0FqYzFTcy1XdnFMYVYyTWFNYmhzLXRkYlBTUFF6dHViTGYxRUJTNGV5SmE0SzJFVDFyZDBCNHBUOHl3UURSNGVkWU9nRmJUS0FGbHJVYWlPRV9rN25GcWp6bDVUVmlMVm1KLW12UUxtQnE3bV9IMVBfbDZpd19UWUVDZ0xuWGs4R0FuOFZVQ283cFBsMjBXS05oVlRCVmp0MmFEUDY1Nm5zSUttMjcyWTVMQw?oc=5",
    "fonte": "Folha de S.Paulo",
@@ -669,6 +729,16 @@
    "publicado_em": "2026-09-03T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Projeto decodifica novas formas de antissemitismo",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYW5NYWZHMGFjOFFZVHVuYk9weWxxbFREUTd6dXIxaFh4UEVfMGJlZXZpcHdjbjJhSWhncVRtelpxVHVmUTYxR2ZrRG1wSmQxLXZlSEg5b2xzWl9obERpTzJ2eWl3aGpiRkU4bjlSUUxiVEhWQ085dFE0RHRTRndHSUJBUmhnb1F5UVdjbGZvZ24?oc=5",
+   "fonte": "Estadão",
+   "escopo": "br",
+   "publicado_em": "2026-09-03T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -800,6 +870,16 @@
    "via": null,
    "feed": "fathom",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "VIDEO: Rosen Calls on Senate Colleagues to Support Legislation to Fight Rising Antisemitism in the United States",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVU5hTVVSSkpUTkNNaTRONDQyWnRfZUF1Ynk4bV94eXQxUW1Femd2VmphaDVFWGpRRTRyaU5Oa2NPX0NWX2YzRG1TVGc5RTVBR0hpd25lc3dNdzgzS2UwSlVTTTdZMFhkR2xwT2xoNndEOUhhUkZSbFpNU0dyQ2UyTV9jX2J3M2F3UUpSdm1GQWI5azlWbTZwc2pNQWxCSkNnMVBoMmYtdXZnbll5SkpvUVZLbi02STdleHRxMW9Tb2F4ekc3dDdzSnJzQ0lBM1AwOEVfc1RBTTJHVDQwSFZYbDFFY2k1X00?oc=5",
+   "fonte": "U.S. Senate (.gov)",
+   "escopo": "mundo",
+   "publicado_em": "2026-07-23T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "STF mantém condenação de Rafael Tavares por crime de ódio e deixa vereador inelegível",
