@@ -2,15 +2,25 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-13",
  "semana_iso": "2026-S37",
- "atualizado_em": "2026-09-13T04:29:14+00:00",
+ "atualizado_em": "2026-09-13T11:35:51+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 77,
- "no_brasil": 18,
- "no_mundo": 59,
+ "total": 82,
+ "no_brasil": 19,
+ "no_mundo": 63,
  "itens": [
+  {
+   "titulo": "La Policía investiga un ataque antisemita en Berlín",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQV3Fhdm8tVU51dkh5V0J2WEljWFRZdWxzNHc5RjBNYzBNeVc5SmtnY3JIbWlBRzBKbzlXRVpQbTdCR29FdWRET0FQRWdlUzBHakMwLXlESkdYVlVzZGdSR1I0WDFTY1JjV3RpcFlJdUNTTEU0bEZfWDRtNF81UkljQXVPRU9MTS0ySmMtZ2dPYnVsY1JSY3M3YUx30gGaAUFVX3lxTFBRV1BBTVZzUXNrXzJGNzRxd3N6VVBZaEd3NXM4ZlFZOEtHZDM3WEJ5dEhWMGlCcTJPMnJQRW9URGVISHJUbjBaem5QSFo2QkNMeFFzYm9DakJRSkh0cUZQbExuVzNmT3JfYy13cVBFNnNUbnYzbjJlVDNKNmlMaVFoYjNBT2N3VnkxZDV5SU9OaU5GdnppRWVsNEE?oc=5",
+   "fonte": "DW.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-13T10:40:10+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "El lobby sionista (nota I)",
    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5YcTFoWW1jUHU5bjcxNGlfM3piTjVoU21SeUNrU2o0WDZkTHNlWm4weFVhemptSDRwSDFPZWVuTnVHSDc4c0xQdDduTzgzc196aU5RcEZ5OGZUcWpqQi1mNEJObWRIbkx2?oc=5",
@@ -542,6 +552,16 @@
    "categoria": "Observatórios e entidades"
   },
   {
+   "titulo": "Suède : Des Responsables Juifs Alertent Sur L’antisémitisme Au Sein Du Parti De Gauche",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSVBCbl9PbHZVcWtuaWw2blhoblZmLTZST3laeFhkbGh6S0FPX3o4cTR6NTJWSHVfRnFiZWRPbG9mNV82YTBMamNERFZzQ1FWTF9NU3dLeHdpcEtBT2R6SVAyU1JBVzFILXpiUXdtWkRYYWF0bC1CdTlQeG5TdEdxZG5TaXpRWTVvanVmUDVMVlBZWkNFdW01YS00WEk4cmR6SkVNRnJiWWlGdi0zdHdhMUY5NUtSUEJheVEteG1CMU9pejd1akhYMVdJamZvbFF2cFdoUWpUNUw?oc=5",
+   "fonte": "i24NEWS",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T05:19:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Antisemitism | History, Meaning, Facts, & Examples",
    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBxRnNldnFQbVE3amVrY3RtZHJ1OWo2cHRkemVuY1c0SGNBYjVUQTdhX3JJcnl0RWFPUHdBZFh4Rm5YSHlNRExrTkZuQzhkYjQxNlc5cnRIT1E?oc=5",
    "fonte": "Britannica",
@@ -607,6 +627,16 @@
    "fonte": "Folha de S.Paulo",
    "escopo": "br",
    "publicado_em": "2026-09-05T16:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Confederação Israelita lança atlas e plataforma para identificar manifestações de antissemitismo no Brasil",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxORHZ1TWVTb2xWcl9aSjlxU19Kd3B6WnJyeHl3bVBEakdSVWdyYlhFUFdicTlnNi1Hb3pPcGNRemgzd3JiR2lLSks1cVlTUG1HdXMzdVVwalYwZHBtSGdBWXVNWURmd2tpaVlJdUtlS2hLN0d1WHRPN253cERlXzFXQlJ5YnI3WTRjWGFkVWw4REpQazBxZHJoNTNSX1JfYV9zVjhVNTZQUTkxb21CTWd0Rk00QUs4UW4zNEdqZktyVHg2OGVvQWxoMm9uMnhyRVhseTh0SVd6QnI0VnhXcnFPeFVIZmJEWjRuQTZtUTFLVEM5bDBGbGtQRWgxQm51d9IBjAJBVV95cUxOQ0tYLUEyU0J5aHBHZkRxdVN2NFNONEk1VUhyVVlRQVZCem90YVBpXzZZT0ZfdW45NHJYVnVGeWI2Tl9kVno5c2xMWFZtcUREUEpiRFhIeXBCUGJCdWU3OEU0M2FaZ05MT09YQUZnMExkMkx4V1F0Zkh4Yy1HbFpQdjh5TVctQXE3NXBMcXFmVHk0TDNkVzhJUzVqTS1VVkl2LW00SUFxYlVNWnh2RUVCeXlwVk9oYmJEcFVPdGpsMncxWWhTVWZxOWZKU2NpZzR3cnRhWFF6V2RianhURVJxV2dDNUxfLXYtYWpuMEdiT3lkejZZakp1YkVLb1BCdTh4Rk12VEd1cVRtOFdQ?oc=5",
+   "fonte": "O GLOBO",
+   "escopo": "br",
+   "publicado_em": "2026-09-04T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br",
    "categoria": "Radar por palavras-chave"
@@ -702,6 +732,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Menaces antisémites dans un supermarché d'Avignon : le suspect sera jugé en octobre",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYXJsbFk0YmtnQTBhN1pmdEdrbEhHcGxpbmVRNVRucWpIa0ZjMTZIRTV6Q3ZMTGVqTzBlSUI3T0FqaF9fVmh2M2FPR1dZbWhDQlVWRkNkelhfZUkxTnZZdU1lOUVjOEJTVWNCeDF4ZXo3MzFZVG5jSFNlVE9uU3lmeU5xSXhEV0VxbGJOcjNtR2dyLXMtQ1NpSlJLWWI4ZG5KRE0zbVI0RG1zMEJINnM3RWNBWGNTUkXSAbwBQVVfeXFMTUw2cXBZSnBCcXg0SGgtUFVyeUJyLXNib3htSWJKV1ZZQmtDdjFxMjdLUUU0YTlSVHdMZy00RUNGazZBRjl0RDhtdzg5Yk53OWJlUWJZVnpXVF9xVzdVZG5rQnJXX2NDbEZPOFRmTU5BQ2JhYkV3VHltdG53Vm9RVjhaVnVKWlllZGYyOGxRMWhLaXlYUDE0TVJ6c1U5UkE2RkxvZUplOG1BWEh4Nkx5UTFTb0ZHZGo2blZERGg?oc=5",
+   "fonte": "CNews",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-27T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "De Zárate a Irán: la larga sombra del antisemitismo en sectores del peronismo",
    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMXQ3cFh5VDVKeC1vRERXSjN6OXdsSElXZFdqNEROVmdqRjJUQTBSRkVrWWtkUGNiZDItWFI5YU5kNkQ2enhOWG1VdHBmUGlmTEJCbkRlcTMyVmJWWWVkMmRScm5DcHJKem9yWWxvT2lxQ05yV1RnRmJPcWRfYWZtNXFZaVQxbkRMb1hZMHZaYWg5SUdwVVNhS2pUYmNzS1M3czFlaXd2ZjBmLVFzRDUtQTY1a0QtM2QwZXpxOU0zSEFOMXQ40gHKAUFVX3lxTFBkYURRWVIyb3hQam03Ry04bWtRc3hzTlBRTWhJZ1llYWRWa0NDMEMtdUQ2Nll1MHNMMURRWldrME5RVmVjSHV6NWd0cGhZQXl4WGhaQTBobGJwQlQ1OERkTGItVzJxSGl6Ti1HUE9lZzlyMXNGbGotSE9Ed1Q3Q21zTEFZdHotUE8zNU5DV3BkYnZITTVLbFVpRkI2T3F3UC1QTjZoQm9PM0hJN3RTQ0MxX2dOcE91bjhNVWk2SzY1MWoyVndER0NUVUE?oc=5",
    "fonte": "Perfil",
@@ -709,6 +749,16 @@
    "publicado_em": "2026-08-25T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Isère : Nuñez et Bergé dénoncent des propos antisémites d'une commerçante de la station des Deux Alpes, une enquête ouverte",
+   "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPajFfYWlNaHAtNzRXOTRLVXZHblBoQnRPN3VNc3ZiMVd3ZU1hZ3JuUFUwTFdHMWVnLTQzSUVTMUR6YUh1UnF4QWdFVC1nQnJNTFhZbWdKb2hoU3plZThDTXlNODVFSkRSc2hPVjFLLU9iNXZDa1BaUnlBaTJLSHU2eE9GNy1QcVQ2UnRRT2hEcmJkMDNNODNzcmlaVE00YWdZRjhwR3FSS0g4N2Jraml6Z2FoWWF6eVFjbGFxb0UtTklzWVAxWW44ZjZOX1N6SFJVR3UxZkJDb09nNzhfblNTaFF3OGlQQ1F1bmRoVXA1Sy10TlBjZjhJZVdNRThZOU9RRHRTRDlFdXRkRzFvZFdHdElEdjJIUkZuUGdvSA?oc=5",
+   "fonte": "TF1 Info",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-15T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
    "categoria": "Radar por palavras-chave"
   },
   {
