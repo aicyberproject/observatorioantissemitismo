@@ -2,16 +2,95 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-14",
  "semana_iso": "2026-S38",
- "atualizado_em": "2026-09-14T07:48:53+00:00",
+ "atualizado_em": "2026-09-14T14:56:37+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
-  "The Times of Israel: HTTPError",
-  "Fathom Journal: HTTPError"
+  "The Times of Israel: HTTPError"
  ],
- "total": 83,
- "no_brasil": 20,
- "no_mundo": 63,
+ "total": 99,
+ "no_brasil": 25,
+ "no_mundo": 74,
  "itens": [
+  {
+   "titulo": "Antisemitismo: Una mujer en Berlín fue atacada con una botella de vidrio rota por llevar un collar con la Estrella de David",
+   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOZ1dRZHRDNmpiNkIxbUpHQ1diRVFQbERjQUtkcW9nSGZPUl9GWVFWcjhKSW9VT3U4OEJqbk82TWlobEVVRzExanl1Z3hxbEpMdG1iMjBfdGlEUk56U1MxOGE5dzkwanZBOEZ3UHFOYWF1SHF0cUhyNW5UNUlyQVpEaHNrUXpRXzg3S0QtVFV1aURMZ3Z4Mk13WVFJUExpc2QwY2F3SVF5Nmp5Z1FVQlFwRVVrcWgtZHhCY0ZGblROME9kRTYzQmZFempUQmdzQUY1ekd2eXloRXpZY1F5WTZtVmI0ZHlCRDBMSDYyZmtDTQ?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-14T14:43:05+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Rewriting 10/7, the Gaza War, and 9/11: How CAIR’s ‘Back to School Resource Guide 2026–2027’ Distorts History for Muslim K-12 Students in US",
+   "link": "https://combatantisemitism.org/studies-reports/rewriting-the-war-how-cairs-back-to-school-resource-guide-2026-2027-distorts-history-for-american-students/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-14T13:55:52+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Jewish artists face a relentless culture war over Israel. Some are building a way around it.",
+   "link": "https://forward.com/culture/849956/jewish-artists-israel-backlash-pink-gadot-publishing-shooq/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-14T13:06:09+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "‘We return changed’: Michigan synagogue reopens for Rosh Hashanah six months after a gunman forced them out",
+   "link": "https://forward.com/news/849944/temple-israel-rosh-hashanah-return-after-attack/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-14T12:09:15+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "British Jewish man found dead near Uman during Rosh Hashanah, murder suspected",
+   "link": "https://www.jpost.com/diaspora/article-908499",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-14T10:50:29+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Antisemitism Kills",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SMEFqS0d2YXpmY25uNmY4dVZsc3FOM1NjaGRET0NSV0xxZFo1bzJ3OGRiVzJoR0E4YmY5ZXZaZ1N3MC1DRDZlXzB3N3RFNEdTeVpJaHRzY3g1S3NQWXBpYllId0ZOM0V4T3fSAW9BVV95cUxNVEtEVnhCaWlVQVBpMFl5bXN2WDdxbWMyRTRUTnR6NXlCWUlwb0VSM1BjTGJHck9tTXpSY1o1dl85RXNkZWlaV0xvMEp6NG9IQUJLbE1MajRDV2FsV283dmZDOVRaWTAtejZQZWdZM3M?oc=5",
+   "fonte": "nationalreview.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-14T10:30:35+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "‘Long overdue’: Henry Ford home to confront his antisemitism",
+   "link": "https://www.jta.org/2026/09/14/united-states/henry-fords-historic-home-will-confront-his-antisemitism-when-it-reopens",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-14T10:00:00+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Noticias de Israel y del mundo judío en español",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR3VraEN3aGM5LUROcHI1SzExeHI1cFNfQVY3eUVvMlhieDVKeE03RG5tNkVGR29XWXlEdkZ6RFVZeXBxRXFDcUJQMXBfQzFpUlo2aXAtUU5PcWVnNVlfRTM3cW5UZXFnc29RM2daRmxwa2RRZHV2dE15cURwZEJFNUJNUjlMN0xqT09F?oc=5",
+   "fonte": "aurora-israel.co.il",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-14T09:06:53+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Contra el antisemitismo mexicano",
    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBaR2VEa2l3d3g0U2Yyck9LWWRCYTZzb3Z0R3lYNHJlU25EWmw1U0pnQ2d1MWhMR0FXaUh6QWk4LUJhdDN0V2pBZlg5bVRYYXNVYVJfTGJYZi1lWUl4dUV1Y2dMQVRaSGF5SlkzdEY5Nlo1Zw?oc=5",
@@ -753,6 +832,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Plan de lutte contre le racisme, l’antisémitisme et les discriminations liées à l’origine (PRADO) et Plan LGBTI+ 2026-2029 : le Défenseur des droits publie ses contributions aux deux plans nationaux de lutte contre les d",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeW1zcjlVVHVEMnZqTEVTZjhibEJpUGk2eEJodi1HTFoyN25fNDk2T1N2TWNDMDVNZDJ1eUVIQmEwUGFZaHpUaWxnRTE1RzA1dW9mUGZXamlUejNlM2tBZWlEa0RxTXFCSmFzV0RRUUUxRHV4U3VFaUVlaFlUZUJyTnVFZFItR2hCUERnaFV1V2FtdERUWktYVDFjTHh1STIxdkdITkNKRG1zS1lFdmFnNEhwTG9HYWcwWEpNMDJyeS1oOEZnVW50Q3BUS0c?oc=5",
+   "fonte": "defenseurdesdroits.fr",
+   "escopo": "mundo",
+   "publicado_em": "2026-07-30T17:36:13+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Fight to block California antisemitism law ends in defeat",
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOS09Delk0alZ1Vm9jak55MUJyY2NJb282Ri1aOXBLNk11NHBVMk1sNDFNa3paY2hSdzY4U3owcHhwcklTZVBSV3BRX3BMUGJoa3p0QnpndEFManVZenJGcElrYk94dzJoczJIMHhWOHVQU1Z5azF2MThCQ2VMcXk2cHBUdFhwemNIaW1XYnJmWmlDUUU?oc=5",
    "fonte": "Courthouse News",
@@ -833,11 +922,81 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Lutte contre le racisme, l'antisémitisme et la xénophobie : la CNCDH publie son rapport 2025",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbzN6cmdXNEwtU3RRMHNlZEI2V1dpcThtUGs1SDZsakRpalh6d281U0c0cUdiVkkwQ096WV9nLWZDdkdZbVF4ZlIwMWJ0eXhDNGs1QWU3OFZMY0ZLSEt3azR1aGNxV0pieDhVTnN1ZkM5a3R2b1VEWDUyT1RTR2hTa3dTdjBFWkpFdUxiaE5aTFpWaVp5Y2VlelA0bUJuWm84M1VnWjQ4S3NqTWxVcWF4dUlqcTE4cEdkTmJJ?oc=5",
+   "fonte": "cncdh.fr",
+   "escopo": "mundo",
+   "publicado_em": "2026-06-24T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Antissemitismo: a série de ataques que fez Reino Unido declarar 'emergência de segurança nacional'",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9CTF8xdmt3dVlyQU5vRkpUYVRzVUpRS0tyNEdXSlFLdG9jdlhaSG5jQXZzM0Y5RWZIRjVXLUlwVjdDM0Q1a0xJMnFYc2pOd3NLS2hFakhfOWVKZkxYQWRhaFJR0gFnQVVfeXFMTjhBT3B5THJoZVVSV0NvMmpFZl8wOU1xaE9OLW5JWlpqS0M3RVNZT3ptOEcyM1VHLXkxbkluS2ppdGFkN3d5NkRRZUZUVTUzaDQ5ZVNrNnJiN0hBNjZkdDRlTGtpOWVnSQ?oc=5",
+   "fonte": "BBC",
+   "escopo": "br",
+   "publicado_em": "2026-04-30T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Definir o antissemitismo sem criminalizar o dissenso",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcUU4RnhPMUYtYnVWNTlFME93Sk9GYk5obWhQTDlGZk5nanBoXzBVRmJRajlhTmxpTUNjTVp3QkQxVWVPZUxhVTQ5a19xMHQta3NzaUtGR0FOdkxESXVFYUtpRVhRcmdBTDNZbHhzeDZSblI4NWJSSlhPaEJqWDc4RVhEMkNyWkdfNEdxUnBZNlZkd01BWGJ5RXNmdm5HMXNpMkE?oc=5",
+   "fonte": "JOTA Info",
+   "escopo": "br",
+   "publicado_em": "2026-04-27T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Lutte contre l’antisémitisme : “Voir l’autre comme un être humain, non comme un ennemi héréditaire”- Entretien avec Nonna Mayer",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMFRXQ0lhYUpQbEtoTjZRWk1YUml5LUFtQjBZc244bFo1QVRtdFhmVlgzMlN3cFcwZGRkZURlM2xKNnV1bXg5eDNPMXZsc0swcWxZUG44b0NsUzBTbVhiandMZ2FHcEdETE9xRmk4VmhSbDl4MHA2dWdKaFoyajE1Vld5RWdTa1BIQTBvcWNzcTVtUQ?oc=5",
+   "fonte": "Amnesty International France",
+   "escopo": "mundo",
+   "publicado_em": "2026-04-20T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "STJ: Suspensão condicional do processo não se aplica a caso de preconceito religioso",
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTktaT3ZFdVRGMXlicVNybzZIMnlnZXI3cGJyeHplQ0xHYjF0N3ZrNkN1cnQ1YjBFVGNOMlR6S0l1OEdRSnhCYnNiWTRsVndtaTkzUzEtOEhFc1k5a3AzdGhWM2lQQUMyZ05LZThsb0pJOVI0VWx3VUpVeENGeS1FRUpZdy14QjU1TGpTdGpTSmRCbnhSWUFRQnlkeUFJSXFEOWd1ZzRVYzFzT0QtdjlRSw?oc=5",
    "fonte": "Migalhas",
    "escopo": "br",
    "publicado_em": "2026-04-06T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Projeto sobre antissemitismo gera crise e polêmica na Câmara; entenda",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONTI4cWVPdnZFTVh6dHZESEJuSlpLOUFiSjRielNMMHlMOXNqdEJIWGttQnBKNWExZml2NE91M1NWNDRqUnJib0xUZnl0Q0lMZ2V0R2dhVnRYdjMzZ0c0eVhlVTlaZzFDWGpjMFk3M2lxQU04LThuZHlhdUNjc3VQamhmdTF6ZHBXaURCdmllYXo1SXdXNWwwWXpDY0k3SUNya3hr?oc=5",
+   "fonte": "band.com.br",
+   "escopo": "br",
+   "publicado_em": "2026-04-06T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "A verdadeira prova de antissemitismo",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQWdYblZYWHZaUFp2NzJ5UXRWTnpKVVNPb0J1T3JRRFhmOE1yN1NhX3hjTmVYVFVJd2dZNHVfNHprSnZEMHNEWF8zUmxQd19rcVpQQ1N5aUtCdzF5STlhZ1VyQUtueWNjZ2oyRVNaNi1ESktpZW4ySUlHUnk3VXkwVnl5VV9tUkxhX1M4WFNwS2hsd9IBlwFBVV95cUxOMmN4YnNGaXlVZmZKRzUzNVE4Y05KRVB5NkUzTVVsZ2Z2aFhVMjdHTWFNOFRma1VFemNfZERvd1A2cGlsN1dweFFJV3hZRFNfRmMzeGdrQm9ndmU1cUJfVHVnTTlMc1M2ZjVSVmZpaDlRdG5sYUV1d2g4NVF4a1BVZ25ZUERyMktJd010dG93ZXdtN0dacGY0?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "escopo": "br",
+   "publicado_em": "2026-03-18T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "O antissemitismo",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSWd3bjZkank4UjdPc0JIbkFJOTlqdG43XzRwaU9DLVQxRzdDbU5OOFdSTVg4bHdYMWRkeEh6bXI1Ymk2QVZnUzBYUnZwSlFWWDc5RG1MZjhGNWV4SmtYVDRCVWVYZElXNGJTZE5JYjJtZE56VHNLM3J1dnRJaXhsTGlVX1ZPeTRiTDl6YmJPQk90dERVQzdjcG1sQ2g3NDQ?oc=5",
+   "fonte": "Migalhas",
+   "escopo": "br",
+   "publicado_em": "2026-02-10T08:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
    "categoria": "Radar por palavras-chave"
