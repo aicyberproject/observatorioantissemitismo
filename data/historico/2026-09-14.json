@@ -2,15 +2,36 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-14",
  "semana_iso": "2026-S38",
- "atualizado_em": "2026-09-14T00:02:18+00:00",
+ "atualizado_em": "2026-09-14T07:48:53+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
-  "The Times of Israel: HTTPError"
+  "The Times of Israel: HTTPError",
+  "Fathom Journal: HTTPError"
  ],
- "total": 77,
- "no_brasil": 18,
- "no_mundo": 59,
+ "total": 83,
+ "no_brasil": 20,
+ "no_mundo": 63,
  "itens": [
+  {
+   "titulo": "Contra el antisemitismo mexicano",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBaR2VEa2l3d3g0U2Yyck9LWWRCYTZzb3Z0R3lYNHJlU25EWmw1U0pnQ2d1MWhMR0FXaUh6QWk4LUJhdDN0V2pBZlg5bVRYYXNVYVJfTGJYZi1lWUl4dUV1Y2dMQVRaSGF5SlkzdEY5Nlo1Zw?oc=5",
+   "fonte": "Nexos",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-14T06:03:28+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "A ialorixá Mãe Deca denunciou ataques de racismo religioso de um pastor contra o terreiro, no distrito de Acupe, em Santo Amaro, no Recôncavo Baiano. A situação foi divulgada neste domingo (13) pela Associação Brasileira",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zZm44NUVRelpGMkFyZXVmWk9jLWJlaWs2a0N1Q0pGS2hna0s1VGN3WTlFaTRUdENoMHc2aGRVN01acEFSTW05cjVsalNvbWpHTkV3Vkxn?oc=5",
+   "fonte": "instagram.com",
+   "escopo": "br",
+   "publicado_em": "2026-09-14T05:27:34+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Brindis de Rosh Hashaná contra el odio y el antisemitismo",
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNT0ZrMGtUM2ZFTXVwa1V2N0pzeE9uZzRNZ1F6cHJzbzRQaWNCQnFhektkREtBbUhLaGhWb0lUUWptVW5EeFlxWGRiU1lyU2EyYVlGeFFQcEs3R2VRbV85bGl3SklPOWItMFhNRzBIZWRyTFJpbkNEVF95RXpocW1OaC1iZlVxV3QtZlhNY3RhbzM?oc=5",
@@ -452,6 +473,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "Accused in Central Synagogue antisemitic spree while claiming he was God hit with new charges",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOYTY3LWxxN0RXU1NNZnAyVzd4eEV0M0FPTkZtWW50d0NaLXJiZ2ktZHVHYVdoYWgteUlNd0xHSGxsUFVuN3VKbTg3bklDVFBvVkhPWVJZS3ZzLUNETlR1eGU2SWFHcjdQamZpbXZBQlZ2akQ3aUtiWmItbjZkYUplQ3ZYVjN5ZDNZX0tDd0h0QUNhZjVJXzRreGVwQXM2a3dRWnNsR0NOekxsZk9sWDRpM3hwbGRGTEtOcmM4RF9JaEJKUEI4c0lUeU16LS1yZw?oc=5",
+   "fonte": "New York Daily News",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T20:09:10+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Danny Danon veut faire de la lutte contre l'antisémitisme une priorité pour le prochain chef de l’ONU",
    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQSDZUWVFEQTh6OXlxSjVxNTVQandZajBtTEVuaUp2S3UwNUl6SndIYjRRYkJkU0VOVHhMVW1VRTBYdXhCX0ZheTMtWWhzazB4eGlsS1RmSHhsT3BMdUhOOFliWUpRVUwtQ1gtUWxJOUtrUEo0azlNUXl3S2RWT1AwWUFfcjFUbE9McUJGQVIyc3ZqNGNmbG8zNUxVRW54UW5BbXd6MlRxYXBpMEpvY3ZFekdWM0dtUkVISF9iVFpsS0QwbVNNVGhuanVpMG0wMVlOU0FpNEJVYXl0TW94Sk5nVWpwRmp4NFdmZ3lOeHprbmI1dExBcUE?oc=5",
    "fonte": "i24NEWS",
@@ -470,6 +501,16 @@
    "via": null,
    "feed": "cam",
    "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Câmara de Parauapebas abre processo de impeachment contra prefeito por suposto racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNY2twQUtWS3lwbXBUUk15UWFCaDBuVDR1cmNOTFFfQUZ3TFQ5YVJXZFlrZG5mNHExemZTd3U2U0g1eVRSeUg0NTR0U2VhTnNJbXUtbE9kLTFZcnhWS0tZMENSMUZndk9RS2tRV051SXlCaWNTTUtmZ2J3b1F5MHUwSjRsdnNNTDl2NVcxbXZEQnNIWkU3S3gwNzctNEZNRGZ2LVY1Qjg4anFJckVVM1RMU3p2aExLcFYtQ2I5aHJGenFJdjZyMnA0NkZ2SnduUTJlbHprNk1QN2dFY0F6SktGQVUtSlfSAfMBQVVfeXFMUGFwOW1iUFpBR0RHTVZ6RUtINnZLYnJkc1FROXUwak1GLW1SQ1RUM2ZZOUIwMFV0WnV2SE1TNDVTMmJEOGp2Y0VjYndoSjUtRHlMMUFfbHZybTZBZDhtaHduX1Jid2toQXBUcXlYbjdoVjFnUDFYVjZpWkI1bkVkTEpmTkFOWkhReGZvekZDTGlqenNJQXc0R0tWZmhhSlVwYWxHWlpub1RGYVBCMVprQWZLRFhlc0VteVFCQzZ1MXkzYjFCeUFNSEk1bEhNWkxNX3J1bWx6Q1BmUXB5TWtUTFB0YVBfTllsSFVQOVpzamJNY05n?oc=5",
+   "fonte": "G1",
+   "escopo": "br",
+   "publicado_em": "2026-09-09T14:28:59+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Portuguese Comedian Quits Jerry Seinfeld-Headlined Festival, Accuses Israel of ‘Genocide’",
@@ -517,6 +558,16 @@
    "fonte": "Britannica",
    "escopo": "mundo",
    "publicado_em": "2026-09-09T05:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "RELEASE: Gottheimer, Stefanik Discuss Combating Antisemitism on College Campuses at Vanderbilt University, Launch New Bipartisan Caucus on Campus Antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOa2lyVmRQVnpXZ0ZYcWdHRnZfdUhyM3BUZWdoMVBOS2RNZzQ2OV8zOF95emN4Tk01c09tWXVfTDFYZG9vbFYzSE9XVzBPOEJ6MlM5RXRDU3JVay1HVDBKSTlOai1ZUzRxcjRDbGM5cDFFcEF0QmU2YjdBdTVzWF9DY2h3NjB2U3N3QjRWbXA3bzVuYVNPenl2YlAwMTE2ZEF5TEhSWGswRjVEM2JQaXBwTF9TejdRcVRUQWhxQkRiaFltVVFXOXprcmRHTjFQMTgwRlZ6ZWs4U2VycGZYbW5tb29JU1JEcEVvZmhRQTRnMjF3Q3lPZTdBSDhqbzBxRHoyZ29FcFdadHhqLU11Z05KNEVuX2JLTGRYQ2c?oc=5",
+   "fonte": "House.gov",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T01:08:11+00:00",
    "via": "Google Notícias",
    "feed": "radar-en",
    "categoria": "Radar por palavras-chave"
@@ -749,6 +800,16 @@
    "publicado_em": "2026-07-20T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Jornada de reflexión sobre antisemitismo y discriminación",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeU0xelpYZ2plbFFmU2dwVlhvbHN5clk5M3k1SGQ4aUR4NHFxOWVLSVRnODljR1FQU096S3haT2dFTFMwNHNIZzFJN1lUYVJwaEJkS21FaUJac01EQk9tUUo1dGNEU0N4X0I4V2J6MDJVWlAxQy1QUmpRaHB0YUNIeTNPMzcxMklwVkw1eG5ac2ZyOUVwamVxNE1nMHNVZjBscmlNeU91Z1hDSDZLV3Faa1BtRFM?oc=5",
+   "fonte": "consejomagistratura.gov.ar",
+   "escopo": "mundo",
+   "publicado_em": "2026-07-20T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
   },
   {
