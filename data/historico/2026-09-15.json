@@ -2,16 +2,96 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-15",
  "semana_iso": "2026-S38",
- "atualizado_em": "2026-09-15T13:24:55+00:00",
+ "atualizado_em": "2026-09-15T18:05:17+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError",
   "Supremo Tribunal Federal: HTTPError"
  ],
- "total": 89,
- "no_brasil": 25,
- "no_mundo": 64,
+ "total": 103,
+ "no_brasil": 26,
+ "no_mundo": 77,
  "itens": [
+  {
+   "titulo": "Toronto mayoral candidate challenges incumbent on handling of antisemitism during debate",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-908703",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T18:53:31+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Antisemitic 9/11 libel has become gateway for broader conspiracy theories, study shows",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-908701",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T18:36:27+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Campaign Against Antisemitism documentary exposes antisemitism in British healthcare system",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-908697",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T18:13:47+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "When It Comes to Security Assistance, Jewish Americans Must Be Careful What They Ask For",
+   "link": "https://www.algemeiner.com/2026/09/15/when-it-comes-security-assistance-jewish-americans-must-be-careful-what-they-ask/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T17:51:26+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Hijacking History: The Antisemitic Campaign to Distort the Truth of 9/11",
+   "link": "https://combatantisemitism.org/studies-reports/hijacking-history-the-antisemitic-campaign-to-distort-the-truth-of-9-11/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T15:17:06+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Teen slashed in Brooklyn synagogue by fellow congregant",
+   "link": "https://www.jta.org/2026/09/15/ny/teen-slashed-in-brooklyn-synagogue-by-fellow-congregant",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T14:29:02+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Royaume-Uni : des patients juifs cachent leur identité par crainte d'antisémitisme dans les hôpitaux",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQRFJBQ0dPMkVPc0YzT2N1R3dadTJ4UmRpdU82Q1MtV0V5bzBZQlVFMHlmeko4S2FObUNUajdaZW9HenBKWFVsOGNXWUtEd1pfS0VPaXVmYnFHUlg4TXEzMXltdkJfSXN5UDB0Q2ZnV2FqZzZ5Z05OTWt2eGE3ZlZmcXZmRHVzUjluaXNKbTRJcXZHbDBtNVoyQ3pFM3U5bFA5eUlBN0R3dUpWaFBVYnFtcVNaS0N2Tld3Vi1yMmJwSlRKU2d1MjFCUDhpdWxpaW1jcVJ0N1JmWjAzS0RpTGdFN0JCWW85MXdzbFRj?oc=5",
+   "fonte": "i24NEWS",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T13:31:25+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Em Palmas, 66% dos participantes de censo sobre povos de terreiro relatam intolerância ou racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPT2ZuU054U1cwcmlXYjZWLTZqMDdfLXBrUmJXUW9RaHVlWDdkZ093LUkzS1h2NVZOTDc1YzBYSWpEYlZPNDlONkRVTFRvRDlyQTZRNmFCMjQwcjNoYjlaTENlMFVaSVpDd04xcUV1akJ5ZmR6bmk1X2lmWGxEaDRuQ3ZXQXR3WEx6VFozUEdsRld5WnhILXQ4cFdubFRWMEtWQjF3NV9pQXJMRTQyOEM0WjlkZmlvRnJtbmlGTzRjR2VDRUg3NnlFczdzMnNPaG81ZFRzeVFn?oc=5",
+   "fonte": "Sou de Palmas",
+   "escopo": "br",
+   "publicado_em": "2026-09-15T13:29:39+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "British healthcare system rife with ‘malignant’ antisemitism, watchdog alleges",
    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNmJTVGZEU3N3RV84TG0wS2xCLWk1QkJfY2J3blUyb3B3czB6VHItWGdKNmlPYk03eV8waVFJaFdzenNhMWdUb3RjWHVMX0VXbGFtVTRMX29IVHZsQnZnNnRrdEgyV18zRFZTbmFlUWRwSVVGUlRiMlctamJ4WmVQN0pSWG1IdTN6V3lmUUctZTg1aDN6M1RmdkNzT0xhRVRiLWFUUi03RVIwUdIBrwFBVV95cUxOMWcyTWpGQkVBX1VxMldVVDF6UjhSNjdXRWEteE5KZlVhT091M2xMdXhQWVQxUmkxS1R3WmxzX2xURTJUV011WVBFZW51SGtZRlY1UWZKS2JsalJRdjdpZWVEV2ptQlpVRUxCNU53YlVrNk5fN2JqTDNwYktiN2hKQXBMOFoxbDBCVFBkNUF5RHV4bkNYdlZ3THB2YmFYRXFoWXRIWUpjQXNpLXlDMjFv?oc=5",
@@ -20,6 +100,16 @@
    "publicado_em": "2026-09-15T12:03:48+00:00",
    "via": "Google Notícias",
    "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Noticias de Israel y del mundo judío en español",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeUdlNk5WSHM4VXdHU05jV0pVRklDY3FJMk9MMEhSdFN0MTZhc1JWWmd4UDJCWVg0UHVMMDdEakl6dFZqaDJFYlZTcUJwRF9JdkdEdWstQmxMVGZoVUxCRC1vVUZRb0ZGOGxKUW9NWVZjX0Y2VlFPZXFWeWVsQ2hRZWZjZWdTNWVuQzV3?oc=5",
+   "fonte": "Aurora Israel",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T11:17:32+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -63,6 +153,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "\"La plus belle façon de lutter contre l’antisémitisme, c’est d’être fier de son judaïsme\", insiste Shannon Seban (LR)",
+   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQX0RZend5dXl4WmI0aG9hNnJVTDFIV080aTdxZDhpdHJaWEJRZDFlLVBVaUl3bjdHMTVfZkJKYkw3aTlBc0VKZjNkYjlGb1huWnROcVJxSGtuOEJjN0ttRVl1Nl9iT2djU09CUHFfZTVfUG90VElqZE5BV3ozMENfMGJHYlNwNTQ2VDBkZWt6SXNUbUhLdmRzU2k3SnBNTm8zUmJ5WGhJdHV2TDR0b1doQnhNTkprQkJsRjFWaFI0QzdzYUhpakZ4X2FhSjRaLVJENV9UR01pLWljRU4ybTBKTF9aU1p5ZmJfdEticldLMnpib1loc0FJRU9WRlNzS1ct?oc=5",
+   "fonte": "La Provence",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T07:44:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Police investigating threats against prominent Munich Holocaust survivor and AfD opponent",
    "link": "https://www.jta.org/2026/09/15/global/police-investigating-threats-against-prominent-munich-holocaust-survivor-and-afd-opponent",
    "fonte": "Jewish Telegraphic Agency",
@@ -91,6 +191,16 @@
    "via": "Google Notícias",
    "feed": "radar-br",
    "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Man Allegedly Attacks Three Jewish Teens Aboard North London Bus",
+   "link": "https://combatantisemitism.org/cam-news/man-allegedly-attacks-three-jewish-teens-aboard-north-london-bus/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-14T22:28:42+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
   },
   {
    "titulo": "Israel probing Naza film on Gaza for treason, inciting anti-Semitism",
@@ -353,6 +463,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "Harvard: la filière antisémitisme",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcWs0amQ4TkFRZnNROW1kMDNjTzJjQmdKd1Nub1lDSXc0WVZTemdZWDVuQlBBVTh6bVZlRFhDUExLZ21XVVdwRnIzbHpYRTNjcG9sZFBORGRVODY4R2VTWVd2V3d3amlKSTNpVTFXLVMzY2ZRQnNWRUg3dXJ2Y2VDT3FYNVRSNGJF?oc=5",
+   "fonte": "Causeur",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-14T00:59:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "US urges caution near Jewish, Israeli sites in UAE during Rosh Hashanah",
    "link": "https://www.jpost.com/diaspora/article-908472",
    "fonte": "The Jerusalem Post — Diaspora",
@@ -413,6 +533,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Antisemitism Charges Plague the Literary World. New Publishers Are Pushing Back.",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTnNPRVcxMW8ydWFXem9YdTFwdEhSd2ZkSWs0bHlCb3BIbUJvRWxFZGlqUUlPbDhkREVRdTE4dUp5T3NkZ3NHVExUNENjajZiR1F3RGFLbTQ5UE5mOE5PallUcTI0LVNwakZZWGxMRkdzUW9yLWRXOVA3eGhuREV2SGFPU2VfWThLcElUa3N0U1RlUHZ5TXNGY2t2MHlGdHZkRDVvRg?oc=5",
+   "fonte": "WSJ",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-12T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Zohran Mamdani, cheval de Troie d’un nouvel antisémitisme new-yorkais ?",
    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOREU2c3ZxWTJCbHVFX2w1MUFaZExFVmJNdXhwUDNjRXAtckVyNTF0Wi1FUmZtUHNEVHNCRjlQR0NCT3p5by0tclFHYUMtVVhJdU03YWlKeDB4Tko0X1dyd1ZibWJHcDU0aEhYakFsN2lrYnBhUlFuMjk5M0k4dm55NndkQVhSdUkxVmhvamlkeWlmLW0xOVBTX2lKZDV6WXoxZXVtRFZnYlBybExFREE1MnhFUFFFT2J5Rno4dDlmNlNkZTQ?oc=5",
    "fonte": "Le Point",
@@ -431,6 +561,16 @@
    "via": null,
    "feed": "swu",
    "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Never Again: Condemning Genocide and Rejecting Antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQjJhbFpvS1R5ZHdiajJ6OEIyUDUzbzBiQkRuTk5pV2dIYTlZT0phSXFXNHZLOURkMXRta254NUc5Nl8yNG9fdTUtcThiMzV3RUlBc29XLXVNbjJ3c0NDR0g3MlB3TV9SYlBuUmNkaWlqcVBfeV93VWpOSlI4Rm4yVkIxYTFtZFk5SmlnV01vUlZuNUZlQkF0OFJfRzJERXpEcFE?oc=5",
+   "fonte": "The Oberlin Review",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T21:02:33+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Fisioterapeuta denuncia racismo religioso após ser demitida durante iniciação no Candomblé",
