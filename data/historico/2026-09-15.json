@@ -2,15 +2,32 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-15",
  "semana_iso": "2026-S38",
- "atualizado_em": "2026-09-15T00:26:28+00:00",
+ "atualizado_em": "2026-09-15T07:34:32+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
-  "The Times of Israel: HTTPError"
+  "The Times of Israel: HTTPError",
+  "Radar Brasil — Antissemitismo: HTTPError",
+  "Radar Brasil — Racismo religioso e crimes de ódio: HTTPError",
+  "Radar Brasil — Judiciário e persecução penal: HTTPError",
+  "Radar Global — Antisemitism: HTTPError",
+  "Radar Global — Leis, processos e prisões: HTTPError",
+  "Radar Iberoamérica — Antisemitismo: HTTPError",
+  "Radar Europa — Antisémitisme: HTTPError"
  ],
- "total": 73,
+ "total": 74,
  "no_brasil": 18,
- "no_mundo": 55,
+ "no_mundo": 56,
  "itens": [
+  {
+   "titulo": "Police investigating threats against prominent Munich Holocaust survivor and AfD opponent",
+   "link": "https://www.jta.org/2026/09/15/global/police-investigating-threats-against-prominent-munich-holocaust-survivor-and-afd-opponent",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T07:30:51+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
   {
    "titulo": "Israel probing Naza film on Gaza for treason, inciting anti-Semitism",
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNY2FBanU0eXFlSkdlR3pZaVZxeEUzbGE5cF9iTTNNdlFvWXZwRURJM3VMT2pBcXBYTHhlWlE4aG0yUW1wSFhHUXdveTV6aVREZm9Uek1zZHRsdzN2emVpQXhsSHdzVVRuNXNCTDhLcm85eHhFMWhIaHc2aktXTFFERXB6bGpySHV3NTEwMHZ0bEFQdUJ0d3FxT041NHI2cGpV0gGmAUFVX3lxTFB0S01FQ1Njb1ZaUnladWRwc2xoR3JjVnFHclVQMzVfZXU3UDR2OXlRSHBDeHhzcTlQWWVUanU0ZTFxMWNYeWdyZWxUY0pvajFtdTdTbWhPdWMtVFBDdmlNeEJrQktOWl9nSmFKUDd2ZWtjeTNNZ0JjMUNqVUVnSmF4QkdjM25kdG55b1c2bHhrOFdUSVVxeS1fLVRfTk94QkRQaHhRa3c?oc=5",
