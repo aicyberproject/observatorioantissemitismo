@@ -2,16 +2,105 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-15",
  "semana_iso": "2026-S38",
- "atualizado_em": "2026-09-15T18:05:17+00:00",
+ "atualizado_em": "2026-09-15T22:49:37+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
-  "The Times of Israel: HTTPError",
-  "Supremo Tribunal Federal: HTTPError"
+  "The Times of Israel: HTTPError"
  ],
- "total": 103,
- "no_brasil": 26,
- "no_mundo": 77,
+ "total": 118,
+ "no_brasil": 27,
+ "no_mundo": 91,
  "itens": [
+  {
+   "titulo": "Teen slashed in Brooklyn synagogue by 'emotionally disturbed' fellow congregant, NYPD says",
+   "link": "https://www.jpost.com/diaspora/article-908719",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T22:04:52+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "‘Institutional Crisis’: New Investigation Reveals Antisemitism Rampant Across UK Healthcare System",
+   "link": "https://www.algemeiner.com/2026/09/15/institutional-crisis-new-investigation-reveals-antisemitism-rampant-uk-healthcare-system/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T21:59:35+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Jewish actor Noah Wyle wins second consecutive Emmy for 'The Pitt' Jewish character portrayal",
+   "link": "https://www.jpost.com/diaspora/article-908716",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T21:53:50+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "VIDEO: During the High Holidays, Rosen Highlights Rising Levels of Antisemitism, Calls for Increased Nonprofit Security Grant Funding",
+   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOQXRXR2JoZGVZWnNDbVJQSzFBRG9FcU55RDZRby1JeV91SXZDUXc0NHRDOXVfTjB6cHNJT1Nlb181emtRT3JTWWw1SVFEMm5zd1FjR2lqTFJGTmRCdm5FVGc5SzFrLTd6ZTFOREhNVTVCQ1FrM29kb1UxV2IzLXd3aFRIYnBZbXBpRE9IcWJLU1ZlUF9vMGVpdFJlM2JVLXRqLUdvbmFHY2tOYmdhQTJpbXVBZTRFR0M2aXJIRDlpa1A1Yy1pN09kMmZDWHNfLTI0NEJpREl6Ykd0aTZRNzQxMkczLTkzdUxuMk41c0h2aGZ6VU5CRDVVWjJTQmhQdmdU?oc=5",
+   "fonte": "rosen.senate.gov",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T21:45:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Sotheby’s to hold ‘Magnificent Judaica’ auction in NYC",
+   "link": "https://www.jta.org/2026/09/15/ny/sothebys-to-hold-magnificent-judaica-auction-in-nyc",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T21:21:31+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Jewish Municipal Leaders Urge Newly-Relaunched 'US Coalition of Inclusive and Sustainable Cities' to Adopt IHRA Antisemitism Definition",
+   "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNclU3TTlacXFpRFhNRUxNek93SmNqNTlITUxyYVBxUXh2dl9FNXpKNlI0YVNaVlNHY2t5cl9SVEpYOWxCRHlCMTZMTWx5M2hYZS0zUklHVkE4ZTZaWDR2ZFZvQkpGYk1iYXlyTEJaM095M1hsSEZOeER4RnZKSnpLWHRyTHVWSW1kcEZzaVowbkxzN0VaUzZObnZ0RkZ5eVFKR21zdjExeGpjY0FnXzN2OFozaDl1SlZZOWFwSEloYldBZTU4MVlTX3daWUYtdXA4QjlTSUJERTdKTE50aWRIbV9vMVFaWDBGQnh3b016SWpHOEdCazNONWpiLVBjWE8za256Qg?oc=5",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T20:21:33+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "9/11 Conspiracy Theorists Fuse Beliefs With Antisemitism, New Analysis Finds",
+   "link": "https://www.algemeiner.com/2026/09/15/9-11-conspiracy-theorists-fuse-beliefs-antisemitism-new-analysis-finds/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T19:57:06+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Crece el repudio por la marcha antisemita en CDMX",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUHhpNlREY0U2R0lxWjl2Ulh0VERlRy1ER1h0aU5EeDRqVmxjb3FKQ1VGMk5fU2h2eGNOXzZ0ZUNXSmUtQkVYZHpOdjQ1elhzLVpfWU5IQkVkY0RSaDNxLXZUdTdaN0NnTjdKVGU1ZHdZWHhyRVp6MGlYOTJpRGtDZ2FUMEJHbldKN3R4N05vSG1CX09kQmRr0gGyAUFVX3lxTE1BcG5fNFNBdmdyRmpFblgtb1NEY3lyTFJSb1d4M1d4UGc5RWlBcHpfNEVBdVIySFNsQThjUzRuczh1bERVTnBtOXFORmVTM1hUbkd4ZHI5ajF0RWN2ZXJWU3VFQWFmNU00enNqem14QjZqSktZMmNXdWFQMDhhQnQ2X09HaF9SNDVpNG83c2p1dVhmLXFvVFZmVXhmVXMxLTJtQVFzWTRoWDB1MnZCMG9iMmc?oc=5",
+   "fonte": "Infobae",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T19:43:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Anti-Defamation League Study: Jewish Teachers Report Antisemitism in Unions",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeFJSdS1vbnBFVTBBTVRuRVBsQXNxLXp6Vmlud0VwZ1JpYUNJdC0wMC0tMTdTUXNKd28tWHdESlR4RndtSHhoaVEybno5Zm51ZFVUcHpVbGJLOHpUUHBXd1ZydzI5dzBqUVZMWFpDLXNpXzhHNGNkckNGVzhBbVNNR3YyR3pxNmNJRkNDTTNLaWdGSGt3VEZ4ZWFXSEpGUHpOLW1ZSjFn?oc=5",
+   "fonte": "Baltimore Jewish Times",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T19:18:53+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Toronto mayoral candidate challenges incumbent on handling of antisemitism during debate",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-908703",
@@ -93,6 +182,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Jewish Municipal Leaders Urge Newly-Relaunched ‘US Coalition of Inclusive and Sustainable Cities’ to Adopt IHRA Antisemitism Definition",
+   "link": "https://combatantisemitism.org/cam-news/jewish-municipal-leaders-urge-newly-relaunched-us-coalition-of-inclusive-and-sustainable-cities-to-adopt-ihra-antisemitism-definition/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T13:07:59+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
    "titulo": "British healthcare system rife with ‘malignant’ antisemitism, watchdog alleges",
    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNmJTVGZEU3N3RV84TG0wS2xCLWk1QkJfY2J3blUyb3B3czB6VHItWGdKNmlPYk03eV8waVFJaFdzenNhMWdUb3RjWHVMX0VXbGFtVTRMX29IVHZsQnZnNnRrdEgyV18zRFZTbmFlUWRwSVVGUlRiMlctamJ4WmVQN0pSWG1IdTN6V3lmUUctZTg1aDN6M1RmdkNzT0xhRVRiLWFUUi03RVIwUdIBrwFBVV95cUxOMWcyTWpGQkVBX1VxMldVVDF6UjhSNjdXRWEteE5KZlVhT091M2xMdXhQWVQxUmkxS1R3WmxzX2xURTJUV011WVBFZW51SGtZRlY1UWZKS2JsalJRdjdpZWVEV2ptQlpVRUxCNU53YlVrNk5fN2JqTDNwYktiN2hKQXBMOFoxbDBCVFBkNUF5RHV4bkNYdlZ3THB2YmFYRXFoWXRIWUpjQXNpLXlDMjFv?oc=5",
    "fonte": "The Times of Israel",
@@ -100,6 +199,16 @@
    "publicado_em": "2026-09-15T12:03:48+00:00",
    "via": "Google Notícias",
    "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "A informação é de Francesca Caferri , publicada por La Repubblica",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcFZfazg1LURWZ25JNkFMVnYtRkx4eHlJZ1Z3eERFT1J1aVVNM0pKeUhKYzQ3VzVxOE1LU2RXVDJ6TFhFcl8wdUJEbmFJMEJTM2xmTTBWVUp5NkZBbXo4dVBCdzdTcWt2VjN6aFVhOExFdXMxV1ZzZ1pDa185YUFYaS1sQnJxSklhWTJyRU5TZUJ1OWhPSkNpVnVFWEhEZDlTODFvOENJeXJ1cU1pai1GZWxMQ0h6QQ?oc=5",
+   "fonte": "ihu.unisinos.br",
+   "escopo": "br",
+   "publicado_em": "2026-09-15T11:25:19+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -131,6 +240,16 @@
    "via": "Google Notícias",
    "feed": "radar-br",
    "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "When Academic Freedom Becomes Weaponised: The Normalisation of Antisemitic Expression in British Academia",
+   "link": "https://fathomjournal.org/when-academic-freedom-becomes-weaponised-the-normalisation-of-antisemitic-expression-in-british-academia/",
+   "fonte": "Fathom Journal",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T09:59:26+00:00",
+   "via": null,
+   "feed": "fathom",
+   "categoria": "Imprensa especializada"
   },
   {
    "titulo": "Lyon : LFI refuse de subventionner le Crif et taxe la droite d'antisémitisme",
@@ -190,6 +309,16 @@
    "publicado_em": "2026-09-15T02:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Antisemitismo en un restaurante vietnamita en EEUU: “Los judíos son bienvenidos, los sionistas no”",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZ3ZNcXdGRkFVX1RuVDhWd1p1eENNT1NJUkUtODEzMWVBbmktUkRCYWxSdVhWenFaU3FXV1dSaHJuZEx4cC10M0pLWE5IMjZwd3JBQl8yS1gwVlpST1h3SmNMMU5TRGh0V2tOQ0lzcms2a1dFWDNJVWdINmp0M0dXQmpWdGZfX2Y3djVRdDhLRF9MMmk4MGY3S1BFN0JuakdhaC1nU2lkWkxmeUR4N0h6WnQzVS1Ia2FiaVJXN1ZyUUlTTll4OThVTnBB?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T00:36:58+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -503,6 +632,16 @@
    "categoria": "Observatórios e entidades"
   },
   {
+   "titulo": "Mezuzahs Smashed in Antisemitic Incident at Laurier During Rosh Hashanah",
+   "link": "https://standwithus.com/news/mezuzahs-smashed-in-antisemitic-incident-at-laurier-during-rosh-hashanah/",
+   "fonte": "StandWithUs",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-13T18:32:00+00:00",
+   "via": null,
+   "feed": "swu",
+   "categoria": "Observatórios e entidades"
+  },
+  {
    "titulo": "‘It’s time to go home’: After 57 years in America, a Holocaust survivor comes home to Israel",
    "link": "https://www.jpost.com/diaspora/article-908342",
    "fonte": "The Jerusalem Post — Diaspora",
@@ -701,6 +840,16 @@
    "via": null,
    "feed": "jta",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Historian Deborah Lipstadt founds Emory institute to address antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYnd1cTJBalI5WThqUWtNclhfaGt2M1lWUkw0cHdNYkdHX3BfT2ZfeEVWYnlQMGdkTXkyX2ctcHZyTUNwVEF3ZmtZYkxNUUE2dTNzNVFGWTdMZ3NwbDVEWEwtVTMzYmQwQmMxQlZNLW5BOFp3Q1ByX2x5VUlXaTFUbFZrNGhwWDdWd2trVTU4T1NnN1BrXzBDLUFuNVBaZl9PWGxaWmlRTkpyOS1xemc?oc=5",
+   "fonte": "Emory News",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T20:34:53+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Accused in Central Synagogue antisemitic spree while claiming he was God hit with new charges",
