@@ -2,22 +2,66 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-15",
  "semana_iso": "2026-S38",
- "atualizado_em": "2026-09-15T07:34:32+00:00",
+ "atualizado_em": "2026-09-15T13:24:55+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError",
-  "Radar Brasil — Antissemitismo: HTTPError",
-  "Radar Brasil — Racismo religioso e crimes de ódio: HTTPError",
-  "Radar Brasil — Judiciário e persecução penal: HTTPError",
-  "Radar Global — Antisemitism: HTTPError",
-  "Radar Global — Leis, processos e prisões: HTTPError",
-  "Radar Iberoamérica — Antisemitismo: HTTPError",
-  "Radar Europa — Antisémitisme: HTTPError"
+  "Supremo Tribunal Federal: HTTPError"
  ],
- "total": 74,
- "no_brasil": 18,
- "no_mundo": 56,
+ "total": 89,
+ "no_brasil": 25,
+ "no_mundo": 64,
  "itens": [
+  {
+   "titulo": "British healthcare system rife with ‘malignant’ antisemitism, watchdog alleges",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNmJTVGZEU3N3RV84TG0wS2xCLWk1QkJfY2J3blUyb3B3czB6VHItWGdKNmlPYk03eV8waVFJaFdzenNhMWdUb3RjWHVMX0VXbGFtVTRMX29IVHZsQnZnNnRrdEgyV18zRFZTbmFlUWRwSVVGUlRiMlctamJ4WmVQN0pSWG1IdTN6V3lmUUctZTg1aDN6M1RmdkNzT0xhRVRiLWFUUi03RVIwUdIBrwFBVV95cUxOMWcyTWpGQkVBX1VxMldVVDF6UjhSNjdXRWEteE5KZlVhT091M2xMdXhQWVQxUmkxS1R3WmxzX2xURTJUV011WVBFZW51SGtZRlY1UWZKS2JsalJRdjdpZWVEV2ptQlpVRUxCNU53YlVrNk5fN2JqTDNwYktiN2hKQXBMOFoxbDBCVFBkNUF5RHV4bkNYdlZ3THB2YmFYRXFoWXRIWUpjQXNpLXlDMjFv?oc=5",
+   "fonte": "The Times of Israel",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T12:03:48+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Noah Wyle wins an Emmy for playing one of TV’s most Jewish doctors",
+   "link": "https://www.jta.org/2026/09/15/culture/noah-wyle-wins-an-emmy-for-playing-one-of-tvs-most-jewish-doctors",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T11:16:45+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Netanyahu critica duramente \"Naza\": \"Incitar o antissemitismo internamente é intolerável\"",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPR3FGa1FrckdUOWJRUHFxc1hHRmxaVVU2Nlh6VnkyREI5TWRZaEkwdDFhbHFpalB5RFY0bnhCalRxTlRMVG1KUGxOSWxBM0JYUXMxWXNYSXdnNFJ0aDZXVjNESGhXb05mRmxQRHlIMVlhNThPaHVLdGlsaEV4YzFFVWlSMFNxZlVXX0ZyVnZ2aEZOdjRHQ2pKbDRKSnE5SXBlUEhIMVRQanFtTHVOQy1TQ2I3Vzlqc1Z6ZkRz?oc=5",
+   "fonte": "Instituto Humanitas Unisinos - IHU",
+   "escopo": "br",
+   "publicado_em": "2026-09-15T11:01:48+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Lyon : LFI refuse de subventionner le Crif et taxe la droite d'antisémitisme",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNHR6WFgyd2wyYU5saHhmSjVkTWx4aHp6dW1GdGJOSnEzMEtqOVFDM0Utb19yYjlocU5qblhhckJFdGtyM0c5akZJckh6Mmd3aVdLc2VsQ0RobDVWdGtwT1AxeXNGci1nRERUZGYxZTBjUTdsSmM4TTBUdmY4WXdFSWZuT3J5YlZNVjJ2RjNpWjJyR05pWjBteFRwM0NfcnpveHlmS181emM5QVBVVDhrMXJfQQ?oc=5",
+   "fonte": "Lyon Mag",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T08:25:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "France’s Antisemitism Data Should Be Treated as a Security Warning",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcFhta29LVUNZQTBtQjhPa2E2SWxGUVd2aDBnU01oaE9HQWd3ekFiS0tVZjh6RU9fd2tvTDN5SzlaemNOWnFOT1BlcUZlSDlPWmZ0MkJjUFpKNDBVZDdnZGZNNUV3Nkt1SmNXWVkwQ2hGRHlKaDF1aGprbG1PS2xqZVNMQW1vR2NqOUFSYXpSLS1aODJQMHlScDBXNkZOZUpHUFJXbkpQaXJISWw3OXVkWVd3UTNNTUdNdmxrS3hpWWF1MlRLX0E?oc=5",
+   "fonte": "hstoday.us",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T08:00:58+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Police investigating threats against prominent Munich Holocaust survivor and AfD opponent",
    "link": "https://www.jta.org/2026/09/15/global/police-investigating-threats-against-prominent-munich-holocaust-survivor-and-afd-opponent",
@@ -27,6 +71,26 @@
    "via": null,
    "feed": "jta",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Mode et antisémitisme : les indignations sélectives d'une industrie progressiste",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUlMwNU84UjBxZm54UXFRY25iOUYtNGNTNFQ0d1J0WXRnRDZlQWtWYk1Xa0ZDMEdFVnp6MjQ1TGhialhzcGNKQkhSbXVvY2FHNTJvd3hSeGZrdnA2NXJjaXVJaU1Odi0wR1l4d2ZwOHNYZmZ6eEJBZjJObG8wTU53ek4zYXEwbFRKcGRYcHlGM1hSNWI2dDhMMTNfNFZpU2JnaHZDbV9NdmtSNkRaZVVwN3hfMUJFbnJwMFFOeDRVUHUzUWd5NzZ5eEpyRmpUaVVsTXNRQXM1UFlUVmw5bEE?oc=5",
+   "fonte": "lexpress.fr",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Antissemitismo cresce no Brasil e ganha códigos nas redes sociais, aponta levantamento - 14/09/2026",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPY2tSUUVDRE9TZzZjZjNGZmF0a1RXaDZlRlNPdm9BTkFUc3UxTXBnc0gwZnJWLVo0RnZNTU1aMFBHaHBxRVkteHd3SURrRnJtMDZFRkJOd09FTlNpNlNNekZrRFR2U2dERGlYUFJHWXJoY1JEREhaWmk4VVNWMFV3TW00aEVpZVp3ZjVuekg3enVBMC1JaWo2Vms3cDQtMW13WFNlYXJQRFRZcWE4Z1ZidGtBMERocXUyQl9CUjdwUk5JS3hqNEJHbERPMWRla2tB?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "escopo": "br",
+   "publicado_em": "2026-09-15T02:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Israel probing Naza film on Gaza for treason, inciting anti-Semitism",
@@ -209,6 +273,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Noticias de Israel y del mundo judío en español",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR3VraEN3aGM5LUROcHI1SzExeHI1cFNfQVY3eUVvMlhieDVKeE03RG5tNkVGR29XWXlEdkZ6RFVZeXBxRXFDcUJQMXBfQzFpUlo2aXAtUU5PcWVnNVlfRTM3cW5UZXFnc29RM2daRmxwa2RRZHV2dE15cURwZEJFNUJNUjlMN0xqT09F?oc=5",
+   "fonte": "Aurora Israel",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-14T14:06:23+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Rewriting 10/7, the Gaza War, and 9/11: How CAIR’s ‘Back to School Resource Guide 2026–2027’ Distorts History for Muslim K-12 Students in US",
    "link": "https://combatantisemitism.org/special-features/rewriting-the-war-how-cairs-back-to-school-resource-guide-2026-2027-distorts-history-for-american-students/",
    "fonte": "Combat Antisemitism Movement",
@@ -359,6 +433,16 @@
    "categoria": "Observatórios e entidades"
   },
   {
+   "titulo": "Fisioterapeuta denuncia racismo religioso após ser demitida durante iniciação no Candomblé",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNdklveUdTRHMyXzA0MVhmaTRrQldHSWt2ZXlJS2NnX0xaZjRmWU1wR3RQeEtITUNZYzJ0Y1FTTkN6V1lRQ1l1RXNSSWVaTS1GOFNJb3hxdF9aVjZETDJ6ZGxmUVB2MkRSeWY5Rzk0OTltSXI3MWppdjJ5WkRuZjZnRWFnQ0NWOVc4cm5WMHAwRHRCQ0lYbVU4ZmZUTDY1cEFON0txellCWWNuem5VYW9ldU5TRWE0SnJGWVFmWlVoQXhiOHZOYXNBRWV0SFhmcVZua2Y4dDJLUHRQSVVEXzFF?oc=5",
+   "fonte": "Jornal Opção",
+   "escopo": "br",
+   "publicado_em": "2026-09-11T17:48:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Let’s Create Real Support for Our Nation’s Jewish College Students",
    "link": "https://jewishjournal.com/commentary/opinion/392183/lets-create-real-support-for-our-nations-jewish-college-students/",
    "fonte": "Jewish Journal",
@@ -436,6 +520,16 @@
    "publicado_em": "2026-09-10T15:51:02+00:00",
    "via": "Google Notícias",
    "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "CEAP leva à DECRADI representação contra Pablo Marçal por suspeita de racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWVhidXRIYWJUcGdEMmRqN0t5a2VvdWN6Y2dxWXlsc19KZXM0UG9YQ3RjVERxWnlxLW9TTGZ4MVIxeV9ZSWJZb1Fra1g4Yl84OUd6RzFweFhaYl9LUHBPa1VtQmE4bjlVUHJMNlRJODFRVjhJU1c0dTNFZDg2M190RVZTU1BMdkVGWUs4aHhlQlo3OGlSX1B3SXNUdFlxNUZaRFNTdlpHRXlIQTcwTGJSS0I2U213cE9YM3lnbVF6SDdaT25kUkI2U3d1aw?oc=5",
+   "fonte": "Combate Racismo Ambiental",
+   "escopo": "br",
+   "publicado_em": "2026-09-10T13:54:04+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -579,6 +673,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "HHS Office for Civil Rights Issues Guidance on Discrimination Rooted in Antisemitism in Healthcare Settings",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWjYzZ2I5Tjg4dlhEbTZienFMcGRaV0lWYkVjQzdKd0hOMUxSN2tlMUs2N1RuWDI3RkpZSVM3UGZwRzNxQ3FNdGo0RFpYdE1sSTZhYUF1dW5yd1NqMGFoVTNxeTc2c1JEQkh6U3gyV210aFFyTmhrcmF1X1JBYWlkM3Q5SDhWcWE2SURnU0VfM0ZjOFBYTjQ1QjdLMA?oc=5",
+   "fonte": "HHS.gov",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-03T17:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Atlas lista emojis e imagens de antissemitismo e ensina a identificar ódio a judeus nas redes",
    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOd0JHWm5EMUlNTlo2NW8wYlY2dTBPSGpNSGY2eU5tclVETGhJSXdRSXc1OTdVeWZWMnFzVEx2dXVEU3I5V1BfY2NxTDNRU19neVlyOUlkRjlib1BUVTFpY3hJQjVnR1RFQVp0Z1pxUFZ5a0I2TFpKeTlkZ3ZTVXFtblhiZS0xWXdDY2RFTXpiVGtKR0R6dEszNWg4Y2RMWnhaaGRtbDFJX3lLdVIyMDZyRGdzbWdNc2J4SzJvVDlzQlJNb3JVUEw00gHMAUFVX3lxTFAtSEIxWnAzc3pEVlc5OWgza2NjVEtUTVBHU1FLdnlqN0VERTV0Q0ZrZnVEc0kzaURuVXVnajJqN2h2RTBLTTVBOEFuX3FWT3pIdXE5QTBjUWI0anJmMGJJaFl4anU1WTBrOXdnRHlHTWdhMTV2R3VpVW55THlZczRjeGhXeGRhUW5GaTFFNWNQWjFqVHlQSWVGV0lEdGtDR3JfV0tXWXRpSGVTZHdlN2p3LVVzWjhfcEVGQlZmTFhsMTRzWUFEaUppVXNCMw?oc=5",
    "fonte": "Estadão",
@@ -606,6 +710,16 @@
    "publicado_em": "2026-09-01T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Antissemitismo, condenação e saída da Dior: entenda por que John Galliano cancelou exposição no Metropolitan Museum, em Nova York",
+   "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNZTNZSW5XWE9uTkJQc2MyYVBKVEJXbV9wNlQ1c3FXcEZFa1k3R1paOGtfSFJ4MU1BYzFmOG9waUlFb3ViOVZobDZRQkxMMXZfcElhSE9MaExTd1hjZjBtM3lkMGEyUHdwdHVPT1NFdXAtX29KZE5aTVRUSjBnb3ZoLU4wcU5yNlNpRmFweF9nWkRubUNzVHZ6Vl96LTlpVkY0dWx5Tk5yVE1IYkVlVVVOSjM1S3JHRkR0bGlPU01qUDlwZmJ5YUpuelI1MHRDV1ZwY2F2YnFLOEkzTzVZdnRtUTlKVGNYenFMTmxYRER1amNMV0JsSXo5eU1YYjMwZU8zNUhQZnRCekpMZ2EzYnR2OUJR0gGgAkFVX3lxTE5DUnZHZUNGVlNPSVJtM2lUdHR5ZmFBUG9nWl9mSjNQRkpMdWhTVmJVa0o4b1Q4R2hpN3p6aVpOU2hLYlJFODdqS0pCTndKODJkTms1UVMxWlY1ZDd3X1FMUlNlaVRpNmR0TlBVR3diR1NEMnNhYWhieE8tTTBFX2FWcHAtNmYxUUh6U0tiNWxrdUVlMlZCcHNOQmJ5amNueV9iS0g2SC11Yy1JN3NoSHIybEZzR05tenc3WU9tYXZCT0Rib0tueDJEN1FBdXUyVVBZQkJTd1hvakVhVVB3QnhLbzFnXzJCYk5DZnV5d1c0akhDc01TVy1yckliTDNvMzhWRi0tVl90TXh1OUV6WTI1YVpTdEFIamJQLWlLTFIxXw?oc=5",
+   "fonte": "O GLOBO",
+   "escopo": "br",
+   "publicado_em": "2026-09-01T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -679,6 +793,26 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "VIDEO: Rosen Calls on Senate Colleagues to Support Legislation to Fight Rising Antisemitism in the United States",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVU5hTVVSSkpUTkNNaTRONDQyWnRfZUF1Ynk4bV94eXQxUW1Femd2VmphaDVFWGpRRTRyaU5Oa2NPX0NWX2YzRG1TVGc5RTVBR0hpd25lc3dNdzgzS2UwSlVTTTdZMFhkR2xwT2xoNndEOUhhUkZSbFpNU0dyQ2UyTV9jX2J3M2F3UUpSdm1GQWI5azlWbTZwc2pNQWxCSkNnMVBoMmYtdXZnbll5SkpvUVZLbi02STdleHRxMW9Tb2F4ekc3dDdzSnJzQ0lBM1AwOEVfc1RBTTJHVDQwSFZYbDFFY2k1X00?oc=5",
+   "fonte": "U.S. Senate (.gov)",
+   "escopo": "mundo",
+   "publicado_em": "2026-07-23T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "STF mantém condenação de Rafael Tavares por crime de ódio e deixa vereador inelegível",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbWQ3S3oxZ3BaUnEwMnVjSHREelBYY2lhUTdUazBQWGxrUHV6Rlo2RUZSNWQxRW5uOXYtSVkxdDdCc194dVRvcnZjYVQwTHZESXJSZW11RlJaY2RmamNVX2ZmWGRNYnB6TW9weWZidnhjUHZHOXM5ZHZmb2RYaXJIQ0ZqTGg2dHVvbklTTnVncFlPZ29pZWNIOA?oc=5",
+   "fonte": "Folha MS",
+   "escopo": "br",
+   "publicado_em": "2026-07-21T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "STF mantém condenação de vereador por crime de ódio",
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZW9XaDZkcHE3MVNxWXJ2RkRfemljS2ZGenczZGo2cERqY05wWUd4LVZDbERJWnpoblFZd0tPeERTZWFTMjZ4dWczaWxMYWJvQjlDXzB5ZnllNFNDU0FQVGdRZFdkVG4xYy1LMERFQVY2czZMQWs4a0otOG0wUFBZcG5ET2NFSU5mOGlYRW9NazJFSkNxLUFWTEtxT0RkblQzRk5Cbm9kQ0tLMnptN1ZOdWZfcFc4YVY0VENEWNIBvAFBVV95cUxNb1RDQm9CWjUyd1p3Nm9DeXRpM1dDNGRiV2NNM0ljaDQ4QlZacGVzN3JUUGEzU2VGUkVMVElOeXYzUGZsb3hsMlR6WFdCcW5WZWdKZkhvTUZHQW5JaHJwVVpqcFFLXzZwVUVoZEVZdTJEbXpaQkt3bXpyeUhzOGUwZ2FlWW9oZ2I3bGd3dzlXdzFkbncxR19TLU1QN3YxaDdCNEx4bEljTGJNbHBLblFod1FsZllIRHl5VHYtYg?oc=5",
    "fonte": "Campo Grande News",
@@ -722,6 +856,16 @@
    "titulo": "Projeto sobre antissemitismo gera crise e polêmica na Câmara; entenda",
    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONTI4cWVPdnZFTVh6dHZESEJuSlpLOUFiSjRielNMMHlMOXNqdEJIWGttQnBKNWExZml2NE91M1NWNDRqUnJib0xUZnl0Q0lMZ2V0R2dhVnRYdjMzZ0c0eVhlVTlaZzFDWGpjMFk3M2lxQU04LThuZHlhdUNjc3VQamhmdTF6ZHBXaURCdmllYXo1SXdXNWwwWXpDY0k3SUNya3hr?oc=5",
    "fonte": "band.com.br",
+   "escopo": "br",
+   "publicado_em": "2026-04-06T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "STJ: Suspensão condicional do processo não se aplica a caso de preconceito religioso",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTktaT3ZFdVRGMXlicVNybzZIMnlnZXI3cGJyeHplQ0xHYjF0N3ZrNkN1cnQ1YjBFVGNOMlR6S0l1OEdRSnhCYnNiWTRsVndtaTkzUzEtOEhFc1k5a3AzdGhWM2lQQUMyZ05LZThsb0pJOVI0VWx3VUpVeENGeS1FRUpZdy14QjU1TGpTdGpTSmRCbnhSWUFRQnlkeUFJSXFEOWd1ZzRVYzFzT0QtdjlRSw?oc=5",
+   "fonte": "Migalhas",
    "escopo": "br",
    "publicado_em": "2026-04-06T07:00:00+00:00",
    "via": "Google Notícias",
