@@ -2,15 +2,115 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-16",
  "semana_iso": "2026-S38",
- "atualizado_em": "2026-09-16T11:19:33+00:00",
+ "atualizado_em": "2026-09-16T16:39:36+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 84,
- "no_brasil": 21,
- "no_mundo": 63,
+ "total": 96,
+ "no_brasil": 23,
+ "no_mundo": 73,
  "itens": [
+  {
+   "titulo": "Emory University launches new academic center intended to counter rising antisemitism",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-908821",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T19:10:23+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "US senator calls to increase non-profit security grant funding in light of rising antisemitism",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-908815",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T18:34:36+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "San Diego police investigating two homes vandalized with Swastikas over Rosh Hashanah",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-908814",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T18:26:37+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Antisémitisme et complotisme : quand un responsable de la prestigieuse ESJ Lille dérape sur X",
+   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQRmVFd013M0xZZWs0dDRkTmVLRkJRalNDYnlSQ0k1UHR3Y09DZW9JSmRob1NRUnk5YjNESmJURERreERReGZrd3lqVGJkRkxtajNCLXB6ZlZoaWU3amxqRUplMWpWdVF3dkdGdnJfSzhyX19KRmZUcWY1aExKSktnYUtRMGx5MU1pZENITG1kellhSFl4VjFleTFESzFHYXJtOWk3NnVEZnFnZXg5UVdKR0psTzZGUlhaaUE0YmVralF4OWVQbUNGZlp5U1JIZE5kR2xGQ3c2OVZYcHBodjI0Ml92QzZLaERJVXZwYkxCaGY?oc=5",
+   "fonte": "L'Express",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T16:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Juíza condena homem que cuspiu e fez ofensas nazistas contra judeus em SP",
+   "link": "https://conjur.com.br/2026-set-16/juiza-condena-homem-que-cuspiu-e-fez-ofensas-nazistas-contra-judeus-em-sp/",
+   "fonte": "Consultor Jurídico",
+   "escopo": "br",
+   "publicado_em": "2026-09-16T15:45:42+00:00",
+   "via": null,
+   "feed": "conjur",
+   "categoria": "Institucional e jurídico (Brasil)"
+  },
+  {
+   "titulo": "South Florida Democrat Moskowitz airs campaign ad targeting antisemitism with concentration camp footage",
+   "link": "https://www.jta.org/2026/09/16/politics/south-florida-democrat-moskowitz-airs-campaign-ad-targeting-antisemitism-with-concentration-camp-footage",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T15:10:10+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "UPDATE: Inland Empire school district under federal probe for alleged antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQlJITE9HdVRRY2EzNFdxZk9MY19uSWRvbzBxLWUxU242LTBOWWpkUG02Z0Zvcl9wUVplWFY1blVoTVN4X2FQdmdJRDZhbG1hYXJoZUJnYzdLb21OUzBDVVBvbHhJcnRBbXhaczhtOU1JY3NqTFdrZEVfRnhyU2VrR1JQS1NOV0R0RG8xLTBmZGtLQ2Q0bHBGbFA4NkJxbFJjWWctdXVn?oc=5",
+   "fonte": "EdSource",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T15:02:09+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Antisemitismo: La comunidad judía de Londres advierte sobre una crisis de seguridad tras ataques incendiarios",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOc1Z0VXJUajN2cVBOWE1VT0RtNld6UjlZbHQzZkoyWUVYRkpFU09ZejBhYmt2OElIMEVkQUpYY0xDQkFWSEx0bkd2TGlMVUVfRDhNb21SNW5UUlp2dnRkN3JqTTZuMWwwYlVyZWttLWhyY1lFOXpYQnh2YXhuOFhVb0hOclVNc0VyUGt2ZHRUbzVKOTlVMVhWOWlibGFFWDY5VGJJZlh6U3dkLTZGaERJZFp2djk5WE1vZ0lQMXFqcGtESVVUdzhYTFpsaXFjTjFid2dabXpFZU8xaGNZ?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T14:51:30+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "London Jews warn of security crisis after antisemitic arson attacks",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-908781",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T14:34:22+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Opinion: The Importance of Defining Antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9wWnpjdlNUa3BCUHlncEY0cmNRdzRsMEYyVGxJclk3SUZfMkhqTjFMalJaa0JoVnd2cVV5cDJnRDROalA4NVRyX2hQSmJGeFEyUllzeUYydDBFdkZ0M1ZVblNhcnZBd2ppdzh5aU44azdodHdPYW5rNE1B?oc=5",
+   "fonte": "jewishexponent.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T14:28:58+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "CAM weekly antisemitism report – On 9/11 anniversary, related conspiracies against Jews persist",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-908749",
@@ -29,6 +129,16 @@
    "publicado_em": "2026-09-16T10:35:20+00:00",
    "via": "Google Notícias",
    "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Opinion | For Trump, Jews Are Proving to Be a Very Useful Tool",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZnNoalJVZEpkaVB2S3g4TFVfaloyT3hSbWwySElzcFBQbDZlU2pjU3I0cjFBcVJ1ZTNjMGFfbWoza3lHOTNhbDZVTkZwQ3p4MGs0Um9yVTQ5MWdTSkhFcVNoZzFpcFdJMFJEQTFEYmd3MUhMOGthOW5jcTVHV0V5WkM5c19hRFpUXzd6Z3dCaw?oc=5",
+   "fonte": "The New York Times",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T09:02:25+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -749,6 +859,16 @@
    "publicado_em": "2026-08-27T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "‘O véu da intolerância’: Bàbá Sidnei Nogueira atualiza livro e aprofunda debate sobre racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTmM1d0g5RUJuNU91Z25TVGU5N0pocWV1OUFKNlhOSE42YmpaN3dwT1lJbkJuX0Jzb3cyQUcxTlNVNnVfcG9WekphRWtCeEVjQ1Fzb1ZRaWMwZFdCdjU3U3hVemhPdHJyaVVxMkZJQU5HcFZmZTNmM2tfYm1XdUZ6TFFZZWIyMHlNdVBfY3pjN2xkVEMwMVU5d3l1M09UR1lv?oc=5",
+   "fonte": "Alma Preta Jornalismo",
+   "escopo": "br",
+   "publicado_em": "2026-08-26T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
    "categoria": "Radar por palavras-chave"
   },
   {
