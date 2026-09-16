@@ -2,15 +2,75 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-16",
  "semana_iso": "2026-S38",
- "atualizado_em": "2026-09-16T16:39:36+00:00",
+ "atualizado_em": "2026-09-16T21:10:56+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 96,
+ "total": 112,
  "no_brasil": 23,
- "no_mundo": 73,
+ "no_mundo": 89,
  "itens": [
+  {
+   "titulo": "Modi’in project with Rochester Jewish community turns fallen soldiers' stories into memorials",
+   "link": "https://www.jpost.com/diaspora/article-908792",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T22:39:12+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "FBI chief Kash Patel warns online radicalization fueling threats to synagogues, public officials",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-908836",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T21:51:23+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Jewish high school students to pray outside Mamdani’s residence",
+   "link": "https://www.jta.org/2026/09/16/ny/jewish-high-school-students-to-pray-outside-mamdanis-residence",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T21:05:03+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Trump Admin Settles Antisemitism Civil Rights Complaint With Lincoln Memorial University",
+   "link": "https://www.algemeiner.com/2026/09/16/trump-admin-settles-antisemitism-civil-rights-complaint-lincoln-memorial-university/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T20:05:18+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "How a Jewish, German-averse writer came to love Berlin",
+   "link": "https://forward.com/culture/books/850544/wendy-lesser-berlin-before-and-after-book-review/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T19:51:13+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Noah Wyle, Rob Reiner, and the Jewish Winners at the 78th Emmys",
+   "link": "https://jewishjournal.com/culture/arts/television/392287/noah-wyle-rob-reiner-and-the-jewish-winners-at-the-78th-emmys/",
+   "fonte": "Jewish Journal",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T19:15:02+00:00",
+   "via": null,
+   "feed": "jj",
+   "categoria": "Imprensa especializada"
+  },
   {
    "titulo": "Emory University launches new academic center intended to counter rising antisemitism",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-908821",
@@ -20,6 +80,26 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Pope Leo Says Middle East Conflicts Strain Jewish-Christian Relations",
+   "link": "https://www.algemeiner.com/2026/09/16/pope-leo-says-middle-east-conflicts-strain-jewish-christian-relations/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T19:05:14+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "How talks to clean up California's controversial antisemitism law fell apart",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQT2ZaUDRPc2IwS3AtelEzYWkwa2ZkcmRhZkN2MndJT1hHamZtVnZudFU3NXFOdmV3TjI0NjBEUkFydkhuRGhrUDdFT1kyMldKMFJoMUllTDhFOVZsTVJ5TURlcHhZellOTkVyVGlsQnV4dk9nd3VmLXFTRTJ1UlZISXc0MHdDNEh5eE5pbnRYSDktU2RUXzdmcktnZUVvOWxoazdIS29lbnVMY3VZQlNCcFR5U1pJaEQ2dkRZN0lab0hOQmc?oc=5",
+   "fonte": "Politico",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T18:39:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "US senator calls to increase non-profit security grant funding in light of rising antisemitism",
@@ -40,6 +120,16 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Capitol Hill Lawmakers Rally Bipartisan Support for ‘Right to Worship Act’ Amid Rise in Antisemitism",
+   "link": "https://combatantisemitism.org/government-and-policy/capitol-hill-lawmakers-rally-bipartisan-support-for-right-to-worship-act-amid-rise-in-antisemitism/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T18:08:01+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
   },
   {
    "titulo": "Antisémitisme et complotisme : quand un responsable de la prestigieuse ESJ Lille dérape sur X",
@@ -107,6 +197,26 @@
    "fonte": "jewishexponent.com",
    "escopo": "mundo",
    "publicado_em": "2026-09-16T14:28:58+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "A 60 años de la 'Nostra Aetate', el Vaticano llama a las religiones a luchar contra \"el auge de los fundamentalismos, la manipulación política de las pertenencias religiosas o la violencia en nombre de Dios\"",
+   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOSVJjTHV0T0MwaXFoR0JYcFFVTWZ0cEswdmZBalBZTXFxV28wZGJSbVBJbVZhT19uajRNVEpiRmpNMDBvcDdCZ01mbFNMQ1NOMGdTalRINUZhUmZqZkZXMmN5RzRILXR2RGp1UktCeTFRZWpmcXluejE2cllZdG5JTnVmcFpoYk5Ia2NYUnNYRzR5UUZzYkhaTGlhbFlOYWJ1ZUxDVUswR2EweG15R0RiUEVaX1FlcjQ1QmlFQTZGYlc1Xzh1VlJoSW9IYVFCbDdGeEtUdWdLTUU5eHJsQjQ4LTVlOG1vUlhYVlpKMEFmZWFVZW5TdUNYcjFLONIBgAJBVV95cUxPb3RQNDN6T1F1dGNRWWh3TTRSY3htendZMmhOSTFlUVBUOXM1VHpNSWF5SEp6RE1tVldSdjliTVhucDZfV0FsdkwtTURNQnVDVHJzVlE1czlBdUVja0t2STVpZEFPMUpEcHRxVmhPWkNfT1c5Y2cyUm5pd1J1bUNSUy1pTFFiWTdhamtwNWVFX3hVOER2WXB2M2NnY0V1RTBPVFltQTJNbVBJVnJIbHNLbXBETlJKN0Jud0JJM3AtLV9qYUo1dlBfNkpBNktDcHRUeTZiUjJIdU9mVFNHNGVMZFN5UWgyZTZCX3dZU1U5WlN0UVZkdWoySnIwNVhBZTlz?oc=5",
+   "fonte": "Religión Digital",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T13:44:06+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Opinion: Sanctions Against Israel Mark a Turning Point in International Political Antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaTQ5cnpucXgxZGxsbU9RcEhvYWJPV1pBRWU2TXpkN1dtbEltUkpWTGdUOEEzcVRUZjhWQ1lzZUhzU2pNdVJ0RlRPOUNRQzNodGp6U1N6ckUzWjByVWNwcnlyT2VSTTZOUHh1V2RXbHh1TlgzNWE4WGo1S2tRZENXY3BnY0d5QllwOVJBWFRyMktnbzM4VlMyMmR5Q1dsSXkwTHhfaDJMSFVvV0lFV1JVMmNNVWc?oc=5",
+   "fonte": "Baltimore Jewish Times",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T12:47:02+00:00",
    "via": "Google Notícias",
    "feed": "radar-en",
    "categoria": "Radar por palavras-chave"
@@ -282,6 +392,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "Florida university students ask court to block suspensions over racist, antisemitic group chat",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWmhmRUNmZ0o1T3Y3SVVsRjFGbzdCT0tha29FSmhIdEdxZlY1SzVsd2trYzVQQnlTNUlFd0ZYWDdmUlpIYlpndFAxMjVkRW5fVzFOVFNTeTJwaDUxRXlwZGs5QVprVUxTYWpaelRWd2h5cG5URkFJQXpkVjhpVGhTY3UzSEFabVFKSEYwWGZYZUV0aE5BNnpVcFQwR2lENUlhZFFwdEUybFlEckl6ajVNWXdoR3NjYlNQTUFaNW80VUsydEw2LUE?oc=5",
+   "fonte": "JNS.org",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T18:26:43+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Campaign Against Antisemitism documentary exposes antisemitism in British healthcare system",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-908697",
    "fonte": "The Jerusalem Post — Diaspora",
@@ -300,6 +420,16 @@
    "via": null,
    "feed": "alge",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Le système de santé britannique gangrené par un antisémitisme « malveillant » – CAA",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOXBsc2FxVHZaTTVqRVRQWkRjbzVSRkluRkhJRWprQkg4M3Vaek1OM1RBVUYtSWU0RGpuU2JGNGNWaXpvUkprZXB6emR2R1F4M3JqbEFfVzRwTUtuaWJrd19pWU92SmhwTGxrOHp2eGFSSUlrZFVKZlFraWJONW05M0Jaemk4WVJaS2pJank0N1RfMFFHREZTdXpKTmk2dGZOZ3N6OEVYYUlCaDTSAbABQVVfeXFMT1JIcXJ1MzFJXzRUU2x4N0xEeGVvSDhMYzVreGJPenNkTG8tOE1pMWIyb0E5MmFGYTI4WkhrUEE4SUhvSjMyUVNzQzdLTVAwRXgtLTY0TEhQdGlVazZadThETkF2d0J4ZlJDSVB3T3pyN25OaTZaQ3ZheFBNVy01RC1BTVJzM1JjT3U4bjJpVFJENmJ6emtwcW1XYjF5WGZnVHYyd1BCM3ItVG9TdmxuaHo?oc=5",
+   "fonte": "The Times of Israël",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T16:22:34+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "La Policía alemana investiga amenazas contra una destacada sobreviviente del Holocausto y crítica de AfD",
@@ -357,6 +487,36 @@
    "fonte": "Combat Antisemitism Movement",
    "escopo": "mundo",
    "publicado_em": "2026-09-15T13:07:59+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Nazi Swastika Vandalism Reported at Two San Diego Homes on Rosh Hashanah",
+   "link": "https://combatantisemitism.org/cam-news/nazi-swastika-vandalism-reported-at-two-san-diego-homes-on-rosh-hashanah/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T13:06:40+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Nazi Salute and ‘Blood Libel’ Allegations Surface in NHS Antisemitism Investigation",
+   "link": "https://combatantisemitism.org/cam-news/nazi-salute-and-blood-libel-allegations-surface-in-nhs-antisemitism-investigation/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T13:04:56+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Munich Police Investigate Death Threat Against Holocaust Survivor Charlotte Knobloch",
+   "link": "https://combatantisemitism.org/cam-news/munich-police-investigate-death-threat-against-holocaust-survivor-charlotte-knobloch/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T13:02:05+00:00",
    "via": null,
    "feed": "cam",
    "categoria": "Observatórios e entidades"
