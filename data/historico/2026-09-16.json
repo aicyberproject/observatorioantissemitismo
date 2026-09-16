@@ -2,15 +2,55 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-16",
  "semana_iso": "2026-S38",
- "atualizado_em": "2026-09-16T04:31:19+00:00",
+ "atualizado_em": "2026-09-16T11:19:33+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 73,
- "no_brasil": 18,
- "no_mundo": 55,
+ "total": 84,
+ "no_brasil": 21,
+ "no_mundo": 63,
  "itens": [
+  {
+   "titulo": "CAM weekly antisemitism report – On 9/11 anniversary, related conspiracies against Jews persist",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-908749",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T10:55:10+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Koch: é impossível ser discípulo de Cristo e, ao mesmo tempo, antissemita",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMWxrUlljUmw2c0JqUm5WYmZVMHc2LVkxbG1aRzMwTEdCcVpLLVh2WnRWZWRoanVka1NYUlRfUHRpWGl3UGZyWHhHQWM5TXpZT1RlcnRnQm16MnM4N1p0WWFHRF9Bck1JUFFJZURYaHdXd2VKbnlzZ1hzUW5CcHk1UzVNdk40Rkh6VHgwMTBreC1YZDdYWkpCbVNYc3I1TUhjWXJ3Vi1vTGt1alk?oc=5",
+   "fonte": "Vatican News",
+   "escopo": "br",
+   "publicado_em": "2026-09-16T10:35:20+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Federal court revives antisemitism lawsuit involving Los Angeles Unified ethnic studies",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVDY4WGxQbWVzZnZOZXg3T3E5eG9CMlFWOGtyV0d5QjROY2w4T05Oand3UFh1UjNFRl9pcVpZQ0NLcmZLWEhya3NRaVIzRFdDSmNGNE55LTNTX0c0QndZSmJwcW56ak5BUHR2YnJHVUVyVk4wYVhEQm9FNEs2UDJSMXVtNzBPeXhPTkdj0gGTAUFVX3lxTE1SY3o3S05uZDN0WnZOZV9mU2JBdzVKYVZiZ2c4Smd6TzFVUWZ0M0JYMXdkNDFWTWZTaW1kZVB6aDAwSEppQWIzQWM3a0VrSVFUc0lTNWFrLWk5MEgtZlZBYnJ3QmVkTnZiUU5CUmdUMXVKbzVQVzJsaFViY1pqbmxyTzRhTHZrSG1VTHB6dUF6aWZYZw?oc=5",
+   "fonte": "EdSource",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T07:08:38+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Não existe antissemitismo no Brasil",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5jVXF0RmxibWgtc1lwR3JNSWtaSVJ1dzI5WHBZRU1PcUhpTURRd3BqY0Y5NkpDalVfQWlMNmNSWHdjOHcwa1lCU0RhYUNxMG8tS1FORUZFNVB2dDVpQTFMQUN6X3NNT2dFdGpSdmZGLUJTUjNVVlc2WElR?oc=5",
+   "fonte": "Diário Causa Operária",
+   "escopo": "br",
+   "publicado_em": "2026-09-16T03:00:09+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Teen slashed in Brooklyn synagogue by 'emotionally disturbed' fellow congregant, NYPD says",
    "link": "https://www.jpost.com/diaspora/article-908719",
@@ -150,6 +190,16 @@
    "via": null,
    "feed": "alge",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "La Policía alemana investiga amenazas contra una destacada sobreviviente del Holocausto y crítica de AfD",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNX1VMQ1FzdHdaNWFCZ29oT09Jak5wazZxNHpTLURYOVBrSzR3NmpyblVSWW0yY1VpOTNGUEpSeG16czVUNjhTSUFpWTBVN0ZyVDdReWswdkJ0bF95WFUxTnRCSlJzV05jTVFodWNGU3prUVVrX2JYNmJ3U3Fic2VfSUhaQW41UktaQjRBbmdaQ2VaVEZNcUhSRndaNWtod25yYzJpU2FkbDliNVhMSk8wMHozVzlnZjhpVTNxaFpVZWE1R29meDB2RFN0Q3hEbU5RYlZfTDdyZw?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T16:17:48+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Hijacking History: The Antisemitic Campaign to Distort the Truth of 9/11",
@@ -442,6 +492,26 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Brindis de Rosh Hashaná contra el odio y el antisemitismo",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNT0ZrMGtUM2ZFTXVwa1V2N0pzeE9uZzRNZ1F6cHJzbzRQaWNCQnFhektkREtBbUhLaGhWb0lUUWptVW5EeFlxWGRiU1lyU2EyYVlGeFFQcEs3R2VRbV85bGl3SklPOWItMFhNRzBIZWRyTFJpbkNEVF95RXpocW1OaC1iZlVxV3QtZlhNY3RhbzM?oc=5",
+   "fonte": "Diario El Norte - San Nicolás",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-13T23:00:44+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Año Nuevo judío: AMIA, DAIA y el CJL llamaron a frenar el antisemitismo tras 713 casos en Argentina",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUVFUSmhaWThicEJnRk5Ub00tZ3JJVUFMbTY4LTlRNFJBLUozamJTZHJ6dGFjTGNJakZDeUFVYXJxUzJnemN3NUIzQ09kMWEwcFAtSVNZX3BMdDZLMnB2RE92YzBFbEZnSEFHeHJRX2RpMEE4ekxYQlYyVTVLU1hsWVBmRlpVVm5vUTFNM3JUa0RGc3VUQlpqcXJWLWdDQVQ2ZjRfVUhWel9OSXU2dGpoLTN5c3FDcG1jbDBEcTF6cEh0OUY0ZnhfZnFfUC1GWHhhZEQ0WWRlYzFGQdIB0AFBVV95cUxNRFNJaWc5ckoxUm1SVjVNNUFqMzJQZTg0Z1pzb2o1YUNCRmtRVVFIRURNVU84NTIwS1J2dUNDR3ljN3FJVDV3dzVrVEtuaDYwdDFGM2ZwX21PdG1XQjJ0WE9zempZWndHaUVxQ2oyaHpCbDNvM1RRRGtPQjM5bEpyWVNPWlJTMllpYmJSVWo5RUc2VnhKMDdTLWtYWVN4S19VOUNabjhHNkozV3I5bGpnWnk2WXhfcTE1N0hfc25fMW5xRG92RzZGZ041QTFydkFM?oc=5",
+   "fonte": "Diario Mendoza Today",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-13T22:33:11+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Mezuzahs Smashed in Antisemitic Incident at Laurier During Rosh Hashanah",
    "link": "https://standwithus.com/news/mezuzahs-smashed-in-antisemitic-incident-at-laurier-during-rosh-hashanah/",
    "fonte": "StandWithUs",
@@ -470,6 +540,16 @@
    "via": null,
    "feed": "swu",
    "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Fisioterapeuta denuncia racismo religioso após ser demitida durante iniciação no Candomblé",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNdklveUdTRHMyXzA0MVhmaTRrQldHSWt2ZXlJS2NnX0xaZjRmWU1wR3RQeEtITUNZYzJ0Y1FTTkN6V1lRQ1l1RXNSSWVaTS1GOFNJb3hxdF9aVjZETDJ6ZGxmUVB2MkRSeWY5Rzk0OTltSXI3MWppdjJ5WkRuZjZnRWFnQ0NWOVc4cm5WMHAwRHRCQ0lYbVU4ZmZUTDY1cEFON0txellCWWNuem5VYW9ldU5TRWE0SnJGWVFmWlVoQXhiOHZOYXNBRWV0SFhmcVZua2Y4dDJLUHRQSVVEXzFF?oc=5",
+   "fonte": "Jornal Opção",
+   "escopo": "br",
+   "publicado_em": "2026-09-11T17:48:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Let’s Create Real Support for Our Nation’s Jewish College Students",
@@ -672,6 +752,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "De Zárate a Irán: la larga sombra del antisemitismo en sectores del peronismo",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMXQ3cFh5VDVKeC1vRERXSjN6OXdsSElXZFdqNEROVmdqRjJUQTBSRkVrWWtkUGNiZDItWFI5YU5kNkQ2enhOWG1VdHBmUGlmTEJCbkRlcTMyVmJWWWVkMmRScm5DcHJKem9yWWxvT2lxQ05yV1RnRmJPcWRfYWZtNXFZaVQxbkRMb1hZMHZaYWg5SUdwVVNhS2pUYmNzS1M3czFlaXd2ZjBmLVFzRDUtQTY1a0QtM2QwZXpxOU0zSEFOMXQ40gHKAUFVX3lxTFBkYURRWVIyb3hQam03Ry04bWtRc3hzTlBRTWhJZ1llYWRWa0NDMEMtdUQ2Nll1MHNMMURRWldrME5RVmVjSHV6NWd0cGhZQXl4WGhaQTBobGJwQlQ1OERkTGItVzJxSGl6Ti1HUE9lZzlyMXNGbGotSE9Ed1Q3Q21zTEFZdHotUE8zNU5DV3BkYnZITTVLbFVpRkI2T3F3UC1QTjZoQm9PM0hJN3RTQ0MxX2dOcE91bjhNVWk2SzY1MWoyVndER0NUVUE?oc=5",
+   "fonte": "Perfil",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-25T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Fight to block California antisemitism law ends in defeat",
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOS09Delk0alZ1Vm9jak55MUJyY2NJb282Ri1aOXBLNk11NHBVMk1sNDFNa3paY2hSdzY4U3owcHhwcklTZVBSV3BRX3BMUGJoa3p0QnpndEFManVZenJGcElrYk94dzJoczJIMHhWOHVQU1Z5azF2MThCQ2VMcXk2cHBUdFhwemNIaW1XYnJmWmlDUUU?oc=5",
    "fonte": "Courthouse News",
@@ -712,6 +802,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Jornada de reflexión sobre antisemitismo y discriminación",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeU0xelpYZ2plbFFmU2dwVlhvbHN5clk5M3k1SGQ4aUR4NHFxOWVLSVRnODljR1FQU096S3haT2dFTFMwNHNIZzFJN1lUYVJwaEJkS21FaUJac01EQk9tUUo1dGNEU0N4X0I4V2J6MDJVWlAxQy1QUmpRaHB0YUNIeTNPMzcxMklwVkw1eG5ac2ZyOUVwamVxNE1nMHNVZjBscmlNeU91Z1hDSDZLV3Faa1BtRFM?oc=5",
+   "fonte": "consejomagistratura.gov.ar",
+   "escopo": "mundo",
+   "publicado_em": "2026-07-20T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Abertura de processo contra juiz por suposto´racismo religioso´",
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcVBSQ0MzX0MyMjlyTmczZ19NN3V2RHpfUktxVWZSLXFFeHYxS2trcFB1bHhHSWJfR01mVFp3RTRldzYzQjNOeDVDSFljbGh0RS1wNzRRUHd1c01WNnpOX1lxWVBLWmJVT0xQdUJfc3FvR1AzWDg0SkhkZTZMN0U2ZWYwcjdVYW5Fa3dFUlZ2V1NXaDdYNTd6Mlo3dXhLNU9UVUVWdDh3bU9aYkJxOE5SeENn?oc=5",
    "fonte": "Espaço Vital",
@@ -739,6 +839,16 @@
    "publicado_em": "2026-04-06T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "El antisemitismo en la historia: Desde la crucifixión de Cristo hasta el año 1400 | Enciclopedia del Holocausto",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZHFhRjhMaTNvanJGMVBZd3NfWlhnWHN4REJfblNLYmpubmcxN0ZwWDlLTG4zSy11TnZsemJuQ2dFLTR2SVBiRVo3SnhqeVYybTNpMXpjeG9TUXVlNVEwNFhGRElPb1p3cmREY1d3VUtPQ0dfR0UyVkNjekppZXJNUkNvWWd6R1VMV2VTVW9BQWZFRWdaamVlOW9ieXZzVDVEdzhRMVVR?oc=5",
+   "fonte": "Holocaust Encyclopedia",
+   "escopo": "mundo",
+   "publicado_em": "1970-01-01T00:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
   }
  ]
