@@ -2,15 +2,85 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-17",
  "semana_iso": "2026-S38",
- "atualizado_em": "2026-09-17T07:30:27+00:00",
+ "atualizado_em": "2026-09-17T13:19:17+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 88,
- "no_brasil": 21,
- "no_mundo": 67,
+ "total": 100,
+ "no_brasil": 24,
+ "no_mundo": 76,
  "itens": [
+  {
+   "titulo": "David Hofstedter’s family philanthropy: A Canadian story of Jewish giving and impact",
+   "link": "https://www.jpost.com/diaspora/article-908931",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T14:41:48+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "El libelo antisemita sobre el 11-S se convirtió en una puerta de entrada a teorías conspirativas más amplias",
+   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOSHdkUW1EOTNGN2RBZUNVUU1PeWNVLTBUOUh5N3BwZlNPanJLdHAyZ1gySGVHRV9PRlZpd25SNm96a0VPS0w5NE9zR0FQOHBvZnRTOUsxV3M1V0VOUmljTEw0ekVrRkFia1JYdm12bUxDUG1CNlN3SE56TTFsS2Z3blhHblZYOGJaZWxVdWVOT1p2bUljNUtMT2pFTk0zeHBhSFFMNDlEYlkyNTgzR1hTTDFBZ1RhTnFTRGFjenUtWEh0YmpHZTg2bV9yaFJFMkxadldSbUJDZjU2bVpOZ1ROZ3U3R2lMZTRkbmRoSlFtWTRfT1UzWnRR?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T12:49:52+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Patriots for Europe group adopts IHRA principles combating antisemitism, express support for Israel",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-908903",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T12:38:55+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Bill Seeks National Historical Park Status for Fort Ontario Holocaust Refugee Shelter",
+   "link": "https://combatantisemitism.org/government-and-policy/bill-seeks-national-historical-park-status-for-fort-ontario-holocaust-refugee-shelter/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T12:24:33+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "French Jewish students decry court’s omission of antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdjR3RmEyc204cWdOaHFvamdnMVZCSHNsSjI3ZXNnazJmRmRpZGk3ckdHNE5vUGJwRFgzTEVhTUQyZHlHa2k2TElMNWU0cFc1bXYzSGxudmZ6X1FRTHp6MmNfWXNzWnY5YWZXZEN2Yl80Tkt4YVE1a0ZfVlp0ZktXcFBVdEk0bW0tTDE1bkcwSjNOeldhX2c?oc=5",
+   "fonte": "JNS.org",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T11:02:21+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Milan rabbi attacked by three men while waiting for bus, police arrest one suspect",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBrVmJzdzZKQktXeURXMFk2eWhZRlhoWXZzRGZMMFZ0bWdMUEJiYWl3aFlUc0JWSFZRVjhQNmJ1cGtuZlBKUnM2REplN3NReTBfb29mLWpwYkFUWGZWMGdQVEp1cE1rcW50dkE?oc=5",
+   "fonte": "The Jerusalem Post",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T10:38:22+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Combating Antisemitism Through Education in Beverly Hills",
+   "link": "https://jewishjournal.com/community/392318/combating-antisemitism-through-education-in-beverly-hills/",
+   "fonte": "Jewish Journal",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T08:15:34+00:00",
+   "via": null,
+   "feed": "jj",
+   "categoria": "Imprensa especializada"
+  },
   {
    "titulo": "LA Jewish Federation sues museum to recover Nazi-looted paintings held by Hermann Göring",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-908846",
@@ -442,6 +512,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Em Palmas, 66% dos participantes de censo sobre povos de terreiro relatam intolerância ou racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPT2ZuU054U1cwcmlXYjZWLTZqMDdfLXBrUmJXUW9RaHVlWDdkZ093LUkzS1h2NVZOTDc1YzBYSWpEYlZPNDlONkRVTFRvRDlyQTZRNmFCMjQwcjNoYjlaTENlMFVaSVpDd04xcUV1akJ5ZmR6bmk1X2lmWGxEaDRuQ3ZXQXR3WEx6VFozUEdsRld5WnhILXQ4cFdubFRWMEtWQjF3NV9pQXJMRTQyOEM0WjlkZmlvRnJtbmlGTzRjR2VDRUg3NnlFczdzMnNPaG81ZFRzeVFn?oc=5",
+   "fonte": "Sou de Palmas",
+   "escopo": "br",
+   "publicado_em": "2026-09-15T13:29:39+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Jewish Municipal Leaders Urge Newly-Relaunched US Coalition of Inclusive and Sustainable Cities to Commit to Fighting Antisemitism and Adopt IHRA Definition",
    "link": "https://combatantisemitism.org/cam-news/jewish-municipal-leaders-urge-newly-relaunched-us-coalition-of-inclusive-and-sustainable-cities-to-adopt-ihra-antisemitism-definition/",
    "fonte": "Combat Antisemitism Movement",
@@ -512,6 +592,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "Lyon : LFI refuse de subventionner le Crif et taxe la droite d'antisémitisme",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNHR6WFgyd2wyYU5saHhmSjVkTWx4aHp6dW1GdGJOSnEzMEtqOVFDM0Utb19yYjlocU5qblhhckJFdGtyM0c5akZJckh6Mmd3aVdLc2VsQ0RobDVWdGtwT1AxeXNGci1nRERUZGYxZTBjUTdsSmM4TTBUdmY4WXdFSWZuT3J5YlZNVjJ2RjNpWjJyR05pWjBteFRwM0NfcnpveHlmS181emM5QVBVVDhrMXJfQQ?oc=5",
+   "fonte": "lyonmag.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T08:25:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "\"La plus belle façon de lutter contre l’antisémitisme, c’est d’être fier de son judaïsme\", insiste Shannon Seban (LR)",
    "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQX0RZend5dXl4WmI0aG9hNnJVTDFIV080aTdxZDhpdHJaWEJRZDFlLVBVaUl3bjdHMTVfZkJKYkw3aTlBc0VKZjNkYjlGb1huWnROcVJxSGtuOEJjN0ttRVl1Nl9iT2djU09CUHFfZTVfUG90VElqZE5BV3ozMENfMGJHYlNwNTQ2VDBkZWt6SXNUbUhLdmRzU2k3SnBNTm8zUmJ5WGhJdHV2TDR0b1doQnhNTkprQkJsRjFWaFI0QzdzYUhpakZ4X2FhSjRaLVJENV9UR01pLWljRU4ybTBKTF9aU1p5ZmJfdEticldLMnpib1loc0FJRU9WRlNzS1ct?oc=5",
    "fonte": "La Provence",
@@ -559,6 +649,16 @@
    "publicado_em": "2026-09-14T18:12:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Netanyahu acusa filme israelense premiado em Veneza de 'antissemitismo'",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOX00zTzB1QnNtNmVzcjJvak9qcE10eUhaajBJemVITTBnUFVnVlk0NGdWU3NHZ05JbG1nc3FUS2ROeGpiSkFsSWlQSjF3dUVMdmROaWVUNmZGb1JLNXEySkprOWRVRlZQQzl0dzVyZDRxSkJDYjhVTy1BNzhOdzNfYjlTRUNZWjhyTW5GQXZrTnNJdDlIc1hQUkc2X0FxM0tybV83MXRXMFdib3FzY2c0NHhBWnJPR3JmX05mbC1WYk1MZUlDbnQ3YU5wb2xXYldHem1OUlR1czl4Tm9zdlp5RHpDekJ3VnVIUXB3?oc=5",
+   "fonte": "Terra",
+   "escopo": "br",
+   "publicado_em": "2026-09-14T17:26:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -732,6 +832,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Conib lança Atlas para combater alta dos casos de antissemitismo no Brasil",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZmlsTV80UmhrN2stVEpxeGd3X25nTkplUG05N3VJWXd1THVqTVNkV2RUeTF1WUphVEVHd3pMbU9ZWDVOelBrdTFnb3QxbEI2TmUxcVBBMFFmQUNYOEdOUFdYMUtxSEU2bzZSekVxeDZDREkwU0d0ZERwUWY1NTJwMUdwUmRMdlRITUUzcmh0d0hDRWk4cUtYMVJ1Ti1kdl9SODVJOGtMWTUwWEtBTHM2SDhB?oc=5",
+   "fonte": "CNN Brasil",
+   "escopo": "br",
+   "publicado_em": "2026-09-03T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "In Missouri schools, new law targeting antisemitism raises First Amendment concerns",
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOV1RCbGVxcVVuOTFCaFBoeVNNblN6bHBWY1NHZTM2STh0OG1NOF9NaVBWWDRUOWZJdnJaWjBSR1B1V1FNNjJPX1NaTl96MDFyeEtwSVgwZ0pyOXB5eXBncjBPU0dsbG9ob3VnQ242VUhYYTFYallvMkVRYzNnWktkMVJTNms0T1IwbHdlUzNOWVlJNWFIbEJhM19sVTI?oc=5",
    "fonte": "kcur.org",
@@ -749,6 +859,16 @@
    "publicado_em": "2026-09-01T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "¿Quiénes impulsan el antisemitismo?",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ZQnFRemszaUtvdFBmRFJDdC1NYVl0ZVNmZVNrUWxTQU1SY3F0d3hBVkFIUGxobzFSaEIyVmR6ZGVhemJfUVdfVGdNTjVGQ21Pb1REZlM4ZldnRHFpSzB5U2dodDNHRjdaa1pxbXBGQm9vUzNGT1RoOGxueXBBUQ?oc=5",
+   "fonte": "Página|12",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-31T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
   },
   {
