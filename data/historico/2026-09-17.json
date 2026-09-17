@@ -2,15 +2,75 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-17",
  "semana_iso": "2026-S38",
- "atualizado_em": "2026-09-17T18:06:24+00:00",
+ "atualizado_em": "2026-09-17T22:47:13+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 111,
- "no_brasil": 25,
- "no_mundo": 86,
+ "total": 123,
+ "no_brasil": 27,
+ "no_mundo": 96,
  "itens": [
+  {
+   "titulo": "Friedrich Merz condena antissemitismo e xenofobia em ação de campanha em Berlim",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLWt3OTVuSkhkMjh1SWl2bWFuRlVzZWFfaWlEVlVXZnlsOUpDR3lqWXkwdVpVbjBCS2pOU1dGRkdSWWx5Z25ZSlZ0a1l4cWlqZjBhdThfeTI3R0NJcEh6YUxKSG1TRlNEeTFpR1BOTkFGMVItaUFKeWJueU1CMlpSM2hRYTBCdlJYYVpWTmtVby1xQlJabFhFcDlqalQxZzVaYWhweEttQWhQMmxMUUt4X19nOA?oc=5",
+   "fonte": "Observador",
+   "escopo": "br",
+   "publicado_em": "2026-09-17T21:42:04+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Jerusalem Reform synagogue egged in second attack in a month",
+   "link": "https://www.jta.org/2026/09/17/israel/jerusalem-reform-synagogue-egged-in-second-attack-in-a-month",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T19:58:01+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Noticias de Israel y del mundo judío en español",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQV1N0NHpHQ2pLSTZ3VHlqNnVGMmNRZUdiaUJ5ajBDay1KcHllQmlDUTZMLTE5UHZoOXRFVm9NMjlZRkZvRWViYVlRd3M4SThkRUI5aFZwaks0bm1tSWx5UG9fZmE4VlVzR2pnRjF5Uk1SWHhtSFZGU2k0M2ZiZzcxNg?oc=5",
+   "fonte": "Aurora Israel",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T19:55:15+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Sweden’s center-left wins tight election marred by antisemitism accusations",
+   "link": "https://www.jta.org/2026/09/17/global/swedens-center-left-wins-tight-election-marred-by-antisemitism-accusations",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T19:47:43+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "French Court Drops Antisemitism Charges in Assault of Three Jewish Students, Sparking Outrage",
+   "link": "https://www.algemeiner.com/2026/09/17/french-court-drops-antisemitism-charges-assault-three-jewish-students-sparking-outrage/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T19:27:30+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "New Holocaust Restitution Laws Prompt Two Lawsuits Demanding Return of Nazi-Looted Art",
+   "link": "https://www.algemeiner.com/2026/09/17/new-holocaust-restitution-laws-prompt-two-lawsuits-demanding-return-nazi-looted-art/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T19:23:23+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
   {
    "titulo": "Man charged with ramming gates of Brisbane synagogue released immediately after sentencing",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-908977",
@@ -19,6 +79,16 @@
    "publicado_em": "2026-09-17T18:20:52+00:00",
    "via": null,
    "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "‘Run, hide, fight’: Synagogues make threat preparedness part of High Holiday services",
+   "link": "https://forward.com/news/850766/synagogue-security-high-holiday-yom-kippur/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T18:11:14+00:00",
+   "via": null,
+   "feed": "fwd",
    "categoria": "Imprensa especializada"
   },
   {
@@ -92,6 +162,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "The ‘Fauda’ Effect: Can a TV Show Change How the World Views Israel and the Realities of October 7th?",
+   "link": "https://combatantisemitism.org/special-features/the-fauda-effect-will-a-tv-show-change-how-the-world-views-israel-and-october-7th/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T15:22:54+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
    "titulo": "David Hofstedter’s family philanthropy: A Canadian story of Jewish giving and impact",
    "link": "https://www.jpost.com/diaspora/article-908931",
    "fonte": "The Jerusalem Post — Diaspora",
@@ -120,6 +200,16 @@
    "via": "Google Notícias",
    "feed": "radar-br",
    "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Three Men Attack Rabbi at Milan Bus Stop, Police Arrest One Suspect",
+   "link": "https://combatantisemitism.org/cam-news/three-men-attack-rabbi-at-milan-bus-stop-police-arrest-one-suspect/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T13:58:25+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
   },
   {
    "titulo": "El libelo antisemita sobre el 11-S se convirtió en una puerta de entrada a teorías conspirativas más amplias",
@@ -500,6 +590,16 @@
    "via": "Google Notícias",
    "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Man Who Attacked Jews Near Times Square Shortly After October 7th Gets 90 Days in Jail, Flashes ‘Victory’ Sign",
+   "link": "https://combatantisemitism.org/cam-news/man-who-attacked-jews-near-times-square-shortly-after-october-7th-gets-90-days-in-jail-flashes-victory-sign/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T13:34:39+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
   },
   {
    "titulo": "Koch: é impossível ser discípulo de Cristo e, ao mesmo tempo, antissemita",
@@ -902,6 +1002,16 @@
    "categoria": "Observatórios e entidades"
   },
   {
+   "titulo": "Antisemitism | History, Meaning, Facts, & Examples",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBxRnNldnFQbVE3amVrY3RtZHJ1OWo2cHRkemVuY1c0SGNBYjVUQTdhX3JJcnl0RWFPUHdBZFh4Rm5YSHlNRExrTkZuQzhkYjQxNlc5cnRIT1E?oc=5",
+   "fonte": "Britannica",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-09T05:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Best Jewish Advocacy Organization",
    "link": "https://standwithus.com/news/best-jewish-advocacy-organization/",
    "fonte": "StandWithUs",
@@ -1099,6 +1209,16 @@
    "publicado_em": "2026-06-29T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Projeto equipara antissemitismo a crime de racismo",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWGc2VkU2MFpuS2RnRkN4ZmFCWXZiM1BVaGNNUzRqVktib2JybWlZN3JWTHhpd293NWtIWElqQzVUdTJUaEYzRHlScmpSbWFGcnRkYmxGckFySnJOcDIzSVdtcXNBR1N5QzEta0VQZy1YNW9xN2JzOXV6NXpuZl9STHgyaHVZNlRBZmdWNTVuQThTTE5HV0NyRA?oc=5",
+   "fonte": "Portal da Câmara dos Deputados",
+   "escopo": "br",
+   "publicado_em": "2026-05-18T18:47:36+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
    "categoria": "Radar por palavras-chave"
   },
   {
