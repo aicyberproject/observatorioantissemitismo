@@ -2,15 +2,95 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-17",
  "semana_iso": "2026-S38",
- "atualizado_em": "2026-09-17T13:19:17+00:00",
+ "atualizado_em": "2026-09-17T18:06:24+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 100,
- "no_brasil": 24,
- "no_mundo": 76,
+ "total": 111,
+ "no_brasil": 25,
+ "no_mundo": 86,
  "itens": [
+  {
+   "titulo": "Man charged with ramming gates of Brisbane synagogue released immediately after sentencing",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-908977",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T18:20:52+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Jewish German students experience greater psychological strain than non-Jewish peers, study shows",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-908967",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T16:57:30+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Heaton Park survivor one year after synagogue attack: “The community doesn’t feel any safer”",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-908965",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T16:51:31+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Merz arremete contra el antisemitismo y la xenofobia en un acto electoral en Berlín",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbWxVcThpQVlOaGZGZEJwbmlaaS1sNDE5OGRNUWNyZk4zbUFSUmpYbWFpREpIRE82VlhxWnBmSGU3VEFTZFVMbmMtd1MtcXExY1JHU1g3cHhEVVpSOFZkUFVlc2FMdGl3QlpFQXdUTDdrcEdrWTlzejRHTkltS3BpQmRUWDJnLXJzX2RHQXpYSTdaaDhOemZNOXlNamUzWXNoVzI1c3UzTm9jM2RpTEsxb1dRbTd3VXJYVjJIUXhOZ1ROSzVvZGRXNWduZFVtb19OVFHSAewBQVVfeXFMUG5ILVoxOXh0cDNwUGNzeWE5anNhelFzd1dadGdZYkk2Yk9LZ0NRaFh4Uy14WHZTNUFPd0ZJeUF2T2pBTUMxeE5YcG5nMDFhMTBwR3FLbF9IdXFmYnJPZERjMXQ1ZmczU0tKS3d3cThuRGVwRGNYekFYaTNUYzl1VUVXeGdMYjZaVmZpUTJDTTAtelRGcjZBbkxNNjZaNnRBVVlKcFZMOEJjNEFVMHh4WlBEZXY4QlZJdUlaZXFmRnRlaTRsekZqY1NBYUdVS2t3SjR1M0EyTkxzbGRsTlFfblJsektGX3BxTnBWWTY?oc=5",
+   "fonte": "infobae.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T16:48:19+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Widow of Bondi Hanukkah photographer reveals she is converting to Judaism in his, victims' honor",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-908962",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T16:31:46+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "JewBelong: Fighting Antisemitism with new, bold messages",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbDBBVk5SUjgzeVJsbjZxWXVKTjZOYUpyZXVaVHBSenJ6ZkpqSlYtT3UwaFNpdzFYeTdJWGVtQ3NuNG9GWllhN0lEdWF2aElnX09CeG41SlVpdkR4SldiOHJzTmNmNHlNYW5ycmw2Smtkc2luaEJjNEdSVFZYSWhjR0ZYbmxFX0tiTjlPY3BSUDljOS1seXVWRGpVWGlBd0E?oc=5",
+   "fonte": "KHGI",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T16:04:53+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Is Antisemitism an ‘Exceptional Hatred?’",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE40Y3NLejhESWg4Z2F1aFRucExXak93M2JNX0RUM053bTNOelpXWDVjUWppZ2k3MVZYWGJuS00wS3NTVnB6bVMxM1VJeFg2TVhuVkNFb3R1UGNTZVUwZDJNNE1GUjBLMmJuSGFfdWRwZUR4bExiVFZyNktlWmNZbms?oc=5",
+   "fonte": "Religion News Service",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T15:46:54+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "How Ed Sheeran’s Tour Turned Into a Clash Over Palestinians and Antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPM2hMTXB5eEQwNVBNWUJiUFJfQWRSY3pUbi1ZOFZkb3NxbWh1ZzQ1eHlYU0RvOXE5QXR0WmhldHNScjZYdDJNLTV0TGN6WjN1M1JxZ3N4NDFQZ2VDVmFyWVZJWnllN0JFSDhzZDB4d3hjV0RXNm1BZU01QlFUZlRyNmJieHRpNzg3VnB5YjBfdi1LSmdVakkwMElvaDB3Tk84V2c?oc=5",
+   "fonte": "The New York Times",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T15:23:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "David Hofstedter’s family philanthropy: A Canadian story of Jewish giving and impact",
    "link": "https://www.jpost.com/diaspora/article-908931",
@@ -20,6 +100,26 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Translation series connects English readers to prewar Eastern European Jewish life",
+   "link": "https://forward.com/yiddish/850607/translation-series-connects-english-readers-to-prewar-eastern-european-jewish-life/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T14:10:17+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Youtuber Monark é condenado pela Justiça de SP a pagar R$ 100 mil por fala defendendo a criação de partido nazista",
+   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQTEZ5Wl9XODJVM293eGcybV9OckI5WkxsZWNNYUotMW5kdUp2Wmo2VUlUYXJyQTR6eE5ZR1ZlcDFZRFdROUVYVklzandfbjI1Ym9OQTJ2bjFzLTNxZm9oV0VRVUQtOUNkeFV5RjBTSzF2MDQ3YndZX0FzOGlEVURyUy10YU5ONDZ1NnM5c2ZLV0JuQjM2UVBraW5Zc2dTYjBrd3oxam8xYmoxa285dnZoakZBV3UzdF9PeGtDamxoNkxDa01XanZKNm44V0t5NzBVaHBMXzNCNTVMcWM3ZG93czI4dDNPQzBCSkRXdUY5aWhjSlZa?oc=5",
+   "fonte": "francesnews.com.br",
+   "escopo": "br",
+   "publicado_em": "2026-09-17T14:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "El libelo antisemita sobre el 11-S se convirtió en una puerta de entrada a teorías conspirativas más amplias",
@@ -40,6 +140,16 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Noticias de Israel y del mundo judío en español",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MeXJEcVNTbXFKdFNpOEptYkdzUHV5dnVHcHMyQ1p1TGphZ0ROTjZFcVc3eEtESDR3RHg4STdPS0ZOaS0zcHVpaTJPN0hOOGE1RUMxcG5WdFB5bnFQVGhETkVyYW9vcFQ1eTRLN1BaZWRfUnl0S2c?oc=5",
+   "fonte": "Aurora Israel",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T12:37:24+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Bill Seeks National Historical Park Status for Fort Ontario Holocaust Refugee Shelter",
