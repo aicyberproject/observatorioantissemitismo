@@ -2,15 +2,55 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-18",
  "semana_iso": "2026-S38",
- "atualizado_em": "2026-09-18T16:15:16+00:00",
+ "atualizado_em": "2026-09-18T20:46:58+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 91,
+ "total": 103,
  "no_brasil": 24,
- "no_mundo": 67,
+ "no_mundo": 79,
  "itens": [
+  {
+   "titulo": "Majority of US Jews say Netanyahu fueling American antisemitism - poll",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-909078",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-18T21:25:02+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "ARC Analysis: In Houthi-Run Yemen, Antisemitism Is a Way of Life",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNREtDazIwYTg3REZTUjd3Vm9LeHhKQWx6Z3JfbXIxRkU4TlJlZUg1azZtM1hUVi1POE5KY0M0S3cxcTFRMmdKZXBzT0VLNGlDc0M0QnByTjkxN1ZxQVg5X0pKMnc4dTE2UG9VVDFFOXJtNl9xRHlLaHlZMktPUnJDRDBZemtidTQwbkwxTlg2WjNxNVNYc1lzSm9vS2JIX09MS0pqbDZOa2RXZEVHc1hVSw?oc=5",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-18T20:43:44+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "‘A Curse Upon the Jews’: In Houthi-Run Yemen, Antisemitism Is a Way of Life",
+   "link": "https://combatantisemitism.org/special-features/a-curse-upon-the-jews-in-houthi-run-yemen-antisemitism-is-a-way-of-life/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-18T20:37:04+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Germany’s CDU Party Unveils New Antisemitism Initiative Amid Wave of Attacks on Jews",
+   "link": "https://www.algemeiner.com/2026/09/18/germanys-cdu-party-unveils-new-antisemitism-initiative-amid-wave-attacks-jews/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-18T19:29:53+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
   {
    "titulo": "Hundreds of Jewish residents protest outside of NYC Mayor Mamdani's home",
    "link": "https://www.jpost.com/diaspora/article-909068",
@@ -20,6 +60,56 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Jewish leaders call out Mamdani at gathering outside mayor’s residence",
+   "link": "https://www.jta.org/2026/09/18/ny/jewish-leaders-call-out-mamdani-at-gathering-outside-mayors-residence",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-18T18:58:49+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "After outcry, Texas lieutenant governor says schools should teach Holocaust books ‘Night,’ ‘Anne Frank’",
+   "link": "https://www.jta.org/2026/09/18/united-states/after-outcry-texas-lieutenant-governor-says-schools-should-teach-holocaust-books-night-anne-frank",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-18T18:54:11+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "What you need to know about Macklemore and accusations of antisemitism",
+   "link": "https://www.jta.org/2026/09/18/culture/macklemore-was-accused-of-antisemitism-in-2014-now-pro-israel-voices-say-his-pro-palestinian-activism-crosses-the-line",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-18T18:49:43+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Former Knicks Player, Yeshiva U Assistant Coach Mike Sweetney Dies at 43: ‘The Jewish Community Lost an Ally’",
+   "link": "https://www.algemeiner.com/2026/09/18/former-knicks-player-yeshiva-u-assistant-coach-mike-sweetney-dies-43-jewish-community-lost-ally/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-18T16:53:26+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Jewish students gather outside Gracie Mansion to protest antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeHNHUDM2NFNpdGVBem5hQTVPSFlkZ2hVMUpuOGV3TDFLS3BHSVRFeUVpUUJLS05qdGp5Wml3OWxpUUZrX1lTeUdTUGd0UjRGYXNRR0x3RmNvY0tya1ZPeXlwb0JTa3JMaGx1MVRsTTc0aUdBWkpHZ3VuTzdmUml6SHNqRjZZTUxY?oc=5",
+   "fonte": "CBS News",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-18T16:47:24+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "What Does Israel Mean to the Jewish People, and Why Should the World Care?",
@@ -242,6 +332,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "French Court Drops Antisemitism Charges in Assault of Three Jewish Students, Sparking Outrage",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdmpXNllKY1drMDlNWG45MWNwd2VsR1VmUzFCN1dsNlk2SEpveF9mN2NnVTdUdEJVbkdCRUpidGhBOTlMVFRfVFN3VVVoQmprVEQ5RzZaVkpRc19pTEtFSTJwZ25ELTViU0oySTU2OG1Tb21faXhHT2ZxVGJCSFhLZGlDWU5Xb1QyTzZwWnBTeVU3ekFjbWhaaVFZTzh5SkoxY3NLa0RYc2wzWGJMR0FyWURmZ241TUR5SHQ1RVM5MEM2QzQ?oc=5",
+   "fonte": "Algemeiner.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T18:27:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Bill Seeks National Historical Park Status for Fort Ontario Holocaust Refugee Shelter",
    "link": "https://combatantisemitism.org/government-and-policy/bill-seeks-national-historical-park-status-for-fort-ontario-holocaust-refugee-shelter/",
    "fonte": "Combat Antisemitism Movement",
@@ -367,6 +467,16 @@
    "fonte": "Combat Antisemitism Movement",
    "escopo": "mundo",
    "publicado_em": "2026-09-17T13:58:25+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "‘The Most Powerful Way to Fight Antisemitism Is to Be Proud of One’s Judaism’: CAM’s Shannon Seban Honored at Marseille Rosh Hashanah Ceremony",
+   "link": "https://combatantisemitism.org/cam-news/the-most-powerful-way-to-fight-antisemitism-is-to-be-proud-of-ones-judaism-cams-shannon-seban-honored-at-marseille-rosh-hashanah-ceremony/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T13:18:58+00:00",
    "via": null,
    "feed": "cam",
    "categoria": "Observatórios e entidades"
@@ -869,6 +979,16 @@
    "publicado_em": "2026-06-29T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Lutte contre le racisme, l'antisémitisme et la xénophobie : la CNCDH publie son rapport 2025",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbzN6cmdXNEwtU3RRMHNlZEI2V1dpcThtUGs1SDZsakRpalh6d281U0c0cUdiVkkwQ096WV9nLWZDdkdZbVF4ZlIwMWJ0eXhDNGs1QWU3OFZMY0ZLSEt3azR1aGNxV0pieDhVTnN1ZkM5a3R2b1VEWDUyT1RTR2hTa3dTdjBFWkpFdUxiaE5aTFpWaVp5Y2VlelA0bUJuWm84M1VnWjQ4S3NqTWxVcWF4dUlqcTE4cEdkTmJJ?oc=5",
+   "fonte": "CNCDH",
+   "escopo": "mundo",
+   "publicado_em": "2026-06-24T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
    "categoria": "Radar por palavras-chave"
   },
   {
