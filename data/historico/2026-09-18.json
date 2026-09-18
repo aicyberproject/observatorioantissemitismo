@@ -2,15 +2,115 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-18",
  "semana_iso": "2026-S38",
- "atualizado_em": "2026-09-18T11:00:40+00:00",
+ "atualizado_em": "2026-09-18T16:15:16+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 77,
- "no_brasil": 21,
- "no_mundo": 56,
+ "total": 91,
+ "no_brasil": 24,
+ "no_mundo": 67,
  "itens": [
+  {
+   "titulo": "Hundreds of Jewish residents protest outside of NYC Mayor Mamdani's home",
+   "link": "https://www.jpost.com/diaspora/article-909068",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-18T18:59:05+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "What Does Israel Mean to the Jewish People, and Why Should the World Care?",
+   "link": "https://www.algemeiner.com/2026/09/18/what-does-israel-mean-jewish-people-why-should-world-care/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-18T15:41:42+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Budapest Jewish community reopens, rededicates 100-year-old historic Rákospalota synagogue",
+   "link": "https://www.jpost.com/diaspora/article-909056",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-18T14:56:22+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Jewish radio host says he 'charmed' JD Vance after previous criticism for wavering Israel support",
+   "link": "https://www.jpost.com/diaspora/article-909053",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-18T14:32:01+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "After CAM Complaint, French Public TV Station Removes Replay of Show in Which Actress Accused Israel of ‘Genocide’",
+   "link": "https://combatantisemitism.org/cam-news/after-cam-complaint-french-public-tv-station-removes-replay-of-show-in-which-actress-accused-israel-of-genocide/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-18T14:09:53+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "The power of Sukkot to unite the Jewish people",
+   "link": "https://forward.com/yiddish/850898/the-power-of-sukkot-to-unite-the-jewish-people/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-18T13:17:15+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Antisemitism alleged in Etiwanda schools; federal probe is underway",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQ2J6bEtkMHhOMlJaNjhrMXkxbDlPdHplcm1RcEwwVjB0amlwM1U3LTlpcWxBTzJZUE9JYUxVV3liVjlhYkNWVE5IRzBnSWZsQ2JPTng4amdRdllvQ3dEVnhIZDJJWmlqZ2xXU2xZcmpKOUpZYktrRmNEVmJvWE9rSlNGS1Ytdzc1QkE5SFFaekZZU1Nna0ZfVEpHaGFwdHR4Y0tOWVEzSHlmNXBN?oc=5",
+   "fonte": "Daily Bulletin",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-18T12:31:21+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "The Jewish soul and Hasidic inspirations of Annie Dillard",
+   "link": "https://forward.com/culture/850973/annie-dillard-writer-appreciation-hasidic-jewish-presbyterian-inspirations/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-18T11:44:03+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Noticias de Israel y del mundo judío en español",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1EUWhoaHBQa1ZITmhyZDJhVTVpc1FjcFdQWHk1MjZjeVp2c2pXb3B0OVRjUl91WTJYX0lpanNrVGlNOEhhRnFIczJfOFFqVW5oRW1OR1JrZFVzeEhOcjNsd0drcUlYWXZrRElqRXd4UERfZFBRTWFUMThUc05KZw?oc=5",
+   "fonte": "Aurora Israel",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-18T08:42:03+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "French Jewish students decry court’s omission of antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMFZrUkZFbzhGMlNIUmlIWUd2dTIyTFJFOWhOaG1VbjM4OTB5Z2VodlZBOWJISWdxekliTUp2MFZKcWRCU3JJcVJxcFVTRmlaRzQ5Q3FRREVTZVdqSjB3djBfa3UzUFFCNHYydUJGZ3h5SmprWWJKelVBOV9MeE5nTzdJcWhEeFhL0gGOAUFVX3lxTE0yVmZnbVAtWGRMa1BtVk9IVWVRQVc3Q2RaUDhWUDBtb1p5eXpkWjRzb2lPX1R5UW41NGxqV2VTMXFST3ZkRy1Fc0dBUDdmMGxHeVpKRjFPTHZ1TWlWYnFtR3lRa3pHbEw4a0RvNHVBS1YxMC1LdC03UzBTLUhCRkh4VFBra2hLUHlvVDlfVVE?oc=5",
+   "fonte": "ejpress.org",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-18T08:02:08+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Jewish radio host Sid Rosenberg says he ‘charmed’ JD Vance, after slamming his stances on Israel",
    "link": "https://www.jta.org/2026/09/18/politics/jewish-radio-host-sid-rosenberg-says-he-charmed-jd-vance-after-slamming-his-stances-on-israel",
@@ -79,6 +179,16 @@
    "publicado_em": "2026-09-17T22:08:11+00:00",
    "via": "Google Notícias",
    "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Organizações judaicas de NY convocam ato contra o antissemitismo em frente à sede da ONU",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRUs2YVpMb0wwZjhMZms5amktX1k4ejU2SXhhWUJmVmJJM2dqY09VMDNra2MyYk13YUZLaXpzLW5LV3RZbVR3QmdmTmRxX3RIZzJ0QlI1Vlh0WUhNSTNkVHJjeXc4WklXSWtncHk2ZGhwdU9GbVFHQjdlQXZJcWctZDhJSnZsYmo5Ym9sQWNURFdMb2EzUTZqMVBUOER1UEFhQ1JvUEdxcHplUUk2blI5RzhuUkMxRlluZE52QmdnNlhsa09HeXZxc1hRVnZoMEs1Uk95d0xxVdIB3AFBVV95cUxPclRrc0thTm9BclNHMmNNX1piNnl4WmliMWZ1RjZtNmdQbEJNUGZ2RGRUX2xKTVdHRHhoYnZFU0dNZDdOZDVid3FqbXBtT195VXQwZGV4QU04SVBOSndqZV9mLUJHM2QxRlBMeW00YkFWdm9seVQzQWQ4dEtSZU8yS0txdVN1MEFoeEdnWWZpUmtSX3RFLTloZXpnNXhGcGRnVjN3VmRpYmtiUFVzTFk4MVVodk5YVHM4cHdVejJ0VENqZ05RNmpDeHRoemZrZ3BPZzR3V2p4eUJCRjNX?oc=5",
+   "fonte": "Guiame",
+   "escopo": "br",
+   "publicado_em": "2026-09-17T20:13:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -612,6 +722,16 @@
    "categoria": "Observatórios e entidades"
   },
   {
+   "titulo": "Antisémitisme : la sécurité va être renforcée pendant les fêtes juives",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWU4zR1lUcGU2NEV2RXlBaUFIYWoxdjJVNWI3Tm9WUWNyaS1wb1dRTmdvVmlZbEd3RkluOVMtTGRqTlZrTzBTVnJzMVo0Q2hXQ19SUVBqb01oMC1ZdHZESTlLSU9PSGVXWUtuaHBMSWFUNjZDU21ibDlubkQ4TXh4SHVkOW9NSEw3S0tHMEZib1ZheGRkckFNMnVISlppeU9tMzI0LU9lOWFNRklkY3VV?oc=5",
+   "fonte": "la-croix.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-05T13:27:48+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Confederação Israelita lança atlas e plataforma para identificar manifestações de antissemitismo no Brasil",
    "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxORHZ1TWVTb2xWcl9aSjlxU19Kd3B6WnJyeHl3bVBEakdSVWdyYlhFUFdicTlnNi1Hb3pPcGNRemgzd3JiR2lLSks1cVlTUG1HdXMzdVVwalYwZHBtSGdBWXVNWURmd2tpaVlJdUtlS2hLN0d1WHRPN253cERlXzFXQlJ5YnI3WTRjWGFkVWw4REpQazBxZHJoNTNSX1JfYV9zVjhVNTZQUTkxb21CTWd0Rk00QUs4UW4zNEdqZktyVHg2OGVvQWxoMm9uMnhyRVhseTh0SVd6QnI0VnhXcnFPeFVIZmJEWjRuQTZtUTFLVEM5bDBGbGtQRWgxQm51d9IBjAJBVV95cUxOQ0tYLUEyU0J5aHBHZkRxdVN2NFNONEk1VUhyVVlRQVZCem90YVBpXzZZT0ZfdW45NHJYVnVGeWI2Tl9kVno5c2xMWFZtcUREUEpiRFhIeXBCUGJCdWU3OEU0M2FaZ05MT09YQUZnMExkMkx4V1F0Zkh4Yy1HbFpQdjh5TVctQXE3NXBMcXFmVHk0TDNkVzhJUzVqTS1VVkl2LW00SUFxYlVNWnh2RUVCeXlwVk9oYmJEcFVPdGpsMncxWWhTVWZxOWZKU2NpZzR3cnRhWFF6V2RianhURVJxV2dDNUxfLXYtYWpuMEdiT3lkejZZakp1YkVLb1BCdTh4Rk12VEd1cVRtOFdQ?oc=5",
    "fonte": "O GLOBO",
@@ -777,6 +897,26 @@
    "fonte": "Brasil Paralelo",
    "escopo": "br",
    "publicado_em": "2026-04-01T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "O antissemitismo",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSWd3bjZkank4UjdPc0JIbkFJOTlqdG43XzRwaU9DLVQxRzdDbU5OOFdSTVg4bHdYMWRkeEh6bXI1Ymk2QVZnUzBYUnZwSlFWWDc5RG1MZjhGNWV4SmtYVDRCVWVYZElXNGJTZE5JYjJtZE56VHNLM3J1dnRJaXhsTGlVX1ZPeTRiTDl6YmJPQk90dERVQzdjcG1sQ2g3NDQ?oc=5",
+   "fonte": "Migalhas",
+   "escopo": "br",
+   "publicado_em": "2026-02-10T08:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "STF condena advogado por praticar antissemitismo",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNV0NhX2FKTkxnTThCRDRVVF9RRFpjUVFFR0t3V0lBZjlVVmQ0RDdNU2RieFRET05kMjJENVFTSXpQOWIyS3dzbXNlWG14VURLR3RHZGdRbDhjMEFSeHBXek1aMm1ZaGlPbHRWQXRsTmJ6bFZ4MXNpalZ3NjRERTNwcVJtQ1EzUUpVMjc0?oc=5",
+   "fonte": "Midiamax",
+   "escopo": "br",
+   "publicado_em": "2026-01-16T08:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
    "categoria": "Radar por palavras-chave"
