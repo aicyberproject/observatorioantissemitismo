@@ -2,15 +2,45 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-18",
  "semana_iso": "2026-S38",
- "atualizado_em": "2026-09-18T04:22:03+00:00",
+ "atualizado_em": "2026-09-18T11:00:40+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 71,
- "no_brasil": 18,
- "no_mundo": 53,
+ "total": 77,
+ "no_brasil": 21,
+ "no_mundo": 56,
  "itens": [
+  {
+   "titulo": "Jewish radio host Sid Rosenberg says he ‘charmed’ JD Vance, after slamming his stances on Israel",
+   "link": "https://www.jta.org/2026/09/18/politics/jewish-radio-host-sid-rosenberg-says-he-charmed-jd-vance-after-slamming-his-stances-on-israel",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-18T06:56:43+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Como turnê de Ed Sheeran se tornou conflito sobre Palestina e antissemitismo",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUjhuX0lHaTlvRTJHU0lIdVN5bVdTMl9MQndmOUJNRmtEV085U0pLeFVzX3ZjQllSSmYxVEE0ZFFmUlpHZjZZX0VrQTdJck5SRUhIN1hGSkFtQk1wbkNCclZZSUVTeHAzSmtUYWVtcWNQMGFHWTZfMFo3UXdnYjdBTk5YTF92VW9EMTE3SmtNWGRHM2laOHlteG91MmVUeFBNWEJmQU5Xekt3MGFKSGdJT2ZQaEM0MzNyVDBlY2JhWnB0bHExUHd2clZn?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "escopo": "br",
+   "publicado_em": "2026-09-18T04:40:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "In ex-Knick Michael Sweetney, Jewish friends mourn a beloved coach ‘who knew exactly how to show up’",
+   "link": "https://forward.com/news/sports/850913/mike-sweetney-obituary-jewish-basketball-coach/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-18T04:22:36+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
   {
    "titulo": "Sweden’s center-left wins tight election rife with accusations of antisemitism",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-909015",
@@ -37,6 +67,16 @@
    "fonte": "American Jewish Committee (AJC)",
    "escopo": "mundo",
    "publicado_em": "2026-09-17T23:07:25+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Peter Rosenberg Talks Jewish Identity, Antisemitism, Macklemore, and Ye",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOblV2QTAyd3N2OTk3b082bUVUN1NTaUpPU2FMMm1CYUlaaXptQnJZdDNOVUUtNWhuM0U1YUFGUlg5WEFySDBNTl9yY0ZxNUo0WHpWNHlOSExPT09uQTAteDJDOWwtVHdlOG1sZERrdUNNT0w5VEtXZmM4U2JNRUNKWkhPb1BNd0VWdjVUWDJ5aXpkZl9nYzVZQlIyNmRiSkZRQzRTQVVaWno?oc=5",
+   "fonte": "Rolling Stone",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-17T22:08:11+00:00",
    "via": "Google Notícias",
    "feed": "radar-en",
    "categoria": "Radar por palavras-chave"
@@ -602,6 +642,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Atlas lista emojis e imagens de antissemitismo e ensina a identificar ódio a judeus nas redes",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOd0JHWm5EMUlNTlo2NW8wYlY2dTBPSGpNSGY2eU5tclVETGhJSXdRSXc1OTdVeWZWMnFzVEx2dXVEU3I5V1BfY2NxTDNRU19neVlyOUlkRjlib1BUVTFpY3hJQjVnR1RFQVp0Z1pxUFZ5a0I2TFpKeTlkZ3ZTVXFtblhiZS0xWXdDY2RFTXpiVGtKR0R6dEszNWg4Y2RMWnhaaGRtbDFJX3lLdVIyMDZyRGdzbWdNc2J4SzJvVDlzQlJNb3JVUEw00gHMAUFVX3lxTFAtSEIxWnAzc3pEVlc5OWgza2NjVEtUTVBHU1FLdnlqN0VERTV0Q0ZrZnVEc0kzaURuVXVnajJqN2h2RTBLTTVBOEFuX3FWT3pIdXE5QTBjUWI0anJmMGJJaFl4anU1WTBrOXdnRHlHTWdhMTV2R3VpVW55THlZczRjeGhXeGRhUW5GaTFFNWNQWjFqVHlQSWVGV0lEdGtDR3JfV0tXWXRpSGVTZHdlN2p3LVVzWjhfcEVGQlZmTFhsMTRzWUFEaUppVXNCMw?oc=5",
+   "fonte": "estadao.com.br",
+   "escopo": "br",
+   "publicado_em": "2026-09-03T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "What Is the Jewish American Security Act and What Would It Do?",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOczVCT1liZktVOWM1SWZkN0tWanNxWmNfWlpwNXN4NWNESlB3T1o1bUVuM3hCc2RiRGNINHNPaXJQaHNJWjFWNUNSbUphVElEcnNoTGktYmVpbXNWTTF1LXZxdmQ3aXA1Ynlodzg5UkMyMDZBdjlDX3NNOG1JQ0xhTFVwaktvQ1h3MnI2cWRocw?oc=5",
    "fonte": "American Jewish Committee (AJC)",
@@ -717,6 +767,16 @@
    "fonte": "Migalhas",
    "escopo": "br",
    "publicado_em": "2026-04-06T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Tabata Amaral propõe definir antissemitismo na lei e partidos mais à esquerda reagem",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMlAzck91cUJjeEdsMEFZMENtbUtmMmtPQ1hpc0x2T1V5S2ExeXE3WGhSYl9kNVIyZXdfMTNNVjhRZV8xazJtd1prZlcyU01yQTZYZXIwVm9hZkFKT2ZwaWF0LTJUUDA5MWQ4RndXSHBvX0lnMmZBMnJmLUlzWk9sdHhvYm1semFtXzRCeWdieXBCNzU5aVVkeXVzRV8tdWFwWThJOTF4MGVBQjlNcnZ3?oc=5",
+   "fonte": "Brasil Paralelo",
+   "escopo": "br",
+   "publicado_em": "2026-04-01T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
    "categoria": "Radar por palavras-chave"
