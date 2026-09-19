@@ -2,15 +2,45 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-19",
  "semana_iso": "2026-S38",
- "atualizado_em": "2026-09-19T00:06:05+00:00",
+ "atualizado_em": "2026-09-19T07:15:24+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 67,
- "no_brasil": 17,
- "no_mundo": 50,
+ "total": 76,
+ "no_brasil": 20,
+ "no_mundo": 56,
  "itens": [
+  {
+   "titulo": "Sionista da UP entra na justiça contra professor por ‘antissemitismo’",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZy1qRXRTSThsVnpZTDIwcUNGSnRqUkxVWXdHX1h2UzBGZXZrNG1nMUF3eVRJWXRPd3hPMno5cE84blNHRDZuQXRlRjlLVXo1bTNBM0duczl2emR5MGpSZUxJaFItOEhUc09VS3EtSFRBd1F4ekFFa3lZb0xlNXdNZVJjSGNMSlhIVzI5NEg3VHFOWjZRaGpjYjE5dEkwZUdmRW5MVQ?oc=5",
+   "fonte": "Diário Causa Operária",
+   "escopo": "br",
+   "publicado_em": "2026-09-19T03:00:10+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Head of German consulate in Houston will speak in Arkansas about antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdno3N1VkbV9WSkZteTV4Wlh6N3JoYkJXbUdQajg0WXFITVZBdTBFVzFOVmxJY1FaUzNzNU1hRmdpUkZtcTR2S0tyS0hIRDdEZ2RYZHZPYV9OOWtURHNUaTRURTFwM3haV2M4d0JNcUNmRGtNV1phWWRUTWhwOTRLZF82eU9ocEhwM2hLMjVtWkZjaDREN0oyTzN2LThXUlU?oc=5",
+   "fonte": "The Arkansas Democrat-Gazette",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-19T02:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Why the closing prayers of Judaism’s holiest day focus on repairing relationships with each other",
+   "link": "https://forward.com/opinion/851219/why-the-closing-prayers-of-judaisms-holiest-day-focus-on-repairing-relationships-with-each-other/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-19T00:35:36+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
   {
    "titulo": "Terreiros relatam ataques, racismo religioso e conflitos por território ao STF",
    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQd3Y4LTJQaEVMSHpGNEZHTW03dHBqLTBKaXNZbktVT3NQckVqeFE4alpab1RBTWNGcWdUZXJlTDR2SE9hYXgzNFpVTlBDTm5iUXNfM2RSV3lOTFNmOGluM2hWVEpUYVg3eWU3alJwcGNxZDFpdy0xVHl3NWtfNFJWSURBZDZJQldydXgxcjZiY09JbEdSMHY4ejNFVS0ydHhHRUpBUnVFVVZBTFBFYVV5SnNFOUVSc3RFSWttWlMycnpLLXc?oc=5",
@@ -212,6 +242,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "Noticias de Israel y del mundo judío en español",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1CU3c3blBZVmFlRFJnUy1wbTVreUZMaHRlXzhSMHhhLWRZSFY3MVo4WDRkUGZxbkgwVTk5a25HNWtTV3ljemVHaGdZcHA5YmxXQjlMS3NEa016OWhjaUV3cFFOWmdrWnNKOEk5S1V3aFdERDVXQi1NdC03bWViQQ?oc=5",
+   "fonte": "Aurora Israel",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-18T09:08:37+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "French Jewish students decry court’s omission of antisemitism",
    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMFZrUkZFbzhGMlNIUmlIWUd2dTIyTFJFOWhOaG1VbjM4OTB5Z2VodlZBOWJISWdxekliTUp2MFZKcWRCU3JJcVJxcFVTRmlaRzQ5Q3FRREVTZVdqSjB3djBfa3UzUFFCNHYydUJGZ3h5SmprWWJKelVBOV9MeE5nTzdJcWhEeFhL0gGOAUFVX3lxTE0yVmZnbVAtWGRMa1BtVk9IVWVRQVc3Q2RaUDhWUDBtb1p5eXpkWjRzb2lPX1R5UW41NGxqV2VTMXFST3ZkRy1Fc0dBUDdmMGxHeVpKRjFPTHZ1TWlWYnFtR3lRa3pHbEw4a0RvNHVBS1YxMC1LdC03UzBTLUhCRkh4VFBra2hLUHlvVDlfVVE?oc=5",
    "fonte": "ejpress.org",
@@ -372,6 +412,26 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Federal court revives antisemitism lawsuit involving Los Angeles Unified ethnic studies",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVDY4WGxQbWVzZnZOZXg3T3E5eG9CMlFWOGtyV0d5QjROY2w4T05Oand3UFh1UjNFRl9pcVpZQ0NLcmZLWEhya3NRaVIzRFdDSmNGNE55LTNTX0c0QndZSmJwcW56ak5BUHR2YnJHVUVyVk4wYVhEQm9FNEs2UDJSMXVtNzBPeXhPTkdj0gGTAUFVX3lxTE1SY3o3S05uZDN0WnZOZV9mU2JBdzVKYVZiZ2c4Smd6TzFVUWZ0M0JYMXdkNDFWTWZTaW1kZVB6aDAwSEppQWIzQWM3a0VrSVFUc0lTNWFrLWk5MEgtZlZBYnJ3QmVkTnZiUU5CUmdUMXVKbzVQVzJsaFViY1pqbmxyTzRhTHZrSG1VTHB6dUF6aWZYZw?oc=5",
+   "fonte": "EdSource",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T07:08:38+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Le système de santé britannique gangrené par un antisémitisme « malveillant » – CAA",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOXBsc2FxVHZaTTVqRVRQWkRjbzVSRkluRkhJRWprQkg4M3Vaek1OM1RBVUYtSWU0RGpuU2JGNGNWaXpvUkprZXB6emR2R1F4M3JqbEFfVzRwTUtuaWJrd19pWU92SmhwTGxrOHp2eGFSSUlrZFVKZlFraWJONW05M0Jaemk4WVJaS2pJank0N1RfMFFHREZTdXpKTmk2dGZOZ3N6OEVYYUlCaDTSAbABQVVfeXFMT1JIcXJ1MzFJXzRUU2x4N0xEeGVvSDhMYzVreGJPenNkTG8tOE1pMWIyb0E5MmFGYTI4WkhrUEE4SUhvSjMyUVNzQzdLTVAwRXgtLTY0TEhQdGlVazZadThETkF2d0J4ZlJDSVB3T3pyN25OaTZaQ3ZheFBNVy01RC1BTVJzM1JjT3U4bjJpVFJENmJ6emtwcW1XYjF5WGZnVHYyd1BCM3ItVG9TdmxuaHo?oc=5",
+   "fonte": "The Times of Israël",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T16:22:34+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Royaume-Uni : des patients juifs cachent leur identité par crainte d'antisémitisme dans les hôpitaux",
    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQRFJBQ0dPMkVPc0YzT2N1R3dadTJ4UmRpdU82Q1MtV0V5bzBZQlVFMHlmeko4S2FObUNUajdaZW9HenBKWFVsOGNXWUtEd1pfS0VPaXVmYnFHUlg4TXEzMXltdkJfSXN5UDB0Q2ZnV2FqZzZ5Z05OTWt2eGE3ZlZmcXZmRHVzUjluaXNKbTRJcXZHbDBtNVoyQ3pFM3U5bFA5eUlBN0R3dUpWaFBVYnFtcVNaS0N2Tld3Vi1yMmJwSlRKU2d1MjFCUDhpdWxpaW1jcVJ0N1JmWjAzS0RpTGdFN0JCWW85MXdzbFRj?oc=5",
    "fonte": "i24NEWS",
@@ -390,6 +450,16 @@
    "via": null,
    "feed": "fathom",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "\"La plus belle façon de lutter contre l’antisémitisme, c’est d’être fier de son judaïsme\", insiste Shannon Seban (LR)",
+   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQX0RZend5dXl4WmI0aG9hNnJVTDFIV080aTdxZDhpdHJaWEJRZDFlLVBVaUl3bjdHMTVfZkJKYkw3aTlBc0VKZjNkYjlGb1huWnROcVJxSGtuOEJjN0ttRVl1Nl9iT2djU09CUHFfZTVfUG90VElqZE5BV3ozMENfMGJHYlNwNTQ2VDBkZWt6SXNUbUhLdmRzU2k3SnBNTm8zUmJ5WGhJdHV2TDR0b1doQnhNTkprQkJsRjFWaFI0QzdzYUhpakZ4X2FhSjRaLVJENV9UR01pLWljRU4ybTBKTF9aU1p5ZmJfdEticldLMnpib1loc0FJRU9WRlNzS1ct?oc=5",
+   "fonte": "La Provence",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T07:44:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Antissemitismo cresce no Brasil e ganha códigos nas redes sociais, aponta levantamento - 14/09/2026",
@@ -440,6 +510,16 @@
    "via": null,
    "feed": "swu",
    "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Prefeito de Parauapebas (PA) é alvo de processo de impeachment por racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORFhFMmhVam9SVFFZWUlFZlN0WGNuczhPVGJrczZSVG0xdmdPTHp2X0pmZlk2VXI4NW9NcDNaXzlLeVprQ2pjbHRPVXp3ME1KdTZPbUdXb3QwMF9OTGd6UlEyd0VoeG56dWQ2Z3hrbFdlOEZzdVI2T3F5ODhHekxvSHRRVHNwUkxNR3pRc2hkakRHRmlIM3NzMERuVTQxWmE1c1Rv?oc=5",
+   "fonte": "Alma Preta Jornalismo",
+   "escopo": "br",
+   "publicado_em": "2026-09-12T14:55:23+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Ao apoiar Lula, coletivo judaico de esquerda ignora aumento do antissemitismo",
@@ -677,6 +757,16 @@
    "fonte": "Migalhas",
    "escopo": "br",
    "publicado_em": "2026-02-10T08:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "STF condena advogado por praticar antissemitismo",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNV0NhX2FKTkxnTThCRDRVVF9RRFpjUVFFR0t3V0lBZjlVVmQ0RDdNU2RieFRET05kMjJENVFTSXpQOWIyS3dzbXNlWG14VURLR3RHZGdRbDhjMEFSeHBXek1aMm1ZaGlPbHRWQXRsTmJ6bFZ4MXNpalZ3NjRERTNwcVJtQ1EzUUpVMjc0?oc=5",
+   "fonte": "Midiamax",
+   "escopo": "br",
+   "publicado_em": "2026-01-16T08:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
    "categoria": "Radar por palavras-chave"
