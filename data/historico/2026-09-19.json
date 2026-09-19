@@ -2,15 +2,35 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-19",
  "semana_iso": "2026-S38",
- "atualizado_em": "2026-09-19T12:25:56+00:00",
+ "atualizado_em": "2026-09-19T17:08:02+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 80,
- "no_brasil": 23,
- "no_mundo": 57,
+ "total": 85,
+ "no_brasil": 26,
+ "no_mundo": 59,
  "itens": [
+  {
+   "titulo": "Il y a 100 ans, ce meurtre à Paris défrayait la chronique, sur fond d'antisémitisme et de guerre en Ukraine",
+   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQb1hqWTBaTXVCSHRpSlROcEtDTFV0S29hMjlSMWp0d2t5b1psc3FRTUR2TXlxalh4MVU3VlFvaFRQdVNOaEdkTUdBNGpJNXFsQkJGdnl0UXNjdHpaQkYwazIxblJHN0pVdUpraWZ0b2FNYW90YkNPQzdNTEJIWnZ1VzJlcm1sUENaR3BqQjF2UnZBTW1TaU15ZzlFRWZTQkJBUXJWdkI3QnA1NEcxVzkxMlBqQlhabko1UUpZNFpTRkM3UVVzY2xCcVN5cFNEOTJFVHBOM0I1X2J5RVZYNHFFRExVVjBfc3BYc0Jyb3NIVW8tYlk?oc=5",
+   "fonte": "Actu.fr",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-19T15:46:01+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "CNJ, TJBA e MPBA reúnem lideranças religiosas na Bahia para fortalecer combate à intolerância e ao racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQUlZCeU9uUkFYWmNkUktkcTc0TFdud0dMSV9kMzZ5UGNoN2gxU0R4TUNBbEZ6TE54NnRMZ1lQX25oRVZsN2FYN01VcDNGeVNqc1YxOTNNclJwUjh1VGd4WlYtaXRXWWFTcmZLY0k1MExISllWZ0J0NWJNbFZsSU9INkxEZTFZZ2VHakV5V0VvUzc4X1hYMW9DOThnTFV5U1BmV1JvNjN2NmhsWC1TM1NPX2VxVENoX3NmbmRwWThZdUNqME5QUmN5REpxMHVCblBRdmdDZEJuT01vZWJSaW9ZUDBYWFVTLUlPeU41WjZR?oc=5",
+   "fonte": "Jornal Grande Bahia",
+   "escopo": "br",
+   "publicado_em": "2026-09-19T15:30:24+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Aluna judia tem direito de prestar vestibular em datas alternativas",
    "link": "https://conjur.com.br/2026-set-19/aluna-judia-tem-direito-a-prestar-vestibular-em-datas-diferenciadas/",
@@ -27,6 +47,16 @@
    "fonte": "The Times of Israel",
    "escopo": "mundo",
    "publicado_em": "2026-09-19T07:07:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Macklemore faces renewed antisemitism accusations over Israel criticism",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xWC1hWElRRUxSdXVYYU8xRzQxa2RvQ09HOWppbWZaQS1MRDUtTXo1cnMwaEsyNC1fR2NxdmFxRnhXVjd5OHBaTm02eWtWZlc2UEtfQXUwRDhtejJaTEVKUDdmeXYzeHlXdnc?oc=5",
+   "fonte": "The Jerusalem Post",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-19T07:05:42+00:00",
    "via": "Google Notícias",
    "feed": "radar-en",
    "categoria": "Radar por palavras-chave"
@@ -722,6 +752,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "Caso de racismo religioso na Paraíba é solucionado com reparação, diálogo e princípios da justiça restaurativa",
+   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNWGIwS08zOGhVcktfZW9RbHE0QllIamcxNzM5d3pIUFR1aGVxeTBwbC1yOHRrempZQXhsV3E3dE1OT3FtY2hwWkNoV05NbW1sVzJxYkh6alNfY0ZSaHFYcmJsWU1QSXdWVlB5X3dGa3kta0hIX0p3Mk5mRmJHU0VQSmgyLVJjQ3BaVGkwOHNzN3VHNUQtN1A3MjV6YWMwUGFIWmxrX0dDS2VHeGQxUlNFTzhxanlwNFZURzFtTUl6dElhYkJGTFAzOWxWVjZFZFIyQ05GWHZibFVNN011Q3lISU9kUkpxYk85ZGUwSWo4dkh5SHM?oc=5",
+   "fonte": "mpf.mp.br",
+   "escopo": "br",
+   "publicado_em": "2026-07-27T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "STF mantém condenação de Rafael Tavares por crime de ódio e deixa vereador inelegível",
    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbWQ3S3oxZ3BaUnEwMnVjSHREelBYY2lhUTdUazBQWGxrUHV6Rlo2RUZSNWQxRW5uOXYtSVkxdDdCc194dVRvcnZjYVQwTHZESXJSZW11RlJaY2RmamNVX2ZmWGRNYnB6TW9weWZidnhjUHZHOXM5ZHZmb2RYaXJIQ0ZqTGg2dHVvbklTTnVncFlPZ29pZWNIOA?oc=5",
    "fonte": "Folha MS",
@@ -739,6 +779,16 @@
    "publicado_em": "2026-07-20T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "O que é racismo religioso? Tribuna Cast explica esse conceito",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPc2JScmhtQTN0TzByY2VXUnpCaXBwUTVJY2dOck5XUldTT3ZTT0FnT1Vpbmd0TXQtVVZCei1WUUk5MmpTR29keER3WllocFY5UlJ5RG5wM3FfeXdyODNzVTE1cGE5djRlY29raHh5VzlxUUgwZzlfNi1oaTJLRTBzLXlCOTdJVmZTOTNjbW1zYlloOGJtWm5wVzJMOGFFbWFtOW10NlRTVmc0cXh5?oc=5",
+   "fonte": "Câmara Municipal de Curitiba",
+   "escopo": "br",
+   "publicado_em": "2026-07-06T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
    "categoria": "Radar por palavras-chave"
   },
   {
