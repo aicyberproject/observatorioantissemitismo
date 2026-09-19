@@ -2,15 +2,35 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-19",
  "semana_iso": "2026-S38",
- "atualizado_em": "2026-09-19T07:15:24+00:00",
+ "atualizado_em": "2026-09-19T12:25:56+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 76,
- "no_brasil": 20,
- "no_mundo": 56,
+ "total": 80,
+ "no_brasil": 23,
+ "no_mundo": 57,
  "itens": [
+  {
+   "titulo": "Aluna judia tem direito de prestar vestibular em datas alternativas",
+   "link": "https://conjur.com.br/2026-set-19/aluna-judia-tem-direito-a-prestar-vestibular-em-datas-diferenciadas/",
+   "fonte": "Consultor Jurídico",
+   "escopo": "br",
+   "publicado_em": "2026-09-19T11:54:03+00:00",
+   "via": null,
+   "feed": "conjur",
+   "categoria": "Institucional e jurídico (Brasil)"
+  },
+  {
+   "titulo": "Antisemitism is Jew-Hatred",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5UZk1acFZPd1haZ2kyaGcwd2haeGg1c3liRUo5Y19OQ2RXdm91NC0yeFBEaWdlNy1CUExHZWh2Yy1KNWtlNEdtZElrX1ppaFlCRlY4ajFydE56QTV5cFg2WnFNRm51ekppREZF?oc=5",
+   "fonte": "The Times of Israel",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-19T07:07:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Sionista da UP entra na justiça contra professor por ‘antissemitismo’",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZy1qRXRTSThsVnpZTDIwcUNGSnRqUkxVWXdHX1h2UzBGZXZrNG1nMUF3eVRJWXRPd3hPMno5cE84blNHRDZuQXRlRjlLVXo1bTNBM0duczl2emR5MGpSZUxJaFItOEhUc09VS3EtSFRBd1F4ekFFa3lZb0xlNXdNZVJjSGNMSlhIVzI5NEg3VHFOWjZRaGpjYjE5dEkwZUdmRW5MVQ?oc=5",
@@ -702,6 +722,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "STF mantém condenação de Rafael Tavares por crime de ódio e deixa vereador inelegível",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbWQ3S3oxZ3BaUnEwMnVjSHREelBYY2lhUTdUazBQWGxrUHV6Rlo2RUZSNWQxRW5uOXYtSVkxdDdCc194dVRvcnZjYVQwTHZESXJSZW11RlJaY2RmamNVX2ZmWGRNYnB6TW9weWZidnhjUHZHOXM5ZHZmb2RYaXJIQ0ZqTGg2dHVvbklTTnVncFlPZ29pZWNIOA?oc=5",
+   "fonte": "Folha MS",
+   "escopo": "br",
+   "publicado_em": "2026-07-21T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "STF mantém condenação de vereador por crime de ódio",
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZW9XaDZkcHE3MVNxWXJ2RkRfemljS2ZGenczZGo2cERqY05wWUd4LVZDbERJWnpoblFZd0tPeERTZWFTMjZ4dWczaWxMYWJvQjlDXzB5ZnllNFNDU0FQVGdRZFdkVG4xYy1LMERFQVY2czZMQWs4a0otOG0wUFBZcG5ET2NFSU5mOGlYRW9NazJFSkNxLUFWTEtxT0RkblQzRk5Cbm9kQ0tLMnptN1ZOdWZfcFc4YVY0VENEWNIBvAFBVV95cUxNb1RDQm9CWjUyd1p3Nm9DeXRpM1dDNGRiV2NNM0ljaDQ4QlZacGVzN3JUUGEzU2VGUkVMVElOeXYzUGZsb3hsMlR6WFdCcW5WZWdKZkhvTUZHQW5JaHJwVVpqcFFLXzZwVUVoZEVZdTJEbXpaQkt3bXpyeUhzOGUwZ2FlWW9oZ2I3bGd3dzlXdzFkbncxR19TLU1QN3YxaDdCNEx4bEljTGJNbHBLblFod1FsZllIRHl5VHYtYg?oc=5",
    "fonte": "Campo Grande News",
@@ -745,6 +775,16 @@
    "titulo": "Projeto sobre antissemitismo gera crise e polêmica na Câmara; entenda",
    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONTI4cWVPdnZFTVh6dHZESEJuSlpLOUFiSjRielNMMHlMOXNqdEJIWGttQnBKNWExZml2NE91M1NWNDRqUnJib0xUZnl0Q0lMZ2V0R2dhVnRYdjMzZ0c0eVhlVTlaZzFDWGpjMFk3M2lxQU04LThuZHlhdUNjc3VQamhmdTF6ZHBXaURCdmllYXo1SXdXNWwwWXpDY0k3SUNya3hr?oc=5",
    "fonte": "band.com.br",
+   "escopo": "br",
+   "publicado_em": "2026-04-06T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "STJ: Suspensão condicional do processo não se aplica a caso de preconceito religioso",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTktaT3ZFdVRGMXlicVNybzZIMnlnZXI3cGJyeHplQ0xHYjF0N3ZrNkN1cnQ1YjBFVGNOMlR6S0l1OEdRSnhCYnNiWTRsVndtaTkzUzEtOEhFc1k5a3AzdGhWM2lQQUMyZ05LZThsb0pJOVI0VWx3VUpVeENGeS1FRUpZdy14QjU1TGpTdGpTSmRCbnhSWUFRQnlkeUFJSXFEOWd1ZzRVYzFzT0QtdjlRSw?oc=5",
+   "fonte": "Migalhas",
    "escopo": "br",
    "publicado_em": "2026-04-06T07:00:00+00:00",
    "via": "Google Notícias",
