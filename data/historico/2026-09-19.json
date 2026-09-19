@@ -2,15 +2,25 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-19",
  "semana_iso": "2026-S38",
- "atualizado_em": "2026-09-19T17:08:02+00:00",
+ "atualizado_em": "2026-09-19T20:27:35+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 85,
- "no_brasil": 26,
- "no_mundo": 59,
+ "total": 89,
+ "no_brasil": 27,
+ "no_mundo": 62,
  "itens": [
+  {
+   "titulo": "Los judíos son menos del 1% de Hawái pero concentraron el 75% de los delitos de odio religioso",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9SSFJ5cTJVd3NJcDMxa3BlaTk3elB6Y095c210bkpYX3RHMmNkaHhEN2wxSDA2dWtQN3lvSzYyNUt0alQzOUtZYmJpa0VTNklqNUxuM095cC1FOXpzeGU4ZlllRUJ4d2M2RWZORXBIb2d6cHMxeW5KMnJB?oc=5",
+   "fonte": "Aurora Israel",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-19T18:33:24+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Il y a 100 ans, ce meurtre à Paris défrayait la chronique, sur fond d'antisémitisme et de guerre en Ukraine",
    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQb1hqWTBaTXVCSHRpSlROcEtDTFV0S29hMjlSMWp0d2t5b1psc3FRTUR2TXlxalh4MVU3VlFvaFRQdVNOaEdkTUdBNGpJNXFsQkJGdnl0UXNjdHpaQkYwazIxblJHN0pVdUpraWZ0b2FNYW90YkNPQzdNTEJIWnZ1VzJlcm1sUENaR3BqQjF2UnZBTW1TaU15ZzlFRWZTQkJBUXJWdkI3QnA1NEcxVzkxMlBqQlhabko1UUpZNFpTRkM3UVVzY2xCcVN5cFNEOTJFVHBOM0I1X2J5RVZYNHFFRExVVjBfc3BYc0Jyb3NIVW8tYlk?oc=5",
@@ -29,6 +39,16 @@
    "publicado_em": "2026-09-19T15:30:24+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Noticias de Israel y del mundo judío en español",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQejdiQk52cDJfNjdWekVLM1JQTXo3QTNZd0JHZk10WjVzYVR4NWt6VlFsekNnUmg3aTdNZm4zcHczWUxFR1ExTjR2N1hWNXRTYnlBQkxRSk44WGpmOHhBTTZEVkhxZ182b1UxWmVsS0MtaGIyQUw5MUFyQWhnY3d4dDdrVUw?oc=5",
+   "fonte": "Aurora Israel",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-19T14:43:10+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -432,6 +452,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "À la Grande synagogue de Marseille, la communauté juive et le monde politique unis contre l’antisémitisme",
+   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQcWpmQkxBc2NlMzQtRERFTXVIazVQRGl5c21kWFJHeGJyWGtSZnU4MzdLdkc5RDVLZnBnUzd4b21VLUZmQ0VkSDBNNmRrWjBpQ0Y0QmFObDhaMUx4eGU4bnhNQW9jVFBkZUt5S2VrVWV4M0pHQjBqVnYxaThGdk9uLVB2UWtaNS1HWFYwdktrenhxSEtjaTNNWDVZT1psRTE2Ym9VMlgzbWpSaWhWZTQ5UW9BcVcyV1BXb25ERzI4M3lkOHJjaG1yeFd0NnZ0MmgyZmIxN3AyTC1DT3NiN0hhbXY4UVRuS01CTmt6UDgwX0FwQzg?oc=5",
+   "fonte": "La Provence",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T21:07:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Federal court revives antisemitism lawsuit involving Los Angeles Unified ethnic studies",
    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVDY4WGxQbWVzZnZOZXg3T3E5eG9CMlFWOGtyV0d5QjROY2w4T05Oand3UFh1UjNFRl9pcVpZQ0NLcmZLWEhya3NRaVIzRFdDSmNGNE55LTNTX0c0QndZSmJwcW56ak5BUHR2YnJHVUVyVk4wYVhEQm9FNEs2UDJSMXVtNzBPeXhPTkdj0gHGAkFVX3lxTE1fTVNTdy1vUVI3eDI2Y2pLYUp2RVNpZlhoalZFMzdlVW5lT183S2JrYmlzSGhVS0VyQ3RsOEhXSjNqLXVNWUpQV0pEa2NhdFNlN2Z5VVQtZlZIZm9ucnhGTmJYdFlXS2NpN0Y4UmtIWVpfSU1JbFJtNWxocXJrdTNESVBtWVpFbWF0Z094ZDRPWXRlbXNYOFdxR01Gb054X0lfT21IeFMzeng1QnFrSEh1eC11N0szTUs5cXJpREtOZEJpSUwyQ1REaXNkQXl6Q3lNbTRkYXQxblFWNllrQ2Z6OVBfYm90VV9RNF8zMi1KV3BkVW5TV2VuaDV2eDB2anBOZzdId1JtQnhjZzJ5OWlpeTNGQmtvN3djWERVSTg3MlZYZnMwT3ZQV0ZDanZhQzBGdkVhZHZ0LTNGSUs0R2VORmx4NzhB?oc=5",
    "fonte": "EdSource",
@@ -817,6 +847,16 @@
    "fonte": "Portal da Câmara dos Deputados",
    "escopo": "br",
    "publicado_em": "2026-05-18T18:47:36+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "BH institui Semana Municipal de Combate ao Antissemitismo",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVDBqeThMSkphdjhud1Z0dFVWNmZWOXN2ajctaUpkRFVtMlNBYUVZYkhEV3NUMjZwZ0RWNEh2elBHUlFxLWV1Tm1tbGhJSmlhTGdHUXhReGhQdDN4eEJRZ0ZWT1JVcUlSLVdUc3FjcTUzQjJKXzdfcDlLNWF1NnMtb3FBS2pocl91TnBVUEotY291amZfMDltVEpmVlljbUZDUnpqU2w1MnRneENLRjRKRGczVUFUYVp2ZjVhaUxYVlAySXNwaXkw?oc=5",
+   "fonte": "Portal CMBH |",
+   "escopo": "br",
+   "publicado_em": "2026-04-16T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br",
    "categoria": "Radar por palavras-chave"
