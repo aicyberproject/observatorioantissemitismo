@@ -2,15 +2,55 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-20",
  "semana_iso": "2026-S38",
- "atualizado_em": "2026-09-20T07:40:22+00:00",
+ "atualizado_em": "2026-09-20T12:59:39+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 74,
+ "total": 79,
  "no_brasil": 19,
- "no_mundo": 55,
+ "no_mundo": 60,
  "itens": [
+  {
+   "titulo": "Young Pennsylvania man arrested over alleged ISIS-inspired mass attack plot targeting synagogues",
+   "link": "https://www.jpost.com/diaspora/article-909170",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-20T11:35:41+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "El-Sayed visits Jewish Michiganders for Rosh Hashanah meal after accusations of antisemitism",
+   "link": "https://www.jpost.com/diaspora/article-909164",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-20T11:07:37+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "‘Hyperzionism’: How Germany’s conflation of antisemitism and anti-Zionism allowed a far-right return",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNS0RYOGhDR3laSFNCaEpmemw5ZzgwdHRNYWNFSkg5M18zWk9MY2p0VWQ5blFIX0I4Z1JYRXJwWi1VZmxVelRvS242TTZ1bzYyUGV2WjFGX1U2cGh0bk9TRk9EYk5OQXhKRzZnWUk0VnU2R0tnTzlucnhuOUN3OVRpUXZCTGtYUDVwYlhpWUEzajk3eTNoQzFRYmFpdXNpN2VZeFpQa0JoTXNTQ2ViZFN2Q2o0djdYUmZJekl5WU5lOXc1UQ?oc=5",
+   "fonte": "Middle East Eye",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-20T10:55:19+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Jewish Democrats Cave to Anti-Semites",
+   "link": "https://jewishjournal.com/commentary/opinion/392428/jewish-democrats-cave-to-anti-semites/",
+   "fonte": "Jewish Journal",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-20T08:33:40+00:00",
+   "via": null,
+   "feed": "jj",
+   "categoria": "Imprensa especializada"
+  },
   {
    "titulo": "Cientos de estudiantes judíos rezaron y cantaron cerca de la residencia del alcalde de Nueva York",
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaFRubGxRamZFZFlKYjlUdXpJeXV2NEpoNlM3V1U3TXZaY21JZXVVYW5yaE92WWZMMmdxVHJUWExkZllxbm8wbF9oS0dpYkdMc1dBMUo0d3dhbHBzSi0tS0YyeVJVZ3I1TmQ1alZwMmJHWTByR1pQY200LVZLUU5zUUJzR2V1dzV1YzJid3VmOUo?oc=5",
@@ -729,6 +769,16 @@
    "publicado_em": "2026-06-29T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Lutte contre le racisme, l'antisémitisme et la xénophobie : la CNCDH publie son rapport 2025",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbzN6cmdXNEwtU3RRMHNlZEI2V1dpcThtUGs1SDZsakRpalh6d281U0c0cUdiVkkwQ096WV9nLWZDdkdZbVF4ZlIwMWJ0eXhDNGs1QWU3OFZMY0ZLSEt3azR1aGNxV0pieDhVTnN1ZkM5a3R2b1VEWDUyT1RTR2hTa3dTdjBFWkpFdUxiaE5aTFpWaVp5Y2VlelA0bUJuWm84M1VnWjQ4S3NqTWxVcWF4dUlqcTE4cEdkTmJJ?oc=5",
+   "fonte": "CNCDH",
+   "escopo": "mundo",
+   "publicado_em": "2026-06-24T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
    "categoria": "Radar por palavras-chave"
   },
   {
