@@ -2,15 +2,45 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-20",
  "semana_iso": "2026-S38",
- "atualizado_em": "2026-09-20T17:22:56+00:00",
+ "atualizado_em": "2026-09-20T20:39:56+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 85,
- "no_brasil": 22,
- "no_mundo": 63,
+ "total": 90,
+ "no_brasil": 24,
+ "no_mundo": 66,
  "itens": [
+  {
+   "titulo": "Casos de racismo religioso triplicam no Piauí em 2026",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdFFJQjFsZE1pQmNURlNlOXh0Tl8tTGU2SFNrY0xnN1g3bDZlQVdxMFV1ZnVsU3RlNC1HN2VKbVppTTZjVnVJUFVSd29UNW45b0QtMTA3dFo1RXF6TERkQTY3WHl1X1ZockF4bDRtaDJNUFZhbndOSnRfODJ5cEtyOWdpcnlZSUVHLWtQa1c4UGlDWEJwanR3eQ?oc=5",
+   "fonte": "Portal Clube News",
+   "escopo": "br",
+   "publicado_em": "2026-09-20T20:02:47+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Synagogue attacks were part of massive ISIS-inspired plot last week, FBI says",
+   "link": "https://forward.com/fast-forward/851315/synagogue-attacks-were-part-of-massive-isis-inspired-plot-last-week-fbi-says/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-20T18:35:10+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Opinion | Will Andrew Cuomo Confront His Own Party’s Antisemitism?",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQS3ZEd015QTF0bW9GbW50cGhjNmdrLUU2Y1BCanFhaFdDVVFoT2x4Yi1TT0JrdHBNMVpHdU9zUWNlV3Nwb0pKNDlaSEUxbnltT19fU1ZzWkFjakZfVUM4Y1RHQkl0QkNLTUtwZEU5Yjg1WWlXVlZ6RHBLay1lcVNJQUJwNDBaQlJYOFhfNk5mOFFWZGN2TVE?oc=5",
+   "fonte": "WSJ",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-20T17:35:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Attacks on synagogues were part of massive ISIS-inspired plot by Pittsburgh-area man, FBI says",
    "link": "https://www.jta.org/2026/09/20/united-states/attacks-on-synagogues-were-part-of-massive-isis-inspired-plot-by-pittsburgh-area-man-fbi-says",
@@ -372,6 +402,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Organizações judaicas de NY convocam ato contra o antissemitismo em frente à sede da ONU",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNG44NDctTmhzQmRvRnc3dDV6cnhBVFhhbm0xa2NJUDJCdl8ySDVuck8tRmREUDZDc2pyb3AzdmdZdW50T0J1WlhvWUxGcmJHYnppRUdLajNiaWRLUHdYZmhGeVhNcjdBYk5GYzY0Tk9iSnRuMEZhNUIyV2phaWFCaXdDVXJoT0VvUjFncVlsZ0VhXzdMRDdmQmZxbzBPS05JcE93ZUJLODFTc2RrUVI0dmFtWVotc0hPZTdMdmdJUllzazduZFlkLWwzdXl2a01L0gHWAUFVX3lxTE83LVM3N3JWS1ZyMDNyV0FYdzJvQnVPYjVFX2hKVUo4d25BSjJVOVVFNENsUENWNVMzdEg1cmJGNWRvWUwzX2NyOF8tR3diZy1XamNhdWpsXzhOWFhMcmp2T0FPLUlpNkl4Q0RWQ2NlUGpFaE1VMWU3X3RETTJzbV84bUxhRExIZmQxbGlqZ2VJTlQ1ZTJsRUlldWgzNE1SbFZNUzBrVUVDNE5BS19NSTh3YXFBT2FoMExHcjg3dGNuek43bThVWG4wd0tLOWFYdGpGT0xXR3c?oc=5",
+   "fonte": "Guiame",
+   "escopo": "br",
+   "publicado_em": "2026-09-17T20:13:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Jerusalem Reform synagogue egged in second attack in a month",
    "link": "https://www.jta.org/2026/09/17/israel/jerusalem-reform-synagogue-egged-in-second-attack-in-a-month",
    "fonte": "Jewish Telegraphic Agency",
@@ -610,6 +650,16 @@
    "via": null,
    "feed": "swu",
    "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "UN expert Albanese, protesters warn against Italy’s anti-Semitism bill",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaHY3Tm9lbFNVUXUtMHV0S0RIaEk0d2xIUGtONl9LREpLTVlKa3lVVV9VMUUzVnB4VndialZpRjRPVkw0OU9BNVJwUzgyTmlmNEc3T1Bwemlia3FTZjZBMGFaM05WckFWbUJJelB0ajV5eWk5OExPS2RfSFVQRWY2bXZLTGRNaHctaHBBdlZMV3NoRGRzMjgwdlpVQ2FlWnNoOXhZaEJyRU1mdGJjc1HSAbMBQVVfeXFMT0dXLTBRc2UxTzgtbjdjbjUzelJYS3dwa1JOWU04cUxzMFYyY05mVV9sZUdsVVRQVWtKYW5vV1dUYUNOVEJoQmY3Y3laTUNfaDN4dkxHM3dpaEVvUWVRVTY3dE4tRE13aVJORko4OHNnd2NSOVpmekllR2YyeVJ2djdTMS1Yb0dKZVBfT25NNGNVMUFHRi1UdmhETWVvWUN4S1NneldnaHd2Z2tLNnRWWGZUOVE?oc=5",
+   "fonte": "Al Jazeera",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-10T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "New Jewish Students’ Bill of Rights to help parents, schools combat K-12 antisemitism",
