@@ -2,15 +2,25 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-20",
  "semana_iso": "2026-S38",
- "atualizado_em": "2026-09-20T00:02:04+00:00",
+ "atualizado_em": "2026-09-20T07:40:22+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 68,
- "no_brasil": 17,
- "no_mundo": 51,
+ "total": 74,
+ "no_brasil": 19,
+ "no_mundo": 55,
  "itens": [
+  {
+   "titulo": "Cientos de estudiantes judíos rezaron y cantaron cerca de la residencia del alcalde de Nueva York",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaFRubGxRamZFZFlKYjlUdXpJeXV2NEpoNlM3V1U3TXZaY21JZXVVYW5yaE92WWZMMmdxVHJUWExkZllxbm8wbF9oS0dpYkdMc1dBMUo0d3dhbHBzSi0tS0YyeVJVZ3I1TmQ1alZwMmJHWTByR1pQY200LVZLUU5zUUJzR2V1dzV1YzJid3VmOUo?oc=5",
+   "fonte": "Aurora Israel",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-19T23:45:28+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Los judíos son menos del 1% de Hawái pero concentraron el 75% de los delitos de odio religioso",
    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9SSFJ5cTJVd3NJcDMxa3BlaTk3elB6Y095c210bkpYX3RHMmNkaHhEN2wxSDA2dWtQN3lvSzYyNUt0alQzOUtZYmJpa0VTNklqNUxuM095cC1FOXpzeGU4ZlllRUJ4d2M2RWZORXBIb2d6cHMxeW5KMnJB?oc=5",
@@ -392,9 +402,29 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Opinion | For Trump, Jews Are Proving to Be a Very Useful Tool",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZnNoalJVZEpkaVB2S3g4TFVfaloyT3hSbWwySElzcFBQbDZlU2pjU3I0cjFBcVJ1ZTNjMGFfbWoza3lHOTNhbDZVTkZwQ3p4MGs0Um9yVTQ5MWdTSkhFcVNoZzFpcFdJMFJEQTFEYmd3MUhMOGthOW5jcTVHV0V5WkM5c19hRFpUXzd6Z3dCaw?oc=5",
+   "fonte": "The New York Times",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T09:02:25+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Federal court revives antisemitism lawsuit involving Los Angeles Unified ethnic studies",
    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVDY4WGxQbWVzZnZOZXg3T3E5eG9CMlFWOGtyV0d5QjROY2w4T05Oand3UFh1UjNFRl9pcVpZQ0NLcmZLWEhya3NRaVIzRFdDSmNGNE55LTNTX0c0QndZSmJwcW56ak5BUHR2YnJHVUVyVk4wYVhEQm9FNEs2UDJSMXVtNzBPeXhPTkdj0gGTAUFVX3lxTE1SY3o3S05uZDN0WnZOZV9mU2JBdzVKYVZiZ2c4Smd6TzFVUWZ0M0JYMXdkNDFWTWZTaW1kZVB6aDAwSEppQWIzQWM3a0VrSVFUc0lTNWFrLWk5MEgtZlZBYnJ3QmVkTnZiUU5CUmdUMXVKbzVQVzJsaFViY1pqbmxyTzRhTHZrSG1VTHB6dUF6aWZYZw?oc=5",
    "fonte": "EdSource",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T07:08:38+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Federal court revives antisemitism lawsuit involving Los Angeles Unified ethnic studies",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVDY4WGxQbWVzZnZOZXg3T3E5eG9CMlFWOGtyV0d5QjROY2w4T05Oand3UFh1UjNFRl9pcVpZQ0NLcmZLWEhya3NRaVIzRFdDSmNGNE55LTNTX0c0QndZSmJwcW56ak5BUHR2YnJHVUVyVk4wYVhEQm9FNEs2UDJSMXVtNzBPeXhPTkdj0gHGAkFVX3lxTFAzdlh2V0FIandfNWpLV1lhU1hYdjVFNXlfaGc0TkNSXzIzSnpoa3R3N1dBWHZoV3k1V1VmMlRlVmg4ZUl4NzZ2WTdTV2xrVVJudHhMRktxVGZZVlJHMmQ1eUZ2RXEyRllTWWF0Mk5XNnZfVU1pQ1BEenlpTkswd1dLT2Znb1drLWlVclNnbUNSZUR1YWpXemhVLXB1ZmNsczI2c0Q4NnNXRHZLZkVfd0Z6blJwY05xR3lGMXlWdkpjNUgzX1hpQUw4R0RLbGxfVTVCeVNJT0NkclQtb2wyalc1Zy1uN2o4Zk5aN2Nodk5oRlBkOVNWemN4LUhqRFlkNWFHTHg4X2lJbVk3VmxaeHljeDFsMXNoVXdzcmN6U2hCcDRzdDNucUw4dmhnVUpJVFpCV2hEM0IySGRSQmFmNk5Ha082Nk5B?oc=5",
+   "fonte": "edsource.org",
    "escopo": "mundo",
    "publicado_em": "2026-09-16T07:08:38+00:00",
    "via": "Google Notícias",
@@ -592,6 +622,26 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Conib lança Atlas para combater alta dos casos de antissemitismo no Brasil",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZmlsTV80UmhrN2stVEpxeGd3X25nTkplUG05N3VJWXd1THVqTVNkV2RUeTF1WUphVEVHd3pMbU9ZWDVOelBrdTFnb3QxbEI2TmUxcVBBMFFmQUNYOEdOUFdYMUtxSEU2bzZSekVxeDZDREkwU0d0ZERwUWY1NTJwMUdwUmRMdlRITUUzcmh0d0hDRWk4cUtYMVJ1Ti1kdl9SODVJOGtMWTUwWEtBTHM2SDhB?oc=5",
+   "fonte": "CNN Brasil",
+   "escopo": "br",
+   "publicado_em": "2026-09-03T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "HHS Office for Civil Rights Issues Guidance on Discrimination Rooted in Antisemitism in Healthcare Settings",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWjYzZ2I5Tjg4dlhEbTZienFMcGRaV0lWYkVjQzdKd0hOMUxSN2tlMUs2N1RuWDI3RkpZSVM3UGZwRzNxQ3FNdGo0RFpYdE1sSTZhYUF1dW5yd1NqMGFoVTNxeTc2c1JEQkh6U3gyV210aFFyTmhrcmF1X1JBYWlkM3Q5SDhWcWE2SURnU0VfM0ZjOFBYTjQ1QjdLMA?oc=5",
+   "fonte": "HHS.gov",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-03T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "What Is the Jewish American Security Act and What Would It Do?",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOczVCT1liZktVOWM1SWZkN0tWanNxWmNfWlpwNXN4NWNESlB3T1o1bUVuM3hCc2RiRGNINHNPaXJQaHNJWjFWNUNSbUphVElEcnNoTGktYmVpbXNWTTF1LXZxdmQ3aXA1Ynlodzg5UkMyMDZBdjlDX3NNOG1JQ0xhTFVwaktvQ1h3MnI2cWRocw?oc=5",
    "fonte": "American Jewish Committee (AJC)",
@@ -657,6 +707,16 @@
    "fonte": "Campo Grande News",
    "escopo": "br",
    "publicado_em": "2026-07-20T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Como o STF transformou a denúncia do sionismo em crime",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY1ItS2VfUk1EOVJIN21EcVc5V2xEV2tnblY5Umk3TGFMVHBrTmpIQnFNbWh2SlkzdDdicUpyTXF1MFhyRVFQNFgtVm1JdzhRcEpBSUF3OXlrYXE3N0pSRWpTZ1JKX3VVc1g2MVBqYkduSW0tVE8tZVpjQ3JiOUZXbnJZNHBPYndXR3RDalMtUEpIa1U?oc=5",
+   "fonte": "Diário Causa Operária",
+   "escopo": "br",
+   "publicado_em": "2026-07-17T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
    "categoria": "Radar por palavras-chave"
