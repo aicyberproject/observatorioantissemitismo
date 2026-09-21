@@ -2,15 +2,25 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-21",
  "semana_iso": "2026-S39",
- "atualizado_em": "2026-09-21T00:04:41+00:00",
+ "atualizado_em": "2026-09-21T07:52:55+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 74,
- "no_brasil": 17,
- "no_mundo": 57,
+ "total": 80,
+ "no_brasil": 20,
+ "no_mundo": 60,
  "itens": [
+  {
+   "titulo": "Métamorphoses de la haine",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXUG5RaFRja1ZnZkxQd2NUYmtBckVPd3lfaXlTVGswWm00cVpqZWxwdUtLcGpFZ0s3OHEwUDEwdWllRnNDYUUxVHJTZFVUbkR0S3V1SkhSMEZFZVhoeE5aWDBqSXFLZk52dGlyNw?oc=5",
+   "fonte": "La Vie des idées",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-21T06:04:15+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Cientos de estudiantes judíos rezaron y cantaron cerca de la residencia del alcalde de Nueva York",
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaFRubGxRamZFZFlKYjlUdXpJeXV2NEpoNlM3V1U3TXZaY21JZXVVYW5yaE92WWZMMmdxVHJUWExkZllxbm8wbF9oS0dpYkdMc1dBMUo0d3dhbHBzSi0tS0YyeVJVZ3I1TmQ1alZwMmJHWTByR1pQY200LVZLUU5zUUJzR2V1dzV1YzJid3VmOUo?oc=5",
@@ -272,6 +282,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "Afghan National Arrested After Alleged Attempt to Set Germany Synagogue Ablaze",
+   "link": "https://combatantisemitism.org/cam-news/afghan-national-arrested-after-alleged-attempt-to-set-germany-synagogue-ablaze/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-18T15:22:49+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
    "titulo": "French Public TV Station Removes Replay of Show in Which Actress Accused Israel of ‘Genocide’",
    "link": "https://combatantisemitism.org/cam-news/after-cam-complaint-french-public-tv-station-removes-replay-of-show-in-which-actress-accused-israel-of-genocide/",
    "fonte": "Combat Antisemitism Movement",
@@ -320,6 +340,16 @@
    "via": null,
    "feed": "jta",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Como turnê de Ed Sheeran se tornou conflito sobre Palestina e antissemitismo",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUjhuX0lHaTlvRTJHU0lIdVN5bVdTMl9MQndmOUJNRmtEV085U0pLeFVzX3ZjQllSSmYxVEE0ZFFmUlpHZjZZX0VrQTdJck5SRUhIN1hGSkFtQk1wbkNCclZZSUVTeHAzSmtUYWVtcWNQMGFHWTZfMFo3UXdnYjdBTk5YTF92VW9EMTE3SmtNWGRHM2laOHlteG91MmVUeFBNWEJmQU5Xekt3MGFKSGdJT2ZQaEM0MzNyVDBlY2JhWnB0bHExUHd2clZn?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "escopo": "br",
+   "publicado_em": "2026-09-18T04:40:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Ireland Confirms Second Consecutive Eurovision Boycott Over Israel’s Participation",
@@ -572,6 +602,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "‘Todo macumbeiro é derrotado’: Pablo Marçal é denunciado ao MPE por racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbFRFb3Z3SmtDOEdLbU5kRVMzLUp0WW56TEd1cmxkR2NYYUY5YXp1UnVLcl9fcjNtRDdDX2VMNXZwSDhvNW1FRHVDd0RMaTBOVHItcmJVV1lBU2VTTEJCMXd0OUhhUDg2SjJCT24wMWdVb2dTVlJGNHJpV1k4WXlqLXlR?oc=5",
+   "fonte": "Alma Preta Jornalismo",
+   "escopo": "br",
+   "publicado_em": "2026-09-09T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Best Jewish Advocacy Organization",
    "link": "https://standwithus.com/news/best-jewish-advocacy-organization/",
    "fonte": "StandWithUs",
@@ -639,6 +679,16 @@
    "publicado_em": "2026-09-03T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "HHS Office for Civil Rights Issues Guidance on Discrimination Rooted in Antisemitism in Healthcare Settings",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWjYzZ2I5Tjg4dlhEbTZienFMcGRaV0lWYkVjQzdKd0hOMUxSN2tlMUs2N1RuWDI3RkpZSVM3UGZwRzNxQ3FNdGo0RFpYdE1sSTZhYUF1dW5yd1NqMGFoVTNxeTc2c1JEQkh6U3gyV210aFFyTmhrcmF1X1JBYWlkM3Q5SDhWcWE2SURnU0VfM0ZjOFBYTjQ1QjdLMA?oc=5",
+   "fonte": "HHS.gov",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-03T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -719,6 +769,16 @@
    "publicado_em": "2026-07-20T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Como o STF transformou a denúncia do sionismo em crime",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY1ItS2VfUk1EOVJIN21EcVc5V2xEV2tnblY5Umk3TGFMVHBrTmpIQnFNbWh2SlkzdDdicUpyTXF1MFhyRVFQNFgtVm1JdzhRcEpBSUF3OXlrYXE3N0pSRWpTZ1JKX3VVc1g2MVBqYkduSW0tVE8tZVpjQ3JiOUZXbnJZNHBPYndXR3RDalMtUEpIa1U?oc=5",
+   "fonte": "Diário Causa Operária",
+   "escopo": "br",
+   "publicado_em": "2026-07-17T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
    "categoria": "Radar por palavras-chave"
   },
   {
