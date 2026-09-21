@@ -2,15 +2,66 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-21",
  "semana_iso": "2026-S39",
- "atualizado_em": "2026-09-21T07:52:55+00:00",
+ "atualizado_em": "2026-09-21T15:02:14+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
-  "The Times of Israel: HTTPError"
+  "The Times of Israel: HTTPError",
+  "Fathom Journal: TimeoutError"
  ],
- "total": 80,
- "no_brasil": 20,
- "no_mundo": 60,
+ "total": 87,
+ "no_brasil": 21,
+ "no_mundo": 66,
  "itens": [
+  {
+   "titulo": "Question: What are the three best possible strategies to reduce increasing antisemitism in the U.S. and why might each one not work?",
+   "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOOFdaZ204Vnk0S3B4em1WQUIwb00yS2Rxb2ltb1lXRGl1aGtLY2lEZXFKN3ZKU3ZZZHNEbXhVYTFLUjBTWWdYb2pJUHI4ZFF0a2JadVE1ZkRnUS11THdELWVKSlVwbEFUQS1YUGlLOFdFbEhGTEdPSWlTUWQ3WUc5SDh4MXpmQ2p0NWxRZFFxejRkWHVuYW44QU10VjRxeWgzaDlMTnFEVkM3NW54enBuMnA0eVF0MmhDZ21uR1JQZkxnd0J2ZVNvc1cxSDdfeUJOazZQTXVzUnF1MU41RER2U2xPRWxXWmFiUnFjcUJSbk1kQThhb1Jjd1R3NTJCVGI1Ync?oc=5",
+   "fonte": "Jewish Press of Tampa",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-21T14:20:21+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Encuesta: Sólo el 17% de los israelíes y el 21% de los palestinos creen que la coexistencia pacífica es posible",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUEk1UTR0X2pyQTcxTTRteFA2UW9SWjBCTzZIdFF5U2lWSjN1OHdUaHd2djE5dUdjdEdrTF9iM0lhYXUyUUhUMUpUTmt2allUNmliVG1tTi1NV3M4dGdSanQ0ZjJQX3d0dUFxeE5uWk0wX1dTQzAxYlFUeXVWUzFaTW5ieE9ZWkxScDZCZjlhQkxLUTFQaXpZY0JSTFJFaDB6QnNtVHVKLWtjMXMwejNXaktMWE16V3VQRlhFa1NvNVdZRTJ4VjhHeU1sVXBzeFZMLVJR?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-21T14:04:24+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "STF visita terreiro em Salvador e ouve relatos de racismo religioso e ataques a comunidades",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUlAxaFBFdXhUUFFvZEM3SUxDdk0xaTAxaG54YmFROEFlZkh0NU9GaVYybVI0dzA5aU1oNkxoblBrNm5rTUlCMHF0TVh0S0xCQWMxUE1peElLMy1mLVVPNVpHT1B0dndUeVBJV1A4SGZCbW5JSTdXNU9aajNuWjlUNF9OUkxsTVp0azAxSGhRM1BGSzRxM1QtZVJ6aTZVTWZCY045eVRkZno1T1duTnhKNHBWN0x3WHo2SGZ5c3RlV1habkJfb3FtbzZuTHhGVS0wOVE?oc=5",
+   "fonte": "Alô Alô Bahia",
+   "escopo": "br",
+   "publicado_em": "2026-09-21T12:54:54+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Former College Dean Rakesh Khurana Criticizes Gay, Other Presidents Over 2023 Antisemitism Testimony",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPanI0bEQyWFpGMV9McGFpQk9IQUZnS3EwM0VEcEtOakp2MGltUUxKWjNDS3hxSnlIMFJPS3dDeHpFUmJheFFvd0lINlR2MTdtbFdSN0VWc3ZUbU5RLTNkSFVPYkxJamxGMEtHTDducDFuc09iUGdqUEltUFJrZXc1UUMwTEE?oc=5",
+   "fonte": "The Harvard Crimson",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-21T12:00:07+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "La Universidad de Granada se desligó de la “retirada de la invitación” a Ariana Harwicz y el Foro Argentino contra el Antisemitismo repudia la censura",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQMnA2MEFHM3RyTVlaR0x2czJDcThFdGdsY1h0UDdfbTRZQTc0NjBLQnhULVc1aXdwc1ZzNjc0ZlQ3bDFpa1JYRVJkand3QnJnT0RPMG5FZjZzR19NdGdldGVxdjN6eU1Dak5HcjAtWk83VmxLekFudUw5Y1o5RHBRcW5pTXB4X0hJTHRFdUk5X3NaRnMxS0FPOVNvSk50aFhVNHNXM1dCeXNGQnNCem93VEpJZFVUY0hiZGs1dGhtXzAwbVZyRC1vOEpPNkQ5c0l5Z29aRm52NU1WdW51?oc=5",
+   "fonte": "La Nación",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-21T09:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Métamorphoses de la haine",
    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXUG5RaFRja1ZnZkxQd2NUYmtBckVPd3lfaXlTVGswWm00cVpqZWxwdUtLcGpFZ0s3OHEwUDEwdWllRnNDYUUxVHJTZFVUbkR0S3V1SkhSMEZFZVhoeE5aWDBqSXFLZk52dGlyNw?oc=5",
@@ -472,6 +523,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Federal court revives antisemitism lawsuit involving Los Angeles Unified ethnic studies",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVDY4WGxQbWVzZnZOZXg3T3E5eG9CMlFWOGtyV0d5QjROY2w4T05Oand3UFh1UjNFRl9pcVpZQ0NLcmZLWEhya3NRaVIzRFdDSmNGNE55LTNTX0c0QndZSmJwcW56ak5BUHR2YnJHVUVyVk4wYVhEQm9FNEs2UDJSMXVtNzBPeXhPTkdj0gGTAUFVX3lxTE1SY3o3S05uZDN0WnZOZV9mU2JBdzVKYVZiZ2c4Smd6TzFVUWZ0M0JYMXdkNDFWTWZTaW1kZVB6aDAwSEppQWIzQWM3a0VrSVFUc0lTNWFrLWk5MEgtZlZBYnJ3QmVkTnZiUU5CUmdUMXVKbzVQVzJsaFViY1pqbmxyTzRhTHZrSG1VTHB6dUF6aWZYZw?oc=5",
+   "fonte": "EdSource",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T07:08:38+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Royaume-Uni : des patients juifs cachent leur identité par crainte d'antisémitisme dans les hôpitaux",
    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQRFJBQ0dPMkVPc0YzT2N1R3dadTJ4UmRpdU82Q1MtV0V5bzBZQlVFMHlmeko4S2FObUNUajdaZW9HenBKWFVsOGNXWUtEd1pfS0VPaXVmYnFHUlg4TXEzMXltdkJfSXN5UDB0Q2ZnV2FqZzZ5Z05OTWt2eGE3ZlZmcXZmRHVzUjluaXNKbTRJcXZHbDBtNVoyQ3pFM3U5bFA5eUlBN0R3dUpWaFBVYnFtcVNaS0N2Tld3Vi1yMmJwSlRKU2d1MjFCUDhpdWxpaW1jcVJ0N1JmWjAzS0RpTGdFN0JCWW85MXdzbFRj?oc=5",
    "fonte": "i24news.tv",
@@ -740,6 +801,16 @@
    "via": null,
    "feed": "fathom",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "VIDEO: Rosen Calls on Senate Colleagues to Support Legislation to Fight Rising Antisemitism in the United States",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVU5hTVVSSkpUTkNNaTRONDQyWnRfZUF1Ynk4bV94eXQxUW1Femd2VmphaDVFWGpRRTRyaU5Oa2NPX0NWX2YzRG1TVGc5RTVBR0hpd25lc3dNdzgzS2UwSlVTTTdZMFhkR2xwT2xoNndEOUhhUkZSbFpNU0dyQ2UyTV9jX2J3M2F3UUpSdm1GQWI5azlWbTZwc2pNQWxCSkNnMVBoMmYtdXZnbll5SkpvUVZLbi02STdleHRxMW9Tb2F4ekc3dDdzSnJzQ0lBM1AwOEVfc1RBTTJHVDQwSFZYbDFFY2k1X00?oc=5",
+   "fonte": "rosen.senate.gov",
+   "escopo": "mundo",
+   "publicado_em": "2026-07-23T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "STF mantém condenação de Rafael Tavares por crime de ódio e deixa vereador inelegível",
