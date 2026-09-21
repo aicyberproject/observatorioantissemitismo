@@ -2,16 +2,105 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-21",
  "semana_iso": "2026-S39",
- "atualizado_em": "2026-09-21T15:02:14+00:00",
+ "atualizado_em": "2026-09-21T20:22:16+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
-  "The Times of Israel: HTTPError",
-  "Fathom Journal: TimeoutError"
+  "The Times of Israel: HTTPError"
  ],
- "total": 87,
- "no_brasil": 21,
- "no_mundo": 66,
+ "total": 97,
+ "no_brasil": 23,
+ "no_mundo": 74,
  "itens": [
+  {
+   "titulo": "One police officer wounded in shooting attack near Ontario synagogue on Yom Kippur",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-909199",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-21T19:57:14+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "El presidente mundial de la Agencia Judía para Israel condenó el ataque antisemita contra una sinagoga en Canadá durante Iom Kipur",
+   "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNWTdXQlphaVNFQ2hCaWFEdXB1UHZQeTN5YkU0V0NpNVBMSWp3X18tSkpHaS14Mnk0b01DZjRFYjhGRWJmbVZ5VC1FRkJIc0R6ZjJwbGZ4ZENuWC1lOWd0WWtaNVhoc0FBNFNoYVZlM0N5dlBhc3gyR281SDJwcWoyTzJsU2lTemtVanlZOENBZTZDZlhneW9GaHdBcnpaQ3Y4cTFyN054XzBwS25TUml1X2UxTTdMTnFNQWZJdGZjd1h1M21rVXBxVDlmc0ZhMkFJeFRxczdqTzdnT0RSVl91Ym0zS0ZpZVNsTzlxM0REU3JzVHplOVdJeWpkZU1NaXJBZlE?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-21T19:53:16+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "CNJ, TJ-BA e MP-BA promovem ação conjunta contra racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVlVyNzcxeGhrdjNqUTk4VmxCQnZjZWhjVVNmc2JFT1FhNVBrVGlFbWozWXZkQzE3cWpuOENna0t5Z3ZKWE80a3FOUVJybDk3Sm5ZN1dmMGlEWW9aRmd1dTd2dHVUU1ZBd1VBYUdYWHl0MkdsZlhPYWVPTlJCRFp2OUM5cmg3cVczNEFxMW02NWxKTTVyZWc?oc=5",
+   "fonte": "bahia.ba",
+   "escopo": "br",
+   "publicado_em": "2026-09-21T19:42:55+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Gunman Opens Fire Outside Ontario Synagogue During Yom Kippur Services",
+   "link": "https://combatantisemitism.org/cam-news/gunman-opens-fire-outside-ontario-synagogue-during-yom-kippur-services/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-21T18:35:25+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "UPDATE: Oakland Unified must address antisemitism against Jewish students, judge rules",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQY3JHSzJONkVGWENXUUd2QUhpb1haWER4THNNWkRFR013QmtYdTVoZkNHako5X2N0Mk9UR2NTblVxZ29nakNVTmVGd056bXVUUXpGX0tfMzJrWTcxLV9jUVVxVFJDcXRYZlZKTGlWUXA4YjZtYWV4Y1pwQzF3OWE3YnVnNmhnRENjbWRmWWp6aFV0cFVsVXFIVFBDcEwzZGVNQVZFRlYwZEluZw?oc=5",
+   "fonte": "EdSource",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-21T17:35:23+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Far-left leader pushing to lead Berlin says city has voted for change",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTkVPSzB2WXJyWTR0eUVLeHc5cVhITk9ZZ0JQVkVkRk9MUk5qcXAzeFE4REVoRDZEZzJSbWczUFZVNzNwcV9USnN1bXptT2poVXA3YlBtbkNNNW5leUg3XzEzY2ptVkk0TjNtVk1iTlBBU0FtNmVLcEM2S3U3U0JydVNvaDkwUjlvLUNQN0NIUUhCV2FIREdzLTdYMGNjRE81RndKNkMzSQ?oc=5",
+   "fonte": "Reuters",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-21T16:32:38+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Partido alemão de extrema esquerda rejeita acusações de antissemitismo",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQnhTX2JKdjA0SEFQbmNzT083bDFkTXNROHNsb1FjdmE3NjRhQUtObW9nRGUxTXJSNHdQVkNXa2FSM0VaSlVFR1RqazlSTUsyTGFfQkN5eXMxUVJwM0ttbG51WFBNQ1duVEh0S0JJeUlLX29jdTAwbWNZTzJtdXBKWlBBNXVIVFBoWHdyWUlkVl80OU9HdWJzc2VPY2VZa29iZTVYUHJONm9CMkNzSklmWEx5VndNV3pBalhmVXhzcnVVaTlR0gHLAUFVX3lxTE1RXzZEWU5RQ1E0c0lqMkhSeGlONVB1bzl2TmJCVmI1TDJJM2o0M1lkaThrYzFtZFJ2dUw2ZTB0RS1Yd2w0aFlqZ0JfVEtfR2xVcldvSS1EeVhtRk1kRWd4ZTRheVJWeUtKQzkzQUJ5N0pFTXNDWXBkT3FoRlpDZklLbTVkOXFVSXNnRUxrRG1YNDBwUElKMy14R2EzajY0Y3c3SUNHZnZiUFBxZURzQ2o0Zzh3cFlubHFodHNGR096NU94cm1KQ3RzbzBV?oc=5",
+   "fonte": "Estado de Minas",
+   "escopo": "br",
+   "publicado_em": "2026-09-21T15:58:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Partido de extrema izquierda alemán rechaza las acusaciones de antisemitismo",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbFFUX29kUTVrbngzREFDdWRrZWJMdFJ4TzBKSzBDQXRmY1V3RUFySlBRMDR1V2o2d3ZkZTdkNE1VRnpzQV9TeGgtdmMtRFp6RHNtRkJ0UzRRT3VDcVRrREFRdjFYT24yd2hOMU9rN0xyLVk4d204WUZUcUdyWEpXZnI5Wmptdk5vRlhlcHNpUkdkbVQ3TGI1VQ?oc=5",
+   "fonte": "Yahoo",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-21T15:40:52+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Berlin's far-left vote winners reject anti-semitism charges",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbDJsREhkMXFCX29SWXRtNEp3V2VyNllyd2tIWWcwVVJYbXhsOXRhSWdaeHpVVUVJTVl6R1dpLXRIZklMb2RQZkFBTTJWZU9BUmVFc3NsWW5oUUpNX0VPaUZ2LVdacmh3SHdVVGFHb2Y2RXJ0eEJNQUlCdm1jY2xrZzJLUlFubllTYzZsZkFRMGM5TjdxeUNLeVNmRUJEdTJrTlZVZnhMcmNRQQ?oc=5",
+   "fonte": "France 24",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-21T14:47:06+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Question: What are the three best possible strategies to reduce increasing antisemitism in the U.S. and why might each one not work?",
    "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOOFdaZ204Vnk0S3B4em1WQUIwb00yS2Rxb2ltb1lXRGl1aGtLY2lEZXFKN3ZKU3ZZZHNEbXhVYTFLUjBTWWdYb2pJUHI4ZFF0a2JadVE1ZkRnUS11THdELWVKSlVwbEFUQS1YUGlLOFdFbEhGTEdPSWlTUWQ3WUc5SDh4MXpmQ2p0NWxRZFFxejRkWHVuYW44QU10VjRxeWgzaDlMTnFEVkM3NW54enBuMnA0eVF0MmhDZ21uR1JQZkxnd0J2ZVNvc1cxSDdfeUJOazZQTXVzUnF1MU41RER2U2xPRWxXWmFiUnFjcUJSbk1kQThhb1Jjd1R3NTJCVGI1Ync?oc=5",
@@ -551,6 +640,16 @@
    "via": null,
    "feed": "fathom",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "\"La plus belle façon de lutter contre l’antisémitisme, c’est d’être fier de son judaïsme\", insiste Shannon Seban (LR)",
+   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQX0RZend5dXl4WmI0aG9hNnJVTDFIV080aTdxZDhpdHJaWEJRZDFlLVBVaUl3bjdHMTVfZkJKYkw3aTlBc0VKZjNkYjlGb1huWnROcVJxSGtuOEJjN0ttRVl1Nl9iT2djU09CUHFfZTVfUG90VElqZE5BV3ozMENfMGJHYlNwNTQ2VDBkZWt6SXNUbUhLdmRzU2k3SnBNTm8zUmJ5WGhJdHV2TDR0b1doQnhNTkprQkJsRjFWaFI0QzdzYUhpakZ4X2FhSjRaLVJENV9UR01pLWljRU4ybTBKTF9aU1p5ZmJfdEticldLMnpib1loc0FJRU9WRlNzS1ct?oc=5",
+   "fonte": "La Provence",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-15T07:44:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Antissemitismo cresce no Brasil e ganha códigos nas redes sociais, aponta levantamento - 14/09/2026",
