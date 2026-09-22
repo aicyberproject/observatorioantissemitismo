@@ -2,15 +2,65 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-22",
  "semana_iso": "2026-S39",
- "atualizado_em": "2026-09-22T13:19:33+00:00",
+ "atualizado_em": "2026-09-22T18:01:40+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 92,
- "no_brasil": 19,
- "no_mundo": 73,
+ "total": 100,
+ "no_brasil": 20,
+ "no_mundo": 80,
  "itens": [
+  {
+   "titulo": "UK police say they have thwarted plot to attack Jewish community",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-909338",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T20:01:05+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "State requires antisemitism training in Berkeley schools after complaints about pro-Palestinian posters, assemblies",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE80UEYtVjVOVDVPeU16SkJvXzFiTUswa1J2ZE9lRjZiTGxBdXV6YnBLMnVyQll1T1JiTnhYYVV2RmQxenpiNDU5WnRSUXM1azh6dVYtbzduOWlBd19hWW1MbWlfQnlTbGFvOWdkSjVJdGl0ZU82?oc=5",
+   "fonte": "Berkeleyside",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T17:58:11+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Die Linke, La France insoumise… l’étonnant parallèle",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbmdRRkFaSzlBT05DbHhMX1JUVWNDdVJEODFpTkhmMVZPNTBQaHRZNnIzSnA3TDhhblNnOWxGSm9rbW9ua3R6Sm41TTB6R3dfRHZjOUo5cXluQnQ4QV93ZTRDU1VtYS0tOFZhMVl6Y1JPSjhCa0hFd2N5VVZnV0JLYXFWc2thLXNSNElGRzlUbUl6S0VLeHAtTmVLWUN0S3ZmTHdweENBX2d4Z19uZ0JTOHNESndkeG52Y1hiRXNQT0Y?oc=5",
+   "fonte": "20 Minutes",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T17:32:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Canadá: Detienen a un hombre sospechoso de amenazar con perpetrar un tiroteo en una sinagoga",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb2N6MmpUZ01VQWtsRE9QSmc4aEM4Z0U0X2l2MWgxRll3QXNrcm1PUUhtckVUVks5NlVfcndidV9IY3VsWENwNC15TXhOb0xOd2xCc1U4QUQ5MGgxdWhubTg5eDE0X3I3US1tVUVLcGJvYmtmejZjdkZKaEZ2UkM3ZXdxd1I5Xzg2djVlXzQ5SkphRHZpX2dhNjJCSkNRMmpMa0s0OVNKenA5d1NnRWdmYWtiM0dzWkVyZVJtZFdLd1N3THI5S3A4SUk3ZnJIalhaSm1B?oc=5",
+   "fonte": "JNS.org",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T15:28:08+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Could going to synagogue help or hurt a Jewish candidate? This poll offers a clue",
+   "link": "https://forward.com/news/851375/poll-jewish-candidate-synagogue-electability/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T13:36:30+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
   {
    "titulo": "La jefa israelí de Lucha contra el Antisemitismo destacó que “los judíos de todo el mundo necesitan promover el judaísmo con orgullo y confianza, sin temor a ser judíos”",
    "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxOMEY5MXlncWZvbEFEUHRnWUlrczJrUWFSY043QVNaOG5WdDFOc3dsM3p5dTMzbzd6aldNbllUbVlYa1lKaXBEM2JSZm4tUlMycmM3Wmg2b0JIYjlHUmZXYUU0YzR6WVNOU053TXRULXFGOU45U3pTRmdNOU93NHNteWR1S3FCNHNZTUp2azdoVTJBMkhMS3NGcVpmbElNRndZU2hIWHFTNW9UMmNmdms5ZU5mM3p4OGlSYjlHbXVSelEyaC1nNU5EcXdjaGlLUUx1dUFGbmE4LUZoUUhyd3VhMGpIS2ZUQ1lrUEJKazRpQkVPVklwUUl5ZGlKWVI2NGpqRU95V3pSQ0t1U2dQMmx4aGtHS3EzcGdHbG5VRkgxdjRFQ0NiblRVZmEwOWp4Tl9Da3c?oc=5",
@@ -30,6 +80,16 @@
    "via": "Google Notícias",
    "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "'Unrestrained antisemitism': German politicians, Jewish leaders warn over Left Party’s rise",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-909268",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T11:32:11+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
   },
   {
    "titulo": "German Left Party co-chair on allegations of antisemitism",
@@ -139,6 +199,16 @@
    "publicado_em": "2026-09-22T06:17:41+00:00",
    "via": "Google Notícias",
    "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Netanyahu's ICC warrant should be honored, Zohran Mamdani reiterates ahead of UNGA",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAyQW9aUGRDZWI2NkdETnlUN2d1TEFXS3MwUWNWdDFEcWs0bW5yNXJaN1FnYzZQMjg5TmFVLTdDSUhxdTBXT05GSVVTcU5wRGNHdEtLUEp5T3NnVERIci1PSmJ5NXZJMmF2Umc?oc=5",
+   "fonte": "The Jerusalem Post",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T06:09:14+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -557,6 +627,16 @@
    "fonte": "Folha de S.Paulo",
    "escopo": "br",
    "publicado_em": "2026-09-18T04:40:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Organizações judaicas de NY convocam ato contra o antissemitismo em frente à sede da ONU",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNG44NDctTmhzQmRvRnc3dDV6cnhBVFhhbm0xa2NJUDJCdl8ySDVuck8tRmREUDZDc2pyb3AzdmdZdW50T0J1WlhvWUxGcmJHYnppRUdLajNiaWRLUHdYZmhGeVhNcjdBYk5GYzY0Tk9iSnRuMEZhNUIyV2phaWFCaXdDVXJoT0VvUjFncVlsZ0VhXzdMRDdmQmZxbzBPS05JcE93ZUJLODFTc2RrUVI0dmFtWVotc0hPZTdMdmdJUllzazduZFlkLWwzdXl2a01L0gHWAUFVX3lxTE83LVM3N3JWS1ZyMDNyV0FYdzJvQnVPYjVFX2hKVUo4d25BSjJVOVVFNENsUENWNVMzdEg1cmJGNWRvWUwzX2NyOF8tR3diZy1XamNhdWpsXzhOWFhMcmp2T0FPLUlpNkl4Q0RWQ2NlUGpFaE1VMWU3X3RETTJzbV84bUxhRExIZmQxbGlqZ2VJTlQ1ZTJsRUlldWgzNE1SbFZNUzBrVUVDNE5BS19NSTh3YXFBT2FoMExHcjg3dGNuek43bThVWG4wd0tLOWFYdGpGT0xXR3c?oc=5",
+   "fonte": "Guiame",
+   "escopo": "br",
+   "publicado_em": "2026-09-17T20:13:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br",
    "categoria": "Radar por palavras-chave"
