@@ -2,15 +2,75 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-22",
  "semana_iso": "2026-S39",
- "atualizado_em": "2026-09-22T07:36:57+00:00",
+ "atualizado_em": "2026-09-22T13:19:33+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 80,
- "no_brasil": 18,
- "no_mundo": 62,
+ "total": 92,
+ "no_brasil": 19,
+ "no_mundo": 73,
  "itens": [
+  {
+   "titulo": "La jefa israelí de Lucha contra el Antisemitismo destacó que “los judíos de todo el mundo necesitan promover el judaísmo con orgullo y confianza, sin temor a ser judíos”",
+   "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxOMEY5MXlncWZvbEFEUHRnWUlrczJrUWFSY043QVNaOG5WdDFOc3dsM3p5dTMzbzd6aldNbllUbVlYa1lKaXBEM2JSZm4tUlMycmM3Wmg2b0JIYjlHUmZXYUU0YzR6WVNOU053TXRULXFGOU45U3pTRmdNOU93NHNteWR1S3FCNHNZTUp2azdoVTJBMkhMS3NGcVpmbElNRndZU2hIWHFTNW9UMmNmdms5ZU5mM3p4OGlSYjlHbXVSelEyaC1nNU5EcXdjaGlLUUx1dUFGbmE4LUZoUUhyd3VhMGpIS2ZUQ1lrUEJKazRpQkVPVklwUUl5ZGlKWVI2NGpqRU95V3pSQ0t1U2dQMmx4aGtHS3EzcGdHbG5VRkgxdjRFQ0NiblRVZmEwOWp4Tl9Da3c?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T12:10:35+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Merz afirmó que “la vida judía en Alemania ya no es segura”",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTG9jVUZPWU55VERwNnM5V1A2QWZseE1YVktWM3hLNXBOSmpmcGJqQjV6OEh5eUlXRC1wX0xIRWtNaHJWZldRRUl5WGZKMXQ2ZmdQel96WS1xWDVxS1R1Um9LQnBxVGpRQmp6S3FSa0ZrTG5Jb0kyUE16ZS0xNE1sY2EwWnBXb2NPMzRZbjJ1a3h1eXM3M2k5WA?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T11:32:26+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "German Left Party co-chair on allegations of antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNalZISlNzSkdDd1lnV0prYTFsVklzUU1aWjhmT1ItazNabzE4WkFtUjRvTGlSYUtEVEZQNzI0eEZWTDBoSE1tUFdVbEtPeS1JRUZmNVpxZnplaHY4aWg0YmVxMm5TcUdZblZGM0FyOG42MktVbDVCenYydzJHeXVJczhoZVU0M3FPR2E5TnpsQkRrTlR6QkZ4RXdrcHI1OHhDYkR1MXhTRE8zYTZtbTJsaXd2bzB2NmJFMEpQeXROeXhvanI5?oc=5",
+   "fonte": "DW.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T11:20:27+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Violência contra terreiro de Jurema acende alerta para racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNTjJuUDVHamVkU0Y4ZGttUkpxNmxDMmlCblJKWmpaTTZmclBtbzQ2cWlUMTZDaFRpWGNDbC02VXJrMF8zbno1Mzg3VVFMWVcwMTBJM3VselhRVUVITFlrTjYyRE5jYm9lSm1PUzQ2Nm9oazBnZW5aQzJ3TU5hRkdRLXJTTElvTDNtUzFpTXBQcWlkaEpBcTZwb3pLc0hDOWtoNTNta1d3MURNdXZfakFkWDlOWFdjYVkzcnZTRERiR2hrMVRiNUcxR0pKbnNMWGV6UnF1QUpBSzl0QzNnRjdUZXRwdGjSAeQBQVVfeXFMTU4yblA1R2plZFNGOGRrbVJKcTZsQzJpQm5SSlpqWk02ZnJQbW80NnFpVDE2Q2hUaVhjQ2wtNlVyazBfM256NTM4N1VRTFlXMDEwSTN1bHpYUVVFSExZa042MkROY2JvZUptT1M0NjZvaGswZ2VuWkMyd01OYUZHUS1yU0xJb0wzbVMxaU1wUHFpZGhKQXE2cG96S3NIQzlraDUzbWtXdzFETXV2X2pBZFg5TlhXY2FZM3J2U0REYkdoazFUYjVHMUdKSm5zTFhlelJxdUFKQUs5dEMzZ0Y3VGV0cHRo?oc=5",
+   "fonte": "G1",
+   "escopo": "br",
+   "publicado_em": "2026-09-22T10:56:50+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Where Hatred Lies | Omer Bartov",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOemdJbjNBRDZZcmczdDR3aWw2U21rMVRhRlhJY3QxRE1GVXlpMnF5cGdtcUVIQ04teHBPWTZ0aC1GWFpmd3FDb29RM2pMNHloMW9QUnp2TFBYQXVpX3hxSU5tZjk2dmF1S1FRVlNmZHpEV2hPSFBPZ0k4U1IzT0hWLWdpeWQ3LVRxbzB0YlRWMXdGVXdjZXc?oc=5",
+   "fonte": "The New York Review of Books",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T10:33:16+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "I want to rescue the word Zionism. We cannot reduce a vast Jewish idea to the politics of the moment.",
+   "link": "https://forward.com/opinion/851351/zionism-buchdahl-sermon-central-synagogue/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T10:30:53+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
   {
    "titulo": "Motive behind Ontario synagogue shooting attack not yet determined by Canadian police",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-909266",
@@ -20,6 +80,56 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "There’s nothing Jewish about this classic American comedy — except just about everything",
+   "link": "https://forward.com/culture/851036/ben-hecht-front-page-jewish-play-comedy-northlight-jeffrey-hatcher/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T10:00:30+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Nazi imagery nothing new for crypto casino behind Orlando fight with swastika flags and Hitler salutes",
+   "link": "https://www.jta.org/2026/09/22/united-states/nazi-imagery-nothing-new-for-crypto-casino-behind-orlando-fight-with-swastika-flags-and-hitler-salutes",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T10:00:00+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Caucus leader’s post singling out Jews ignites Democratic Party dispute over antisemitism, racism",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRy15UVJHSW5QdTE5dkszajdZYjlWVU11enNXMFA4TGJtTWhhQV9WUU5BS0I1WGlaWk9qbHVRMXA2Mjc0SjlycURpUE9xWl8yZ1Mzei12T0JZdEZfLXdXSFFJRzVWYk1BQlh5WjB3M290TWY5cGhqcE51SU4tZ0REZ3JHeUs1dm9HMXR1X1VmdnJMRDROZU9KbU5MMnBqLVdJbnZ0b0hOTFR5a2R6VnV5bkdOUl8wU2NVZzBERkF0S1luWDhKVi0yRjlyaURkYU5xWER5bE5KSQ?oc=5",
+   "fonte": "Florida Politics",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T09:27:06+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "\"Il était grand temps\" : la maison d’Henry Ford, récemment restaurée, rendra compte de son antisémitisme",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWGtxQWFfRGMtcVhMcVRlVFdtTm1SaDZISUR6cXhkRmRfbTBoOVh1Vnc2d285Nkh6OGVFLVBiYTR4NVd6ZE5kaU5RbWpSYy1NNkV0U1VIUTFFbXZpMEMzUmVZaTdpV2R4bzlSVTdRTTdYdkF0Nmh2d0ljdy1FRjl4aG1QMXdTbktWU0pBTU5ZcGNsTElsWldQQ3RKMV92UXVOYlNuZnhxUGpwbGNfaWJsMnlnVUR2LTlUSHhzOTJ4aUUtY1Fnb2c?oc=5",
+   "fonte": "The Times of Israël",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T09:02:09+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Opinion | Will Andrew Cuomo Confront His Own Party’s Antisemitism?",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQS3ZEd015QTF0bW9GbW50cGhjNmdrLUU2Y1BCanFhaFdDVVFoT2x4Yi1TT0JrdHBNMVpHdU9zUWNlV3Nwb0pKNDlaSEUxbnltT19fU1ZzWkFjakZfVUM4Y1RHQkl0QkNLTUtwZEU5Yjg1WWlXVlZ6RHBLay1lcVNJQUJwNDBaQlJYOFhfNk5mOFFWZGN2TVE?oc=5",
+   "fonte": "WSJ",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T08:37:45+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Daniel Pendanx",
@@ -34,6 +144,16 @@
   {
    "titulo": "Canadian leaders condemn shooting outside Ontario synagogue at the start of Yom Kippur",
    "link": "https://www.jta.org/2026/09/21/default/canadian-leaders-condemn-shooting-outside-ontario-synagogue-at-the-start-of-yom-kippur",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T02:13:14+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Canadian leaders condemn shooting outside Ontario synagogue at the start of Yom Kippur",
+   "link": "https://www.jta.org/2026/09/21/global/canadian-leaders-condemn-shooting-outside-ontario-synagogue-at-the-start-of-yom-kippur",
    "fonte": "Jewish Telegraphic Agency",
    "escopo": "mundo",
    "publicado_em": "2026-09-22T02:13:14+00:00",
