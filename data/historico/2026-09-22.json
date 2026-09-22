@@ -2,15 +2,65 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-22",
  "semana_iso": "2026-S39",
- "atualizado_em": "2026-09-22T00:41:32+00:00",
+ "atualizado_em": "2026-09-22T07:36:57+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 73,
- "no_brasil": 17,
- "no_mundo": 56,
+ "total": 80,
+ "no_brasil": 18,
+ "no_mundo": 62,
  "itens": [
+  {
+   "titulo": "Motive behind Ontario synagogue shooting attack not yet determined by Canadian police",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-909266",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T10:23:55+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Daniel Pendanx",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUTlabVAzVkZJSDFhTVNRSDBBNk51Uk1GMTlGTXhaMkF5V3BvVkh5a2w1SFhydnpFZWRYS1g0aFhSMVBZSlBkMEZJYjZQTm4tTDlyRjFsWWE2VjZWZ0d2Nlpud0FJWld6b1NSUEVRM0s1c1NqWUdPdF9OOUVjQkZ6SmJXaXlrUE5CdVdzMkg4WjktNUk?oc=5",
+   "fonte": "La Nouvelle Revue Politique",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T06:17:41+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Canadian leaders condemn shooting outside Ontario synagogue at the start of Yom Kippur",
+   "link": "https://www.jta.org/2026/09/21/default/canadian-leaders-condemn-shooting-outside-ontario-synagogue-at-the-start-of-yom-kippur",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T02:13:14+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "El equipo de ajedrez de Israel fue sancionado por negarse a competir durante Yom Kipur",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOY3l5WENveUVpQlN4MlVya00yaVpxdW1PdkZyOWlwVFZMTnlwSktwMVM1VXNYNXBzVS1hV1NVNE9rcTJFOXpTLWNuZE5pM3haSExfTnNEbUVrQm91bzlyTVFiUnBmaHlZdGp3WWFDYmI4QlN2YUVnaUdrUjl2MEJVaUtWSDllRTFwd0U5b2dqWnp0QjlrYmRkeUpSaXFmS01LZWdsY0wxenplWnNRR3dYRUE5bUlOVWVucDd5Y0dVMA?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T00:56:57+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Une Fusillade Éclate Devant Une Synagogue Au Canada Pendant Yom Kippour",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxON3NwaUlFYnlxQXhMeEpDMHJCWVJKNTM0WVJyTUNUR0JzNXdzT0t1QzhBUkdXZFl6S0FCb2kyZUhhbmptZTJ5cW16bkVyNGZMNVdSQnhmNFRyeTliR2R1Q2UyYVJCUXpqMW85eU1sZ01yR3ByWm9BQVVwRHc1X0FsMXVPUGdVTnFXb0VxWlMxVFFSZmdzRXF3R24zUGw1NkFGLXRKb0ZCSzg5VFpzOTlza0wzU2EzcDM2MVVzRGZQUDF2c2FIaEMwbkp1UQ?oc=5",
+   "fonte": "i24NEWS",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-21T20:20:32+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "One police officer wounded in shooting attack near Ontario synagogue on Yom Kippur",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-909199",
@@ -482,6 +532,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Prefeito de Parauapebas (PA) é alvo de processo de impeachment por racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORFhFMmhVam9SVFFZWUlFZlN0WGNuczhPVGJrczZSVG0xdmdPTHp2X0pmZlk2VXI4NW9NcDNaXzlLeVprQ2pjbHRPVXp3ME1KdTZPbUdXb3QwMF9OTGd6UlEyd0VoeG56dWQ2Z3hrbFdlOEZzdVI2T3F5ODhHekxvSHRRVHNwUkxNR3pRc2hkakRHRmlIM3NzMERuVTQxWmE1c1Rv?oc=5",
+   "fonte": "Alma Preta Jornalismo",
+   "escopo": "br",
+   "publicado_em": "2026-09-12T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Jewish Pride: Celebrating the High Holidays Amidst Rising Antisemitism",
    "link": "https://standwithus.com/news/jewish-pride-celebrating-the-high-holidays-amidst-rising-antisemitism/",
    "fonte": "StandWithUs",
@@ -679,6 +739,16 @@
    "publicado_em": "2026-07-27T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "VIDEO: Rosen Calls on Senate Colleagues to Support Legislation to Fight Rising Antisemitism in the United States",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVU5hTVVSSkpUTkNNaTRONDQyWnRfZUF1Ynk4bV94eXQxUW1Femd2VmphaDVFWGpRRTRyaU5Oa2NPX0NWX2YzRG1TVGc5RTVBR0hpd25lc3dNdzgzS2UwSlVTTTdZMFhkR2xwT2xoNndEOUhhUkZSbFpNU0dyQ2UyTV9jX2J3M2F3UUpSdm1GQWI5azlWbTZwc2pNQWxCSkNnMVBoMmYtdXZnbll5SkpvUVZLbi02STdleHRxMW9Tb2F4ekc3dDdzSnJzQ0lBM1AwOEVfc1RBTTJHVDQwSFZYbDFFY2k1X00?oc=5",
+   "fonte": "U.S. Senate (.gov)",
+   "escopo": "mundo",
+   "publicado_em": "2026-07-23T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
    "categoria": "Radar por palavras-chave"
   },
   {
