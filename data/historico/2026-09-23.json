@@ -2,15 +2,135 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-23",
  "semana_iso": "2026-S39",
- "atualizado_em": "2026-09-23T11:19:22+00:00",
+ "atualizado_em": "2026-09-23T16:41:16+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 85,
- "no_brasil": 20,
- "no_mundo": 65,
+ "total": 101,
+ "no_brasil": 22,
+ "no_mundo": 79,
  "itens": [
+  {
+   "titulo": "Jewish leaders urge Kamala Harris to press Senate candidate El-Sayed on Israel views",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-909478",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T18:33:00+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Watchdog reports uptick in online antisemitism, conspiracy theories after Canada synagogue attack",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-909459",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T16:21:17+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Des organisations juives appellent l'ONU à choisir un secrétaire général engagé contre l'antisémitisme",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNa3E3WnhQVENqSnhTMnNCd18zUFNrdUxlanFEeElyY2xLMW5Ebl9FQmlZNVJIQTlzdms3ZDJzNGNOYm5QOVlBY2NsaWV6VkF3TWtCTTNLcmZQeTc0QldlWlJNM1VhM0JFYUZ6SXhveVBfYnFWYkozTVlzdDZ5Z3FDMXlkTC16czFZaGlJNFAtTFFUTmk4TFAwOEJLaDJnYXJTUHcwUnZRbDl3eXRycXdlek1WUE1aWWRxT1pVTWJjN1h4cmZIZHFfeHFKZkRJb19tNDRFa09qLXFzczA2dnhCenp2TjducWM?oc=5",
+   "fonte": "i24NEWS",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T15:55:57+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Palestinian Authority Attacks Israel for Arresting Terrorist Who Killed a Father Just for Being Jewish",
+   "link": "https://www.algemeiner.com/2026/09/23/palestinian-authority-attacks-israel-arresting-terrorist-who-killed-father-just-being-jewish/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T15:49:14+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Ontario Jewish community saddened, but not shocked, by shootout outside synagogue",
+   "link": "https://www.jta.org/2026/09/23/global/ontario-jewish-community-saddened-but-not-shocked-by-shootout-outside-synagogue",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T15:36:25+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "This Jewish art looks pretty Christian, and vice versa. Is this coexistence or antisemitism?",
+   "link": "https://forward.com/culture/art/851528/jewish-museum-reliquary-ritual-art-christianity-st-vitus-prague/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T15:31:52+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Sophia Aram : comprendre l'antisémitisme qui submerge les milieux « progressistes »",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNaE83NXJ0cUc2U25YcEt3M3JqOW1DelE4OFJwMC1La1FaejRyR3JDMkVUTGE4dlM1OWhkRnAyNHVZOTQ2ZzI2ZmNQWjc5cVVNMGRvZXFGS0M4NWs4YXRldkpXa3kzVVdxWEdGM2REb25kelJLTmxqeGtMVFJ5MkR3OGlpWUxTdE1aSlFpNnk3N3pBajd0OHA0cXVDSE12TEVpWm9Zam0xclRIdTdVLUhXZGx0M1BlUWtmQlNMbjZpVXk2bElDUHVBQjdPN01teU9kZkFsdFZfdFVkM2N1VmszVXY0SkhBaDh6b3Y4?oc=5",
+   "fonte": "Le Point",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T15:00:39+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "No es antisemitismo: a Ariana Harwicz la critican por justificar el genocidio de Israel en Gaza",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMUZWVlZyTHJHLVhMQ2J1anp5akRuNUxOQk1pT1ZISERlbXcwckY5Qmo4M2QwTF9CWFpsSC1xekRhVkt5OUF6UllkcFVlaUp3eXhKNlFSeU83MXl4SkdOaUE5ZFVfeU5SRXBUb2tGLXhtcGdnc01abW8wSkg3WGFnOVE1NkFDeTh1ZTFiZlpxQmpZYmRjdFd2UFE1ZWpYRl9XYXpBLUtvN3hpdE5KVVdkYWdwLUhFR2ZBNExaZ25Nd0xPT2FzWEI1MWg1ckxNeTTSAc8BQVVfeXFMUDFGVlZWckxyRy1YTENidWp6eWpEbjVMTkJNaU9WSEhEZW13MHJGOUJqODNkMExfQlhabEgtcXpEYVZLeTlBelJZZHBVZWlKd3l4SjZRUnlPNzF5eEpHTmlBOWRVX3lOUkVwVG9rRi14bXBnZ3NNWm1vMEpIN1hhZzlRNTZBQ3k4dWUxYmZacUJqWWJkY3RXdlBRNWVqWEZfV2F6QS1Lbzd4aXROSlVXZGFncC1IRUdmQTRMWmduTXdMT09hc1hCNTFoNXJMTXk0?oc=5",
+   "fonte": "La Izquierda Diario",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T13:54:53+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Israel chama críticos de \"papagaios\" na véspera de discurso na ONU",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdWU5blNZdEI2T2ttQWF6cEUtTFN0bG8tMUxIbEViTDYzZXpPSFlRRXdOTl82YlZ0dmw4dElRbXlzcnAtemh4VUxjMjdwcjRWLTQ3b0ZqZmZYclpLS09McTFKX1l2X3JjMUJna0NjODVIY1Rrbnpuemk0RkFtOUhhT1IxTk8wb1BiOHVHbnRyY0Ffc2tTT3UzVUVrdjFrQQ?oc=5",
+   "fonte": "Metrópoles",
+   "escopo": "br",
+   "publicado_em": "2026-09-23T12:56:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Shock, Coercion, and Hate: Antisemitism in The Com and 764",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUEZRNGprajRqYzFOY2NUdkJZTGpGOFZqWjVYckFnUDlpUG9DYkJKczI3clhfVlFpckxRTVRYeVdNNTR4MVFwbmlWQVZ6YzFNRVV0ems3SjdXbmFJeTZqVHpXa3haTEJyOEZkOUxlekdqVFkzSWdLenZWRTNlODU3YmhpYzNkYXNnRnBjdkM0aw?oc=5",
+   "fonte": "Anti-Defamation League",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T11:35:50+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Are French courts failing to recognise antisemitism?",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdjJGSXlUWlIyOGZPNlFoYU5PQjEzREVLR2t5VVZyeHNMckNPa1NSYzFUMmJDZFdBTXJRakdlUE00c2hJb0FFb3lyVjgzaTBnc2lvanR3dHdVOHpnSGhxZ3dyTmcyWEJLY2NqMnRSZGQxcDZqZzg5SHJxWWdJVTBCMWRZWGs?oc=5",
+   "fonte": "Caliber.Az",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T11:29:29+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Reino Unido. La policía frustró un presunto atentado contra la comunidad judía de Manchester antes de las Altas Fiestas",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOckhMT0NyeG01Yk9aQ0UtZnlUSjQ2TW9nLTNjaFFsSGlPS292UjVsT1czelNkcFNDQ1pwcXhUY3pwc2Vjby1vQ1BINDR3REJPMkZubWs4dFFCaDZQbzdvVmUtQWg4OHRSYnF2azBRN3pzQVl2akZuYWFTQ1FZMVFENzUyQVJEc3RJRlV3N21lMXlEWF9weUFfdEw2bkprZEVybUpWdW93R0NNMk9yb2tydXJVdXRqeDFGX3NXTV9nX2M1V0ZnWUxnN0pudUNhQTI1VW5kNG0zeHJJY3I2TktfU1JXaWVWVDFON3c?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T11:23:07+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "The antisemitism France’s courts fail to see",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-909399",
@@ -210,6 +330,26 @@
    "via": null,
    "feed": "cam",
    "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "‘I Fight Islamism Because Its First Victims Are Muslims Themselves’: French Journalist Nora Bussigny Launches Italian Edition of ‘The New Antisemites’",
+   "link": "https://combatantisemitism.org/cam-news/i-fight-islamism-because-its-first-victims-are-muslims-themselves-french-journalist-nora-bussigny-launches-italian-edition-of-the-new-antisemites/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T16:28:42+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Nazi imagery nothing new for crypto casino behind Orlando fight with swastika flags, Hitler salutes",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-909309",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T14:52:53+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
   },
   {
    "titulo": "Could going to synagogue help or hurt a Jewish candidate? This poll offers a clue",
@@ -582,6 +722,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "Antissemitismo cresce no Brasil e ganha códigos nas redes sociais, aponta levantamento - 14/09/2026",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPY2tSUUVDRE9TZzZjZjNGZmF0a1RXaDZlRlNPdm9BTkFUc3UxTXBnc0gwZnJWLVo0RnZNTU1aMFBHaHBxRVkteHd3SURrRnJtMDZFRkJOd09FTlNpNlNNekZrRFR2U2dERGlYUFJHWXJoY1JEREhaWmk4VVNWMFV3TW00aEVpZVp3ZjVuekg3enVBMC1JaWo2Vms3cDQtMW13WFNlYXJQRFRZcWE4Z1ZidGtBMERocXUyQl9CUjdwUk5JS3hqNEJHbERPMWRla2tB?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "escopo": "br",
+   "publicado_em": "2026-09-14T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Mezuzahs Smashed in Antisemitic Incident at Laurier During Rosh Hashanah",
    "link": "https://standwithus.com/news/mezuzahs-smashed-in-antisemitic-incident-at-laurier-during-rosh-hashanah/",
    "fonte": "StandWithUs",
@@ -770,6 +920,16 @@
    "via": null,
    "feed": "onu-pt",
    "categoria": "Direitos humanos e organismos multilaterais"
+  },
+  {
+   "titulo": "Isère : Laurent Nuñez et Aurore Bergé dénoncent les propos antisémites d’une commerçante, une enquête ouverte",
+   "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPT21jZ0V1SHRYVnpCNHhKSDE2MmxhVEZ4QmZ0NDB3M0V3VzBCVmpmekxmamdnT3htalkyVTUteWl5eU5EeWsyVGRxSXpRUmUtYjFBb0ctaXkwYkllTUVkSkc1bFRLR0o1TTFRN1ZuejNrWkJOM1NTUjF3c0ZNU3E2WVNITDdBOWQ3SERKcm1LVmY4dWZoNWdYZnBkZ19QSlZhcDB4NEhKYUZDVmxTdHhDam1wOGRVa29KNkZLa1BtWXJLYW9fZVpKaHlJU29oUEpHbm83VTV3Wnd4MVR3aWg2UXQtZVlVcTZPeDEycVNlX1M2ZGZNWkdITXd4M2NtNE5zWUpoSg?oc=5",
+   "fonte": "Le Monde.fr",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-15T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Jewish Bund Ghosts vs. Living Jewish State",
