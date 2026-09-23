@@ -2,15 +2,95 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-23",
  "semana_iso": "2026-S39",
- "atualizado_em": "2026-09-23T04:28:12+00:00",
+ "atualizado_em": "2026-09-23T11:19:22+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 71,
- "no_brasil": 17,
- "no_mundo": 54,
+ "total": 85,
+ "no_brasil": 20,
+ "no_mundo": 65,
  "itens": [
+  {
+   "titulo": "The antisemitism France’s courts fail to see",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-909399",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T10:29:23+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "El ejercito israelí detuvo a un oficial de las fuerzas de seguridad de la autoridad palestina",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMzhHUUgxbWNqR3lHOHJfNmV3U3Vxdld5amUtblY2SndzSHMtVng4V2FqMXRjNmhYanh0SXkxeXU1Skd4cHJURnhlR3ZMY2tZVkxIeGxYWElaWkVPYkhqOUpzLVNzTC1seDB0VEw4SW55LVRCWW5mOEFOS2h4Qi1ObUFtajZub1NLRjgtQ1loWWdUcWJIV3d5VWhWMDB0b2dXVC1oYTZFTkMzb21SRHAzbDk1TzB5NHdWcjZQeA?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T10:28:44+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "CAM weekly antisemitism report – CAIR school guide dedicated to Palestinian advocacy",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-909393",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T10:12:31+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "More Than a Toolkit: Helping Jewish Students Navigate Campus",
+   "link": "https://jewishjournal.com/community/392495/more-than-a-toolkit-helping-jewish-students-navigate-campus/",
+   "fonte": "Jewish Journal",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T08:47:48+00:00",
+   "via": null,
+   "feed": "jj",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Viral AI Video Targets Jewish Comedian",
+   "link": "https://jewishjournal.com/culture/arts/comedy/392489/viral-ai-video-targets-jewish-comedian/",
+   "fonte": "Jewish Journal",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T08:24:40+00:00",
+   "via": null,
+   "feed": "jj",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Rosner’s Domain | Who Is to Blame for Antisemitism?",
+   "link": "https://jewishjournal.com/rosnersdomain/392477/who-is-to-blame-for-antisemitism/",
+   "fonte": "Jewish Journal",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T08:00:45+00:00",
+   "via": null,
+   "feed": "jj",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "In Her Own Words: Archie Gottesman fights antisemitism with billboards",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMmFKQ1ZWWF9DNVJYUF84QTZxY0IyM001aTlFVHhDQXdWblJXSmJpLUZiWlNRZTgtVG5EUE5ITkFsajgtMFFKd0w5VGZUcEkxczhmNVVSWnFic0R2TkphWDdwMVBGUnhCM1BCV0hDeGRVdWdnZGRtLWstdEJITHNYLXRXYlVudVZqVHVhQ3Q0YXpwM004SHctNC1iZEV5UjRNYnFmbUwxbFZTaVlLSlFydHBmY21QNmxmaWc0?oc=5",
+   "fonte": "The Business Journals",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T07:03:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "The Definitional Double Standard: The San Diego City Council’s Concerning Approach to Defining Islamophobia",
+   "link": "https://standwithus.com/news/the-definitional-double-standard-the-san-diego-city-councils-concerning-approach-to-defining-islamophobia/",
+   "fonte": "StandWithUs",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T05:52:27+00:00",
+   "via": null,
+   "feed": "swu",
+   "categoria": "Observatórios e entidades"
+  },
   {
    "titulo": "Highland Park antisemitism news: Swastika symbol found painted on slide at Devonshire Park, city officials say",
    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQkRmekU3S2R3aWFXTnVrTEJIbkpSS01QMVNPNEVTUTVjbU55TVU5MTdRQ1hfb194czdEbFU5X2IzQ1d5QWJVT29JNUZUUGlic01RU2tQZnN6SjY1OUNkOWdzdjFjN0F3cVV5cmEtRHllODdCS25iZklFT3p0aFRGWXF2c0MzU0llYmI2WWVvRlNaMy1TdXJfbW00WWlneFQ4ZjNfQllUQTlkWmNtaTk5R3EwTHVIMGg4YnVub1lqWk5PeE1JQ0ZjQUFaU1JFa0xDa0HSAdcBQVVfeXFMTzNtZ3plWWt3Q3c3VWQ1Wld0bFZMQWp3VGFZLTJRYWk3RkQtYm94Sko5LWJuekVKa1lXXzl5ZHRBTGNxVVR6TUZoSkZ5VlpxWmEwYWFqY05HOC1XcW5MZWdqWUFrQjFDM2VxMnIya2ZBc3BjVkJxVzN3WGlncTVhNHZueFJCWURtNmFDbGtNMjVsMHdlQVR3MVFuQVlsV0FfM0RlUlRwMEE3Q1VRNXFkcXc5MjFnT3VkZlVjTXRjRU1wbi1tcUVaUU9sWklGMEZXaDNwN3cwSGM?oc=5",
@@ -262,6 +342,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "El Papa condena el aumento del antisemitismo",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUjBESjVMMV9oQ1NpcHRBdndWNTM0WkwwejRpTlNMQlBuTzcyWHdoZm1ycDdUYUJlWWNvR3Rlb3VhczVGdUV0RzExNEVoazRsU1QwLXN4Y1RfcjJKeE9iVjE2LTBMb01QdkMwNEtPcExFX2NiZVJtd0dNeEJVcHhvSk85TTAxZjlLTHc?oc=5",
+   "fonte": "omnesmag.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T03:58:35+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Canadian leaders condemn shooting outside Ontario synagogue at the start of Yom Kippur",
    "link": "https://www.jta.org/2026/09/21/global/canadian-leaders-condemn-shooting-outside-ontario-synagogue-at-the-start-of-yom-kippur",
    "fonte": "Jewish Telegraphic Agency",
@@ -307,6 +397,26 @@
    "fonte": "Alô Alô Bahia",
    "escopo": "br",
    "publicado_em": "2026-09-21T12:54:54+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Métamorphoses de la haine",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXUG5RaFRja1ZnZkxQd2NUYmtBckVPd3lfaXlTVGswWm00cVpqZWxwdUtLcGpFZ0s3OHEwUDEwdWllRnNDYUUxVHJTZFVUbkR0S3V1SkhSMEZFZVhoeE5aWDBqSXFLZk52dGlyNw?oc=5",
+   "fonte": "La Vie des idées",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-21T06:04:15+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Casos de racismo religioso triplicam no Piauí em 2026",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdFFJQjFsZE1pQmNURlNlOXh0Tl8tTGU2SFNrY0xnN1g3bDZlQVdxMFV1ZnVsU3RlNC1HN2VKbVppTTZjVnVJUFVSd29UNW45b0QtMTA3dFo1RXF6TERkQTY3WHl1X1ZockF4bDRtaDJNUFZhbndOSnRfODJ5cEtyOWdpcnlZSUVHLWtQa1c4UGlDWEJwanR3eQ?oc=5",
+   "fonte": "Portal Clube News",
+   "escopo": "br",
+   "publicado_em": "2026-09-20T20:02:47+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-racismo",
    "categoria": "Radar por palavras-chave"
@@ -512,6 +622,16 @@
    "categoria": "Observatórios e entidades"
   },
   {
+   "titulo": "Antisémitisme : un proche de Philippe devant la justice pour avoir dénoncé les «dérives» de LFI",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZjBySHFfWEZWYkhJYjIyMnZHdUlXYlhkSGR1TDVnY1E2Qy1DbEZvb2pveDU0OU1Obzc5eGlmZTFBN0JDWmNKREZ5aDRGRElNaVlRMUpZOGdVZmpNQ2t2NlpxSnVZbFFKSldJZXVnak9vYTFfMDZnMFlkNlpJT0hSV0lMbjhGazJCRHk1V2ExTlZwc3RJR3R0SUdiU1VaXzZ0djRZQ3J6MDV5bW44cUNNWWF2WExYVGNDSnhRZDh4WUU4ZWhsc3VnaQ?oc=5",
+   "fonte": "lejdd.fr",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-11T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Federal Civil Rights Investigations Opened Into Two Schools Over Alleged Anti-Semitism Against Jewish Students",
    "link": "https://standwithus.com/news/legal/federal-civil-rights-investigations-opened-into-two-schools-over-alleged-anti-semitism-against-jewish-students/",
    "fonte": "StandWithUs",
@@ -540,6 +660,16 @@
    "via": null,
    "feed": "swu",
    "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "‘Todo macumbeiro é derrotado’: Pablo Marçal é denunciado ao MPE por racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbFRFb3Z3SmtDOEdLbU5kRVMzLUp0WW56TEd1cmxkR2NYYUY5YXp1UnVLcl9fcjNtRDdDX2VMNXZwSDhvNW1FRHVDd0RMaTBOVHItcmJVV1lBU2VTTEJCMXd0OUhhUDg2SjJCT24wMWdVb2dTVlJGNHJpV1k4WXlqLXlR?oc=5",
+   "fonte": "Alma Preta Jornalismo",
+   "escopo": "br",
+   "publicado_em": "2026-09-09T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Best Jewish Advocacy Organization",
@@ -599,6 +729,16 @@
    "publicado_em": "2026-09-03T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Ecos do antissemitismo e a vida psíquica na Palestina ocupada",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSnVPdW13UlpvblNybEZpSTNuZk5BT1ZQeWpZV2hUSVlFdjRNREI4WEdqblMtNW5QOFpyMU5iSWwzZ1JiVi1WWlFHU2N0dVFUN2QzQUI2azUxTlFiQWpiRml3dnhPb1JCcjZJTTljc3lrM1FXZklUdTAwcDIxVEw5LXRXSWY0cjVFd1hmOVlSUXpLOXBIVUNhRg?oc=5",
+   "fonte": "Mídia NINJA",
+   "escopo": "br",
+   "publicado_em": "2026-09-02T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
    "categoria": "Radar por palavras-chave"
   },
   {
