@@ -2,15 +2,85 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-23",
  "semana_iso": "2026-S39",
- "atualizado_em": "2026-09-23T16:41:16+00:00",
+ "atualizado_em": "2026-09-23T21:23:57+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 101,
+ "total": 113,
  "no_brasil": 22,
- "no_mundo": 79,
+ "no_mundo": 91,
  "itens": [
+  {
+   "titulo": "Ontario Jewish community saddened, but not shocked, by synagogue shooting",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-909491",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T21:48:39+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "A Jewish teacher in Philadelphia pretended to be Palestinian for years",
+   "link": "https://www.jta.org/2026/09/23/united-states/a-jewish-teacher-in-philadelphia-pretended-to-be-palestinian-for-years",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T21:21:06+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Jewish Dems in Congress oppose plans to merge Holocaust and antisemitism envoys",
+   "link": "https://www.jta.org/2026/09/23/united-states/jewish-dems-in-congress-oppose-plans-to-merge-holocaust-and-antisemitism-envoys",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T20:32:03+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Jewish groups rally outside UN against antisemitism",
+   "link": "https://www.jta.org/2026/09/23/ny/jewish-groups-rally-outside-un-against-antisemitism",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T19:47:35+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Jewish Leaders Worldwide Call for UN Reset as Secretary-General Race Puts Antisemitism in Focus",
+   "link": "https://www.algemeiner.com/2026/09/23/jewish-leaders-worldwide-call-un-reset-secretary-general-race-puts-antisemitism-focus/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T19:23:16+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "$100K Gift Helps Launch Antisemitism Lecture Series at Stockton U.",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWDRtVjhMZlFOc3pOeG9IZGpkOGc0U3hRU1d5ZVhvdS1vYXByLUlCRzJGS2JwU2o2amZiSy1nVnl6ZFcwTWdoMzlwNFVxRmxqX25sMUtYMTdYZUg5Q3FVcXBwVDE2X2tUaHQ3ZzBtN2tXd2J6UjFPOEQ3T2k1Nng1Mm1Yd3ZlSkZRbjExM0t4Nm1tU05lblZhZDMzTQ?oc=5",
+   "fonte": "Philadelphia Jewish Exponent",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T19:00:42+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Chicago Museum Returns Nazi-Looted Painting to Heirs of Dutch Jewish Owner",
+   "link": "https://www.algemeiner.com/2026/09/23/chicago-museum-returns-nazi-looted-painting-heirs-dutch-jewish-owner/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T18:52:06+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
   {
    "titulo": "Jewish leaders urge Kamala Harris to press Senate candidate El-Sayed on Israel views",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-909478",
@@ -20,6 +90,46 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "2 top Iranian officials to face trial in absentia over deadly 1994 attack on Argentinian Jewish center",
+   "link": "https://www.jta.org/2026/09/23/global/2-top-iranian-officials-to-face-trial-in-absentia-over-deadly-1994-attack-on-argentinian-jewish-center",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T18:32:41+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Hadassah Joins EASAPP Committee in Urging Global Leaders to Decline Events Celebrating Durban Conference",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOcmhsczZUMnZEZTVtenFLaEFnVllTSlpnMFJDNHltV3h4Q1h0Tjd0WEZJQTByOVdxZUxmZjUzSUJOYW5RX0VZNkQyQ3JMeEliNkthcE9fbUZoVnNTbU1iREQwcGVvT1FfMWJZcTNPN2dRbWVWZGRLU1JvQy1JTy1tSzhCbXpZWUdTd2xnWDl0cW84d0hTcEdnS3JISkFxeDhBREk2TVJXSFlyLXN3ZnZTN014RHU5amlWOUhMbFRtY2pDX2dmd0RQaW5CZWlYWTJwX3MxOVc2QTlCemM?oc=5",
+   "fonte": "Hadassah | The Women's Zionist Organization of America",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T18:32:05+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "CAM Exposes Pro-Hamas Rally in Morocco, Drawing Ire of Anti-Normalization Group",
+   "link": "https://combatantisemitism.org/cam-news/cam-exposes-pro-hamas-rally-in-casablanca-drawing-ire-of-moroccan-anti-normalization-group/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T17:45:06+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Opinion: MCPS still has an antisemitism problem",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOXlqMnJoN0FqYklGMXVqSnpDc0JsVWxNVWVySUZPMWRDVjhTYndUQWJpS2ducU1GS19Wb0dQYmlfWmx1dEdDMkpTSDJOaEl0ZGtzdllFUGotV1l4R19LY3p1cXY1TmQxcnlSVEVXTnY0dlgxbU56UjYwdEk2cHhJVjNMY01xZmJiajBWMVVsY2Y?oc=5",
+   "fonte": "Bethesda Magazine",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T17:33:31+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Watchdog reports uptick in online antisemitism, conspiracy theories after Canada synagogue attack",
@@ -357,6 +467,16 @@
    "fonte": "The Forward",
    "escopo": "mundo",
    "publicado_em": "2026-09-22T13:36:30+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Nazi imagery nothing new for crypto casino behind Orlando fight with swastika flags and Hitler salutes",
+   "link": "https://forward.com/fast-forward/851348/nazi-imagery-nothing-new-for-crypto-casino-behind-orlando-fight-with-swastika-flags-and-hitler-salutes/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T12:35:21+00:00",
    "via": null,
    "feed": "fwd",
    "categoria": "Imprensa especializada"
