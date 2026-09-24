@@ -2,15 +2,135 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-24",
  "semana_iso": "2026-S39",
- "atualizado_em": "2026-09-24T18:22:11+00:00",
+ "atualizado_em": "2026-09-24T23:08:41+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 104,
- "no_brasil": 20,
- "no_mundo": 84,
+ "total": 122,
+ "no_brasil": 21,
+ "no_mundo": 101,
  "itens": [
+  {
+   "titulo": "The rabbi’s son who drew an antisemitic mural on Wilshire Boulevard",
+   "link": "https://forward.com/opinion/852089/antisemitic-mural-wilshire-boulevard-los-angeles/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T23:04:01+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Police label shooting in Belleville, Ontario, a hate-motivated attack against the Jewish community",
+   "link": "https://www.jta.org/2026/09/24/global/police-label-shooting-in-belleville-ontario-a-hate-motivated-attack-against-the-jewish-community",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T23:02:36+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "La jugadora de pádel pidió perdón por sus dichos antisemitas: \"Realicé un acto abiertamente discriminatorio\"",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZGtZYkt0NDFCV1p6b1hibTNHR3pXMDBlbEdJOWdObE5kdlQ2NWRjc3NJX1plS3VBY2ZEcjlrMHBBb1d4cU9ibGM4QngyYmJpOXNLaFUxSWxiYW5OZ2dmRWFfT0NQdWY4cW1pUzVhUVNHb1dLNFhFODZ2cnd4Y19uc0RhVHpoX0pHcDVrMnRrY29PYk9CdDlveEI0eU02ZGtaQ1lxMGgyMkpVYjViNzZkVnR3MXd6dHJKcFRVWU9DaV9hTDR6eExEVENlVGhoaEpRN2ZNa3hvazNMQdIB2gFBVV95cUxOZGtZYkt0NDFCV1p6b1hibTNHR3pXMDBlbEdJOWdObE5kdlQ2NWRjc3NJX1plS3VBY2ZEcjlrMHBBb1d4cU9ibGM4QngyYmJpOXNLaFUxSWxiYW5OZ2dmRWFfT0NQdWY4cW1pUzVhUVNHb1dLNFhFODZ2cnd4Y19uc0RhVHpoX0pHcDVrMnRrY29PYk9CdDlveEI0eU02ZGtaQ1lxMGgyMkpVYjViNzZkVnR3MXd6dHJKcFRVWU9DaV9hTDR6eExEVENlVGhoaEpRN2ZNa3hvazNMQQ?oc=5",
+   "fonte": "MinutoUno",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T22:26:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "La DAIA confirmó que accionará penalmente contra la jugadora Guerra Sodero",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcW9qRnpncWVpR2psSjFnZWhhbnRITnpJODZ2NmNUWkNkcEU0U0lLbVBLR3pWSGhuQUVTMHVqb1NqZDg5ck1XY3p5M0ZoZ1VCbGl6d1pJU3Y4LTh0U2dub0E4di1GOEt4cDVXTnIyMXJ4UGlIYkNCRmwzd1ZoZ0NYUGY2dURLWVc1dGxPaFZiUExKejhFd3Q4SFJtTTQ1YXg3UDRoXzZ3aFVzeXM?oc=5",
+   "fonte": "Diario TAG",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T22:15:44+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Does Cal State’s Faculty Union Have a Jewish Problem? Newsom Should Look at the Record",
+   "link": "https://jewishjournal.com/commentary/opinion/392557/does-cal-states-faculty-union-have-a-jewish-problem-newsom-should-look-at-the-record/",
+   "fonte": "Jewish Journal",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T21:56:43+00:00",
+   "via": null,
+   "feed": "jj",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "El-Sayed Defends Accusing Israel of ‘Genocide’ in Heated Discussion With Prominent Jewish Podcaster",
+   "link": "https://www.algemeiner.com/2026/09/24/el-sayed-defends-accusing-israel-genocide-heated-discussion-prominent-jewish-podcaster/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T21:36:08+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "More than 350 cultural figures slam Spanish festival for canceling a Jewish novelist for her Israel views",
+   "link": "https://www.jta.org/2026/09/24/global/more-than-350-cultural-figures-slam-spanish-festival-for-canceling-a-jewish-novelist-for-her-israel-views",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T21:09:00+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Palestra conscientiza Guardas Municipais sobre temas como intolerância e racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONURtMXFWQ2QzNi15S1dTdWJ0b0tBNHdRRnd4YjVhN0ZTaFFJb3UtNUQ1VEtHMXprcU1PX2FTeTdFTHJsUjlVU0tMNzJEMHZoeHlGVTJPTXFCbklOdjhHaFpjUGsxSS1yVFZaVDdHU3RYeXM5Q0tjOXNWZUJtTG80VllYeU5qbFBsYm0zd2V6ZGlCVkRYNVRsR2dlMW1xY0w1bVg5Y0lIQmR5T3ZiWmFWQTViSnpOSzVSR1VZbTdVUnNQZG94YzlzZEVJZE9JdFBDTXM0?oc=5",
+   "fonte": "Prefeitura de Campinas",
+   "escopo": "br",
+   "publicado_em": "2026-09-24T20:54:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Jewish Leaders Urge German Parties to Block Die Linke Coalition After Berlin Election Victory",
+   "link": "https://www.algemeiner.com/2026/09/24/jewish-leaders-urge-german-parties-block-die-linke-coalition-berlin-election-victory/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T20:03:33+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Progressive Jewish groups protest Netanyahu arrival in New York City",
+   "link": "https://www.jta.org/2026/09/24/ny/progressive-jewish-groups-protest-netanyahu-arrival-in-new-york-city-for-unga",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T19:53:08+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Netanyahu calls Mamdani an antisemite who endangers Jews in New York",
+   "link": "https://www.jta.org/2026/09/24/israel/netanyahu-calls-mamdani-an-antisemite-who-endangers-jews-in-new-york",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T19:41:16+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Analysis: On Epstein-Mossad Conspiracy Theories, All Roads Lead to Moscow",
+   "link": "https://combatantisemitism.org/special-features/analysis-on-epstein-mossad-conspiracy-theories-all-roads-lead-to-moscow/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T18:51:46+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
   {
    "titulo": "'Heil f***ing Hitler!': Knife-wielding man chases Jewish student through Crown Heights, New York",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-909614",
@@ -220,6 +340,46 @@
    "via": "Google Notícias",
    "feed": "radar-en",
    "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "2 top Iranian officials to face trial in absentia over deadly 1994 attack on Argentinian Jewish center",
+   "link": "https://forward.com/fast-forward/851750/2-top-iranian-officials-to-face-trial-in-absentia-over-deadly-1994-attack-on-argentinian-jewish-center/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T00:45:54+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Jewish Dems in Congress oppose plans to merge Holocaust and antisemitism envoys",
+   "link": "https://forward.com/fast-forward/851762/jewish-dems-in-congress-oppose-plans-to-merge-holocaust-and-antisemitism-envoys/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T00:43:42+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "A Jewish teacher in Philadelphia pretended to be Palestinian for years",
+   "link": "https://forward.com/fast-forward/851774/a-jewish-teacher-in-philadelphia-pretended-to-be-palestinian-for-years/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T00:38:36+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Merz warns that Jews are not safe in Germany, as voters choose parties linked to antisemitism",
+   "link": "https://forward.com/fast-forward/851792/merz-warns-that-jews-are-not-safe-in-germany-as-voters-choose-parties-linked-to-antisemitism/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T00:31:09+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
   },
   {
    "titulo": "Merz warns that Jews are not safe in Germany, as voters choose parties linked to antisemitism",
@@ -709,6 +869,26 @@
    "publicado_em": "2026-09-21T19:52:33+00:00",
    "via": "Google Notícias",
    "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "UPDATE: Oakland Unified must address antisemitism against Jewish students, judge rules",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQY3JHSzJONkVGWENXUUd2QUhpb1haWER4THNNWkRFR013QmtYdTVoZkNHako5X2N0Mk9UR2NTblVxZ29nakNVTmVGd056bXVUUXpGX0tfMzJrWTcxLV9jUVVxVFJDcXRYZlZKTGlWUXA4YjZtYWV4Y1pwQzF3OWE3YnVnNmhnRENjbWRmWWp6aFV0cFVsVXFIVFBDcEwzZGVNQVZFRlYwZEluZw?oc=5",
+   "fonte": "EdSource",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-21T17:35:42+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Berlin's far-left vote winners reject anti-semitism charges",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcmdnQ25ybnJKRjhHNkppZFEyU2xhVmdQallKRXNVd3lad2xpRmtVVnJOaURhWGllQ2xkNVVlNG5TajlHOF8zazZVWmE0TkF2UTJDb2FJYlVGWklvLW03dXg0ZFNNMmc4UkQybHNteFlGNGs3SEthOTdxeUZneDAtV2gySXBHOGNk?oc=5",
+   "fonte": "afp.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-21T15:21:42+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
    "categoria": "Radar por palavras-chave"
   },
   {
