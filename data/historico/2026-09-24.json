@@ -2,16 +2,85 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-24",
  "semana_iso": "2026-S39",
- "atualizado_em": "2026-09-24T13:29:05+00:00",
+ "atualizado_em": "2026-09-24T18:22:11+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
-  "The Times of Israel: HTTPError",
-  "Fathom Journal: TimeoutError"
+  "The Times of Israel: HTTPError"
  ],
- "total": 94,
+ "total": 104,
  "no_brasil": 20,
- "no_mundo": 74,
+ "no_mundo": 84,
  "itens": [
+  {
+   "titulo": "'Heil f***ing Hitler!': Knife-wielding man chases Jewish student through Crown Heights, New York",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-909614",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T18:07:43+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Israel’s election committee disqualifies Arab parties but not far-right Jewish ones",
+   "link": "https://www.jta.org/2026/09/24/israel/israels-election-committee-disqualifies-arab-parties-but-not-far-right-jewish-ones",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T17:52:38+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "The Encampments Are Gone, but Hasan Piker Ensures That Antisemitism Remains",
+   "link": "https://www.algemeiner.com/2026/09/24/encampments-gone-hasan-piker-ensures-antisemitism-remains/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T17:18:06+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "“Excepto judíos, ustedes no son bienvenidos”: aberrante y discriminatoria frase de una jugadora de pádel",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxORkM2dWJSS010eWxCck1VY25TMVVHLS1lMEN5RzlsNHZVU2NjWjRabWRPeUNxUzlVcTRNVzVVWTFMUk9LTUljTjJLVVRiaFpCVnNoWHA0Ylg3VDBGZUdwb0ZzX3YtTWM3VzRyeXo2aUQ1TEVDQ2ZsRk5iYmgxZS1iR1hYSjg4R3c5dEVKX1FnOVQyVlBMU1hDOUhGRjZsMDZMU3BjeExsYzExZlk1RWpLVmRDUURKeGE1b2ZrTU1XWk1VaUx1MXBfMFFfWG1LU1VsRDRjSXVNMjdXZHpxT0HSAfgBQVVfeXFMTkxCU2UyLWJxb0VOeHVTaW1RRlhfdmp4bU1kb0lLRVJySUZmaDJhMDhKVzlWZWd5TG5zM09NRHotME5yQm9DQ0FhREtwUnlrRzYyWC1OeFA0RG9wR29JX01rNV9mUDZCZ1ZaWDEtYm9fUFl3amxlMWVtLVpvaVlZZ2llR2tqRDFhb3NjdzZYOTlZWllscVMzTGhNam5WOEgzclRqb3psOVBMWENMM3RhMXZKMzdXank3aFZaNDkwRVI5TlVHT1RZbC1DZHNVaFU3U0ExYnFRSlUtX3BJWmpJU202RHc0Q2RqN0xncDI2VlloNUFCY085NDA?oc=5",
+   "fonte": "Infobae",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T17:12:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "As Netanyahu takes UN stage, New Yorkers protest antisemitism — and his government",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbXRwVlczTENJekltU25hM0Y5WDctQ0pEZHg3dDl2ZFRJaXB0UktPQnZNX1ROMWJqWi1PdlJ2NGdIQWJ6R3ZuWG9nb2Y0UWdhN0VPcnV4RENTbDZISFBmenNIdWkzZi0tOUt1N1E3OGRQNGhfZEJRa1Jxa0JGVG5TRWVZSWxUbEZQX1VwQWxQbUZTczdYRTQ3T1pJRkY2MjhNUEE0Zk1PQVdybXZIMmxpcUFydU9Ub3I3VERQOHFRNXdlTFNuYnZJ?oc=5",
+   "fonte": "Religion News Service",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T16:09:55+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Mil personas se manifiestan frente a la ONU contra el antisemitismo",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaUZkUFJMM1pRMlJpSFZSWDRVLXI1QTZ6dkFQZ1NSX1JBVW55WGZpQ2JlTXNxaXpNTVA5Yzc0T1lkR201UjFNbW43ZURwdFJ1MzVlQ1p0UkF6Y3Y3enVFY083bktqa0JjczRUbnU3d25JSEtadXQ4YjVFWDBTZmxiaTBxQ3VLNWs0QkJJYm9pNWpnRFFSS3QzUTBIX0VaRkZrZUlzRlRhNGxSVUFySTVWbS1KN2ZKa2lLVW9RcTVKUE9MUWdr?oc=5",
+   "fonte": "JNS.org",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T15:00:27+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "The importance of defining antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTTR5NWFZTk5fUGZEcEJBT205UXJranczalR6QW5JSzZRLUVoTjdHcWgtbFFNRUVWcU5YYVBVbXFOb3VzN3hRU2FBc0lrZ19idHBzOXExS1lqVUdxeGJpcWVCNFloeTg5bVNoeGpDYkpSWFZwT0Rtb1ZRWEY1X3FISm9FWlNMemM4Nnc?oc=5",
+   "fonte": "The Pittsburgh Jewish Chronicle",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T14:47:03+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Israel-US gap widens as more American Jews say gov't policy contributes to antisemitism - poll",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-909578",
@@ -171,6 +240,16 @@
    "via": null,
    "feed": "cam",
    "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Sabina Urraca contra Ariana Harwicz, del genocidio al antisemitismo: la última batalla de la guerra cultural por Gaza",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOYXNLQ1liZk9LWnU3aTNzUGUxMHZNLWNzTnJUaUNPeEFadW1FNjlzdlJWQU1MaVRjdmkwR3Z0YnhyNEkyVG5YRl9WY1RGTFhaaWJmVVVLZE9PXzBCT0p4QjBqZDc2WFBnRmszYTJZMURpZHpwWjAxVmZHWGlFMUplaHpUSW9Gb0hlNUhQOUs1bWVwMFBEVXhNZEZ3Y1BxNGlia3ZqVWFiYXExQW9LWjEtNTBaS2tlSE5aQkRZLXkzSkVKZVUzajdXMTVUZFh0M0lqcERwaE81Mmx0Z1lXOGlNVtIB5gFBVV95cUxQN0RtT0liVG44TE1yS0x4NWQ5QWZpUzg2cXFaY3RMVmtuSDVKeUtqSWNWeEdJOHU2Y2NOQVNXWlBKVWJ1V2haQnJHRGhTM0JRS2tpaEctRjltZFBMVFNYTEdnQUtWUE42WGNiTzdPdWI3ek9KdjR2WGQzVUJYVl84em1xTjNXcElCb3YyY0RvendUMG5zeWlZTnZsZ0pMdnRzMXUwYnpQY2JVQjdkOExVeWIxQ3NTMl9YOEgxSzNlM0JMbHMwNDRiekRNeHRmR1VacU1WVlBHcGJ0NEdpWlpuMGwxMnpRUQ?oc=5",
+   "fonte": "El Independiente",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T22:09:01+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Rally against antisemitism held across the street from United Nations in NYC as world leaders gather",
@@ -341,6 +420,16 @@
    "via": null,
    "feed": "fwd",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Norwegian Party to Join Pro-Hamas Rally in Oslo on October 7 Anniversary",
+   "link": "https://combatantisemitism.org/cam-news/norwegian-party-to-join-pro-hamas-rally-in-oslo-on-october-7-anniversary/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T14:04:21+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
   },
   {
    "titulo": "No es antisemitismo: a Ariana Harwicz la critican por justificar el genocidio de Israel en Gaza",
@@ -590,6 +679,16 @@
    "publicado_em": "2026-09-22T09:02:09+00:00",
    "via": "Google Notícias",
    "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Antisemitism | History, Meaning, Facts, & Examples",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBxRnNldnFQbVE3amVrY3RtZHJ1OWo2cHRkemVuY1c0SGNBYjVUQTdhX3JJcnl0RWFPUHdBZFh4Rm5YSHlNRExrTkZuQzhkYjQxNlc5cnRIT1E?oc=5",
+   "fonte": "Britannica",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T05:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
    "categoria": "Radar por palavras-chave"
   },
   {
