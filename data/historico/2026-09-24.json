@@ -2,15 +2,96 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-24",
  "semana_iso": "2026-S39",
- "atualizado_em": "2026-09-24T07:30:54+00:00",
+ "atualizado_em": "2026-09-24T13:29:05+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
-  "The Times of Israel: HTTPError"
+  "The Times of Israel: HTTPError",
+  "Fathom Journal: TimeoutError"
  ],
- "total": 82,
- "no_brasil": 19,
- "no_mundo": 63,
+ "total": 94,
+ "no_brasil": 20,
+ "no_mundo": 74,
  "itens": [
+  {
+   "titulo": "Israel-US gap widens as more American Jews say gov't policy contributes to antisemitism - poll",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-909578",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T14:08:30+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Quando ensinar culturas afro-brasileiras vira alvo de racismo religioso, o que fazer?",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9qLUNzQ0k5b09LdFpETVlNT1dXYnRKRW9ETU5MVi1kZ0RZeFkxLTJVSGNDQ2V2aEgwUHQ2dUJQRVhXOXViXzhWbC1WYzhfLXVYOGdVbUx1S0JyR0l5NHk3UWhCQ0xKc0xiTWtEQlg3WUJ6VVZOb2RjV2FR?oc=5",
+   "fonte": "Nova Escola",
+   "escopo": "br",
+   "publicado_em": "2026-09-24T13:10:22+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Apartan a una jugadora cordobesa de la Selección argentina de pádel por publicaciones antisemitas en redes sociales",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOSVhFeDR1dHkzRGJScFJUNUpnLWRBR1ZNVlJ1QThMa3BqSGFSVllhVkRMcUFzdXBVX3dNZENUTG9hMTk2eHFNdzFrVUI0SDlMNWY2U3ZuMjZPUHBWaXFGVDNrMllNUVRpU0dlU1prMklodWV6NDJUUzZJc1QxY0V4MFdhRXVMUXBkSngxWmJ2cVZnYkVMOU8zaHV5dVcyd0tvZWJCSzFMOUN0MEJTeWVLalQ2RUxlM1J6NWVqVFdoa3hpbEtMVk1NeWU5MlhxWnpSRWNyQWZ2MkF2QUltV1E?oc=5",
+   "fonte": "La Voz del Interior",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T12:53:46+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "La Asociación de Pádel Argentino apartó de la delegación nacional a la jugadora Florencia Guerra Sodero por comentarios antisemitas",
+   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPMk03aFNfUElVTmhlZlo2Y3pkWXJOckx3cEJ0THRxUV9sS1o4R0otU1JNM1lrb2pxWmpkeWZtLTRiVnJhSldZY095Mlp1dkR5VUp1MnZlMEFabEhlTTdMbjg3TGF6TzBZSEdrLVdWcmJabXFtR3lxY0JuV3pkVFJKSVJQNURZY3hWSy1pYmZyQVJ1UFI4SmFGNVpoeEs5RjM3amhpc25adW9wclh5dkxKb2VEekhfWEN0S2NIcGFhNXp4akFJNndkSkh1cDNkZDR3d3BKSTltVmNYTUFmeDhuYUhQMnF4QjM1WXdBajlKUGpSb2YzVXFkdjQ2bw?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T12:45:12+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "‘They Extended Their Hand to My Family’: Former WNBA Player Sonia Chase on Building Black-Jewish Bridges",
+   "link": "https://combatantisemitism.org/interview/they-extended-their-hand-to-my-family-former-wnba-player-sonia-chase-on-building-black-jewish-bridges/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T12:06:56+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Dartmouth joins national campus antisemitism discussion as lawmakers launch new caucus",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSjV5LThZUGVUNXhIMVIyejN4OVhYeko5N2hwUmRkM3IwX0hFQnhTSFhjLXhSOGR2bkVPOHROQW43a2NSeXlDdFdBVkdsR184NWNDV1NjZ1M2NVQ2QkpfZ3FrUG5uU2VNN0E1bW43WWZ5ZnZBQzhOeDVVWmUwdFVGQTJFS0xrR1J4WTFrSzI3ZnVRRV9LWGt2RU5wTlY3WWtRaWlsOHhKaG1URlp0UjNIalRIRHRmSDNjT3d3VmRoN3JKYVl2aXdnQjBnWi01NS0telltMV9hdUY?oc=5",
+   "fonte": "thedartmouth.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T09:11:15+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Hundreds rally at United Nations to urge world leaders to address antisemitism",
+   "link": "https://forward.com/fast-forward/851858/hundreds-rally-at-united-nations-to-urge-world-leaders-to-address-antisemitism/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T08:35:45+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "En marge de l’Assemblée générale de l’ONU des centaines de manifestants appellent à combattre l’antisémitisme",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQbm9KWlNkYzE5bGVoVmNtYWdIb3k5VFVFcndNekVJTjNDYlBxZmRnc1RPV1BCTlNCaVFiZDhCWnJndTkwZXRmUk5QOHdsUFB5WjlBMUwtV0Q5dEprYWw5R0k2R0hOSTJXREY4LXFMMkdWbHBGU1hMSWt1cndJYTZBWXZQTGNoNHJveTlqYXFRQ2RlYnVBbkUycjhSeURpb0NJYjladVFqLU14WVJFclBIb25VRTFpWU1WS0l0SVgxWGs1N3htdWtDRVVOYVA2dXJvTEt6am91SVRjZDVOQnZ2WTlVdWZrUWg4NzB3TVFDWUprYkJnOEJ3Z0RmR2s0QQ?oc=5",
+   "fonte": "i24NEWS",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T07:45:04+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "\"Sionismo é antissemitismo\"",
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdUtCdGprdnNTRzVqYVBmQmtEaHltQUh0OFpZM0NXWjFOVHpKcmQ2TW9Ra3lFeVVqdEFwNlJBaUx4ZUFhd3B5bm54Z1VCMEpGMHJ6cE1Ga3BIVXotSnVSSUNzR2tGNGgwNmJHY2RKazM4ZHFmUkNvYWl1UU5uaVpmcjdaVFZ0WlhObTNaUHdyQmV0VXpQMklkV0I5SDNxWUZU?oc=5",
@@ -44,6 +125,16 @@
   {
    "titulo": "Hundreds rally at UN to urge world leaders to address antisemitism",
    "link": "https://www.jta.org/2026/09/23/default/hundreds-rally-at-un-to-urge-world-leaders-to-address-antisemitism",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T02:19:06+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Hundreds rally at UN to urge world leaders to address antisemitism",
+   "link": "https://www.jta.org/2026/09/23/ny/hundreds-rally-at-un-to-urge-world-leaders-to-address-antisemitism",
    "fonte": "Jewish Telegraphic Agency",
    "escopo": "mundo",
    "publicado_em": "2026-09-24T02:19:06+00:00",
@@ -350,6 +441,16 @@
    "via": null,
    "feed": "jj",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "The antisemitism France’s courts fail to see",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5jcWhEVlR0alI1dDRxTG1fN0pmbjRnNkhVV0pYS29aZzFWOHJVOXRaTi0tbDVwT0g0RHFDeFVST3A2bmlqQzd0aXBjLU5FVFBQcV9hMlMwNk9XZ05rN3hncU5CMzZQblFZU0E?oc=5",
+   "fonte": "The Jerusalem Post",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T07:29:23+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "The Definitional Double Standard: The San Diego City Council’s Concerning Approach to Defining Islamophobia",
@@ -732,6 +833,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Black and Jewish Youth Build Bridges Through Basketball, On the Court and Beyond",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWHgySnZlZXUwQ0xLbmtWZjJINnR2ekYtTFlBUGkyOHZxcXU3cVJOSDlFWW54cjFvT2FWV0R2ZXlJUUNfYWdEZU43NnhSWU1sc2YwUXc0bG0yVllvcHhmRE1FLUJuSXlCVjI0N2NlVHUyYlB6SHRRaFo4MGNoUUEwM2prR3N5dHNOWW81ZUp3U3lQM1BZZmhGaTNrZVF2YnpkYVhEUThUbGpJSlQzSm13T2FoWkloVFpzbi1XLQ?oc=5",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-31T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Profissionais do Disque 100 participam de capacitação sobre racismo religioso e intolerância religiosa",
    "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNQm8wTURDbUpOeDYzdkxkT2MzWGxpSXNNTl9qRlVvVk5hTzFPRVM4Z0ZxaUxKWTFOMTd3V0VFSy1zWWhKWW1MWmQtS01EYXVxYTdGaWp0Mmh4LUFXNWVYdkxwdEN5akhkLUloelR0YlB3WEtjbWs5WE41aW43MzhVLUJfNUNoNHZEWDVXcm9rRThmLVNhN1oxenpRS2lNZ3JlcUtld1ptc0N5R1pmVDc1MWZweXg3dFpPV3lFMUxFblVvWlhKel9VUDJvZ0pZMjZyTDdyb2NnNktrdDM4dHM5SjV3MjU2NDFCcmx0SlN0NGJvTHE1WHZoaDlhSFJaTFhUWHRyTXZqaVo2dw?oc=5",
    "fonte": "www.gov.br",
@@ -770,6 +881,16 @@
    "via": null,
    "feed": "fathom",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "VIDEO: Rosen Calls on Senate Colleagues to Support Legislation to Fight Rising Antisemitism in the United States",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVU5hTVVSSkpUTkNNaTRONDQyWnRfZUF1Ynk4bV94eXQxUW1Femd2VmphaDVFWGpRRTRyaU5Oa2NPX0NWX2YzRG1TVGc5RTVBR0hpd25lc3dNdzgzS2UwSlVTTTdZMFhkR2xwT2xoNndEOUhhUkZSbFpNU0dyQ2UyTV9jX2J3M2F3UUpSdm1GQWI5azlWbTZwc2pNQWxCSkNnMVBoMmYtdXZnbll5SkpvUVZLbi02STdleHRxMW9Tb2F4ekc3dDdzSnJzQ0lBM1AwOEVfc1RBTTJHVDQwSFZYbDFFY2k1X00?oc=5",
+   "fonte": "U.S. Senate (.gov)",
+   "escopo": "mundo",
+   "publicado_em": "2026-07-23T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "STF mantém condenação de vereador por crime de ódio",
