@@ -2,15 +2,55 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-25",
  "semana_iso": "2026-S39",
- "atualizado_em": "2026-09-25T04:36:42+00:00",
+ "atualizado_em": "2026-09-25T11:38:38+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 69,
- "no_brasil": 17,
- "no_mundo": 52,
+ "total": 84,
+ "no_brasil": 19,
+ "no_mundo": 65,
  "itens": [
+  {
+   "titulo": "German city votes to end Stolpersteine Holocaust memorial stones for Nazi victims",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-909686",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-25T11:36:03+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Le Conseil des juifs d'Allemagne appelle la gauche radicale à Berlin à bannir l'antisémitisme de ses rangs",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNV1hUVUhOVm1sLXZsYm91OXk5bDg5dVg1YkQ2dk8yWmlRYTBmSHYzbDNhZmhaLUh5Q1pMbmpNb0lPdk9PT1BKcHl6NkF6Z0pKYTNxTXhHcnJNYUUwRlcwckktVVMzeVpTVTZQRXBLYWpCdE9qTWpiSjBJbUJldVdzZFUyQ3JJaXJ2bHd2WGxId2RaNGtOV0ZUS00tRDE1VHVHX09qU2RYTVlkbEpIdlV6bW43aldENmdZY1RURU03MGZLTkUtRk9rZVBwVlBGRmlKalo2YnNoZl9EQUZHcjhBQ2ZrRlN4c3BYbmFz?oc=5",
+   "fonte": "Orange Actualités",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-25T11:35:38+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "En Allemagne, l’angoisse des juifs face à l’antisémitisme de l’extrême droite et de la gauche radicale: «Quand sera-t-il le bon moment pour nous de partir?",
+   "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPS0hzWUJKckN6YzVJaHdDbjM2eHNKcWU0VC1ZYmtJY1daRjVUUE00RzVscUpCSzRSb0N1LU5jaFQ4NjZCQU9IR1R6S3k4NnpCMVRSNngzRUlzZlBKNDhTVzBfZUd3aTdvRy1rY3FwNGx2c2VYWHNKeFl4MnJYNU5FSzRDOHU0ODhWS0tQVXVJQ2d2SU1nVE1QX1h1clZXM21qcDdUa1lfYnd1d1VfamNIbGpwRThHTXRuOGlIYjZVMVlVaGpWMWVweUFaVnlZa2VnVTc2YWFuN01NYWJsZnVyRG9fdEY0UWUxejlqVHVxcGtJWlJqNUJDR3hlcXVlWmgtUjJwT1oxN1pMMVNfdkxmWlNYeER1dw?oc=5",
+   "fonte": "Le Temps",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-25T10:59:09+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Una ciudad alemana prohíbe la instalación de nuevas placas conmemorativas en memoria de las víctimas del Holocausto",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPSE5Jc1FWV2QyMGZNWE82SGlVWDRsSTNydnE0dy1xY2tGV1ZEZUpuSTJiUTNtUnhLOG9YTWxEVDFGaVhiYkdNdlpyR1d0ZS1xbzQ4a1FlUEFheHBwWDZhNnhQUE0wb2VOZ3NPbjI3N2gyV2UzZWJVSXVZX2Mtb1BZX0pUQktuRnJTRU1sSUdsY29BTWxBR0FrRW5nQmRoNWZfUlA2OWJLNGFBOXE5bk1iNWxYQmlMRGMzRmVMWTZyTnE2dkxpU2JfejJPdC1vYUZZbUVmSXl4YTluV2NtUkdjd2lhVm1wZw?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-25T09:54:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "More than 350 cultural figures slam Spanish festival for canceling Jewish novelist’s invitation",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-909653",
@@ -80,6 +120,16 @@
    "via": null,
    "feed": "jta",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Jewish professor at Duquesne University alleges ongoing antisemitism, retaliation",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQXVfQVliLVVsUXIxN2NiTzYyLXE3bDF3OVNJYTd1Mkh5YkNxSlN5Zlh6blNYTHFYYVpCNkZGYkZmNVpZS0hNUHZWczNra3YxWTJ3Xzl3UTlaeTFUVmk1WDRhVWVhWkJsTm40NFpZeUJCNE1ENGx3WHZxZWlsRVNNcnVRX0M4dWlqQ0E2N2YwZXV5c2ZvMER5ekJjUEdIeWtkeWJTOHFKREFvNEVoaFlOMXpRamhMMlFNbXVtYWkwYVJfNjRQLVE?oc=5",
+   "fonte": "TribLIVE.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T22:16:51+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Does Cal State’s Faculty Union Have a Jewish Problem? Newsom Should Look at the Record",
@@ -170,6 +220,16 @@
    "via": null,
    "feed": "cam",
    "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "La jugadora de pádel Florencia Guerra Sodero pidió perdón por su posteo antisemita: \"No existen excusas ni justificativos para mis palabras\"",
+   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOSTdiT1VvNDZJcXlCeXgtMEtVS2R3TjdkWi10RHFodEJBOFJacUZzQWM0QUYxeHQ4N0w0SWRwMXpEZUtjSnBRYU9Zc1BMQXBjWHY5b0dqS0dFeWdHanNvM1E4dWw5UUlITmtwNkJ5YThYcHdKVXN4Z1ZJcWVlNkMxU09VeEZsdjhHYS14dktPY3dYTE5mLVZhZ1Rnd2JqNlVsc0l2NnBjM285S19IYTJpQUM3M0g0QXFjWkVmRG10QVpCUjI2Q0poaE53TjllNXRINXRiRWFlRGxiSGZsd3k5dUx6OUZfOW5WaUhGR0hFWGc?oc=5",
+   "fonte": "Clarin.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T18:20:43+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "'Heil f***ing Hitler!': Knife-wielding man chases Jewish student through Crown Heights, New York",
@@ -312,6 +372,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "Rally outside U.N. urges world leaders to take stance against antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSVZJclA2a20zc2RzLVlzOUVQeXEzM3R2eXZSVjJxeGZRZHM0V1ZIaG1za1YyRXRnZk5ERzFvWnJkTFJYZjdJN2M2b1lvaGY2UGNzSThiVGc3blRUbE1HbTVrbmlFRHlIWUxpQTUwQUlnVVdOOWdDaTFWOC1BSER1UVgxR0s5b2tBb3hLWFVWYVVwcGNSUkZoWnVTU01BSUhUR0owYmIxTG00SUhla2FQUGExbk1BUk9wTUJOYg?oc=5",
+   "fonte": "Spectrum News NY1",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T01:57:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "2 top Iranian officials to face trial in absentia over deadly 1994 attack on Argentinian Jewish center",
    "link": "https://forward.com/fast-forward/851750/2-top-iranian-officials-to-face-trial-in-absentia-over-deadly-1994-attack-on-argentinian-jewish-center/",
    "fonte": "The Forward",
@@ -342,6 +412,26 @@
    "categoria": "Observatórios e entidades"
   },
   {
+   "titulo": "Rally against antisemitism held across the street from United Nations in NYC as world leaders gather",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWXpLejF0Qmctdi1jdHNyNlU0QXhQajYyU0dyR3pxRVZadjNzZ2RScV9SMmRyS1NibC0xb09IR1YwOW5telJzeE1Yd3hKQ2ZSMUdkWjJJYUtiM09SR1RYVExxNnQ0UG9Xb1JZcXppY29FYU1aSUd4X0dSLWNjdXlQdzFMM3FiMjcxMlJJ?oc=5",
+   "fonte": "CBS News",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T21:56:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "“Uma causa muito importante para mim é combater o racismo religioso”, aponta Francine Antunes, candidata a deputada federal pelo Solidariedade",
+   "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPMUdMX1VTdF8xLUZrNFFhbTR3XzNjY2Q5T2JTRVVVaUUzQ1JBamRfa2JjcjB0NU5XZ2lFeU1YRFplU0FzdGNYRUw4d1NsMnpRU090X1FoaWRpUzFrdGFiYXg3dFlWTlozMi1BeVVtU0hMZHJyY0IwNVUydml2cWN5b003bU1acHJDZmRvOHRaYl9WM3RsaE5QMEdLUEEtWXpQZnQyY0tvYVdUR1dlM053eWRJQ3JqVG5HNU04SURuZHZWNGFQMDI1UC1GUjg1TlpvNXcxUkR0RzM5R3VuNGFNc0JELWdkcGhjNk50akxvSk13VFdNd0JfVVNWeXJJVDdlNGtqZWFjd01DWmN3Q29TRW9vOW4tcXJs?oc=5",
+   "fonte": "Diário de Santa Maria",
+   "escopo": "br",
+   "publicado_em": "2026-09-23T19:46:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "CAM Exposes Pro-Hamas Rally in Morocco, Drawing Ire of Anti-Normalization Group",
    "link": "https://combatantisemitism.org/cam-news/cam-exposes-pro-hamas-rally-in-casablanca-drawing-ire-of-moroccan-anti-normalization-group/",
    "fonte": "Combat Antisemitism Movement",
@@ -352,6 +442,16 @@
    "categoria": "Observatórios e entidades"
   },
   {
+   "titulo": "Sophia Aram : comprendre l'antisémitisme qui submerge les milieux « progressistes »",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNaE83NXJ0cUc2U25YcEt3M3JqOW1DelE4OFJwMC1La1FaejRyR3JDMkVUTGE4dlM1OWhkRnAyNHVZOTQ2ZzI2ZmNQWjc5cVVNMGRvZXFGS0M4NWs4YXRldkpXa3kzVVdxWEdGM2REb25kelJLTmxqeGtMVFJ5MkR3OGlpWUxTdE1aSlFpNnk3N3pBajd0OHA0cXVDSE12TEVpWm9Zam0xclRIdTdVLUhXZGx0M1BlUWtmQlNMbjZpVXk2bElDUHVBQjdPN01teU9kZkFsdFZfdFVkM2N1VmszVXY0SkhBaDh6b3Y4?oc=5",
+   "fonte": "Le Point",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T15:00:39+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Norwegian Party to Join Pro-Hamas Rally in Oslo on October 7 Anniversary",
    "link": "https://combatantisemitism.org/cam-news/norwegian-party-to-join-pro-hamas-rally-in-oslo-on-october-7-anniversary/",
    "fonte": "Combat Antisemitism Movement",
@@ -360,6 +460,16 @@
    "via": null,
    "feed": "cam",
    "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "No es antisemitismo: a Ariana Harwicz la critican por justificar el genocidio de Israel en Gaza",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMUZWVlZyTHJHLVhMQ2J1anp5akRuNUxOQk1pT1ZISERlbXcwckY5Qmo4M2QwTF9CWFpsSC1xekRhVkt5OUF6UllkcFVlaUp3eXhKNlFSeU83MXl4SkdOaUE5ZFVfeU5SRXBUb2tGLXhtcGdnc01abW8wSkg3WGFnOVE1NkFDeTh1ZTFiZlpxQmpZYmRjdFd2UFE1ZWpYRl9XYXpBLUtvN3hpdE5KVVdkYWdwLUhFR2ZBNExaZ25Nd0xPT2FzWEI1MWg1ckxNeTTSAc8BQVVfeXFMUDFGVlZWckxyRy1YTENidWp6eWpEbjVMTkJNaU9WSEhEZW13MHJGOUJqODNkMExfQlhabEgtcXpEYVZLeTlBelJZZHBVZWlKd3l4SjZRUnlPNzF5eEpHTmlBOWRVX3lOUkVwVG9rRi14bXBnZ3NNWm1vMEpIN1hhZzlRNTZBQ3k4dWUxYmZacUJqWWJkY3RXdlBRNWVqWEZfV2F6QS1Lbzd4aXROSlVXZGFncC1IRUdmQTRMWmduTXdMT09hc1hCNTFoNXJMTXk0?oc=5",
+   "fonte": "laizquierdadiario.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T13:54:53+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "No es antisemitismo: a Ariana Harwicz la critican por justificar el genocidio de Israel en Gaza",
@@ -429,6 +539,16 @@
    "publicado_em": "2026-09-22T10:56:50+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "\"Il était grand temps\" : la maison d’Henry Ford, récemment restaurée, rendra compte de son antisémitisme",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWGtxQWFfRGMtcVhMcVRlVFdtTm1SaDZISUR6cXhkRmRfbTBoOVh1Vnc2d285Nkh6OGVFLVBiYTR4NVd6ZE5kaU5RbWpSYy1NNkV0U1VIUTFFbXZpMEMzUmVZaTdpV2R4bzlSVTdRTTdYdkF0Nmh2d0ljdy1FRjl4aG1QMXdTbktWU0pBTU5ZcGNsTElsWldQQ3RKMV92UXVOYlNuZnhxUGpwbGNfaWJsMnlnVUR2LTlUSHhzOTJ4aUUtY1Fnb2c?oc=5",
+   "fonte": "The Times of Israël",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T09:02:09+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -642,6 +762,26 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Ecos do antissemitismo e a vida psíquica na Palestina ocupada",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSnVPdW13UlpvblNybEZpSTNuZk5BT1ZQeWpZV2hUSVlFdjRNREI4WEdqblMtNW5QOFpyMU5iSWwzZ1JiVi1WWlFHU2N0dVFUN2QzQUI2azUxTlFiQWpiRml3dnhPb1JCcjZJTTljc3lrM1FXZklUdTAwcDIxVEw5LXRXSWY0cjVFd1hmOVlSUXpLOXBIVUNhRg?oc=5",
+   "fonte": "Mídia NINJA",
+   "escopo": "br",
+   "publicado_em": "2026-09-02T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "What Is the Jewish American Security Act and What Would It Do?",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOczVCT1liZktVOWM1SWZkN0tWanNxWmNfWlpwNXN4NWNESlB3T1o1bUVuM3hCc2RiRGNINHNPaXJQaHNJWjFWNUNSbUphVElEcnNoTGktYmVpbXNWTTF1LXZxdmQ3aXA1Ynlodzg5UkMyMDZBdjlDX3NNOG1JQ0xhTFVwaktvQ1h3MnI2cWRocw?oc=5",
+   "fonte": "American Jewish Committee (AJC)",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-01T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Profissionais do Disque 100 participam de capacitação sobre racismo religioso e intolerância religiosa",
    "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNQm8wTURDbUpOeDYzdkxkT2MzWGxpSXNNTl9qRlVvVk5hTzFPRVM4Z0ZxaUxKWTFOMTd3V0VFSy1zWWhKWW1MWmQtS01EYXVxYTdGaWp0Mmh4LUFXNWVYdkxwdEN5akhkLUloelR0YlB3WEtjbWs5WE41aW43MzhVLUJfNUNoNHZEWDVXcm9rRThmLVNhN1oxenpRS2lNZ3JlcUtld1ptc0N5R1pmVDc1MWZweXg3dFpPV3lFMUxFblVvWlhKel9VUDJvZ0pZMjZyTDdyb2NnNktrdDM4dHM5SjV3MjU2NDFCcmx0SlN0NGJvTHE1WHZoaDlhSFJaTFhUWHRyTXZqaVo2dw?oc=5",
    "fonte": "www.gov.br",
@@ -679,6 +819,16 @@
    "publicado_em": "2026-07-20T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Jornada de reflexión sobre antisemitismo y discriminación",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeU0xelpYZ2plbFFmU2dwVlhvbHN5clk5M3k1SGQ4aUR4NHFxOWVLSVRnODljR1FQU096S3haT2dFTFMwNHNIZzFJN1lUYVJwaEJkS21FaUJac01EQk9tUUo1dGNEU0N4X0I4V2J6MDJVWlAxQy1QUmpRaHB0YUNIeTNPMzcxMklwVkw1eG5ac2ZyOUVwamVxNE1nMHNVZjBscmlNeU91Z1hDSDZLV3Faa1BtRFM?oc=5",
+   "fonte": "consejomagistratura.gov.ar",
+   "escopo": "mundo",
+   "publicado_em": "2026-07-20T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
   },
   {
