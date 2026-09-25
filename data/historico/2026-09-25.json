@@ -2,15 +2,95 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-25",
  "semana_iso": "2026-S39",
- "atualizado_em": "2026-09-25T17:01:09+00:00",
+ "atualizado_em": "2026-09-25T21:25:35+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 95,
- "no_brasil": 19,
- "no_mundo": 76,
+ "total": 107,
+ "no_brasil": 21,
+ "no_mundo": 86,
  "itens": [
+  {
+   "titulo": "La ONU está a punto de elegir un nuevo líder: es una oportunidad para enfrentar el antisemitismo",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQnZTUXFTYV9HZUtNWjZ5N1U5VVRkaEFIaEgtWlY5eHJiMFFCQ0JHall2Y3pWaS1KV2NELUdma3VpbEgzWEQ5Qml5LVBJZkthVWFmOF9RNGppVDJyaFI5TWhqT2YyeHVoMWJoSENTQ1Y3Wmt4a1BkOHE2eUVtbWdlQkxFZW51c1BNbU1GZGFtWDBseVpvX1ZQRFczX2EyTVZrTWp0b1p5VldvU0h3Z2NxbVkwd3pXUzVnOXEwbFJGdVVzenBsMUNCcktyUE5ZbUFWMDkyXzBiNWRPMXJzcE50UA?oc=5",
+   "fonte": "Infobae",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-25T21:17:32+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "NY Jewish Democrats defend Mamdani after Netanyahu calls him a Hamas supporter",
+   "link": "https://www.jta.org/2026/09/25/ny/ny-jewish-democrats-defend-mamdani-after-netanyahu-calls-him-a-hamas-supporter",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-25T21:13:31+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Israeli Diplomat Accuses Spanish Minister of Antisemitism Over ‘From the River to the Sea’ Call",
+   "link": "https://www.algemeiner.com/2026/09/25/israeli-diplomat-accuses-spanish-minister-antisemitism-river-sea-call/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-25T20:32:35+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Canadian Police Confirm Yom Kippur Synagogue Shooting Was Targeted Hate Crime Attack Against Jews",
+   "link": "https://www.algemeiner.com/2026/09/25/canadian-police-confirm-yom-kippur-synagogue-shooting-targeted-hate-crime-attack-jews/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-25T20:25:48+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Jewish languages meet in Birobidzhan",
+   "link": "https://forward.com/yiddish/852251/jewish-languages-meet-in-birobidzhan/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-25T18:37:02+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Wesley Mendes defende combate ao racismo religioso no ambiente escolar",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTUJ1VWZkVW1sVThCLWFLTkpFWTR3bVJIenZYc1JMNXRQbmdDREtocm5UZUNKTnNUTnFRa3JQRGFYdy1xcGkzRVA0UXVmSHNxbUhVZ2oyeS1QbWxrNERXbFJWaTJpSjM0NVBWM0V1ejRIdHc5S000d0lwMUpjdl94M3IzbDY0UGZNZ2NGSW1hSW9xU0Q4Y2xENnloSVRaOXM5c2hRWWEwb3RFcGY4OHM0?oc=5",
+   "fonte": "Farol da Bahia",
+   "escopo": "br",
+   "publicado_em": "2026-09-25T18:06:25+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Does Sukkot Hold a Lesson for Fighting Antisemitism Today?",
+   "link": "https://www.algemeiner.com/2026/09/25/does-sukkot-hold-lesson-fighting-antisemitism-today/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-25T18:01:30+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "I’m Jewish at a Christian high school. It’s taught me a lot about who I am.",
+   "link": "https://www.jta.org/2026/09/25/ideas/im-jewish-at-a-christian-high-school-its-taught-me-a-lot-about-who-i-am",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-25T17:00:00+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
   {
    "titulo": "Man pleads not guilty to attempted murder of two Jewish men in London",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-909722",
@@ -49,6 +129,16 @@
    "publicado_em": "2026-09-25T14:09:39+00:00",
    "via": "Google Notícias",
    "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Ataques a terreiros expõem casos de racismo religioso em Pernambuco",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVUFpeG5GRnFqbHk0Y2Jvdk9tNVB5Wm4tbzNfZFU2aGJlYURCR3lWSjBualdpRnVtTmxuS3YxZ2MzTExNM29nSTVNemlCOVVkZFE2ajZ1R20zQlp5N3pnUzF1RjNxandvOHdHb1pTZjJraXdUaG1UcVhmbkJZZ3N4Mk9CeVZRR3YzRHhuSlBfNVpUcEt0SGc?oc=5",
+   "fonte": "anf.org.br",
+   "escopo": "br",
+   "publicado_em": "2026-09-25T14:04:55+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -292,6 +382,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "Israel’s election committee disqualifies Arab parties but not far-right Jewish ones",
+   "link": "https://forward.com/fast-forward/851966/israels-election-committee-disqualifies-arab-parties-but-not-far-right-jewish-ones/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T19:53:17+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
    "titulo": "Progressive Jewish groups protest Netanyahu arrival in New York City",
    "link": "https://www.jta.org/2026/09/24/ny/progressive-jewish-groups-protest-netanyahu-arrival-in-new-york-city-for-unga",
    "fonte": "Jewish Telegraphic Agency",
@@ -380,6 +480,16 @@
    "via": "Google Notícias",
    "feed": "radar-en",
    "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Anti-Israel Students Plan Four-Campus London March for October 7th Anniversary",
+   "link": "https://combatantisemitism.org/cam-news/anti-israel-students-plan-four-campus-london-march-for-october-7th-anniversary/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T15:32:07+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
   },
   {
    "titulo": "Israel-US gap widens as more American Jews say gov't policy contributes to antisemitism - poll",
@@ -687,6 +797,16 @@
    "fonte": "EdSource",
    "escopo": "mundo",
    "publicado_em": "2026-09-21T17:35:42+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Berlin's far-left vote winners reject anti-semitism charges",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcmdnQ25ybnJKRjhHNkppZFEyU2xhVmdQallKRXNVd3lad2xpRmtVVnJOaURhWGllQ2xkNVVlNG5TajlHOF8zazZVWmE0TkF2UTJDb2FJYlVGWklvLW03dXg0ZFNNMmc4UkQybHNteFlGNGs3SEthOTdxeUZneDAtV2gySXBHOGNk?oc=5",
+   "fonte": "afp.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-21T15:21:42+00:00",
    "via": "Google Notícias",
    "feed": "radar-en",
    "categoria": "Radar por palavras-chave"
