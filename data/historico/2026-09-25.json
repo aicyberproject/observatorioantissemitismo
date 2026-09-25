@@ -2,15 +2,95 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-25",
  "semana_iso": "2026-S39",
- "atualizado_em": "2026-09-25T11:38:38+00:00",
+ "atualizado_em": "2026-09-25T17:01:09+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 84,
+ "total": 95,
  "no_brasil": 19,
- "no_mundo": 65,
+ "no_mundo": 76,
  "itens": [
+  {
+   "titulo": "Man pleads not guilty to attempted murder of two Jewish men in London",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-909722",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-25T16:45:55+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "A Jewish guide to the MLB playoffs",
+   "link": "https://www.jta.org/2026/09/25/sports/a-jewish-guide-to-the-mlb-playoffs",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-25T16:13:30+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Clark University first in new partnership confronting antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZWIxd0FuUkhqV0pVZmZXOGJOQ0xObVJlRUU2ODQ0OWhlUi1vNHVNVmFpY2g2UTFranZlb0xmNjVOaGZSbHZ3YXdBbldGQ3BuVk9ETV9KRl9yYzZlSEd0X2FNdDFCa205ZnBNbmRGYko3MTh0bC01YW5iamd3MXlQdXNMdS10VHlULVpQbFlJTFNmMk1kSnRxMk9tRGFaLXpwMXpXWVc2MFhHSkQ4ZEE?oc=5",
+   "fonte": "Jewish Rhode Island",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-25T15:16:57+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Junto al conferencista Antonini de Jiménez, el GPA de Israel abordó el tema del antisemitismo",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOY0xTT0tKcHk2SnlIWHcwTHh6UXF4VXFwQ2QxR1BTQlZqeDU2MTBKS3BJT3RQeFFCSTNoV0ZVRkxRYzVyRzBvVGVVdTBuVnEwVW45UDJ2VjJSTnpvdW94VERXbl9kNk9oWlhRR1FaeXRaNWJoeGQzN3kxVXZ5czhtUUdhS1hqQXhxQXFQbnJ6UG11V0R6RUFfVzZlSERBSTRvR2N0czU2U01QdUdHbFdnX3FPR3RWSkVhXy0tNHhWb1NFS3ZVOEh2NWUzN0tzbFU?oc=5",
+   "fonte": "Parlamentario",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-25T14:09:39+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Allemagne. Antisémitisme : victorieuse à Berlin, la gauche radicale sommée de faire le ménage dans ses rangs",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVzNWSjBhZFBuSzhqMi1yMDJhTVBSM2FNVjlwSUs3ZXA2cHgxOE5SdExzVnlYeklPcFR2N0dSRURET1RXZ2NYc1JqMmZlcTM0SHlVY2pkbjRMX19Kdk5zOWlGRVhZWnc3Zm5UeUMwWktzdTA4NGFXOXYwOVNlVG9rOXlzTWpUaG81Z3g5Y1pGaTR0aXZDTFZlbHI0X3lEbXBKOE9BYnNIU2tpZ2pMM3VKb3o1cGxfa2p6aGJCWHdBdzhYcGFUdV82MVEwR2NXSTZtV19CNWs4YVctQQ?oc=5",
+   "fonte": "Le Dauphiné Libéré",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-25T12:50:05+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Coordinated Displays of Antisemitic Hatred at UN Protests During Israeli PM’s Speech Raise Questions of Foreign Funding and Organization",
+   "link": "https://combatantisemitism.org/cam-news/coordinated-displays-of-antisemitic-hatred-at-un-protests-during-israeli-pms-speech-raise-questions-of-foreign-funding-and-organization/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-25T12:32:51+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Allemagne : La communauté juive appelle la gauche radicale berlinoise à bannir l’antisémitisme dans ses rangs",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNV3VlYjNZdy1hM04xVF9udWdlbVBoN2RBcXMxOUtVdHg0MzZ0enlxUmh5d3dvY3pfNkhocGtncDNKVHUyTVRDWE91Qm8xX0FfOWR0SUR5ZzdYd3ZCbTk3YWdpbjRTN2IxdWx6TVE5UkhnZS1IVjQ5QUItQ2JBa3g3bHBKaXF0Mko1aEVHSlNBRFljMnZGZllhRkNTUFNwSmN6N3MtenUybG9meGcxeW5UTVFzQ1NmNVRWNk1vQTVIQURBUFBjSFdyaWd0SFN3T2V5ZlE?oc=5",
+   "fonte": "20 Minutes",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-25T12:26:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "\"Slumlord\" files another antisemitism complaint against Aurora, this time in federal court",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWlQ2bHVIRVUwTjNWVE81dmQ5RUl4T0lYQXJuZ05xb3dxc0x2eWszUGNBekZEdTgtZzFIXy1UNGZZSzJMVmxKTEpBWnhnay0wUmh1akk4MWp1Vzh6a0pEU3c4ZGd1ckN5UmIzb0x0VTFBbDk4N2NPZ2VGcE1sb0YzenZ4ZDliaEVYRURqdEdCMDJQam5tN1JTZFQ4ZzA?oc=5",
+   "fonte": "Westword",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-25T11:57:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "German city votes to end Stolpersteine Holocaust memorial stones for Nazi victims",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-909686",
@@ -29,6 +109,26 @@
    "publicado_em": "2026-09-25T11:35:38+00:00",
    "via": "Google Notícias",
    "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Mauro Berenstein: \"Desde 2023 hubo un crecimiento exponencial del antisemitismo\"",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZ3BQSWxQTkZuUDg5NzVNNFBfNWk4WW5fZzRvM3FnMlBGR0JPUTlkVkV5Wmh4TUJvMjBnWFlyOWhpNWtiMkM1VHZpYUhNUDR4aEhKU3pfTlo0MEw2dEVFMW45aVdtLTZOR29fdHBoZklpNmJSMzVXLWMwaFc1OTlEX016bXpvODQtWnZzT2gwdXlQZDNjY0ZlRkFOak92UXc5Z2ZKaXJ0Y0RpZzhJcmZmcDRxYTRNU1J5UG10b3BfSXBuV0cybmc?oc=5",
+   "fonte": "Radio Continental",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-25T11:22:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Fox News ‘Antisemitism Exposed’ Newsletter: Bibi in the Big Apple",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTkU2RGs1ZE51T1JNYW13REFYcWFlUFdZeXN0SWVlbW1MUXp6c0hmY1dKNno1b1RMNk8tS0J1Tk1xRE5NS0pxQm54alB1ZEhwUERYRzBCNTlzUXRYZUVCdDRRT3RmcDI5N3E1YVduYzB1RHMtYVpSbWpuMUw0NDFIQkNsdE1janlBQXfSAY8BQVVfeXFMUG5aWTUzZV9NOXI0dG55STBHT25VRU5KRE9YN0lvSU4xNU5OMkppTDltMzZjYldTMy1qSEoxVGJFVE5hTTJXWUNYY1hTbE12OVpyOWd2QVFibFNjUDNRek5LSlB1N0N3TlQyeFFxaFBZTTBWZ3p2cms2NHczSzBTUjdlMHNvT29zRTV2ekZKRFE?oc=5",
+   "fonte": "Fox News",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-25T11:12:41+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -290,6 +390,16 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Man Chases Jewish Student Home in Brooklyn’s Crown Heights, Screaming ‘Heil Hitler’",
+   "link": "https://combatantisemitism.org/cam-news/man-chases-jewish-student-home-in-brooklyns-crown-heights-screaming-heil-hitler/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T13:40:08+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
   },
   {
    "titulo": "Quando ensinar culturas afro-brasileiras vira alvo de racismo religioso, o que fazer?",
