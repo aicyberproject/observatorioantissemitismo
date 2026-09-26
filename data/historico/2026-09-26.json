@@ -2,15 +2,35 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-26",
  "semana_iso": "2026-S39",
- "atualizado_em": "2026-09-26T00:29:18+00:00",
+ "atualizado_em": "2026-09-26T07:27:25+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 72,
+ "total": 81,
  "no_brasil": 18,
- "no_mundo": 54,
+ "no_mundo": 63,
  "itens": [
+  {
+   "titulo": "Italy charges three adults, 14 minors with neo-Nazi, white supremacist activity-linked offenses",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-909760",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-26T09:04:34+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Canadian Jewish group slams Carney government for equating anti-Zionism with antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNV3Z0Y0J3azlmT1FTUVVmNVpzVXRHOGtmdlB5QWdyZ01KNFA3bEJCalVlZ1FGd194U0Y2R0JEZkZVOFBzTE1XT3BWdUVVUS05MF9XTlI5U0M4OEhHRzY2ZVUtdXZWSVFSTmRCR0ZzcWdyVDZfalpRbndVM04ydkdERFN4Y2hsM3ozcnhDdTZUd3UtWVI5TGkwMVZ5U1NPMFZJX3FJRUlid3l2NHlEUGxkY3lRY2pNSGN5dkZrd2R4ZmxqdTBnSFE?oc=5",
+   "fonte": "Anadolu Ajansı",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-26T00:45:06+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Antissemitismo e as origens do Judaísmo: uma conversa sobre história, identidade e memória",
    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNOUdpLXdvUUs1UngzOHlLRFJJUlhjWVRuQXppUzU0cUlzQVBsM0dzdmd5SEFYMk1VdGxwWlAzU0JUWW15ZGVmcDdwbUItYUctSkk0bktjVllrcl9lUnlGZWtDZUtoY09iSFIxX1pqMVllQkhFUmliSERkQ3ZIb3pkQVFrbDVLS0IwNHNySHB4bXdYblpzMlV1dFFoZVVqdUpFUFhUT3FLUl9yQ3NlNkREb1RoNVRXWHNGVWc4QUZTLUh1RmJ2bDI1aUxfYkdFMUE?oc=5",
@@ -120,6 +140,16 @@
    "via": null,
    "feed": "alge",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Le Conseil des juifs d'Allemagne appelle la gauche radicale à Berlin à bannir l'antisémitisme de ses rangs",
+   "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQaWxyd3NXQ01FLTl0VEJDNE12NnlQcEtmaG5mSjQzLVVjbENPeURBRm5CdlBKd25uc0VNRmcwSzBhVHRrczBiTW8xc2szeEs0UnNJbFczYnlveERWTmxZbDR3T0lTajVTSmp3VUJkdEhUWHdVQmJRbGJXSGdIWk1hZmNYTHdDalUwcTZ1VkFlZ29QM25seHFfb0ZGc21uYlgwTUVsYkI2MnVRRG41ZUlZTHdZSy1xMUt6YU9TUTZyeVVpOTFiQU1OcXM3QkxrVGVuRmNGaVR4ZWwwS01ZcHU1bjFFNGZFV0VUT084dkpneUhKRkI5dHFkN0V2Y21qWVFJWUwzRzhKbGpySjhxSzh0VHZPRQ?oc=5",
+   "fonte": "Courrier international",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-25T17:24:45+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "I’m Jewish at a Christian high school. It’s taught me a lot about who I am.",
@@ -272,6 +302,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Noticias de Israel y del mundo judío en español",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE42RjhxV0NFMm8yeVJIUjBnWE5NbzVGeVNtNEVHcm5jMU84enRzTTJjYS1CSTJXRENsV0pXdFRqRExWa0VQa3J1S05fUTJ6b2RaLWpQdExxdFBlZVdsOGxlYnY4OFJpLUdrbHBJWV9xUXlFc1M4czRr?oc=5",
+   "fonte": "Aurora Israel",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T23:10:39+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "The rabbi’s son who drew an antisemitic mural on Wilshire Boulevard",
    "link": "https://forward.com/opinion/852089/antisemitic-mural-wilshire-boulevard-los-angeles/",
    "fonte": "The Forward",
@@ -352,6 +392,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "Mamdani Accuses Netanyahu of Spreading ‘Baseless Lies’ After U.N. Speech",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQX0trTGpmZHdTaWNWOGg3ejhWVzdpQjJoYno2NEFmUlFMZm9qSGlvenk0ankzYm5aWllpazdhT0xUR2FqUkM5dUFrMlVIRjNIRDlpanVuZWtXemNVcVM2Q2tlRG9JWElCY3gwajFnNkptcm1keUxhbjJjcFVxWGhWUjFn?oc=5",
+   "fonte": "The New York Times",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T19:31:45+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Antisemitismo: la jugadora argentina de pádel que generó repudio en redes",
    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNeXI0My1lOFZpb3pMVVdqU3ZYMkRyZjVtcVNDSF9OUElWWmJPMW1UY1dtNDd2WTNVTWdzU0p4dTU3dG1tV0xGWTVrbUR4bnhmMUJNZ3lHUUVTeVFtaWhlWS1mM1BESTJiSDRBQTlneDctRWZwcFVweERCR2w0OFRNcG40RFRqN3hKR0RxWUw0OFRqc3Y1dXNXejdITVRUREZJOVhmU20xdlNScmxhT2JvYmFocG5uUExFWWdKZlc4OFc0WFNqYkJlYjRTbUtFV3dO0gHWAUFVX3lxTE1ORFVOMWpkRGg1VWZsSUFoNlJaeVJ2OHpaUXdDM0luOXQwbEo3b2NmaVk0NzJOSmFwQlpVSk04ZktnenFRZVhpak91enB0dUNmUWh6bldtYWFRalN1alhYU1NESXVjWkcxUVRNellLekVxc25YQXRyWkFBeFBrOHBYZDdETGpzMWUyejhWT21Td1pPTWgyT2hnc0s1dWxCcVlTSjBSY2ZhUDZvTUFScGMyWE5ORTBFOEdMQm1nUXBrbWlqTEhLR0t2dWNBVFVRZnlHbVNia0E?oc=5",
    "fonte": "Revista Noticias",
@@ -377,6 +427,26 @@
    "fonte": "Clarin.com",
    "escopo": "mundo",
    "publicado_em": "2026-09-24T18:20:43+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "“Excepto judíos, ustedes no son bienvenidos”: aberrante y discriminatoria frase de una jugadora de pádel",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxORkM2dWJSS010eWxCck1VY25TMVVHLS1lMEN5RzlsNHZVU2NjWjRabWRPeUNxUzlVcTRNVzVVWTFMUk9LTUljTjJLVVRiaFpCVnNoWHA0Ylg3VDBGZUdwb0ZzX3YtTWM3VzRyeXo2aUQ1TEVDQ2ZsRk5iYmgxZS1iR1hYSjg4R3c5dEVKX1FnOVQyVlBMU1hDOUhGRjZsMDZMU3BjeExsYzExZlk1RWpLVmRDUURKeGE1b2ZrTU1XWk1VaUx1MXBfMFFfWG1LU1VsRDRjSXVNMjdXZHpxT0HSAfgBQVVfeXFMTkxCU2UyLWJxb0VOeHVTaW1RRlhfdmp4bU1kb0lLRVJySUZmaDJhMDhKVzlWZWd5TG5zM09NRHotME5yQm9DQ0FhREtwUnlrRzYyWC1OeFA0RG9wR29JX01rNV9mUDZCZ1ZaWDEtYm9fUFl3amxlMWVtLVpvaVlZZ2llR2tqRDFhb3NjdzZYOTlZWllscVMzTGhNam5WOEgzclRqb3psOVBMWENMM3RhMXZKMzdXank3aFZaNDkwRVI5TlVHT1RZbC1DZHNVaFU3U0ExYnFRSlUtX3BJWmpJU202RHc0Q2RqN0xncDI2VlloNUFCY085NDA?oc=5",
+   "fonte": "Infobae",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T17:12:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Antisemitismo, discursos de odio e inteligencia artificial: los desafíos de la Justicia que reúne un libro con más de 40 magistrados",
+   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPUlF5QUdnV19DbS13Mm4xc3piclhWMk56SkxlN0R3SzRVdjQwQ2hrdXR4ZEJqN3dWT1FGNURORUxHbEFCVVNuRzNzd2tmS242RERJY1lKVjU1all2eTVjZk9RbGZYUU9mUmNiSW5ldENjb3dKLV9WWjE3ZGdVZHlyZUQyZGpvN0MtamJ6S01DSmx0d1ViWHE2bVA2TnB1Uks1WDNnbHF2OWxvOENkSUJmU285NDJKQ2VKeEo2X2R3UDRwNjhva0JyZ1F2MFBTMG1QR2lSaGZJNzdndl9PYzBoRGUwRWZCdmJPQVdvTDVhWkh0SERHR0w0TGtJOVZsVUVY?oc=5",
+   "fonte": "Revista Quórum",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T16:20:35+00:00",
    "via": "Google Notícias",
    "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
@@ -470,6 +540,16 @@
    "via": null,
    "feed": "swu",
    "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Highland Park antisemitism news: Swastika symbol found painted on slide at Devonshire Park, city officials say",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQkRmekU3S2R3aWFXTnVrTEJIbkpSS01QMVNPNEVTUTVjbU55TVU5MTdRQ1hfb194czdEbFU5X2IzQ1d5QWJVT29JNUZUUGlic01RU2tQZnN6SjY1OUNkOWdzdjFjN0F3cVV5cmEtRHllODdCS25iZklFT3p0aFRGWXF2c0MzU0llYmI2WWVvRlNaMy1TdXJfbW00WWlneFQ4ZjNfQllUQTlkWmNtaTk5R3EwTHVIMGg4YnVub1lqWk5PeE1JQ0ZjQUFaU1JFa0xDa0HSAdcBQVVfeXFMTzNtZ3plWWt3Q3c3VWQ1Wld0bFZMQWp3VGFZLTJRYWk3RkQtYm94Sko5LWJuekVKa1lXXzl5ZHRBTGNxVVR6TUZoSkZ5VlpxWmEwYWFqY05HOC1XcW5MZWdqWUFrQjFDM2VxMnIya2ZBc3BjVkJxVzN3WGlncTVhNHZueFJCWURtNmFDbGtNMjVsMHdlQVR3MVFuQVlsV0FfM0RlUlRwMEE3Q1VRNXFkcXc5MjFnT3VkZlVjTXRjRU1wbi1tcUVaUU9sWklGMEZXaDNwN3cwSGM?oc=5",
+   "fonte": "ABC7 Chicago",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T03:46:04+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Die Linke, La France insoumise… l’étonnant parallèle",
@@ -690,6 +770,16 @@
    "via": null,
    "feed": "onu-pt",
    "categoria": "Direitos humanos e organismos multilaterais"
+  },
+  {
+   "titulo": "Isère : Laurent Nuñez et Aurore Bergé dénoncent les propos antisémites d’une commerçante, une enquête ouverte",
+   "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPT21jZ0V1SHRYVnpCNHhKSDE2MmxhVEZ4QmZ0NDB3M0V3VzBCVmpmekxmamdnT3htalkyVTUteWl5eU5EeWsyVGRxSXpRUmUtYjFBb0ctaXkwYkllTUVkSkc1bFRLR0o1TTFRN1ZuejNrWkJOM1NTUjF3c0ZNU3E2WVNITDdBOWQ3SERKcm1LVmY4dWZoNWdYZnBkZ19QSlZhcDB4NEhKYUZDVmxTdHhDam1wOGRVa29KNkZLa1BtWXJLYW9fZVpKaHlJU29oUEpHbm83VTV3Wnd4MVR3aWg2UXQtZVlVcTZPeDEycVNlX1M2ZGZNWkdITXd4M2NtNE5zWUpoSg?oc=5",
+   "fonte": "Le Monde.fr",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-15T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Jewish Bund Ghosts vs. Living Jewish State",
