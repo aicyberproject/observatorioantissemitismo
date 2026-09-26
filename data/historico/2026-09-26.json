@@ -2,14 +2,14 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-26",
  "semana_iso": "2026-S39",
- "atualizado_em": "2026-09-26T17:42:21+00:00",
+ "atualizado_em": "2026-09-26T20:58:00+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 87,
- "no_brasil": 19,
- "no_mundo": 68,
+ "total": 90,
+ "no_brasil": 21,
+ "no_mundo": 69,
  "itens": [
   {
    "titulo": "Iran responsible for antisemitic terror attacks in Liège, Antwerp earlier this year - report",
@@ -682,6 +682,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "Antissemitismo cresce no Brasil e ganha códigos nas redes sociais, aponta levantamento - 14/09/2026",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPY2tSUUVDRE9TZzZjZjNGZmF0a1RXaDZlRlNPdm9BTkFUc3UxTXBnc0gwZnJWLVo0RnZNTU1aMFBHaHBxRVkteHd3SURrRnJtMDZFRkJOd09FTlNpNlNNekZrRFR2U2dERGlYUFJHWXJoY1JEREhaWmk4VVNWMFV3TW00aEVpZVp3ZjVuekg3enVBMC1JaWo2Vms3cDQtMW13WFNlYXJQRFRZcWE4Z1ZidGtBMERocXUyQl9CUjdwUk5JS3hqNEJHbERPMWRla2tB?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "escopo": "br",
+   "publicado_em": "2026-09-14T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Mezuzahs Smashed in Antisemitic Incident at Laurier During Rosh Hashanah",
    "link": "https://standwithus.com/news/mezuzahs-smashed-in-antisemitic-incident-at-laurier-during-rosh-hashanah/",
    "fonte": "StandWithUs",
@@ -842,6 +852,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "STF mantém condenação de Rafael Tavares por crime de ódio e deixa vereador inelegível",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbWQ3S3oxZ3BaUnEwMnVjSHREelBYY2lhUTdUazBQWGxrUHV6Rlo2RUZSNWQxRW5uOXYtSVkxdDdCc194dVRvcnZjYVQwTHZESXJSZW11RlJaY2RmamNVX2ZmWGRNYnB6TW9weWZidnhjUHZHOXM5ZHZmb2RYaXJIQ0ZqTGg2dHVvbklTTnVncFlPZ29pZWNIOA?oc=5",
+   "fonte": "Folha MS",
+   "escopo": "br",
+   "publicado_em": "2026-07-21T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "STF mantém condenação de vereador por crime de ódio",
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZW9XaDZkcHE3MVNxWXJ2RkRfemljS2ZGenczZGo2cERqY05wWUd4LVZDbERJWnpoblFZd0tPeERTZWFTMjZ4dWczaWxMYWJvQjlDXzB5ZnllNFNDU0FQVGdRZFdkVG4xYy1LMERFQVY2czZMQWs4a0otOG0wUFBZcG5ET2NFSU5mOGlYRW9NazJFSkNxLUFWTEtxT0RkblQzRk5Cbm9kQ0tLMnptN1ZOdWZfcFc4YVY0VENEWNIBvAFBVV95cUxNb1RDQm9CWjUyd1p3Nm9DeXRpM1dDNGRiV2NNM0ljaDQ4QlZacGVzN3JUUGEzU2VGUkVMVElOeXYzUGZsb3hsMlR6WFdCcW5WZWdKZkhvTUZHQW5JaHJwVVpqcFFLXzZwVUVoZEVZdTJEbXpaQkt3bXpyeUhzOGUwZ2FlWW9oZ2I3bGd3dzlXdzFkbncxR19TLU1QN3YxaDdCNEx4bEljTGJNbHBLblFod1FsZllIRHl5VHYtYg?oc=5",
    "fonte": "Campo Grande News",
@@ -859,6 +879,16 @@
    "publicado_em": "2026-06-29T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Rep. María Elvira Salazar Cosponsors Bipartisan Legislation to Protect Jewish Americans and Combat Antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONWl6UHJadTRJWml6YWlpcS1XNWFnVDBGdkpUMkxUM29sY2prdUE1RXhja0I1dVRYdE52UUN0RFRTeGMyeDJScFFtRS1YX3lMZkRxX05iQVJxSXVQLVpzbGtSNzhqQnlUMFUtdkdJWUNFZERqck52ekthQ3d1TEtQRkk5ZEpmZXZxejAyUjFZTGhYLU9kMUFaVkZHR0tfeDJLOU04Y2NiajVjVEotazJLQ1BwaWRUdVNqemxJ?oc=5",
+   "fonte": "House.gov",
+   "escopo": "mundo",
+   "publicado_em": "2026-06-15T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
    "categoria": "Radar por palavras-chave"
   },
   {
