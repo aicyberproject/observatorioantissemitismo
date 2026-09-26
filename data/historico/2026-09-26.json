@@ -2,15 +2,35 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-26",
  "semana_iso": "2026-S39",
- "atualizado_em": "2026-09-26T12:56:38+00:00",
+ "atualizado_em": "2026-09-26T17:42:21+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 81,
- "no_brasil": 18,
- "no_mundo": 63,
+ "total": 87,
+ "no_brasil": 19,
+ "no_mundo": 68,
  "itens": [
+  {
+   "titulo": "Iran responsible for antisemitic terror attacks in Liège, Antwerp earlier this year - report",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-909781",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-26T20:09:44+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Antissemitismo: a doença troca de álibi",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9iSjJUQUVEa3h5NXFUdWdRN3VhbDNmNWtKb2g1d0J4eHJieGx3aVN5Y1gyaHhvM01NVXpqNW1QdGZIOGlmbmxJUVdiMWpScGVYdFA4NWZpMjVrUm5ZR0pEUnlkWllNQQ?oc=5",
+   "fonte": "revistaoeste.com",
+   "escopo": "br",
+   "publicado_em": "2026-09-26T17:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Italy charges three adults, 14 minors with neo-Nazi, white supremacist activity-linked offenses",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-909760",
@@ -240,6 +260,16 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Le Conseil des juifs d'Allemagne appelle la gauche radicale à Berlin à bannir l'antisémitisme de ses rangs",
+   "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxONkRyd1NJSFJkNzFOX1RoWGhLVHNPX1NKWXFGXzM4Q3F6UXY1WktZTDRHN0xkZTJsTFFJNG80X3k1TUhVanNEelNMemZqQWEwcXhoclhjWlhvY0ZBUzlNR0VjeElLNGExeUljWEo3ZGYyQVBKalRiYVJjTWRFNzM4ZGVrRU5GSWtkSkRRbW1kcVZIUEZXcWdnX0hFVDN3QWZJMW5RVjZQQmVMNWN1S2VIY2FhX0lKUlowVlBZMWsxVGVkMGV5UEszYlMwZUgyMTcxNFNreE5DZXZYbHdBS2owaFhkOEliRHNtSmpjcWFwRC1OZ3FINk0xVEg1UGdHSTdGRkJaUlhtYUhCc3FZbFBhaGdWS3ZHbjI5dHFMLWszRGd0YUty0gGqAkFVX3lxTFBiQW1qRGlSNEpIMUZWRjdSNnY1aVRSNDdLem4tS3V0MVp2dG40UE9EWU9WTEZDRzJWelVhdDZwMVFvemlPdzV3Rnowb1BRY1FyNGlCZ1hpS1U5bG5EVWVDaWZSeUlvUFNLZVB5Ql9yWGlqOVpQRGdaN04zOV95OHhxOEtlWjh5LTFsbEkxX1VvNC00OVgzR2pvX09jcmVidVNxTWFZbDhqNHdJOVZhNmQ3Z2pqOXpFVVloQ0FibkVnUmgyXzRqRFlJclcxVHA4TWtmcXlTZVQ5WU5CdDcxbHdYMjNnYXAxN2lreTVna3JLXzNMZmhvZGp3blJtRm1QYzJLRnFzWEI2U1pqa254NlhWcnlqSlhnLThmTGt6d25oNUstdTNPRjRHNXc?oc=5",
+   "fonte": "Boursorama",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-25T11:35:38+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Mauro Berenstein: \"Desde 2023 hubo un crecimiento exponencial del antisemitismo\"",
@@ -522,6 +552,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Le socialisme à l’épreuve de l’antisémitisme",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FdFAzWVpTdUtuZkdUZTEzaEhRY2R0VG9WMDBiT1FWOWhfUGl6MEJEVmNJaEF5UDk1OVg0QjlWalhPRWx0WEozTTg1bEtOMmpNZVJJejgzWjFrTWc?oc=5",
+   "fonte": "K. Les Juifs, l’Europe, le XXIe siècle",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-23T08:46:46+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "The antisemitism France’s courts fail to see",
    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5jcWhEVlR0alI1dDRxTG1fN0pmbjRnNkhVV0pYS29aZzFWOHJVOXRaTi0tbDVwT0g0RHFDeFVST3A2bmlqQzd0aXBjLU5FVFBQcV9hMlMwNk9XZ05rN3hncU5CMzZQblFZU0E?oc=5",
    "fonte": "The Jerusalem Post",
@@ -782,6 +822,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Plan de lutte contre le racisme, l’antisémitisme et les discriminations liées à l’origine (PRADO) et Plan LGBTI+ 2026-2029 : le Défenseur des droits publie ses contributions aux deux plans nationaux de lutte contre les d",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeW1zcjlVVHVEMnZqTEVTZjhibEJpUGk2eEJodi1HTFoyN25fNDk2T1N2TWNDMDVNZDJ1eUVIQmEwUGFZaHpUaWxnRTE1RzA1dW9mUGZXamlUejNlM2tBZWlEa0RxTXFCSmFzV0RRUUUxRHV4U3VFaUVlaFlUZUJyTnVFZFItR2hCUERnaFV1V2FtdERUWktYVDFjTHh1STIxdkdITkNKRG1zS1lFdmFnNEhwTG9HYWcwWEpNMDJyeS1oOEZnVW50Q3BUS0c?oc=5",
+   "fonte": "Défenseur des Droits",
+   "escopo": "mundo",
+   "publicado_em": "2026-07-30T17:36:13+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Jewish Bund Ghosts vs. Living Jewish State",
    "link": "https://fathomjournal.org/jewish-bund-ghosts-vs-living-jewish-state/",
    "fonte": "Fathom Journal",
@@ -809,6 +859,16 @@
    "publicado_em": "2026-06-29T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Lutte contre l’antisémitisme : “Voir l’autre comme un être humain, non comme un ennemi héréditaire”- Entretien avec Nonna Mayer",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMFRXQ0lhYUpQbEtoTjZRWk1YUml5LUFtQjBZc244bFo1QVRtdFhmVlgzMlN3cFcwZGRkZURlM2xKNnV1bXg5eDNPMXZsc0swcWxZUG44b0NsUzBTbVhiandMZ2FHcEdETE9xRmk4VmhSbDl4MHA2dWdKaFoyajE1Vld5RWdTa1BIQTBvcWNzcTVtUQ?oc=5",
+   "fonte": "Amnesty International France",
+   "escopo": "mundo",
+   "publicado_em": "2026-04-20T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
    "categoria": "Radar por palavras-chave"
   },
   {
