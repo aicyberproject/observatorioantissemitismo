@@ -2,15 +2,75 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-27",
  "semana_iso": "2026-S39",
- "atualizado_em": "2026-09-27T13:50:58+00:00",
+ "atualizado_em": "2026-09-27T18:14:14+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 83,
- "no_brasil": 19,
- "no_mundo": 64,
+ "total": 94,
+ "no_brasil": 21,
+ "no_mundo": 73,
  "itens": [
+  {
+   "titulo": "Brandeis Center files EEOC complaint alleging antisemitism against Jewish professor",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-909894",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-27T20:20:36+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "CBC disciplined Jewish journalist who filmed anti-Israel protest during Yom Kippur",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-909891",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-27T19:24:38+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "US government sues Ohio hospital over wrongful firing of surgeon for 'being Jewish'",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-909878",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-27T17:31:48+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Jewish professor files complaint against Duquesne University for antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAyYkZhQ3RZbGZtVFJrcFFoanlnNXd3b21iVnBwRy16YkVXbl9fZFdwQlF4cEthZzBSMElfQ3FWMnBYZjdvdE11bVIyUnJWQzRCbUJ2SnJxRTljSkl5Rl9sdm9hTDA5a1dKU0E?oc=5",
+   "fonte": "The Jerusalem Post",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-27T17:20:36+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "If Trump is serious about antisemitism, he should reopen this lifeline for refugees",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQb1lhbnRvdHExajlGMUJYeVpzMjhLZWRUWldmNkhLUFBrLXpuWVdfYUQ3bGliMS1jWlowZHZQb3JxMmQyY0NYQWlsQjg3VEN3NXJlUGNSYkVnMmo2M2FXbXBGT3lJOUU5RzVYVy1IYjZKNHc2TEpsUTdsTzRacTE4SG50U3BHZEdvbnhBdEFrTDdid9IBlwFBVV95cUxOTURaWnM4VXVINzJUbmIyLVhFSVhNSmRyLUZSNU9icDBXQy15b2g5MktXWG5LWDZpSXdFRlppZ01LR2pnQUxoQXFaSU5nNUhqZ09ndkI4QkF5S2xDNU9nbVVlTFhlRjk1LU0zMmVUSVNodFNfMF9TcFh0UUVYYWpDLUVrVW5NNXQ5Nlh3Qkt2Q25iR3RhOXNn?oc=5",
+   "fonte": "The Hill",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-27T17:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Irish PM rejects antisemitism concerns in Ireland amid dramatic vote over boycotting Israel game",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQODV2QVl2cnlCR0VUQi1lUGZTMHdTZ2tTbml1a2VIcXJ6Q0pJS0Y2eHU0NmU5alNCMHk2MGZrRWxsZWdqZkw2U3hIalkwRHhmMHR1cUN5alBVMkZxamRYUURGWHF2dkRGWjBYa3VvRU9mMEtLdFFRTTd3NXlPLTFvcWhsVGI5elFSbl82YmxwWTVpX0k1U3p2bl9VazgzVTJWYm1hd0lyRUpGQmcxZE1hYkwtd0JoSW5LSGxLT2hR0gHDAUFVX3lxTE1VeFpFSUlIMUtMVWI5cERpQVhCRGI4VlE4Vl9XbmdoR3BOSnRhZlZkakxGc1FmcHdLR2c4SzBxVHBHQ0VKTGJtUm52dWJTUVU0cE1BZ2ZMTU9iLW9UX2FJdEZoT0l5azFNYzhlNVk1dHJXR3pydGx1dlZDMnhpd0N1SUhRek5tUlJsWkMwNVFJaGZGT3lHYVlCaWlPbHY4ZmpUdms3eDRWeFVGRWJTbU1iUWxDUHR5OHFOblBrQ0lCQTU1Zw?oc=5",
+   "fonte": "Fox News",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-27T15:43:48+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Titulares del día en Israel",
    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB5RUxxeHYwTHlhSUtDOWtqTTBnWVJxNER6ZHgtOFM4S0QzWnFhcXpMeXZBcUJrbVZDRU1RcFdTeE9EYl9oYzQ3M3hDVnR4Q0g0NGJROGJ3bmQ5eVJXeVNoUkt2dC1BR0czNFVpU2hZRjVpeVRLbkE?oc=5",
@@ -332,6 +392,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "La jugadora de pádel pidió perdón por sus dichos antisemitas: \"Realicé un acto abiertamente discriminatorio\"",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZGtZYkt0NDFCV1p6b1hibTNHR3pXMDBlbEdJOWdObE5kdlQ2NWRjc3NJX1plS3VBY2ZEcjlrMHBBb1d4cU9ibGM4QngyYmJpOXNLaFUxSWxiYW5OZ2dmRWFfT0NQdWY4cW1pUzVhUVNHb1dLNFhFODZ2cnd4Y19uc0RhVHpoX0pHcDVrMnRrY29PYk9CdDlveEI0eU02ZGtaQ1lxMGgyMkpVYjViNzZkVnR3MXd6dHJKcFRVWU9DaV9hTDR6eExEVENlVGhoaEpRN2ZNa3hvazNMQdIB2gFBVV95cUxOZGtZYkt0NDFCV1p6b1hibTNHR3pXMDBlbEdJOWdObE5kdlQ2NWRjc3NJX1plS3VBY2ZEcjlrMHBBb1d4cU9ibGM4QngyYmJpOXNLaFUxSWxiYW5OZ2dmRWFfT0NQdWY4cW1pUzVhUVNHb1dLNFhFODZ2cnd4Y19uc0RhVHpoX0pHcDVrMnRrY29PYk9CdDlveEI0eU02ZGtaQ1lxMGgyMkpVYjViNzZkVnR3MXd6dHJKcFRVWU9DaV9hTDR6eExEVENlVGhoaEpRN2ZNa3hvazNMQQ?oc=5",
+   "fonte": "MinutoUno",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T22:26:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Does Cal State’s Faculty Union Have a Jewish Problem? Newsom Should Look at the Record",
    "link": "https://jewishjournal.com/commentary/opinion/392557/does-cal-states-faculty-union-have-a-jewish-problem-newsom-should-look-at-the-record/",
    "fonte": "Jewish Journal",
@@ -369,6 +439,16 @@
    "publicado_em": "2026-09-24T20:33:35+00:00",
    "via": "Google Notícias",
    "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "La jugadora de pádel que publicó una frase antisemita pidió disculpas: \"No existen excusas ni justificativos\"",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQbEhTLVpuY3VWdjE3RmNTNWI2bjhBRDhLa1VEUkFTNW5odGItSTlkVlRkVEJpb3Mtc3BqRFJMeFVmeWdGMUVIM0p0TVU0TU9OOUdKclZoNUItb0Ezd0RuRDRGdlEyRUJXRW9kRDB3OHpXdUtXdEFqTXJlYWh1a1RFZ3BMWVlyUV9TaGYzb1N0Ym5LT0VIby01MHNlLVN6Wk1id3RCWlRXc1Z6c3pueGQtMTNOU1dmTFAya1RwWHltdUVPWlBta0RPM0owTjVZWDlsQVduQUxxdHZqb0pOMngwYm9ZRDQ3UdIBgAJBVV95cUxPQzJRWTVUekRuSjB3d2tKXzVpZGlQTDNpYU9oT2V1WkhpTXN4c3ZJVG8wWmFGY0l1dVBnTnlpSjVlQnhCd04yX3h6OFFkYi1LMHNYeG5XVmo3V3FpUjF4elBNaktHYThhOXo5bVlHS0Q5LW9wWFRfOTNPbEtkVTExM3YwMkFhdEVZUHVNVkRxWVdaLTMyb3JLWU0zSktmNmp2WEtySjBHY0k4TE1TUmhid3BjRVM4TnhtQTdXeWVXNFYtYVg0ejFjWjRteGg4VXduOWEtOXRsbk1TeXBfS2RVOXlPeDRuTXhlTUVBalM3N2lBOHlPUTBBV2pqZmtmSmZ3?oc=5",
+   "fonte": "Infobae",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T19:56:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -487,6 +567,16 @@
    "fonte": "itongadol.com",
    "escopo": "mundo",
    "publicado_em": "2026-09-24T12:45:12+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "El repudiable mensaje antisemita de una jugadora argentina de pádel para anunciar su participación en un Panamericano",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMDdEbFp4MU9BQkx1SExaU1pqbi1zNTNiOERlVExXaDZWQ2x2eWZLaGJ1ZVNRTzBTSTFxUWZZUUdzTHNKcHc2NnZWRmJhSzVhUkNVN2V5WG05S3Q2bV9LbzU4cy1yWVdYTWpfclh4UlNBNnBEQVpmTUwxdHVwUUdJTXVNUmVhbjVrYVM0TlhvV2Q0aXdJNWFWZjE1cW1RRjNGSFgzTnAtZGlEMlJTd2hLQ2k4eFVPd1BMYVBrcHYxUzRUb0RjZTlYMkJWdW4yQzEwd2NBbUJTNNIB6wFBVV95cUxPWlU2dy0tOWdqQ1oyd1hyTVY1Zm9pY090ekNZeWQtOVY5RlhNZTV1RFNiSHBxZlZDLV83VGIzWnNHQVluQVdpM2FNWGs4UTR5M2dTQjhGMkdCTEp6U2ZuakVSdWV1QUFSRVBQTXppampiUWNDMlk2SG13SVVDTnVFY3J2VzBVLTBPeGZCRFN3SHVxUDlabnU5QUlTOXJZeS0yVXJncndFcmM1aVBWbUJJU1Y3T0R6WExsQ0xaSnpZalVUOXVjdkgzdFlxUXFKaXZYQjJMaV90RlloUG01NE1rVkRINkNCM2lJbGlv?oc=5",
+   "fonte": "TN",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T12:14:40+00:00",
    "via": "Google Notícias",
    "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
@@ -802,11 +892,31 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Em seis anos, casos de racismo religioso em Sergipe cresceram 1.260%",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRHBKS1JJUUx2MnU4MkVPS056TjJXRlFZcEphZTNJNzZUZm9kd0RRR0JMZndVNlVFZTRxd2ZBUm80T0ZfWG5VaE5LbVEzRVVIMm5rblVyaE95eUNjX1pUQVg2WmNyT1h3NzRocW0tLUtobU1GU1k3TVFpLUxFYV9TZ2phTnhubVBKQzZjY2FmR01qam5wN0luZnNIQm8?oc=5",
+   "fonte": "Mangue Jornalismo",
+   "escopo": "br",
+   "publicado_em": "2026-07-21T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "STF mantém condenação de vereador por crime de ódio",
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZW9XaDZkcHE3MVNxWXJ2RkRfemljS2ZGenczZGo2cERqY05wWUd4LVZDbERJWnpoblFZd0tPeERTZWFTMjZ4dWczaWxMYWJvQjlDXzB5ZnllNFNDU0FQVGdRZFdkVG4xYy1LMERFQVY2czZMQWs4a0otOG0wUFBZcG5ET2NFSU5mOGlYRW9NazJFSkNxLUFWTEtxT0RkblQzRk5Cbm9kQ0tLMnptN1ZOdWZfcFc4YVY0VENEWNIBvAFBVV95cUxNb1RDQm9CWjUyd1p3Nm9DeXRpM1dDNGRiV2NNM0ljaDQ4QlZacGVzN3JUUGEzU2VGUkVMVElOeXYzUGZsb3hsMlR6WFdCcW5WZWdKZkhvTUZHQW5JaHJwVVpqcFFLXzZwVUVoZEVZdTJEbXpaQkt3bXpyeUhzOGUwZ2FlWW9oZ2I3bGd3dzlXdzFkbncxR19TLU1QN3YxaDdCNEx4bEljTGJNbHBLblFod1FsZllIRHl5VHYtYg?oc=5",
    "fonte": "Campo Grande News",
    "escopo": "br",
    "publicado_em": "2026-07-20T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Como o STF transformou a denúncia do sionismo em crime",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY1ItS2VfUk1EOVJIN21EcVc5V2xEV2tnblY5Umk3TGFMVHBrTmpIQnFNbWh2SlkzdDdicUpyTXF1MFhyRVFQNFgtVm1JdzhRcEpBSUF3OXlrYXE3N0pSRWpTZ1JKX3VVc1g2MVBqYkduSW0tVE8tZVpjQ3JiOUZXbnJZNHBPYndXR3RDalMtUEpIa1U?oc=5",
+   "fonte": "Diário Causa Operária",
+   "escopo": "br",
+   "publicado_em": "2026-07-17T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
    "categoria": "Radar por palavras-chave"
