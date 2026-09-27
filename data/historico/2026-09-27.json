@@ -2,15 +2,32 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-27",
  "semana_iso": "2026-S39",
- "atualizado_em": "2026-09-27T00:24:45+00:00",
+ "atualizado_em": "2026-09-27T07:57:45+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
-  "The Times of Israel: HTTPError"
+  "The Times of Israel: HTTPError",
+  "Radar Brasil — Antissemitismo: HTTPError",
+  "Radar Brasil — Racismo religioso e crimes de ódio: HTTPError",
+  "Radar Brasil — Judiciário e persecução penal: HTTPError",
+  "Radar Global — Antisemitism: HTTPError",
+  "Radar Global — Leis, processos e prisões: HTTPError",
+  "Radar Iberoamérica — Antisemitismo: HTTPError",
+  "Radar Europa — Antisémitisme: HTTPError"
  ],
- "total": 68,
+ "total": 69,
  "no_brasil": 12,
- "no_mundo": 56,
+ "no_mundo": 57,
  "itens": [
+  {
+   "titulo": "Israeli, Jewish protesters rally against NYC 'NAZA' screening, display October 7 massacre footage",
+   "link": "https://www.jpost.com/diaspora/article-909798",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-27T06:36:26+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
   {
    "titulo": "UN's Albanese claims Jews in Nazi camps were called ‘Muslims,’ distorts history of 'antisemitism'",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-909792",
