@@ -2,22 +2,45 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-27",
  "semana_iso": "2026-S39",
- "atualizado_em": "2026-09-27T07:57:45+00:00",
+ "atualizado_em": "2026-09-27T13:50:58+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
-  "The Times of Israel: HTTPError",
-  "Radar Brasil — Antissemitismo: HTTPError",
-  "Radar Brasil — Racismo religioso e crimes de ódio: HTTPError",
-  "Radar Brasil — Judiciário e persecução penal: HTTPError",
-  "Radar Global — Antisemitism: HTTPError",
-  "Radar Global — Leis, processos e prisões: HTTPError",
-  "Radar Iberoamérica — Antisemitismo: HTTPError",
-  "Radar Europa — Antisémitisme: HTTPError"
+  "The Times of Israel: HTTPError"
  ],
- "total": 69,
- "no_brasil": 12,
- "no_mundo": 57,
+ "total": 83,
+ "no_brasil": 19,
+ "no_mundo": 64,
  "itens": [
+  {
+   "titulo": "Titulares del día en Israel",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB5RUxxeHYwTHlhSUtDOWtqTTBnWVJxNER6ZHgtOFM4S0QzWnFhcXpMeXZBcUJrbVZDRU1RcFdTeE9EYl9oYzQ3M3hDVnR4Q0g0NGJROGJ3bmQ5eVJXeVNoUkt2dC1BR0czNFVpU2hZRjVpeVRLbkE?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-27T12:44:13+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Stephen Sondheim was Jewish, but was his a ‘Jewish Life’?",
+   "link": "https://www.jta.org/2026/09/27/culture/stephen-sondheim-was-jewish-but-was-his-a-jewish-life",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-27T10:45:00+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "L’antisémitisme s’invite dans l’élection à Toronto",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRjB4d1U0dHlSa1VEa2Fobm1sZ3FMNUxjS2V5SW0zUEFDUWZJN2k3TEc5TWlLMmhOa3ZEZkRwYjdncXNzY1VWZFFUMjlwdDlYMjh0bS1oVTVRRF9jTk5DNERDZGRUUEtIbUtuM0hMTlpMQXRjaWR6Z0Nta3FSMWl5cDc0QklwX1A4ekFIdkhndGFjVW5t?oc=5",
+   "fonte": "Radio-Canada",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-27T09:30:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Israeli, Jewish protesters rally against NYC 'NAZA' screening, display October 7 massacre footage",
    "link": "https://www.jpost.com/diaspora/article-909798",
@@ -51,6 +74,16 @@
   {
    "titulo": "Antissemitismo: a doença troca de álibi",
    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE52cV9idm1SaElKZ3pFN0NwQ0dfb1BBOWZXLW9PRTJnckZYbUJBSldVbllvajlncjl2XzY5Q0ZETFIwVWUyNFpUM1V1NA?oc=5",
+   "fonte": "Revista Oeste",
+   "escopo": "br",
+   "publicado_em": "2026-09-26T17:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Antissemitismo: a doença troca de álibi",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9iSjJUQUVEa3h5NXFUdWdRN3VhbDNmNWtKb2g1d0J4eHJieGx3aVN5Y1gyaHhvM01NVXpqNW1QdGZIOGlmbmxJUVdiMWpScGVYdFA4NWZpMjVrUm5ZR0pEUnlkWllNQQ?oc=5",
    "fonte": "Revista Oeste",
    "escopo": "br",
    "publicado_em": "2026-09-26T17:00:00+00:00",
@@ -179,6 +212,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "Ataques a terreiros expõem casos de racismo religioso em Pernambuco",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVUFpeG5GRnFqbHk0Y2Jvdk9tNVB5Wm4tbzNfZFU2aGJlYURCR3lWSjBualdpRnVtTmxuS3YxZ2MzTExNM29nSTVNemlCOVVkZFE2ajZ1R20zQlp5N3pnUzF1RjNxandvOHdHb1pTZjJraXdUaG1UcVhmbkJZZ3N4Mk9CeVZRR3YzRHhuSlBfNVpUcEt0SGc?oc=5",
+   "fonte": "ANF - Agência de Notícias das Favelas",
+   "escopo": "br",
+   "publicado_em": "2026-09-25T14:04:55+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Coordinated Displays of Antisemitic Hatred at UN Protests During Israeli PM’s Speech Raise Questions of Foreign Funding and Organization",
    "link": "https://combatantisemitism.org/cam-news/coordinated-displays-of-antisemitic-hatred-at-un-protests-during-israeli-pms-speech-raise-questions-of-foreign-funding-and-organization/",
    "fonte": "Combat Antisemitism Movement",
@@ -259,6 +302,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Noticias de Israel y del mundo judío en español",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE42RjhxV0NFMm8yeVJIUjBnWE5NbzVGeVNtNEVHcm5jMU84enRzTTJjYS1CSTJXRENsV0pXdFRqRExWa0VQa3J1S05fUTJ6b2RaLWpQdExxdFBlZVdsOGxlYnY4OFJpLUdrbHBJWV9xUXlFc1M4czRr?oc=5",
+   "fonte": "Aurora Israel",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T23:10:39+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "The rabbi’s son who drew an antisemitic mural on Wilshire Boulevard",
    "link": "https://forward.com/opinion/852089/antisemitic-mural-wilshire-boulevard-los-angeles/",
    "fonte": "The Forward",
@@ -297,6 +350,16 @@
    "via": null,
    "feed": "jta",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Palestra conscientiza Guardas Municipais sobre temas como intolerância e racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONURtMXFWQ2QzNi15S1dTdWJ0b0tBNHdRRnd4YjVhN0ZTaFFJb3UtNUQ1VEtHMXprcU1PX2FTeTdFTHJsUjlVU0tMNzJEMHZoeHlGVTJPTXFCbklOdjhHaFpjUGsxSS1yVFZaVDdHU3RYeXM5Q0tjOXNWZUJtTG80VllYeU5qbFBsYm0zd2V6ZGlCVkRYNVRsR2dlMW1xY0w1bVg5Y0lIQmR5T3ZiWmFWQTViSnpOSzVSR1VZbTdVUnNQZG94YzlzZEVJZE9JdFBDTXM0?oc=5",
+   "fonte": "Prefeitura de Campinas",
+   "escopo": "br",
+   "publicado_em": "2026-09-24T20:54:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Netanyahu attacks Mamdani in UN speech. ‘You tried to silence me. Well, you can’t.’",
@@ -369,6 +432,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "“Excepto judíos, ustedes no son bienvenidos”: aberrante y discriminatoria frase de una jugadora de pádel",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxORkM2dWJSS010eWxCck1VY25TMVVHLS1lMEN5RzlsNHZVU2NjWjRabWRPeUNxUzlVcTRNVzVVWTFMUk9LTUljTjJLVVRiaFpCVnNoWHA0Ylg3VDBGZUdwb0ZzX3YtTWM3VzRyeXo2aUQ1TEVDQ2ZsRk5iYmgxZS1iR1hYSjg4R3c5dEVKX1FnOVQyVlBMU1hDOUhGRjZsMDZMU3BjeExsYzExZlk1RWpLVmRDUURKeGE1b2ZrTU1XWk1VaUx1MXBfMFFfWG1LU1VsRDRjSXVNMjdXZHpxT0HSAfgBQVVfeXFMTkxCU2UyLWJxb0VOeHVTaW1RRlhfdmp4bU1kb0lLRVJySUZmaDJhMDhKVzlWZWd5TG5zM09NRHotME5yQm9DQ0FhREtwUnlrRzYyWC1OeFA0RG9wR29JX01rNV9mUDZCZ1ZaWDEtYm9fUFl3amxlMWVtLVpvaVlZZ2llR2tqRDFhb3NjdzZYOTlZWllscVMzTGhNam5WOEgzclRqb3psOVBMWENMM3RhMXZKMzdXank3aFZaNDkwRVI5TlVHT1RZbC1DZHNVaFU3U0ExYnFRSlUtX3BJWmpJU202RHc0Q2RqN0xncDI2VlloNUFCY085NDA?oc=5",
+   "fonte": "infobae.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T17:12:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Antisemitismo, discursos de odio e inteligencia artificial: los desafíos de la Justicia que reúne un libro con más de 40 magistrados",
    "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPUlF5QUdnV19DbS13Mm4xc3piclhWMk56SkxlN0R3SzRVdjQwQ2hrdXR4ZEJqN3dWT1FGNURORUxHbEFCVVNuRzNzd2tmS242RERJY1lKVjU1all2eTVjZk9RbGZYUU9mUmNiSW5ldENjb3dKLV9WWjE3ZGdVZHlyZUQyZGpvN0MtamJ6S01DSmx0d1ViWHE2bVA2TnB1Uks1WDNnbHF2OWxvOENkSUJmU285NDJKQ2VKeEo2X2R3UDRwNjhva0JyZ1F2MFBTMG1QR2lSaGZJNzdndl9PYzBoRGUwRWZCdmJPQVdvTDVhWkh0SERHR0w0TGtJOVZsVUVY?oc=5",
    "fonte": "Revista Quórum",
@@ -399,6 +472,16 @@
    "categoria": "Observatórios e entidades"
   },
   {
+   "titulo": "Quando ensinar culturas afro-brasileiras vira alvo de racismo religioso, o que fazer?",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9qLUNzQ0k5b09LdFpETVlNT1dXYnRKRW9ETU5MVi1kZ0RZeFkxLTJVSGNDQ2V2aEgwUHQ2dUJQRVhXOXViXzhWbC1WYzhfLXVYOGdVbUx1S0JyR0l5NHk3UWhCQ0xKc0xiTWtEQlg3WUJ6VVZOb2RjV2FR?oc=5",
+   "fonte": "Nova Escola",
+   "escopo": "br",
+   "publicado_em": "2026-09-24T13:18:05+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "La Asociación de Pádel Argentino apartó de la delegación nacional a la jugadora Florencia Guerra Sodero por comentarios antisemitas",
    "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPMk03aFNfUElVTmhlZlo2Y3pkWXJOckx3cEJ0THRxUV9sS1o4R0otU1JNM1lrb2pxWmpkeWZtLTRiVnJhSldZY095Mlp1dkR5VUp1MnZlMEFabEhlTTdMbjg3TGF6TzBZSEdrLVdWcmJabXFtR3lxY0JuV3pkVFJKSVJQNURZY3hWSy1pYmZyQVJ1UFI4SmFGNVpoeEs5RjM3amhpc25adW9wclh5dkxKb2VEekhfWEN0S2NIcGFhNXp4akFJNndkSkh1cDNkZDR3d3BKSTltVmNYTUFmeDhuYUhQMnF4QjM1WXdBajlKUGpSb2YzVXFkdjQ2bw?oc=5",
    "fonte": "itongadol.com",
@@ -417,6 +500,16 @@
    "via": null,
    "feed": "cam",
    "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "En marge de l’Assemblée générale de l’ONU des centaines de manifestants appellent à combattre l’antisémitisme",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQbm9KWlNkYzE5bGVoVmNtYWdIb3k5VFVFcndNekVJTjNDYlBxZmRnc1RPV1BCTlNCaVFiZDhCWnJndTkwZXRmUk5QOHdsUFB5WjlBMUwtV0Q5dEprYWw5R0k2R0hOSTJXREY4LXFMMkdWbHBGU1hMSWt1cndJYTZBWXZQTGNoNHJveTlqYXFRQ2RlYnVBbkUycjhSeURpb0NJYjladVFqLU14WVJFclBIb25VRTFpWU1WS0l0SVgxWGs1N3htdWtDRVVOYVA2dXJvTEt6am91SVRjZDVOQnZ2WTlVdWZrUWg4NzB3TVFDWUprYkJnOEJ3Z0RmR2s0QQ?oc=5",
+   "fonte": "i24NEWS",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-24T07:45:04+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Rally outside U.N. urges world leaders to take stance against antisemitism",
@@ -469,6 +562,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "State requires antisemitism training in Berkeley schools after complaints about pro-Palestinian posters, assemblies",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE80UEYtVjVOVDVPeU16SkJvXzFiTUswa1J2ZE9lRjZiTGxBdXV6YnBLMnVyQll1T1JiTnhYYVV2RmQxenpiNDU5WnRSUXM1azh6dVYtbzduOWlBd19hWW1MbWlfQnlTbGFvOWdkSjVJdGl0ZU82?oc=5",
+   "fonte": "Berkeleyside",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-22T17:58:11+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Die Linke, La France insoumise… l’étonnant parallèle",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbmdRRkFaSzlBT05DbHhMX1JUVWNDdVJEODFpTkhmMVZPNTBQaHRZNnIzSnA3TDhhblNnOWxGSm9rbW9ua3R6Sm41TTB6R3dfRHZjOUo5cXluQnQ4QV93ZTRDU1VtYS0tOFZhMVl6Y1JPSjhCa0hFd2N5VVZnV0JLYXFWc2thLXNSNElGRzlUbUl6S0VLeHAtTmVLWUN0S3ZmTHdweENBX2d4Z19uZ0JTOHNESndkeG52Y1hiRXNQT0Y?oc=5",
    "fonte": "20 Minutes",
@@ -476,6 +579,16 @@
    "publicado_em": "2026-09-22T17:32:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Violência contra terreiro de Jurema acende alerta para racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNd2NPNHAxMExwRFJaRUk1Vm92aHdOYUtpVFJQRUg3el9hanRtX2F6bnViS2tvS2hTdGVNbjd1TnlISzRqVlN2OFowUVptSk5HUnMtaGdYd2xOTklfRWNlQmxYRWtWSkxHT1FVUGxFWEk5SHFhRnRsU3NPaE1yMHBCSTNUNTlRdEM0aWdHYUFmeGVZdXFWNjlxX1NPZzJiUnNhM3gtOFlyQmV6OXJwNTB4ZW0yT1BlbFM5bHVsZmdhUWdHckcyMHZfNktYTlB0RVJRRmIwZVp30gHkAUFVX3lxTE1OMm5QNUdqZWRTRjhka21SSnE2bEMyaUJuUkpaalpNNmZyUG1vNDZxaVQxNkNoVGlYY0NsLTZVcmswXzNuejUzODdVUUxZVzAxMEkzdWx6WFFVRUhMWWtONjJETmNib2VKbU9TNDY2b2hrMGdlblpDMndNTmFGR1EtclNMSW9MM21TMWlNcFBxaWRoSkFxNnBvektzSEM5a2g1M21rV3cxRE11dl9qQWRYOU5YV2NhWTNydlNERGJHaGsxVGI1RzFHSkpuc0xYZXpScXVBSkFLOXRDM2dGN1RldHB0aA?oc=5",
+   "fonte": "G1",
+   "escopo": "br",
+   "publicado_em": "2026-09-22T10:56:50+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -609,6 +722,16 @@
    "categoria": "Observatórios e entidades"
   },
   {
+   "titulo": "‘Todo macumbeiro é derrotado’: Pablo Marçal é denunciado ao MPE por racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbFRFb3Z3SmtDOEdLbU5kRVMzLUp0WW56TEd1cmxkR2NYYUY5YXp1UnVLcl9fcjNtRDdDX2VMNXZwSDhvNW1FRHVDd0RMaTBOVHItcmJVV1lBU2VTTEJCMXd0OUhhUDg2SjJCT24wMWdVb2dTVlJGNHJpV1k4WXlqLXlR?oc=5",
+   "fonte": "Alma Preta Jornalismo",
+   "escopo": "br",
+   "publicado_em": "2026-09-09T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Best Jewish Advocacy Organization",
    "link": "https://standwithus.com/news/best-jewish-advocacy-organization/",
    "fonte": "StandWithUs",
@@ -696,6 +819,16 @@
    "publicado_em": "2026-06-29T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Religiosos de matriz africana e gestores públicos denunciam intolerância e racismo",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQ1VPLVJremxsMERrRDZDLVMyeHVyaXVPVUtleEEwbEZtMjdSTF9nS3lXak8xUlk2Z0JGeUlSWmxYT1QtSWtYek1kSngzUWd3eFFpZ1N1M1plaDF1emRHNE00TkUxV05zS20xOWJRMzlRc3I0LTZpc0tlc2dnaGxMMkI0Zkk3eWQ1TFFwYzk3cDV5NFowSF93UXQxN1JKcGhlSzYzWHNlNWkxNGFxU0N2elcwbDJmQmFSSl90ek9qaHlJM1df?oc=5",
+   "fonte": "camara.leg.br",
+   "escopo": "br",
+   "publicado_em": "2026-06-12T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
    "categoria": "Radar por palavras-chave"
   },
   {
