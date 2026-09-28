@@ -2,15 +2,145 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-28",
  "semana_iso": "2026-S40",
- "atualizado_em": "2026-09-28T05:02:02+00:00",
+ "atualizado_em": "2026-09-28T13:36:08+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 73,
- "no_brasil": 18,
- "no_mundo": 55,
+ "total": 94,
+ "no_brasil": 21,
+ "no_mundo": 73,
  "itens": [
+  {
+   "titulo": "Jewish establishment heavy hitters are joining J Street in sign of changing times",
+   "link": "https://www.jpost.com/diaspora/article-909985",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T15:40:02+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "B’nai Brith Canada calls for armed security to be present at all Jewish institutions",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-909982",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T14:58:00+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "« Les banques sont toutes détenues par des juifs » : Jordan Bardella face à ses écrits antisémites",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWFBXY0VIeW1tRUlDVDJ4Tm16M3JnZzhkUnQwUXlSdnhCdUNmT2NHbzNXT2ZqcEY1OTlIVVoxRFBWeFpKdnM5SjZSYUZxV2pYejA2MTBIdzFDWElZU3FyTFVELTFXY1ZjWFlfRzdicWxpWlVsWnFkanlmbHZPWUJfcG1HZG9LX25mUGZweUtBb09hVFBZdlBCem5hZ2VhQjA4d3BlVktwYjc1T1dUX3NtcG9lcVA4QmRCM3lfV2I4VlVFMWh6VGVhWnIzdHhWaVdhdWM1UTdXTQ?oc=5",
+   "fonte": "Mediapart",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T13:27:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Cantor brings Jewish music lost in Kristallnacht back to Germany - interview",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-909958",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T12:44:36+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Masculinistes, antisémites et fachosphère s'en prennent aux journalistes de « l'Humanité » : nous ne nous tairons pas",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOc1Z6ZzJnbE1UZnRuSVNScmM0UjZ4cHZGeUZjWjNrcWtGaXA4bndnVVdxS3JYem83T3hLWXA3ME0wUl9iNEZzRnZtU09ZYU9jSWtRaE56QjhUQVpVM0NvaDNXSVBDdHRVcWhZbEhaUHlJM2V3RnROYk9MOUFGR1l6cndaUnZoS3RacXNDaEc3YnJzZlA3SG5LOUs3VDlGVko4NHZRX3Mta2doM0VIRVlTREZ2UnhpV0NpelpFQ3RTZTNaQ3VNeU5EVmQ2dDU3c0wxRjhTTTRlRnV5cy15QnVYNUlyQ0U3alQ2WlpF?oc=5",
+   "fonte": "L'Humanité",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T12:37:28+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Lithuanian students retrace Holocaust history on memorial day, confront country's role in massacres",
+   "link": "https://www.jpost.com/diaspora/article-909946",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T11:42:36+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "La FCJE presenta en el Senado el estado del antisemitismo en España",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWDlQNDNvbFJpWHlIaGM1UjdqTi1tbGVrS0Z6YjRUNDBOdGtHOFlVc19MSVNLUXdDQ2hTTkFJUEpGRzJKa1o1OXBsMjZkd1dBSXlDVEhzZHQ2a0E1bXRJUDFkdGN2NVotbDNXLWNGcnJEOExZYUJ2dk9YSG9VQjVRbWFDMnlZR3M2OFE2QnpkVVctbUE?oc=5",
+   "fonte": "FCJE",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T11:30:04+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "The Man Reviving Left Antisemitism in France",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeGVUVEFYa1puR2lIZ3FGYzdEd2x4NS00MWFnNHRpTFVsYVhNeGNPOGZfQ1o0SHRNZFhlQnlvclJRcFFpYmQ1Zl9CZ2t6NWppdkdHZHNSYXlQMnFnS3AtNU5ITVVTNnJmdWk3OUlrNUJaR1N3X29fNTdPc0tqUzdDWTc3RjlRRjA?oc=5",
+   "fonte": "compactmag.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T11:11:20+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Jewish establishment heavy hitters are joining J Street in a sign of the changing times",
+   "link": "https://forward.com/fast-forward/852428/jewish-establishment-heavy-hitters-are-joining-j-street-in-a-sign-of-the-changing-times/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T11:08:41+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Figures who once defined Jewish establishment line up behind J Street",
+   "link": "https://www.jta.org/2026/09/28/politics/jewish-establishment-heavy-hitters-are-joining-j-street-in-a-sign-of-the-changing-times",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T10:00:00+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "La embajadora designada de Israel en Argentina visitó la plaza de la sede diplomática destruida en el atentado de 1992",
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxORkpGcnZlOFdya0NBeXF0SkFVQV83M1o2ME5ON2hvZGtjR2FEbHNjSXctWnN2UkNpekhrOWRLQm5MSjNYYmRsQS01NGdCa29lODJ5QkwzRDhwWU5PNDFfSVItZmRWQ1E4eXRxSXVjWEU1X240VVNkeW5OQ005cm13Zl94d2N6UTFYRWpuN2w3c1g3bjNvSUMwTm1LNEVkWFNET283NFpDaWhxWWY0c0NsekYtQzhHeDZSS3NWQUFoZjhwR25xbTBrU2dHdnAwZlFFVE5KNWl2c2VFOVZpU01BcXl4YWg?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T09:40:21+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "UN to mark 25th anniversary of South Africa's Durban Conference criticized for antisemitic rhetoric",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-909925",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T08:50:30+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "GW antisemitism complaint cited in APA accreditation battle as federal commission recommends suspension",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcjhCZ2FXNkhMcF9CSjJxNEZhVzhyOWpGOUlVTFhJSkpZcDZNLUxDb2xEbDktU0NiX3dSZWo3b3JJaElQakp5Y09uNDE5SjB4cWkzeFM5akxndUlIcUhqUi02Tmx2MFRNNGZJaGtLZTQ5UWtwNTFtbWExU2FRelU3Sk1QVnI1ZjRmV2NneDNZTGlIWEhPWExIU3ZjODJuRGpuU01YZGQwSGFQQlBFUjdXZUk4aW1xZG53T0gtQm5oSWg3R3ZNUHV2WVZmbzZVS1NDRHRv?oc=5",
+   "fonte": "The GW Hatchet",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T06:31:13+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Stephen Sondheim was unmistakably Jewish, but did he live a ‘Jewish Life?'",
    "link": "https://www.jpost.com/diaspora/article-909913",
@@ -39,6 +169,16 @@
    "publicado_em": "2026-09-27T20:14:33+00:00",
    "via": null,
    "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "The Problem of Gendered Antisemitism",
+   "link": "https://fathomjournal.org/extract-polarized-why-american-jews-are-divided-and-what-to-do-about/",
+   "fonte": "Fathom Journal",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-27T20:04:35+00:00",
+   "via": null,
+   "feed": "fathom",
    "categoria": "Imprensa especializada"
   },
   {
@@ -142,6 +282,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "Antissemitismo: a doença troca de álibi",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9iSjJUQUVEa3h5NXFUdWdRN3VhbDNmNWtKb2g1d0J4eHJieGx3aVN5Y1gyaHhvM01NVXpqNW1QdGZIOGlmbmxJUVdiMWpScGVYdFA4NWZpMjVrUm5ZR0pEUnlkWllNQQ?oc=5",
+   "fonte": "Revista Oeste",
+   "escopo": "br",
+   "publicado_em": "2026-09-26T17:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Antissemitismo e as origens do Judaísmo: uma conversa sobre história, identidade e memória",
    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNOUdpLXdvUUs1UngzOHlLRFJJUlhjWVRuQXppUzU0cUlzQVBsM0dzdmd5SEFYMk1VdGxwWlAzU0JUWW15ZGVmcDdwbUItYUctSkk0bktjVllrcl9lUnlGZWtDZUtoY09iSFIxX1pqMVllQkhFUmliSERkQ3ZIb3pkQVFrbDVLS0IwNHNySHB4bXdYblpzMlV1dFFoZVVqdUpFUFhUT3FLUl9yQ3NlNkREb1RoNVRXWHNGVWc4QUZTLUh1RmJ2bDI1aUxfYkdFMUE?oc=5",
    "fonte": "Confederação Israelita do Brasil (CONIB)",
@@ -192,6 +342,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "Le Conseil des juifs d'Allemagne appelle la gauche radicale à Berlin à bannir l'antisémitisme de ses rangs",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNV1hUVUhOVm1sLXZsYm91OXk5bDg5dVg1YkQ2dk8yWmlRYTBmSHYzbDNhZmhaLUh5Q1pMbmpNb0lPdk9PT1BKcHl6NkF6Z0pKYTNxTXhHcnJNYUUwRlcwckktVVMzeVpTVTZQRXBLYWpCdE9qTWpiSjBJbUJldVdzZFUyQ3JJaXJ2bHd2WGxId2RaNGtOV0ZUS00tRDE1VHVHX09qU2RYTVlkbEpIdlV6bW43aldENmdZY1RURU03MGZLTkUtRk9rZVBwVlBGRmlKalo2YnNoZl9EQUZHcjhBQ2ZrRlN4c3BYbmFz?oc=5",
+   "fonte": "actu.orange.fr",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-25T18:38:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Jewish languages meet in Birobidzhan",
    "link": "https://forward.com/yiddish/852251/jewish-languages-meet-in-birobidzhan/",
    "fonte": "The Forward",
@@ -200,6 +360,16 @@
    "via": null,
    "feed": "fwd",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Wesley Mendes defende combate ao racismo religioso no ambiente escolar",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTUJ1VWZkVW1sVThCLWFLTkpFWTR3bVJIenZYc1JMNXRQbmdDREtocm5UZUNKTnNUTnFRa3JQRGFYdy1xcGkzRVA0UXVmSHNxbUhVZ2oyeS1QbWxrNERXbFJWaTJpSjM0NVBWM0V1ejRIdHc5S000d0lwMUpjdl94M3IzbDY0UGZNZ2NGSW1hSW9xU0Q4Y2xENnloSVRaOXM5c2hRWWEwb3RFcGY4OHM0?oc=5",
+   "fonte": "Farol da Bahia",
+   "escopo": "br",
+   "publicado_em": "2026-09-25T18:06:25+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Does Sukkot Hold a Lesson for Fighting Antisemitism Today?",
@@ -242,6 +412,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Allemagne. Antisémitisme : victorieuse à Berlin, la gauche radicale sommée de faire le ménage dans ses rangs",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVzNWSjBhZFBuSzhqMi1yMDJhTVBSM2FNVjlwSUs3ZXA2cHgxOE5SdExzVnlYeklPcFR2N0dSRURET1RXZ2NYc1JqMmZlcTM0SHlVY2pkbjRMX19Kdk5zOWlGRVhZWnc3Zm5UeUMwWktzdTA4NGFXOXYwOVNlVG9rOXlzTWpUaG81Z3g5Y1pGaTR0aXZDTFZlbHI0X3lEbXBKOE9BYnNIU2tpZ2pMM3VKb3o1cGxfa2p6aGJCWHdBdzhYcGFUdV82MVEwR2NXSTZtV19CNWs4YVctQQ?oc=5",
+   "fonte": "Le Dauphiné Libéré",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-25T12:45:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Coordinated Displays of Antisemitic Hatred at UN Protests During Israeli PM’s Speech Raise Questions of Foreign Funding and Organization",
    "link": "https://combatantisemitism.org/cam-news/coordinated-displays-of-antisemitic-hatred-at-un-protests-during-israeli-pms-speech-raise-questions-of-foreign-funding-and-organization/",
    "fonte": "Combat Antisemitism Movement",
@@ -250,6 +430,16 @@
    "via": null,
    "feed": "cam",
    "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Allemagne : La communauté juive appelle la gauche radicale berlinoise à bannir l’antisémitisme dans ses rangs",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNV3VlYjNZdy1hM04xVF9udWdlbVBoN2RBcXMxOUtVdHg0MzZ0enlxUmh5d3dvY3pfNkhocGtncDNKVHUyTVRDWE91Qm8xX0FfOWR0SUR5ZzdYd3ZCbTk3YWdpbjRTN2IxdWx6TVE5UkhnZS1IVjQ5QUItQ2JBa3g3bHBKaXF0Mko1aEVHSlNBRFljMnZGZllhRkNTUFNwSmN6N3MtenUybG9meGcxeW5UTVFzQ1NmNVRWNk1vQTVIQURBUFBjSFdyaWd0SFN3T2V5ZlE?oc=5",
+   "fonte": "20 Minutes",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-25T12:26:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "\"Slumlord\" files another antisemitism complaint against Aurora, this time in federal court",
@@ -310,6 +500,16 @@
    "via": "Google Notícias",
    "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Police label shooting in Belleville, Ontario, a hate-motivated attack against the Jewish community",
+   "link": "https://forward.com/fast-forward/852152/police-label-shooting-in-belleville-ontario-a-hate-motivated-attack-against-the-jewish-community/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-25T00:25:14+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
   },
   {
    "titulo": "More than 350 cultural figures slam Spanish festival for canceling a Jewish novelist for her Israel views",
@@ -509,6 +709,16 @@
    "publicado_em": "2026-09-22T17:32:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Violência contra terreiro de Jurema acende alerta para racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNd2NPNHAxMExwRFJaRUk1Vm92aHdOYUtpVFJQRUg3el9hanRtX2F6bnViS2tvS2hTdGVNbjd1TnlISzRqVlN2OFowUVptSk5HUnMtaGdYd2xOTklfRWNlQmxYRWtWSkxHT1FVUGxFWEk5SHFhRnRsU3NPaE1yMHBCSTNUNTlRdEM0aWdHYUFmeGVZdXFWNjlxX1NPZzJiUnNhM3gtOFlyQmV6OXJwNTB4ZW0yT1BlbFM5bHVsZmdhUWdHckcyMHZfNktYTlB0RVJRRmIwZVp30gHkAUFVX3lxTE1OMm5QNUdqZWRTRjhka21SSnE2bEMyaUJuUkpaalpNNmZyUG1vNDZxaVQxNkNoVGlYY0NsLTZVcmswXzNuejUzODdVUUxZVzAxMEkzdWx6WFFVRUhMWWtONjJETmNib2VKbU9TNDY2b2hrMGdlblpDMndNTmFGR1EtclNMSW9MM21TMWlNcFBxaWRoSkFxNnBvektzSEM5a2g1M21rV3cxRE11dl9qQWRYOU5YV2NhWTNydlNERGJHaGsxVGI1RzFHSkpuc0xYZXpScXVBSkFLOXRDM2dGN1RldHB0aA?oc=5",
+   "fonte": "G1",
+   "escopo": "br",
+   "publicado_em": "2026-09-22T10:56:50+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
    "categoria": "Radar por palavras-chave"
   },
   {
