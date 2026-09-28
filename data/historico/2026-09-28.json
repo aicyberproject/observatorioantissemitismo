@@ -2,15 +2,155 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-28",
  "semana_iso": "2026-S40",
- "atualizado_em": "2026-09-28T13:36:08+00:00",
+ "atualizado_em": "2026-09-28T20:28:46+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 94,
+ "total": 116,
  "no_brasil": 21,
- "no_mundo": 73,
+ "no_mundo": 95,
  "itens": [
+  {
+   "titulo": "Prosemitismo: elegir ser luz",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8xbjI0MHJvUnhyMjdLV1RHWVdTVllPakZZa0JHTXg1Mi1NaWZDR3RUZHpGT0RDWVVvTnFONFA4UWZNRzN1YXp2VUVFMlF5bnVzSlhVTElHeEROU3B2VjhSNFFxMDk1MnNxdzJncGFZUU9acXdvZnQ4S1k3bHV1STQ?oc=5",
+   "fonte": "jns.org",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T20:15:23+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Más de 40 países se ausentaron de la conmemoración de la Conferencia de Durban en la ONU por su historial antisemita",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPZlgxemhBbTgxenc2WUYwcVdMbnpsc1dHNW1CTDI5SkJlcjJQRkotbElybUd1QXJ1Z2ttbER2RlVRa1hCanZXdHNwbEc2SWVOdzdPWDRYQ2ZINDFUNjk2LWFxUzFOR0ZpZDNVX25BNklWei16dGRjRDZLeUVWcnM3d0lvMUk5dkt1bG9KM2xKX1lYcks1dXpBSk5OXzhUM1hMbnlGYXZRaUhrZ2djQThpV1lwZ0JBQ3JJMldMVWJ1cFZkaXY0NEFWbHljdlF2NHY0dFJiMU0yeDRCUW5KY3JOR043RV9rMV9sNlE?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T20:10:27+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Jewish TV star Adam Brody calls Israeli actions in Gaza ‘genocide’",
+   "link": "https://www.jpost.com/diaspora/article-910011",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T20:05:18+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Accusé de propos antisémites, J.Bardella dénonce des faux",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTzc1emVHZ1p2MXl2ckk0VHRQSWVXb2tvU0hoaXEwVURlZlg2Z2hjUHFXQWEtYktCUkYta1ptZExCR2NYZ3dNcmlqWUxyblhDZ25fZXRIaWtpMGlLSWpIQklHOE5US2pONDY3X2NtdFdmVGZkeFQwUE9iM3BUSUFLQmlOVDNsZ1JZTFByM01DZUJBaTlEZFllbkxWa1NDbllxUzNGZTNsUlAwdVByaTNVMGlfOTRFS0Ri?oc=5",
+   "fonte": "franceinfo",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T19:54:09+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "French far-right leader Bardella denies media claim he made antisemitic remarks",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-910008",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T19:33:39+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Écrits antisémites de Jordan Bardella : « Le RN ne considère pas les juifs comme des sujets, mais comme des objets politiques",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUUZ0bFNjcGVDN2VOTG9hSnBuMC1hZkxqUzVialhVMUdkb0tzZHhaLVd6OHVGamxMZzBNb2NjbU11QVVUR05rT2ZSb2hpc0ZmNDNQRUhwY3lpcjJ2QW8wTExtRXl5Uk9VZnlGMm5WQ3hKLUpYdzkzMlZwYjdmTkJDQ21vTTZEd0lPXzJSRTZuYlotTG9CaGwwaENwUllvNE9fMk1lU3ZHY2VxZkN0U3E3bGlUVm9uTkEtNF9KQ2NHLTJITEdlQlZmYXU2ZDhxQnpOMWx4ZV82Z1pSZV9HNk5CMUd5dDF0Ykxw?oc=5",
+   "fonte": "Mediapart",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T19:28:15+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Écrits antisémites de Jordan Bardella : la haine des juifs, ADN du RN",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVXVPel8zZXNuSEczU0ZNaHRVT1Z2SmtyS1ZtdXVxeXN6SnJpMVdhQmZGR0EzalBmYUQxRFVWTWVWbC1vUlVrR0F0bkxnc3QtaHRWV01JamkzMTdpckJjYUVDM2ZNRjgyd0paX0g2NmRjTG1jV2J2QTNIQnV3dzFzMzJqMDJVbEFtWUJ6LURfNm5HR2NFc3FoS2lzdV9wbTUza01hMGtLSEo1NXQ1UWlZLWRrd3c?oc=5",
+   "fonte": "L'Humanité",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T17:56:24+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Albanese apologizes for misinterpreting Nazi camp term away from original meaning of Jews",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-909993",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T17:29:21+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "\"Antisémitisme obsessionnel\" ou \"barbouzerie\" ? Six questions sur les propos attribués à Jordan Bardella par Mediapart",
+   "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPZkhzcm4yakJKTFF5Nkp3RXZLZGZERDIzM1EzSnNkZ1NJTUNmZUc1MzVHcENQdzVDUkx1TlFjQjgwUUdlc0hESmFtVUJCMlBtamV5eUl1b1AzeEYtVG5HWFN0TVY3UGNzUnV0UUYzUTF6MlpZWlJGTFJyQnA4c0J2c0ExelBnQUcwQVNuU0RhSm9NVmFvOEt5dmQyNkVzUXRSU1h1dG5idFZfMElocmdSckxfWVo1bjJ5anNaNHpNWWhpRFpfVnlZZUVGUHR5ZDFQVWJCUTlOZkVQTHdGcnk2dDQxX2RGNWhDTEVkUExLZ3J5QW9oOU12S0w5ekFHMXJPNUdWSlppRQ?oc=5",
+   "fonte": "franceinfo",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T17:04:51+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Undercover CAM Reporting Exposes Open Support for Hamas Terrorism at Dusseldorf Protest",
+   "link": "https://combatantisemitism.org/cam-news/dusseldorf-demonstrators-including-hamas-headband-wearing-woman-call-for-israels-violent-destruction/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T17:01:47+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Could a convert’s kid play Jewish geography?",
+   "link": "https://forward.com/forward-newsletters/looking-forward/852485/could-a-converts-kid-play-jewish-geography/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T17:00:58+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Bibi spoke truth to antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNT2NrdXFWYVlBbG9jemVhVTNZSHVwZ29fOWZlV0o1eXdDeTlvbi1jblNTWmU1MWdReElYZlluMUNzZ0VLU25zbHFNQ2dyTldON1V4TTdFZ2w1RFUtX2NjM3B6OVRzSG9BeTJLaEVweXE1NG1oYVpjVVdVYzE2Z1ZUY2I3MTY0cEoyd0tKbEp3?oc=5",
+   "fonte": "JNS.org",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T16:46:16+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Bipartisan Federal Report Calls for Stronger, More Transparent Response to Campus Antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNaEl2YjRFWkloVEQ5NmtKY3ZLRVBUQ2xOR0hDUVZzZGYtZ1Y5aGxDYVJZYkhLdDFZSjlXc3VQdkVwTEVLQVVqU0JFVzVIV2tzdm96QTJkOHN0RlJYRFV3cW9DY3lrSjBmbDRsOHBfemE0cnNlRDI4ZmVTSzV4amxPOEZZOHRkOWRwQWFtSnRUNHk4M0g4TmxISDdSVkxENDJiQ1o5aUFUTGF0VFF5b1RubWxBVDVTNW9LclNIREI5b0NJNHhpakVTdXlzZTNvOTZ5bE55WHhwWFZwNFlvZHdyR2NnTQ?oc=5",
+   "fonte": "PR Newswire",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T16:30:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Herzog speaks with Jerusalem Reform synagogue leaders, personally checks in with police",
+   "link": "https://www.jta.org/2026/09/28/israel/herzog-speaks-with-jerusalem-reform-synagogue-leaders-personally-checks-in-with-police",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T15:46:51+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
   {
    "titulo": "Jewish establishment heavy hitters are joining J Street in sign of changing times",
    "link": "https://www.jpost.com/diaspora/article-909985",
@@ -20,6 +160,16 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Senadora Segre pide aprobar por unanimidad ley contra el antisemitismo",
+   "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPeTFYcWNENWp2YVNRY1puZ3RmejdmQnhzWm1yT28zekxBazdReERfSFNXeEZpa0FrcjM0TkhFQ2VaWkYwYjEwbG9keVFVWkhZd0U0QkpBbllCbHRCUFljbU9DNExVMDAxQ0JfNjl6RF9ETTItaXYyRUhySk9LWDJNMzR2NnMzNV9yZGc3NktYRXY5djQ3Y3pDaW1oSVQ2ZjNBbEVrcVJ4T0swYTVLeEVPYzdSUlBOQlpNcVdqZWhMX183dXAyUVJGTWxQU01xZ3Fhc1ZHTmNJdG5MR2x5ckl2dEZSbk1iU3cwV1ZXbmllb3pqRWFwRFh6UnlCWERmWDhBcUlubWl5WkdjTzdaaVHSAZMCQVVfeXFMTzhrWjFNdlFSLUpodnMzYU9GVHV1Umx0MmhTeHlTZC0tWTF1bTNLbDZYb0g0SWJLX0lwM1BvNmxxc1dERVE2YkdyYTV4NzlSZ0o2djMwNjRlTUtUNEhIdklFcjFxbUdYU3ZFclJTUWIxbGRSVDRFM3hObFhqbnBzdEJNbVkyUlY2cDdSVzZYekVOaGUzbXo3dktRNkU1VHRlWlV0YWs1SFM2dlloN25NMnFQUnZVa05ZSEJlWGdpRkJTdXNxbm1JQ09LbjZuOWt3dldlck5tRDhna2huSVFJNUFyUnpQbWpra25tMVRJNERTWG11cWpwLVBmRWN3aHZLLTdYdmRVcXQ2bmstamQ5NWlxZlk?oc=5",
+   "fonte": "ANSA Latina",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T15:18:32+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "B’nai Brith Canada calls for armed security to be present at all Jewish institutions",
@@ -32,6 +182,36 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "Man Hurls ‘Genocide’ Libel After Defacing Israeli Flag at Swedish Book Fair",
+   "link": "https://combatantisemitism.org/cam-news/man-hurls-genocide-libel-after-defacing-israeli-flag-at-swedish-book-fair/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T14:08:20+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Austrian Restaurant Accused of Refusing Service to Israeli Family for Being Jewish",
+   "link": "https://combatantisemitism.org/cam-news/austrian-restaurant-accused-of-refusing-service-to-israeli-family-for-being-jewish/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T14:06:02+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Jewish star Adam Brody calls Israeli actions in Gaza ‘genocide’",
+   "link": "https://www.jta.org/2026/09/28/united-states/jewish-star-adam-brody-calls-israeli-actions-in-gaza-genocide",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T13:47:04+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
    "titulo": "« Les banques sont toutes détenues par des juifs » : Jordan Bardella face à ses écrits antisémites",
    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWFBXY0VIeW1tRUlDVDJ4Tm16M3JnZzhkUnQwUXlSdnhCdUNmT2NHbzNXT2ZqcEY1OTlIVVoxRFBWeFpKdnM5SjZSYUZxV2pYejA2MTBIdzFDWElZU3FyTFVELTFXY1ZjWFlfRzdicWxpWlVsWnFkanlmbHZPWUJfcG1HZG9LX25mUGZweUtBb09hVFBZdlBCem5hZ2VhQjA4d3BlVktwYjc1T1dUX3NtcG9lcVA4QmRCM3lfV2I4VlVFMWh6VGVhWnIzdHhWaVdhdWM1UTdXTQ?oc=5",
    "fonte": "Mediapart",
@@ -39,6 +219,16 @@
    "publicado_em": "2026-09-28T13:27:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "UN's Francesca Albanese claims Jews in Nazi camps were called ‘Muslims'",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBJS0VuVlI2dTBqRWNPdjBxNDQya0ozcWVSTVRXV1NJYmJzdl9VbmhkUU1lUDB4Ml9kRkxqMjg3VFhBVHNiT2pjc21LNUs5Zml6Y2g1allhRkF2UktLd0pmeWRMV0gwSVd5aHc?oc=5",
+   "fonte": "The Jerusalem Post",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T13:23:19+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -172,6 +362,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "Ohio Hospital Network Fired Jewish Surgeon After Years of Antisemitic Harassment, Federal Lawsuit Alleges",
+   "link": "https://combatantisemitism.org/cam-news/ohio-hospital-network-fired-jewish-surgeon-after-years-of-antisemitic-harassment-federal-lawsuit-alleges/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-27T20:09:20+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
    "titulo": "The Problem of Gendered Antisemitism",
    "link": "https://fathomjournal.org/extract-polarized-why-american-jews-are-divided-and-what-to-do-about/",
    "fonte": "Fathom Journal",
@@ -200,6 +400,16 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Assassinated Hamas Leader’s Former Bodyguard, Given British Citizenship, Accused in Terror Plot Against European Jews",
+   "link": "https://combatantisemitism.org/cam-news/assassinated-hamas-leaders-former-bodyguard-given-british-citizenship-accused-in-terror-plot-against-european-jews/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-27T19:12:29+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
   },
   {
    "titulo": "US government sues Ohio hospital over wrongful firing of surgeon for 'being Jewish'",
@@ -240,6 +450,16 @@
    "via": "Google Notícias",
    "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "More Muslim Americans Surveyed Blame Israel or Zionists for 9/11 Than al-Qaeda",
+   "link": "https://combatantisemitism.org/cam-news/more-muslim-americans-surveyed-blame-israel-or-zionists-for-9-11-than-al-qaeda/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-27T14:12:10+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
   },
   {
    "titulo": "Stephen Sondheim was Jewish, but was his a ‘Jewish Life’?",
