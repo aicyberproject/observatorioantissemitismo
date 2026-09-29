@@ -2,15 +2,85 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-29",
  "semana_iso": "2026-S40",
- "atualizado_em": "2026-09-29T01:43:53+00:00",
+ "atualizado_em": "2026-09-29T08:17:17+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 68,
- "no_brasil": 18,
- "no_mundo": 50,
+ "total": 77,
+ "no_brasil": 20,
+ "no_mundo": 57,
  "itens": [
+  {
+   "titulo": "Acusações de antissemitismo: Jordan Bardella apresenta queixa contra o Mediapart por difamação",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcTAyb1F3X1dpNVgwX1ZyajlnSkdfeDhoOVdDa2M3UGNObTZFS2VHU196dzdaWmh5Z0YzaEJEMHJIaVdKN2dWdlR3Z3RvVmNNZk9teENnM1R1MmNmSlNwT2p6ZWNrdFhuUXlwcDFaWlE4UXNidnNpRkQzVWxxSmtKRG9ucVZncl9UcTQ4OEJrRFp0bzlfR0NLaWROSVU3MmlZMTZzXzRBdzAzSzAyLWN3U051Y0JCRGJGZGhUTVRvTURfVUU?oc=5",
+   "fonte": "Euronews.com",
+   "escopo": "br",
+   "publicado_em": "2026-09-29T08:10:32+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "[Rencontre] Anna C. Zielinska, référente racisme et antisémitisme",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNXJBRFJlN243UWFicEZrd1NNZkxqOEUzYmtpaDJudmNFajlGSVZ4cEU4dUYzOGl4bTNnLVlHcUg0RmhlQlZ1NlFQM2NtZ1FFRGd4WHh3QmNFZ0RESGM3NGgybVdqM1h2WTdZNEpvUGRnZFNIX196UVdfNTJjcXNsVXhablZFWUJwZUxiR3hKVU5VdXVtNzktOWNwU0dvUnVOMWRCUGJR?oc=5",
+   "fonte": "Université de Lorraine",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T07:45:57+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Emiratos. Netanyahu se habría reunido con funcionarios de países de Medio Oriente con los cuales Israel no tiene relaciones diplomáticas",
+   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPVzRMTERkbE14Sk56TG5FcTMya3UzenhsVTFNRWtDNjhuME92T05WVHBtc3FNNEpNQzJUSzJMSGpTNXlKVlRUSTN5N0xFXzFtanNicExEcHVtcFVyRkJGUmdQVnZUbmZjcHdEV0d5Y0pZNmV1bXlGSEJoX1ZLMmp4QzZkRzFPMlJoLWFZU242T3YyQ1NqTGpKM1hfYjFyaTNrYnZNWjVmaHRtVzJSbVVWcXVoWGVKUVd0LUxZUWdkUk5OSVlyNDZHeHd0cjdDcDJXZWI4blFocmxoZTNHWVROM3F1elc4ZHhfMVdjYU5JREI0UUJnVXlB?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T07:09:05+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Department of Education opens antisemitism probes in California and New York schools",
+   "link": "https://standwithus.com/news/department-of-education-opens-antisemitism-probes-in-california-and-new-york-schools/",
+   "fonte": "StandWithUs",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T07:00:52+00:00",
+   "via": null,
+   "feed": "swu",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Jordan Bardella accusé d'antisémitisme, lycées bloqués et Starship was meant to fly : ça dit quoi ce 29 septembre ?",
+   "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNMFEwUzdZTjdla0o3M3ZxUkVPYndWaHZvMEE4ekVkT08zYzZoZG1xSHhXNm5QVFBOZkNuOG5FY2xxTDQ0clNHSl9tempnSGNncXBzRUtkTlpaM1p1VkxsOFVQb3h4NHFSWnJBMW9UNEFWNTJkR3BmeEhEcVZMMUIxNFNNU0xDZXJJMUdoeTZvUWNxeXRsV3pSanp5dlpLa3hCODI1WHk0TDZ3VlFrWFM0cEdGTUdIWXI3NU9yY1QtV1RHUi00X1Z4M0JhQ2otWHB5ZmFEWHFUdU5ITUFHOWlBbHZZTUVWTGR3blhZd2FWWmw5NFp1Wm9Ha3JkZmhxU3VYZ1NNbA?oc=5",
+   "fonte": "franceinfo",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T06:57:01+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Pa. House Republicans ask AG to investigate Philly School District over anti-Semitism",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSzhMNzhhbk5SYjJoYndOSWlmbzZEcGFKdFZQOF9ncVFDY0U0Q05pSWRMdEliTl9DYmFMY1MtS2d4VHZVLWw5cWRiNWQwWlFsMkVWZUVXTlNkRV9HOGVYN3VpYUFYUVFhZUZURDN3bFIwREhvRmhFOWZ3LVhqY3hQR0s5cHQtcmNCbDNIT1RKdGpPa0I2QTVUSmN6cTVhbmZkdzZiSDhJemVPckFzSmdfSHg0UGJzdnB4MTRzTUxFaHdKbXFVMi1xUzdJdGlVOTJSNUHSAdoBQVVfeXFMT0hHd2RmRXpGeDE4RFBFNmNHVk54a0tsVzBOY25Bcl9MZDFWZkx1cUZQQW1Kbnp3bXkwdWJaN1BLN2Y1b3BHbjByaE1pZEIzSkZUM3NVWFZJNWJEY2hKR1VZdnpLcTZZTXh3Z3VUTlRtNEFPd0RkUWkyWnZtSXJXckVvVEdqSm9UeFhNZVkzZlZzQmZnSWFXRmNJZDJfMHlGTTYxR1V1Y0JTWmRkbDk4SWRzdW5yR28zdmw3S0U0Q0lxWkU1NjNncm1tOERRZ3dReEhfNWtWY0staXc?oc=5",
+   "fonte": "NBC10 Philadelphia",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T02:49:57+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "The Blogs: Antisemitism and Literary Joy",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0xNDdlU3ctZHBpQVVOd0dwN2VaZ0g1MTU5WW54WEdxR255ZGNQZUxod1kyd3RJX1A5QVotb0M3ZzBvNmV0UGZaM1dtRUZxTE01dldLLU9ja3J3UTFMdndQQm5KSl9JVm90SWhwOHpoSQ?oc=5",
+   "fonte": "The Times of Israel",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T02:10:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Jewish leaders urge Montgomery County school officials to combat 'skyrocketing' antisemitism",
    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaHEtLWdjVmprTUVVbFVVQkpKamJjVzBXQWo4RDNpaHZDa01Bb21FTWRKazB5ZWJvMjlxX2lBMXlTQlZXMDhjSGxWdGFpcnJFeUtKeEhTaXkzWDJuNm4wUkkyM0hwX0RMc1B2ekdLLUs1b2tzcnRSRE9jZnljS21FS0R4OFVNS1Yxb3ZBUnJRbXpOX3FYd2c?oc=5",
@@ -137,6 +207,16 @@
    "fonte": "TF1 Info",
    "escopo": "mundo",
    "publicado_em": "2026-09-28T18:55:15+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Sous le masque, l’antisémitisme intrinsèque du RN",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdFVzSWhOUTdWalM3WHdTeER3M2ltNnZwNmFzT1hKeVNfS1lkWHVhWUpudHFjSXhwTXZJTnhjMjRGYVhxWExFQUJlSDZlanBma1lUTEktVlJ5RzhzRUpkQVpkakkxQjRERV9lc2NxbnVWMzBSazJHNGl3bzYySndpMFhPcEd2cDRNVXM5MFNxT1M2MVdHelVoWXpn?oc=5",
+   "fonte": "L'Humanité",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T18:21:14+00:00",
    "via": "Google Notícias",
    "feed": "radar-fr",
    "categoria": "Radar por palavras-chave"
@@ -367,6 +447,16 @@
    "fonte": "Confederação Israelita do Brasil (CONIB)",
    "escopo": "br",
    "publicado_em": "2026-09-25T23:26:15+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Antissemitismo e as origens do Judaísmo: uma conversa sobre história, identidade e memória",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPeFZ5azRTb3QwbmtENjlFbHBkUlc3MlpQQm5hc2x3cUZ5c3o5T0Y3Z1Y1THZxWmk2N3QwMVlGMjM5SEo0NXJSMU4wbGVrbDF4aDNMaE1CaFJVRDRJSHJoaUl4UGp0RjVaU1RlVWRibWxLcVFHX19VSXYyUFpXMENlem9MWE5XVjVZM3dCUUZmLWNwUjM3NlBVdV92VWN0RGFEU0ZDcVQ4RFdidmZEMzVDRDRZdDZnYmllNFZ5eFZZeFFYYTlBbEd6Y21uTzB3dUItSUlMZzk1RGpnaTNCVFE?oc=5",
+   "fonte": "Confederação Israelita do Brasil (CONIB)",
+   "escopo": "br",
+   "publicado_em": "2026-09-25T23:21:40+00:00",
    "via": "Google Notícias",
    "feed": "radar-br",
    "categoria": "Radar por palavras-chave"
