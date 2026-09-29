@@ -2,15 +2,125 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-29",
  "semana_iso": "2026-S40",
- "atualizado_em": "2026-09-29T16:27:03+00:00",
+ "atualizado_em": "2026-09-29T22:08:14+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 107,
- "no_brasil": 22,
- "no_mundo": 85,
+ "total": 127,
+ "no_brasil": 26,
+ "no_mundo": 101,
  "itens": [
+  {
+   "titulo": "Dutch Jewish leader warns of growing pressure on Jews after Netherlands sanctions - interview",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-910128",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-30T00:37:26+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Prefeito de Nova York, Mamdani anuncia medidas contra antissemitismo na cidade",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTVduNElCQ1FQWWttTUVvTlhLM3laYzRwZWd3c0pPN1BfT2o0ZHNpeXZkQTVqS2c0U0pvaUJpVF9RbGlwMnhpel9la2tGTTV2XzVZand2NDQ2LXJHNC1vV1FvQWs4ZjMzWi1VZUVlQW1EZVRHbC00Nl9MQzNSYV9EUGRsY1RXQVRpTTNvUWpjLVB4dnBCSkZNc1ZoSm85NW92R0hTN3lSallWcmhZbXp1WmlBNV9WT01hbkRKY09uWUFKY1BZVjVPS9IB1wFBVV95cUxNM1E5ZkQ1X2tqSWVSdERmSmNnZ2xERExITWl5ekgwYjdNdUhqQmNQQnh4ZzNfdmRwUFFCQ2VUOExhS05vUVNERHQxQ2RJTllDOFYzcDRnb2ZaX3hudTJjb2ppN2JHM1dpSmsyajMyaks0Mm9uNmdWWTdEOF9tam9yQ3hvcDV2OUIxVFRvLUJkb01QUlFOX2twb1RqX0lLcjlqZjIxalhfSzRpem1BODF1MWFoUktRQkdLTDJHVU5kcUhwTkRaVTJPUXl1ZTlQeW4xZVVCeUlvaw?oc=5",
+   "fonte": "G1",
+   "escopo": "br",
+   "publicado_em": "2026-09-29T21:59:58+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Prefeito de Nova York anuncia plano para combater o antissemitismo, evitando citar Israel",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZFRsNWpTUUNhVURnRXVQb0k1R29VYjlMc09IeVpuV0tDRExxa25zdWo0NGExX3lncGpDaWZxRm1pZ0Y3dC1EYzRFdlhVVWNYd29BbTdTMG1DNkx1Q2QtakdQbmJkTG10ei1SQ1NkTmlCLTViWjlIUjdSc2Q2c2FaSlV2X29TMHpSVndEcnFPMThha3U0ZjBFR0puZ3hwVi04ZmhpWnVfNUNhdXdCdmFyQkM1SG51LVBYaXdDMDYwSXVSbndNWkhxdVBaN25PVnQ3Ymx6V25FMWxNc3hP0gHrAUFVX3lxTFAxZ0R3bS05NG1fMkhsWW1ZQzVyRFB6QzY2NFJTMkZMNUV5THJuQUJNUVF3aV9LVkthMEZrcXg4WXNtSVNvTV91cnFuYzlCS19mc0FuQnpKdmNSaXNYc25HSld3WWdvRjc1SEpQa3V2RG5iR0hLZnZ6c0d4Y3o4YzYxS0xMR1pqallEQmI0S3pNM3pQMW1jYVprTExWeE1lalVtWGNPYk5UdTA5QXNtTTNWal9QWUdKRldLcHpyWGhRS20tbHBUSUlLOWZoVjBjb1NuM2F2Z2VRR01QOWlfbmZGc0RBeEJoVzN6VGc?oc=5",
+   "fonte": "oglobo.globo.com",
+   "escopo": "br",
+   "publicado_em": "2026-09-29T21:52:50+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Polémique. Un ministre israélien vole au secours de Bardella après les accusations d'antisémitisme",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMDlRWVM5MG5obmo2Ull4SVpENzN5N0ZJVWZZNlZkTlRfSnZjdVVyQWtacTNjaVhPS2xDWXBlQXQtV2x5Rk5zM0NGdEpITWdkc3RxQzBFaUNXa3hBNDRObmRIVElMM3dXaEx4VThXRDZWWVRfdmliZkJ1dV9RMGsyLVlVSmxkMk1BeDJ3OVVYaloyaWd0X2dFZFdvSjhxMzJaNkxaNjJjT2lWTVdnNkd4R2FVMFFHQk1BRzFMWDYxMDRRS2xCbnUwY0p5RQ?oc=5",
+   "fonte": "L'Alsace",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T20:02:31+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Ultradireita forma bancada no Senado da França pela 1ª vez, em meio a acusações de antissemitismo",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQY2J3aHJSTl92V0R1QVUxZW5OcWNQcGFQdTFEYjBKV25CMWgxcWo2Q3MtU01qXzMtU3paRWhXUVFpSzZrd3ZCLUpfVGgyTm5lcTRTNGF3Ykp6VVMwV2RRSmFqWGc0RjBmVmo2U05aQzU2aVlKVEJDLUdPeEtxd2dkb0ZRbmczWGpLY0tHZGl1MlZnUmp2dTU1SEtVWS1VNDkxT1FBNncyT0xZYXpZMXFIb0RpVTdITVFuakVjNnlOV2dKSjdSYVJ2c1RNQ05RVWYxX1J6NndRS25LcUItSFVN?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "escopo": "br",
+   "publicado_em": "2026-09-29T20:02:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Mamdani releases plan to combat antisemitism and hate crimes in New York City",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZ1d1QmR0MmVqcTlCSEx0SzZNRDRDWm95Ykp0N21aY0puWW85T2dkWFNZVTVtY0VEZDNaQ3NLX0htd2ljbE9ZN3oxZHk5aVJiTElmUXh3U25sWVJQM05xV212Y3V0UmZ5WUVQa1pwZW90TjMzZklJWVpUZ1VFTTlGaE1Bckd6YXdoVDF5bjAyX01sLUE?oc=5",
+   "fonte": "The Guardian",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T19:57:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Mamdani anuncia medidas contra el antisemitismo en Nueva York",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQd1JEcnMwMnRTUFJmU0VRX3F4WWhWVW5YQi1rSHBDX1JiMDk1SVNTSW9qd20wanIyTXNuemlHRXF0cmw2SW1lTVFRWlFKT2Z5U2RHUnZkb0pBbklBUGpwY1hPZ2p0X3NIQ29NT3hEOHdidE90Q3UzcEFpZjJBR1ctdk03RkowcmVOYjJ6anFFNGk4eV9LOXBUTlZXRDluUVdtNENPeHR4bjV6bmZEMmRtX19RMko5amti?oc=5",
+   "fonte": "La Nación",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T19:56:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "UK Palestinian Refugee Plan Draws Warnings Over Radicalization, Antisemitism",
+   "link": "https://www.algemeiner.com/2026/09/29/uk-palestinian-refugee-plan-draws-warnings-radicalization-antisemitism/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T19:53:32+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Mamdani anuncia plano de combate ao antissemitismo e evita discutir Israel",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNclduWHg5Z3NOcUViLXhJMG4yNWVBQW5CMElFQ2hVUm5SaHdsTDB2b2dSY2JMZzZjb09teDJEazJwOWF5U0VBRFlMNWJoZG00MjlMbHRsWm5yXzFtRnlPbml6X0lVQWJFeFdMNEIxMk4wN0pOTVV1WDIxNHdyRUI3R091MWdrUUNySlQ3ekI1aHhTQXZTRXRROXRSZkVxZG9WMFBXQnM3cWdOV0Y3WWdpbXlLMmVnbk5VbUp2dXl6YUduQQ?oc=5",
+   "fonte": "Folha de S.Paulo",
+   "escopo": "br",
+   "publicado_em": "2026-09-29T19:46:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Mamdani unveils NYC antisemitism strategy with millions for security, hate crime prevention",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-910107",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T19:37:00+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Mayor Mamdani Unveils New York City’s First Strategy to Combat Antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUHd5bERsRE1iODBpSVBvVFhRME9aV1h5ZnJGSjZpZE1FLXFpQlRvLU5uMjlkSFZ5YVo4ZHE5OVhBQjNpVzNjcHpQbS1tT1NzQm42Q3FNbllEWTY0NVQxbVZ0SjlGU3B4dTZHRVJFb2NuaVJrb1hWbERNZmd4WV9yUjZtdy1FWUtyUmFWZnY3bXhkdURmNDlWbTZ3WDdFYXkwZFUtS2UtaWEtckNtUkpMRg?oc=5",
+   "fonte": "NYC.gov",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T19:18:45+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Michigan Democrat leaders join Nonnegotiable campaign pressuring El-Sayed on Jewish safety, Israel",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-910098",
@@ -20,6 +130,26 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "French Far-Right Leader Bardella Says He Has Filed Lawsuit Over Antisemitic Remarks Claim",
+   "link": "https://www.algemeiner.com/2026/09/29/french-far-right-leader-bardella-says-filed-lawsuit-antisemitic-remarks-claim/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T18:30:04+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Mamdani, an Israel Critic, Unveils Strategy to Combat Antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLTJZcHZXUzBSZldkbUZodWI0ZGhVR3I0eEdIR2pzLUVpems1WVNscjZRUmdQM1R4WXo1WVFDR041TlVNaTZDY2Y5N3ZYbzF3U0pkR3djM0VHVno3VnhPTTVDaUxfUWhZbFBsTV9xNmgxa0JoQnY2bUdXazM5QmR4eFJoTzBfVmdyZ1dDdV9lSzRvbU9rd3ZmVlRLaWs2OTRnbTZyLXpCd2EtWDYwUVRyM3JVRkQtbm94UlIxeS0ybzlFdw?oc=5",
+   "fonte": "wsj.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T18:02:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "'Pressing concern': US commission on civil rights releases report on campus antisemitism",
@@ -40,6 +170,26 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Mamdani lanza estrategia contra antisemitismo tras críticas a su posición propalestina",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPR080b1BjTUEzXzFLaF85c0Y5cVFSVXVXMjBxWWszMGZfWV9HZTRqb2xHODlTdm91eVN5b2FTVm0wMGhKT2RFRXk0dEdweVF0dWxUbk03TjhKWi1nVW91ZjRwTzRETWNlc1RhLWlNOHpNNXIzcXpLNXhnV2U5WWdZMUFzZTQwaUFDcVY1S3FwdmtkSF9hdlR3X2NuZkl6Y0lRSEFOWHYzZk02RDB4MGZiU3d0cUFEZXdlNU1oV3NmZFRadGh3ZUltWWk2M3ZmNXExendqSEVKWS0tZw?oc=5",
+   "fonte": "Clarin.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T17:10:15+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "El alcalde de Nueva York anuncia una campaña millonaria contra el antisemitismo tras el encontronazo con Netanyahu",
+   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPUFBONHhKU1RFdGRaM2Z1Mmh4WENzSGdRMkRielhOSG9EeDZoWENHRWJ0QXdRSDRIUXRtTDgxcElCMDFuMTl4SmVrQlk1VWxXRGlXRXZMd0NadFBaeUtRTVBRY1Eta2RLUWk4Mkx0b01MVzU1VVNnRkJNazJrRFBmU0VNUXpiMEdkNjZLZExISWd5UUU4aGpuTWNGUVdwVlhnc2haQlBFY1pEMkZYa1czMlZ5WHdNakJjQnBybVhfcU1GV2VucDZZTlRhNGtJYUY3cTcwemFFMmJQaTRLVXpTU2pvY01xT0kwVVFxeDd4OE5hM3lnNXJsSk96WdIBlgJBVV95cUxQdnMyU05TN1RoUlhBY292YXQ0MGhpUmtPUkVPb19iVjN6dzJ3RTg3VHE1UmZUeWhycW1CZXVKXzV2dW8xTnpOa1l1U0JMMUhOcUotZzFpMmZOXzhPRHREQ2hBTXk2dDgwV1Z1NVRpNEp3SnVGVVh4cE4tMTFVXzlxNVB3Z2tkNUEyMUxZNXlKSEYwZmRKR01xM1hFOXZjNUNZZEJOSkh6STlnbGc1blNtaVZmYnpJcUlzRUN1Vm96OU9fajBNeDhBa3hpR0VGdVlwN0NicUFadDIyUDQ1cDNCbi1sTGtGRy1OaVA2QlMzWGZfR3ptbTM5elpWWXdicUswSERjYnV5ZjgzSTdHeFpUbDBhUC1iQQ?oc=5",
+   "fonte": "Infobae",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T16:41:59+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Faculty's role in campus antisemitism overlooked over last decade, new AMCHA research reveals",
@@ -182,6 +332,36 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "La acusación de antisemitismo contra Bardella sacude a la extrema derecha en Francia",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNkRzTWd5Q2QtTjYxNXgyNi1GamhvQ0lhYTVranZuYUhGZWx4ZUZ6VHNBZGNLNVdlWFl4eXkzWTZiNloyZUEwZ1RNb29IYVBUdVZGTklNeEF5TmNxRS1YajJDOVlMb0dHV2NOcmkxS2FmanZsZmUwUE10ak9RU2VqaDdleHQ4eWFoU0wzQ01jRXMzenNPLW4tYW5iUjU3dTNXREdNa3VIQlZPa1c0MWxuRkd1LUJGYlZSbkpQOEZhS21HVFVxbF9XV3lLVFg5aTFiaDRLSNIB2gFBVV95cUxNT19sWERJSUx6bWp1NWk4cUY4N29GMlo2QzZtTDFKUDQ2enZVeEhTRDljRXhSS3J5NFFHQkRMTDZhMnVmZUtQNnhYbkR2RVpmZ2JMU2ZqVUxmQmZaQU51bGZfYkdVOTJKRmFLU2tmYXZyQXpLV2E5RXR4SXhVd0VLbFdnTl81T3VRRE9MbDM2eURnczIyemhqMXlFRFIzQW9qekFuWlNURVd5ZFBoRWdWdkhFWjliOWxseG9WODJFekwweHBKeWRtSmVYdWJIU3c1TWs4N3BuRnNzQQ?oc=5",
+   "fonte": "La Vanguardia",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T14:05:04+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "\"Barbouzerie\" ou \"antisémitisme obsessionnel\" ? Tout comprendre aux propos attribués à Jordan Bardella par \"Mediapart\"",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNZ1FsdTAwbUttYlF6WWtrRFdlSk9QejlScHNNZXpDb19KdTktaGFWcUZvSDZBQ09IcmJaajF6NmdROHdMZlNfWHBWQVc0NkZGSGJMOEFadVk1Sy1xc2dGXzBRYWpZbU5NTkFQR2RFS2s3QXpMVE4ta1pIdm5pTEZPNTdra25RMTBMY2xCRjNlZ0VUaXpUTXhLOEpXa2ltb3NPeUpnM3RyYWVtWmJlUnE1UE82REN6UGtCN1lDQjh4Y2wtczJRY3Zva2xpYS1ibnNPUnVESWNpbFlFMGtHRWppUTJmaUs0UFV3S1Vj?oc=5",
+   "fonte": "RTL",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T14:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "La Fresque contre l'antisémitisme : comprendre pour agir",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOenlKRS1KMG81MFpWbjN5TzdraVctX2x1OHZHb045QndwQ2U5ZEl1Vm1rTUJEZGdWeUtPYzhaaVcwRXJWaGdXTnNRckFHUDg3c0x4aXhBUFJaRVNmSzRadml6WUsybFZIQ2thc0R1NXF2TWdjVk1wY0Jsa0NDcFRla0h0Ymo2cmNySWtheW0tNzZNQ01LcmJHSQ?oc=5",
+   "fonte": "paris.fr",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T13:28:24+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "‘Our Jewish Neighbors Deserve to Feel Safe’: Two Northern California Mayors Issue Joint PSA Against Antisemitism",
    "link": "https://combatantisemitism.org/government-and-policy/our-jewish-neighbors-deserve-to-feel-safe-two-northern-california-mayors-issue-joint-psa-against-antisemitism/",
    "fonte": "Combat Antisemitism Movement",
@@ -317,6 +497,16 @@
    "fonte": "franceinfo",
    "escopo": "mundo",
    "publicado_em": "2026-09-29T06:57:01+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Accusé d'antisémitisme, Jordan Bardella dénonce une \"barbouzerie\" : ce que l'on sait des révélations de Mediapart",
+   "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQZXBUV291dHdZUnBZX1piNXR6c3lhdUhCeDg3d2QzT1BZcUFBQnZIb1ZiWDFsaUZwMkxjZnhMUFNBR0RYSWZ0U0Q3S0diaFJsVkk0YnQzdjNQVDdmYXFIUTNRWERKWHY2NVVobDlEcFB6RXEzT0RFUDl0Y0JFeTZkRG85N3hLRDF1VzdweUc5UllIZTE2Wm51cVhRMnpuTGNpVnBDY3lQbERFNE1Ma1hUTGpab2d4QkVCQ2Q5cjZQQVFGRm5HS3pDT19PTFZlM01OM0VKV1FzeE94SnlxaFNOajJuemtfNmZkWktmM1IyNHRrTFpLVmhJQl9ySC1vNUtyRDBic0VHNUs1WXBiV2l5S053VGtZZw?oc=5",
+   "fonte": "radiofrance.fr",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T04:07:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-fr",
    "categoria": "Radar por palavras-chave"
@@ -500,6 +690,16 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Una investigación acusa al ultraderechista francés Jordan Bardella de escribir mensajes antisemitas entre los 17 y los 18 años",
+   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPYnA0TERsbzFnWjE3WGRkend6akp1RzBoSXpMbnVjWFFWNFdHNk5qZEx4aXEtVzJrZl9aZDgyNTZoNTN0TzZ5ZWZtMGs0d0RLWmU2WkIxZFFneDl2Tm1fcDhSbTFrVnVfUXlTQkpfN0FpM3RCZER5d3ktRVJ0RzVmMG1rVXQ4TUJpMklHZ3RZZlVoNzhTTmJPVXBtb1l5aTh6Y3pIdVh0V1FkZGZCYThOMGk4NjRaQ2FNRUQ1QnE1VjlhZXo2b3FFYUtiZXhEc2tfUVRFUy1vcWVoakJybjgwRy1BYkE3V25JMHRHRDdpOXp6QdIBhgJBVV95cUxNbktlM2NxcS1nZ0pFR2s1VW0tVTVwTkJFYWJiTldDdHNhMTVtejVrTGNpSnZfVkVKbDRrQVNYWHowMG5EVVItNVowbzY3VnpQaW02QnowZTJGcEdKY3VtSGNlTXB0OERaQjVDMnBEYkZBVkRueXdZSS1ENmptN2ZuWnBLdktQY2VoWXB1VnRnaXVySzVfY19MUkVjLVdRVGxVVl9EclRpZUJnSnVkWW5veG9XcTFhVUtYZ002azdoMVowNHJwRFdxeXJmQWdCQzlMcEpUMEZvTDRjVEJCNFNYVGZ2c295U1F1LWRRakF5RXJWNVk2Y0pmd0tsZno2aUhNbHdmR1BR?oc=5",
+   "fonte": "EL PAÍS",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T17:09:36+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "\"Antisémitisme obsessionnel\" ou \"barbouzerie\" ? Six questions sur les propos attribués à Jordan Bardella par Mediapart",
