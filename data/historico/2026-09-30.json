@@ -2,15 +2,75 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-30",
  "semana_iso": "2026-S40",
- "atualizado_em": "2026-09-30T05:14:59+00:00",
+ "atualizado_em": "2026-09-30T12:21:58+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 72,
- "no_brasil": 18,
- "no_mundo": 54,
+ "total": 87,
+ "no_brasil": 25,
+ "no_mundo": 62,
  "itens": [
+  {
+   "titulo": "Face à face - Propos antisémites attribués à Jordan Bardella : le RN fait bloc",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNZEkza3VBMFRZLVBwNjgtbzJyaHhnemM5U3lpbDJzei01c1htSHpvUjV5LTh0aUtpNlhuQlh5aWdmbHhVY2N5c1pUa1FWbjNBZVlKVWctdVRZWDZLTzBQdjRBUjlfN2ZCOWNUR21WSzNLTzE1MzRJTHhLMTVjMmlHVXhkQ2JrYUlZZ2JVM3RzQjRSTHdlY2FVT182TkJmZ3FWVkxueGZ5ZHJSc05FY0VaSTZ4VUlkSXh3OG5ES1A0SEp3UXhzTEVuSFBkY0pnN2tMbHhjRVVOWXotWmh5TG9v?oc=5",
+   "fonte": "France 24",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-30T11:38:45+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Far-right Israel critic James Fishback likens abortion to the Holocaust in Ole Miss speech",
+   "link": "https://www.jta.org/2026/09/30/politics/far-right-israel-critic-james-fishback-likens-abortion-to-the-holocaust-in-ole-miss-speech",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-30T10:24:36+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Acusações de antissemitismo contra Bardella ressuscitam fantasmas que voltam a assombrar Le Pen",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPaVR0RzVSa3RYMVpnZVFnakZTYmFvUFljeHdUSWlxMU1ubnV4SWJCaFF2LUR3UV9jY0IxdTRrLXpiNkQxZnppYzhqNWRPWENUX2JhYnRRSmhGSTlwUUtpd3JEbjNxUWhSSEoxbEhkOFhIaE04dXVFaUUzX2NGX29lazBfWTY2Z1NNLWk1by1KdVJRWk9tU2JKUEVWN05nYkc3aWdmQUFFNlpaVmNtd3pjSy1DajB2UEZlUGVZOWptV19wUlgtRi1lcA?oc=5",
+   "fonte": "observador.pt",
+   "escopo": "br",
+   "publicado_em": "2026-09-30T10:08:37+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "The U.S. Civil Rights Commission Tackles Campus Antisemitism with Justified Nuance",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQnNDWkNaOUI0bjFpa1p3bVNkZWRBM05ON3M2S3U0dDZ3bUt3eFk4QTRCTERKM0pKNFFSNFZlMWxrRHNxNjFTVTA4THJnUEtUbjcxOFdrYWg0Qng5TWRMTEp1QmtHa0pFTzQ2UjlHY0hIVWgySld4bFI4MXA2dTJtaVJ4ajF0cjV1UVJ1cEp6cTk3SEstZm9jenY0YVh2bnkxM0RZVzV2andqSlhWRGsxdUQ1RFlEeng5SktJ?oc=5",
+   "fonte": "Verdict | Legal Analysis and Commentary from Justia",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-30T08:01:23+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Bardella accusé d'antisémitisme : Mediapart annonce que d'autres révélations seront faites ces prochains jours",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdTg2eTE4N29XQkdXLXRfSS0zQXF6LVdNN2JsNzFWSGE0WmpJbVVRMnkyZDhMTnN4RlhZRWZUdzlENzBaWGJvZEhzUklyU2RNU2RRV1pETnZva1dMU2RiVEVPcG1KblBfdWJXRG5zMHotQ1FpS09oWW1fR2lVTmxEdDB2UWZLZ3FlVXc?oc=5",
+   "fonte": "Yahoo Actualités",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-30T07:41:23+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Will ‘genocide’ in Israel cost LA mayoral candidate Jewish votes and her lead? Forum suggests it could",
+   "link": "https://forward.com/news/852764/nithya-raman-la-mayor-jewish-vote/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-30T05:26:42+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
   {
    "titulo": "Canadian Jews considering immigration to US under Trump amid increasing fear of antisemitism",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-910144",
@@ -132,6 +192,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "Mamdani anuncia campanha milionária contra o antissemitismo após tensão com Netanyahu",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQN3pLdVFDVzJnLTh4S2U5LUx0aDVnZ1NfN3hkSEREVTJJdTRYakxTc0ppX19QMGRzY0prVUxJX2ZPV0VURnVGNzBpSjVEUUJwVlRncGg1dERXYXRHWkIxQ3QtN24yTXJ1b1VKOTJvY29pU1BBb0xtRkZOSjNLcFhRV3BfMFdrbkNLcGVUUkhyUUNteEstUm10VXlzZk12YzEtWlNUNnQ4eVkwWXlKbWVWeVBwY0MwZ2M?oc=5",
+   "fonte": "Jovem Pan",
+   "escopo": "br",
+   "publicado_em": "2026-09-29T22:32:48+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Berlin Jewish Community Pulls Hanukkah Menorah From Town Hall After Left Party Election Surge",
    "link": "https://www.algemeiner.com/2026/09/29/berlin-jewish-community-pulls-hanukkah-menorah-town-hall-left-party-election-surge/",
    "fonte": "The Algemeiner",
@@ -149,6 +219,16 @@
    "publicado_em": "2026-09-29T21:59:58+00:00",
    "via": "Google Notícias",
    "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Écrits antisémites attribués à Jordan Bardella: Gaëtan Dussausaye estime que \"c'est impossible que Jordan Bardella ait écrit ces messages\"",
+   "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNd3VCWXVkMFV6dGhuVjB6bVBiMTBnSDdqbXZBc3lkSTVKNmw5WTJqY0FtNGE3d1FPM2NYemkyZWM1UmVZQnI5bC0xNWdTODdMLUVyYWFoUDdrWWVBdm9kYnN5VlRsbTItQkppRUZSNEk0eTlTYXk5VnlKcW1CYm9hRXhzX3hNbXNpOFlaYzZQSV9PN2ZpelQ1OTNQNm9VWTVZZ0N0bzNyaVVuRUxUaEE4eTY5VExGbGRzRUVTWmk5V3VuWG5uTmpRTkJnRHktZnZyRG5oLTBEbTdTT01LNkUxV2dZZGRVM3FCRERrQ25RUlVqVGJYU2pmOElueWRZUnh1aHlBZEh5c3E1Y3RwQlZnYVFVN2hxd201bDEzQ1hnTTJOUlgxaVZiY1JzemQ0aTdrYzdN?oc=5",
+   "fonte": "bfmtv.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T21:47:50+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -189,6 +269,16 @@
    "publicado_em": "2026-09-29T20:07:31+00:00",
    "via": "Google Notícias",
    "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "House arrest sentence for antisemitic posts prompts calls for hate-crime prosecution units in Canada",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZVV2a1NmZkFhQTlYMmJHV0x6RVk1aW5UWlo2TGxyUVkyc1Q0ZlVBbWZOUnVOdWJ3MEdIMDFVelZkN1E1SlM5dDZ0ckZFekdlVXBKWmJubzBGSlRlZ1l4SWxCZVA0WFNjNHFwNlNXVXFMTDYxTGhlaEdFVjZQMUc4Z2tTTDhsLW1fNUN1NXdvQjN1eHo4dUxwLXpfX0wtUW8xZGIxTzU3eTU5NHdyb0xCd3dkRUFtdjlsZWZuZmdILWZrUmxXbVRiSndSbw?oc=5",
+   "fonte": "JNS.org",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T20:05:56+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -277,6 +367,16 @@
    "fonte": "Orange Actualités",
    "escopo": "mundo",
    "publicado_em": "2026-09-29T16:59:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "« Le RN n’a pas changé de visage, c’est le décor autour de lui qui a changé », analyse le philosophe Michel Feher",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQa3VPWS1KT0JwWDd3cVlIQkF0RUhjd3lRYTRBbDgxT3FpTlBUdmZ1MUdkTVlHSkZNdVk5NVFHNEl4Tm1KTkl1My02QVU4bHQ2bEZwai1PLWNpbTJEU0xSMl9tWVF2WlhJSExTZ29yY0FzZFM0LVRKQXB3dm5WNktuSzlyVWEybmtYVkxBbXAxTm1peEpZa3Q4SEFnVE5adVY5cXRlVHVXbXJtQmItaDBjSHU1bncxS1pBeTNoNm8tTDFfNVpCeGxIVkhiNGZyOEswangyT2dZbG81dlVIQTM2SG15aVI1YTg?oc=5",
+   "fonte": "L'Humanité",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T16:57:26+00:00",
    "via": "Google Notícias",
    "feed": "radar-fr",
    "categoria": "Radar por palavras-chave"
@@ -532,6 +632,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "Wesley Mendes defende combate ao racismo religioso no ambiente escolar",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTUJ1VWZkVW1sVThCLWFLTkpFWTR3bVJIenZYc1JMNXRQbmdDREtocm5UZUNKTnNUTnFRa3JQRGFYdy1xcGkzRVA0UXVmSHNxbUhVZ2oyeS1QbWxrNERXbFJWaTJpSjM0NVBWM0V1ejRIdHc5S000d0lwMUpjdl94M3IzbDY0UGZNZ2NGSW1hSW9xU0Q4Y2xENnloSVRaOXM5c2hRWWEwb3RFcGY4OHM0?oc=5",
+   "fonte": "Farol da Bahia",
+   "escopo": "br",
+   "publicado_em": "2026-09-25T18:06:25+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Ataques a terreiros expõem casos de racismo religioso em Pernambuco",
    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVUFpeG5GRnFqbHk0Y2Jvdk9tNVB5Wm4tbzNfZFU2aGJlYURCR3lWSjBualdpRnVtTmxuS3YxZ2MzTExNM29nSTVNemlCOVVkZFE2ajZ1R20zQlp5N3pnUzF1RjNxandvOHdHb1pTZjJraXdUaG1UcVhmbkJZZ3N4Mk9CeVZRR3YzRHhuSlBfNVpUcEt0SGc?oc=5",
    "fonte": "ANF - Agência de Notícias das Favelas",
@@ -652,9 +762,29 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "CEAP leva à DECRADI representação contra Pablo Marçal por suspeita de racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWVhidXRIYWJUcGdEMmRqN0t5a2VvdWN6Y2dxWXlsc19KZXM0UG9YQ3RjVERxWnlxLW9TTGZ4MVIxeV9ZSWJZb1Fra1g4Yl84OUd6RzFweFhaYl9LUHBPa1VtQmE4bjlVUHJMNlRJODFRVjhJU1c0dTNFZDg2M190RVZTU1BMdkVGWUs4aHhlQlo3OGlSX1B3SXNUdFlxNUZaRFNTdlpHRXlIQTcwTGJSS0I2U213cE9YM3lnbVF6SDdaT25kUkI2U3d1aw?oc=5",
+   "fonte": "Combate Racismo Ambiental",
+   "escopo": "br",
+   "publicado_em": "2026-09-10T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "‘Todo macumbeiro é derrotado’: Pablo Marçal é denunciado ao MPE por racismo religioso",
    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbFRFb3Z3SmtDOEdLbU5kRVMzLUp0WW56TEd1cmxkR2NYYUY5YXp1UnVLcl9fcjNtRDdDX2VMNXZwSDhvNW1FRHVDd0RMaTBOVHItcmJVV1lBU2VTTEJCMXd0OUhhUDg2SjJCT24wMWdVb2dTVlJGNHJpV1k4WXlqLXlR?oc=5",
    "fonte": "Alma Preta Jornalismo",
+   "escopo": "br",
+   "publicado_em": "2026-09-09T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Câmara de Parauapebas abre processo de impeachment contra prefeito por suposto racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNY2twQUtWS3lwbXBUUk15UWFCaDBuVDR1cmNOTFFfQUZ3TFQ5YVJXZFlrZG5mNHExemZTd3U2U0g1eVRSeUg0NTR0U2VhTnNJbXUtbE9kLTFZcnhWS0tZMENSMUZndk9RS2tRV051SXlCaWNTTUtmZ2J3b1F5MHUwSjRsdnNNTDl2NVcxbXZEQnNIWkU3S3gwNzctNEZNRGZ2LVY1Qjg4anFJckVVM1RMU3p2aExLcFYtQ2I5aHJGenFJdjZyMnA0NkZ2SnduUTJlbHprNk1QN2dFY0F6SktGQVUtSlfSAfMBQVVfeXFMUGFwOW1iUFpBR0RHTVZ6RUtINnZLYnJkc1FROXUwak1GLW1SQ1RUM2ZZOUIwMFV0WnV2SE1TNDVTMmJEOGp2Y0VjYndoSjUtRHlMMUFfbHZybTZBZDhtaHduX1Jid2toQXBUcXlYbjdoVjFnUDFYVjZpWkI1bkVkTEpmTkFOWkhReGZvekZDTGlqenNJQXc0R0tWZmhhSlVwYWxHWlpub1RGYVBCMVprQWZLRFhlc0VteVFCQzZ1MXkzYjFCeUFNSEk1bEhNWkxNX3J1bWx6Q1BmUXB5TWtUTFB0YVBfTllsSFVQOVpzamJNY05n?oc=5",
+   "fonte": "G1",
    "escopo": "br",
    "publicado_em": "2026-09-09T07:00:00+00:00",
    "via": "Google Notícias",
@@ -692,11 +822,31 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "STF mantém condenação de Rafael Tavares por crime de ódio e deixa vereador inelegível",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbWQ3S3oxZ3BaUnEwMnVjSHREelBYY2lhUTdUazBQWGxrUHV6Rlo2RUZSNWQxRW5uOXYtSVkxdDdCc194dVRvcnZjYVQwTHZESXJSZW11RlJaY2RmamNVX2ZmWGRNYnB6TW9weWZidnhjUHZHOXM5ZHZmb2RYaXJIQ0ZqTGg2dHVvbklTTnVncFlPZ29pZWNIOA?oc=5",
+   "fonte": "Folha MS",
+   "escopo": "br",
+   "publicado_em": "2026-07-21T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "STF mantém condenação de vereador por crime de ódio",
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZW9XaDZkcHE3MVNxWXJ2RkRfemljS2ZGenczZGo2cERqY05wWUd4LVZDbERJWnpoblFZd0tPeERTZWFTMjZ4dWczaWxMYWJvQjlDXzB5ZnllNFNDU0FQVGdRZFdkVG4xYy1LMERFQVY2czZMQWs4a0otOG0wUFBZcG5ET2NFSU5mOGlYRW9NazJFSkNxLUFWTEtxT0RkblQzRk5Cbm9kQ0tLMnptN1ZOdWZfcFc4YVY0VENEWNIBvAFBVV95cUxNb1RDQm9CWjUyd1p3Nm9DeXRpM1dDNGRiV2NNM0ljaDQ4QlZacGVzN3JUUGEzU2VGUkVMVElOeXYzUGZsb3hsMlR6WFdCcW5WZWdKZkhvTUZHQW5JaHJwVVpqcFFLXzZwVUVoZEVZdTJEbXpaQkt3bXpyeUhzOGUwZ2FlWW9oZ2I3bGd3dzlXdzFkbncxR19TLU1QN3YxaDdCNEx4bEljTGJNbHBLblFod1FsZllIRHl5VHYtYg?oc=5",
    "fonte": "Campo Grande News",
    "escopo": "br",
    "publicado_em": "2026-07-20T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Como o STF transformou a denúncia do sionismo em crime",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY1ItS2VfUk1EOVJIN21EcVc5V2xEV2tnblY5Umk3TGFMVHBrTmpIQnFNbWh2SlkzdDdicUpyTXF1MFhyRVFQNFgtVm1JdzhRcEpBSUF3OXlrYXE3N0pSRWpTZ1JKX3VVc1g2MVBqYkduSW0tVE8tZVpjQ3JiOUZXbnJZNHBPYndXR3RDalMtUEpIa1U?oc=5",
+   "fonte": "Diário Causa Operária",
+   "escopo": "br",
+   "publicado_em": "2026-07-17T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
    "categoria": "Radar por palavras-chave"
