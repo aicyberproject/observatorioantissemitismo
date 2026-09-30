@@ -2,15 +2,95 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-09-30",
  "semana_iso": "2026-S40",
- "atualizado_em": "2026-09-30T19:03:26+00:00",
+ "atualizado_em": "2026-09-30T23:38:20+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 115,
+ "total": 132,
  "no_brasil": 27,
- "no_mundo": 88,
+ "no_mundo": 105,
  "itens": [
+  {
+   "titulo": "Chicago hall, playground defaced with antisemitic grafitti, ADL opposes Mamdani plan",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-910241",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T02:09:45+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "At LA mayoral forum, candidates weigh in on Israeli genocide charges, antisemitism",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-910232",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-30T22:37:07+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Far-right figure James Fishback likens abortion to Holocaust, demands US decouple from Israel",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-910231",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-30T22:34:03+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "For some Jewish staffers, New York magazine leaves a bad taste",
+   "link": "https://www.jta.org/2026/09/30/ny/for-some-jewish-staffers-new-york-magazine-leaves-a-bad-taste",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-30T22:02:31+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "British Council Staff Told Virgin Mary Wore Hijab in Anti-Islamophobia Training, Sparking Outrage",
+   "link": "https://www.algemeiner.com/2026/09/30/british-council-staff-told-virgin-mary-wore-hijab-anti-islamophobia-training-sparking-outrage/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-30T21:58:12+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "In a time of uncertainty, European Jews renovate synagogues and dedicate Torah scrolls",
+   "link": "https://www.jta.org/2026/09/30/global/in-a-time-of-uncertainty-european-jews-renovate-synagogues-and-dedicate-torah-scrolls",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-30T21:36:21+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Jewish Leaders Rebuke Mamdani’s Antisemitism Strategy for New York City",
+   "link": "https://www.algemeiner.com/2026/09/30/jewish-leaders-rebuke-mamdanis-antisemitism-strategy-new-york-city/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-30T20:54:12+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Bardella responde a Macron por las acusaciones de antisemitismo",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOV2MxNko5Zm1palY0RWJMcWZpZFhDM3FDSkhPWkhucEg1bHo4Q0JZbGZfUG82WkNKY0l4X0ZJbkNDdXhuclFQR3V0QnR1X19TS2V1Zllza3VWaVBEQTJjV1NGNTE0ckJOUnFVOHpTM0swOG56NkRBM0VZU0p0VnJxd3ZQeHd5X2VWOXpERG5n?oc=5",
+   "fonte": "Euronews.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-30T19:43:40+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Antisemitic incidents in Spain rose 14.5% in 2025, Spanish Jewish group tells Senate in report",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-910215",
@@ -90,6 +170,16 @@
    "via": null,
    "feed": "alge",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Strategies to Combat Antisemitism and Hate Highlighted at Senate Hearing",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQTVuaWFzODFnVjFsRXhBM3BpWkNzSE1NLVc3d0JST0JOc1BqSmxHMmVCZ0FGb1NLZGhUeTk4dXc0T2lSUzhwYTQ4U3NjdTFVZm5adG4wQjJ0NVlIdmJiRWxrYU9wRG02cWlOVWdGb2QxdFV2d1VYRXFBcS0wWVRvd0NVcXhhNUtXT2hGdklHb0F6N3JqTVA3Q3RSakJNVkdLWWpGNE1ncU9DQQ?oc=5",
+   "fonte": "Pennsylvania Senate Republicans",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-30T17:14:20+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "‘Global War Against Terrorism Is Not Over’: CAM Calls Attempted Hijacking of FlyDubai Tel Aviv Flight a ‘Wake-Up Call,’ Urges Renewed Security Vigilance",
@@ -192,6 +282,26 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Macron appelle le RN à clarifier sa ligne sur l'antisémitisme, Bardella réplique",
+   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQeDQtaHZDVkdVLUxxdHZINkhQb3ZPZ21yWGlLOV82QndvQ3M4Qk5Bbm0tWktScnZoUnAwc2MydTZTalpqaEhpNi1taTM0czRMSGI4NElaN3kzU1VZdWdnYndnUDZ6NWJlTXpvcXpYWFRMQlR6dlpISXhMb2RSdmxmbTF4dVFjZHoyYjdzYXZCNWtvWTN3T2RKNURzeUU3c2hmMXZkYTNzWTN1TFQwQ1h6Q0hxMjFHVXNrQmxlbHJRTmRtRHdYUjFpQzlrU1dodFMtV2drZ0w4MTdwMVFEWEhqUlFvRTNyOWV3THpDdzFzVjNVWFZSMUU2N2M5NTZJUGI10gGGAkFVX3lxTE9tUmpqTmowTUJadW9kQXdHV0xlU25jSWI5bDE1b2ptZHJPam1VdHlCUlRtaW1uUzNxZ05TZjF3TXZnV3AyUlRsVmcyR2hKeTZLb3E5YWlIdm9WQzBmbEhtQlVwWVdzVW9OYW5oc1lfYVdQdzZfVlZKOXMzcktMVHI0ZEZFNWxXdXkwY2FsNXdSQXdHek9vRXRoaDdNbUJnV3FuZWR4czczdmJaUkRQdjBLeUxObzcwdm1DT1BrdFcxQmhjRlNsZkJ0UTRTUW1WUkNVdVVjeXl1dGtLano4VlpVZjJZM3U3QXg5YVp6alphM0VtZFUtMk44M2ltZ3dxV0JWUkhGVFE?oc=5",
+   "fonte": "Boursorama",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-30T15:21:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Jordan Bardella répond à Emmanuel Macron sur l’antisémitisme : «Après le 7 octobre 2023, j’ai marché dans les rues de Paris, pas lui»",
+   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOSmFsZVJEemc1b3NqR2VTS1VETUkxZ1JhbzdQcjlqUm0yLThxdXF5WnIteUhlcmFGdVk1YXViWUtJWlQzb3Nja2plNHFqN281ZlJBUkZWRDE2QmVQVlpvT2VNMnMxYTZvVGkwTGxtcXNYQTgxd3NUVC1UbWlMbERTcTNIb0gwc0ROajZSalhXb3NVRWtCZ1FFdDlsd19IZ1huejVkT0V2QlQ4RFlSTEJVNVc1Sm4xYkdGWUs1amZ3TnJzZndvTzJKb0tESHV2eW91ZUVTRHRkMVk4UllxUVUwME5OQW1WV2lOLW5lanhtQXdHa3FORm5La19tTW9tQzg?oc=5",
+   "fonte": "Le Figaro",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-30T14:42:38+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "AI, Judaism and what to do about ‘Fully-Automated Luxury Communism’",
    "link": "https://forward.com/opinion/852749/ai-future-of-judaism-bastani-fully-automated-luxury-communism/",
    "fonte": "The Forward",
@@ -240,6 +350,16 @@
    "via": "Google Notícias",
    "feed": "radar-fr",
    "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Far-right Israel critic James Fishback likens abortion to the Holocaust",
+   "link": "https://forward.com/fast-forward/852851/far-right-israel-critic-james-fishback-likens-abortion-to-the-holocaust/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-30T11:04:58+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
   },
   {
    "titulo": "Far-right Israel critic James Fishback likens abortion to the Holocaust in Ole Miss speech",
@@ -297,6 +417,16 @@
    "fonte": "i24NEWS",
    "escopo": "mundo",
    "publicado_em": "2026-09-30T06:17:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "\"La suite de nos révélations arrive\", promet Fabrice Arfi de Mediapart, après les accusations d'antisémitisme contre Jordan Bardella",
+   "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQcnNWWXRQQkwyWGQ0MGc4cEI3MHd2dGc0WnFEdk5Bcld1ZUJuOEU2UUxnUjBiN1lQTktsRmN1WXZOdXZQNkxmZnRRVEZpUWJoajRoZlVmeVNZaHY3aElyeHdSMEpqVnpIcWVqaURJZHpDVXlXMnA1OE5KR29QX2hRVWpkLXhFczZUUVdYZUkxZWU1SUhJaWsyMWFwSnFNSVhQM1R0LUhnR01QZ1pJUzBDa3k0ZHlCQWR1SF9LRmtockd6c2NFY3ZRQlFxTzVSbTlsR1JaRzNHbHk0ajdCZjFDMTFIMDlmVnJnYjdHUU9RYkdnMGRQZ0tNS1hBMk45WTJQaXk1eFlVbER6QmFjNnhISkIwaW9NeTFTV00zTQ?oc=5",
+   "fonte": "franceinfo",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-30T05:34:38+00:00",
    "via": "Google Notícias",
    "feed": "radar-fr",
    "categoria": "Radar por palavras-chave"
@@ -582,6 +712,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "El alcalde de Nueva York lanza una estrategia contra el antisemitismo tras las críticas a su posición propalestina",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYTJCc0tPazlTcDhJRUFzdG04R1c4VGt0RGhyakE2R0hXSnd0VU5ZNDNBdVFLWld4SmdncFVHWEFzOW1yWWZvZ0JLR1pQdlVkM3JmLS1admxYWlBpZFZBRjB6aXU3bW11c3RxZElhTHpFcVZiQTlwbjRWWVA3NkthMWVrYllReFJwS1lMckNEaXlwam12ckhST1NQVXAyc0c3Y25xbGxEVWkwRkFp?oc=5",
+   "fonte": "EFE - Agencia de noticias",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T19:03:20+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Michigan Democrat leaders join Nonnegotiable campaign pressuring El-Sayed on Jewish safety, Israel",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-910098",
    "fonte": "The Jerusalem Post — Diaspora",
@@ -600,6 +740,16 @@
    "via": null,
    "feed": "alge",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "El alcalde de Nueva York anuncia una campaña millonaria contra el antisemitismo tras el encontronazo con Netanyahu",
+   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPUFBONHhKU1RFdGRaM2Z1Mmh4WENzSGdRMkRielhOSG9EeDZoWENHRWJ0QXdRSDRIUXRtTDgxcElCMDFuMTl4SmVrQlk1VWxXRGlXRXZMd0NadFBaeUtRTVBRY1Eta2RLUWk4Mkx0b01MVzU1VVNnRkJNazJrRFBmU0VNUXpiMEdkNjZLZExISWd5UUU4aGpuTWNGUVdwVlhnc2haQlBFY1pEMkZYa1czMlZ5WHdNakJjQnBybVhfcU1GV2VucDZZTlRhNGtJYUY3cTcwemFFMmJQaTRLVXpTU2pvY01xT0kwVVFxeDd4OE5hM3lnNXJsSk96WdIBlgJBVV95cUxQdnMyU05TN1RoUlhBY292YXQ0MGhpUmtPUkVPb19iVjN6dzJ3RTg3VHE1UmZUeWhycW1CZXVKXzV2dW8xTnpOa1l1U0JMMUhOcUotZzFpMmZOXzhPRHREQ2hBTXk2dDgwV1Z1NVRpNEp3SnVGVVh4cE4tMTFVXzlxNVB3Z2tkNUEyMUxZNXlKSEYwZmRKR01xM1hFOXZjNUNZZEJOSkh6STlnbGc1blNtaVZmYnpJcUlzRUN1Vm96OU9fajBNeDhBa3hpR0VGdVlwN0NicUFadDIyUDQ1cDNCbi1sTGtGRy1OaVA2QlMzWGZfR3ptbTM5elpWWXdicUswSERjYnV5ZjgzSTdHeFpUbDBhUC1iQQ?oc=5",
+   "fonte": "Infobae",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T17:31:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Mamdani's NYC strategy to combat antisemitism includes security and education investments",
@@ -762,6 +912,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "Marine Le Pen, le RN et l’antisémitisme : ce n’est pas une « dinguerie », c’est une entreprise de dissimulation",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPSFl4cGdOcTlKTXk0cmtLcEhKQXJOYkJwWV9wdHlLMDNvWFZ4MW1sZVp1RWNCblBUN2RjRjNwYnNoWEFQM1hMdEN5SjRJcXRldnlCSC15eG9tbHVMNW5Yc3RCSFFUb3FhWlJtZURpTWFNUjY3ck5CVmMxaDV4Y0ZjWVRiOUJfOE5CaDY3ZHUyTzRmckpCOUtaYVRuS0xqZHhaaU9YRUwydVlBenpoTzNDQkZxQVF6dnpyY04xRmxQYXRsdHBCdHBuMVU1dDdtbEVqcm5XcnltbkZKX0QtaEN3TkFQdnY4dmw5?oc=5",
+   "fonte": "Mediapart",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T12:01:48+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Sunkist Fruit Gems return after panic over loss of synagogue staple",
    "link": "https://www.jta.org/2026/09/29/united-states/sunkist-fruit-gems-return-after-panic-over-loss-of-synagogue-staple",
    "fonte": "Jewish Telegraphic Agency",
@@ -830,6 +990,16 @@
    "via": null,
    "feed": "jta",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Una investigación acusa al ultraderechista francés Jordan Bardella de escribir mensajes antisemitas entre los 17 y los 18 años",
+   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPYnA0TERsbzFnWjE3WGRkend6akp1RzBoSXpMbnVjWFFWNFdHNk5qZEx4aXEtVzJrZl9aZDgyNTZoNTN0TzZ5ZWZtMGs0d0RLWmU2WkIxZFFneDl2Tm1fcDhSbTFrVnVfUXlTQkpfN0FpM3RCZER5d3ktRVJ0RzVmMG1rVXQ4TUJpMklHZ3RZZlVoNzhTTmJPVXBtb1l5aTh6Y3pIdVh0V1FkZGZCYThOMGk4NjRaQ2FNRUQ1QnE1VjlhZXo2b3FFYUtiZXhEc2tfUVRFUy1vcWVoakJybjgwRy1BYkE3V25JMHRHRDdpOXp6QdIBhgJBVV95cUxNbktlM2NxcS1nZ0pFR2s1VW0tVTVwTkJFYWJiTldDdHNhMTVtejVrTGNpSnZfVkVKbDRrQVNYWHowMG5EVVItNVowbzY3VnpQaW02QnowZTJGcEdKY3VtSGNlTXB0OERaQjVDMnBEYkZBVkRueXdZSS1ENmptN2ZuWnBLdktQY2VoWXB1VnRnaXVySzVfY19MUkVjLVdRVGxVVl9EclRpZUJnSnVkWW5veG9XcTFhVUtYZ002azdoMVowNHJwRFdxeXJmQWdCQzlMcEpUMEZvTDRjVEJCNFNYVGZ2c295U1F1LWRRakF5RXJWNVk2Y0pmd0tsZno2aUhNbHdmR1BR?oc=5",
+   "fonte": "EL PAÍS",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T17:09:36+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Undercover CAM Reporting Exposes Open Support for Hamas Terrorism at Dusseldorf Protest",
