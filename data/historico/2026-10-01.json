@@ -2,15 +2,145 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-01",
  "semana_iso": "2026-S40",
- "atualizado_em": "2026-10-01T12:57:23+00:00",
+ "atualizado_em": "2026-10-01T19:24:13+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 87,
- "no_brasil": 19,
- "no_mundo": 68,
+ "total": 105,
+ "no_brasil": 20,
+ "no_mundo": 85,
  "itens": [
+  {
+   "titulo": "Esther Rantzen, campaigning Jewish British television presenter, dies at age 86",
+   "link": "https://www.jpost.com/diaspora/article-910359",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T19:24:01+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "The Antisemitism You Won’t Hear About in the News",
+   "link": "https://jewishjournal.com/community/392764/the-antisemitism-you-wont-hear-about-in-the-news/",
+   "fonte": "Jewish Journal",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T18:39:18+00:00",
+   "via": null,
+   "feed": "jj",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "CAMERA reporting on antisemitism in Philadelphia schools cited in public hearing",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-910356",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T18:28:20+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "CAIR Books Ana Kasparian, Who Called Israelis the ‘New Nazis,’ as Keynote Speaker for Two Galas",
+   "link": "https://combatantisemitism.org/studies-reports/cair-books-ana-kasparian-who-called-israelis-the-new-nazis-as-keynote-speaker-for-two-galas/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T17:54:12+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Liens avec le grand banditisme, accusations d'antisémitisme : la gauche radicale de Die Linke en mauvaise posture à Berlin",
+   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNVG9iU2Y0SkpjdW9LVWhKVXlWcG4yeURic1ZDX3g0ZHRVTXgtR1J4WWxwZ3I5elRjYW9Ea05sNVNPUm1jNHYxb1lSYnE0akVuN3Jkcl83a0VCOFVZSmRpa2xwTUpJRWpwYTYxSHFGX0JOaFI1MTdNZEFUWm00ZzlwQ190b0ZkUzdqQm1iXzBUX0RDTkQ3VmpqcWNCdEp5N0doU09DazNCZldUUnBSNVB3UE94QlFkUk1tcFdJWG5MclJGbktJR1hIMDhvZUp6X1lCbTVpa09xZVVxdGhYWmxvckZBMmtDME41dWl5cEpR?oc=5",
+   "fonte": "Marianne",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T17:00:11+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Antisémitisme : Mediapart révèle ses preuves sur l’affaire Bardella",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQkhGSDlUdW1FejJ2ZkVGZVlSUzMtb2diWUwzWFp5TnhCdy1iTUVvLXVnMVAyaUw2UTNJc2twUzg1RzJMNXRzRy1WTlY1TXdFbFhFdWh4bUZCMFEwcXprUmhRTkNoa2k0Z0lOR1VrMC1tSjZxWUdOUXNTSnM3MTFwWFIxVjBxV3BhaHRqUmFudWhuMl80dTh1WHlieEZlYkU?oc=5",
+   "fonte": "l'Opinion",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T16:53:58+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Mediapart publie des captures d’écran des messages antisémites de Bardella",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWDlYQ09jUWtWejNrQkhiSUUxMGRWUFdodk9LRGNMdXhoTkE4Y1lPSFlwajVaazk1NjNDMngxS0d5c3NKNlB5dnRORjBTUzEwTFotOTNiRldhN0hJSENvSTJQaC0wZEtrMnREUVE2d0o3NG5pRWxNYWxVbXl2RHZIaHVMNDJ0SmdBNHo3Zjg1WFVNTVZQN2lVQ0VkT0UtS1lHdnZtOVhHUkU5YUk0Y2x2c1V5VjIyYldSdEt0cnlURnBjLTdzbFV3cA?oc=5",
+   "fonte": "20 Minutes",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T16:26:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "ADL report finds systemic exclusion of Jewish, Israeli artists across US cultural institutions",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-910342",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T16:18:48+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Écrits antisémites de Jordan Bardella : les preuves du mensonge",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSm1mS2VTd0ZrWGNUQ0NFSi16QjZGRllkTmRXT0RaUExnSWJUdHpjRVZpWGJQZ1VCZlRrVy1WQXQ0OHRuQUM3LTNoVFpTTHlCN2Fuc2F4eVh2MVZWQUtweTZaOGpjYzBmaG4teG1LbWh4Nk03WG9zM0psZUpXSmlPdkY0QUdHblRhQlR5MmkxZk1vSG14dGNWTHRQTlF5cVNkMGYxWV9Lblg3WWFJ?oc=5",
+   "fonte": "Mediapart",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T16:03:41+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Analysis: Middle East Normalization Isn’t Enough to Stop Terrorism Against Jews",
+   "link": "https://combatantisemitism.org/special-features/analysis-middle-east-normalization-isnt-enough-to-stop-terrorism-against-jews/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T15:12:10+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Mamdani’s nuanced plan offers a roadmap to tackle antisemitism – and reignites criticism of the mayor",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTmJpNkdDNC1kNTN4NFBvNjROVU1CVkRYZjROYlZKZmVkdERXcTJOaW4tekl2YWxUN3dfN0ZvTi1SMk0wU1VmbWF6TUpXelB4dkl2RTZROTI3Z1JLa28xNlpMSUVJSDJxYThsOURSMnVBNk5iSUxFZ1ctcnpWNVpYS0wxbThfdndKQ1ZHb1AtUQ?oc=5",
+   "fonte": "The Guardian",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T14:54:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "State of the Arts: Exposing Antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1ZVkxyVnZ6aENCU1hta3JLTmtxWVJKQUwyR2llSXlyeHF0TTF4dHVxZEYxQ1d2M29uLUl4UXdtaVpFakV0Qy1UXzZsTWMtUQ?oc=5",
+   "fonte": "Anti-Defamation League",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T14:26:14+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "ADL makes a play for the arts with new reports suggesting anti-Jewish bias in culture spaces",
+   "link": "https://forward.com/fast-forward/853148/adl-makes-a-play-for-the-arts-with-new-reports-suggesting-anti-jewish-bias-in-culture-spaces/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T14:19:48+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
   {
    "titulo": "67 min to blame Jews: CAM exposes rapid spread of antisemitic conspiracies after FlyDubai attack",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-910307",
@@ -20,6 +150,36 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "ADL alleges ‘systemic’ anti-Jewish bias in cultural spaces",
+   "link": "https://www.jta.org/2026/10/01/culture/adl-makes-a-play-for-the-arts-with-new-reports-suggesting-anti-jewish-bias-in-culture-spaces",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T13:00:00+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "The Kremlin's Antisemitism Machine and Its War Against the West: A Q&A With Author David Reaboi",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTzBfOGN6Y1JIUlpweGVyWTU0QldMZV9INk9OdWdoZkpmVjYyd0pfblZDTXFpMXB2cXpMWnVTZXJVNG90b05fejZiZy1hdGtQb2pqa3k5aGFxbm14NGl1SU00T282NDBSNldBUHByUHdqSmRqeklBVlp4VGZLblJ0b3Z6UEdRa0R3S3lsemQyQy1MQy1LcVlfYVFHSFJqUm15X0V1bVFBTGpPeExKZW1teWtOcGVZbmFGYkZlV1ptOE02Q09FV3c?oc=5",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T12:52:49+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "EU Hackathon looks to combating antisemitism and fostering Jewish Life",
+   "link": "https://fra.europa.eu/en/news/2026/eu-hackathon-looks-combating-antisemitism-and-fostering-jewish-life",
+   "fonte": "EU Fundamental Rights Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T12:51:12+00:00",
+   "via": null,
+   "feed": "fra",
+   "categoria": "Observatórios e entidades"
   },
   {
    "titulo": "The Kremlin’s Antisemitism Machine and Its War Against the West: A Q&A With Author David Reaboi",
@@ -562,6 +722,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Ultradireita forma bancada no Senado da França pela 1ª vez, em meio a acusações de antissemitismo",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQY2J3aHJSTl92V0R1QVUxZW5OcWNQcGFQdTFEYjBKV25CMWgxcWo2Q3MtU01qXzMtU3paRWhXUVFpSzZrd3ZCLUpfVGgyTm5lcTRTNGF3Ykp6VVMwV2RRSmFqWGc0RjBmVmo2U05aQzU2aVlKVEJDLUdPeEtxd2dkb0ZRbmczWGpLY0tHZGl1MlZnUmp2dTU1SEtVWS1VNDkxT1FBNncyT0xZYXpZMXFIb0RpVTdITVFuakVjNnlOV2dKSjdSYVJ2c1RNQ05RVWYxX1J6NndRS25LcUItSFVN?oc=5",
+   "fonte": "folha.uol.com.br",
+   "escopo": "br",
+   "publicado_em": "2026-09-29T20:02:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Alcalde Mamdani anuncia medidas contra el antisemitismo en Nueva York",
    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVHlONEhVQTZGNjg5M0dmOTd1OUxtZlkwX09DN1JnVUcycDlCSmtQR0YyT2FrSkdnN1czdWZDYTBHc0pCaWNoNHNRTjBBem94Y0pOaG9EZXVrLXZRS2VhUDlSTW0yYmhqSkRqLXNlUVEwM21uTm5HQ2lyd0dOUmRYMlR1WDVzYlc3bmw2MlZJM0FuVFlFMUNmd0ttbGRmRGZIUDBHcGtQNGd4RFpDQ0tDSl9Xdm8xNGZLV2JZdGpIM0h5Zmc?oc=5",
    "fonte": "Clarin.com",
@@ -650,6 +820,16 @@
    "via": null,
    "feed": "swu",
    "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Antisemitism | History, Meaning, Facts, & Examples",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBxRnNldnFQbVE3amVrY3RtZHJ1OWo2cHRkemVuY1c0SGNBYjVUQTdhX3JJcnl0RWFPUHdBZFh4Rm5YSHlNRExrTkZuQzhkYjQxNlc5cnRIT1E?oc=5",
+   "fonte": "Britannica",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T05:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Accusé d'antisémitisme, Jordan Bardella dénonce une \"barbouzerie\" : ce que l'on sait des révélations de Mediapart",
