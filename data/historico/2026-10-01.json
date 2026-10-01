@@ -2,15 +2,85 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-01",
  "semana_iso": "2026-S40",
- "atualizado_em": "2026-10-01T05:29:46+00:00",
+ "atualizado_em": "2026-10-01T12:57:23+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 72,
- "no_brasil": 18,
- "no_mundo": 54,
+ "total": 87,
+ "no_brasil": 19,
+ "no_mundo": 68,
  "itens": [
+  {
+   "titulo": "67 min to blame Jews: CAM exposes rapid spread of antisemitic conspiracies after FlyDubai attack",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-910307",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T13:00:46+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "The Kremlin’s Antisemitism Machine and Its War Against the West: A Q&A With Author David Reaboi",
+   "link": "https://combatantisemitism.org/interview/the-kremlins-antisemitism-machine-and-its-war-against-the-west-a-qa-with-david-reaboi/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T12:41:14+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Como reconhecer e enfrentar o racismo religioso é tema de capacitação com inscrições abertas",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRk1tazJ5bWVpUzRLaG1LbkxOcmpWU0kyS3JTaklRUERfaXFPWjVRU05pWXN2V3Y2eDdjRHVnRlRmaTRjYlRKdHdFRVp0dW1fVGZfckJzM2ctcG9mc0Iyck8wVXdzTV9ZN0JsOEhKa2FlMWhpQ3Z1LVJfbXZTdjRzNHA3QzhQN1Y2bWxRZzZyMWJSUE5vMlJlUmNnQzdJSl9ZTzJDWktjNDE0UGp4ZmQzRjlxUV9uQnRkWkdYNEh6ZV9WaTNCOGowWTlYT2s?oc=5",
+   "fonte": "radiocom.org.br",
+   "escopo": "br",
+   "publicado_em": "2026-10-01T12:18:20+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Antisémitisme : le RN face à lui-même",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNa09semsyQUYwa3hKZHc3Q25PQnRBWXQxdHZMa2tMQUhlV3VJanNXMTRqVHE1ZlFqUnZxWjJ0ZDBCN25CNmxubmZsTlliWHZ1V1RYMEFJcElsR2RYLTZuWHVYUVdVMk9OcmVlUjJOTnBjNHlPY3diT1A4VUVZTDB4enBfeDZMZ051QnV2LWtGOA?oc=5",
+   "fonte": "regardsprotestants.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T10:23:47+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "What Kind of Judaism Do We Want After Oct. 7?",
+   "link": "https://jewishjournal.com/culture/arts/books/392747/what-kind-of-judaism-do-we-want-after-oct-7/",
+   "fonte": "Jewish Journal",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T09:27:15+00:00",
+   "via": null,
+   "feed": "jj",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "The Architecture of L’Dor Vador: How Physical Structures Shape Jewish Values and Intergenerational Life",
+   "link": "https://jewishjournal.com/community/392741/the-architecture-of-ldor-vador-how-physical-structures-shape-jewish-values-and-intergenerational-life/",
+   "fonte": "Jewish Journal",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T09:15:52+00:00",
+   "via": null,
+   "feed": "jj",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Solidarité avec la Palestine en ligne de mire : Giorgia Meloni pousse pour une loi Yadan à l’italienne",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNaHRMRUJ2emNpbkUzY2h3eWdseEJ6YzRwdkdIM1RETWZLTlVSS1d4dTNOOHhQQVFHMWpOMDlqM3l3TFNPN202eEhwN29FRTRlYWhYOGVGbkc2enctQXBmUXdUdnR3NEFHcDJrWjhvLWJsbi1wdnppTTNsRW9jSFhaSGFPWDZSZEpkZnJENXF4VUNRV09vVXlKa1YzMmZnczhxS1hzUTdSTlJvNWhQcWQzWjlsdmtPcklwTDBDUnhWZ19NQlprdzdUSFZwRjBDNi0tcUU0MmtnYmRqbVU?oc=5",
+   "fonte": "L'Humanité",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T06:52:35+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "In a time of uncertainty, European Jews renovate synagogues, dedicate Torah scrolls",
    "link": "https://www.jpost.com/diaspora/article-910245",
@@ -20,6 +90,16 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "La sombra del antisemitismo regresa al Reagrupamiento Nacional con el escándalo de los mensajes de Bardella",
+   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOTWFaZzlLUzdxM2RoTW1FZXhuVzh2MlJ5aTRjS252cmpOVTdsMmZZeUk2cVF5M3pXalh4b3lPamk1anZ3bGdLS1h6SzhfNGpfbDM0OXB4NWRPemQyQm1NZXpab0phQ3Q3TWJEUmU4Q01BZjJCODZHcFl0RDZQMk1HbEZCenZfMGpmNkU5ck4yUUhQNGl6dzlYNmVrbWY0WmMzRG5HdE92Nnp0UDFzV1N3S0RaN0Z5c0RTQl9uZ1N3ZTFNczRKWUZNcFJFVGZZRUlkaUJKbWt1MEFvRlc5WmFYOVpncENSQmNEX24wSNIBgAJBVV95cUxQZHBWd1EwU3dMbS1JSTFKaDV1cGgtaEU2NUhhSXlISHRDaDR5YjEySXoteEFqRlZ6US1kTGJTSHJmWk5TTFUtVWRuMzlvWDQxZTBZWHhIRVFwNElyOXczaGdKN1hVYXRIVWhZRFpXcm5VUG5XQ1h5eXd2dEZ1UEZCSEhlZGZsZDNLdkQzdEVkcGFuVm54bHYwb25wZUp6eUc2N0JsZUZkQVBjUE05eFNNa0JwYVc1TG1JYTR5eExOQ01UNF9UcGdtZkYzTlpTX0MtXy1GMFIyTlRidnNDN2tsMEFoQmFHS0VaNk5IQ1JEelVyTjBiU0o2N1gyT1pKb29B?oc=5",
+   "fonte": "EL PAÍS",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T03:30:01+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "“La Argentina tiene antecedentes graves de antisemitismo”",
@@ -50,6 +130,16 @@
    "via": null,
    "feed": "cam",
    "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "NYC announces plan to combat antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVjJMLVRLRnd2c2Q2QzhHT2QxV25LeGRhZUFUNndVQVEtYXhyZ2k5aEVZYzdnR0pWMnBWYmdSY0poLUUwODZpT3UwZU5najNVaFRqcFBkbHVsV3FhNVZtOHlhS3NRNFBsdF9Ja1hoQXNtYW40NEJqNzZTZ2JTQ2JzLU0ybTBfY3YweGRDWEV1d25HRTUyTFNSMjY4dXRCZVQ5bnJqdw?oc=5",
+   "fonte": "Spectrum News NY1",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T00:30:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "‘The Price of Belonging’: From Campus Antisemitism to an IDF War Room",
@@ -372,6 +462,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Mediapart annonce que d’autres révélations arrivent sur Jordan Bardella",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcUxZNmZka2pFTURNNGsyVDlLbHVWZUY4c1dheUtYZTVsajZfeFBDYWxEWGFNT2lfSUk1bXBpTlFPbWRUSjVIMW4wS3VlaEZXVl9McFVmV2lmRXJhS0VkU3lucFBybFlqOWc0S2RmTlMtOHA4RkFPN2dOV1dYOTVzYktjOWFTekR0WTJ3MGFselo1RUxqeVdYZ1N0MmRaa1l0VF8zZDJxMnlmcno2NnphZDFwQjhadFBTc0NaaVFaLVJwajhmMGRndHQ0OFZzZXZMRTE3WmNGWDU?oc=5",
+   "fonte": "20 Minutes",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-30T07:41:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "\"La suite de nos révélations arrive\", promet Fabrice Arfi de Mediapart, après les accusations d'antisémitisme contre Jordan Bardella",
    "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQcnNWWXRQQkwyWGQ0MGc4cEI3MHd2dGc0WnFEdk5Bcld1ZUJuOEU2UUxnUjBiN1lQTktsRmN1WXZOdXZQNkxmZnRRVEZpUWJoajRoZlVmeVNZaHY3aElyeHdSMEpqVnpIcWVqaURJZHpDVXlXMnA1OE5KR29QX2hRVWpkLXhFczZUUVdYZUkxZWU1SUhJaWsyMWFwSnFNSVhQM1R0LUhnR01QZ1pJUzBDa3k0ZHlCQWR1SF9LRmtockd6c2NFY3ZRQlFxTzVSbTlsR1JaRzNHbHk0ajdCZjFDMTFIMDlmVnJnYjdHUU9RYkdnMGRQZ0tNS1hBMk45WTJQaXk1eFlVbER6QmFjNnhISkIwaW9NeTFTV00zTQ?oc=5",
    "fonte": "franceinfo.fr",
@@ -412,6 +512,16 @@
    "categoria": "Observatórios e entidades"
   },
   {
+   "titulo": "Nueva York anunció un plan contra el antisemitismo tras una ola de ataques y apuñalamientos",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdnFGQ0lrTnJnTE5uU1V1UzByV3JyaXpscHM0X0RVTzkzdnZsVDRjSmFENmRjZy1YWFBudE92U0tIV25UODlqUmllSWpGX1UxSWhnaHhScFVoZ29vbHk1UldCcEIyRXBuYW9NNHZsR1dqRkhOSW9SNi03bkhmMGFCUnhMSkdtQTFlb191dHBGczNQUExpVXVrVEdCb1U0cXF4N1B0UHlrMDdUMXlPSmx0bkZBa0VGZTlxb01kSDhmYXVESFhYczdDMmFHOHRGMER0SFE2LUFEYkZtQdIB9AFBVV95cUxQeEVlMmpYTXRLQkVEZ05mUF92X0cxMXZQeXByRnhwZlFDVTdQX21EekxFMTlfM2RxTkxSdWtaeDBtbndfWHVVaHpFWGdlbXo5Nkh1LUoxYWxrV0NSZXVFNXRCTkpXUnl3aUJvY0RXYk1lQnhRbjY4OW9NaS1WeG9pV3NhOGJXdWlYS3ZzYm16LWl1TlFmMmU0NWFjN3NqMTh1YW85eVJTbUxEVEkwbnI0TmZRbml4bUNiNmx6bjJXUWZNR01tVzlRMFVKNmctQlVIdnRuWWlKcGVSU0NUa0J2bndSQ3ZQMjIyMUg1cW1xcFVibWNp?oc=5",
+   "fonte": "infobae.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-30T01:17:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Primeiro prefeito muçulmano de NY, Mamdani anuncia pacote para combater antissemitismo",
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPS0g4UzJWWGtkanREcURTdnFGSzcyclFHZkZpS1gyX3dhbTJrRHJuSXBwbkdXYjBfM3A2Z2g4OU94NEQ5Mi1adEpnaE8wWjVtMGV5ZzNxNi1UaUdUaW9Wa0VQcXVhaDlYejVUQUlWV1Q1QlFyMDNYd0s1bU5nSGV4blhwVUhULW9ObndEUVVDUDI3empYam9TcTFyX1o4dEtWb2ZvSHR4SEE4bm5JRjJIZGdNUURZS3RENWc?oc=5",
    "fonte": "veja.abril.com.br",
@@ -449,6 +559,16 @@
    "publicado_em": "2026-09-29T21:59:58+00:00",
    "via": "Google Notícias",
    "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Alcalde Mamdani anuncia medidas contra el antisemitismo en Nueva York",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVHlONEhVQTZGNjg5M0dmOTd1OUxtZlkwX09DN1JnVUcycDlCSmtQR0YyT2FrSkdnN1czdWZDYTBHc0pCaWNoNHNRTjBBem94Y0pOaG9EZXVrLXZRS2VhUDlSTW0yYmhqSkRqLXNlUVEwM21uTm5HQ2lyd0dOUmRYMlR1WDVzYlc3bmw2MlZJM0FuVFlFMUNmd0ttbGRmRGZIUDBHcGtQNGd4RFpDQ0tDSl9Xdm8xNGZLV2JZdGpIM0h5Zmc?oc=5",
+   "fonte": "Clarin.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T19:50:27+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -532,6 +652,16 @@
    "categoria": "Observatórios e entidades"
   },
   {
+   "titulo": "Accusé d'antisémitisme, Jordan Bardella dénonce une \"barbouzerie\" : ce que l'on sait des révélations de Mediapart",
+   "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQZXBUV291dHdZUnBZX1piNXR6c3lhdUhCeDg3d2QzT1BZcUFBQnZIb1ZiWDFsaUZwMkxjZnhMUFNBR0RYSWZ0U0Q3S0diaFJsVkk0YnQzdjNQVDdmYXFIUTNRWERKWHY2NVVobDlEcFB6RXEzT0RFUDl0Y0JFeTZkRG85N3hLRDF1VzdweUc5UllIZTE2Wm51cVhRMnpuTGNpVnBDY3lQbERFNE1Ma1hUTGpab2d4QkVCQ2Q5cjZQQVFGRm5HS3pDT19PTFZlM01OM0VKV1FzeE94SnlxaFNOajJuemtfNmZkWktmM1IyNHRrTFpLVmhJQl9ySC1vNUtyRDBic0VHNUs1WXBiV2l5S053VGtZZw?oc=5",
+   "fonte": "Radio France",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T04:07:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Saskatoon man sentenced to house arrest for inciting hatred against Jewish people",
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOa3hRS1BjU0Y2Wm01TlpNTHE3cnQyQ0pSb1c1d0tReVVNRGNsa3Q3OXMxMmt1VEpacnlCanZvODF1Z19qdFBCaDZlXzZSejJORGNpZ3VnTlN4eHplZ3k2SkVfMi1LaEhWNzAtTW1xemFrWXczYk5wdVNfYUNoazVNLXllSmtGSFRrX0VCdm8xOWFScmJrYUJlQmFvbjgxVHZfYUlocmpNQ0FJTlNSRDBxTw?oc=5",
    "fonte": "CBC",
@@ -539,6 +669,26 @@
    "publicado_em": "2026-09-28T23:52:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "\"Antisémitisme obsessionnel\" ou \"barbouzerie\" ? Six questions sur les propos attribués à Jordan Bardella par Mediapart",
+   "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPZkhzcm4yakJKTFF5Nkp3RXZLZGZERDIzM1EzSnNkZ1NJTUNmZUc1MzVHcENQdzVDUkx1TlFjQjgwUUdlc0hESmFtVUJCMlBtamV5eUl1b1AzeEYtVG5HWFN0TVY3UGNzUnV0UUYzUTF6MlpZWlJGTFJyQnA4c0J2c0ExelBnQUcwQVNuU0RhSm9NVmFvOEt5dmQyNkVzUXRSU1h1dG5idFZfMElocmdSckxfWVo1bjJ5anNaNHpNWWhpRFpfVnlZZUVGUHR5ZDFQVWJCUTlOZkVQTHdGcnk2dDQxX2RGNWhDTEVkUExLZ3J5QW9oOU12S0w5ekFHMXJPNUdWSlppRQ?oc=5",
+   "fonte": "franceinfo.fr",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T17:04:51+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "« Les banques sont toutes détenues par des juifs » : Jordan Bardella face à ses écrits antisémites",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWFBXY0VIeW1tRUlDVDJ4Tm16M3JnZzhkUnQwUXlSdnhCdUNmT2NHbzNXT2ZqcEY1OTlIVVoxRFBWeFpKdnM5SjZSYUZxV2pYejA2MTBIdzFDWElZU3FyTFVELTFXY1ZjWFlfRzdicWxpWlVsWnFkanlmbHZPWUJfcG1HZG9LX25mUGZweUtBb09hVFBZdlBCem5hZ2VhQjA4d3BlVktwYjc1T1dUX3NtcG9lcVA4QmRCM3lfV2I4VlVFMWh6VGVhWnIzdHhWaVdhdWM1UTdXTQ?oc=5",
+   "fonte": "Mediapart",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T13:27:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
    "categoria": "Radar por palavras-chave"
   },
   {
