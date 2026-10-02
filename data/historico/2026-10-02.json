@@ -2,15 +2,125 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-02",
  "semana_iso": "2026-S40",
- "atualizado_em": "2026-10-02T12:19:46+00:00",
+ "atualizado_em": "2026-10-02T19:07:56+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 78,
- "no_brasil": 19,
- "no_mundo": 59,
+ "total": 93,
+ "no_brasil": 21,
+ "no_mundo": 72,
  "itens": [
+  {
+   "titulo": "A great Jewish intellectual understood the Kafkaesque horror of Tennessee’s botched execution",
+   "link": "https://forward.com/opinion/853598/arthur-koestler-albert-camus-death-penalty-jewish-crista-pike-tennessee-botched-execution/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-02T19:05:55+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "TSE não pode, nem tem condições de estender votação por feriado judeu",
+   "link": "https://conjur.com.br/2026-out-02/tse-nao-pode-nem-tem-como-estender-votacao-por-feriado-judeu/",
+   "fonte": "Consultor Jurídico",
+   "escopo": "br",
+   "publicado_em": "2026-10-02T18:51:17+00:00",
+   "via": null,
+   "feed": "conjur",
+   "categoria": "Institucional e jurídico (Brasil)"
+  },
+  {
+   "titulo": "Canada’s broadcaster allegedly suspended a Jewish journalist for recording pro-Palestinian protesters outside Yom Kippur services",
+   "link": "https://www.jta.org/2026/10/02/global/canadas-broadcaster-allegedly-suspended-a-jewish-journalist-for-recording-pro-palestinian-protesters-outside-yom-kippur-services",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-02T18:47:30+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "How a UN Conference Against Racism Became a Platform for Vicious Antisemitism",
+   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNTUU2RUNHYkxCMm5qRFBLV0VvWjNiSnN5ay1TcUI3ckFSVnpNNG05V19XdmFVXzZSVmxqX0JpMUttRFNKY2dpWVhQa1hhMUtranNRbVowS2Q3bnBSM1R2Z1RRdUJPdjVyTE5qc09kTWFZYnpkSXBmZ09lSHJQOV96c1VzSUtvOWp6NkZjV3JZYnRKbUpyYXd2dHhjSmh1Wm05YlNLakNJYllNWUR5dE4ta3NlMkRoc21CWkt5dFBsemN0dnU5WFhnX2Q4SHV5ajl4Rk9sUmxZVDhWM0U0dXMtcE96aVAzd1JId1lhTnFHYjdCTEk1aEQxTQ?oc=5",
+   "fonte": "thejewishnews.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-02T17:45:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "The Jewish players to watch in the NHL this season",
+   "link": "https://www.jta.org/2026/10/02/sports/the-jewish-players-to-watch-in-the-nhl-this-season",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-02T17:19:15+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Italy’s antisemitism fight erupts into political battle over Israel",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UQVJJOU9ZWDhNRzBtUGNoM2EwWnV4bnc4ZENpUmk5NU5QdVZuSEEyMVRWUEpGeDI2Z2xpcE41NlpMbjBIOFFRT0hWNXBUckt0NUZHUXRaQ0pJWGRPZ0tLNFgwSTBTYk0?oc=5",
+   "fonte": "Ynetnews",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-02T17:06:40+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "I was so afraid my son would leave the Jewish family that I forgot to be his father",
+   "link": "https://www.jta.org/2026/10/02/ideas/i-was-so-afraid-my-son-would-leave-the-jewish-family-that-i-forgot-to-be-his-father",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-02T17:00:00+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Jewish communities worldwide under heightened threat after flydubai attack",
+   "link": "https://www.jta.org/2026/10/02/israel/jewish-communities-worldwide-under-heightened-threat-after-flydubai-attack",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-02T16:57:30+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Accusations d’antisémitisme visant Jordan Bardella : François Hollande juge qu’« il n’y a pas de surprise",
+   "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOVjllSTBHX3RkNHBDMl9oWnNLNzAxZDhidEM1Z2ctRDFENGdSekV4cTdiVm80Zk9TU1BycHFfT2xHcms3aGVqc0g4SmVHR2JWZ0N0TzBUdjYyQjVQXy1ySkxseGhTQ0RfVVhvWVJUUDJmT181X2lOSHRoUmhXWUxmVzd4Q29SR1BkalRiWXRhR1dRUDZIYlNZQjBqckFNZTFJX3lRSlY5Z1pWOUhMQjNQbHN3YnNWdkxhYTR4eEJMeU5PS05lT3pXTHNJWWNwZkVCN3Bjc3JuZ2VCYk85VUl2VFpCd3F3NHVaWElocEt3amRxdDFvUTBDb2ZzN094SnJsQ2paaUtLeWdXelMtLTFYdWcwdnJhUnlE?oc=5",
+   "fonte": "ici.fr",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-02T16:27:25+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "« Bardella applique une stratégie à la Trump, de nier et de contre-attaquer »",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOajhEWU9GbFlsWVlYU0xQNmJiWC1zZ2JLaFhPc0h2ZUJxcFZGS0h4azcySldUVnJvUW45Yy1lU0hTUFRhbTdmTFowN0NyTUEwTDhTdy1mS0E3NnNPQUpnZDJXRUdWbFZ1VUtXLWRHblc2YTVWZnk3MEE3UTFLblFfU2pUZW50RlFuaUVVZU1YdUxwZklUd1loendQX2stUFV1VDhWTFBtZUlCbWRxN2xEaDlKNloxZUpJUzdQT1czckhRM0s2S28zRGYtOC1CQkVSZU55UExn?oc=5",
+   "fonte": "20 Minutes",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-02T15:28:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "O ódio como cortina de fumaça: o antissemitismo se tornou estratégia de esvaziamento do debate eleitoral em SP",
+   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPRlhNZ0h3MmZWeU9fQUk5eE5MUDhtUmZoSkQ4b0EtT0xlUUlYLTlfbDhyd1QweFhFdlllb0xfVmlJQmNDVU02YWowS0I3WmJJYTdWSHM4OG9udzhOdTQxb3c5WjdsR0s2cVdHVkkzQmVSZEFEWmNkUTgwdU5NSmZJS1ZnYWZHbnNMc0FZZHNTRVlEZTJEcWplNGdYbHNGZWJJdEpqZkM4b282b2tsSjA5dHJrWEd6ZjE4Q3owQWNqT05ZMGNfbEFLVlJndWFvUkRBNkkzeDM4NzNHVWY3aXVCUmhldXVhSkhHVV9LNnQwYkE?oc=5",
+   "fonte": "boletimdaliberdade.com.br",
+   "escopo": "br",
+   "publicado_em": "2026-10-02T15:23:36+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "Is this Vermont farm the American kibbutz? I camped out there during Sukkot — and got a taste of Judaism’s ancient agrarian roots",
    "link": "https://forward.com/culture/853253/living-tree-alliance-sukkot-vermont-kibbutz-cohousing-earth-based-judaism/",
@@ -20,6 +130,16 @@
    "via": null,
    "feed": "fwd",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Opinion | Mamdani’s Plan to Whip Antisemitism Now",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaDJtVTg0b29iakM5MlNyZzF6NHpSNGJDNWZmV0hMNk1aRUlLRDh1dEpGT1NzSTNTN0JiMGNZNFZCLWF4YTIyc0ZySW93ek1qQlNiN2hjM2ZwQWtXWWctZ0pwcXctbUptczBaczZkZWhsSkdTbENhMzQ2YmM1NkRJcmVGeC1XNGJOWVdZX3JSRGlhUHd4YWc?oc=5",
+   "fonte": "WSJ",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-02T10:33:45+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Mamdani lanza una estrategia para combatir el antisemitismo",
@@ -322,6 +442,26 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "French far-right leader accused of antisemitism, defended by Israeli minister",
+   "link": "https://forward.com/fast-forward/852995/french-far-right-leader-accused-of-antisemitism-defended-by-israeli-minister/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T07:29:04+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "In a time of uncertainty, European Jews renovate synagogues and dedicate Torah scrolls",
+   "link": "https://forward.com/fast-forward/853076/in-a-time-of-uncertainty-european-jews-renovate-synagogues-and-dedicate-torah-scrolls/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T07:27:47+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
    "titulo": "In a time of uncertainty, European Jews renovate synagogues, dedicate Torah scrolls",
    "link": "https://www.jpost.com/diaspora/article-910245",
    "fonte": "The Jerusalem Post — Diaspora",
@@ -589,6 +729,16 @@
    "publicado_em": "2026-09-29T15:18:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Le RN fait bloc face aux accusations d'antisémitisme qui visent Jordan Bardella",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcE1TbWdVYVJZdG1rbHlWMjBVSEJaWWs4TE41aTRVTzh1bFdZbTA4RkRFNExkVU51eGFFbkVwQjNVVmxGbnpuZ2ZKVDZ3MVZuSUFDSF81WnZXdy1tT09pTGtOT3lqcDBpWnJ6dDd4TUZHNENYTjBITkJtbGVxWjNDd1VQSUZRYllhNXRRZjFkc1l4N2NFSDlrcE1FNzZseTczOXlTMGlPQnplUmVYazNjSk1QakVmYUluSWp5OUdEeVBHeE9y?oc=5",
+   "fonte": "Radio France",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T11:15:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
    "categoria": "Radar por palavras-chave"
   },
   {
