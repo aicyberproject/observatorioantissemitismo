@@ -2,15 +2,45 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-02",
  "semana_iso": "2026-S40",
- "atualizado_em": "2026-10-02T19:07:56+00:00",
+ "atualizado_em": "2026-10-02T23:41:03+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 93,
- "no_brasil": 21,
- "no_mundo": 72,
+ "total": 104,
+ "no_brasil": 23,
+ "no_mundo": 81,
  "itens": [
+  {
+   "titulo": "Eleven Jewish hockey players to watch in the NHL this season",
+   "link": "https://www.jpost.com/diaspora/article-910435",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-03T00:48:21+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Two Iranian nationals charged over alleged terrorism plot targeting UK Jewish community",
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-910432",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-02T22:55:18+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "‘US National Security and the Health and Strength of Our Society Depend on It’: CAM Welcomes Treasury Department Action Against Hamas Fundraising Network",
+   "link": "https://combatantisemitism.org/government-and-policy/us-national-security-and-the-health-and-strength-of-our-society-depend-on-it-cam-welcomes-treasury-department-action-against-hamas-fundraising-network/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-02T21:23:15+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades"
+  },
   {
    "titulo": "A great Jewish intellectual understood the Kafkaesque horror of Tennessee’s botched execution",
    "link": "https://forward.com/opinion/853598/arthur-koestler-albert-camus-death-penalty-jewish-crista-pike-tennessee-botched-execution/",
@@ -49,6 +79,16 @@
    "publicado_em": "2026-10-02T17:45:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Accusations d’antisémitisme : la pression monte sur Jordan Bardella, le RN fait toujours bloc",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZWFSbVNWRzNFV2N4WEtYQWl2UXpDVy12VG44U1RHOGhBZUhXWmdMc0hSZjd3V2lyWDNEVnk5RjN2cWNaRzU2NFVvV3VVTmVCa2MxSmlfTDVjOWpPVTlIeldOVUdzVUhMdjVuR0VqVDF6YS1uRURsaDQzd2Q5UXRLWnhIa3hDY2FKYjNSTWxMT3dHRnhBOXhlNGxUTmdGTFdHSl83SGM0ckxvdUlBYjBxZjhKME1YdzhFLUE1MVh2N2NEb1BQc1BfVTFtQ2Jodw?oc=5",
+   "fonte": "Le Figaro",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-02T17:30:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -122,6 +162,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Projeto de Lei Antissemitismo: não há razão para proteger os judeus com uma lei especial. Principalmente hoje em dia. Artigo de Marco Politi",
+   "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPTVJrUmVkRnh5eTB0c1lKR3JoSzBlejZUbUZKWVp6LTJXanBjcUdVczI4UDRoRFozSkRZQjVxM1hFcW1CSHJqelQyNlRzanN6Umg3NjZwOUh3c1ZFT2d3dEp4RFVfcXZKUDVITlNnYlRwUFZXOGNqVEVjSm91alc4VjRvVXVUcGk0SGZHVW42WU9HV1ZFdlJoWVZGNUJlajVfN2dQVXNwdEZYNnhrbnBrSEkzbWtaTkZ3UFNKanFnVGhoUkd3c1dIbmxVSTRFTHB4RE81Y3pHUnpVdGlFdnhVQllLc09NVVpDUkwzU3BSbjY4OFJuNnNwc3lVbzdlSkktTWc?oc=5",
+   "fonte": "ihu.unisinos.br",
+   "escopo": "br",
+   "publicado_em": "2026-10-02T11:50:08+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Is this Vermont farm the American kibbutz? I camped out there during Sukkot — and got a taste of Judaism’s ancient agrarian roots",
    "link": "https://forward.com/culture/853253/living-tree-alliance-sukkot-vermont-kibbutz-cohousing-earth-based-judaism/",
    "fonte": "The Forward",
@@ -130,6 +180,16 @@
    "via": null,
    "feed": "fwd",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Un informe de la ADL denuncia la exclusión sistemática de artistas judíos e israelíes en instituciones culturales de EE.UU.",
+   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOZGsyVUZobkVWLVYzd1VhMldNRTYwaklONnF6RF9HYUVjNWkzV1BDd0xfUzZ3QWJBZVZoSlJQTmNOYUp0UjVqc19aQmtPYXdmcW0tWXppZ0U4dG0tWHNmTmlFZTJOQlU4cTA2eGJPclFDbVFVQURIcmZSWUFlNWlkQTdmQmFSYlVHVTFXREw5aEF2RElrMDdpNnoxNW82c3Z3bnhmQlZmcThVQTRCanJQM3VhcDVQUmdzSXlRc3NUM1Jkbl9jQ1dpNVZLSjhXbC1FclA5NjJYdGszN3VkRWwzY1o1M0xOM2gxZU5lTzNmWQ?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-02T11:19:55+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Opinion | Mamdani’s Plan to Whip Antisemitism Now",
@@ -562,6 +622,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "Costa Joins Three Congressional Caucuses Focused on Campus Antisemitism, U.S.-Japan Ties, and Transatlantic Partnership",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWjlPOF9SRVgwejVyckNxS3VBSVVSOFNlUHo5V1M0ZG9QTnl0elRWX3JFZUp4ZFBvLW5DVDJ2WEdhNDMyc2tOZU5EUXFYS2ZLU1FQVThPZEllZFJXUW13RG9tN2VNVHE4cVd6YVJ0UTlrS2lTZG1HdDZhRld0TjlIcVJOU0RwRllCNFlGV19Uc3ZESnpwODlSdThubV9ORmFFWjh3UTQ0b0I5UGliY2RVNXZ1ZmpZUlZ1OUk3eWVPUQ?oc=5",
+   "fonte": "Congressman Jim Costa | (.gov)",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-30T17:56:37+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Mayor Mamdani’s antisemitism strategy doesn’t define antisemitism. That’s a good thing.",
    "link": "https://forward.com/opinion/852941/nyc-mayor-mamdanis-antisemitism-policy-no-definition-of-antisemitism/",
    "fonte": "The Forward",
@@ -580,6 +650,16 @@
    "via": null,
    "feed": "cam",
    "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "El giro de Mamdani: del activismo propalestino a luchar contra el antisemitismo",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQd0YtRzhBRVNoTGZsaEdaZU9MOXc4OW16bzJaT3RJYWNKeTkxS1B1U2paRFBGb3p5emd0QjI0cU1JMURmYlZiMVJMbGZ0V0Qtei1kOFRsSF9MRXVhTWpySlF6Y0F2bHNyM0R0a0VBdGplTEpHNGVfNnlaSFh1ZTVKWnpOUzhEX3otZFpDOUZ2ZWdTQnl0Yl9GQnNJYjFFN21pcDhkNHZxak5HM1otWXN1cDFrdUNQODE5b0VaMUNwWWZieElrQ1FGR1RVMG5ibE50Ui1z0gHYAUFVX3lxTE5YSDVCejAxZTJlTGtpVFhVRE5QT3ZjdUQxVW16T2R6YzYwM2ExaEdlY0hhdFpYb3hRMG8zVV9IOG5MUFJqM0NNNGtiZ0hVSGtvQzQ1SVd3SUt6VlQ2ZjlWZjJWRGJFNDEyNzRXb2ZZM3JBWGJyUkdIdEhiNFBpRW5xS0d2OVNQVks3dHFoLVhuZWptZFhVNzNlUlV2Y2F5R2tDYVA2TWg2M1Vta1JReDFzWV9WQTlCWnlMVmhtRkd5S21vZjZyemdrVXc3dVVmekROZTl2ZUdieQ?oc=5",
+   "fonte": "Revista Noticias",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-30T16:25:51+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "At LA mayoral forum, candidates weigh in on Israeli genocide claims and antisemitism",
@@ -719,6 +799,26 @@
    "publicado_em": "2026-09-29T17:31:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Mamdani lanza estrategia contra antisemitismo tras críticas a su posición propalestina",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPR080b1BjTUEzXzFLaF85c0Y5cVFSVXVXMjBxWWszMGZfWV9HZTRqb2xHODlTdm91eVN5b2FTVm0wMGhKT2RFRXk0dEdweVF0dWxUbk03TjhKWi1nVW91ZjRwTzRETWNlc1RhLWlNOHpNNXIzcXpLNXhnV2U5WWdZMUFzZTQwaUFDcVY1S3FwdmtkSF9hdlR3X2NuZkl6Y0lRSEFOWHYzZk02RDB4MGZiU3d0cUFEZXdlNU1oV3NmZFRadGh3ZUltWWk2M3ZmNXExendqSEVKWS0tZw?oc=5",
+   "fonte": "Clarin.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T17:10:15+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Mamdani Announces Plan to Fight Antisemitism, Without Discussing Israel",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQX2F0RmRHanBCRHYzZnluTUxRUGpWb1lqRUs5SkNfa0pqOTFPMDVTUXlmV3hKUW9RV2dteldfZ29Nc25XVlUzRm45eEhJSE4tU2FMbjl6Z1dIOEFNWVFLX2owNE9OMVhpZlAzRS1CRmItWVB0bzFSNjVGX3RSaWYycDlldndpUEE?oc=5",
+   "fonte": "The New York Times",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T15:24:19+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -879,6 +979,16 @@
    "publicado_em": "2026-09-10T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "‘Todo macumbeiro é derrotado’: Pablo Marçal é denunciado ao MPE por racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbFRFb3Z3SmtDOEdLbU5kRVMzLUp0WW56TEd1cmxkR2NYYUY5YXp1UnVLcl9fcjNtRDdDX2VMNXZwSDhvNW1FRHVDd0RMaTBOVHItcmJVV1lBU2VTTEJCMXd0OUhhUDg2SjJCT24wMWdVb2dTVlJGNHJpV1k4WXlqLXlR?oc=5",
+   "fonte": "Alma Preta Jornalismo",
+   "escopo": "br",
+   "publicado_em": "2026-09-09T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
    "categoria": "Radar por palavras-chave"
   },
   {
