@@ -566,8 +566,8 @@ def _check(itens):
 SESSENTA = [
     ("Grave a tela do conteúdo que se apaga sozinho",
      "Story, status, mensagem temporária e transmissão ao vivo somem em horas, e print não captura vídeo nem áudio. É o único item que pode ser impossível daqui a pouco."),
-    ("Capture o perfil de quem publicou",
-     "Nome de exibição, nome de usuário, endereço do perfil, biografia e número de seguidores. O perfil pode ser apagado, trocado de nome ou fechado em minutos, e sem ele a autoria fica em aberto."),
+    ("Registre o endereço do perfil que publicou, para entregar ao canal oficial",
+     "Não divulgue, não exponha e não confronte o autor."),
     ("Capture o conteúdo com o endereço, a data e a hora visíveis na tela",
      "Print em que se leia a URL inteira. Sem o endereço na imagem, a captura vale menos: não se sabe de onde saiu."),
     ("Salve a página completa, e não só a imagem",
@@ -614,7 +614,7 @@ PRESERVAR = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 
     <h3 class="h3-display">01 &middot; Conteúdo em rede social, site ou comentário</h3>
     <ul class="body prs-lista">
       <li>Print com o <strong>endereço completo visível</strong> na barra do navegador, mais data e hora do aparelho na tela.</li>
-      <li>Print do <strong>perfil do autor</strong>: nome de exibição, nome de usuário, endereço do perfil e biografia. Nome de exibição muda; o nome de usuário e o endereço são o que identifica.</li>
+      <li>Registre o <strong>endereço do perfil</strong> que publicou, para entregar ao canal oficial. Não divulgue, não exponha e não confronte o autor.</li>
       <li><strong>Salvar como página web completa</strong>, não só imagem. Guarda comentários, código e o que o print recortou.</li>
       <li>Se houver comentários relevantes, capture-os <strong>com o autor de cada um</strong>. Comentário sem autoria não serve para nada depois.</li>
       <li>Salve o endereço na <a href="https://web.archive.org/save" target="_blank" rel="noopener">Wayback Machine</a>, que gera cópia datada por terceiro.</li>
