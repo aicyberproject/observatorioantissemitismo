@@ -2,15 +2,35 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-03",
  "semana_iso": "2026-S40",
- "atualizado_em": "2026-10-03T05:00:05+00:00",
+ "atualizado_em": "2026-10-03T11:29:40+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 71,
- "no_brasil": 18,
- "no_mundo": 53,
+ "total": 85,
+ "no_brasil": 22,
+ "no_mundo": 63,
  "itens": [
+  {
+   "titulo": "A Jewish journalist recorded pro-Palestinian protesters outside services. He was reportedly suspended from his job",
+   "link": "https://forward.com/fast-forward/853637/a-jewish-journalist-recorded-pro-palestinian-protesters-outside-services-he-was-reportedly-suspended-from-his-job/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-03T10:09:27+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Mouvement de blocage des lycées, accusations d'antisémitisme visant Jordan Bardella... Le \"8h30 franceinfo\" d'Aleksandar Nikolic",
+   "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxOV3A4bnA2elpOck8zMFVFTGpBNmdzaUxnOXdkckFXa0V5cGFINFhzbUhBTi1KanZTYlk0YU5va3BNd3ZCd1RGZ0ZsTlp3RU5hYjNQSExGU0JfRDNFWWdNckVBdUg5cmYwWHotLTNDcFBxOE5hMEdXYm4yQTNDRW5GUTZLYjFUcE9JNFVOdVViQkV2SGY4bVpBcFdfdjdIeHpZRUxubHpHU3FSb2RJSEtKMjZjWHA2TlFRZGZRd3ZuTXhqSjdmSVJMMUJmMXRQdjRHSXZOOXpQbjZCUVNISERUSVh1SmZuY2pmQUxIVm14NmlFSG5iZkZqUHRsdC0wMm80UTBObVBOVnBzY1d4aWtwd0pDU052NUlhS3FFbEFn?oc=5",
+   "fonte": "franceinfo",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-03T07:50:57+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "UN rapporteur criticizes Italy's controversial antisemitism bill",
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQzAtMmtxdW1kWDRPcXNkY3FBNHpQRTRCSmV2ZWkySEpwSFNGVVh3ZnN6aFY5UzRoVnpvSzVuQU4wa0FtbFdhOENJeFpqSHlyVUE0SFUzUVpqNVdZY2phclJlcFRwRlBTdUNmMlJVUHV4Q3o3S0JkbHJWOGt6TjNEdVBYcFl5ODQ4eU9idnZ1Q1hiX3NJXzQ2c2VvRENYNFVzaHQyby1sNXFYZGNO?oc=5",
@@ -162,6 +182,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "« Jordan Bardella fait un pari sur la défiance des gens » : comment le RN se défend face à Mediapart",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSEtPbDdNLTlwRGNWNTZFT0d6ck5jZkdzZ3ZBWEY2by04WkVIZThWNFIyQkFNSWVWcVpZV3BsdHBWdTlRd1REeHlIcF9GaEt2b1BYU1I2OTU3bHEzREZLZDJmd1dadnByLXpmcTN1MUxpZDF1Q3dUUHR2WjJyMFF0WkwwWGpqeV9jdUVwQ0lpb0REaDRhcUxOR2RNNHRFazhhMHhJ?oc=5",
+   "fonte": "l'Opinion",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-02T15:15:29+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Projeto de Lei Antissemitismo: não há razão para proteger os judeus com uma lei especial. Principalmente hoje em dia. Artigo de Marco Politi",
    "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPTVJrUmVkRnh5eTB0c1lKR3JoSzBlejZUbUZKWVp6LTJXanBjcUdVczI4UDRoRFozSkRZQjVxM1hFcW1CSHJqelQyNlRzanN6Umg3NjZwOUh3c1ZFT2d3dEp4RFVfcXZKUDVITlNnYlRwUFZXOGNqVEVjSm91alc4VjRvVXVUcGk0SGZHVW42WU9HV1ZFdlJoWVZGNUJlajVfN2dQVXNwdEZYNnhrbnBrSEkzbWtaTkZ3UFNKanFnVGhoUkd3c1dIbmxVSTRFTHB4RE81Y3pHUnpVdGlFdnhVQllLc09NVVpDUkwzU3BSbjY4OFJuNnNwc3lVbzdlSkktTWc?oc=5",
    "fonte": "Instituto Humanitas Unisinos - IHU",
@@ -220,6 +250,16 @@
    "via": null,
    "feed": "swu",
    "categoria": "Observatórios e entidades"
+  },
+  {
+   "titulo": "Grupos contra el antisemitismo detectaron teorías conspirativas que culpan a Israel de escenificar el incidente de Flydubai",
+   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOTHdRZFBJTW9UNjUtLVFfZUVJQkt2TWwwcjNrQXNYbnlpcE9TWUhyTVdiejlQaFp1Z2YxRDVnVlN3RW9fS2RKd0ZxcVlTazBnQTVOZjVkZEZUV3BKdEpaZ1MydTM2bzF1aGg0Y0tpQWFqbEx3OXdmb2xPdnZ2ZzZmM3RGRGw1aDczVk9BaUtOODh3Tl92ekhJQV81UXpjYW1iOVJMNExUelJGU2JlOU16aERuWm1uMWtkTWh0dWJnUnRMbng3RWFPN29KSExqYUNnSC1taGp4ZGZNUlppRGlLYUlVc09RUzRYc2Y0Vlg2dmI?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-02T01:02:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "EarlyJ Invests More Than $510,000 to Expand Jewish Parenting Centers Across California",
@@ -442,6 +482,26 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "Jewish voters press Bass and Raman on Gaza, antisemitism at LA mayoral forum",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNc19Ic1d2SDRBczREWjR1ckxaOVdZUXd2VFp1SmxPUC1VUHVHbFEzQXV2dnp6SzJfVEZGVzcwWDZQTGxIaEdvU0E3dkItRXhwanhKaG9HZHgtbjYwbFJBY2tUNlhWWmI2QlhMN3pfQUE5SmQ2TjUxaV9NQWZHdnltZlQyOGJZNmhYWXlOTmJjWHlqdlR5UFNCNTVUMllxSWJmaWdwQ2M4WU1VUjBxT0gydU1JX1FXUUpVeENSMjR6TEo?oc=5",
+   "fonte": "ABC7 Los Angeles",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-30T18:20:05+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Costa Joins Three Congressional Caucuses Focused on Campus Antisemitism, U.S.-Japan Ties, and Transatlantic Partnership",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWjlPOF9SRVgwejVyckNxS3VBSVVSOFNlUHo5V1M0ZG9QTnl0elRWX3JFZUp4ZFBvLW5DVDJ2WEdhNDMyc2tOZU5EUXFYS2ZLU1FQVThPZEllZFJXUW13RG9tN2VNVHE4cVd6YVJ0UTlrS2lTZG1HdDZhRld0TjlIcVJOU0RwRllCNFlGV19Uc3ZESnpwODlSdThubV9ORmFFWjh3UTQ0b0I5UGliY2RVNXZ1ZmpZUlZ1OUk3eWVPUQ?oc=5",
+   "fonte": "Congressman Jim Costa | (.gov)",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-30T17:56:37+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "El giro de Mamdani: del activismo propalestino a luchar contra el antisemitismo",
    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQd0YtRzhBRVNoTGZsaEdaZU9MOXc4OW16bzJaT3RJYWNKeTkxS1B1U2paRFBGb3p5emd0QjI0cU1JMURmYlZiMVJMbGZ0V0Qtei1kOFRsSF9MRXVhTWpySlF6Y0F2bHNyM0R0a0VBdGplTEpHNGVfNnlaSFh1ZTVKWnpOUzhEX3otZFpDOUZ2ZWdTQnl0Yl9GQnNJYjFFN21pcDhkNHZxak5HM1otWXN1cDFrdUNQODE5b0VaMUNwWWZieElrQ1FGR1RVMG5ibE50Ui1z0gHYAUFVX3lxTE5YSDVCejAxZTJlTGtpVFhVRE5QT3ZjdUQxVW16T2R6YzYwM2ExaEdlY0hhdFpYb3hRMG8zVV9IOG5MUFJqM0NNNGtiZ0hVSGtvQzQ1SVd3SUt6VlQ2ZjlWZjJWRGJFNDEyNzRXb2ZZM3JBWGJyUkdIdEhiNFBpRW5xS0d2OVNQVks3dHFoLVhuZWptZFhVNzNlUlV2Y2F5R2tDYVA2TWg2M1Vta1JReDFzWV9WQTlCWnlMVmhtRkd5S21vZjZyemdrVXc3dVVmekROZTl2ZUdieQ?oc=5",
    "fonte": "Revista Noticias",
@@ -482,6 +542,26 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Prefeito de NY anuncia estratégia para combater o antissemitismo na cidade",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOU1hOT0h3OU4wUXgyZEM0eWl4amYycXZqb2l4Z0djbFZkNFdiTmw2TDVMTHBOSFcwcDg0cC01bVh6Z2Q3UDlRTkZMa0Z4cTZuNVpxT0VRQkU2WHVpamlBcHVFdmFvRnlhdV8yakQxdy1Gdkxmcmt6TnRMUXoxTmtwMVd0dVpfS1FXc0tqZVc2ZzVnVnFGZHNsenNMSWZTM0poMTNXNW43dUF6T3F3VlBjLVZBVQ?oc=5",
+   "fonte": "CNN Brasil",
+   "escopo": "br",
+   "publicado_em": "2026-09-30T02:04:04+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Primeiro prefeito muçulmano de NY, Mamdani anuncia pacote para combater antissemitismo",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPS0g4UzJWWGtkanREcURTdnFGSzcyclFHZkZpS1gyX3dhbTJrRHJuSXBwbkdXYjBfM3A2Z2g4OU94NEQ5Mi1adEpnaE8wWjVtMGV5ZzNxNi1UaUdUaW9Wa0VQcXVhaDlYejVUQUlWV1Q1QlFyMDNYd0s1bU5nSGV4blhwVUhULW9ObndEUVVDUDI3empYam9TcTFyX1o4dEtWb2ZvSHR4SEE4bm5JRjJIZGdNUURZS3RENWc?oc=5",
+   "fonte": "VEJA",
+   "escopo": "br",
+   "publicado_em": "2026-09-29T23:22:38+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Mamdani anuncia campanha milionária contra o antissemitismo após tensão com Netanyahu",
    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQN3pLdVFDVzJnLTh4S2U5LUx0aDVnZ1NfN3hkSEREVTJJdTRYakxTc0ppX19QMGRzY0prVUxJX2ZPV0VURnVGNzBpSjVEUUJwVlRncGg1dERXYXRHWkIxQ3QtN24yTXJ1b1VKOTJvY29pU1BBb0xtRkZOSjNLcFhRV3BfMFdrbkNLcGVUUkhyUUNteEstUm10VXlzZk12YzEtWlNUNnQ4eVkwWXlKbWVWeVBwY0MwZ2M?oc=5",
    "fonte": "jovempan.com.br",
@@ -499,6 +579,16 @@
    "publicado_em": "2026-09-29T22:32:05+00:00",
    "via": "Google Notícias",
    "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Prefeito de Nova York, Mamdani anuncia medidas contra antissemitismo na cidade",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTVduNElCQ1FQWWttTUVvTlhLM3laYzRwZWd3c0pPN1BfT2o0ZHNpeXZkQTVqS2c0U0pvaUJpVF9RbGlwMnhpel9la2tGTTV2XzVZand2NDQ2LXJHNC1vV1FvQWs4ZjMzWi1VZUVlQW1EZVRHbC00Nl9MQzNSYV9EUGRsY1RXQVRpTTNvUWpjLVB4dnBCSkZNc1ZoSm85NW92R0hTN3lSallWcmhZbXp1WmlBNV9WT01hbkRKY09uWUFKY1BZVjVPS9IB1wFBVV95cUxNM1E5ZkQ1X2tqSWVSdERmSmNnZ2xERExITWl5ekgwYjdNdUhqQmNQQnh4ZzNfdmRwUFFCQ2VUOExhS05vUVNERHQxQ2RJTllDOFYzcDRnb2ZaX3hudTJjb2ppN2JHM1dpSmsyajMyaks0Mm9uNmdWWTdEOF9tam9yQ3hvcDV2OUIxVFRvLUJkb01QUlFOX2twb1RqX0lLcjlqZjIxalhfSzRpem1BODF1MWFoUktRQkdLTDJHVU5kcUhwTkRaVTJPUXl1ZTlQeW4xZVVCeUlvaw?oc=5",
+   "fonte": "G1",
+   "escopo": "br",
+   "publicado_em": "2026-09-29T21:59:58+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -522,6 +612,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Discriminación y antisemitismo: el rol de la Justicia frente a los discursos de odio",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWE1INUQ3U0d6ZzJBbG5hNVJadkswcUl4RnJ2SUpJRTE5UWlUc0hlV2JCZjRENmFBajdfVkU1YlYyRTZqUmxQclcxZUVqb0FMMGJTLTBwU2Nva3puemRYSDNQRUhxTDNYRkJmVWtWeTB0UFFCQkpJc1loUXZTYnZOaVVoQXpfOGNTVDFOSG5HOUtvU1lfQ1BTT0paRjFEbDJRTk8yaDI1MlI4LUN6RWIwN0FQcXo2MW1JOGkzbU1LVmRCUQ?oc=5",
+   "fonte": "Revista Quórum",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T18:27:37+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Mamdani lanza estrategia contra antisemitismo tras críticas a su posición propalestina",
    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPR080b1BjTUEzXzFLaF85c0Y5cVFSVXVXMjBxWWszMGZfWV9HZTRqb2xHODlTdm91eVN5b2FTVm0wMGhKT2RFRXk0dEdweVF0dWxUbk03TjhKWi1nVW91ZjRwTzRETWNlc1RhLWlNOHpNNXIzcXpLNXhnV2U5WWdZMUFzZTQwaUFDcVY1S3FwdmtkSF9hdlR3X2NuZkl6Y0lRSEFOWHYzZk02RDB4MGZiU3d0cUFEZXdlNU1oV3NmZFRadGh3ZUltWWk2M3ZmNXExendqSEVKWS0tZw?oc=5",
    "fonte": "Clarin.com",
@@ -537,6 +637,16 @@
    "fonte": "Politico",
    "escopo": "mundo",
    "publicado_em": "2026-09-29T16:25:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Mamdani Announces Plan to Fight Antisemitism, Without Discussing Israel",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQX2F0RmRHanBCRHYzZnluTUxRUGpWb1lqRUs5SkNfa0pqOTFPMDVTUXlmV3hKUW9RV2dteldfZ29Nc25XVlUzRm45eEhJSE4tU2FMbjl6Z1dIOEFNWVFLX2owNE9OMVhpZlAzRS1CRmItWVB0bzFSNjVGX3RSaWYycDlldndpUEE?oc=5",
+   "fonte": "The New York Times",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T15:24:19+00:00",
    "via": "Google Notícias",
    "feed": "radar-en",
    "categoria": "Radar por palavras-chave"
@@ -587,6 +697,16 @@
    "fonte": "franceinfo",
    "escopo": "mundo",
    "publicado_em": "2026-09-28T17:04:51+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "« Les banques sont toutes détenues par des juifs » : Jordan Bardella face à ses écrits antisémites",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWFBXY0VIeW1tRUlDVDJ4Tm16M3JnZzhkUnQwUXlSdnhCdUNmT2NHbzNXT2ZqcEY1OTlIVVoxRFBWeFpKdnM5SjZSYUZxV2pYejA2MTBIdzFDWElZU3FyTFVELTFXY1ZjWFlfRzdicWxpWlVsWnFkanlmbHZPWUJfcG1HZG9LX25mUGZweUtBb09hVFBZdlBCem5hZ2VhQjA4d3BlVktwYjc1T1dUX3NtcG9lcVA4QmRCM3lfV2I4VlVFMWh6VGVhWnIzdHhWaVdhdWM1UTdXTQ?oc=5",
+   "fonte": "Mediapart",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T13:27:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-fr",
    "categoria": "Radar por palavras-chave"
@@ -652,6 +772,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "titulo": "Federal court revives antisemitism lawsuit involving Los Angeles Unified ethnic studies",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVDY4WGxQbWVzZnZOZXg3T3E5eG9CMlFWOGtyV0d5QjROY2w4T05Oand3UFh1UjNFRl9pcVpZQ0NLcmZLWEhya3NRaVIzRFdDSmNGNE55LTNTX0c0QndZSmJwcW56ak5BUHR2YnJHVUVyVk4wYVhEQm9FNEs2UDJSMXVtNzBPeXhPTkdj0gGTAUFVX3lxTE1SY3o3S05uZDN0WnZOZV9mU2JBdzVKYVZiZ2c4Smd6TzFVUWZ0M0JYMXdkNDFWTWZTaW1kZVB6aDAwSEppQWIzQWM3a0VrSVFUc0lTNWFrLWk5MEgtZlZBYnJ3QmVkTnZiUU5CUmdUMXVKbzVQVzJsaFViY1pqbmxyTzRhTHZrSG1VTHB6dUF6aWZYZw?oc=5",
+   "fonte": "EdSource",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-16T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "Prefeito de Parauapebas (PA) é alvo de processo de impeachment por racismo religioso",
    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORFhFMmhVam9SVFFZWUlFZlN0WGNuczhPVGJrczZSVG0xdmdPTHp2X0pmZlk2VXI4NW9NcDNaXzlLeVprQ2pjbHRPVXp3ME1KdTZPbUdXb3QwMF9OTGd6UlEyd0VoeG56dWQ2Z3hrbFdlOEZzdVI2T3F5ODhHekxvSHRRVHNwUkxNR3pRc2hkakRHRmlIM3NzMERuVTQxWmE1c1Rv?oc=5",
    "fonte": "Alma Preta Jornalismo",
@@ -669,6 +799,16 @@
    "publicado_em": "2026-09-10T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "‘Todo macumbeiro é derrotado’: Pablo Marçal é denunciado ao MPE por racismo religioso",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbFRFb3Z3SmtDOEdLbU5kRVMzLUp0WW56TEd1cmxkR2NYYUY5YXp1UnVLcl9fcjNtRDdDX2VMNXZwSDhvNW1FRHVDd0RMaTBOVHItcmJVV1lBU2VTTEJCMXd0OUhhUDg2SjJCT24wMWdVb2dTVlJGNHJpV1k4WXlqLXlR?oc=5",
+   "fonte": "Alma Preta Jornalismo",
+   "escopo": "br",
+   "publicado_em": "2026-09-09T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
    "categoria": "Radar por palavras-chave"
   },
   {
