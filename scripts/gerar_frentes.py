@@ -110,11 +110,141 @@ def achados():
 """
 
 
+# ---------------------------------------------------------------------------
+# T3. Painel do Disque 100, sob a regra E.9.2.4 do Anexo E
+# ---------------------------------------------------------------------------
+
+REL30 = "Relat&oacute;rio oficial do Disque 100 sobre viol&ecirc;ncia relacionada &agrave; liberdade religiosa, emitido em 30/09/2026"
+MICRO = "Microdados abertos do Disque 100 (MDHC), por semestre"
+
+
+def disque100():
+    BASES_PILL = '<a class="pill" href="bases.html">Mapa de bases e canais &rarr;</a>' if (RAIZ / "bases.html").exists() else ""
+    oficial = tabela(
+        "Série oficial de denúncias de violência relacionada à liberdade religiosa, 2023 a 27/09/2026",
+        ["Ano", "Den&uacute;ncias", "Unidade", "Janela", "Divulga&ccedil;&atilde;o de origem",
+         "Religi&atilde;o da v&iacute;tima n&atilde;o informada", "V&iacute;tima de religi&atilde;o juda&iacute;smo"],
+        [["2023", "1.482", "denúncia", "ano civil", REL30, "1.229 (83%)", "1"],
+         ["2024", "2.472", "denúncia", "ano civil", REL30, "1.842 (75%)", "2"],
+         ["2025", "2.723", "denúncia", "ano civil", REL30, "2.016 (74%)", "6"],
+         ["2026", "1.768", "denúncia", "1&ordm;/01 a 27/09/2026", REL30, "920 (52%)", "4"]])
+
+    ramo = tabela(
+        "Ramo de liberdade de religião ou crença nos microdados abertos, denúncias distintas",
+        ["Ano", "Den&uacute;ncias distintas no ramo", "Unidade", "Janela", "Origem", "Propor&ccedil;&atilde;o do total oficial do mesmo ano"],
+        [["2023", "960", "denúncia distinta, fixada pelo analista", "ano civil", MICRO, "65%"],
+         ["2024", "1.546", "denúncia distinta, fixada pelo analista", "ano civil", MICRO, "63%"],
+         ["2025", "2.619", "denúncia distinta, fixada pelo analista", "ano civil", MICRO, "96%"]])
+
+    divulg = tabela(
+        "Divulgações do MDHC, com a unidade que cada uma declara",
+        ["Divulga&ccedil;&atilde;o", "Valor", "Unidade como rotulada", "Refer&ecirc;ncia temporal"],
+        [["Janeiro de 2024", "2.124", "viola&ccedil;&otilde;es", "2023"],
+         ["Janeiro de 2025", "1.481", "den&uacute;ncias", "2023"],
+         ["Janeiro de 2026", "2.472", "rotulado como viola&ccedil;&otilde;es; o relat&oacute;rio oficial de 30/09/2026 trata o mesmo n&uacute;mero como den&uacute;ncias", "2024"],
+         ["Janeiro de 2026", "2.774", "casos", "janela de treze meses, de janeiro de 2025 a janeiro de 2026, que n&atilde;o corresponde ao ano civil"],
+         ["Outubro de 2024", "1.227 den&uacute;ncias e 1.940 viola&ccedil;&otilde;es", "duas unidades distintas, na mesma comunica&ccedil;&atilde;o", "1&ordm; semestre de 2024"]])
+
+    judias = tabela(
+        "Denúncias com vítima de religião declarada judaísmo, em relação ao ramo de liberdade de religião ou crença",
+        ["Per&iacute;odo", "Den&uacute;ncias com v&iacute;tima judia", "No ramo de liberdade de religi&atilde;o ou cren&ccedil;a", "Fora do ramo"],
+        [["2023", "17", "0", "100%"],
+         ["2024", "21", "2", "90%"],
+         ["2025", "16", "5", "69%"],
+         ["1&ordm; semestre de 2026", "39", "4", "90%"]])
+
+    preench = tabela(
+        "Preenchimento da religião da vítima nos microdados abertos",
+        ["Per&iacute;odo", "Den&uacute;ncias da base com a religi&atilde;o da v&iacute;tima preenchida"],
+        [["2023", "3,61%"], ["2024", "6,08%"], ["2025", "4,01%"], ["1&ordm; semestre de 2026", "14,06%"]])
+
+    return f"""{ABERTURA}
+  <p class="crumb"><a href="index.html">Observat&oacute;rio</a> &nbsp;/&nbsp; <a href="achados.html">Achados</a> &nbsp;/&nbsp; Disque 100</p>
+  <h1 class="h1" style="margin-top: 24px">Disque 100: o que a base mede e o que n&atilde;o mede</h1>
+  <p class="lead" style="margin: 26px 0 0; max-width: 70ch">O campo existe, e a medida n&atilde;o. O Disque 100 registra a religi&atilde;o da v&iacute;tima, mas n&atilde;o tem valor de motiva&ccedil;&atilde;o religiosa ou antissemita, e as divulga&ccedil;&otilde;es p&uacute;blicas n&atilde;o se comparam entre si.</p>
+  {PRELIMINAR}
+  <p class="body" style="margin: 18px 0 0; max-width: 72ch">Atualizada em {DATA}. Fonte: relat&oacute;rio preliminar conjunto das Frentes 1 e 2, vers&atilde;o 2.0, item 3.1.5, Quadro 8 e Anexo E, itens E.9.2 e E.11. Os n&uacute;meros n&atilde;o s&atilde;o produzidos por este sítio.</p>
+  {RESSALVA_DEFINICAO}
+</section>
+
+<section class="band"><div class="wrap section" id="regra">
+  <p class="eyebrow">Regra de leitura</p>
+  <h2 class="h2" style="max-width: 34ch">Todo n&uacute;mero declara unidade, janela e divulga&ccedil;&atilde;o de origem</h2>
+  <p class="body" style="margin: 20px 0 0; max-width: 74ch">Nenhum valor da Ouvidoria Nacional de Direitos Humanos &eacute; citado sem que se declare, no mesmo per&iacute;odo, a unidade, a janela temporal e a divulga&ccedil;&atilde;o de origem. <strong>Compara&ccedil;&atilde;o entre anos apoiada em divulga&ccedil;&otilde;es diferentes fica vedada.</strong> As duas s&eacute;ries abaixo t&ecirc;m origem, unidade e filtro distintos e <strong>nunca s&atilde;o somadas nem comparadas</strong> como se fossem a mesma.</p>
+</div></section>
+
+<section class="wrap section" id="oficial">
+  <p class="eyebrow">S&eacute;rie oficial</p>
+  <h2 class="h2" style="max-width: 34ch">Den&uacute;ncias de viol&ecirc;ncia relacionada &agrave; liberdade religiosa</h2>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">O relat&oacute;rio oficial, recebido pelo Eixo em planilha, declara contar den&uacute;ncias e reproduz os totais divulgados. Os treze casos com v&iacute;tima de religi&atilde;o juda&iacute;smo no per&iacute;odo s&atilde;o piso, porque a religi&atilde;o da v&iacute;tima n&atilde;o &eacute; informada na maioria das den&uacute;ncias. Os valores n&atilde;o foram conferidos no painel original.</p>
+  {oficial}
+  <p class="fonte" style="margin-top: 22px">Fonte: {REL30}, planilha encaminhada ao Eixo 3. Confian&ccedil;a alta quanto ao relat&oacute;rio, com a confer&ecirc;ncia contra o painel pendente (achado A35).</p>
+</section>
+
+<section class="band"><div class="wrap section" id="microdados">
+  <p class="eyebrow">Microdados abertos</p>
+  <h2 class="h2" style="max-width: 34ch">O ramo de liberdade de religi&atilde;o ou cren&ccedil;a</h2>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">A &aacute;rvore de viola&ccedil;&otilde;es da base n&atilde;o tem categoria chamada intoler&acirc;ncia religiosa. A correspond&ecirc;ncia usada pelo Eixo &eacute; o ramo &ldquo;Liberdade de religi&atilde;o ou cren&ccedil;a&rdquo;, com os subtipos de cren&ccedil;a, de culto e n&atilde;o cren&ccedil;a. A contagem &eacute; de den&uacute;ncias distintas, unidade fixada pelo analista.</p>
+  {ramo}
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">O ramo cresce 69% entre 2024 e 2025, e a s&eacute;rie oficial, 10%. As duas n&atilde;o s&atilde;o a mesma s&eacute;rie. O filtro oficial abrange den&uacute;ncias que os microdados abertos n&atilde;o classificam no ramo e n&atilde;o &eacute; documentado, de modo que a diferen&ccedil;a &eacute; de composi&ccedil;&atilde;o. N&atilde;o se pode ler o crescimento do ramo como crescimento do fen&ocirc;meno.</p>
+  <p class="fonte" style="margin-top: 22px">Fonte: {MICRO}, 2023 a 2025; processamento do Eixo 3. Confian&ccedil;a m&eacute;dia (achados A29 e A32).</p>
+</div></section>
+
+<section class="wrap section" id="divulgacoes">
+  <p class="eyebrow">Divulga&ccedil;&otilde;es do MDHC</p>
+  <h2 class="h2" style="max-width: 34ch">A unidade e a janela variam entre divulga&ccedil;&otilde;es</h2>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">Den&uacute;ncia e viola&ccedil;&atilde;o n&atilde;o s&atilde;o unidades equivalentes, porque uma den&uacute;ncia pode registrar mais de uma viola&ccedil;&atilde;o. Nenhuma das divulga&ccedil;&otilde;es examinadas traz nota metodol&oacute;gica que as distinga.</p>
+  {divulg}
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">O relat&oacute;rio oficial de 30/09/2026 registra os totais como den&uacute;ncias. A divulga&ccedil;&atilde;o de janeiro de 2026 tem, portanto, <strong>imprecis&atilde;o de r&oacute;tulo, e n&atilde;o erro de contagem</strong>. N&atilde;o h&aacute; evid&ecirc;ncia de inconsist&ecirc;ncia na base: o que se documenta &eacute; a aus&ecirc;ncia de nota metodol&oacute;gica nas divulga&ccedil;&otilde;es e de documenta&ccedil;&atilde;o do filtro.</p>
+  <p class="fonte" style="margin-top: 22px">Fonte: divulga&ccedil;&otilde;es do MDHC lidas por reprodu&ccedil;&atilde;o; relat&oacute;rio oficial de 30/09/2026. Confian&ccedil;a m&eacute;dia, com a confer&ecirc;ncia contra o painel original interrompida por bloqueio de acesso (achados A18 e A34).</p>
+</section>
+
+<section class="band"><div class="wrap section" id="catalogo">
+  <p class="eyebrow">Motiva&ccedil;&atilde;o</p>
+  <h2 class="h2" style="max-width: 34ch">Quebra do cat&aacute;logo em setembro de 2023</h2>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">At&eacute; agosto de 2023, a coluna de motiva&ccedil;&atilde;o trazia de 54 a 62 valores por m&ecirc;s, entre eles &ldquo;em raz&atilde;o da religi&atilde;o&rdquo;, registrado em 642 den&uacute;ncias de 2023, com &uacute;ltimo registro em 31 de agosto. A partir de setembro de 2023, o cat&aacute;logo caiu para 15 a 22 valores por m&ecirc;s, sem o valor religioso. Nenhum valor religioso ou antissemita consta de 2024, de 2025 nem do primeiro semestre de 2026. A base n&atilde;o tem dicion&aacute;rio de dados, e a causa da mudan&ccedil;a n&atilde;o &eacute; identific&aacute;vel nos dados. A coluna de motiva&ccedil;&atilde;o n&atilde;o &eacute; comparável entre 2023 e 2024.</p>
+  <p class="fonte" style="margin-top: 22px">Fonte: {MICRO}, 2023 a 2026. Confian&ccedil;a alta quanto ao fato; a causa depende de consulta ao MDHC (achados A31 e A36).</p>
+</div></section>
+
+<section class="wrap section" id="vitimas-judias">
+  <p class="eyebrow">V&iacute;timas de religi&atilde;o judaica</p>
+  <h2 class="h2" style="max-width: 34ch">A maior parte das den&uacute;ncias fica fora do ramo</h2>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">De 2023 ao primeiro semestre de 2026, entre 69 e 100 por cento das den&uacute;ncias com v&iacute;tima de religi&atilde;o declarada juda&iacute;smo ficam fora do ramo de liberdade de religi&atilde;o ou cren&ccedil;a. <strong>Os n&uacute;meros s&atilde;o piso</strong>, porque a religi&atilde;o da v&iacute;tima est&aacute; preenchida em minoria das den&uacute;ncias.</p>
+  {judias}
+  <p class="fonte" style="margin-top: 22px">Fonte: {MICRO}, 2023 a 2026; contagem de den&uacute;ncias distintas, por ano civil e, em 2026, at&eacute; o fim do 1&ordm; semestre. Confian&ccedil;a alta, com 21 como piso em 2024 (achados A30 e A37).</p>
+</section>
+
+<section class="band"><div class="wrap section" id="preenchimento">
+  <p class="eyebrow">Religi&atilde;o da v&iacute;tima</p>
+  <h2 class="h2" style="max-width: 34ch">Preenchimento do campo e o salto de 2026</h2>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">O campo mede atributo da v&iacute;tima, e n&atilde;o a motiva&ccedil;&atilde;o do agressor, e opera apenas dentro de uma viola&ccedil;&atilde;o. Esteve vazio em cerca de tr&ecirc;s quartos das den&uacute;ncias de 2023 a 2025. No primeiro semestre de 2026, o preenchimento subiu a 14,06%, ainda minorit&aacute;rio, por causa n&atilde;o identific&aacute;vel nos dados. Por isso a afirma&ccedil;&atilde;o de que o campo est&aacute; vazio vale para 2023 a 2025, e n&atilde;o para 2026.</p>
+  {preench}
+  <p class="fonte" style="margin-top: 22px">Fonte: {MICRO}; percentuais sobre as den&uacute;ncias da base, n&atilde;o do recorte. Confian&ccedil;a alta para os valores (achado A7).</p>
+</div></section>
+
+<section class="wrap section" id="limites">
+  <h2 class="h2" style="max-width: 34ch">O que n&atilde;o h&aacute;, e o que depende de consulta</h2>
+  <ul class="scope-list scope-isnot" style="margin-top: 20px; max-width: 76ch">
+    <li>Os microdados abertos n&atilde;o trazem coluna de encaminhamento, &oacute;rg&atilde;o de destino, status ou desfecho. Existe rastreabilidade individual no sistema, sem agrega&ccedil;&atilde;o em s&eacute;rie (achado A25).</li>
+    <li>Dependem de consulta ao MDHC: o filtro do relat&oacute;rio oficial e das divulga&ccedil;&otilde;es; o corte de dados da divulga&ccedil;&atilde;o de janeiro de 2026 e a diverg&ecirc;ncia do Rio de Janeiro; a causa da quebra de cat&aacute;logo em setembro de 2023; a causa do aumento do preenchimento da religi&atilde;o em 2026.</li>
+    <li>A aus&ecirc;ncia de evid&ecirc;ncia n&atilde;o equivale a evid&ecirc;ncia de aus&ecirc;ncia: o que aqui se registra &eacute; o que as bases p&uacute;blicas n&atilde;o permitem medir.</li>
+  </ul>
+  <div class="pills" style="margin-top: 24px">
+    <a class="pill pill-solid" href="achados.html">Todos os achados &rarr;</a>
+    {BASES_PILL}
+  </div>
+</section>
+"""
+
+
 def main():
     feitos = [
         pagina("achados.html", "Achados das Frentes 1 e 2",
                "Achados do relatorio preliminar conjunto das Frentes 1 e 2 do Eixo 3, com fonte e grau de confianca. Documento preliminar.",
                "achados.html", achados()),
+        pagina("disque100.html", "Disque 100",
+               "O que a base do Disque 100 mede e o que nao mede: unidade, janela e divulgacao de origem de cada numero. Documento preliminar.",
+               "", disque100()),
     ]
     print("paginas das Frentes 1 e 2: " + ", ".join(feitos))
     return 0
