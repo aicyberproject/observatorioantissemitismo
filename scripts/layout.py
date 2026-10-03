@@ -79,6 +79,7 @@ RODAPE_INST = [
     ("metodologia.html",      "Metodologia"),
     ("taxonomia.html",        "Taxonomia proposta"),
     ("disque100.html",        "Disque 100: o que a base mede"),
+    ("bases.html",            "Mapa das bases e canais"),
     ("glossario.html",        "Gloss&aacute;rio"),
     ("contato.html",          "Contato e errata"),
     ("privacidade.html",      "Pol&iacute;tica de privacidade"),

@@ -237,6 +237,38 @@ def disque100():
 """
 
 
+# ---------------------------------------------------------------------------
+# T4. Mapa das bases e canais
+# ---------------------------------------------------------------------------
+
+def bases():
+    d = carrega("bases.json")
+    linhas = [[esc(b["base"]), esc(b["orgao"]), esc(b["categoria"]), esc(b["proxima"]),
+               esc(b["unidade"]), esc(b["desfecho"])] for b in d["bases"]]
+    leitura = esc(d["leitura"].replace("Leitura do quadro.", "", 1).strip())
+    return f"""{ABERTURA}
+  <p class="crumb"><a href="index.html">Observat&oacute;rio</a> &nbsp;/&nbsp; <a href="achados.html">Achados</a> &nbsp;/&nbsp; Bases e canais</p>
+  <h1 class="h1" style="margin-top: 24px">Mapa das bases e canais</h1>
+  <p class="lead" style="margin: 26px 0 0; max-width: 70ch">Dezoito bases e canais examinados, com a pergunta que importa: o instrumento tem categoria que identifique o antissemitismo, e a base permite saber o que aconteceu com o registro depois da entrada?</p>
+  {PRELIMINAR}
+  <p class="body" style="margin: 18px 0 0; max-width: 72ch">Posi&ccedil;&atilde;o de 18 de agosto de 2026, conforme o Anexo B do relat&oacute;rio preliminar conjunto, vers&atilde;o 2.0. Atualizada em {DATA}. A coluna de categoria responde se existe, no instrumento, valor ou campo que identifique o antissemitismo de forma separ&aacute;vel na extra&ccedil;&atilde;o. A coluna de desfecho responde se a base permite saber o que aconteceu com o registro.</p>
+  {RESSALVA_DEFINICAO}
+</section>
+
+<section class="wrap section" id="quadro">
+  {tabela("Quadro comparativo das bases e canais examinados pelo Eixo 3", ["Base ou canal", "&Oacute;rg&atilde;o ou entidade", "Categoria aut&ocirc;noma de antissemitismo", "Categoria mais pr&oacute;xima dispon&iacute;vel", "Unidade de contagem", "Desfecho rastre&aacute;vel"], linhas)}
+  <p class="fonte" style="margin-top: 22px">Fonte: relat&oacute;rio preliminar conjunto, vers&atilde;o 2.0, Anexo B, quadro B.1. A unidade de contagem difere entre as bases (comunica&ccedil;&atilde;o, manifesta&ccedil;&atilde;o, den&uacute;ncia, boletim, chamado, processo, procedimento, ocorr&ecirc;ncia validada), e por isso os n&uacute;meros de bases distintas n&atilde;o se somam.</p>
+</section>
+
+<section class="band"><div class="wrap section" id="leitura">
+  <p class="eyebrow">Leitura do quadro</p>
+  <h2 class="h2" style="max-width: 34ch">Poucas categorias, quase nenhum desfecho</h2>
+  <p class="body" style="margin: 20px 0 0; max-width: 74ch">{leitura}</p>
+  <p class="body" style="margin: 14px 0 0; max-width: 74ch">A aus&ecirc;ncia de categoria autônoma n&atilde;o equivale &agrave; aus&ecirc;ncia do fen&ocirc;meno. Ver os <a href="achados.html">achados</a> e o painel do <a href="disque100.html">Disque 100</a>.</p>
+</div></section>
+"""
+
+
 def main():
     feitos = [
         pagina("achados.html", "Achados das Frentes 1 e 2",
@@ -245,6 +277,9 @@ def main():
         pagina("disque100.html", "Disque 100",
                "O que a base do Disque 100 mede e o que nao mede: unidade, janela e divulgacao de origem de cada numero. Documento preliminar.",
                "", disque100()),
+        pagina("bases.html", "Mapa das bases e canais",
+               "Quadro das bases e canais examinados pelo Eixo 3: categoria autonoma de antissemitismo, categoria mais proxima, unidade de contagem e desfecho rastreavel. Documento preliminar.",
+               "", bases()),
     ]
     print("paginas das Frentes 1 e 2: " + ", ".join(feitos))
     return 0
