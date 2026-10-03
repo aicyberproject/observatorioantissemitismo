@@ -231,7 +231,7 @@ def svg_colunas_anuais():
     banda = pw / len(ANUAL)
     larg = min(24, banda * 0.42)
     p = [f'<svg class="viz" style="min-width:{W}px" viewBox="0 0 {W} {H}" role="img" '
-         f'aria-label="Registros por ano, separados entre ambiente online e offline">']
+         f'aria-label="Ocorrências validadas por ano, separadas entre ambiente online e offline">']
     for t in ticks:
         y = mt + ph - ph * t / topo
         p.append(f'<line x1="{ml}" y1="{y:.1f}" x2="{W-mr}" y2="{y:.1f}" stroke="{GRID}" stroke-width="1"/>')
@@ -315,6 +315,16 @@ def tabela(cab, linhas, cls="tab-dados"):
 # Onde o campo nao e conhecido, a ficha DECLARA que nao e, em vez de omitir a
 # linha. Lacuna e achado, e uma ficha que so mostra o que se sabe induz a supor
 # que o resto foi apurado.
+
+# Edicao de 2025, tabela comparativa de denuncias desconsideradas (2022-2025):
+# (ano, recebidas, desconsideradas, consideradas, % desconsideradas)
+TRIAGEM_SERIE = [
+    (2022, 490, 93, 397, 18.98),
+    (2023, 2113, 703, 1410, 33.27),
+    (2024, 3167, 1379, 1788, 43.55),
+    (2025, 1428, 439, 989, 30.74),
+]
+
 
 FICHA_COMUNITARIA = [
     ("Método de coleta",
@@ -478,12 +488,11 @@ def main():
 
 <section class="metrics-band"><div class="wrap"><div class="metrics">
   <div class="metric"><p class="label">Ocorr&ecirc;ncias validadas</p><p class="num">989</p><p class="metric-note">em 2025 · de 1.428 registros recebidos</p></div>
-  <div class="metric"><p class="label">Descarte na triagem</p><p class="num">30,7%</p><p class="metric-note">dos 1.428 registros brutos de 2025</p></div>
+  <div class="metric"><p class="label">Varia&ccedil;&atilde;o</p><p class="num">+149%</p><p class="metric-note">sobre 2022, quando foram 397</p></div>
   <div class="metric"><p class="label">Meio</p><p class="num">80,9%</p><p class="metric-note">ocorr&ecirc;ncias no ambiente digital</p></div>
   <div class="metric"><p class="label">Frequ&ecirc;ncia</p><p class="num">2,7</p><p class="metric-note">ocorr&ecirc;ncias validadas por dia</p></div>
 </div>
 <p class="metrics-src">{LINK25} &mdash; CONIB, FISESP e Departamento de Seguran&ccedil;a Comunit&aacute;ria. {selo("verificado")} {natureza("comunitaria")}</p>
-<p class="metrics-src">A s&eacute;rie da CONIB, FISESP e DSC <strong>n&atilde;o &eacute; homog&ecirc;nea</strong>. Segundo a leitura do Eixo 3 (relat&oacute;rio preliminar conjunto, vers&atilde;o 2.0, se&ccedil;&atilde;o 3.6.2), apenas a edi&ccedil;&atilde;o de 2025 publica triagem de validade dos seus pr&oacute;prios dados, e os valores dos anos anteriores s&atilde;o registros brutos. Por isso a varia&ccedil;&atilde;o entre anos n&atilde;o deve ser lida como varia&ccedil;&atilde;o do fen&ocirc;meno. Ocorr&ecirc;ncia validada e men&ccedil;&atilde;o detectada por monitoramento autom&aacute;tico s&atilde;o unidades distintas e n&atilde;o s&atilde;o compar&aacute;veis entre si.</p>
 </div></section>
 
 <section class="wrap section">
@@ -511,13 +520,13 @@ def main():
     # ---------------- colunas anuais ----------------
     linhas = [[str(a), FMT(t), FMT(on), FMT(off), f"{on/t*100:.1f}%"] for a, t, on, off in ANUAL]
     out.append(figura(
-        "Registros por ano e por ambiente",
-        "Quatro anos. O valor de 2025 é de ocorrências validadas, e os dos anos anteriores são registros brutos, o que impede ler a diferença entre anos como variação do fenômeno. A tabela mostra a participação do ambiente digital em cada ano.",
+        "Ocorrências validadas por ano e por ambiente",
+        "Quatro anos completos. A retração de 2025 devolve o volume a um patamar acima do de 2022 e abaixo do pico de 2024. A participação do ambiente digital continuou subindo mesmo com a queda do total.",
         svg_colunas_anuais(),
         tabela(["Ano", "Total", "Online", "Offline", "% online"], linhas),
         f'Fontes: Relatório de Antissemitismo no Brasil 2024 e {LINK25}, CONIB, FISESP e DSC. {selo("verificado")} '
-        'Para 2022 circulam os valores 397 e 432, e para 2023, 1.410 e 1.412; a divergência não foi fixada por consulta à entidade. A tabela usa 397 e 1.412. '
-        'Série não homogênea: ver a ressalva no alto da página.',
+        'Na edição de 2025, o total de 2023 aparece como 1.410 no texto e na tabela de triagem, e como 1.412 na soma de online e offline (1.049 e 363); a tabela usa 1.412, que fecha com a soma por ambiente. '
+        'A própria fonte registra que 2025 permanece 149,1% acima da linha de base de 2022 (edição de 2025, p. 34 e 36 do PDF integral).',
         legenda=[("Online", S1), ("Offline", S2)],
         id_="serie-anual", nat="comunitaria", fic=FICHA_COMUNITARIA))
 
@@ -534,6 +543,19 @@ def main():
         'descartou 43,55% delas: menos registros em duplicidade e menos registros impulsionados pelo '
         'clima de crise explicam parte da queda no volume validado.',
         id_="triagem", nat="comunitaria", fic=FICHA_COMUNITARIA))
+
+    # ---------------- triagem, serie retroativa ----------------
+    linhas = [[str(a), FMT(r), FMT(d), FMT(v), f"{p}%".replace(".", ",")] for a, r, d, v, p in TRIAGEM_SERIE]
+    out.append(figura(
+        "Registros recebidos, descartados e validados, 2022 a 2025",
+        "A edição de 2025 publica a série retroativa da triagem. A taxa de descarte foi de 18,98% em 2022, 33,27% em 2023, 43,55% em 2024 e 30,74% em 2025.",
+        svg_barras([(str(a), p) for a, _, _, _, p in TRIAGEM_SERIE], destaque={"2024"}, unidade="de descarte",
+                   altura_barra=30, rotulo_eixo="Taxa de descarte na triagem, por ano",
+                   formato=lambda v: f"{v:.2f}".replace(".", ",") + "%"),
+        tabela(["Ano", "Recebidos", "Descartados", "Validados", "% descartados"], linhas),
+        f'Fonte: {LINK25}, CONIB, FISESP e DSC, tabela comparativa de denúncias desconsideradas, 2022 a 2025 (edição de 2025, p. 35 do PDF integral). {selo("verificado")} '
+        'Denúncias consideradas são as ocorrências validadas da série anual.',
+        id_="triagem-serie", nat="comunitaria", fic=FICHA_COMUNITARIA))
 
     # ---------------- geografia ----------------
     tot25 = sum(v for _, v in GEO_2025)

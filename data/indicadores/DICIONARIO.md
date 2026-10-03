@@ -73,8 +73,10 @@ Ocorrências validadas por ano, com separação entre ambiente digital e físico
 | Campo | Descrição |
 |---|---|
 | `ano` | Ano de referência. |
-| `ocorrencias_validadas` | Nome mantido por compatibilidade. Só em 2025 o valor é de registros que passaram na triagem de validade. Os anos anteriores são registros brutos, e a série não é homogênea (ver `natureza_do_valor`). |
-| `natureza_do_valor` | `ocorrência validada` ou `registro bruto`. Acrescentado em 03/10/2026, conforme a leitura do relatório preliminar conjunto, versão 2.0, seção 3.6.2. A variação entre anos não deve ser lida como variação do fenômeno. |
+| `ocorrencias_validadas` | Registros que passaram na triagem e foram classificados como antissemitismo. Não é o total de registros recebidos. |
+| `registros_recebidos` | Denúncias ou ocorrências recebidas no ano, antes da triagem. Acrescentado em 03/10/2026, da tabela comparativa de denúncias desconsideradas da edição de 2025 (p. 35 do PDF integral). |
+| `descartados` | Registros descartados na triagem. Mesma origem. |
+| `pct_descartados` | Descartados sobre recebidos, em percentual. Mesma origem. |
 | `online` / `offline` | Decomposição por ambiente da ocorrência. |
 | `pct_online` | Participação do ambiente digital no total do ano. |
 
