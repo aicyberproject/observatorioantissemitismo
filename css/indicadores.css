@@ -451,3 +451,18 @@
   letter-spacing: .04em;
   color: var(--ink-3);
 }
+
+/* Modelo demonstrativo de formulario. Nao envia nem guarda dado. */
+.frm-aviso { border-left: 4px solid var(--ink); padding: 10px 14px; margin: 22px 0 0; max-width: 74ch; font-weight: 600; }
+.frm { margin-top: 26px; max-width: 78ch; }
+.frm fieldset { border: 1px solid var(--rule-2); padding: 16px 18px 6px; margin: 0 0 18px; }
+.frm legend { font-weight: 700; padding: 0 8px; }
+.frm .frm-campo { display: block; margin: 0 0 14px; }
+.frm .frm-campo > span { display: block; font-size: .9rem; margin-bottom: 4px; color: var(--ink-2); }
+.frm input[type="text"], .frm input[type="date"], .frm input[type="time"], .frm select, .frm textarea {
+  width: 100%; box-sizing: border-box; padding: 8px 10px; font: inherit; border: 1px solid var(--rule-2); background: transparent; color: inherit;
+}
+.frm textarea { min-height: 96px; }
+.frm .frm-opcoes { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 0 0 14px; }
+.frm .frm-opcoes label { display: inline-flex; gap: 6px; align-items: center; }
+.frm button[disabled] { opacity: .55; cursor: not-allowed; }

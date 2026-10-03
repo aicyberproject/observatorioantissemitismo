@@ -15,7 +15,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 
 from layout import BASE, ATUALIZADO, CONTATO, FAIXA, CABECALHO, RODAPE  # noqa: E402
 
-def pagina(arquivo, titulo, descricao, atual, corpo):
+def pagina(arquivo, titulo, descricao, atual, corpo, scripts=()):
     doc = f"""<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -43,7 +43,7 @@ def pagina(arquivo, titulo, descricao, atual, corpo):
 {CABECALHO(arquivo, atual)}
 <main>
 {corpo}
-{RODAPE(arquivo)}"""
+{RODAPE(arquivo, scripts=scripts)}"""
     (RAIZ / arquivo).write_text(doc, encoding="utf-8")
     return arquivo
 

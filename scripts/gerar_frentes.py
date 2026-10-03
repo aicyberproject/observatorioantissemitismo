@@ -269,6 +269,128 @@ def bases():
 """
 
 
+# ---------------------------------------------------------------------------
+# T7. Modelo demonstrativo de formulario. Nao envia nem guarda nada.
+# ---------------------------------------------------------------------------
+
+AVISO_FORM = ("Modelo para discuss&atilde;o com os &oacute;rg&atilde;os de registro. Esta p&aacute;gina n&atilde;o &eacute; canal de den&uacute;ncia, "
+              "n&atilde;o envia e n&atilde;o guarda nenhuma informa&ccedil;&atilde;o.")
+
+SIM_NAO = ["sim", "não"]
+MODALIDADES = ["discurso de ódio", "incitação", "ameaça", "violência física",
+                                                         "vandalismo ou dano ao patrimônio",
+                                                         "propaganda extremista ou neonazista",
+                                                         "negação ou distorção do Holocausto",
+                                                         "discriminação institucional ou social",
+                                                         "assédio ou perseguição", "conteúdo conspiratório antissemita"]
+
+# Blocos da Ficha Padrao (Anexo D.1). Cada campo: (rotulo, tipo, opcoes).
+FICHA = [
+    ("1. Identificação do registro", [
+        ("Identificador único do caso", "text", None), ("Data do registro", "date", None),
+        ("Hora do registro", "time", None),
+        ("Canal de entrada", "select", ["Polícia Federal", "Disque 100", "Polícia Civil", "Ministério Público",
+                                        "plataforma digital", "escola ou universidade",
+                                        "organização da sociedade civil", "outro"]),
+        ("Órgão receptor", "text", None), ("Responsável pelo registro", "text", None)]),
+    ("2. Dados da ocorrência", [
+        ("Data do fato", "date", None), ("Hora aproximada", "time", None),
+        ("Unidade federada", "text", None), ("Município", "text", None), ("Local específico", "text", None),
+        ("Meio de ocorrência", "select", ["online", "offline", "híbrido"]),
+        ("Ambiente específico", "select", ["rede social", "aplicativo de mensagens", "fórum ou plataforma digital",
+                                           "escola", "universidade", "local de culto", "evento público", "trabalho",
+                                           "espaço público", "outro"])]),
+    ("3. Descrição resumida", [("Texto livre, com limite de quinze linhas", "textarea", None)]),
+    ("4. Natureza do fato", [
+        ("Natureza do fato", "select", ["antissemitismo explícito", "antissemitismo implícito ou codificado",
+                                        "potencial antissemitismo, em apuração", "não confirmado"])]),
+    ("5. Modalidade da conduta", [
+        ("Modalidade principal", "select", MODALIDADES),
+        ("Modalidades secundárias", "check", MODALIDADES)]),
+    ("6. Alvo atingido", [
+        ("Alvo atingido", "select", ["pessoa individual", "grupo ou coletividade judaica", "instituição judaica",
+                                     "patrimônio, memória ou símbolos", "outro grupo vulnerabilizado associado"]),
+        ("Campo de detalhamento", "text", None)]),
+    ("7. Motivação aparente", [
+        ("Motivação aparente", "select", ["estereótipo clássico antijudaico", "neonazismo ou supremacismo branco",
+                                          "negacionismo ou revisionismo do Holocausto", "teoria conspiratória",
+                                          "antissemitismo religioso", "antissemitismo político instrumentalizado",
+                                          "motivação não identificada"])]),
+    ("8. Gravidade e risco", [
+        ("Nível de risco", "select", ["1", "2", "3", "4"]), ("Risco imediato", "select", SIM_NAO),
+        ("Potencial de escalada", "select", SIM_NAO)]),
+    ("9. Organização e articulação", [
+        ("Organização e articulação", "select", ["caso isolado", "reiteração pelo mesmo autor", "grupo coordenado",
+                                                 "indício de célula extremista", "rede digital organizada",
+                                                 "não identificado"])]),
+    ("10. Evidências disponíveis", [
+        ("Tipos de evidência", "check", ["captura de tela", "vídeo", "áudio", "endereço de conteúdo", "documento",
+                                         "imagem", "outro"]),
+        ("Evidência preservada", "select", SIM_NAO),
+        ("Registro de hash e cadeia de custódia", "select", SIM_NAO)]),
+    ("11. Encaminhamento", [
+        ("Encaminhamento", "select", ["triagem concluída", "encaminhado à Polícia Federal", "encaminhado à Polícia Civil",
+                                      "encaminhado ao Ministério Público", "encaminhado ao MDHC",
+                                      "medida preventiva acionada", "arquivado", "outro"]),
+        ("Data do encaminhamento", "date", None), ("Responsável", "text", None), ("Prazo de retorno", "text", None)]),
+    ("12. Observações complementares", [("Campo aberto", "textarea", None)]),
+]
+
+NUCLEO = ["Identificador único do caso", "Data e hora do registro", "Canal de entrada",
+          "Unidade federada e município", "Meio de ocorrência", "Modalidade da conduta", "Descrição resumida",
+          "Alvo principal", "Indício de motivação antissemita", "Nível de risco", "Necessidade de resposta urgente",
+          "Encaminhamento dado", "Existência de evidência anexada", "Possível vínculo com extremismo organizado",
+          "Status do caso"]
+
+
+def _campo(bid, n, rot, tipo, ops):
+    cid = f"f{bid}-{n}"
+    if tipo == "select":
+        o = "".join(f"<option>{esc(x)}</option>" for x in ops)
+        return f'<label class="frm-campo" for="{cid}"><span>{esc(rot)}</span><select id="{cid}"><option value="">(selecione)</option>{o}</select></label>'
+    if tipo == "check":
+        c = "".join(f'<label><input type="checkbox"> {esc(x)}</label>' for x in ops)
+        return f'<div class="frm-campo"><span>{esc(rot)}</span><div class="frm-opcoes">{c}</div></div>'
+    if tipo == "textarea":
+        return f'<label class="frm-campo" for="{cid}"><span>{esc(rot)}</span><textarea id="{cid}" placeholder="Campo demonstrativo. Não digite dado real."></textarea></label>'
+    return f'<label class="frm-campo" for="{cid}"><span>{esc(rot)}</span><input id="{cid}" type="{tipo}" autocomplete="off"></label>'
+
+
+def formulario_modelo():
+    ENC = 'ou o <a href="encaminhar.html">assistente de encaminhamento</a>' if (RAIZ / "encaminhar.html").exists() else ""
+    blocos = []
+    for bid, (titulo, campos) in enumerate(FICHA, 1):
+        cs = "".join(_campo(bid, n, r, t, o) for n, (r, t, o) in enumerate(campos, 1))
+        blocos.append(f'<fieldset><legend>{esc(titulo)}</legend>{cs}</fieldset>')
+    nucleo = "".join(f"<li>{esc(x)}</li>" for x in NUCLEO)
+    return f"""{ABERTURA}
+  <p class="crumb"><a href="index.html">Observat&oacute;rio</a> &nbsp;/&nbsp; <a href="achados.html">Achados</a> &nbsp;/&nbsp; Modelo de formul&aacute;rio</p>
+  <h1 class="h1" style="margin-top: 24px">Modelo demonstrativo de ficha de registro</h1>
+  <p class="frm-aviso" role="note">{AVISO_FORM}</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 72ch">Os campos s&atilde;o os da ficha padr&atilde;o nacional de registro de den&uacute;ncia (Anexo D.1 do relat&oacute;rio preliminar conjunto, vers&atilde;o 2.0), em vers&atilde;o de trabalho, e o n&uacute;cleo m&iacute;nimo de interoperabilidade (D.2.1). Existe para que os &oacute;rg&atilde;os de registro avaliem a proposta. <strong>N&atilde;o digite dado real</strong>: nada do que se escreve aqui sai do aparelho, e a p&aacute;gina n&atilde;o tem como receber den&uacute;ncia. Para denunciar, use os <a href="index.html#denuncie">canais de den&uacute;ncia</a> {ENC}.</p>
+  {PRELIMINAR}
+  {RESSALVA_DEFINICAO}
+  <p class="body" style="margin: 14px 0 0; max-width: 72ch">Atualizada em {DATA}. A ficha n&atilde;o contempla campo de status do caso, presente no n&uacute;cleo m&iacute;nimo e na oitava camada da taxonomia conceitual (ver <a href="taxonomia.html">taxonomia proposta</a>).</p>
+</section>
+
+<section class="wrap section" id="ficha">
+  <h2 class="h2" style="max-width: 34ch">Ficha padr&atilde;o, doze blocos</h2>
+  <form class="frm" id="modelo" novalidate autocomplete="off">
+{chr(10).join(blocos)}
+    <p class="frm-aviso" role="note">{AVISO_FORM}</p>
+    <button class="btn-ink" type="submit" disabled aria-disabled="true">Enviar (desabilitado: modelo demonstrativo)</button>
+  </form>
+</section>
+
+<section class="band"><div class="wrap section" id="nucleo">
+  <h2 class="h2" style="max-width: 34ch">N&uacute;cleo m&iacute;nimo de interoperabilidade</h2>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">Quinze campos definidos como n&uacute;cleo m&iacute;nimo (D.2.1), para que registros de &oacute;rg&atilde;os diferentes possam ser lidos em conjunto.</p>
+  <ol class="scope-list" style="margin-top: 20px; max-width: 76ch">{nucleo}</ol>
+  <p class="fonte" style="margin-top: 22px">Fonte: relat&oacute;rio preliminar conjunto, vers&atilde;o 2.0, Anexo D, itens D.1 e D.2.1. Proposta em vers&atilde;o de trabalho, n&atilde;o deliberada. Nenhum &oacute;rg&atilde;o a adotou.</p>
+</div></section>
+"""
+
+
 def main():
     feitos = [
         pagina("achados.html", "Achados das Frentes 1 e 2",
@@ -280,6 +402,9 @@ def main():
         pagina("bases.html", "Mapa das bases e canais",
                "Quadro das bases e canais examinados pelo Eixo 3: categoria autonoma de antissemitismo, categoria mais proxima, unidade de contagem e desfecho rastreavel. Documento preliminar.",
                "", bases()),
+        pagina("formulario-modelo.html", "Modelo de formulário",
+               "Modelo demonstrativo da ficha padrao de registro e do nucleo minimo de interoperabilidade. Nao e canal de denuncia, nao envia e nao guarda informacao.",
+               "", formulario_modelo(), scripts=("js/formulario-modelo.js",)),
     ]
     print("paginas das Frentes 1 e 2: " + ", ".join(feitos))
     return 0
