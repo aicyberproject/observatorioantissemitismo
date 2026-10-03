@@ -711,6 +711,32 @@ PRESERVAR = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 
   </div>
 </section>
 
+<section class="band" id="campos-minimos"><div class="wrap section">
+  <p class="eyebrow">Evid&ecirc;ncia digital &middot; refer&ecirc;ncia do Eixo 3</p>
+  <h2 class="h2" style="max-width: 30ch">Os doze campos m&iacute;nimos</h2>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">A SaferNet Brasil ofereceu ao Eixo 3 um conjunto de doze campos m&iacute;nimos de preserva&ccedil;&atilde;o de evid&ecirc;ncia digital. &Eacute; a &uacute;nica refer&ecirc;ncia operacional dispon&iacute;vel ao Eixo na mat&eacute;ria. Sua ado&ccedil;&atilde;o pelo Eixo e a compatibilidade com padr&otilde;es internacionais de hotline permanecem pendentes. Fonte: relat&oacute;rio preliminar conjunto das Frentes 1 e 2, vers&atilde;o 2.0, Anexo D, item D.6.</p>
+  <ol class="body prs-lista">
+        <li>Endereço completo do conteúdo, com vínculo específico e permanente.</li>
+        <li>Data e hora da captura, com fuso horário explícito, preferencialmente em tempo universal coordenado.</li>
+        <li>Captura de tela integral, com endereço, data e hora visíveis. Gravação de tela com áudio para vídeos e transmissões.</li>
+        <li>Resumo criptográfico de cada arquivo no momento da coleta, para fins de cadeia de custódia, nos termos dos arts. 158-A a 158-F do Código de Processo Penal.</li>
+        <li>Identificador único do conteúdo atribuído pela plataforma.</li>
+        <li>Identificação do perfil autor, com nome de usuário, endereço do perfil e, quando disponível, identificador numérico da conta, que persiste após alteração do nome de usuário.</li>
+        <li>Plataforma e tipo de conteúdo.</li>
+        <li>Contexto integral da manifestação.</li>
+        <li>Código-fonte da página, quando tecnicamente viável.</li>
+        <li>Dados de infraestrutura: domínio, registro de titularidade, provedor de hospedagem e endereço de protocolo.</li>
+        <li>Registro da coleta: ferramenta ou método, identificação de quem capturou e local de armazenamento seguro.</li>
+        <li>Preservação junto ao provedor, por solicitação tempestiva da autoridade competente, nos termos dos arts. 13 e 15 da Lei nº 12.965/2014, dada a alta volatilidade dos conteúdos.</li>
+  </ol>
+  <p class="prs-risco" role="note" style="margin-top: 22px"><strong>Aten&ccedil;&atilde;o aos campos 6 e 10.</strong> Tratam de dados de identifica&ccedil;&atilde;o de terceiros e s&oacute; podem ser coletados no &acirc;mbito de procedimento com base legal pr&oacute;pria. Esta p&aacute;gina n&atilde;o coleta, n&atilde;o solicita e n&atilde;o armazena nenhum desses elementos. A reprodu&ccedil;&atilde;o aqui &eacute; de natureza estritamente metodol&oacute;gica.</p>
+  <h3 class="h3" style="margin-top: 30px">Por que denunciar cedo</h3>
+  <p class="body" style="margin: 12px 0 0; max-width: 74ch">Segundo o diagn&oacute;stico do Eixo 3, a guarda legal dos registros no provedor de aplica&ccedil;&otilde;es &eacute; de seis meses (Lei n&ordm; 12.965/2014, arts. 13 e 15), e n&atilde;o se localizou padr&atilde;o p&uacute;blico de preserva&ccedil;&atilde;o nos &oacute;rg&atilde;os de recebimento. Passado o prazo, o provedor pode n&atilde;o ter mais o registro. Esse &eacute; um motivo para denunciar sem demora, junto com a volatilidade do conte&uacute;do (achado A24, confian&ccedil;a m&eacute;dia). A preserva&ccedil;&atilde;o junto ao provedor &eacute; feita por solicita&ccedil;&atilde;o tempestiva da autoridade competente (campo 12).</p>
+  <h3 class="h3" style="margin-top: 30px">Recomenda&ccedil;&atilde;o 14, em minuta</h3>
+  <p class="body" style="margin: 12px 0 0; max-width: 74ch"><strong>Proposta em minuta, n&atilde;o deliberada.</strong> N&atilde;o deve ser citada como posi&ccedil;&atilde;o do Eixo antes de validada, na delibera&ccedil;&atilde;o de 14/10/2026. O texto prop&otilde;e fixar, no fluxo de encaminhamento de ocorr&ecirc;ncias em ambiente digital, <strong>prazo de requisi&ccedil;&atilde;o cautelar de guarda</strong> de registros ao provedor e os <strong>campos m&iacute;nimos de preserva&ccedil;&atilde;o</strong> de evid&ecirc;ncia digital. Os destinat&aacute;rios indicados s&atilde;o a Pol&iacute;cia Federal, pela unidade gestora do Comunica PF, e o Minist&eacute;rio dos Direitos Humanos e da Cidadania, por sua Ouvidoria Nacional de Direitos Humanos. O instrumento exigido &eacute; ato administrativo do pr&oacute;prio destinat&aacute;rio, em prazo sugerido curto, de at&eacute; seis meses. O indicador de cumprimento &eacute; a incorpora&ccedil;&atilde;o do prazo e dos campos &agrave;s orienta&ccedil;&otilde;es de atendimento dos dois canais.</p>
+  <p class="fonte" style="margin-top: 22px">Fonte: relat&oacute;rio preliminar conjunto, vers&atilde;o 2.0, Recomenda&ccedil;&atilde;o 14 e achado A24. O formul&aacute;rio de qualifica&ccedil;&atilde;o da not&iacute;cia-crime e a exporta&ccedil;&atilde;o de dossi&ecirc; n&atilde;o fazem parte desta p&aacute;gina: dependem de decis&atilde;o da coordena&ccedil;&atilde;o.</p>
+</div></section>
+
 <section class="wrap section">
   <div class="met-grid">
     <div>
