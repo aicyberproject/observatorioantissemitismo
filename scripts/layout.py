@@ -45,6 +45,7 @@ FAIXA = """<div class="proto-bar" role="note">
 MENU_ITENS = [
     ("index.html#painel",     "Painel"),
     ("indicadores.html",      "Indicadores"),
+    ("achados.html",          "Achados"),
     ("boletim/index.html",    "Boletim"),
     ("preservar.html",        "Preservar evid&ecirc;ncias"),
     ("index.html#denuncie",   "Denunciar"),
@@ -61,6 +62,7 @@ RODAPE_NAV = [
     ("index.html#topo",       "In&iacute;cio"),
     ("index.html#painel",     "Painel"),
     ("indicadores.html",      "Indicadores"),
+    ("achados.html",          "Achados"),
     ("boletim/index.html",    "Boletim"),
     ("preservar.html",        "Preservar evid&ecirc;ncias"),
     ("index.html#denuncie",   "Denunciar"),
