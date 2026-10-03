@@ -325,6 +325,9 @@ FICHA_COMUNITARIA = [
      "Nacional, com a localização declarada por quem denuncia. Em 2025, 462 dos 989 "
      "casos validados (46,7%) não trazem estado informado. A distribuição geográfica "
      "de 2025 não é comparável com a de 2024: mudou a forma de captar a localização."),
+    ("Definição adotada pela fonte",
+     "A fonte sustenta a definição de trabalho da International Holocaust Remembrance Alliance (IHRA), segundo o relatório preliminar conjunto do Eixo 3, versão 2.0, seção 3.6.2. "
+     "Há divergência interna no Eixo sobre a definição a adotar, matéria do eixo de Conceituação. A metodologia é a descrita em Método de coleta."),
     ("Data de extração",
      "3 de setembro de 2026, do Relatório de Antissemitismo no Brasil 2025, de CONIB, "
      "FISESP e Departamento de Segurança Comunitária, conferido contra o documento "
@@ -339,6 +342,8 @@ FICHA_OFICIAL = [
      "Não declarada. Nenhum dos recortes tem categoria específica de antissemitismo: "
      "o neonazismo é o proxy mais próximo, e a categoria de intolerância religiosa "
      "absorve o antissemitismo sem distingui-lo."),
+    ("Definição adotada pela fonte", None,
+     "Não conhecida nesta versão. A publicação primária não foi consultada, e a metodologia é a mesma que consta de Método de coleta: não declarada."),
     ("Data de extração", None,
      "Agosto de 2026, do levantamento reunido para o Eixo 3. Os identificadores "
      "administrativos indicados naquele levantamento não foram confirmados e por "
@@ -380,6 +385,7 @@ def figura(titulo, subtitulo, svg, tab, nota, legenda=None, id_=None, nat=None, 
   <div class="viz-wrap">{svg}</div>
   <details class="tabela"><summary>Ver os números em tabela</summary>{tab}</details>
   <p class="fonte">{nota}</p>
+  <p class="fonte"><strong>Ressalva de defini&ccedil;&atilde;o.</strong> Os dados existentes foram produzidos sob defini&ccedil;&otilde;es e metodologias pr&oacute;prias de cada fonte e n&atilde;o s&atilde;o representativos da defini&ccedil;&atilde;o adotada pela Iniciativa.</p>
   {ficha(fic)}
 </figure>"""
 
@@ -600,6 +606,8 @@ def main():
     <div class="tile"><p class="label">Estados Unidos &middot; 2024</p><p class="tile-num">9.354</p><p class="tile-txt">incidentes apurados no ano, alta de 5% sobre 2023 e de 893% em dez anos. Em 58,3% deles houve men&ccedil;&atilde;o a Israel ou ao sionismo, a primeira vez que esse recorte &eacute; maioria em 46 anos de s&eacute;rie.</p><p class="tile-src">ADL, Audit of Antisemitic Incidents 2024. {selo("citado")} {natureza("externa")}</p></div>
     <div class="tile"><p class="label">Uni&atilde;o Europeia</p><p class="tile-num">80%</p><p class="tile-txt">das v&iacute;timas n&atilde;o levam o incidente &agrave; pol&iacute;cia ou a qualquer autoridade. Na mesma pesquisa, 96% relataram ter sofrido alguma forma de antissemitismo no ano anterior, e menos de metade dos 27 Estados-membros mant&eacute;m registro desagregado.</p><p class="tile-src">FRA, Ag&ecirc;ncia da Uni&atilde;o Europeia para os Direitos Fundamentais. {selo("citado")} {natureza("percepcao")}</p></div>
   </div>
+  <p class="fonte" style="margin-top: 18px"><strong>Defini&ccedil;&atilde;o e metodologia das fontes:</strong> n&atilde;o conhecidas nesta vers&atilde;o, porque a publica&ccedil;&atilde;o prim&aacute;ria de cada uma n&atilde;o foi consultada. Apura&ccedil;&otilde;es de outra jurisdi&ccedil;&atilde;o servem a ordem de grandeza, e n&atilde;o a compara&ccedil;&atilde;o de volume.</p>
+  <p class="fonte"><strong>Ressalva de defini&ccedil;&atilde;o.</strong> Os dados existentes foram produzidos sob defini&ccedil;&otilde;es e metodologias pr&oacute;prias de cada fonte e n&atilde;o s&atilde;o representativos da defini&ccedil;&atilde;o adotada pela Iniciativa.</p>
   <p class="body" style="margin: 26px 0 0; max-width: 74ch"><strong>A leitura que interessa ao Eixo 3 n&atilde;o &eacute; a compara&ccedil;&atilde;o de volume.</strong> Os n&uacute;meros brasileiro e norte-americano contam populações, canais e defini&ccedil;&otilde;es diferentes, e coloc&aacute;-los lado a lado sugeriria uma raz&atilde;o que os dados n&atilde;o sustentam. O que se compara &eacute; a exist&ecirc;ncia do instrumento: h&aacute; s&eacute;rie hist&oacute;rica de 46 anos em uma jurisdi&ccedil;&atilde;o, marcador oficial em 14 de 27 Estados-membros em outra, e nenhuma categoria aut&ocirc;noma em nenhuma base estatal brasileira.</p>
 </section>""")
 

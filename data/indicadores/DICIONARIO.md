@@ -19,6 +19,10 @@ Não há, em nenhum arquivo, dado pessoal, denúncia individualizada, identifica
 vítima, denunciante ou investigado, nem informação sob sigilo. Todos os valores são
 agregados.
 
+## Ressalva de definição
+
+Os dados existentes foram produzidos sob definições e metodologias próprias de cada fonte e não são representativos da definição adotada pela Iniciativa. Cada série indica, na ficha da fonte, a definição e a metodologia da fonte ou declara que não são conhecidas.
+
 ## Ficha da fonte
 
 Cinco campos, na forma padrão do gênero. Os dois primeiros já existiam como campo nos
