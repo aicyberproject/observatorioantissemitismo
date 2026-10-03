@@ -2,15 +2,25 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-03",
  "semana_iso": "2026-S40",
- "atualizado_em": "2026-10-03T16:05:55+00:00",
+ "atualizado_em": "2026-10-03T20:55:37+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 88,
+ "total": 94,
  "no_brasil": 22,
- "no_mundo": 66,
+ "no_mundo": 72,
  "itens": [
+  {
+   "titulo": "« Eric Ciotti doit choisir son camp » : une cinquantaine de militants de gauche manifestent contre l’antisémitisme et le racisme devant la mairie de Nice",
+   "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNWUJNTXY4ZFRYSXBxSUdQOFlRMUpLRmlpQ0NFaERZSHdNdDNvbDhDWGZjeE5sN0ljUDZMSF9ETzlON1doTC1sdTBDaGFaTEhES1M5TVhjQ3YzbUJrc1djYTNzQVdsZ0t0NEVvVUs5UDFhdUh5dm93YUNRT25PdUFTdkpLMl9zYmRleFkxdkxQZVFidFlfM3AxRDJ4T0J2Y2V3TUE0MVZOaWNpcEtKZldQRGtpUDlkZWs3akRGc04xTVlud0JpVEg4eHpyMTNZZ3FsemhJZWpYcFpUWXdkS2lRNG1BV3N1Rmtndmktb1B1cEo5Z0VLTEptYzJrbTlDeWZVS2JoMjlHVWcwN1NyUjFvV0JDcjVISEJDTlE1U3h4OGVnTFNYZ0tB?oc=5",
+   "fonte": "Nice-Matin",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-03T17:39:47+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
+  },
   {
    "titulo": "‘The fringe didn’t disappear’: Expert explains how to combat online threats, antisemitic propaganda",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-910319",
@@ -22,6 +32,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "titulo": "El caso Bardella y la persistencia del antisemitismo en la extrema derecha",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYjdJcEhoNEw3QWd2TWphek5jVTZhV0x0ZmJtUVFTcWdldFZOMWhKWlJUeWp2TVp5elJTLXVvWEplT0JvZnhvV0NXWk9QMzkySDJaWE9LR3dxZXpaX2lWRFF4QWVob2lULVFfQXVmWG9wR3RNTDViTVRPblVBRmxGanpNUlNSbGRkSGxUMmZlbTA5Z21kNHFDdlc5Y1BJQXV1TWZxajZtSlVGSjlhRFFHbll5RnEzQTQt?oc=5",
+   "fonte": "legrandcontinent.eu",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-03T15:01:15+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
    "titulo": "A Jewish journalist recorded pro-Palestinian protesters outside services. He was reportedly suspended from his job",
    "link": "https://forward.com/fast-forward/853637/a-jewish-journalist-recorded-pro-palestinian-protesters-outside-services-he-was-reportedly-suspended-from-his-job/",
    "fonte": "The Forward",
@@ -30,6 +50,16 @@
    "via": null,
    "feed": "fwd",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "titulo": "Comme dans l’affaire Bardella, on a récupéré de vieilles conversations Messenger",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRGdaaXF2bmxOS09vaHp3bXNneHhsbmNkYjdlZ2RHN0ZidmxXTk82VUhpRTFFSHVHbjJhRnlINmlXbWN1R0N4emlwRDFYYzNFRm9JWHVtbXVDM25zYVhPX29pQ0YycVlRenZIUWVRWW5FcXVfbGpFc1FKNWxFLWxvN01hcm44TVlJZWp0cllJYmNZaldfdm5PUmNHZDRYdzR3cXktNV9qUTNtd2VtV25sVTUxbHR3Wl96a2F6cXBOREdhaTZWV3FyMHNlUGYzSTZXN1E?oc=5",
+   "fonte": "20 Minutes",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-03T09:12:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave"
   },
   {
    "titulo": "Mouvement de blocage des lycées, accusations d'antisémitisme visant Jordan Bardella... Le \"8h30 franceinfo\" d'Aleksandar Nikolic",
@@ -249,6 +279,16 @@
    "publicado_em": "2026-10-02T07:48:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-es",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Hundreds protest controversial antisemitism bill in Italy",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZDJzQjBVdmpiVEJ6UmRsQno1amVPNmQ2ajloazRvNlVjZkhqNnYwMllUSnRFeDllQVFiVS0wZ3RNanRySHhqUTV1QWpSdnJtcHhCZXJKTVBwdXFfVXlLVVlVamY2dXVKeVNCUlNCUzFuUUowbFhWS0s1MVBleVZPUjRxT1BqaW9udlV3VE5IY1FNWmk4dG4wMGJpQVNmdw?oc=5",
+   "fonte": "Anadolu Ajansı",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-02T01:50:57+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -559,6 +599,16 @@
    "publicado_em": "2026-09-30T10:08:37+00:00",
    "via": "Google Notícias",
    "feed": "radar-br",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Mamdani Says He’ll Fight Antisemitism. His Plan Says Otherwise.",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaDgtM1JNVVYwUmZFSWFGTkFrNlI3RjI1YVJOSEE0bjRKYmhDTERQem1GcmVXc1YzbmVvZGR5Y1Q4TVdVR0VicnFIdFdjVFg4NHBpbTYwZVR6U0doVzhObFU3dnZaa1FpTTI4YTdKZnZremZFV0toQVA0U1F4UVE2RjQ1a2pseFFkSXpleg?oc=5",
+   "fonte": "The Free Press",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-30T03:15:23+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
    "categoria": "Radar por palavras-chave"
   },
   {
@@ -879,6 +929,16 @@
    "publicado_em": "2026-07-20T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave"
+  },
+  {
+   "titulo": "Jornada de reflexión sobre antisemitismo y discriminación",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeU0xelpYZ2plbFFmU2dwVlhvbHN5clk5M3k1SGQ4aUR4NHFxOWVLSVRnODljR1FQU096S3haT2dFTFMwNHNIZzFJN1lUYVJwaEJkS21FaUJac01EQk9tUUo1dGNEU0N4X0I4V2J6MDJVWlAxQy1QUmpRaHB0YUNIeTNPMzcxMklwVkw1eG5ac2ZyOUVwamVxNE1nMHNVZjBscmlNeU91Z1hDSDZLV3Faa1BtRFM?oc=5",
+   "fonte": "consejomagistratura.gov.ar",
+   "escopo": "mundo",
+   "publicado_em": "2026-07-20T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
   },
   {
