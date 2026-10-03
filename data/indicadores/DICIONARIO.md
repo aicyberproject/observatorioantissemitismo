@@ -78,10 +78,12 @@ Ocorrências validadas por ano, com separação entre ambiente digital e físico
 | `descartados` | Registros descartados na triagem. Mesma origem. |
 | `pct_descartados` | Descartados sobre recebidos, em percentual. Mesma origem. |
 | `online` / `offline` | Decomposição por ambiente da ocorrência. |
-| `pct_online` | Participação do ambiente digital no total do ano. |
+| `pct_online` | Participação do ambiente digital, sobre a soma de `online` e `offline`. |
 
-**Ressalva.** O total de 2023 aparece como 1.410 no Relatório de 2024 e como 1.412 no
-Relatório de 2025. Adotou-se o valor revisado, de 1.412.
+**Ressalva.** O total de 2023 é 1.410, o total validado da edição de 2025, adotado também
+pelo relatório do Eixo 3. A decomposição por ambiente da própria fonte soma 1.412 (1.049
+online e 363 offline), duas ocorrências a mais que o total. O `pct_online` de 2023 é
+calculado sobre essa soma.
 
 ## `serie_mensal.csv`
 
@@ -93,7 +95,7 @@ Denúncias mês a mês, de janeiro de 2022 a dezembro de 2024.
 | `denuncias` | Registros do mês. |
 
 **Ressalva.** A série mensal de 2025 não consta do Sumário Executivo e não foi incluída.
-A soma da série mensal de 2023 é 1.410, valor da edição de 2024 do relatório.
+A soma da série mensal de 2023 é 1.410, igual ao total validado da edição de 2025.
 
 ## `distribuicao_2025.csv`
 

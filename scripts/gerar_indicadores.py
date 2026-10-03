@@ -37,7 +37,7 @@ PAPEL = "#F5F3EF"
 ANUAL = [
     # ano, total, online, offline
     (2022, 397, 202, 195),
-    (2023, 1412, 1049, 363),
+    (2023, 1410, 1049, 363),   # total validado; online + offline somam 1412, diferenca de duas ocorrencias na fonte
     (2024, 1788, 1310, 478),
     (2025, 989, 800, 189),
 ]
@@ -518,14 +518,14 @@ def main():
         id_="serie-mensal", nat="comunitaria", fic=FICHA_COMUNITARIA))
 
     # ---------------- colunas anuais ----------------
-    linhas = [[str(a), FMT(t), FMT(on), FMT(off), f"{on/t*100:.1f}%"] for a, t, on, off in ANUAL]
+    linhas = [[str(a), FMT(t), FMT(on), FMT(off), f"{on/(on+off)*100:.1f}%"] for a, t, on, off in ANUAL]
     out.append(figura(
         "Ocorrências validadas por ano e por ambiente",
         "Quatro anos completos. A retração de 2025 devolve o volume a um patamar acima do de 2022 e abaixo do pico de 2024. A participação do ambiente digital continuou subindo mesmo com a queda do total.",
         svg_colunas_anuais(),
         tabela(["Ano", "Total", "Online", "Offline", "% online"], linhas),
         f'Fontes: Relatório de Antissemitismo no Brasil 2024 e {LINK25}, CONIB, FISESP e DSC. {selo("verificado")} '
-        'Na edição de 2025, o total de 2023 aparece como 1.410 no texto e na tabela de triagem, e como 1.412 na soma de online e offline (1.049 e 363); a tabela usa 1.412, que fecha com a soma por ambiente. '
+        'O total de 2023 é 1.410, o total validado da edição de 2025, adotado também pelo relatório do Eixo 3. Na decomposição por ambiente, a própria fonte traz 1.049 online e 363 offline, que somam 1.412: a soma difere do total em duas ocorrências. '
         'A própria fonte registra que 2025 permanece 149,1% acima da linha de base de 2022 (edição de 2025, p. 34 e 36 do PDF integral).',
         legenda=[("Online", S1), ("Offline", S2)],
         id_="serie-anual", nat="comunitaria", fic=FICHA_COMUNITARIA))
