@@ -391,6 +391,88 @@ def formulario_modelo():
 """
 
 
+# ---------------------------------------------------------------------------
+# T8. Assistente de encaminhamento. Nao recolhe dado: e uma lista, sem formulario.
+# ---------------------------------------------------------------------------
+
+# Os nove canais ja conferidos na capa (index.html#denuncie). Quem decide e a
+# competencia declarada por cada canal, nao este sitio.
+CANAIS = {
+    "pf": ("Polícia Federal", "público", "https://www.gov.br/pf/pt-br/canais_atendimento/comunicacao-de-crimes",
+           "crimes na internet, células neonazistas e terrorismo doméstico"),
+    "mpf": ("Ministério Público Federal", "público", "https://www.mpf.mp.br/servicos/salas-de-atendimento-ao-cidadao",
+            "crimes de ódio na internet e tutelas coletivas, pelas Salas de Atendimento ao Cidadão"),
+    "d100": ("Disque 100", "público", "https://falabr.cgu.gov.br/v2/manifestacoes/registrar",
+             "discriminação étnico-racial e religiosa, com opção de anonimato, por telefone, aplicativo ou formulário"),
+    "decradi": ("DECRADI", "público", "https://delegaciadigital.policia-civil.sp.gov.br/pagina-inicial",
+                "delegacias de crimes raciais e delitos de intolerância, em São Paulo e no Rio de Janeiro"),
+    "mpsp": ("GECRADI / Ministério Público de São Paulo", "público", "https://www.mpsp.mp.br/",
+             "inquéritos, ações civis públicas e denúncias criminais sobre crimes raciais e de intolerância, em São Paulo"),
+    "defensoria": ("Defensoria Pública", "público", "https://anadep.org.br/wtk/pagina/defensorias_nacionais",
+                   "assistência jurídica gratuita a vítimas; o endereço é o diretório das defensorias"),
+    "safernet": ("SaferNet Brasil", "sociedade civil", "https://new.safernet.org.br/denuncie",
+                 "denúncia anônima de neonazismo, racismo e antissemitismo na internet, em cooperação com o Ministério Público Federal"),
+    "conib": ("CONIB", "sociedade civil", "https://beiachad.fisesp.org.br/dsc/formulario?canalID=7",
+              "Central Nacional de Denúncias, com triagem jurídica e assistência de acusação"),
+    "fisesp": ("FISESP", "sociedade civil", "https://fisesp.org.br/home/denuncie/",
+               "assistência psicossocial e jurídica a vítimas em São Paulo"),
+}
+
+# (chave de preservar.html, titulo, canais em ordem, observacao)
+ROTAS = [
+    ("online", "Conteúdo em rede social, site ou comentário", ["safernet", "pf", "mpf", "d100", "conib"],
+     "Preserve antes de denunciar: o conteúdo pode ser apagado."),
+    ("ameaca", "Mensagem direta, ameaça ou intimidação", ["pf", "decradi", "d100", "conib", "fisesp"],
+     "Se houver risco agora, ligue 190 antes de qualquer outra coisa. A Polícia Federal atende o que ocorre pela internet."),
+    ("patrimonio", "Pichação, dano ou profanação de patrimônio", ["decradi", "mpsp", "d100", "conib"],
+     "Fotografe o local antes de qualquer limpeza."),
+    ("fisica", "Agressão física, ou tentativa", ["decradi", "defensoria", "d100", "fisesp"],
+     "Se houver risco agora, ligue 190 antes de qualquer outra coisa. Procure atendimento médico, se for o caso."),
+    ("institucional", "Discriminação em escola, universidade ou trabalho", ["d100", "mpf", "defensoria", "decradi", "conib"],
+     "Guarde mensagens, comunicados e nomes de testemunhas, sem expor terceiros."),
+    ("objeto", "Material impresso, panfleto ou objeto deixado", ["decradi", "pf", "mpf", "d100"],
+     "Não manuseie mais do que o necessário e fotografe onde foi encontrado."),
+]
+
+
+def encaminhar():
+    grade = "".join(
+        f'<li><a class="prs-tipo" href="#{k}"><span class="prs-tipo-n">{i:02d}</span>'
+        f'<span class="prs-tipo-t">{esc(t)}</span></a></li>' for i, (k, t, _, _) in enumerate(ROTAS, 1))
+    secoes = []
+    for k, titulo, canais, obs in ROTAS:
+        itens = []
+        for c in canais:
+            nome, natureza, href, escopo = CANAIS[c]
+            itens.append(
+                f'<li><a href="{href}" target="_blank" rel="noopener"><strong>{esc(nome)}</strong></a> '
+                f'<span class="fonte">({natureza})</span>. Atende {esc(escopo)}.</li>')
+        secoes.append(
+            f'<section class="wrap section" id="{k}" style="padding-top: 0">'
+            f'<h2 class="h2" style="max-width: 34ch">{esc(titulo)}</h2>'
+            f'<p class="body" style="margin: 14px 0 0; max-width: 74ch">{esc(obs)}</p>'
+            f'<ol class="scope-list" style="margin-top: 16px; max-width: 76ch">{"".join(itens)}</ol>'
+            f'<p class="fonte" style="margin-top: 14px"><a href="preservar.html#{k}">Como preservar a evid&ecirc;ncia deste tipo &rarr;</a></p>'
+            f'</section>')
+    return f"""{ABERTURA}
+  <p class="crumb"><a href="index.html">Observat&oacute;rio</a> &nbsp;/&nbsp; Encaminhamento</p>
+  <h1 class="h1" style="margin-top: 24px">Para onde encaminhar</h1>
+  <p class="lead" style="margin: 26px 0 0; max-width: 70ch">Escolha o tipo de incidente e veja, entre os nove canais j&aacute; conferidos, os que atendem aquele caso. Primeiro os &oacute;rg&atilde;os p&uacute;blicos, depois a sociedade civil.</p>
+  <p class="frm-aviso" role="note">Esta p&aacute;gina n&atilde;o recolhe nenhum dado: a escolha do tipo &eacute; um link, n&atilde;o &eacute; enviada nem guardada. N&atilde;o &eacute; canal de den&uacute;ncia. Se houver risco agora, ligue 190.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 72ch">A indica&ccedil;&atilde;o segue a compet&ecirc;ncia que cada canal declara na sua pr&oacute;pria p&aacute;gina, e n&atilde;o tem valida&ccedil;&atilde;o institucional. Um canal pode encaminhar o caso a outro, e n&atilde;o h&aacute;, segundo o diagn&oacute;stico do Eixo 3, &oacute;rg&atilde;o definido para den&uacute;ncias espec&iacute;ficas de antissemitismo (achado A4). Atualizada em {DATA}.</p>
+  {PRELIMINAR}
+  <ul class="prs-tipos" style="margin-top: 26px">{grade}</ul>
+</section>
+{"".join(secoes)}
+<section class="band"><div class="wrap section">
+  <div class="pills">
+    <a class="pill pill-solid" href="index.html#denuncie">Todos os canais &rarr;</a>
+    <a class="pill" href="preservar.html">Preservar evid&ecirc;ncias &rarr;</a>
+  </div>
+</div></section>
+"""
+
+
 def main():
     feitos = [
         pagina("achados.html", "Achados das Frentes 1 e 2",
@@ -405,6 +487,9 @@ def main():
         pagina("formulario-modelo.html", "Modelo de formulário",
                "Modelo demonstrativo da ficha padrao de registro e do nucleo minimo de interoperabilidade. Nao e canal de denuncia, nao envia e nao guarda informacao.",
                "", formulario_modelo(), scripts=("js/formulario-modelo.js",)),
+        pagina("encaminhar.html", "Para onde encaminhar",
+               "Indica, por tipo de incidente, quais dos nove canais ja conferidos atendem o caso. Nao recolhe dado.",
+               "", encaminhar()),
     ]
     print("paginas das Frentes 1 e 2: " + ", ".join(feitos))
     return 0
