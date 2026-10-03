@@ -171,7 +171,7 @@ PRIVACIDADE = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px
       <ul class="scope-list scope-is" style="margin-top: 16px">
         <li><strong>GitHub Pages</strong> hospeda o s&iacute;tio e registra acesso em log de servidor, conforme a pol&iacute;tica do pr&oacute;prio GitHub.</li>
         <li><strong>Google Fonts</strong> serve as fontes tipogr&aacute;ficas. A requisi&ccedil;&atilde;o parte do seu navegador para o servidor do Google.</li>
-        <li><strong>Links externos.</strong> Ao clicar em uma manchete ou em um canal de den&uacute;ncia, voc&ecirc; sai daqui. O que acontece no destino segue a pol&iacute;tica do destino.</li>
+        <li><strong>Links externos.</strong> Ao clicar em uma not&iacute;cia ou em um canal de den&uacute;ncia, voc&ecirc; sai daqui. O que acontece no destino segue a pol&iacute;tica do destino.</li>
       </ul>
       <p class="body" style="margin: 16px 0 0">Sete das 21 fontes do painel s&atilde;o buscas no Google Not&iacute;cias. Nesses casos o item traz o aviso <em>via Google Not&iacute;cias</em>, porque o clique passa por um intermedi&aacute;rio antes de chegar ao ve&iacute;culo.</p>
     </div>
@@ -234,7 +234,7 @@ TERMOS = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 6vw
       <p class="body" style="margin: 14px 0 0">Norma muda, ac&oacute;rd&atilde;o &eacute; superado e prazo corre. Antes de agir com base no que leu aqui, confira no texto de origem, que est&aacute; sempre linkado, e procure orienta&ccedil;&atilde;o profissional.</p>
 
       <h2 class="h2" style="max-width: 26ch; margin-top: clamp(34px, 4vw, 50px)">4. Conte&uacute;do de terceiros</h2>
-      <p class="body" style="margin: 18px 0 0">As manchetes do painel e do boletim s&atilde;o de seus respectivos ve&iacute;culos, exibidas como t&iacute;tulo e link. A responsabilidade pelo conte&uacute;do &eacute; de quem publicou. A inclus&atilde;o de uma fonte no monitoramento n&atilde;o significa endosso da sua linha editorial, e a aus&ecirc;ncia n&atilde;o significa recusa.</p>
+      <p class="body" style="margin: 18px 0 0">O painel e o boletim exibem apenas o ve&iacute;culo, a data e o link para a publica&ccedil;&atilde;o de origem, com um r&oacute;tulo neutro de tema. A manchete n&atilde;o &eacute; reproduzida, porque pode nomear v&iacute;tima, denunciante ou investigado. A responsabilidade pelo conte&uacute;do &eacute; de quem publicou. A inclus&atilde;o de uma fonte no monitoramento n&atilde;o significa endosso da sua linha editorial, e a aus&ecirc;ncia n&atilde;o significa recusa.</p>
       <p class="body" style="margin: 14px 0 0">Se voc&ecirc; &eacute; respons&aacute;vel por um ve&iacute;culo e n&atilde;o deseja ser agregado, o pedido pode ser feito no reposit&oacute;rio p&uacute;blico e ser&aacute; atendido.</p>
     </div>
   </div>

@@ -109,7 +109,7 @@ def bloco_itens(itens, rotulo):
         quando = (n.get("publicado_em") or "")[:10]
         linhas.append(
             f'<li class="bol-item">'
-            f'<a href="{E(n.get("link"))}" target="_blank" rel="noopener noreferrer">{E(n.get("titulo"))}'
+            f'<a href="{E(n.get("link"))}" target="_blank" rel="noopener noreferrer">{E(TEMA)}'
             f'<span class="sr-only"> (abre em nova aba, no site de origem)</span></a>'
             f'<p class="bol-meta"><span>{E(n.get("fonte"))}</span>'
             f'<span>{E(quando)}</span>{via}</p></li>')
@@ -189,7 +189,14 @@ def gera_edicao(sem, dados, anterior, seguinte):
 # partir do CSV e conferir. Resumo que ninguem consegue reproduzir nao serve de
 # nada.
 
-CAMPOS_CSV = ["escopo", "publicado_em", "fonte", "via", "titulo", "link"]
+# Decisao de 03/10/2026: a manchete nao entra no boletim. Cada item traz veiculo,
+# data, endereco e um rotulo neutro de tema, igual para todos.
+TEMA = "Notícia sobre antissemitismo e temas correlatos"
+CAMPOS_CSV = ["escopo", "publicado_em", "fonte", "via", "tema", "link"]
+
+
+def _valor(it, c):
+    return TEMA if c == "tema" else str(it.get(c) or "")
 
 
 def _linhas_canonicas(itens):
@@ -197,7 +204,7 @@ def _linhas_canonicas(itens):
     Ordenacao estavel e independente da ordem de coleta."""
     linhas = []
     for it in itens:
-        linhas.append("\t".join(str(it.get(c) or "") for c in CAMPOS_CSV))
+        linhas.append("\t".join(_valor(it, c) for c in CAMPOS_CSV))
     return sorted(linhas)
 
 
@@ -272,7 +279,7 @@ def corpo_feed(e, resumo, link):
             return ""
         li = "".join(
             "<li><a href=\"{}\">{}</a><br><small>{}{}{}</small></li>".format(
-                E(n.get("link")), E(n.get("titulo")), E(n.get("fonte")),
+                E(n.get("link")), E(TEMA), E(n.get("fonte")),
                 " &middot; " + E((n.get("publicado_em") or "")[:10]) if n.get("publicado_em") else "",
                 " &middot; via " + E(n.get("via")) if n.get("via") else "")
             for n in itens)

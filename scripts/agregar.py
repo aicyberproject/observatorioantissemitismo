@@ -22,6 +22,12 @@ TEMPO_LIMITE = 25
 MAX_ITENS = 90
 MAX_POR_FONTE = 6
 
+# Curadoria, decisao de 03/10/2026: a manchete nao e publicada. Manchete de imprensa
+# pode nomear vitima, denunciante ou investigado, e o Observatorio nao reproduz
+# nome. O titulo serve so ao filtro e a deduplicacao, dentro da coleta. Sai do
+# arquivo apenas veiculo, data, endereco e este rotulo neutro de tema.
+TEMA_NEUTRO = "Notícia sobre antissemitismo e temas correlatos"
+
 # Os sete radares ja sao consultas por palavra-chave, e o feed do CAM cobre
 # exclusivamente antissemitismo: entram sem filtro. Todos os demais publicam
 # alem do recorte deste Observatorio e passam pelo filtro de termos.
@@ -211,6 +217,9 @@ def main():
 
     itens.sort(key=lambda i: i["publicado_em"] or "", reverse=True)
     itens = itens[:MAX_ITENS]
+    for it in itens:
+        it.pop("titulo", None)
+        it["tema"] = TEMA_NEUTRO
 
     saida = {
         "esquema": "noticias-agregadas/1",
