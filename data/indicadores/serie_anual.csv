@@ -1,5 +1,5 @@
-ano,ocorrencias_validadas,online,offline,pct_online,fonte,procedencia
-2022,397,202,195,50.9,"CONIB/FISESP/DSC — Relatório de Antissemitismo no Brasil 2025",conferido
-2023,1412,1049,363,74.3,"CONIB/FISESP/DSC — Relatório de Antissemitismo no Brasil 2025",conferido
-2024,1788,1310,478,73.3,"CONIB/FISESP/DSC — Relatório de Antissemitismo no Brasil 2024 e 2025",conferido
-2025,989,800,189,80.9,"CONIB/FISESP/DSC — Relatório de Antissemitismo no Brasil 2025 (integral)",conferido
+ano,ocorrencias_validadas,online,offline,pct_online,fonte,procedencia,registros_recebidos,descartados,pct_descartados
+2022,397,202,195,50.9,"CONIB/FISESP/DSC — Relatório de Antissemitismo no Brasil 2025",conferido,490,93,18.98
+2023,1410,1049,363,74.3,"CONIB/FISESP/DSC — Relatório de Antissemitismo no Brasil 2025",conferido,2113,703,33.27
+2024,1788,1310,478,73.3,"CONIB/FISESP/DSC — Relatório de Antissemitismo no Brasil 2024 e 2025",conferido,3167,1379,43.55
+2025,989,800,189,80.9,"CONIB/FISESP/DSC — Relatório de Antissemitismo no Brasil 2025 (integral)",conferido,1428,439,30.74

@@ -15,7 +15,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 
 from layout import BASE, ATUALIZADO, CONTATO, FAIXA, CABECALHO, RODAPE  # noqa: E402
 
-def pagina(arquivo, titulo, descricao, atual, corpo):
+def pagina(arquivo, titulo, descricao, atual, corpo, scripts=()):
     doc = f"""<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -43,7 +43,7 @@ def pagina(arquivo, titulo, descricao, atual, corpo):
 {CABECALHO(arquivo, atual)}
 <main>
 {corpo}
-{RODAPE(arquivo)}"""
+{RODAPE(arquivo, scripts=scripts)}"""
     (RAIZ / arquivo).write_text(doc, encoding="utf-8")
     return arquivo
 
@@ -66,7 +66,7 @@ SOBRE = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 6vw,
       <p class="body" style="margin: 14px 0 0">Ainda n&atilde;o foi apreciado pelo Eixo nem levado &agrave; reuni&atilde;o de coordenadores. N&atilde;o constitui manifesta&ccedil;&atilde;o do CDESS, da Presid&ecirc;ncia da Rep&uacute;blica ou de qualquer &oacute;rg&atilde;o mencionado no conte&uacute;do. Os canais de den&uacute;ncia listados s&atilde;o oficiais e funcionam de forma independente deste prot&oacute;tipo.</p>
 
       <h2 class="h2" style="max-width: 26ch; margin-top: clamp(34px, 4vw, 50px)">O achado que motiva o trabalho</h2>
-      <p class="body" style="margin: 18px 0 0">N&atilde;o se trata de aus&ecirc;ncia de fen&ocirc;meno, mas de aus&ecirc;ncia de instrumento de medida.</p>
+      <p class="body" style="margin: 18px 0 0">N&atilde;o se trata de aus&ecirc;ncia de fen&ocirc;meno, mas de aus&ecirc;ncia de medida. Ela se manifesta de tr&ecirc;s modos: categoria inexistente, categoria existente que n&atilde;o mede e s&eacute;rie publicada n&atilde;o compar&aacute;vel entre divulga&ccedil;&otilde;es.</p>
       <p class="body" style="margin: 14px 0 0">Nenhuma base p&uacute;blica examinada possui categoria aut&ocirc;noma de antissemitismo: Anu&aacute;rio do F&oacute;rum Brasileiro de Seguran&ccedil;a P&uacute;blica, SaferNet, Comunica PF, Disque 100, boletins de ocorr&ecirc;ncia estaduais e Tabelas Processuais Unificadas do CNJ. O fen&ocirc;meno &eacute; dissolvido em inj&uacute;ria racial, racismo, intoler&acirc;ncia religiosa, amea&ccedil;a ou &ldquo;outros crimes&rdquo;.</p>
       <p class="body" style="margin: 14px 0 0">S&atilde;o duas causas cumulativas. A aus&ecirc;ncia de categoria na entrada, san&aacute;vel por marcador administrativo, sem lei nova. E a aus&ecirc;ncia de rastreabilidade do desfecho na sa&iacute;da, que decorre em parte de limite normativo leg&iacute;timo, o segredo de justi&ccedil;a. Apenas a primeira &eacute; san&aacute;vel por decis&atilde;o t&eacute;cnica.</p>
       <p class="body" style="margin: 14px 0 0">A <a href="indicadores.html">p&aacute;gina de indicadores</a> registra as duas coisas: o que hoje &eacute; mensur&aacute;vel e, ao lado, as vinte lacunas que nenhuma base preenche, com o motivo de cada uma.</p>
@@ -171,7 +171,7 @@ PRIVACIDADE = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px
       <ul class="scope-list scope-is" style="margin-top: 16px">
         <li><strong>GitHub Pages</strong> hospeda o s&iacute;tio e registra acesso em log de servidor, conforme a pol&iacute;tica do pr&oacute;prio GitHub.</li>
         <li><strong>Google Fonts</strong> serve as fontes tipogr&aacute;ficas. A requisi&ccedil;&atilde;o parte do seu navegador para o servidor do Google.</li>
-        <li><strong>Links externos.</strong> Ao clicar em uma manchete ou em um canal de den&uacute;ncia, voc&ecirc; sai daqui. O que acontece no destino segue a pol&iacute;tica do destino.</li>
+        <li><strong>Links externos.</strong> Ao clicar em uma not&iacute;cia ou em um canal de den&uacute;ncia, voc&ecirc; sai daqui. O que acontece no destino segue a pol&iacute;tica do destino.</li>
       </ul>
       <p class="body" style="margin: 16px 0 0">Sete das 21 fontes do painel s&atilde;o buscas no Google Not&iacute;cias. Nesses casos o item traz o aviso <em>via Google Not&iacute;cias</em>, porque o clique passa por um intermedi&aacute;rio antes de chegar ao ve&iacute;culo.</p>
     </div>
@@ -234,7 +234,7 @@ TERMOS = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 6vw
       <p class="body" style="margin: 14px 0 0">Norma muda, ac&oacute;rd&atilde;o &eacute; superado e prazo corre. Antes de agir com base no que leu aqui, confira no texto de origem, que est&aacute; sempre linkado, e procure orienta&ccedil;&atilde;o profissional.</p>
 
       <h2 class="h2" style="max-width: 26ch; margin-top: clamp(34px, 4vw, 50px)">4. Conte&uacute;do de terceiros</h2>
-      <p class="body" style="margin: 18px 0 0">As manchetes do painel e do boletim s&atilde;o de seus respectivos ve&iacute;culos, exibidas como t&iacute;tulo e link. A responsabilidade pelo conte&uacute;do &eacute; de quem publicou. A inclus&atilde;o de uma fonte no monitoramento n&atilde;o significa endosso da sua linha editorial, e a aus&ecirc;ncia n&atilde;o significa recusa.</p>
+      <p class="body" style="margin: 18px 0 0">O painel e o boletim exibem apenas o ve&iacute;culo, a data e o link para a publica&ccedil;&atilde;o de origem, com um r&oacute;tulo neutro de tema. A manchete n&atilde;o &eacute; reproduzida, porque pode nomear v&iacute;tima, denunciante ou investigado. A responsabilidade pelo conte&uacute;do &eacute; de quem publicou. A inclus&atilde;o de uma fonte no monitoramento n&atilde;o significa endosso da sua linha editorial, e a aus&ecirc;ncia n&atilde;o significa recusa.</p>
       <p class="body" style="margin: 14px 0 0">Se voc&ecirc; &eacute; respons&aacute;vel por um ve&iacute;culo e n&atilde;o deseja ser agregado, o pedido pode ser feito no reposit&oacute;rio p&uacute;blico e ser&aacute; atendido.</p>
     </div>
   </div>
@@ -566,8 +566,8 @@ def _check(itens):
 SESSENTA = [
     ("Grave a tela do conteúdo que se apaga sozinho",
      "Story, status, mensagem temporária e transmissão ao vivo somem em horas, e print não captura vídeo nem áudio. É o único item que pode ser impossível daqui a pouco."),
-    ("Capture o perfil de quem publicou",
-     "Nome de exibição, nome de usuário, endereço do perfil, biografia e número de seguidores. O perfil pode ser apagado, trocado de nome ou fechado em minutos, e sem ele a autoria fica em aberto."),
+    ("Registre o endereço do perfil que publicou, para entregar ao canal oficial",
+     "Não divulgue, não exponha e não confronte o autor."),
     ("Capture o conteúdo com o endereço, a data e a hora visíveis na tela",
      "Print em que se leia a URL inteira. Sem o endereço na imagem, a captura vale menos: não se sabe de onde saiu."),
     ("Salve a página completa, e não só a imagem",
@@ -614,7 +614,7 @@ PRESERVAR = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 
     <h3 class="h3-display">01 &middot; Conteúdo em rede social, site ou comentário</h3>
     <ul class="body prs-lista">
       <li>Print com o <strong>endereço completo visível</strong> na barra do navegador, mais data e hora do aparelho na tela.</li>
-      <li>Print do <strong>perfil do autor</strong>: nome de exibição, nome de usuário, endereço do perfil e biografia. Nome de exibição muda; o nome de usuário e o endereço são o que identifica.</li>
+      <li>Registre o <strong>endereço do perfil</strong> que publicou, para entregar ao canal oficial. Não divulgue, não exponha e não confronte o autor.</li>
       <li><strong>Salvar como página web completa</strong>, não só imagem. Guarda comentários, código e o que o print recortou.</li>
       <li>Se houver comentários relevantes, capture-os <strong>com o autor de cada um</strong>. Comentário sem autoria não serve para nada depois.</li>
       <li>Salve o endereço na <a href="https://web.archive.org/save" target="_blank" rel="noopener">Wayback Machine</a>, que gera cópia datada por terceiro.</li>
@@ -710,6 +710,32 @@ PRESERVAR = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 
     </ul>
   </div>
 </section>
+
+<section class="band" id="campos-minimos"><div class="wrap section">
+  <p class="eyebrow">Evid&ecirc;ncia digital &middot; refer&ecirc;ncia do Eixo 3</p>
+  <h2 class="h2" style="max-width: 30ch">Os doze campos m&iacute;nimos</h2>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">A SaferNet Brasil ofereceu ao Eixo 3 um conjunto de doze campos m&iacute;nimos de preserva&ccedil;&atilde;o de evid&ecirc;ncia digital. &Eacute; a &uacute;nica refer&ecirc;ncia operacional dispon&iacute;vel ao Eixo na mat&eacute;ria. Sua ado&ccedil;&atilde;o pelo Eixo e a compatibilidade com padr&otilde;es internacionais de hotline permanecem pendentes. Fonte: relat&oacute;rio preliminar conjunto das Frentes 1 e 2, vers&atilde;o 2.0, Anexo D, item D.6.</p>
+  <ol class="body prs-lista">
+        <li>Endereço completo do conteúdo, com vínculo específico e permanente.</li>
+        <li>Data e hora da captura, com fuso horário explícito, preferencialmente em tempo universal coordenado.</li>
+        <li>Captura de tela integral, com endereço, data e hora visíveis. Gravação de tela com áudio para vídeos e transmissões.</li>
+        <li>Resumo criptográfico de cada arquivo no momento da coleta, para fins de cadeia de custódia, nos termos dos arts. 158-A a 158-F do Código de Processo Penal.</li>
+        <li>Identificador único do conteúdo atribuído pela plataforma.</li>
+        <li>Identificação do perfil autor, com nome de usuário, endereço do perfil e, quando disponível, identificador numérico da conta, que persiste após alteração do nome de usuário.</li>
+        <li>Plataforma e tipo de conteúdo.</li>
+        <li>Contexto integral da manifestação.</li>
+        <li>Código-fonte da página, quando tecnicamente viável.</li>
+        <li>Dados de infraestrutura: domínio, registro de titularidade, provedor de hospedagem e endereço de protocolo.</li>
+        <li>Registro da coleta: ferramenta ou método, identificação de quem capturou e local de armazenamento seguro.</li>
+        <li>Preservação junto ao provedor, por solicitação tempestiva da autoridade competente, nos termos dos arts. 13 e 15 da Lei nº 12.965/2014, dada a alta volatilidade dos conteúdos.</li>
+  </ol>
+  <p class="prs-risco" role="note" style="margin-top: 22px"><strong>Aten&ccedil;&atilde;o aos campos 6 e 10.</strong> Tratam de dados de identifica&ccedil;&atilde;o de terceiros e s&oacute; podem ser coletados no &acirc;mbito de procedimento com base legal pr&oacute;pria. Esta p&aacute;gina n&atilde;o coleta, n&atilde;o solicita e n&atilde;o armazena nenhum desses elementos. A reprodu&ccedil;&atilde;o aqui &eacute; de natureza estritamente metodol&oacute;gica.</p>
+  <h3 class="h3" style="margin-top: 30px">Por que denunciar cedo</h3>
+  <p class="body" style="margin: 12px 0 0; max-width: 74ch">Segundo o diagn&oacute;stico do Eixo 3, a guarda legal dos registros no provedor de aplica&ccedil;&otilde;es &eacute; de seis meses (Lei n&ordm; 12.965/2014, arts. 13 e 15), e n&atilde;o se localizou padr&atilde;o p&uacute;blico de preserva&ccedil;&atilde;o nos &oacute;rg&atilde;os de recebimento. Passado o prazo, o provedor pode n&atilde;o ter mais o registro. Esse &eacute; um motivo para denunciar sem demora, junto com a volatilidade do conte&uacute;do (achado A24, confian&ccedil;a m&eacute;dia). A preserva&ccedil;&atilde;o junto ao provedor &eacute; feita por solicita&ccedil;&atilde;o tempestiva da autoridade competente (campo 12).</p>
+  <h3 class="h3" style="margin-top: 30px">Recomenda&ccedil;&atilde;o 14, em minuta</h3>
+  <p class="body" style="margin: 12px 0 0; max-width: 74ch"><strong>Proposta em minuta, n&atilde;o deliberada.</strong> N&atilde;o deve ser citada como posi&ccedil;&atilde;o do Eixo antes de validada. Est&aacute; em aprecia&ccedil;&atilde;o pelos participantes das Frentes 1 e 2, e os destaques n&atilde;o resolvidos ser&atilde;o deliberados na reuni&atilde;o de encerramento, em 14/10/2026. O texto prop&otilde;e fixar, no fluxo de encaminhamento de ocorr&ecirc;ncias em ambiente digital, <strong>prazo de requisi&ccedil;&atilde;o cautelar de guarda</strong> de registros ao provedor e os <strong>campos m&iacute;nimos de preserva&ccedil;&atilde;o</strong> de evid&ecirc;ncia digital. Os destinat&aacute;rios indicados s&atilde;o a Pol&iacute;cia Federal, pela unidade gestora do Comunica PF, e o Minist&eacute;rio dos Direitos Humanos e da Cidadania, por sua Ouvidoria Nacional de Direitos Humanos. O instrumento exigido &eacute; ato administrativo do pr&oacute;prio destinat&aacute;rio, em prazo sugerido curto, de at&eacute; seis meses. O indicador de cumprimento &eacute; a incorpora&ccedil;&atilde;o do prazo e dos campos &agrave;s orienta&ccedil;&otilde;es de atendimento dos dois canais.</p>
+  <p class="fonte" style="margin-top: 22px">Fonte: relat&oacute;rio preliminar conjunto, vers&atilde;o 2.0, Recomenda&ccedil;&atilde;o 14 e achado A24. O formul&aacute;rio de qualifica&ccedil;&atilde;o da not&iacute;cia-crime e a exporta&ccedil;&atilde;o de dossi&ecirc; n&atilde;o fazem parte desta p&aacute;gina: dependem de decis&atilde;o da coordena&ccedil;&atilde;o.</p>
+</div></section>
 
 <section class="wrap section">
   <div class="met-grid">

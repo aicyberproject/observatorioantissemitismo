@@ -37,7 +37,7 @@ PAPEL = "#F5F3EF"
 ANUAL = [
     # ano, total, online, offline
     (2022, 397, 202, 195),
-    (2023, 1412, 1049, 363),
+    (2023, 1410, 1049, 363),   # total validado; online + offline somam 1412, diferenca de duas ocorrencias na fonte
     (2024, 1788, 1310, 478),
     (2025, 989, 800, 189),
 ]
@@ -316,6 +316,16 @@ def tabela(cab, linhas, cls="tab-dados"):
 # linha. Lacuna e achado, e uma ficha que so mostra o que se sabe induz a supor
 # que o resto foi apurado.
 
+# Edicao de 2025, tabela comparativa de denuncias desconsideradas (2022-2025):
+# (ano, recebidas, desconsideradas, consideradas, % desconsideradas)
+TRIAGEM_SERIE = [
+    (2022, 490, 93, 397, 18.98),
+    (2023, 2113, 703, 1410, 33.27),
+    (2024, 3167, 1379, 1788, 43.55),
+    (2025, 1428, 439, 989, 30.74),
+]
+
+
 FICHA_COMUNITARIA = [
     ("Método de coleta",
      "Denúncia recebida em canal próprio das entidades, com triagem e validação "
@@ -325,6 +335,9 @@ FICHA_COMUNITARIA = [
      "Nacional, com a localização declarada por quem denuncia. Em 2025, 462 dos 989 "
      "casos validados (46,7%) não trazem estado informado. A distribuição geográfica "
      "de 2025 não é comparável com a de 2024: mudou a forma de captar a localização."),
+    ("Definição adotada pela fonte",
+     "A fonte sustenta a definição de trabalho da International Holocaust Remembrance Alliance (IHRA), segundo o relatório preliminar conjunto do Eixo 3, versão 2.0, seção 3.6.2. "
+     "Há divergência interna no Eixo sobre a definição a adotar, matéria do eixo de Conceituação. A metodologia é a descrita em Método de coleta."),
     ("Data de extração",
      "3 de setembro de 2026, do Relatório de Antissemitismo no Brasil 2025, de CONIB, "
      "FISESP e Departamento de Segurança Comunitária, conferido contra o documento "
@@ -339,6 +352,8 @@ FICHA_OFICIAL = [
      "Não declarada. Nenhum dos recortes tem categoria específica de antissemitismo: "
      "o neonazismo é o proxy mais próximo, e a categoria de intolerância religiosa "
      "absorve o antissemitismo sem distingui-lo."),
+    ("Definição adotada pela fonte", None,
+     "Não conhecida nesta versão. A publicação primária não foi consultada, e a metodologia é a mesma que consta de Método de coleta: não declarada."),
     ("Data de extração", None,
      "Agosto de 2026, do levantamento reunido para o Eixo 3. Os identificadores "
      "administrativos indicados naquele levantamento não foram confirmados e por "
@@ -380,6 +395,7 @@ def figura(titulo, subtitulo, svg, tab, nota, legenda=None, id_=None, nat=None, 
   <div class="viz-wrap">{svg}</div>
   <details class="tabela"><summary>Ver os números em tabela</summary>{tab}</details>
   <p class="fonte">{nota}</p>
+  <p class="fonte"><strong>Ressalva de defini&ccedil;&atilde;o.</strong> Os dados existentes foram produzidos sob defini&ccedil;&otilde;es e metodologias pr&oacute;prias de cada fonte e n&atilde;o s&atilde;o representativos da defini&ccedil;&atilde;o adotada pela Iniciativa.</p>
   {ficha(fic)}
 </figure>"""
 
@@ -467,7 +483,7 @@ def main():
   <p class="crumb"><a href="index.html">Observat&oacute;rio</a> &nbsp;/&nbsp; Indicadores</p>
   <h1 class="h1" style="margin-top: 24px">Indicadores e KPIs</h1>
   <p class="lead" style="margin: 26px 0 0; max-width: 70ch">Esta p&aacute;gina tem duas camadas. A primeira re&uacute;ne o que hoje &eacute; mensur&aacute;vel, a partir de relat&oacute;rios p&uacute;blicos j&aacute; publicados. A segunda re&uacute;ne o que n&atilde;o &eacute;: a matriz de indicadores proposta pelo Eixo 3, com o motivo de cada campo estar vazio.</p>
-  <p class="lead" style="margin: 16px 0 0; max-width: 70ch">A segunda camada &eacute; a mais importante. O achado central do Eixo 3 &eacute; que n&atilde;o se trata de aus&ecirc;ncia de fen&ocirc;meno, mas de aus&ecirc;ncia de instrumento de medida. A lacuna, aqui, &eacute; o resultado.</p>
+  <p class="lead" style="margin: 16px 0 0; max-width: 70ch">A segunda camada &eacute; a mais importante. O achado central do Eixo 3 &eacute; a aus&ecirc;ncia de medida, e n&atilde;o a aus&ecirc;ncia de fen&ocirc;meno. Ela se manifesta de tr&ecirc;s modos: categoria inexistente, categoria existente que n&atilde;o mede e s&eacute;rie publicada n&atilde;o compar&aacute;vel. A lacuna, aqui, &eacute; o resultado.</p>
 </section>
 
 <section class="metrics-band"><div class="wrap"><div class="metrics">
@@ -502,15 +518,15 @@ def main():
         id_="serie-mensal", nat="comunitaria", fic=FICHA_COMUNITARIA))
 
     # ---------------- colunas anuais ----------------
-    linhas = [[str(a), FMT(t), FMT(on), FMT(off), f"{on/t*100:.1f}%"] for a, t, on, off in ANUAL]
+    linhas = [[str(a), FMT(t), FMT(on), FMT(off), f"{on/(on+off)*100:.1f}%"] for a, t, on, off in ANUAL]
     out.append(figura(
         "Ocorrências validadas por ano e por ambiente",
         "Quatro anos completos. A retração de 2025 devolve o volume a um patamar acima do de 2022 e abaixo do pico de 2024. A participação do ambiente digital continuou subindo mesmo com a queda do total.",
         svg_colunas_anuais(),
         tabela(["Ano", "Total", "Online", "Offline", "% online"], linhas),
         f'Fontes: Relatório de Antissemitismo no Brasil 2024 e {LINK25}, CONIB, FISESP e DSC. {selo("verificado")} '
-        'O total de 2023 aparece como 1.410 no relatório de 2024 e como 1.412 no de 2025. Adotou-se o valor revisado. '
-        'A própria fonte registra que 2025 permanece 149,1% acima da linha de base de 2022.',
+        'O total de 2023 é 1.410, o total validado da edição de 2025, adotado também pelo relatório do Eixo 3. Na decomposição por ambiente, a própria fonte traz 1.049 online e 363 offline, que somam 1.412: a soma difere do total em duas ocorrências. '
+        'A própria fonte registra que 2025 permanece 149,1% acima da linha de base de 2022 (edição de 2025, p. 34 e 36 do PDF integral).',
         legenda=[("Online", S1), ("Offline", S2)],
         id_="serie-anual", nat="comunitaria", fic=FICHA_COMUNITARIA))
 
@@ -527,6 +543,19 @@ def main():
         'descartou 43,55% delas: menos registros em duplicidade e menos registros impulsionados pelo '
         'clima de crise explicam parte da queda no volume validado.',
         id_="triagem", nat="comunitaria", fic=FICHA_COMUNITARIA))
+
+    # ---------------- triagem, serie retroativa ----------------
+    linhas = [[str(a), FMT(r), FMT(d), FMT(v), f"{p}%".replace(".", ",")] for a, r, d, v, p in TRIAGEM_SERIE]
+    out.append(figura(
+        "Registros recebidos, descartados e validados, 2022 a 2025",
+        "A edição de 2025 publica a série retroativa da triagem. A taxa de descarte foi de 18,98% em 2022, 33,27% em 2023, 43,55% em 2024 e 30,74% em 2025.",
+        svg_barras([(str(a), p) for a, _, _, _, p in TRIAGEM_SERIE], destaque={"2024"}, unidade="de descarte",
+                   altura_barra=30, rotulo_eixo="Taxa de descarte na triagem, por ano",
+                   formato=lambda v: f"{v:.2f}".replace(".", ",") + "%"),
+        tabela(["Ano", "Recebidos", "Descartados", "Validados", "% descartados"], linhas),
+        f'Fonte: {LINK25}, CONIB, FISESP e DSC, tabela comparativa de denúncias desconsideradas, 2022 a 2025 (edição de 2025, p. 35 do PDF integral). {selo("verificado")} '
+        'Denúncias consideradas são as ocorrências validadas da série anual.',
+        id_="triagem-serie", nat="comunitaria", fic=FICHA_COMUNITARIA))
 
     # ---------------- geografia ----------------
     tot25 = sum(v for _, v in GEO_2025)
@@ -599,6 +628,8 @@ def main():
     <div class="tile"><p class="label">Estados Unidos &middot; 2024</p><p class="tile-num">9.354</p><p class="tile-txt">incidentes apurados no ano, alta de 5% sobre 2023 e de 893% em dez anos. Em 58,3% deles houve men&ccedil;&atilde;o a Israel ou ao sionismo, a primeira vez que esse recorte &eacute; maioria em 46 anos de s&eacute;rie.</p><p class="tile-src">ADL, Audit of Antisemitic Incidents 2024. {selo("citado")} {natureza("externa")}</p></div>
     <div class="tile"><p class="label">Uni&atilde;o Europeia</p><p class="tile-num">80%</p><p class="tile-txt">das v&iacute;timas n&atilde;o levam o incidente &agrave; pol&iacute;cia ou a qualquer autoridade. Na mesma pesquisa, 96% relataram ter sofrido alguma forma de antissemitismo no ano anterior, e menos de metade dos 27 Estados-membros mant&eacute;m registro desagregado.</p><p class="tile-src">FRA, Ag&ecirc;ncia da Uni&atilde;o Europeia para os Direitos Fundamentais. {selo("citado")} {natureza("percepcao")}</p></div>
   </div>
+  <p class="fonte" style="margin-top: 18px"><strong>Defini&ccedil;&atilde;o e metodologia das fontes:</strong> n&atilde;o conhecidas nesta vers&atilde;o, porque a publica&ccedil;&atilde;o prim&aacute;ria de cada uma n&atilde;o foi consultada. Apura&ccedil;&otilde;es de outra jurisdi&ccedil;&atilde;o servem a ordem de grandeza, e n&atilde;o a compara&ccedil;&atilde;o de volume.</p>
+  <p class="fonte"><strong>Ressalva de defini&ccedil;&atilde;o.</strong> Os dados existentes foram produzidos sob defini&ccedil;&otilde;es e metodologias pr&oacute;prias de cada fonte e n&atilde;o s&atilde;o representativos da defini&ccedil;&atilde;o adotada pela Iniciativa.</p>
   <p class="body" style="margin: 26px 0 0; max-width: 74ch"><strong>A leitura que interessa ao Eixo 3 n&atilde;o &eacute; a compara&ccedil;&atilde;o de volume.</strong> Os n&uacute;meros brasileiro e norte-americano contam populações, canais e defini&ccedil;&otilde;es diferentes, e coloc&aacute;-los lado a lado sugeriria uma raz&atilde;o que os dados n&atilde;o sustentam. O que se compara &eacute; a exist&ecirc;ncia do instrumento: h&aacute; s&eacute;rie hist&oacute;rica de 46 anos em uma jurisdi&ccedil;&atilde;o, marcador oficial em 14 de 27 Estados-membros em outra, e nenhuma categoria aut&ocirc;noma em nenhuma base estatal brasileira.</p>
 </section>""")
 

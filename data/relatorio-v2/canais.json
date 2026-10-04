@@ -1,0 +1,522 @@
+{
+  "fonte": {
+    "arquivo": "INVENTARIO_Canais-Denuncia-Odio_2026-10-03.md",
+    "verificado_em": "03/10/2026",
+    "verificado_por": "coordenação do Eixo 3, com ferramentas web",
+    "relatorio": "Relatório preliminar conjunto, versão 2.0, de 05/10/2026, seção 5.4 e Anexo F"
+  },
+  "uniao": [
+    {
+      "id": "falabr",
+      "orgao": "CGU, Fala.BR",
+      "canal": "Formulário de manifestação",
+      "endereco": "https://falabr.cgu.gov.br/v2/manifestacoes/registrar",
+      "verificacao": "Formulário no ar. Entrada única das ouvidorias federais",
+      "especifico_antissemitismo": false
+    },
+    {
+      "id": "d100",
+      "orgao": "MDHC, Ouvidoria Nacional (Disque 100)",
+      "canal": "Serviço gov.br de denúncia",
+      "endereco": "https://www.gov.br/pt-br/servicos/denunciar-violacao-de-direitos-humanos",
+      "verificacao": "Página de serviço no ar. Violação de direitos humanos em geral",
+      "especifico_antissemitismo": false
+    },
+    {
+      "id": "uniao-mdhc-ouvidoria-nacional-pagina-institucional",
+      "orgao": "MDHC, Ouvidoria Nacional",
+      "canal": "Página institucional",
+      "endereco": "https://www.gov.br/mdh/pt-br/ondh",
+      "verificacao": "No ar. Publica o WhatsApp do Disque 100, (61) 99935-9272",
+      "especifico_antissemitismo": false
+    },
+    {
+      "id": "comunicapf",
+      "orgao": "Polícia Federal, Comunica PF",
+      "canal": "Comunicação de ocorrência",
+      "endereco": "https://apps.pf.gov.br/r/comunicapf/comunicapf/comunicar-ocorrencia",
+      "verificacao": "Aplicação no ar. Exige autenticação gov.br",
+      "especifico_antissemitismo": false
+    },
+    {
+      "id": "pf",
+      "orgao": "Polícia Federal",
+      "canal": "Página de comunicação de crimes",
+      "endereco": "https://www.gov.br/pf/pt-br/canais_atendimento/comunicacao-de-crimes",
+      "verificacao": "No ar",
+      "especifico_antissemitismo": false
+    },
+    {
+      "id": "uniao-policia-federal-ouvidoria",
+      "orgao": "Polícia Federal",
+      "canal": "Ouvidoria",
+      "endereco": "https://www.gov.br/pf/pt-br/canais_atendimento/ouvidoria",
+      "verificacao": "No ar",
+      "especifico_antissemitismo": false
+    },
+    {
+      "id": "mpf",
+      "orgao": "Ministério Público Federal",
+      "canal": "Denúncias",
+      "endereco": "https://www.mpf.mp.br/servicos/mpf-servicos-internas/denuncias",
+      "verificacao": "No ar",
+      "especifico_antissemitismo": false
+    },
+    {
+      "id": "uniao-ministerio-publico-federal-ouvidoria",
+      "orgao": "Ministério Público Federal",
+      "canal": "Ouvidoria",
+      "endereco": "https://www.mpf.mp.br/o-mpf/orgaos-superiores/ouvidoria",
+      "verificacao": "No ar",
+      "especifico_antissemitismo": false
+    },
+    {
+      "id": "dpu",
+      "orgao": "Defensoria Pública da União",
+      "canal": "Fale conosco",
+      "endereco": "https://www.dpu.def.br/fale-conosco",
+      "verificacao": "No ar",
+      "especifico_antissemitismo": false
+    },
+    {
+      "id": "uniao-defensoria-publica-da-uniao-peticoes",
+      "orgao": "Defensoria Pública da União",
+      "canal": "Petições",
+      "endereco": "https://peticoes.dpu.def.br/",
+      "verificacao": "Aplicação no ar. O formulário só aparece com JavaScript",
+      "especifico_antissemitismo": false
+    },
+    {
+      "id": "uniao-mjsp-canais-de-denuncias",
+      "orgao": "MJSP",
+      "canal": "Canais de denúncias",
+      "endereco": "https://www.gov.br/mj/pt-br/canais-de-denuncias",
+      "verificacao": "No ar",
+      "especifico_antissemitismo": false
+    },
+    {
+      "id": "uniao-mjsp-ouvidoria",
+      "orgao": "MJSP",
+      "canal": "Ouvidoria",
+      "endereco": "https://www.gov.br/mj/pt-br/canais_atendimento/pgouvidoria",
+      "verificacao": "No ar. O endereço antigo `/ouvidoria` está fora do ar",
+      "especifico_antissemitismo": false
+    }
+  ],
+  "estados": [
+    {
+      "id": "est-rs-ministerio-publico-denuncia-com-opcao-anonima",
+      "orgao": "Ministério Público",
+      "canal": "Denúncia, com opção anônima",
+      "endereco": "https://www.mprs.mp.br/atendimento/denuncia/",
+      "verificacao": "Formulário anônimo com anexos. A denúncia identificada exige login",
+      "especifico_antissemitismo": false,
+      "uf": "RS"
+    },
+    {
+      "id": "est-rs-ministerio-publico-contato",
+      "orgao": "Ministério Público",
+      "canal": "Contato",
+      "endereco": "https://www.mprs.mp.br/contato/",
+      "verificacao": "No ar, com e-mail de atendimento",
+      "especifico_antissemitismo": false,
+      "uf": "RS"
+    },
+    {
+      "id": "est-rs-policia-civil-faca-uma-denuncia",
+      "orgao": "Polícia Civil",
+      "canal": "Faça uma denúncia",
+      "endereco": "https://www.pc.rs.gov.br/faca-uma-denuncia",
+      "verificacao": "Formulário no ar. A página inicial publica WhatsApp",
+      "especifico_antissemitismo": false,
+      "uf": "RS"
+    },
+    {
+      "id": "est-rs-policia-civil-delegacia-online",
+      "orgao": "Polícia Civil",
+      "canal": "Delegacia online",
+      "endereco": "https://www.delegaciaonline.rs.gov.br/",
+      "verificacao": "Aplicação no ar",
+      "especifico_antissemitismo": false,
+      "uf": "RS"
+    },
+    {
+      "id": "est-rs-defensoria-publica-ouvidoria",
+      "orgao": "Defensoria Pública",
+      "canal": "Ouvidoria",
+      "endereco": "https://www.defensoria.rs.def.br/ouvidoria",
+      "verificacao": "No ar, com e-mail e formulário",
+      "especifico_antissemitismo": false,
+      "uf": "RS"
+    },
+    {
+      "id": "est-rj-defensoria-publica-formulario-da-ouvidoria",
+      "orgao": "Defensoria Pública",
+      "canal": "Formulário da Ouvidoria",
+      "endereco": "https://www.defensoria.rj.def.br/Ouvidoria2/AtendimentoFormulario",
+      "verificacao": "Formulário no ar",
+      "especifico_antissemitismo": false,
+      "uf": "RJ"
+    },
+    {
+      "id": "est-rj-defensoria-publica-atendimento-on-line",
+      "orgao": "Defensoria Pública",
+      "canal": "Atendimento on-line",
+      "endereco": "https://www.defensoria.rj.def.br/Servicos/Atendimento-On-line",
+      "verificacao": "No ar, com WhatsApp",
+      "especifico_antissemitismo": false,
+      "uf": "RJ"
+    },
+    {
+      "id": "est-mg-ministerio-publico-ouvidoria-e-atendimento-ao-cidadao",
+      "orgao": "Ministério Público",
+      "canal": "Ouvidoria e atendimento ao cidadão",
+      "endereco": "https://aplicacao.mpmg.mp.br/ouvidoria/service/ouvidoria",
+      "verificacao": "Formulário de manifestação no ar",
+      "especifico_antissemitismo": false,
+      "uf": "MG"
+    },
+    {
+      "id": "est-pr-defensoria-publica-ouvidoria-geral",
+      "orgao": "Defensoria Pública",
+      "canal": "Ouvidoria-Geral",
+      "endereco": "https://www.defensoriapublica.pr.def.br/Ouvidoria-Geral",
+      "verificacao": "No ar, com e-mail e WhatsApp",
+      "especifico_antissemitismo": false,
+      "uf": "PR"
+    },
+    {
+      "id": "est-pr-policia-civil-ouvidoria",
+      "orgao": "Polícia Civil",
+      "canal": "Ouvidoria",
+      "endereco": "https://www.policiacivil.pr.gov.br/ouvidoria",
+      "verificacao": "No ar",
+      "especifico_antissemitismo": false,
+      "uf": "PR"
+    },
+    {
+      "id": "est-pr-policia-civil-disque-denuncia-181",
+      "orgao": "Polícia Civil",
+      "canal": "Disque-Denúncia 181",
+      "endereco": "https://www.policiacivil.pr.gov.br/servicos/Seguranca/Denuncias/Acionar-o-Disque-Denuncia-181-9Ooq2WNG",
+      "verificacao": "Página de serviço no ar",
+      "especifico_antissemitismo": false,
+      "uf": "PR"
+    },
+    {
+      "id": "est-pr-secretaria-de-seguranca-ouvidoria-da-policia",
+      "orgao": "Secretaria de Segurança",
+      "canal": "Ouvidoria da Polícia",
+      "endereco": "https://www.seguranca.pr.gov.br/Ouvidoria/Registrar",
+      "verificacao": "Página de registro no ar",
+      "especifico_antissemitismo": false,
+      "uf": "PR"
+    },
+    {
+      "id": "est-sp-policia-civil-delegacia-digital",
+      "orgao": "Polícia Civil",
+      "canal": "Delegacia Digital",
+      "endereco": "https://delegaciadigital.policia-civil.sp.gov.br/pagina-inicial",
+      "verificacao": "Aplicação no ar",
+      "especifico_antissemitismo": false,
+      "uf": "SP"
+    },
+    {
+      "id": "est-ce-ministerio-publico-ouvidoria-geral-manifestacoes-onli",
+      "orgao": "Ministério Público",
+      "canal": "Ouvidoria-Geral, manifestações online",
+      "endereco": "https://mpce.mp.br/institucional/ouvidoria-geral/manifestacoes-online/",
+      "verificacao": "Página de orientação no ar. O sistema de destino, do CNMP, retornou erro",
+      "especifico_antissemitismo": false,
+      "uf": "CE"
+    },
+    {
+      "id": "est-ce-policia-civil-ouvidoria",
+      "orgao": "Polícia Civil",
+      "canal": "Ouvidoria",
+      "endereco": "https://www.policiacivil.ce.gov.br/ouvidoria/",
+      "verificacao": "No ar, com e-mail",
+      "especifico_antissemitismo": false,
+      "uf": "CE"
+    },
+    {
+      "id": "est-df-ministerio-publico-ouvidoria-registro-de-manifestacao",
+      "orgao": "Ministério Público",
+      "canal": "Ouvidoria, registro de manifestação",
+      "endereco": "https://www.mpdft.mp.br/portal/index.php/servicos-menu/ouvidoria-mainmenu-149/15417-registre-aqui-sua-manifestacao",
+      "verificacao": "No ar. Remete a aplicação com JavaScript",
+      "especifico_antissemitismo": false,
+      "uf": "DF"
+    },
+    {
+      "id": "est-es-policia-civil-fale-com-a-ouvidoria",
+      "orgao": "Polícia Civil",
+      "canal": "Fale com a ouvidoria",
+      "endereco": "https://pc.es.gov.br/fale-com-a-ouvidoria",
+      "verificacao": "No ar. Remete ao e-Ouv",
+      "especifico_antissemitismo": false,
+      "uf": "ES"
+    },
+    {
+      "id": "est-es-governo-do-estado-e-ouv",
+      "orgao": "Governo do Estado",
+      "canal": "e-Ouv",
+      "endereco": "https://e-ouv.es.gov.br/",
+      "verificacao": "Plataforma de manifestação no ar",
+      "especifico_antissemitismo": false,
+      "uf": "ES"
+    },
+    {
+      "id": "est-es-governo-do-estado-disque-denuncia-181",
+      "orgao": "Governo do Estado",
+      "canal": "Disque-Denúncia 181",
+      "endereco": "https://disquedenuncia181.es.gov.br/",
+      "verificacao": "No ar, com WhatsApp",
+      "especifico_antissemitismo": false,
+      "uf": "ES"
+    },
+    {
+      "id": "est-sc-ministerio-publico-denuncie-e-cadastro-de-manifestaco",
+      "orgao": "Ministério Público",
+      "canal": "Denuncie e cadastro de manifestações",
+      "endereco": "https://www.mpsc.mp.br/denuncie",
+      "verificacao": "No ar. Remete a formulário de atendimento",
+      "especifico_antissemitismo": false,
+      "uf": "SC"
+    },
+    {
+      "id": "est-sc-policia-civil-denuncia-anonima",
+      "orgao": "Polícia Civil",
+      "canal": "Denúncia anônima",
+      "endereco": "https://denuncias.pc.sc.gov.br/",
+      "verificacao": "Aplicação no ar",
+      "especifico_antissemitismo": false,
+      "uf": "SC"
+    },
+    {
+      "id": "est-sc-policia-civil-delegacia-virtual",
+      "orgao": "Polícia Civil",
+      "canal": "Delegacia virtual",
+      "endereco": "https://delegaciavirtual.sc.gov.br/",
+      "verificacao": "Aplicação no ar",
+      "especifico_antissemitismo": false,
+      "uf": "SC"
+    },
+    {
+      "id": "est-to-ministerio-publico-ouvidoria-manifestacao",
+      "orgao": "Ministério Público",
+      "canal": "Ouvidoria, manifestação",
+      "endereco": "https://www.mpto.mp.br/ouvidoria/manifestation/",
+      "verificacao": "Formulário no ar, com opção anônima",
+      "especifico_antissemitismo": false,
+      "uf": "TO"
+    },
+    {
+      "id": "est-go-policia-civil-delegacia-virtual",
+      "orgao": "Polícia Civil",
+      "canal": "Delegacia virtual",
+      "endereco": "https://goias.gov.br/policiacivil/delegacia-virtual-pcgo/",
+      "verificacao": "No ar",
+      "especifico_antissemitismo": false,
+      "uf": "GO"
+    },
+    {
+      "id": "est-go-controladoria-geral-do-estado-nova-manifestacao-polic",
+      "orgao": "Controladoria-Geral do Estado",
+      "canal": "Nova manifestação, Polícia Civil",
+      "endereco": "https://www.go.gov.br/servicos-digitais/cge/nova-ouvidoria/nova-manifestacao?orgao=52",
+      "verificacao": "Formulário no ar",
+      "especifico_antissemitismo": false,
+      "uf": "GO"
+    },
+    {
+      "id": "est-rr-policia-civil-disque-denuncia-online",
+      "orgao": "Polícia Civil",
+      "canal": "Disque-denúncia online",
+      "endereco": "https://diskdenuncia.policiacivil.rr.gov.br/denuncia_online.php",
+      "verificacao": "Formulário no ar, com campo de tipo de crime e anexos. Os valores do campo não foram examinados",
+      "especifico_antissemitismo": false,
+      "uf": "RR"
+    }
+  ],
+  "sociedade_civil": [
+    {
+      "id": "safernet",
+      "orgao": "SaferNet Brasil",
+      "canal": "Denúncia anônima de crimes contra direitos humanos na internet",
+      "endereco": "https://new.safernet.org.br/denuncie",
+      "verificacao": "No ar. Gera protocolo de acompanhamento. Sem categoria autônoma de antissemitismo (relatório, seção 3.6.1)",
+      "especifico_antissemitismo": false
+    },
+    {
+      "id": "sc-safernet-brasil-canal-de-ajuda-e-chat",
+      "orgao": "SaferNet Brasil",
+      "canal": "Canal de ajuda e chat",
+      "endereco": "https://new.safernet.org.br/helpline",
+      "verificacao": "No ar. Orientação, não denúncia",
+      "especifico_antissemitismo": false
+    },
+    {
+      "id": "conib",
+      "orgao": "CONIB",
+      "canal": "Denuncie ato de antissemitismo",
+      "endereco": "https://combateaoantissemitismo.org.br/denuncie/",
+      "verificacao": "Página com formulário no ar. Canal específico de antissemitismo",
+      "especifico_antissemitismo": true
+    },
+    {
+      "id": "conib-fisesp",
+      "orgao": "CONIB e FISESP",
+      "canal": "Formulário de denúncia de antissemitismo",
+      "endereco": "https://beiachad.fisesp.org.br/dsc/formulario?canalID=7",
+      "verificacao": "Formulário no ar. Canal específico de antissemitismo. É o destino do atalho divulgado pela CONIB",
+      "especifico_antissemitismo": true
+    }
+  ],
+  "tematicos": [
+    {
+      "id": "tem-ministerio-das-mulheres-ligue-180",
+      "orgao": "Ministério das Mulheres",
+      "canal": "Ligue 180",
+      "endereco": "https://www.gov.br/mulheres/pt-br/ligue180",
+      "verificacao": "No ar, com WhatsApp e e-mail publicados na página",
+      "especifico_antissemitismo": false,
+      "ambito": "União",
+      "tematico": "violência motivada por gênero"
+    },
+    {
+      "id": "tem-policia-civil-do-parana-denuncia-de-violencia-contra-a-m",
+      "orgao": "Polícia Civil do Paraná",
+      "canal": "Denúncia de violência contra a mulher",
+      "endereco": "https://www.policiacivil.pr.gov.br/servicos/Servicos/Cidadania/Denunciar-violencia-fisica-ou-sexual-contra-a-mulher-0GNA6J38",
+      "verificacao": "Canal temático, não específico de crime de ódio",
+      "especifico_antissemitismo": false,
+      "uf": "PR",
+      "ambito": "Estado",
+      "tematico": "violência contra a mulher"
+    }
+  ],
+  "fora_do_inventario": [
+    {
+      "endereco": "https://www.gov.br/mdh/pt-br/webchat",
+      "descricao": null,
+      "motivo": "Página inexistente"
+    },
+    {
+      "endereco": "https://www.gov.br/participamaisbrasil/cndh",
+      "descricao": null,
+      "motivo": "Responde, mas o conteúdo é página de erro. Plataforma encerrada"
+    },
+    {
+      "endereco": "https://atendelibras.mdh.gov.br/acesso",
+      "descricao": null,
+      "motivo": "Acesso recusado ao ambiente de teste"
+    },
+    {
+      "endereco": "https://brasilparticipativo.presidencia.gov.br/",
+      "descricao": null,
+      "motivo": "Plataforma de participação, não canal de denúncia"
+    },
+    {
+      "endereco": null,
+      "descricao": "Página do CNDH em gov.br/mdh",
+      "motivo": "Página inexistente. Sem canal de denúncia comprovado"
+    }
+  ],
+  "contatos_gerais": [
+    {
+      "organizacao": "Geledés",
+      "endereco": "https://www.geledes.org.br/contato/"
+    },
+    {
+      "organizacao": "ANTRA",
+      "endereco": "https://antrabrasil.org/contato/"
+    },
+    {
+      "organizacao": "ABGLT",
+      "endereco": "https://www.abglt.org/contact"
+    },
+    {
+      "organizacao": "Conectas",
+      "endereco": "https://conectas.org/"
+    }
+  ],
+  "sem_canal_identificado": [
+    "Polícia Civil de São Paulo (portal)",
+    "Polícia Civil do Maranhão",
+    "Ministério Público de Mato Grosso do Sul",
+    "Defensoria Pública de Goiás",
+    "Defensoria Pública de Mato Grosso do Sul"
+  ],
+  "nao_comprovado": {
+    "introducao": "Os hosts abaixo não responderam ao ambiente de teste por tempo esgotado, acesso recusado, falha de DNS ou de certificado. Não entram no inventário, e isso não prova que o canal não exista.",
+    "Ministério Público": [
+      "BA",
+      "ES",
+      "GO",
+      "PE",
+      "RN",
+      "SE",
+      "PA",
+      "PI",
+      "AM",
+      "AL",
+      "MA",
+      "MT",
+      "PB",
+      "RO",
+      "AP",
+      "RJ",
+      "SP"
+    ],
+    "Polícia Civil": [
+      "BA",
+      "PE",
+      "AM",
+      "PA",
+      "MT",
+      "AL",
+      "PB",
+      "RN",
+      "AC",
+      "RO",
+      "AP",
+      "SE",
+      "RJ",
+      "MG"
+    ],
+    "Defensoria Pública": [
+      "BA",
+      "CE",
+      "DF",
+      "SP",
+      "MG",
+      "TO",
+      "PE",
+      "AL",
+      "SC"
+    ],
+    "Outros": [
+      "Delegacia Virtual do Sinesp",
+      "Secretaria da Justiça de São Paulo"
+    ]
+  },
+  "limites": [
+    "Página no ar não garante que o envio do formulário funcione nem que haja atendimento.",
+    "O código HTTP não decide sozinho. O Comunica PF respondeu com erro 400 porque redireciona ao login gov.br, e o canal está ativo. A página da FISESP recusou uma requisição sem cabeçalhos de navegador e respondeu normalmente com eles. Uma página do Participa+Brasil respondeu como válida, mas o conteúdo era de erro.",
+    "O mesmo endereço respondeu em um ambiente e foi recusado em outro. Foi o caso da página da CONIB. Por isso a seção 5 não prova ausência.",
+    "Link de WhatsApp responde mesmo para número inativo. O número vale pela página institucional que o publica, e é ela que o inventário indica.",
+    "Várias aplicações (PC-SC, DPU, MPDFT, PC-SP) só mostram o formulário com JavaScript. Nesses casos, o inventário confirma a aplicação, e não os campos.",
+    "O inventário não examinou as categorias oferecidas por cada formulário. Saber se um canal permite registrar a motivação antissemita é objeto das diligências e do relatório, e não desta verificação."
+  ],
+  "recomendacao_nao_deliberada": {
+    "aviso": "Recomendação da coordenação do Eixo 3, sujeita à apreciação dos participantes.",
+    "texto": "O inventário serve de base para o assistente de encaminhamento do protótipo de observatório. O assistente indica canais existentes, sem recolher dado, e não cria nem padroniza canal. Critérios sugeridos:",
+    "criterios": [
+      "**Ódio na internet**, inclusive o antissemita: SaferNet, com Polícia Federal, Ministério Público Federal, Fala.BR e Disque 100 como vias oficiais.",
+      "**Antissemitismo:** os canais da CONIB, que registram sob a definição adotada pela própria entidade, e, em paralelo, uma via oficial do item 1 ou do estado, porque só a via oficial gera registro público.",
+      "**Fato ocorrido em um estado:** Polícia Civil ou Ministério Público da unidade federada, preferindo o órgão competente para o fato, e não o que tem o formulário mais completo.",
+      "**Unidade federada sem canal comprovado:** remeter às vias federais, sem inventar endereço."
+    ]
+  }
+}

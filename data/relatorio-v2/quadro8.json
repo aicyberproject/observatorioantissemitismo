@@ -1,0 +1,226 @@
+{
+ "quadro8": [
+  {
+   "n": "A1",
+   "achado": "Nenhuma das bases nacionais examinadas possui categoria autônoma de antissemitismo nem marcador de motivação de viés que o alcance",
+   "fonte": "Respostas D02, D03, D04 e D14; exame documental de Sinesp, Anuário, Tabelas Unificadas e instrumentos estaduais",
+   "confianca": "Alta"
+  },
+  {
+   "n": "A2",
+   "achado": "O Comunica PF possui campo específico para misoginia, racismo e xenofobia, e não possui valor para antissemitismo. A lacuna é de decisão taxonômica, não de arquitetura",
+   "fonte": "resposta institucional por despacho (número SEI omitido)",
+   "confianca": "Alta"
+  },
+  {
+   "n": "A3",
+   "achado": "A plataforma Fala.BR não possui assunto de antissemitismo e possui assunto de racismo e discriminação. O único subassunto ativo está restrito a uma unidade, com uma manifestação desde 2014",
+   "fonte": "Resposta da Ouvidoria-Geral da União de 06/07/2026; resposta institucional por despacho (número SEI omitido)",
+   "confianca": "Alta"
+  },
+  {
+   "n": "A4",
+   "achado": "Para denúncias específicas sobre antissemitismo não há definição de um órgão responsável, conforme declaração literal da Ouvidoria-Geral da União",
+   "fonte": "Resposta da Ouvidoria-Geral da União de 06/07/2026, declaração literal",
+   "confianca": "Alta"
+  },
+  {
+   "n": "A5",
+   "achado": "A fronteira operacional entre notícia-crime e manifestação de ouvidoria não está documentada por nenhuma das unidades consultadas",
+   "fonte": "resposta institucional por despacho (número SEI omitido)",
+   "confianca": "Alta"
+  },
+  {
+   "n": "A6",
+   "achado": "Onde não há campo, a mensuração só é possível por busca literal de palavra-chave, sem tratamento semântico, o que subestima estruturalmente o fenômeno",
+   "fonte": "resposta institucional por despacho (número SEI omitido), ressalva expressa da própria Ouvidoria",
+   "confianca": "Alta"
+  },
+  {
+   "n": "A7",
+   "achado": "O campo de religião declarada do Disque 100 mede atributo da vítima, opera apenas dentro de uma violação e esteve vazio em cerca de três quartos dos registros de 2023 a 2025; no primeiro semestre de 2026, o preenchimento subiu a 14,1 por cento das denúncias",
+   "fonte": "Painel da Ouvidoria Nacional de Direitos Humanos, dados de 2024; microdados abertos de 2023 a 2026. Anexo E, E.11",
+   "confianca": "Alta para os valores, média para a estrutura do campo"
+  },
+  {
+   "n": "A8",
+   "achado": "Existe precedente doméstico de criação de marcador temático em base processual nacional por ato de atualização das tabelas, sem lei nova. A instância deliberante permanece pendente de identificação",
+   "fonte": "Assuntos 15129 e 15136 das Tabelas Processuais Unificadas, desde agosto de 2022; Painel de Monitoramento Justiça Racial",
+   "confianca": "Média-alta"
+  },
+  {
+   "n": "A9",
+   "achado": "A relação entre as Tabelas Processuais Unificadas e as Tabelas Unificadas do Ministério Público é de paralelismo, não de incorporação automática",
+   "fonte": "Resolução CNMP nº 63/2010, arts. 5º e 6º; notícia institucional de 03/03/2023",
+   "confianca": "Média-alta"
+  },
+  {
+   "n": "A10",
+   "achado": "O Portal 1746 opera valor de antissemitismo desde 18/03/2022 sem publicar a série correspondente, em canal administrativo não alcançado por segredo de justiça",
+   "fonte": "Página oficial do serviço, verificação direta",
+   "confianca": "Alta para a existência do campo, não localizada a série"
+  },
+  {
+   "n": "A11",
+   "achado": "A única série de incidentes antissemitas do país é produzida por ator não estatal e republicada internacionalmente, o que não constitui corroboração independente",
+   "fonte": "Relatórios da Confederação Israelita do Brasil; série do relatório anual da Universidade de Tel Aviv creditada à entidade",
+   "confianca": "Alta"
+  },
+  {
+   "n": "A12",
+   "achado": "A principal base não estatal de denúncia de conteúdo online não possui categoria autônoma de antissemitismo. A entidade ofereceu implantar marcador estatístico e realizar análise retroativa, viável desde 2006, tendo recomendado expressamente não criar categoria nova no formulário de entrada",
+   "fonte": "Ofício nº 45/2026 da SaferNet Brasil; reunião técnica de 31/07/2026",
+   "confianca": "Alta"
+  },
+  {
+   "n": "A13",
+   "achado": "A observabilidade de desfecho pela publicidade dos atos judiciais é método replicável, com 108 processos já identificados por essa via em levantamento não público",
+   "fonte": "Reunião técnica de 31/07/2026",
+   "confianca": "Média-alta"
+  },
+  {
+   "n": "A14",
+   "achado": "Não há número oficial de população judaica no Censo Demográfico 2022, o que inviabiliza indicador de taxa por cem mil habitantes",
+   "fonte": "Publicação do IBGE de 06/06/2025 e nota de erratas de 18/09/2025",
+   "confianca": "Média-alta"
+  },
+  {
+   "n": "A15",
+   "achado": "O Anuário Brasileiro de Segurança Pública, 20ª edição, não contém menção a antissemitismo, judaísmo ou intolerância religiosa em 424 páginas",
+   "fonte": "Fichamento do Anuário, julho de 2026",
+   "confianca": "Alta"
+  },
+  {
+   "n": "A16",
+   "achado": "A via administrativa de desfecho, por remoção de conteúdo e relatório de transparência, existe e está vazia quanto a recorte de motivação de viés",
+   "fonte": "Julgamento sobre o art. 19 da Lei nº 12.965/2014, acórdão publicado em 07/11/2025; ausência de relatório com recorte brasileiro",
+   "confianca": "Média"
+  },
+  {
+   "n": "A17",
+   "achado": "O mecanismo internacional de referência possui categoria antissemita autônoma entre nove motivações de viés, e seu escopo territorial exclui incidentes ocorridos no Brasil",
+   "fonte": "Documentação oficial do mecanismo; Decisão nº 9/09 do Conselho Ministerial",
+   "confianca": "Alta"
+  },
+  {
+   "n": "A18",
+   "achado": "As divulgações de intolerância religiosa da Ouvidoria não são comparáveis entre si, porque a unidade de contagem e a janela temporal variam entre elas; os microdados abertos permitem série interna comparável do ramo de liberdade de religião ou crença",
+   "fonte": "Divulgações do MDHC de janeiro de 2024, 2025 e 2026, lidas por reprodução; relatório oficial de 30/09/2026. Anexo E, E.9.2",
+   "confianca": "Média. Conferência contra o painel interrompida por bloqueio de acesso"
+  },
+  {
+   "n": "A19",
+   "achado": "As soluções específicas para o antissemitismo em registro, capacitação e prevenção localizadas são subnacionais, sem coordenação nacional; não se localizou recorte federal próprio para o antissemitismo, embora se tenham localizado recortes federais próprios para outros grupos",
+   "fonte": "Anexo E, E.4 a E.6 e E.8",
+   "confianca": "Média"
+  },
+  {
+   "n": "A20",
+   "achado": "Há precedente estadual de subtítulo de motivação religiosa em registro de ocorrência, criado por lei; a lei de 2019 retirou o enquadramento obrigatório",
+   "fonte": "Leis estaduais do Rio de Janeiro nº 7.855/2018 e nº 8.343/2019, texto literal lido em 02/10/2026. Anexo E, E.5",
+   "confianca": "Alta quanto ao texto das leis; operação no sistema de registro não verificada"
+  },
+  {
+   "n": "A21",
+   "achado": "Não se localizou protocolo nacional para ameaça a instituição religiosa ou comunitária, embora exista protocolo escolar nacional geral",
+   "fonte": "Lei nº 14.643/2023, Decreto nº 12.006/2024, manual do Programa Escola que Protege. Anexo E, E.5",
+   "confianca": "Baixa. Ausência apurada em fonte aberta; decretos não conferidos por bloqueio de acesso"
+  },
+  {
+   "n": "A22",
+   "achado": "A oferta federal de formação sobre discurso de ódio não tem recorte de antissemitismo e não publica indicador de cobertura",
+   "fonte": "Catálogo da Escola Virtual de Governo. Anexo E, E.6",
+   "confianca": "Média"
+  },
+  {
+   "n": "A23",
+   "achado": "O regime de remoção de conteúdo fixado em 2025 cria dever de remover sem dever de reportar, podendo reduzir a fração do fenômeno que chega às bases estatais",
+   "fonte": "Tese do STF sobre o art. 19 da Lei nº 12.965/2014; precedente inverso no Decreto nº 12.976/2026, que impõe guarda e encaminhamento para violência contra mulheres. Anexo E, E.4",
+   "confianca": "Baixa. Inferência"
+  },
+  {
+   "n": "A24",
+   "achado": "A evidência digital tem prazo legal de guarda de seis meses no provedor de aplicações, sem padrão público de preservação localizado nos órgãos de recebimento",
+   "fonte": "Lei nº 12.965/2014, arts. 13 e 15. Anexo E, E.4",
+   "confianca": "Média"
+  },
+  {
+   "n": "A25",
+   "achado": "Há rastreabilidade individual do desfecho no Disque 100, sem agregação em série; os microdados abertos não trazem coluna de encaminhamento ou desfecho",
+   "fonte": "Comunicação institucional do MDHC; microdados abertos. Anexo E, E.7 e E.11",
+   "confianca": "Média"
+  },
+  {
+   "n": "A26",
+   "achado": "Não se localizou chave pública de correspondência entre os identificadores dos pontos de entrada",
+   "fonte": "Anexo E, E.7",
+   "confianca": "Média"
+  },
+  {
+   "n": "A27",
+   "achado": "O relatório federal de 2023 sobre discurso de ódio não contém recomendação sobre registro, classificação ou marcador",
+   "fonte": "Relatório do GT instituído pela Portaria MDHC nº 130/2023, alterada pela nº 196/2023, consultado na íntegra. Anexo E, E.9.4",
+   "confianca": "Alta"
+  },
+  {
+   "n": "A28",
+   "achado": "Crimes de ódio constituem categoria de competência regimental da PF desde 2023, sem subdivisão por motivação",
+   "fonte": "Decreto nº 11.348/2023, arts. 46 e 48, com redação do Decreto nº 12.543/2025. Anexo E, E.3",
+   "confianca": "Média. Existência dos decretos confirmada; distribuição das competências não lida"
+  },
+  {
+   "n": "A29",
+   "achado": "Os totais de intolerância religiosa divulgados pelo MDHC são denúncias sob filtro não reproduzível com os microdados abertos e não documentado; o ramo de liberdade de religião ou crença recupera 65, 63 e 96 por cento do total oficial de 2023, 2024 e 2025",
+   "fonte": "Relatório oficial do Disque 100 de 30/09/2026; microdados abertos. Anexo E, E.11",
+   "confianca": "Média"
+  },
+  {
+   "n": "A30",
+   "achado": "Em 2024, 19 das 21 denúncias com vítima judia no Disque 100 estão fora do ramo de liberdade de religião ou crença",
+   "fonte": "Microdados abertos do Disque 100, 2024. Anexo E, E.11",
+   "confianca": "Alta; 21 é piso"
+  },
+  {
+   "n": "A31",
+   "achado": "O Disque 100 registra motivação da violação, com valores para etnia e discurso de ódio, sem valor religioso ou antissemita desde setembro de 2023",
+   "fonte": "Microdados abertos do Disque 100, 2023 a 2026. Anexo E, E.11",
+   "confianca": "Alta"
+  },
+  {
+   "n": "A32",
+   "achado": "O ramo nos microdados abertos cresceu 69 por cento entre 2024 e 2025, e a série oficial de denúncias, 10 por cento; a composição do conjunto oficial mudou",
+   "fonte": "Relatório oficial; microdados abertos. Anexo E, E.11",
+   "confianca": "Média"
+  },
+  {
+   "n": "A33",
+   "achado": "A Resolução CNDH nº 8/2023 define discurso de ódio, prevê ações coordenadas de coleta de dados e determina providências para constituir Observatório Nacional de Enfrentamento ao Discurso de Ódio, sem mencionar o antissemitismo e sem tratar de categorias de registro",
+   "fonte": "Resolução CNDH nº 8, de 16/06/2023, consultada na íntegra. Anexo E, E.12.2",
+   "confianca": "Alta"
+  },
+  {
+   "n": "A34",
+   "achado": "As 1.227 denúncias divulgadas pelo MDHC para o 1º semestre de 2024 coincidem com o relatório oficial; as 1.940 violações são outra unidade",
+   "fonte": "Comunicação do MDHC de outubro de 2024, lida por reprodução; relatório oficial de 30/09/2026. Anexo E, E.12.7",
+   "confianca": "Média"
+  },
+  {
+   "n": "A35",
+   "achado": "O relatório oficial do Disque 100 registra 1.482, 2.472, 2.723 e 1.768 denúncias de violência relacionada à liberdade religiosa de 2023 a 27/09/2026, 13 delas com vítima de religião judaísmo",
+   "fonte": "Relatório oficial emitido em 30/09/2026. Anexo E, E.11",
+   "confianca": "Alta quanto ao relatório; conferência contra o painel pendente"
+  },
+  {
+   "n": "A36",
+   "achado": "A coluna de motivação do Disque 100 teve o valor \"em razão da religião\" até 31/08/2023 e o perdeu com a redução do catálogo em setembro de 2023, por causa não identificada",
+   "fonte": "Microdados abertos do Disque 100, 2023. Anexo E, E.11",
+   "confianca": "Alta quanto ao fato; causa depende de consulta institucional"
+  },
+  {
+   "n": "A37",
+   "achado": "De 2023 ao 1º semestre de 2026, entre 69 e 100 por cento das denúncias com vítima judia ficam fora do ramo de liberdade de religião ou crença; os números são piso",
+   "fonte": "Microdados abertos do Disque 100, 2023 a 2026. Anexo E, E.11",
+   "confianca": "Alta"
+  }
+ ]
+}

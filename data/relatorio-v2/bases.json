@@ -1,0 +1,149 @@
+{
+ "bases": [
+  {
+   "base": "Comunica PF",
+   "orgao": "Polícia Federal",
+   "categoria": "Não",
+   "proxima": "Campo estruturado de misoginia, racismo e xenofobia. Antissemitismo apenas em campo aberto",
+   "unidade": "Comunicação",
+   "desfecho": "Não"
+  },
+  {
+   "base": "Ouvidoria da Polícia Federal, via Fala.BR",
+   "orgao": "Polícia Federal e Controladoria-Geral da União",
+   "categoria": "Não",
+   "proxima": "Assunto \"racismo e discriminação\". Busca literal de palavra-chave",
+   "unidade": "Manifestação",
+   "desfecho": "Parcial. Registra arquivamento e encaminhamento, não o desfecho"
+  },
+  {
+   "base": "Fala.BR, base nacional",
+   "orgao": "Controladoria-Geral da União",
+   "categoria": "Subassunto existente, ativo para uma única unidade",
+   "proxima": "Assunto \"racismo e discriminação\"",
+   "unidade": "Manifestação",
+   "desfecho": "Não"
+  },
+  {
+   "base": "Disque 100",
+   "orgao": "MDHC, Ouvidoria Nacional de Direitos Humanos",
+   "categoria": "Não. Existe campo de religião declarada da vítima, com valor judaísmo, restrito à violação de intolerância religiosa",
+   "proxima": "Intolerância religiosa",
+   "unidade": "Denúncia",
+   "desfecho": "Não"
+  },
+  {
+   "base": "Dados Nacionais de Segurança Pública",
+   "orgao": "MJSP, Secretaria Nacional de Segurança Pública",
+   "categoria": "Não. Nenhuma das vinte e oito categorias é de motivação de viés",
+   "proxima": "Nenhuma. Feminicídio é a única classificação com recorte de motivação discriminatória",
+   "unidade": "Registro de ocorrência, por gestor estadual",
+   "desfecho": "Não"
+  },
+  {
+   "base": "Anuário Brasileiro de Segurança Pública",
+   "orgao": "Fórum Brasileiro de Segurança Pública",
+   "categoria": "Não. Nenhuma menção em 424 páginas",
+   "proxima": "Racismo e injúria racial",
+   "unidade": "Registro consolidado estadual",
+   "desfecho": "Não"
+  },
+  {
+   "base": "Boletim de ocorrência, São Paulo",
+   "orgao": "Polícia Civil de São Paulo",
+   "categoria": "Não",
+   "proxima": "Natureza \"intolerância\", desdobrada em religiosa e racial",
+   "unidade": "Boletim",
+   "desfecho": "Não"
+  },
+  {
+   "base": "Boletim de ocorrência, Distrito Federal",
+   "orgao": "Polícia Civil do Distrito Federal",
+   "categoria": "Não",
+   "proxima": "Ofensas raciais. Quadrante residual de outros crimes",
+   "unidade": "Boletim",
+   "desfecho": "Não"
+  },
+  {
+   "base": "Boletim de ocorrência, Paraná",
+   "orgao": "Polícia Civil do Paraná",
+   "categoria": "Não",
+   "proxima": "Nenhuma. Rol fechado de dez naturezas, sem opção residual",
+   "unidade": "Boletim",
+   "desfecho": "Não"
+  },
+  {
+   "base": "Boletim de ocorrência, Minas Gerais",
+   "orgao": "Polícia Civil de Minas Gerais",
+   "categoria": "Não",
+   "proxima": "Crimes resultantes de preconceito de raça ou cor; injúria com causa presumida racismo",
+   "unidade": "Boletim",
+   "desfecho": "Não"
+  },
+  {
+   "base": "Boletim de ocorrência, Pernambuco",
+   "orgao": "Secretaria de Defesa Social de Pernambuco",
+   "categoria": "Não",
+   "proxima": "Injúria qualificada racial; crimes contra o sentimento religioso",
+   "unidade": "Boletim",
+   "desfecho": "Não"
+  },
+  {
+   "base": "Boletim de ocorrência, Rio de Janeiro",
+   "orgao": "Polícia Civil do Rio de Janeiro",
+   "categoria": "Não",
+   "proxima": "Grupo de injúria, ameaça, difamação ou calúnia, sem qualificadora racial. Grupo residual",
+   "unidade": "Boletim",
+   "desfecho": "Não"
+  },
+  {
+   "base": "Portal 1746",
+   "orgao": "Prefeitura do Rio de Janeiro",
+   "categoria": "Sim, desde 18/03/2022",
+   "proxima": "Racismo e injúria racial, no mesmo campo",
+   "unidade": "Chamado",
+   "desfecho": "Não. Série não publicada, sem óbice normativo"
+  },
+  {
+   "base": "Tabelas Processuais Unificadas e DataJud",
+   "orgao": "Conselho Nacional de Justiça",
+   "categoria": "Não confirmada",
+   "proxima": "Assuntos 15129 e 15136, intolerância religiosa. Painel de racismo, intolerância e injúria racial",
+   "unidade": "Processo",
+   "desfecho": "Sim, no plano processual, limitado por segredo de justiça"
+  },
+  {
+   "base": "Tabelas Unificadas do Ministério Público",
+   "orgao": "Conselho Nacional do Ministério Público",
+   "categoria": "Não",
+   "proxima": "Taxonomia de racismo e discriminação, intolerância ou violência religiosa",
+   "unidade": "Procedimento",
+   "desfecho": "Não. Não existe painel de dados sobre o tema"
+  },
+  {
+   "base": "Central nacional de denúncias online",
+   "orgao": "SaferNet Brasil",
+   "categoria": "Não. Marcador oferecido, ainda não implantado",
+   "proxima": "Neonazismo, racismo e intolerância religiosa",
+   "unidade": "Denúncia única, com deduplicação por endereço de conteúdo",
+   "desfecho": "Parcial. Encaminhamento ao Ministério Público Federal e observabilidade indireta por publicidade de atos judiciais"
+  },
+  {
+   "base": "Relatório anual de incidentes",
+   "orgao": "Confederação Israelita do Brasil",
+   "categoria": "Sim, por definição do próprio relatório",
+   "proxima": "Não aplicável",
+   "unidade": "Ocorrência validada, distinta de expressão detectada por monitoramento automatizado",
+   "desfecho": "Não. Registro não estatal, sem validação criminal"
+  },
+  {
+   "base": "Mecanismo internacional de reporte, referência",
+   "orgao": "OSCE, Escritório para Instituições Democráticas e Direitos Humanos",
+   "categoria": "Sim, entre nove motivações de viés",
+   "proxima": "Não aplicável",
+   "unidade": "Incidente",
+   "desfecho": "Parcial, conforme submissão de cada Estado. Escopo territorial exclui o Brasil"
+  }
+ ],
+ "leitura": "Leitura do quadro. Das dezoito linhas, apenas três apresentam categoria autônoma de antissemitismo operante: um serviço municipal de acolhimento, uma base comunitária não estatal e um mecanismo internacional que não alcança incidentes ocorridos no Brasil. A esses acrescenta-se o subassunto do Fala.BR, existente mas ativo para uma única unidade e, portanto, sem alcance prático. Nenhuma base estatal brasileira de âmbito nacional possui a categoria em operação. Quanto ao desfecho, apenas uma base o rastreia no plano processual, e ainda assim com limitação normativa legítima."
+}

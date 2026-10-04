@@ -1,5 +1,7 @@
 
 (function () {
+  /* Manchete nao e exibida (decisao de 03/10/2026): pode nomear pessoa. So veiculo, data e endereco. */
+  var TEMA_NEUTRO = 'Notícia sobre antissemitismo e temas correlatos';
   var root = document.documentElement;
 
   /* A faixa de prototipo e sticky no topo. O cabecalho, tambem sticky, precisa
@@ -131,7 +133,7 @@
       meta.appendChild(el('span', null, n.fonte || ''));
       meta.appendChild(el('span', null, quando(n.publicado_em)));
       card.appendChild(meta);
-      card.appendChild(el('p', 'feed-title', n.titulo));
+      card.appendChild(el('p', 'feed-title', TEMA_NEUTRO));
       if (n.via) card.appendChild(el('span', 'feed-via', 'via ' + n.via));
       card.appendChild(el('span', 'feed-cta', 'Ler na fonte →'));
       card.appendChild(avisoNovaAba());
@@ -150,7 +152,7 @@
       var a = el('a', 'tk-item');
       externo(a, n.link);
       a.appendChild(el('span', 'tk-src', n.fonte || ''));
-      a.appendChild(el('span', 'tk-ttl', n.titulo));
+      a.appendChild(el('span', 'tk-ttl', TEMA_NEUTRO));
       if (n.via) a.appendChild(el('span', 'tk-via', 'via ' + n.via));
       a.appendChild(avisoNovaAba());
       bloco.appendChild(a);

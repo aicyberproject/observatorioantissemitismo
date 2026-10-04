@@ -16,7 +16,7 @@ Este Observatório adota a definição de antissemitismo estabelecida pelo **Sup
 
 - 📊 **Indicadores e KPIs** — Página própria, em duas camadas: as séries que hoje são mensuráveis a partir de fontes secundárias, e o painel das vinte lacunas que nenhuma base preenche, com o motivo de cada uma
 - 📰 **Painel de notícias** — Agregação automática de 21 fontes públicas, atualizada a cada trinta minutos, com link para a publicação de origem e declaração de quantas fontes responderam em cada coleta
-- 📡 **Fita ao vivo** — Duas faixas em movimento, No Brasil e No mundo, com as manchetes mais recentes
+- 📡 **Fita ao vivo** — Duas faixas em movimento, No Brasil e No mundo, com as notícias mais recentes, sem a manchete: só veículo, data e link, com rótulo neutro de tema
 - 📚 **Biblioteca de referência** — Marcos conceituais internacionais, legislação brasileira, leading cases (STF, TEDH, SCOTUS) e centros de pesquisa, em página própria
 - 📋 **Canais de Denúncia** — Links diretos para CONIB, FISESP, SaferNet, Disque 100, MPF, Polícia Federal e órgãos estaduais
 - 🔒 **Preservar Evidências** — Guia prático de preservação de provas digitais com cadeia de custódia, e uma ferramenta de apoio que calcula o resumo SHA-256 dos arquivos **no próprio navegador**
@@ -327,7 +327,7 @@ Cada edição tem três coisas ao lado do texto, para poder ser citada e conferi
 | **Planilha** | `boletim/<semana-ISO>.csv`, com a edição inteira e não apenas as manchetes exibidas |
 | **Resumo SHA-256** | do conteúdo da edição, na forma canônica descrita abaixo |
 
-A página mostra as dez manchetes mais recentes de cada recorte; o CSV traz todas as da
+A página mostra as dez notícias mais recentes de cada recorte, sem a manchete; o CSV traz todas as da
 semana. É o CSV que é a base do resumo.
 
 ### A forma canônica, e por que não é o hash do HTML
@@ -338,8 +338,8 @@ tivesse mudado. O resumo é do conteúdo.
 
 A forma canônica é esta:
 
-1. Um registro por manchete, com os campos `escopo`, `publicado_em`, `fonte`, `via`,
-   `titulo`, `link`, nessa ordem, separados por tabulação. Campo vazio entra vazio.
+1. Um registro por notícia, com os campos `escopo`, `publicado_em`, `fonte`, `via`,
+   `tema`, `link`, nessa ordem, separados por tabulação. Campo vazio entra vazio.
 2. Os registros em ordem alfabética crescente, o que torna o resumo independente da
    ordem em que a coleta encontrou os itens.
 3. Os registros unidos por `\n`, com um `\n` ao final.
