@@ -2,14 +2,14 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-04",
  "semana_iso": "2026-S40",
- "atualizado_em": "2026-10-04T05:47:36+00:00",
+ "atualizado_em": "2026-10-04T06:51:12+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 76,
+ "total": 77,
  "no_brasil": 18,
- "no_mundo": 58,
+ "no_mundo": 59,
  "itens": [
   {
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQzJ4bGpYSDF0T08yekZnRHNPUUVYMFdtNl9HYkduaUNZOFVoRnZKWmxZN21Qd1ZGaTRhSmJYOU5HXy1tQ1UwLXZUM0dwcWxmM1FZbjQwZWJIb3pMdFU5blZOYkdTNjZGLUVoeTBHRzBBY1JsYm5OY1VVQXVBQ2t3a0dyQXFqajNiZFhBRkl1dk5kSmZEd3owY2ZfMm5tUC1X?oc=5",
@@ -26,6 +26,16 @@
    "fonte": "RMC",
    "escopo": "mundo",
    "publicado_em": "2026-10-04T04:39:52+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNS3NCaUw3YnlIVVRsZmIySnlyWjU4U29qQV9JVE9GS3BiX0tvOVFFQ1otV1NiTFkwMlJJMzZMb0M1VF8tS1p6c2htWmI4VEZGWDlEY2JFa2VJeFBXRXR2UGQ1SU5jR09LcmdRNVJqZ01oYzFXbWpWcXVrdHFqT2pvSGwzQ3ZCT0xoaFIwZEs4MUI2WFhQQXVzOUg4elFVNlFnaVBHSFBELXkxNFprWEJ0cWJ4YVhxbzVCM1RoSmJCVGlLX2NRYVpSLW5jWEVLLUZjWE5JSkFVUVpYVkI3dEtqZFVaZDVLUk9QT1hmVGhjSVNhMEpBX2hkM2owbHhmRHg0TWlTc1Z3RUpHSmtiSk0xeE51NTJ0M3JHUV9HYkdFMUVfcmNNUURnb19VT1ZvNzd1Q2tZaFhn?oc=5",
+   "fonte": "BFM",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-03T21:40:15+00:00",
    "via": "Google Notícias",
    "feed": "radar-fr",
    "categoria": "Radar por palavras-chave",
