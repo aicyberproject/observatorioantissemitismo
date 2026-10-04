@@ -121,6 +121,21 @@ def achados():
   <p class="body" style="margin: 18px 0 0; max-width: 74ch">Cada achado traz a se&ccedil;&atilde;o de origem no relat&oacute;rio. O relat&oacute;rio n&atilde;o atribui grau pr&oacute;prio a estes achados: o grau de confian&ccedil;a consta do quadro acima para os achados A1 a A37, a que eles se relacionam.</p>
   {tabela("Achados numerados do corpo do relatório", ["Achado", "Texto", "Origem"], linhas_corpo)}
 </div></section>
+
+<section class="wrap section" id="coordenacao">
+  <p class="eyebrow">Se&ccedil;&atilde;o 5.3</p>
+  <h2 class="h2" style="max-width: 34ch">A lacuna &eacute; de coordena&ccedil;&atilde;o, n&atilde;o de iniciativa</h2>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">Em registro, capacita&ccedil;&atilde;o e preven&ccedil;&atilde;o, as solu&ccedil;&otilde;es espec&iacute;ficas para o antissemitismo localizadas no Brasil s&atilde;o subnacionais. Fora do curr&iacute;culo de Hist&oacute;ria, que nomeia o Holocausto como conte&uacute;do, n&atilde;o se localizou, em fonte p&uacute;blica, instrumento federal com recorte pr&oacute;prio de antissemitismo, embora se tenham localizado instrumentos federais com recorte pr&oacute;prio para outros grupos. Estados e munic&iacute;pios disp&otilde;em de recortes pr&oacute;prios sem arquitetura que os articule (Achado 13).</p>
+  <p class="body" style="margin: 14px 0 0; max-width: 74ch">A pesquisa interna da respons&aacute;vel t&eacute;cnica da Frente 2 chegou ao mesmo resultado: n&atilde;o identificou a&ccedil;&atilde;o espec&iacute;fica de enfrentamento ao antissemitismo em nenhum minist&eacute;rio, apenas pol&iacute;ticas de crimes de &oacute;dio em geral, com volume expressivo nos recortes de g&ecirc;nero, popula&ccedil;&atilde;o LGBT e crian&ccedil;as e adolescentes (ata de 30/09/2026, item 6.1). O que falta n&atilde;o &eacute; iniciativa, &eacute; coordena&ccedil;&atilde;o.</p>
+</section>
+
+<section class="band"><div class="wrap section" id="fragmentacao">
+  <p class="eyebrow">Se&ccedil;&atilde;o 5.4</p>
+  <h2 class="h2" style="max-width: 34ch">Fragmenta&ccedil;&atilde;o dos pontos de entrada</h2>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">O invent&aacute;rio de canais online de den&uacute;ncia de crimes de &oacute;dio, verificado em 3 de outubro de 2026, d&aacute; a dimens&atilde;o dessa fragmenta&ccedil;&atilde;o. Re&uacute;ne cerca de quarenta canais federais, estaduais e da sociedade civil. Em 15 das 27 unidades federadas, nenhum canal estadual foi comprovado nesta coleta, o que n&atilde;o prova que ele n&atilde;o exista. Os &uacute;nicos canais espec&iacute;ficos de antissemitismo localizados s&atilde;o n&atilde;o estatais, os da CONIB, que registram sob defini&ccedil;&atilde;o divergente da emitida pelo eixo de Conceitua&ccedil;&atilde;o.</p>
+  <div class="pills" style="margin-top: 22px"><a class="pill pill-solid" href="canais.html">Invent&aacute;rio de canais &rarr;</a></div>
+  <p class="fonte" style="margin-top: 22px">Fonte: {REL_V2}, se&ccedil;&atilde;o 5.4 e Anexo F.</p>
+</div></section>
 """
 
 
