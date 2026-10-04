@@ -257,7 +257,7 @@ def bases():
 
 <section class="wrap section" id="quadro">
   {tabela("Quadro comparativo das bases e canais examinados pelo Eixo 3", ["Base ou canal", "&Oacute;rg&atilde;o ou entidade", "Categoria aut&ocirc;noma de antissemitismo", "Categoria mais pr&oacute;xima dispon&iacute;vel", "Unidade de contagem", "Desfecho rastre&aacute;vel"], linhas)}
-  <p class="fonte" style="margin-top: 22px">Fonte: relat&oacute;rio preliminar conjunto, vers&atilde;o 2.0, Anexo B, quadro B.1. A unidade de contagem difere entre as bases (comunica&ccedil;&atilde;o, manifesta&ccedil;&atilde;o, den&uacute;ncia, boletim, chamado, processo, procedimento, ocorr&ecirc;ncia validada), e por isso os n&uacute;meros de bases distintas n&atilde;o se somam.</p>
+  <p class="fonte" style="margin-top: 22px">Fonte: relat&oacute;rio preliminar conjunto, vers&atilde;o 2.0, Anexo B, quadro B.1. A unidade de contagem difere entre as bases (comunica&ccedil;&atilde;o, manifesta&ccedil;&atilde;o, den&uacute;ncia, boletim, chamado, processo, procedimento, ocorr&ecirc;ncia validada), e por isso os n&uacute;meros de bases distintas n&atilde;o se somam. Os canais de den&uacute;ncia de crimes de &oacute;dio, com endere&ccedil;o e verifica&ccedil;&atilde;o de 03/10/2026, est&atilde;o no <a href="canais.html">invent&aacute;rio de canais</a>.</p>
 </section>
 
 <section class="band"><div class="wrap section" id="leitura">
@@ -392,6 +392,127 @@ def formulario_modelo():
 
 
 # ---------------------------------------------------------------------------
+# T15. Inventario de canais de denuncia de crimes de odio (Anexo F). Os canais
+# vem de data/relatorio-v2/canais.json, fonte unica desta pagina e do assistente.
+# ---------------------------------------------------------------------------
+
+REL_V2 = "relat&oacute;rio preliminar conjunto, vers&atilde;o 2.0, de 05/10/2026"
+MARCA_IHRA = ("Espec&iacute;fico de antissemitismo, sob a defini&ccedil;&atilde;o de trabalho da IHRA, "
+              "divergente da emitida pelo eixo de Conceitua&ccedil;&atilde;o")
+
+
+def link_canal(url, rotulo=None):
+    """Endereco como link externo. O texto e o proprio endereco, para o leitor ver para onde vai."""
+    return (f'<a href="{html.escape(url, quote=True)}" target="_blank" rel="noopener" '
+            f'style="overflow-wrap: anywhere">{esc(rotulo or url)}</a>')
+
+
+def celula_canal(c):
+    marca = f'<br><span class="fonte"><strong>{MARCA_IHRA}.</strong></span>' if c.get("especifico_antissemitismo") else ""
+    return esc(c["canal"]) + marca
+
+
+def linhas_canais(lista, com_uf=False):
+    out = []
+    for c in lista:
+        l = [esc(c["orgao"]), celula_canal(c), link_canal(c["endereco"]), esc(c["verificacao"])]
+        if com_uf:
+            l.insert(0, esc(c["uf"]))
+        out.append(l)
+    return out
+
+
+def destaques_canais():
+    return """<ul class="scope-list" style="margin-top: 20px; max-width: 76ch">
+    <li>O invent&aacute;rio foi <strong>verificado em 03/10/2026 pela coordena&ccedil;&atilde;o do Eixo 3</strong>, com uso de ferramentas web.</li>
+    <li>Trata de canais de den&uacute;ncia de <strong>crimes de &oacute;dio em geral</strong>, e n&atilde;o de canais de antissemitismo.</li>
+    <li>A maioria dos canais <strong>n&atilde;o abrange o antissemitismo de forma espec&iacute;fica</strong>. A exce&ccedil;&atilde;o s&atilde;o os canais da CONIB, que registram sob a defini&ccedil;&atilde;o de trabalho da IHRA, conceitualmente divergente da Defini&ccedil;&atilde;o de Antissemitismo emitida pelo eixo de Conceitua&ccedil;&atilde;o em 24/08/2026. O que se registra por esse canal n&atilde;o equivale ao antissemitismo definido pela Iniciativa.</li>
+    <li>O s&iacute;tio n&atilde;o recebe den&uacute;ncia, n&atilde;o cria nem padroniza canal, e p&aacute;gina no ar n&atilde;o garante atendimento.</li>
+  </ul>"""
+
+
+def lista_e(itens):
+    return itens[0] if len(itens) == 1 else ", ".join(itens[:-1]) + " e " + itens[-1]
+
+
+def canais():
+    d = carrega("canais.json")
+    uniao = tabela("Canais da União, verificados em 03/10/2026",
+                   ["&Oacute;rg&atilde;o", "Canal", "Endere&ccedil;o", "Verifica&ccedil;&atilde;o em 03/10/2026"],
+                   linhas_canais(d["uniao"]))
+    estados = tabela("Canais estaduais, por unidade federada, verificados em 03/10/2026",
+                     ["UF", "&Oacute;rg&atilde;o", "Canal", "Endere&ccedil;o", "Verifica&ccedil;&atilde;o em 03/10/2026"],
+                     linhas_canais(d["estados"], com_uf=True))
+    sociedade = tabela("Canais da sociedade civil, verificados em 03/10/2026",
+                       ["Organiza&ccedil;&atilde;o", "Canal", "Endere&ccedil;o", "Verifica&ccedil;&atilde;o em 03/10/2026"],
+                       linhas_canais(d["sociedade_civil"]))
+    tem = "".join(
+        f'<li><strong>{esc(t["orgao"])}</strong>, {esc(t["canal"])} ({esc(t["ambito"])}): {link_canal(t["endereco"])}. {esc(t["verificacao"])}.</li>'
+        for t in d["tematicos"])
+    fora = "".join(
+        "<li>" + (link_canal(f["endereco"]) if f["endereco"] else esc(f["descricao"])) + f'. {esc(f["motivo"])}.</li>'
+        for f in d["fora_do_inventario"])
+    contatos = ", ".join(link_canal(c["endereco"], c["organizacao"]) for c in d["contatos_gerais"])
+    sem = esc("; ".join(d["sem_canal_identificado"]))
+    nc = d["nao_comprovado"]
+    nc_li = "".join(f"<li><strong>{esc(k)}:</strong> {esc(lista_e(v))}.</li>" for k, v in nc.items() if k != "introducao")
+    limites = "".join(f"<li>{esc(x)}</li>" for x in d["limites"])
+    rec = d["recomendacao_nao_deliberada"]
+    crit = "".join(f"<li>{esc(x)}</li>" for x in rec["criterios"])
+    return f"""{ABERTURA}
+  <p class="crumb"><a href="index.html">Observat&oacute;rio</a> &nbsp;/&nbsp; <a href="achados.html">Achados</a> &nbsp;/&nbsp; Invent&aacute;rio de canais</p>
+  <h1 class="h1" style="margin-top: 24px">Invent&aacute;rio de canais de den&uacute;ncia de crimes de &oacute;dio</h1>
+  <p class="lead" style="margin: 26px 0 0; max-width: 70ch">Canais online mantidos pela Uni&atilde;o, pelos estados e por organiza&ccedil;&otilde;es da sociedade civil. Os munic&iacute;pios ficaram fora do escopo.</p>
+  {destaques_canais()}
+  {PRELIMINAR}
+  <p class="body" style="margin: 18px 0 0; max-width: 72ch">Entra no invent&aacute;rio o canal cuja p&aacute;gina estava no ar em 3 de outubro de 2026 e cujo meio de envio foi identificado no c&oacute;digo da p&aacute;gina. <strong>Regra de leitura:</strong> aus&ecirc;ncia de evid&ecirc;ncia n&atilde;o equivale a evid&ecirc;ncia de aus&ecirc;ncia. A falta de uma unidade federada na tabela significa s&oacute; que nenhum canal foi comprovado nesta coleta. Atualizada em {DATA}. Os endere&ccedil;os servem para <a href="encaminhar.html">encaminhar</a> o caso, e este s&iacute;tio n&atilde;o &eacute; canal de den&uacute;ncia. Se houver risco agora, ligue 190.</p>
+</section>
+
+<section class="wrap section" id="uniao">
+  <h2 class="h2" style="max-width: 34ch">Uni&atilde;o</h2>
+  {uniao}
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch"><strong>Canais tem&aacute;ticos, n&atilde;o espec&iacute;ficos de crime de &oacute;dio.</strong> Entram porque recebem viol&ecirc;ncia motivada por g&ecirc;nero.</p>
+  <ul class="scope-list" style="margin-top: 12px; max-width: 76ch">{tem}</ul>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch"><strong>Endere&ccedil;os testados e fora do invent&aacute;rio.</strong></p>
+  <ul class="scope-list" style="margin-top: 12px; max-width: 76ch">{fora}</ul>
+</section>
+
+<section class="band"><div class="wrap section" id="estados">
+  <h2 class="h2" style="max-width: 34ch">Estados</h2>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">Doze unidades federadas t&ecirc;m canal comprovado nesta coleta. Nas outras quinze, nenhum canal estadual foi comprovado, o que n&atilde;o prova que ele n&atilde;o exista.</p>
+  {estados}
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch"><strong>P&aacute;ginas no ar sem canal de den&uacute;ncia identificado:</strong> {sem}.</p>
+</div></section>
+
+<section class="wrap section" id="sociedade-civil">
+  <h2 class="h2" style="max-width: 34ch">Sociedade civil</h2>
+  {sociedade}
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch"><strong>Contatos gerais, n&atilde;o canais de den&uacute;ncia.</strong> {contatos} t&ecirc;m formul&aacute;rio ou e-mail de contato, mas nenhum formul&aacute;rio de den&uacute;ncia de crime de &oacute;dio.</p>
+</section>
+
+<section class="band"><div class="wrap section" id="nao-comprovado">
+  <h2 class="h2" style="max-width: 34ch">N&atilde;o comprovado nesta coleta (F.5)</h2>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">{esc(nc["introducao"])}</p>
+  <ul class="scope-list" style="margin-top: 16px; max-width: 76ch">{nc_li}</ul>
+</div></section>
+
+<section class="wrap section" id="limites">
+  <h2 class="h2" style="max-width: 34ch">Limites do m&eacute;todo (F.6)</h2>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch"><strong>Ausência de evidência não equivale a evidência de ausência.</strong></p>
+  <ol class="scope-list" style="margin-top: 16px; max-width: 76ch">{limites}</ol>
+</section>
+
+<section class="band"><div class="wrap section" id="recomendacao">
+  <h2 class="h2" style="max-width: 34ch">Recomenda&ccedil;&atilde;o (F.7)</h2>
+  <p class="frm-aviso" role="note"><strong>Recomenda&ccedil;&atilde;o n&atilde;o deliberada.</strong> {esc(rec["aviso"])}</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">{esc(rec["texto"])}</p>
+  <ol class="scope-list" style="margin-top: 16px; max-width: 76ch">{crit}</ol>
+  <p class="fonte" style="margin-top: 22px">Fonte: {REL_V2}, se&ccedil;&atilde;o 5.4 e Anexo F. Invent&aacute;rio verificado em 03/10/2026 pela coordena&ccedil;&atilde;o do Eixo 3, com ferramentas web (arquivo {esc(d["fonte"]["arquivo"])}).</p>
+</div></section>
+"""
+
+
+# ---------------------------------------------------------------------------
 # T8. Assistente de encaminhamento. Nao recolhe dado: e uma lista, sem formulario.
 # ---------------------------------------------------------------------------
 
@@ -467,6 +588,7 @@ def encaminhar():
 <section class="band"><div class="wrap section">
   <div class="pills">
     <a class="pill pill-solid" href="index.html#denuncie">Todos os canais &rarr;</a>
+    <a class="pill" href="canais.html">Invent&aacute;rio de canais &rarr;</a>
     <a class="pill" href="preservar.html">Preservar evid&ecirc;ncias &rarr;</a>
   </div>
 </div></section>
@@ -487,6 +609,9 @@ def main():
         pagina("formulario-modelo.html", "Modelo de formulário",
                "Modelo demonstrativo da ficha padrao de registro e do nucleo minimo de interoperabilidade. Nao e canal de denuncia, nao envia e nao guarda informacao.",
                "", formulario_modelo(), scripts=("js/formulario-modelo.js",)),
+        pagina("canais.html", "Inventário de canais de denúncia de crimes de ódio",
+               "Inventario de canais online de denuncia de crimes de odio no Brasil, verificado em 03/10/2026: Uniao, estados e sociedade civil. Documento preliminar.",
+               "", canais()),
         pagina("encaminhar.html", "Para onde encaminhar",
                "Indica, por tipo de incidente, quais dos nove canais ja conferidos atendem o caso. Nao recolhe dado.",
                "", encaminhar()),
