@@ -518,5 +518,40 @@
       "**Fato ocorrido em um estado:** Polícia Civil ou Ministério Público da unidade federada, preferindo o órgão competente para o fato, e não o que tem o formulário mais completo.",
       "**Unidade federada sem canal comprovado:** remeter às vias federais, sem inventar endereço."
     ]
+  },
+  "acrescentados_apos_inventario": {
+    "nota": "Canais indicados pela coordenação do Eixo 3 em 04/10/2026, depois do inventário de 03/10/2026. Não constam do inventário nem do Anexo F do relatório, que precisam ser atualizados.",
+    "canais": [
+      {
+        "id": "gecradi-mpsp",
+        "orgao": "Ministério Público de São Paulo, GECRADI",
+        "canal": "Página do Grupo Especial de Combate aos Crimes Raciais e de Intolerância",
+        "endereco": "https://www.mpsp.mp.br/gecradi",
+        "verificacao": "Informação da coordenação em 04/10/2026: a página nomeia expressamente o antissemitismo entre as situações que podem ser reportadas ao grupo, para fatos na capital. Não verificada pelo ambiente de teste, que recebeu 403",
+        "especifico_antissemitismo": false,
+        "uf": "SP",
+        "acrescentado_apos_inventario": true
+      },
+      {
+        "id": "mpsp-atendimento",
+        "orgao": "Ministério Público de São Paulo",
+        "canal": "Atendimento ao Cidadão, manifestação",
+        "endereco": "https://sis.mpsp.mp.br/atendimentocidadao/Promotorias/Manifestacao/EscolherTipoDeIdentificacao",
+        "verificacao": "Informação da coordenação em 04/10/2026: exige conta gov.br, e portanto não permite denúncia anônima. Não verificada pelo ambiente de teste, que recebeu 403",
+        "especifico_antissemitismo": false,
+        "uf": "SP",
+        "acrescentado_apos_inventario": true
+      },
+      {
+        "id": "webdenuncia-sp",
+        "orgao": "Governo do Estado de São Paulo",
+        "canal": "Web Denúncia, remissão da DECRADI",
+        "endereco": "https://www.webdenuncia.sp.gov.br/cidadao/tipo-crime",
+        "verificacao": "Página no ar em 04/10/2026, com formulário que só aparece com JavaScript. A DECRADI remete a ele. Em tese recebe crime fora do rol de tipos. Sobre identificação há divergência não resolvida: a Agência SP informa que dispensa, e a coordenação informa que exige login",
+        "especifico_antissemitismo": false,
+        "uf": "SP",
+        "acrescentado_apos_inventario": true
+      }
+    ]
   }
 }

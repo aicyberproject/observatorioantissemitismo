@@ -23,7 +23,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from gerar_paginas import pagina  # noqa: E402
 
 DADOS = RAIZ / "data" / "relatorio-v2"
-DATA = "4 de outubro de 2026"
+DATA = "5 de outubro de 2026"
 REL_V2 = "relat&oacute;rio preliminar conjunto, vers&atilde;o 2.0, de 05/10/2026"
 
 PRELIMINAR = (
@@ -478,6 +478,9 @@ def canais():
     estados = tabela("Canais estaduais, por unidade federada, verificados em 03/10/2026",
                      ["UF", "&Oacute;rg&atilde;o", "Canal", "Endere&ccedil;o", "Verifica&ccedil;&atilde;o em 03/10/2026"],
                      linhas_canais(d["estados"], com_uf=True))
+    acresc = tabela("Canais estaduais acrescentados depois do inventário",
+                    ["UF", "&Oacute;rg&atilde;o", "Canal", "Endere&ccedil;o", "Situa&ccedil;&atilde;o"],
+                    linhas_canais(d["acrescentados_apos_inventario"]["canais"], com_uf=True))
     sociedade = tabela("Canais da sociedade civil, verificados em 03/10/2026",
                        ["Organiza&ccedil;&atilde;o", "Canal", "Endere&ccedil;o", "Verifica&ccedil;&atilde;o em 03/10/2026"],
                        linhas_canais(d["sociedade_civil"]))
@@ -517,6 +520,9 @@ def canais():
   <p class="body" style="margin: 18px 0 0; max-width: 74ch">Doze unidades federadas t&ecirc;m canal comprovado nesta coleta. Nas outras quinze, nenhum canal estadual foi comprovado, o que n&atilde;o prova que ele n&atilde;o exista.</p>
   {estados}
   <p class="body" style="margin: 18px 0 0; max-width: 74ch"><strong>P&aacute;ginas no ar sem canal de den&uacute;ncia identificado:</strong> {sem}.</p>
+  <h3 class="h3" style="margin-top: 28px">Acrescentados depois do invent&aacute;rio</h3>
+  <p class="body" style="margin: 12px 0 0; max-width: 74ch">{esc(d["acrescentados_apos_inventario"]["nota"])}</p>
+  {acresc}
 </div></section>
 
 <section class="wrap section" id="sociedade-civil">
@@ -556,7 +562,7 @@ def canais():
 # sitio. Contam como canal os grupos uniao, estados, sociedade_civil e
 # tematicos. Ficam fora o que o inventario testou e excluiu
 # (fora_do_inventario) e os contatos gerais de ONGs (contatos_gerais).
-GRUPOS_CANAL = ("uniao", "estados", "sociedade_civil", "tematicos")
+GRUPOS_CANAL = ("uniao", "estados", "sociedade_civil", "tematicos", "acrescentados")
 
 NOMES_UF = {"CE": "Cear&aacute;", "DF": "Distrito Federal", "ES": "Esp&iacute;rito Santo", "GO": "Goi&aacute;s",
             "MG": "Minas Gerais", "PR": "Paran&aacute;", "RJ": "Rio de Janeiro", "RR": "Roraima",
@@ -583,14 +589,16 @@ ROTAS = [
 
 def mapa_canais():
     d = carrega("canais.json")
+    d["acrescentados"] = d["acrescentados_apos_inventario"]["canais"]
     return d, {c["id"]: c for g in GRUPOS_CANAL for c in d[g]}
 
 
 def item_canal(c, uf=False):
     """Item de lista: orgao, canal, endereco e a verificacao do inventario, sem texto proprio."""
     marca = f' <strong class="fonte">{MARCA_IHRA}.</strong>' if c.get("especifico_antissemitismo") else ""
+    depois = ' <strong class="fonte">Acrescentado depois do invent&aacute;rio de 03/10/2026.</strong>' if c.get("acrescentado_apos_inventario") else ""
     return (f'<li><strong>{esc(c["orgao"])}</strong>, {esc(c["canal"])}: {link_canal(c["endereco"])}. '
-            f'<span class="fonte">{esc(c["verificacao"])}.</span>{marca}</li>')
+            f'<span class="fonte">{esc(c["verificacao"])}.</span>{marca}{depois}</li>')
 
 
 def encaminhar():
@@ -612,7 +620,7 @@ def encaminhar():
     # todos os canais federais, temáticos federais e da sociedade civil, na ordem do inventario
     todos = "".join(item_canal(c) for c in d["uniao"] + d["sociedade_civil"] + [t for t in d["tematicos"] if t["ambito"] == "Uni\u00e3o"])
     por_uf = {}
-    for c in d["estados"] + [t for t in d["tematicos"] if t["ambito"] == "Estado"]:
+    for c in d["estados"] + [t for t in d["tematicos"] if t["ambito"] == "Estado"] + d["acrescentados"]:
         por_uf.setdefault(c["uf"], []).append(c)
     ufs = "".join(
         f'<details style="margin-top: 12px"><summary><strong>{uf}</strong>, {NOMES_UF[uf]}</summary>'
