@@ -205,9 +205,9 @@ def disque100():
 <section class="wrap section" id="oficial">
   <p class="eyebrow">S&eacute;rie oficial</p>
   <h2 class="h2" style="max-width: 34ch">Den&uacute;ncias de viol&ecirc;ncia relacionada &agrave; liberdade religiosa</h2>
-  <p class="body" style="margin: 18px 0 0; max-width: 74ch">O relat&oacute;rio oficial, recebido pelo Eixo em planilha, declara contar den&uacute;ncias e reproduz os totais divulgados. Os treze casos com v&iacute;tima de religi&atilde;o juda&iacute;smo no per&iacute;odo s&atilde;o piso, porque a religi&atilde;o da v&iacute;tima n&atilde;o &eacute; informada na maioria das den&uacute;ncias. Os valores n&atilde;o foram conferidos no painel original.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">O relat&oacute;rio oficial foi obtido junto &agrave; Ouvidoria Nacional de Direitos Humanos pela respons&aacute;vel t&eacute;cnica da Frente 2 e encaminhado ao Eixo em 30/09/2026, a partir de pedido sobre os dados divulgados. N&atilde;o &eacute; resposta &agrave; dilig&ecirc;ncia D01, cujas perguntas sobre marcador, fluxo e integra&ccedil;&atilde;o seguem sem resposta. Ele declara contar den&uacute;ncias e reproduz os totais divulgados. Os treze casos com v&iacute;tima de religi&atilde;o juda&iacute;smo no per&iacute;odo s&atilde;o piso, porque a religi&atilde;o da v&iacute;tima n&atilde;o &eacute; informada na maioria das den&uacute;ncias. Os valores n&atilde;o foram conferidos no painel original.</p>
   {oficial}
-  <p class="fonte" style="margin-top: 22px">Fonte: {REL30}, planilha encaminhada ao Eixo 3. Confian&ccedil;a alta quanto ao relat&oacute;rio, com a confer&ecirc;ncia contra o painel pendente (achado A35).</p>
+  <p class="fonte" style="margin-top: 22px">Fonte: {REL30}, obtido junto &agrave; Ouvidoria Nacional de Direitos Humanos pela respons&aacute;vel t&eacute;cnica da Frente 2 e encaminhado ao Eixo 3 em 30/09/2026. Confian&ccedil;a alta quanto ao relat&oacute;rio, com a confer&ecirc;ncia contra o painel pendente (achado A35).</p>
 </section>
 
 <section class="band"><div class="wrap section" id="microdados">
