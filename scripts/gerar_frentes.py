@@ -670,6 +670,85 @@ def encaminhar():
 """
 
 
+# ---------------------------------------------------------------------------
+# Agenda futura: experimentos. Ideias de servico que nao fazem parte do mandato
+# do Eixo 3 e dependem de decisao da coordenacao-geral. So o relogio de
+# preservacao funciona, e so faz conta de data no navegador.
+# ---------------------------------------------------------------------------
+
+EXPERIMENTOS = [
+    ("Verificador de número do Disque 100",
+     "A pessoa escolhe um número publicado, como 2.472, e a página responde qual unidade ele declara (denúncia, violação ou caso), qual janela cobre, de qual divulgação vem e com o que não pode ser comparado.",
+     "Achado A18 e página do Disque 100. Os dados já estão no sítio.",
+     "Jornalistas, pesquisadores e organismos que citam esses números sem saber que a unidade muda entre divulgações.",
+     "Ideia, não implementada. Esforço baixo."),
+    ("Kit \"Reproduza o achado\"",
+     "Publicar o método da análise dos microdados abertos do Disque 100, com os passos e os totais esperados, para que qualquer pessoa chegue aos mesmos números.",
+     "Achados A29 a A32 e A35 a A37, Anexo E, item E.11.",
+     "Pesquisadores no Brasil e no exterior, em versão em inglês. Dá credibilidade externa ao observatório.",
+     "Ideia, não implementada. Esforço médio."),
+    ("Atlas de práticas subnacionais",
+     "Reunir, com fonte, as soluções específicas para o antissemitismo localizadas em estados e municípios, como o subtítulo de intolerância religiosa nos registros do Rio de Janeiro e a formação de servidores no Paraná.",
+     "Achados A19 e A20 e o Achado 13, sobre a coordenação.",
+     "Gestores públicos que queiram conhecer o que já existe.",
+     "Ideia, não implementada. Hoje há poucos itens verificados, e a página ficaria rala."),
+    ("Roteiro de protocolo de ameaça a instituição",
+     "Lista de passos para uma instituição religiosa ou comunitária que receba ameaça, na falta de protocolo nacional.",
+     "Achado A21, que registra a ausência de protocolo nacional.",
+     "Instituições comunitárias.",
+     "Ideia, fora do mandato do Eixo 3, que levanta limitações e não cria protocolo. Só com decisão da coordenação-geral."),
+]
+
+
+def agenda_futura():
+    cartoes = "".join(
+        f'<li><strong>{esc(t)}.</strong> {esc(o)} <span class="fonte">Base: {esc(b)} Interesse: {esc(q)} Situação: {esc(e)}</span></li>'
+        for t, o, b, q, e in EXPERIMENTOS)
+    return f"""{ABERTURA}
+  <p class="crumb"><a href="index.html">Observat&oacute;rio</a> &nbsp;/&nbsp; Agenda futura</p>
+  <h1 class="h1" style="margin-top: 24px">Agenda futura: experimentos</h1>
+  <p class="lead" style="margin: 26px 0 0; max-width: 70ch">Servi&ccedil;os que o observat&oacute;rio poderia oferecer a partir dos achados, e que ainda n&atilde;o fazem parte dele. S&atilde;o ideias e experimentos, e n&atilde;o recomenda&ccedil;&otilde;es do Eixo.</p>
+  <ul class="scope-list" style="margin-top: 20px; max-width: 76ch">
+    <li><strong>N&atilde;o deliberados.</strong> O Eixo 3 levanta limita&ccedil;&otilde;es e sugere ajustes pontuais. Servi&ccedil;o novo amplia o escopo, e entra na pauta s&oacute; por decis&atilde;o da coordena&ccedil;&atilde;o-geral.</li>
+    <li><strong>N&atilde;o recolhem dado.</strong> Nenhum envia, grava ou lembra o que se digita.</li>
+    <li><strong>N&atilde;o s&atilde;o orienta&ccedil;&atilde;o jur&iacute;dica</strong> nem canal de den&uacute;ncia.</li>
+  </ul>
+  {PRELIMINAR}
+  <p class="body" style="margin: 18px 0 0; max-width: 72ch">Atualizada em {DATA}. Fonte: achados do {REL_V2}, e nota t&eacute;cnica do Eixo 3 de 04/10/2026 sobre o rel&oacute;gio de preserva&ccedil;&atilde;o, em revis&atilde;o jur&iacute;dica.</p>
+</section>
+
+<section class="wrap section" id="relogio-preservacao">
+  <p class="eyebrow">Experimento em funcionamento</p>
+  <h2 class="h2" style="max-width: 34ch">Rel&oacute;gio de preserva&ccedil;&atilde;o</h2>
+  <p class="frm-aviso" role="note">Experimento em revis&atilde;o jur&iacute;dica. O c&aacute;lculo &eacute; uma estimativa de car&aacute;ter informativo e n&atilde;o substitui advogado, Defensoria P&uacute;blica, registro de ocorr&ecirc;ncia nem ata notarial. Se houver risco agora, ligue 190.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">A lei obriga certos provedores a guardar registros por tempo limitado, e depois o registro deve ser exclu&iacute;do. Informe a data e veja at&eacute; quando, em tese, o registro existe. O achado A24 mostra que n&atilde;o h&aacute; padr&atilde;o p&uacute;blico de preserva&ccedil;&atilde;o nos &oacute;rg&atilde;os de recebimento.</p>
+  <div class="frm" style="margin-top: 18px; max-width: 46ch">
+    <label class="frm-campo" for="rel-data"><span>Data da postagem, se souber. Se n&atilde;o, a data em que voc&ecirc; viu o conte&uacute;do</span><input id="rel-data" type="date" autocomplete="off"></label>
+    <button class="btn-ink" type="button" id="rel-calcular">Calcular</button>
+    <div id="rel-saida" aria-live="polite"></div>
+    <noscript><p class="body">O c&aacute;lculo precisa de JavaScript. Nada &eacute; enviado.</p></noscript>
+  </div>
+  <h3 class="h3" style="margin-top: 30px">O que isto calcula e o que n&atilde;o faz</h3>
+  <ul class="scope-list" style="margin-top: 12px; max-width: 76ch">
+    <li>Calcula a data at&eacute; a qual a lei obriga o provedor a guardar os registros de acesso a aplica&ccedil;&otilde;es (6 meses) e de conex&atilde;o (1 ano), contados da cria&ccedil;&atilde;o de cada registro, de data a data. Se o dia n&atilde;o existir no m&ecirc;s final, usa o &uacute;ltimo dia do m&ecirc;s, que &eacute; a leitura mais cedo.</li>
+    <li>N&atilde;o guarda o conte&uacute;do. A guarda recai sobre registros, e n&atilde;o sobre o que foi publicado.</li>
+    <li>N&atilde;o vale para provedor sem estabelecimento no Pa&iacute;s: o acesso a registros dele segue a coopera&ccedil;&atilde;o internacional, em regra a Conven&ccedil;&atilde;o de Budapeste, e pode n&atilde;o existir pelo caminho nacional.</li>
+    <li>Quem pede ao provedor que guarde os registros por mais tempo &eacute; a autoridade policial, administrativa ou o Minist&eacute;rio P&uacute;blico, e n&atilde;o o particular. O particular pode ir a ju&iacute;zo, por advogado ou pela Defensoria, para pedir o fornecimento. A prorroga&ccedil;&atilde;o n&atilde;o recupera registro j&aacute; exclu&iacute;do.</li>
+    <li>Existem outros prazos, como o de decad&ecirc;ncia do direito de representa&ccedil;&atilde;o em certos crimes. Este experimento n&atilde;o os calcula.</li>
+  </ul>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">O que fazer antes da data: <a href="preservar.html">preserve o conte&uacute;do</a>, registre a ocorr&ecirc;ncia na Pol&iacute;cia, no Minist&eacute;rio P&uacute;blico ou no canal que o <a href="encaminhar.html">assistente de encaminhamento</a> indicar, e guarde o protocolo.</p>
+  <p class="fonte" style="margin-top: 22px">Regra de c&aacute;lculo e d&uacute;vidas jur&iacute;dicas: nota t&eacute;cnica do Eixo 3, 04/10/2026. O termo inicial n&atilde;o est&aacute; fixado em lei nem em decreto: a contagem desde a cria&ccedil;&atilde;o do registro &eacute; decis&atilde;o de trabalho do Eixo, sujeita &agrave; revis&atilde;o jur&iacute;dica.</p>
+</section>
+
+<section class="band"><div class="wrap section" id="outros-experimentos">
+  <p class="eyebrow">Ideias, ainda n&atilde;o implementadas</p>
+  <h2 class="h2" style="max-width: 34ch">Outros experimentos considerados</h2>
+  <ul class="scope-list" style="margin-top: 20px; max-width: 80ch">{cartoes}</ul>
+  <p class="body" style="margin: 22px 0 0; max-width: 74ch">Qualquer um deles pode ser objeto de pesquisa acad&ecirc;mica e de decis&atilde;o da coordena&ccedil;&atilde;o-geral. Nenhum depende de coleta de dado pessoal.</p>
+</div></section>
+"""
+
+
 def main():
     feitos = [
         pagina("achados.html", "Achados das Frentes 1 e 2",
@@ -684,6 +763,9 @@ def main():
         pagina("formulario-modelo.html", "Modelo de formulário",
                "Modelo demonstrativo da ficha padrao de registro e do nucleo minimo de interoperabilidade. Nao e canal de denuncia, nao envia e nao guarda informacao.",
                "", formulario_modelo(), scripts=("js/formulario-modelo.js",)),
+        pagina("agenda-futura.html", "Agenda futura: experimentos",
+               "Experimentos e ideias de servico a partir dos achados, nao deliberados: relogio de preservacao e outras propostas. Nao recolhe dado.",
+               "", agenda_futura(), scripts=("js/relogio.js",)),
         pagina("canais.html", "Inventário de canais de denúncia de crimes de ódio",
                "Inventario de canais online de denuncia de crimes de odio no Brasil, verificado em 03/10/2026: Uniao, estados e sociedade civil. Documento preliminar.",
                "", canais()),

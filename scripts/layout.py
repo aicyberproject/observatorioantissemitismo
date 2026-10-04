@@ -82,6 +82,7 @@ RODAPE_INST = [
     ("bases.html",            "Mapa das bases e canais"),
     ("formulario-modelo.html","Modelo de formul&aacute;rio (demonstrativo)"),
     ("encaminhar.html",       "Para onde encaminhar"),
+    ("agenda-futura.html",    "Agenda futura: experimentos"),
     ("glossario.html",        "Gloss&aacute;rio"),
     ("contato.html",          "Contato e errata"),
     ("privacidade.html",      "Pol&iacute;tica de privacidade"),
