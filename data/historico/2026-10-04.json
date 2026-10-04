@@ -2,14 +2,14 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-04",
  "semana_iso": "2026-S40",
- "atualizado_em": "2026-10-04T07:46:51+00:00",
+ "atualizado_em": "2026-10-04T08:17:17+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 80,
+ "total": 81,
  "no_brasil": 18,
- "no_mundo": 62,
+ "no_mundo": 63,
  "itens": [
   {
    "link": "https://www.jpost.com/diaspora/antisemitism/article-910501",
@@ -38,6 +38,16 @@
    "publicado_em": "2026-10-04T04:39:52+00:00",
    "via": "Google Notícias",
    "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdXBPaWJ5RXJ1X0RBZE9hYWFVMWFjQ2tTeDBlcVhEZmhTSW1obERYUWFUbXJLTUtGb2s5NFZFVFhNR2VMV0Itb1d3Nk9qN0VuSjRtSUdzS3FvamI1aGxaTWtQcHNadWZQa2I1V2NCYXBnT0FTdGxCRGhabVBROTZOSlQ3c1owdV9qMkR4S1ZfN1hsNzBORUJhMlBLVDNUcFRJVDlETFdWNFlqTk1UV2QteHNXbFFsdWNHZldwUTVScjBhdkJTRjRNRkRoRW0?oc=5",
+   "fonte": "Independent Australia",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-04T01:55:40+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
    "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
