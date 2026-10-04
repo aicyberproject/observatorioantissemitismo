@@ -23,6 +23,7 @@ from gerar_paginas import pagina  # noqa: E402
 
 DADOS = RAIZ / "data" / "relatorio-v2"
 DATA = "4 de outubro de 2026"
+REL_V2 = "relat&oacute;rio preliminar conjunto, vers&atilde;o 2.0, de 05/10/2026"
 
 PRELIMINAR = (
     '<p class="fonte" role="note" style="border-left: 4px solid currentColor; padding-left: 14px; margin: 22px 0 0; max-width: 74ch">'
@@ -96,9 +97,21 @@ def achados():
   {RESSALVA_DEFINICAO}
 </div></section>
 
+<section class="wrap section" id="levantamento">
+  <p class="eyebrow">Como a Frente 2 foi levantada</p>
+  <h2 class="h2" style="max-width: 34ch">O instrumento de coleta n&atilde;o retornou preenchido</h2>
+  <ul class="scope-list" style="margin-top: 20px; max-width: 76ch">
+    <li>O instrumento de coleta da Frente 2 <strong>n&atilde;o retornou preenchido pelas institui&ccedil;&otilde;es</strong>.</li>
+    <li>O levantamento <strong>n&atilde;o foi exclusivamente em fontes abertas</strong> (ata de 30/09/2026, item 5.2). Combinou pesquisa em fontes p&uacute;blicas, pesquisa interna da respons&aacute;vel t&eacute;cnica da Frente 2, em parte revalidada a partir de informa&ccedil;&atilde;o dos pr&oacute;prios minist&eacute;rios, o relat&oacute;rio oficial do Disque 100 obtido junto &agrave; Ouvidoria Nacional de Direitos Humanos e os microdados abertos do Disque 100.</li>
+    <li>As perguntas que o instrumento dirigia a cada institui&ccedil;&atilde;o, em especial a do v&iacute;nculo entre monitoramento e registro, seguem sem resposta.</li>
+    <li>Onde se apoia em fontes p&uacute;blicas, o levantamento mede a <strong>publicidade da capacidade institucional</strong>, e n&atilde;o a capacidade em si. Aus&ecirc;ncia de documento p&uacute;blico n&atilde;o equivale a inexist&ecirc;ncia de capacidade.</li>
+  </ul>
+  <p class="fonte" style="margin-top: 22px">Fonte: {REL_V2}, se&ccedil;&otilde;es 2.5 e 4.1.</p>
+</section>
+
 <section class="wrap section" id="quadro8">
   <h2 class="h2" style="max-width: 34ch">Quadro de achados consolidados</h2>
-  <p class="body" style="margin: 18px 0 0; max-width: 74ch">Os achados A1 a A17 v&ecirc;m da Frente 1. Os achados A18 a A37 v&ecirc;m do levantamento da Frente 2. Grau alto exige fonte prim&aacute;ria verificada por quem atribui o grau. Leitura por reprodu&ccedil;&atilde;o, por resumo ou por informa&ccedil;&atilde;o n&atilde;o conferida recebe grau m&eacute;dio ou baixo. Respostas institucionais por despacho aparecem sem o n&uacute;mero do processo.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">Os achados A1 a A17 v&ecirc;m da Frente 1. Os achados A18 a A37 v&ecirc;m do levantamento da Frente 2, n&atilde;o exclusivamente em fontes abertas. Grau alto exige fonte prim&aacute;ria verificada por quem atribui o grau. Leitura por reprodu&ccedil;&atilde;o, por resumo ou por informa&ccedil;&atilde;o n&atilde;o conferida recebe grau m&eacute;dio ou baixo. Respostas institucionais por despacho aparecem sem o n&uacute;mero do processo.</p>
   {tabela("Achados consolidados A1 a A37, com fonte e grau de confiança", ["N&ordm;", "Achado", "Fonte", "Confian&ccedil;a"], linhas8)}
   <p class="fonte" style="margin-top: 22px">Fonte: relat&oacute;rio preliminar conjunto, vers&atilde;o 2.0, Quadro 8. Os n&uacute;meros do Disque 100 est&atilde;o detalhados, com unidade, janela e divulga&ccedil;&atilde;o de origem, na {PAG_D100}.</p>
 </section>
@@ -397,7 +410,6 @@ def formulario_modelo():
 # vem de data/relatorio-v2/canais.json, fonte unica desta pagina e do assistente.
 # ---------------------------------------------------------------------------
 
-REL_V2 = "relat&oacute;rio preliminar conjunto, vers&atilde;o 2.0, de 05/10/2026"
 MARCA_IHRA = ("Espec&iacute;fico de antissemitismo, sob a defini&ccedil;&atilde;o de trabalho da IHRA, "
               "divergente da emitida pelo eixo de Conceitua&ccedil;&atilde;o")
 
