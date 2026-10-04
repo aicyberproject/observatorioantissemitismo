@@ -1,0 +1,26 @@
+id;descricao;esperado;tipo;item_do_anexo_e
+c01;Linhas do arquivo de 2023;2856500;inteiro;E.11.1
+c02;Denúncias distintas em 2023;432309;inteiro;E.11.1
+c03;Linhas do arquivo de 2024;3744097;inteiro;E.11.1
+c04;Denúncias distintas em 2024;551693;inteiro;E.11.1
+c05;Linhas do arquivo de 2025;4592399;inteiro;E.11.1
+c06;Denúncias distintas em 2025;637890;inteiro;E.11.1
+c07;Linhas do arquivo do 1º semestre de 2026;2825614;inteiro;E.11.1
+c08;Denúncias distintas no 1º semestre de 2026;371117;inteiro;E.11.1
+c09;Ramo Liberdade de religião ou crença, denúncias distintas em 2023;960;inteiro;E.11.8
+c10;Ramo Liberdade de religião ou crença, denúncias distintas em 2024;1546;inteiro;E.11.3
+c11;Ramo Liberdade de religião ou crença, denúncias distintas em 2025;2619;inteiro;E.11.7
+c12;Ramo Liberdade de religião ou crença, linhas em 2023;1432;inteiro;E.11.8
+c13;Ramo Liberdade de religião ou crença, linhas em 2025;4237;inteiro;E.11.7
+c14;Denúncias com vítima de religião judaísmo em 2023;17;inteiro;E.11.10
+c15;Denúncias com vítima de religião judaísmo em 2024;21;inteiro;E.11.4
+c16;Denúncias com vítima de religião judaísmo em 2025;16;inteiro;E.11.10
+c17;Denúncias com vítima de religião judaísmo no 1º semestre de 2026;39;inteiro;E.11.10
+c18;Das 21 denúncias de 2024 com vítima judia, as que estão fora do ramo Liberdade de religião ou crença;19;inteiro;E.11.4
+c19;Denúncias de 2023 com motivação em razão da religião;642;inteiro;E.11.9
+c20;Denúncias de 2024 com motivação em razão de discurso de ódio;3088;inteiro;E.11.5
+c21;Denúncias de 2025 com motivação em razão de discurso de ódio;1356;inteiro;E.11.5
+c22;Preenchimento da religião da vítima em 2023, em % das denúncias da base;3,61;percentual;E.11.11
+c23;Preenchimento da religião da vítima em 2024, em %;6,08;percentual;E.11.11
+c24;Preenchimento da religião da vítima em 2025, em %;4,01;percentual;E.11.11
+c25;Preenchimento da religião da vítima no 1º semestre de 2026, em %;14,06;percentual;E.11.11

@@ -677,16 +677,6 @@ def encaminhar():
 # ---------------------------------------------------------------------------
 
 EXPERIMENTOS = [
-    ("Verificador de número do Disque 100",
-     "A pessoa escolhe um número publicado, como 2.472, e a página responde qual unidade ele declara (denúncia, violação ou caso), qual janela cobre, de qual divulgação vem e com o que não pode ser comparado.",
-     "Achado A18 e página do Disque 100. Os dados já estão no sítio.",
-     "Jornalistas, pesquisadores e organismos que citam esses números sem saber que a unidade muda entre divulgações.",
-     "Ideia, não implementada. Esforço baixo."),
-    ("Kit \"Reproduza o achado\"",
-     "Publicar o método da análise dos microdados abertos do Disque 100, com os passos e os totais esperados, para que qualquer pessoa chegue aos mesmos números.",
-     "Achados A29 a A32 e A35 a A37, Anexo E, item E.11.",
-     "Pesquisadores no Brasil e no exterior, em versão em inglês. Dá credibilidade externa ao observatório.",
-     "Ideia, não implementada. Esforço médio."),
     ("Atlas de práticas subnacionais",
      "Reunir, com fonte, as soluções específicas para o antissemitismo localizadas em estados e municípios, como o subtítulo de intolerância religiosa nos registros do Rio de Janeiro e a formação de servidores no Paraná.",
      "Achados A19 e A20 e o Achado 13, sobre a coordenação.",
@@ -700,7 +690,114 @@ EXPERIMENTOS = [
 ]
 
 
+
+REL30_TXT = "Relatório oficial do Disque 100 sobre violência relacionada à liberdade religiosa, emitido em 30/09/2026"
+MICRO_TXT = "Microdados abertos do Disque 100 (MDHC)"
+DIV_TXT = "Divulgação do MDHC"
+
+# Numeros do painel do Disque 100 que o verificador reconhece. Todos constam de
+# disque100.html, e main() confere isso a cada geracao.
+# (valor, o que e, unidade declarada, janela, origem, nao comparar com)
+D100_NUMEROS = [
+    (1482, "Denúncias de violência relacionada à liberdade religiosa em 2023", "denúncia", "ano civil de 2023", REL30_TXT,
+     "Com os 2.124 divulgados em janeiro de 2024, que são violações, outra unidade. Com os 960 do ramo dos microdados abertos, que é outro conjunto. É compatível com as 1.481 denúncias divulgadas em janeiro de 2025."),
+    (2472, "Denúncias de violência relacionada à liberdade religiosa em 2024", "denúncia", "ano civil de 2024", REL30_TXT,
+     "O mesmo número foi rotulado como violações na divulgação de janeiro de 2026, e o relatório oficial o trata como denúncias. Não o compare com os 1.546 do ramo dos microdados, que é outro conjunto."),
+    (2723, "Denúncias de violência relacionada à liberdade religiosa em 2025", "denúncia", "ano civil de 2025", REL30_TXT,
+     "Com os 2.774 casos divulgados em janeiro de 2026, que cobrem treze meses. Com os 2.619 do ramo dos microdados, que é outro conjunto."),
+    (1768, "Denúncias de violência relacionada à liberdade religiosa em 2026", "denúncia", "1º/01 a 27/09/2026, janela parcial", REL30_TXT,
+     "Com ano civil completo, pois a janela termina em 27/09/2026."),
+    (1229, "Denúncias de 2023 com a religião da vítima não informada (83%)", "denúncia", "ano civil de 2023", REL30_TXT,
+     "Com os números da base inteira de microdados, cujo preenchimento da religião é medido sobre todas as denúncias."),
+    (1842, "Denúncias de 2024 com a religião da vítima não informada (75%)", "denúncia", "ano civil de 2024", REL30_TXT,
+     "Com os números da base inteira de microdados."),
+    (2016, "Denúncias de 2025 com a religião da vítima não informada (74%)", "denúncia", "ano civil de 2025", REL30_TXT,
+     "Com os números da base inteira de microdados."),
+    (920, "Denúncias de 2026 com a religião da vítima não informada (52%)", "denúncia", "1º/01 a 27/09/2026, janela parcial", REL30_TXT,
+     "Com anos civis completos."),
+    (960, "Denúncias distintas do ramo Liberdade de religião ou crença em 2023 (65% do total oficial)", "denúncia distinta, fixada pelo analista", "ano civil de 2023", MICRO_TXT,
+     "Com o total oficial de 1.482, porque o filtro oficial é outro e não é documentado."),
+    (1546, "Denúncias distintas do ramo Liberdade de religião ou crença em 2024 (63% do total oficial)", "denúncia distinta, fixada pelo analista", "ano civil de 2024", MICRO_TXT,
+     "Com o total oficial de 2.472, porque o filtro oficial é outro e não é documentado."),
+    (2619, "Denúncias distintas do ramo Liberdade de religião ou crença em 2025 (96% do total oficial)", "denúncia distinta, fixada pelo analista", "ano civil de 2025", MICRO_TXT,
+     "Com o total oficial de 2.723, porque o filtro oficial é outro e não é documentado."),
+    (2124, "Violações relacionadas à intolerância religiosa em 2023", "violação", "referência a 2023, divulgação de janeiro de 2024", DIV_TXT,
+     "Com denúncias. Uma denúncia pode registrar mais de uma violação, e as duas unidades não se equivalem. As denúncias de 2023 são 1.481 ou 1.482."),
+    (1481, "Denúncias relacionadas à intolerância religiosa em 2023", "denúncia", "referência a 2023, divulgação de janeiro de 2025", DIV_TXT,
+     "Com as 2.124 violações de janeiro de 2024. Difere em uma denúncia dos 1.482 do relatório oficial de 30/09/2026."),
+    (2774, "Casos de intolerância religiosa na divulgação de janeiro de 2026", "caso", "treze meses, de janeiro de 2025 a janeiro de 2026, que não são ano civil", DIV_TXT,
+     "Com o ano civil de 2025, de 2.723 denúncias no relatório oficial. A unidade é caso, e a janela tem treze meses."),
+    (1227, "Denúncias do primeiro semestre de 2024, na comunicação de outubro de 2024", "denúncia", "1º semestre de 2024", DIV_TXT,
+     "Com os 1.940, que a mesma comunicação dá como violações. Duas unidades na mesma divulgação."),
+    (1940, "Violações do primeiro semestre de 2024, na comunicação de outubro de 2024", "violação", "1º semestre de 2024", DIV_TXT,
+     "Com os 1.227, que a mesma comunicação dá como denúncias. Duas unidades na mesma divulgação."),
+    (17, "Denúncias com vítima de religião declarada judaísmo em 2023, nos microdados abertos", "denúncia", "ano civil de 2023", MICRO_TXT,
+     "Com o número 1 do relatório oficial para 2023, que usa o filtro oficial. É piso, porque a religião da vítima está preenchida em minoria das denúncias."),
+    (21, "Denúncias com vítima de religião declarada judaísmo em 2024, nos microdados abertos", "denúncia", "ano civil de 2024", MICRO_TXT,
+     "Com o número 2 do relatório oficial para 2024. É piso. Só 2 dessas 21 denúncias estão no ramo de liberdade religiosa."),
+    (16, "Denúncias com vítima de religião declarada judaísmo em 2025, nos microdados abertos", "denúncia", "ano civil de 2025", MICRO_TXT,
+     "Com o número 6 do relatório oficial para 2025. É piso."),
+    (39, "Denúncias com vítima de religião declarada judaísmo no primeiro semestre de 2026, nos microdados abertos", "denúncia", "1º semestre de 2026", MICRO_TXT,
+     "Com o número 4 do relatório oficial, que cobre até 27/09/2026 com outro filtro. É piso."),
+]
+
+# Conferencias do kit "Reproduza o achado": totais que quem refaz a analise dos
+# microdados abertos deve encontrar. Fonte: Anexo E, item E.11, do relatorio.
+# (id, descricao, esperado, tipo, item do Anexo E)
+D100_CONFERENCIAS = [
+    ("c01", "Linhas do arquivo de 2023", 2856500, "inteiro", "E.11.1"),
+    ("c02", "Denúncias distintas em 2023", 432309, "inteiro", "E.11.1"),
+    ("c03", "Linhas do arquivo de 2024", 3744097, "inteiro", "E.11.1"),
+    ("c04", "Denúncias distintas em 2024", 551693, "inteiro", "E.11.1"),
+    ("c05", "Linhas do arquivo de 2025", 4592399, "inteiro", "E.11.1"),
+    ("c06", "Denúncias distintas em 2025", 637890, "inteiro", "E.11.1"),
+    ("c07", "Linhas do arquivo do 1º semestre de 2026", 2825614, "inteiro", "E.11.1"),
+    ("c08", "Denúncias distintas no 1º semestre de 2026", 371117, "inteiro", "E.11.1"),
+    ("c09", "Ramo Liberdade de religião ou crença, denúncias distintas em 2023", 960, "inteiro", "E.11.8"),
+    ("c10", "Ramo Liberdade de religião ou crença, denúncias distintas em 2024", 1546, "inteiro", "E.11.3"),
+    ("c11", "Ramo Liberdade de religião ou crença, denúncias distintas em 2025", 2619, "inteiro", "E.11.7"),
+    ("c12", "Ramo Liberdade de religião ou crença, linhas em 2023", 1432, "inteiro", "E.11.8"),
+    ("c13", "Ramo Liberdade de religião ou crença, linhas em 2025", 4237, "inteiro", "E.11.7"),
+    ("c14", "Denúncias com vítima de religião judaísmo em 2023", 17, "inteiro", "E.11.10"),
+    ("c15", "Denúncias com vítima de religião judaísmo em 2024", 21, "inteiro", "E.11.4"),
+    ("c16", "Denúncias com vítima de religião judaísmo em 2025", 16, "inteiro", "E.11.10"),
+    ("c17", "Denúncias com vítima de religião judaísmo no 1º semestre de 2026", 39, "inteiro", "E.11.10"),
+    ("c18", "Das 21 denúncias de 2024 com vítima judia, as que estão fora do ramo Liberdade de religião ou crença", 19, "inteiro", "E.11.4"),
+    ("c19", "Denúncias de 2023 com motivação em razão da religião", 642, "inteiro", "E.11.9"),
+    ("c20", "Denúncias de 2024 com motivação em razão de discurso de ódio", 3088, "inteiro", "E.11.5"),
+    ("c21", "Denúncias de 2025 com motivação em razão de discurso de ódio", 1356, "inteiro", "E.11.5"),
+    ("c22", "Preenchimento da religião da vítima em 2023, em % das denúncias da base", 3.61, "percentual", "E.11.11"),
+    ("c23", "Preenchimento da religião da vítima em 2024, em %", 6.08, "percentual", "E.11.11"),
+    ("c24", "Preenchimento da religião da vítima em 2025, em %", 4.01, "percentual", "E.11.11"),
+    ("c25", "Preenchimento da religião da vítima no 1º semestre de 2026, em %", 14.06, "percentual", "E.11.11"),
+]
+
+
+def d100_dados_json():
+    return json.dumps({
+        "numeros": [dict(valor=v, o_que=o, unidade=u, janela=j, origem=f, nao_comparar=n) for v, o, u, j, f, n in D100_NUMEROS],
+        "conferencias": [dict(id=i, descricao=d, esperado=e, tipo=t, item=it) for i, d, e, t, it in D100_CONFERENCIAS],
+    }, ensure_ascii=False).replace("</", "<\\/")
+
+
+def grava_csv_reproducao():
+    linhas = ["id;descricao;esperado;tipo;item_do_anexo_e"]
+    for i, d, e, t, it in D100_CONFERENCIAS:
+        linhas.append(f"{i};{d};{str(e).replace('.', ',')};{t};{it}")
+    (DADOS / "disque100_reproducao.csv").write_text("\n".join(linhas) + "\n", encoding="utf-8")
+
+
+def confere_numeros_d100():
+    """Todo numero do verificador consta de disque100.html. Falha se divergir."""
+    pag = (RAIZ / "disque100.html").read_text(encoding="utf-8")
+    for v, *_ in D100_NUMEROS:
+        txt = f"{v:,}".replace(",", ".")
+        if v >= 100 and txt not in pag:
+            raise SystemExit(f"numero do verificador ausente de disque100.html: {txt}")
+
+
 def agenda_futura():
+    grava_csv_reproducao()
     cartoes = "".join(
         f'<li><strong>{esc(t)}.</strong> {esc(o)} <span class="fonte">Base: {esc(b)} Interesse: {esc(q)} Situação: {esc(e)}</span></li>'
         for t, o, b, q, e in EXPERIMENTOS)
@@ -732,7 +829,7 @@ def agenda_futura():
   <ul class="scope-list" style="margin-top: 12px; max-width: 76ch">
     <li>Calcula a data at&eacute; a qual a lei obriga o provedor a guardar os registros de acesso a aplica&ccedil;&otilde;es (6 meses) e de conex&atilde;o (1 ano), contados da cria&ccedil;&atilde;o de cada registro, de data a data. Se o dia n&atilde;o existir no m&ecirc;s final, usa o &uacute;ltimo dia do m&ecirc;s, que &eacute; a leitura mais cedo.</li>
     <li>N&atilde;o guarda o conte&uacute;do. A guarda recai sobre registros, e n&atilde;o sobre o que foi publicado.</li>
-    <li>Provedor sem estabelecimento no Pa&iacute;s: se a lei brasileira o alcan&ccedil;a diretamente &eacute; quest&atilde;o em aberto, pois o art. 11, &sect; 2&ordm;, do Marco Civil submete &agrave; lei brasileira o provedor sediado no exterior que oferte servi&ccedil;o ao p&uacute;blico brasileiro. O acesso a registros dele pode depender de coopera&ccedil;&atilde;o internacional, em regra a Conven&ccedil;&atilde;o de Budapeste. O c&aacute;lculo vale para o provedor sujeito &agrave; lei brasileira.</li>
+    <li>O c&aacute;lculo vale para o provedor que presta servi&ccedil;o ao p&uacute;blico brasileiro, ainda que sediado no exterior (art. 11, &sect; 2&ordm;, do Marco Civil, e decis&atilde;o do STF na ADC 51). O provedor que n&atilde;o presta servi&ccedil;o diretamente ao p&uacute;blico brasileiro depende da coopera&ccedil;&atilde;o internacional, pela rede 24/7 da Conven&ccedil;&atilde;o de Budapeste e pelo acordo de assist&ecirc;ncia judici&aacute;ria (MLAT), e o registro pode n&atilde;o existir pelo caminho nacional.</li>
     <li>Quem pede ao provedor que guarde os registros por mais tempo &eacute; a autoridade policial, administrativa ou o Minist&eacute;rio P&uacute;blico, e n&atilde;o o particular. O particular pode ir a ju&iacute;zo, por advogado ou pela Defensoria, para pedir o fornecimento. A prorroga&ccedil;&atilde;o n&atilde;o recupera registro j&aacute; exclu&iacute;do.</li>
     <li>Existem outros prazos, como o de decad&ecirc;ncia do direito de representa&ccedil;&atilde;o em certos crimes. Este experimento n&atilde;o os calcula.</li>
   </ul>
@@ -740,13 +837,48 @@ def agenda_futura():
   <p class="fonte" style="margin-top: 22px">Regra de c&aacute;lculo e d&uacute;vidas jur&iacute;dicas: nota t&eacute;cnica do Eixo 3, 04/10/2026. O termo inicial n&atilde;o est&aacute; fixado em lei nem em decreto: a contagem desde a cria&ccedil;&atilde;o do registro &eacute; decis&atilde;o de trabalho do Eixo, sujeita &agrave; revis&atilde;o jur&iacute;dica.</p>
 </section>
 
-<section class="band"><div class="wrap section" id="outros-experimentos">
+<section class="band"><div class="wrap section" id="verificador-disque100">
+  <p class="eyebrow">Experimento em funcionamento</p>
+  <h2 class="h2" style="max-width: 34ch">Verificador de n&uacute;mero do Disque 100</h2>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">Digite um n&uacute;mero que voc&ecirc; viu publicado sobre den&uacute;ncias de intoler&acirc;ncia religiosa, como 2.472, e veja a unidade que ele declara, a janela que cobre, de qual divulga&ccedil;&atilde;o vem e com o que n&atilde;o pode ser comparado. O mesmo n&uacute;mero pode aparecer com unidades diferentes.</p>
+  <div class="frm" style="margin-top: 18px; max-width: 46ch">
+    <label class="frm-campo" for="d100-num"><span>N&uacute;mero (inteiro)</span><input id="d100-num" type="text" inputmode="numeric" autocomplete="off" placeholder="2472"></label>
+    <button class="btn-ink" type="button" id="d100-verificar">Verificar</button>
+    <div id="d100-saida" aria-live="polite"></div>
+    <noscript><p class="body">A verifica&ccedil;&atilde;o precisa de JavaScript. Nada &eacute; enviado.</p></noscript>
+  </div>
+  <p class="fonte" style="margin-top: 22px">O verificador s&oacute; reconhece os n&uacute;meros reproduzidos na <a href="disque100.html">p&aacute;gina do Disque 100</a>, com a fonte e a confian&ccedil;a de cada um (Anexo E, itens E.9.2 e E.11, e achado A18). N&atilde;o consulta o painel oficial, que n&atilde;o p&ocirc;de ser conferido, e n&atilde;o substitui a leitura da divulga&ccedil;&atilde;o original.</p>
+</div></section>
+
+<section class="wrap section" id="reproduza-achado">
+  <p class="eyebrow">Experimento em funcionamento</p>
+  <h2 class="h2" style="max-width: 34ch">Kit &quot;Reproduza o achado&quot;</h2>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">Qualquer pessoa pode refazer a an&aacute;lise dos microdados abertos do Disque 100 e comparar o que encontrou com os totais do relat&oacute;rio do Eixo 3. O kit tem o m&eacute;todo, a lista de totais esperados e um conferidor. Se um total n&atilde;o fechar, o achado correspondente est&aacute; em xeque, e o relat&oacute;rio quer saber.</p>
+  <h3 class="h3" style="margin-top: 26px">M&eacute;todo (Anexo E, item E.11.1 e E.11.2)</h3>
+  <ol class="scope-list" style="margin-top: 12px; max-width: 76ch">
+    <li>Baixe os arquivos CSV dos microdados abertos do Disque 100 publicados pelo MDHC: 1&ordm; e 2&ordm; semestres de 2023, 2024 e 2025 e 1&ordm; semestre de 2026. Confira se o tamanho de cada arquivo coincide com o informado pelo servidor.</li>
+    <li>Processe localmente. N&atilde;o imprima nem exporte registro individual.</li>
+    <li>Lembre que a base n&atilde;o tem coluna de texto livre nem dicion&aacute;rio de dados, e que cada linha combina den&uacute;ncia, v&iacute;tima, suspeito e viola&ccedil;&atilde;o. Por isso, conte <strong>den&uacute;ncias distintas</strong>, e n&atilde;o linhas, quando o total for de den&uacute;ncias.</li>
+    <li>A &aacute;rvore de viola&ccedil;&otilde;es n&atilde;o tem categoria chamada intoler&acirc;ncia religiosa. O recorte &eacute; o ramo &quot;Liberdade de religi&atilde;o ou cren&ccedil;a&quot;, com os subtipos de cren&ccedil;a, de culto e n&atilde;o cren&ccedil;a. O ramo &quot;Igualdade&quot; n&atilde;o tem subtipo por religi&atilde;o.</li>
+    <li>Refa&ccedil;a as contagens abaixo e digite cada resultado no conferidor.</li>
+  </ol>
+  <h3 class="h3" style="margin-top: 26px">Conferidor</h3>
+  <div id="d100-conferidor" style="margin-top: 12px"></div>
+  <div style="margin-top: 14px"><button class="btn-ink" type="button" id="d100-conferir">Conferir</button></div>
+  <div id="d100-resumo" aria-live="polite" style="margin-top: 14px"></div>
+  <noscript><p class="body">O conferidor precisa de JavaScript. Nada &eacute; enviado.</p></noscript>
+  <p class="body" style="margin: 22px 0 0; max-width: 74ch">Os totais esperados tamb&eacute;m est&atilde;o em <a href="data/relatorio-v2/disque100_reproducao.csv" download>arquivo CSV</a>, para voc&ecirc; comparar na sua pr&oacute;pria planilha.</p>
+  <p class="fonte" style="margin-top: 22px">Limites. A diverg&ecirc;ncia n&atilde;o refuta o achado por si s&oacute;: confira a vers&atilde;o dos arquivos, o filtro e a unidade. O relat&oacute;rio oficial do Disque 100 usa um filtro que os microdados abertos n&atilde;o reproduzem, e por isso os totais oficiais n&atilde;o fazem parte do conferidor. Ainda n&atilde;o h&aacute; script de refer&ecirc;ncia publicado. Fonte: {REL_V2}, Anexo E, item E.11.</p>
+  <script type="application/json" id="dados-d100">__D100JSON__</script>
+</section>
+
+<section class="wrap section" id="outros-experimentos"><div>
   <p class="eyebrow">Ideias, ainda n&atilde;o implementadas</p>
-  <h2 class="h2" style="max-width: 34ch">Outros experimentos considerados</h2>
+  <h2 class="h2" style="max-width: 34ch">Outras ideias consideradas</h2>
   <ul class="scope-list" style="margin-top: 20px; max-width: 80ch">{cartoes}</ul>
   <p class="body" style="margin: 22px 0 0; max-width: 74ch">Qualquer um deles pode ser objeto de pesquisa acad&ecirc;mica e de decis&atilde;o da coordena&ccedil;&atilde;o-geral. Nenhum depende de coleta de dado pessoal.</p>
 </div></section>
-"""
+""".replace("__D100JSON__", d100_dados_json())
 
 
 def main():
@@ -765,7 +897,7 @@ def main():
                "", formulario_modelo(), scripts=("js/formulario-modelo.js",)),
         pagina("agenda-futura.html", "Agenda futura: experimentos",
                "Experimentos e ideias de servico a partir dos achados, nao deliberados: relogio de preservacao e outras propostas. Nao recolhe dado.",
-               "", agenda_futura(), scripts=("js/relogio.js",)),
+               "", agenda_futura(), scripts=("js/relogio.js", "js/d100.js")),
         pagina("canais.html", "Inventário de canais de denúncia de crimes de ódio",
                "Inventario de canais online de denuncia de crimes de odio no Brasil, verificado em 03/10/2026: Uniao, estados e sociedade civil. Documento preliminar.",
                "", canais()),
@@ -773,6 +905,7 @@ def main():
                "Indica, por tipo de incidente e por unidade federada, os canais do inventario de 03/10/2026. Nao recolhe dado.",
                "", encaminhar()),
     ]
+    confere_numeros_d100()
     print("paginas das Frentes 1 e 2: " + ", ".join(feitos))
     return 0
 
