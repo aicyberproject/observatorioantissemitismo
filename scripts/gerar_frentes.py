@@ -14,6 +14,7 @@ envie, nem armazenamento no navegador.
 import html
 import json
 import pathlib
+import re
 import sys
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
@@ -459,6 +460,12 @@ def destaques_canais():
   </ul>"""
 
 
+def rico(t):
+    """Texto do inventario com negrito em **: escapa e converte. Remissoes a secoes do inventario viram itens do Anexo F."""
+    t = esc(t).replace("a se\u00e7\u00e3o 5", "o item F.5").replace("a se\u00e7\u00e3o 6", "o item F.6").replace("da se\u00e7\u00e3o 6", "do item F.6")
+    return re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
+
+
 def lista_e(itens):
     return itens[0] if len(itens) == 1 else ", ".join(itens[:-1]) + " e " + itens[-1]
 
@@ -478,15 +485,15 @@ def canais():
         f'<li><strong>{esc(t["orgao"])}</strong>, {esc(t["canal"])} ({esc(t["ambito"])}): {link_canal(t["endereco"])}. {esc(t["verificacao"])}.</li>'
         for t in d["tematicos"])
     fora = "".join(
-        "<li>" + (link_canal(f["endereco"]) if f["endereco"] else esc(f["descricao"])) + f'. {esc(f["motivo"])}.</li>'
+        "<li>" + (f'<code style="overflow-wrap: anywhere">{esc(f["endereco"])}</code>' if f["endereco"] else esc(f["descricao"])) + f'. {esc(f["motivo"])}.</li>'
         for f in d["fora_do_inventario"])
     contatos = ", ".join(link_canal(c["endereco"], c["organizacao"]) for c in d["contatos_gerais"])
     sem = esc("; ".join(d["sem_canal_identificado"]))
     nc = d["nao_comprovado"]
     nc_li = "".join(f"<li><strong>{esc(k)}:</strong> {esc(lista_e(v))}.</li>" for k, v in nc.items() if k != "introducao")
-    limites = "".join(f"<li>{esc(x)}</li>" for x in d["limites"])
+    limites = "".join(f"<li>{rico(x)}</li>" for x in d["limites"])
     rec = d["recomendacao_nao_deliberada"]
-    crit = "".join(f"<li>{esc(x)}</li>" for x in rec["criterios"])
+    crit = "".join(f"<li>{rico(x)}</li>" for x in rec["criterios"])
     return f"""{ABERTURA}
   <p class="crumb"><a href="index.html">Observat&oacute;rio</a> &nbsp;/&nbsp; <a href="achados.html">Achados</a> &nbsp;/&nbsp; Invent&aacute;rio de canais</p>
   <h1 class="h1" style="margin-top: 24px">Invent&aacute;rio de canais de den&uacute;ncia de crimes de &oacute;dio</h1>
@@ -611,7 +618,7 @@ def encaminhar():
         f'<details style="margin-top: 12px"><summary><strong>{uf}</strong>, {NOMES_UF[uf]}</summary>'
         f'<ul class="scope-list" style="margin-top: 12px; max-width: 76ch">{"".join(item_canal(c) for c in por_uf[uf])}</ul></details>'
         for uf in sorted(por_uf))
-    crit = "".join(f"<li>{esc(x)}</li>" for x in d["recomendacao_nao_deliberada"]["criterios"])
+    crit = "".join(f"<li>{rico(x)}</li>" for x in d["recomendacao_nao_deliberada"]["criterios"])
     return f"""{ABERTURA}
   <p class="crumb"><a href="index.html">Observat&oacute;rio</a> &nbsp;/&nbsp; Encaminhamento</p>
   <h1 class="h1" style="margin-top: 24px">Para onde encaminhar</h1>
