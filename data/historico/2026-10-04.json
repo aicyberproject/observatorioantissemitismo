@@ -2,15 +2,25 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-04",
  "semana_iso": "2026-S40",
- "atualizado_em": "2026-10-04T21:14:45+00:00",
+ "atualizado_em": "2026-10-04T22:58:19+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 103,
+ "total": 105,
  "no_brasil": 19,
- "no_mundo": 84,
+ "no_mundo": 86,
  "itens": [
+  {
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-910591",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-05T00:42:33+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://www.jpost.com/diaspora/article-910587",
    "fonte": "The Jerusalem Post — Diaspora",
@@ -19,6 +29,16 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB4VzNuNE12SHhqZWhOa1RUYXpYSlVZdEJzSHpLTVduTlVfMHoxVzI2OGtBQWlodG53NllRMGMzelFiTHFPUEpELUt6YkdDTlFZN1ZSOUdMTFlsa0FSX2tZbUJzbkgyMk5qSVE?oc=5",
+   "fonte": "The Jerusalem Post",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-04T21:42:33+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
