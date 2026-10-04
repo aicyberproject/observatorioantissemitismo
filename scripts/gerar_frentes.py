@@ -5,7 +5,7 @@ do Disque 100, mapa de bases e canais, modelo de formulario e assistente de
 encaminhamento.
 
 Fonte unica: o relatorio preliminar conjunto das Frentes 1 e 2, versao 2.0, de
-02/10/2026. Os quadros vieram dele para data/relatorio-v2/, e este modulo so
+05/10/2026. Os quadros vieram dele para data/relatorio-v2/, e este modulo so
 le esses arquivos. Nenhuma pagina daqui recolhe dado: nao ha formulario que
 envie, nem armazenamento no navegador.
 
@@ -22,7 +22,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from gerar_paginas import pagina  # noqa: E402
 
 DADOS = RAIZ / "data" / "relatorio-v2"
-DATA = "3 de outubro de 2026"
+DATA = "4 de outubro de 2026"
 
 PRELIMINAR = (
     '<p class="fonte" role="note" style="border-left: 4px solid currentColor; padding-left: 14px; margin: 22px 0 0; max-width: 74ch">'
@@ -80,7 +80,7 @@ def achados():
   <h1 class="h1" style="margin-top: 24px">Achados das Frentes 1 e 2</h1>
   <p class="lead" style="margin: 26px 0 0; max-width: 70ch">A invisibilidade estat&iacute;stica do antissemitismo no Brasil n&atilde;o &eacute; aus&ecirc;ncia de fen&ocirc;meno. &Eacute; <strong>aus&ecirc;ncia de medida</strong>.</p>
   {PRELIMINAR}
-  <p class="body" style="margin: 18px 0 0; max-width: 72ch">Esta p&aacute;gina reproduz os achados do relat&oacute;rio preliminar conjunto das Frentes 1 e 2 do Eixo 3, vers&atilde;o 2.0, de 02/10/2026, com a fonte e o grau de confian&ccedil;a que o pr&oacute;prio relat&oacute;rio atribui a cada um. O relat&oacute;rio &eacute; documento de trabalho e n&atilde;o est&aacute; publicado aqui. Atualizada em {DATA}. As recomenda&ccedil;&otilde;es do relat&oacute;rio n&atilde;o s&atilde;o reproduzidas.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 72ch">Esta p&aacute;gina reproduz os achados do relat&oacute;rio preliminar conjunto das Frentes 1 e 2 do Eixo 3, vers&atilde;o 2.0, de 05/10/2026, com a fonte e o grau de confian&ccedil;a que o pr&oacute;prio relat&oacute;rio atribui a cada um. O relat&oacute;rio &eacute; documento de trabalho e n&atilde;o est&aacute; publicado aqui. Atualizada em {DATA}. As recomenda&ccedil;&otilde;es do relat&oacute;rio n&atilde;o s&atilde;o reproduzidas.</p>
 </section>
 
 <section class="band"><div class="wrap section">
