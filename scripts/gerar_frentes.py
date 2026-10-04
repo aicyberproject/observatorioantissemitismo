@@ -26,8 +26,9 @@ DATA = "3 de outubro de 2026"
 
 PRELIMINAR = (
     '<p class="fonte" role="note" style="border-left: 4px solid currentColor; padding-left: 14px; margin: 22px 0 0; max-width: 74ch">'
-    '<strong>Documento preliminar, sujeito &agrave; delibera&ccedil;&atilde;o do Eixo 3 em 14/10/2026. '
-    'N&atilde;o constitui posi&ccedil;&atilde;o do Eixo, da Iniciativa ou do Conselho.</strong></p>')
+    '<strong>Documento preliminar, em aprecia&ccedil;&atilde;o pelos participantes das Frentes 1 e 2, que podem apresentar '
+    'destaques, sugest&otilde;es e eventuais vetos. Os destaques n&atilde;o resolvidos ser&atilde;o deliberados na reuni&atilde;o '
+    'de encerramento dos trabalhos, em 14/10/2026. N&atilde;o constitui posi&ccedil;&atilde;o do Eixo, da Iniciativa ou do Conselho.</strong></p>')
 
 RESSALVA_DEFINICAO = (
     '<p class="fonte" role="note" style="margin: 22px 0 0; max-width: 74ch">'
