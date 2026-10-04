@@ -7,7 +7,7 @@
   },
   "uniao": [
     {
-      "id": "uniao-cgu-fala-br-formulario-de-manifestacao",
+      "id": "falabr",
       "orgao": "CGU, Fala.BR",
       "canal": "Formulário de manifestação",
       "endereco": "https://falabr.cgu.gov.br/v2/manifestacoes/registrar",
@@ -15,7 +15,7 @@
       "especifico_antissemitismo": false
     },
     {
-      "id": "uniao-mdhc-ouvidoria-nacional-disque-100-servico-gov-br-de-d",
+      "id": "d100",
       "orgao": "MDHC, Ouvidoria Nacional (Disque 100)",
       "canal": "Serviço gov.br de denúncia",
       "endereco": "https://www.gov.br/pt-br/servicos/denunciar-violacao-de-direitos-humanos",
@@ -31,7 +31,7 @@
       "especifico_antissemitismo": false
     },
     {
-      "id": "uniao-policia-federal-comunica-pf-comunicacao-de-ocorrencia",
+      "id": "comunicapf",
       "orgao": "Polícia Federal, Comunica PF",
       "canal": "Comunicação de ocorrência",
       "endereco": "https://apps.pf.gov.br/r/comunicapf/comunicapf/comunicar-ocorrencia",
@@ -39,7 +39,7 @@
       "especifico_antissemitismo": false
     },
     {
-      "id": "uniao-policia-federal-pagina-de-comunicacao-de-crimes",
+      "id": "pf",
       "orgao": "Polícia Federal",
       "canal": "Página de comunicação de crimes",
       "endereco": "https://www.gov.br/pf/pt-br/canais_atendimento/comunicacao-de-crimes",
@@ -55,7 +55,7 @@
       "especifico_antissemitismo": false
     },
     {
-      "id": "uniao-ministerio-publico-federal-denuncias",
+      "id": "mpf",
       "orgao": "Ministério Público Federal",
       "canal": "Denúncias",
       "endereco": "https://www.mpf.mp.br/servicos/mpf-servicos-internas/denuncias",
@@ -71,7 +71,7 @@
       "especifico_antissemitismo": false
     },
     {
-      "id": "uniao-defensoria-publica-da-uniao-fale-conosco",
+      "id": "dpu",
       "orgao": "Defensoria Pública da União",
       "canal": "Fale conosco",
       "endereco": "https://www.dpu.def.br/fale-conosco",
@@ -341,7 +341,7 @@
   ],
   "sociedade_civil": [
     {
-      "id": "sc-safernet-brasil-denuncia-anonima-de-crimes-contra-direito",
+      "id": "safernet",
       "orgao": "SaferNet Brasil",
       "canal": "Denúncia anônima de crimes contra direitos humanos na internet",
       "endereco": "https://new.safernet.org.br/denuncie",
@@ -357,7 +357,7 @@
       "especifico_antissemitismo": false
     },
     {
-      "id": "sc-conib-denuncie-ato-de-antissemitismo",
+      "id": "conib",
       "orgao": "CONIB",
       "canal": "Denuncie ato de antissemitismo",
       "endereco": "https://combateaoantissemitismo.org.br/denuncie/",
@@ -365,7 +365,7 @@
       "especifico_antissemitismo": true
     },
     {
-      "id": "sc-conib-e-fisesp-formulario-de-denuncia-de-antissemitismo",
+      "id": "conib-fisesp",
       "orgao": "CONIB e FISESP",
       "canal": "Formulário de denúncia de antissemitismo",
       "endereco": "https://beiachad.fisesp.org.br/dsc/formulario?canalID=7",

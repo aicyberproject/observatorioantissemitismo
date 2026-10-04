@@ -516,79 +516,111 @@ def canais():
 # T8. Assistente de encaminhamento. Nao recolhe dado: e uma lista, sem formulario.
 # ---------------------------------------------------------------------------
 
-# Os nove canais ja conferidos na capa (index.html#denuncie). Quem decide e a
-# competencia declarada por cada canal, nao este sitio.
-CANAIS = {
-    "pf": ("Polícia Federal", "público", "https://www.gov.br/pf/pt-br/canais_atendimento/comunicacao-de-crimes",
-           "crimes na internet, células neonazistas e terrorismo doméstico"),
-    "mpf": ("Ministério Público Federal", "público", "https://www.mpf.mp.br/servicos/mpf-servicos-internas/denuncias",
-            "crimes de ódio na internet e tutelas coletivas, pela página de denúncias do MPF"),
-    "d100": ("Disque 100", "público", "https://www.gov.br/pt-br/servicos/denunciar-violacao-de-direitos-humanos",
-             "violação de direitos humanos em geral, pelo serviço gov.br do Disque 100"),
-    "decradi": ("DECRADI", "público", "https://delegaciadigital.policia-civil.sp.gov.br/pagina-inicial",
-                "delegacias de crimes raciais e delitos de intolerância, em São Paulo e no Rio de Janeiro"),
-    "mpsp": ("GECRADI / Ministério Público de São Paulo", "público", "https://www.mpsp.mp.br/",
-             "inquéritos, ações civis públicas e denúncias criminais sobre crimes raciais e de intolerância, em São Paulo"),
-    "defensoria": ("Defensoria Pública", "público", "https://anadep.org.br/wtk/pagina/defensorias_nacionais",
-                   "assistência jurídica gratuita a vítimas; o endereço é o diretório das defensorias"),
-    "safernet": ("SaferNet Brasil", "sociedade civil", "https://new.safernet.org.br/denuncie",
-                 "denúncia anônima de neonazismo, racismo e antissemitismo na internet, em cooperação com o Ministério Público Federal"),
-    "conib": ("CONIB", "sociedade civil", "https://combateaoantissemitismo.org.br/denuncie/",
-              "página de denúncia de ato de antissemitismo da própria CONIB; o formulário operado pela FISESP é a segunda via (https://beiachad.fisesp.org.br/dsc/formulario?canalID=7)"),
-    "fisesp": ("FISESP", "sociedade civil", "https://fisesp.org.br/home/denuncie/",
-               "assistência psicossocial e jurídica a vítimas em São Paulo"),
-}
+# Os canais vem de data/relatorio-v2/canais.json, a mesma fonte da pagina
+# canais.html. Quem decide e a competencia declarada por cada canal, nao este
+# sitio. Contam como canal os grupos uniao, estados, sociedade_civil e
+# tematicos. Ficam fora o que o inventario testou e excluiu
+# (fora_do_inventario) e os contatos gerais de ONGs (contatos_gerais).
+GRUPOS_CANAL = ("uniao", "estados", "sociedade_civil", "tematicos")
 
-# (chave de preservar.html, titulo, canais em ordem, observacao)
+NOMES_UF = {"CE": "Cear&aacute;", "DF": "Distrito Federal", "ES": "Esp&iacute;rito Santo", "GO": "Goi&aacute;s",
+            "MG": "Minas Gerais", "PR": "Paran&aacute;", "RJ": "Rio de Janeiro", "RR": "Roraima",
+            "RS": "Rio Grande do Sul", "SC": "Santa Catarina", "SP": "S&atilde;o Paulo", "TO": "Tocantins"}
+
+# (chave de preservar.html, titulo, ids de canais em ordem, observacao). So
+# canais federais e da sociedade civil: o fato ocorrido em um estado vai ao
+# bloco por unidade federada (criterio 3 do item F.7).
 ROTAS = [
-    ("online", "Conteúdo em rede social, site ou comentário", ["safernet", "pf", "mpf", "d100", "conib"],
-     "Preserve antes de denunciar: o conteúdo pode ser apagado."),
-    ("ameaca", "Mensagem direta, ameaça ou intimidação", ["pf", "decradi", "d100", "conib", "fisesp"],
-     "Se houver risco agora, ligue 190 antes de qualquer outra coisa. A Polícia Federal atende o que ocorre pela internet."),
-    ("patrimonio", "Pichação, dano ou profanação de patrimônio", ["decradi", "mpsp", "d100", "conib"],
-     "Fotografe o local antes de qualquer limpeza."),
-    ("fisica", "Agressão física, ou tentativa", ["decradi", "defensoria", "d100", "fisesp"],
-     "Se houver risco agora, ligue 190 antes de qualquer outra coisa. Procure atendimento médico, se for o caso."),
-    ("institucional", "Discriminação em escola, universidade ou trabalho", ["d100", "mpf", "defensoria", "decradi", "conib"],
+    ("online", "Conte&uacute;do em rede social, site ou coment&aacute;rio", ["safernet", "pf", "mpf", "falabr", "d100", "conib"],
+     "Preserve antes de denunciar: o conte&uacute;do pode ser apagado."),
+    ("ameaca", "Mensagem direta, amea&ccedil;a ou intimida&ccedil;&atilde;o", ["pf", "comunicapf", "d100", "conib", "conib-fisesp"],
+     "Se houver risco agora, ligue 190 antes de qualquer outra coisa. A Pol&iacute;cia Federal recebe comunica&ccedil;&atilde;o de crimes, e o fato ocorrido em um estado pode ir &agrave; Pol&iacute;cia Civil da unidade federada."),
+    ("patrimonio", "Picha&ccedil;&atilde;o, dano ou profana&ccedil;&atilde;o de patrim&ocirc;nio", ["mpf", "d100", "conib"],
+     "Fotografe o local antes de qualquer limpeza. O registro do fato costuma ser na Pol&iacute;cia Civil do estado."),
+    ("fisica", "Agress&atilde;o f&iacute;sica, ou tentativa", ["dpu", "d100", "conib-fisesp"],
+     "Se houver risco agora, ligue 190 antes de qualquer outra coisa. Procure atendimento m&eacute;dico, se for o caso. O registro do fato &eacute; na Pol&iacute;cia Civil do estado."),
+    ("institucional", "Discrimina&ccedil;&atilde;o em escola, universidade ou trabalho", ["d100", "mpf", "dpu", "conib"],
      "Guarde mensagens, comunicados e nomes de testemunhas, sem expor terceiros."),
-    ("objeto", "Material impresso, panfleto ou objeto deixado", ["decradi", "pf", "mpf", "d100"],
-     "Não manuseie mais do que o necessário e fotografe onde foi encontrado."),
+    ("objeto", "Material impresso, panfleto ou objeto deixado", ["pf", "mpf", "d100"],
+     "N&atilde;o manuseie mais do que o necess&aacute;rio e fotografe onde foi encontrado."),
 ]
 
 
+def mapa_canais():
+    d = carrega("canais.json")
+    return d, {c["id"]: c for g in GRUPOS_CANAL for c in d[g]}
+
+
+def item_canal(c, uf=False):
+    """Item de lista: orgao, canal, endereco e a verificacao do inventario, sem texto proprio."""
+    marca = f' <strong class="fonte">{MARCA_IHRA}.</strong>' if c.get("especifico_antissemitismo") else ""
+    return (f'<li><strong>{esc(c["orgao"])}</strong>, {esc(c["canal"])}: {link_canal(c["endereco"])}. '
+            f'<span class="fonte">{esc(c["verificacao"])}.</span>{marca}</li>')
+
+
 def encaminhar():
+    d, por_id = mapa_canais()
     grade = "".join(
         f'<li><a class="prs-tipo" href="#{k}"><span class="prs-tipo-n">{i:02d}</span>'
-        f'<span class="prs-tipo-t">{esc(t)}</span></a></li>' for i, (k, t, _, _) in enumerate(ROTAS, 1))
+        f'<span class="prs-tipo-t">{t}</span></a></li>' for i, (k, t, _, _) in enumerate(ROTAS, 1))
     secoes = []
-    for k, titulo, canais, obs in ROTAS:
-        itens = []
-        for c in canais:
-            nome, natureza, href, escopo = CANAIS[c]
-            itens.append(
-                f'<li><a href="{href}" target="_blank" rel="noopener"><strong>{esc(nome)}</strong></a> '
-                f'<span class="fonte">({natureza})</span>. Atende {esc(escopo)}.</li>')
+    for k, titulo, canais_rota, obs in ROTAS:
+        itens = "".join(item_canal(por_id[c]) for c in canais_rota)
         secoes.append(
             f'<section class="wrap section" id="{k}" style="padding-top: 0">'
-            f'<h2 class="h2" style="max-width: 34ch">{esc(titulo)}</h2>'
-            f'<p class="body" style="margin: 14px 0 0; max-width: 74ch">{esc(obs)}</p>'
-            f'<ol class="scope-list" style="margin-top: 16px; max-width: 76ch">{"".join(itens)}</ol>'
-            f'<p class="fonte" style="margin-top: 14px"><a href="preservar.html#{k}">Como preservar a evid&ecirc;ncia deste tipo &rarr;</a></p>'
+            f'<h2 class="h2" style="max-width: 34ch">{titulo}</h2>'
+            f'<p class="body" style="margin: 14px 0 0; max-width: 74ch">{obs}</p>'
+            f'<ol class="scope-list" style="margin-top: 16px; max-width: 76ch">{itens}</ol>'
+            f'<p class="fonte" style="margin-top: 14px"><a href="#estados">Canais da sua unidade federada &darr;</a> &nbsp;&middot;&nbsp; '
+            f'<a href="preservar.html#{k}">Como preservar a evid&ecirc;ncia deste tipo &rarr;</a></p>'
             f'</section>')
+    # todos os canais federais, temáticos federais e da sociedade civil, na ordem do inventario
+    todos = "".join(item_canal(c) for c in d["uniao"] + d["sociedade_civil"] + [t for t in d["tematicos"] if t["ambito"] == "Uni\u00e3o"])
+    por_uf = {}
+    for c in d["estados"] + [t for t in d["tematicos"] if t["ambito"] == "Estado"]:
+        por_uf.setdefault(c["uf"], []).append(c)
+    ufs = "".join(
+        f'<details style="margin-top: 12px"><summary><strong>{uf}</strong>, {NOMES_UF[uf]}</summary>'
+        f'<ul class="scope-list" style="margin-top: 12px; max-width: 76ch">{"".join(item_canal(c) for c in por_uf[uf])}</ul></details>'
+        for uf in sorted(por_uf))
+    crit = "".join(f"<li>{esc(x)}</li>" for x in d["recomendacao_nao_deliberada"]["criterios"])
     return f"""{ABERTURA}
   <p class="crumb"><a href="index.html">Observat&oacute;rio</a> &nbsp;/&nbsp; Encaminhamento</p>
   <h1 class="h1" style="margin-top: 24px">Para onde encaminhar</h1>
-  <p class="lead" style="margin: 26px 0 0; max-width: 70ch">Escolha o tipo de incidente e veja, entre os nove canais j&aacute; conferidos, os que atendem aquele caso. Primeiro os &oacute;rg&atilde;os p&uacute;blicos, depois a sociedade civil.</p>
-  <p class="frm-aviso" role="note">Esta p&aacute;gina n&atilde;o recolhe nenhum dado: a escolha do tipo &eacute; um link, n&atilde;o &eacute; enviada nem guardada. N&atilde;o &eacute; canal de den&uacute;ncia. Se houver risco agora, ligue 190.</p>
-  <p class="body" style="margin: 18px 0 0; max-width: 72ch">A indica&ccedil;&atilde;o segue a compet&ecirc;ncia que cada canal declara na sua pr&oacute;pria p&aacute;gina, e n&atilde;o tem valida&ccedil;&atilde;o institucional. Um canal pode encaminhar o caso a outro, e n&atilde;o h&aacute;, segundo o diagn&oacute;stico do Eixo 3, &oacute;rg&atilde;o definido para den&uacute;ncias espec&iacute;ficas de antissemitismo (achado A4). Atualizada em {DATA}.</p>
+  <p class="lead" style="margin: 26px 0 0; max-width: 70ch">Escolha o tipo de incidente, ou a unidade federada, e veja os canais do <a href="canais.html">invent&aacute;rio de canais de den&uacute;ncia de crimes de &oacute;dio</a>. Primeiro os &oacute;rg&atilde;os p&uacute;blicos, depois a sociedade civil.</p>
+  <ul class="scope-list" style="margin-top: 20px; max-width: 76ch">
+    <li>O invent&aacute;rio foi <strong>verificado em 03/10/2026 pela coordena&ccedil;&atilde;o do Eixo 3</strong>, com uso de ferramentas web.</li>
+    <li>Trata de canais de den&uacute;ncia de <strong>crimes de &oacute;dio em geral</strong>.</li>
+    <li>A maioria dos canais <strong>n&atilde;o abrange o antissemitismo de forma espec&iacute;fica</strong>. A exce&ccedil;&atilde;o s&atilde;o os canais da CONIB, que registram sob a defini&ccedil;&atilde;o de trabalho da IHRA, conceitualmente divergente da Defini&ccedil;&atilde;o de Antissemitismo emitida pelo eixo de Conceitua&ccedil;&atilde;o em 24/08/2026.</li>
+    <li>Este s&iacute;tio <strong>n&atilde;o recebe den&uacute;ncia</strong>, n&atilde;o cria nem padroniza canal, e p&aacute;gina no ar n&atilde;o garante atendimento.</li>
+  </ul>
+  <p class="frm-aviso" role="note">Esta p&aacute;gina n&atilde;o recolhe nenhum dado: a escolha do tipo ou da unidade federada &eacute; um link ou uma lista que se abre, n&atilde;o &eacute; enviada nem guardada. N&atilde;o &eacute; canal de den&uacute;ncia. Se houver risco agora, ligue 190.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 72ch">A indica&ccedil;&atilde;o segue o que o invent&aacute;rio registra, e n&atilde;o tem valida&ccedil;&atilde;o institucional. Um canal pode encaminhar o caso a outro, e n&atilde;o h&aacute;, segundo o diagn&oacute;stico do Eixo 3, &oacute;rg&atilde;o definido para den&uacute;ncias espec&iacute;ficas de antissemitismo. Fonte: {REL_V2}, se&ccedil;&atilde;o 5.4 e Anexo F.</p>
   {PRELIMINAR}
-  <ul class="prs-tipos" style="margin-top: 26px">{grade}</ul>
+  <p class="body" style="margin: 22px 0 0; max-width: 72ch"><strong>Por tipo de incidente</strong></p>
+  <ul class="prs-tipos" style="margin-top: 14px">{grade}</ul>
+  <p class="body" style="margin: 14px 0 0"><a href="#estados">Por unidade federada &darr;</a> &nbsp;&middot;&nbsp; <a href="#todos">Todos os canais federais e da sociedade civil &darr;</a></p>
 </section>
 {"".join(secoes)}
-<section class="band"><div class="wrap section">
-  <div class="pills">
-    <a class="pill pill-solid" href="index.html#denuncie">Todos os canais &rarr;</a>
-    <a class="pill" href="canais.html">Invent&aacute;rio de canais &rarr;</a>
+<section class="band"><div class="wrap section" id="estados">
+  <h2 class="h2" style="max-width: 34ch">Por unidade federada</h2>
+  <p class="body" style="margin: 14px 0 0; max-width: 74ch">Doze unidades federadas t&ecirc;m canal estadual comprovado no invent&aacute;rio. Para o fato ocorrido em um estado, a recomenda&ccedil;&atilde;o n&atilde;o deliberada &eacute; procurar o &oacute;rg&atilde;o competente para o fato, e n&atilde;o o que tem o formul&aacute;rio mais completo.</p>
+  {ufs}
+  <p class="body" style="margin: 22px 0 0; max-width: 74ch"><strong>Demais unidades federadas.</strong> Use as vias federais acima. A falta de canal estadual comprovado nesta coleta n&atilde;o prova que ele n&atilde;o exista.</p>
+</div></section>
+
+<section class="wrap section" id="todos">
+  <h2 class="h2" style="max-width: 34ch">Todos os canais federais e da sociedade civil</h2>
+  <ol class="scope-list" style="margin-top: 16px; max-width: 76ch">{todos}</ol>
+</section>
+
+<section class="band"><div class="wrap section" id="criterios">
+  <h2 class="h2" style="max-width: 34ch">Crit&eacute;rios de escolha</h2>
+  <p class="frm-aviso" role="note"><strong>Recomenda&ccedil;&atilde;o n&atilde;o deliberada.</strong> {esc(d["recomendacao_nao_deliberada"]["aviso"])}</p>
+  <ol class="scope-list" style="margin-top: 16px; max-width: 76ch">{crit}</ol>
+  <div class="pills" style="margin-top: 22px">
+    <a class="pill pill-solid" href="canais.html">Invent&aacute;rio de canais &rarr;</a>
+    <a class="pill" href="index.html#denuncie">Canais na capa &rarr;</a>
     <a class="pill" href="preservar.html">Preservar evid&ecirc;ncias &rarr;</a>
   </div>
 </div></section>
@@ -613,7 +645,7 @@ def main():
                "Inventario de canais online de denuncia de crimes de odio no Brasil, verificado em 03/10/2026: Uniao, estados e sociedade civil. Documento preliminar.",
                "", canais()),
         pagina("encaminhar.html", "Para onde encaminhar",
-               "Indica, por tipo de incidente, quais dos nove canais ja conferidos atendem o caso. Nao recolhe dado.",
+               "Indica, por tipo de incidente e por unidade federada, os canais do inventario de 03/10/2026. Nao recolhe dado.",
                "", encaminhar()),
     ]
     print("paginas das Frentes 1 e 2: " + ", ".join(feitos))
