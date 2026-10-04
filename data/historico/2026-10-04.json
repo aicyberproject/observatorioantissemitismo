@@ -2,14 +2,14 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-04",
  "semana_iso": "2026-S40",
- "atualizado_em": "2026-10-04T18:06:29+00:00",
+ "atualizado_em": "2026-10-04T19:28:51+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 100,
+ "total": 101,
  "no_brasil": 19,
- "no_mundo": 81,
+ "no_mundo": 82,
  "itens": [
   {
    "link": "https://www.jpost.com/diaspora/antisemitism/article-910578",
@@ -520,6 +520,16 @@
    "via": null,
    "feed": "cam",
    "categoria": "Observatórios e entidades"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQkhGSDlUdW1FejJ2ZkVGZVlSUzMtb2diWUwzWFp5TnhCdy1iTUVvLXVnMVAyaUw2UTNJc2twUzg1RzJMNXRzRy1WTlY1TXdFbFhFdWh4bUZCMFEwcXprUmhRTkNoa2k0Z0lOR1VrMC1tSjZxWUdOUXNTSnM3MTFwWFIxVjBxV3BhaHRqUmFudWhuMl80dTh1WHlieEZlYkU?oc=5",
+   "fonte": "lopinion.fr",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T16:53:58+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSmplZHluTlM2X0lnRE9pNEl0WFBNNW1QMWtVNDFpdnlPQXBHakZPR2E1SVNERFAyOVhaQXp6bmpBSU5zNG9hZzZERmhCT1JpUDZDa05PQ2tkdnBHbDljd3BLQ3hzdHN4MXR2Rkw1UXYzTk9IcGVlRU40ZnZ1T3FubDdGVm83SmlIRGtXWkhHNXY?oc=5",
