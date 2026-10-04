@@ -2,14 +2,14 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-04",
  "semana_iso": "2026-S40",
- "atualizado_em": "2026-10-04T08:17:17+00:00",
+ "atualizado_em": "2026-10-04T09:11:00+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 81,
+ "total": 83,
  "no_brasil": 18,
- "no_mundo": 63,
+ "no_mundo": 65,
  "itens": [
   {
    "link": "https://www.jpost.com/diaspora/antisemitism/article-910501",
@@ -19,6 +19,16 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0wUkY5SGpZaG15VUFzYVl5OXVHVFFaeFZHVE9kLVpya1RUSXNSVlA2c1p0S0drYW5mNENxNkZZaXpUcjR2MUVUZ3FIUk16eGVYVDBCdzliTDFBRXJwUkF0XzRNdmZHbGozMWNnaA?oc=5",
+   "fonte": "El Cohete a la Luna",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-04T07:56:35+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
@@ -108,6 +118,16 @@
    "publicado_em": "2026-10-03T13:02:11+00:00",
    "via": "Google Notícias",
    "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaGpXcUNvemZIX1Qxb3RmZTNuQ0RsRUpkTjRUWmtLSVNZVmU3ZUJabjNYcTVJeHgyX3hDT180UF9BbXFneXp5U3U4NWVuYnpSNXppUkg2dXpfTkNEUC1vTWFwTThDVElaOThRMEk0VzVFaWJ5X2lQdjc4cDE3ODNrSE1ZejFMVll6bC1zX1F3QVoya3NpUDZZUVZhVWtQbk1ubklrSFJ6eUxKa1E?oc=5",
+   "fonte": "L'Humanité",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-03T12:19:57+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
    "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
