@@ -2,15 +2,35 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-04",
  "semana_iso": "2026-S40",
- "atualizado_em": "2026-10-04T00:27:11+00:00",
+ "atualizado_em": "2026-10-04T05:47:36+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 71,
+ "total": 76,
  "no_brasil": 18,
- "no_mundo": 53,
+ "no_mundo": 58,
  "itens": [
+  {
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQzJ4bGpYSDF0T08yekZnRHNPUUVYMFdtNl9HYkduaUNZOFVoRnZKWmxZN21Qd1ZGaTRhSmJYOU5HXy1tQ1UwLXZUM0dwcWxmM1FZbjQwZWJIb3pMdFU5blZOYkdTNjZGLUVoeTBHRzBBY1JsYm5OY1VVQXVBQ2t3a0dyQXFqajNiZFhBRkl1dk5kSmZEd3owY2ZfMm5tUC1X?oc=5",
+   "fonte": "Diario Época Corrientes",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-04T04:46:20+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQNmlmaGNNd0FTeVlfY1VIbjJncldpdjkyOEU3VnJjOC1GZGNicE5vRndRUUYycFlkV1cybWZhNm9wVEZQcW9NbWpIZ3JaQUNJTm1MZE1fNUFTbDd1YWtEVV9GZmh6X0hMQWFHYS1KbVhLYmVYZ24yRXBROGpwbmtiVUpuQ1FMRkV5TWxscVk0U0txdEJLT3pTU0tGLTFEMDZiY2Y0SFhEREN4R05IUlM4MFA3WmhZM3czTkZDbzlSZWVpUXIxWW9UeWJKejU3XzBROC1vQTMtV09qVnIzcDVIN2dsQmRycTVYTi1ERg?oc=5",
+   "fonte": "RMC",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-04T04:39:52+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "titulo": "‘The fringe didn’t disappear’: Expert explains how to combat online threats, antisemitic propaganda",
    "link": "https://www.jpost.com/diaspora/antisemitism/article-910319",
@@ -30,6 +50,16 @@
    "via": "Google Notícias",
    "feed": "radar-es",
    "categoria": "Radar por palavras-chave"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE94RXdGVHNPQlNFRnJKdm1ma2U4RUdVMy12dVItM0hmWGREaHlJMFg1b3AzRVc1WGRiT1JLV2tDLTV5OGNYeFRaVWNGZmtuMEQxdEVXZEVKcjhMLWJ6a09Ud014cTBQbXFja1E?oc=5",
+   "fonte": "The Jerusalem Post",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-03T13:02:11+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
    "titulo": "A Jewish journalist recorded pro-Palestinian protesters outside services. He was reportedly suspended from his job",
@@ -522,6 +552,16 @@
    "categoria": "Radar por palavras-chave"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQX2F0RmRHanBCRHYzZnluTUxRUGpWb1lqRUs5SkNfa0pqOTFPMDVTUXlmV3hKUW9RV2dteldfZ29Nc25XVlUzRm45eEhJSE4tU2FMbjl6Z1dIOEFNWVFLX2owNE9OMVhpZlAzRS1CRmItWVB0bzFSNjVGX3RSaWYycDlldndpUEE?oc=5",
+   "fonte": "The New York Times",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T15:24:19+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "titulo": "Bardella accusé d’antisémitisme ; l’extrême droite française dénonce une «déstabilisation»",
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVERwTkhUYXVfNXR2VGlsZjM2MWRJTG9BR2ZMTmtGZktvWWpDVEtsRDB2bVFseE5JSkJuUF9DbGppdnY1OXBWMHBHX28yZC1DQ09pczZZY0dhaHlXY1dMZEc4dEdxcTBQX0NDMjN5RXhKeEhhRDFoekJzUFBwclN4TXBqWVlCUmRRX0RPM1FHalJ2YU4tM01Id0JUR2hvLTU0dUhra1pxR0w5TmhkaWx0Z3B1bGZ5Zk0zWXREUTdIX0UtQQ?oc=5",
    "fonte": "Le Devoir",
@@ -710,6 +750,16 @@
    "via": "Google Notícias",
    "feed": "radar-br-justica",
    "categoria": "Radar por palavras-chave"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeU0xelpYZ2plbFFmU2dwVlhvbHN5clk5M3k1SGQ4aUR4NHFxOWVLSVRnODljR1FQU096S3haT2dFTFMwNHNIZzFJN1lUYVJwaEJkS21FaUJac01EQk9tUUo1dGNEU0N4X0I4V2J6MDJVWlAxQy1QUmpRaHB0YUNIeTNPMzcxMklwVkw1eG5ac2ZyOUVwamVxNE1nMHNVZjBscmlNeU91Z1hDSDZLV3Faa1BtRFM?oc=5",
+   "fonte": "consejomagistratura.gov.ar",
+   "escopo": "mundo",
+   "publicado_em": "2026-07-20T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
    "titulo": "Como o STF transformou a denúncia do sionismo em crime",
