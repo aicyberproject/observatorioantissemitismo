@@ -2,15 +2,25 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-04",
  "semana_iso": "2026-S40",
- "atualizado_em": "2026-10-04T15:15:07+00:00",
+ "atualizado_em": "2026-10-04T18:05:27+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 95,
+ "total": 100,
  "no_brasil": 19,
- "no_mundo": 76,
+ "no_mundo": 81,
  "itens": [
+  {
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-910578",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-04T20:51:18+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://www.jpost.com/diaspora/antisemitism/article-910566",
    "fonte": "The Jerusalem Post — Diaspora",
@@ -99,6 +109,16 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNEpCbjhRaEE0aTVlYkF1SDVnZlNOa2FtU0xEZjdCeVhEY19rVVlsRE5LcmFNcWk5SVhTTmdXRmVCS2ZSTjllZE9vQVJHM0lhd3pmbTZpUk9FX0I5b3RpaEVSWWJXUno3aG9FV2M1SC1IQXNsaDN4S2ZlTjhKY3RhTW41MkRLZXdRd1Zycnp4MV9mVzdyOUU4Y1RKckEwSnRtZ1lFVDROZ3ZucExiemNCOTFLS1ByRE01QW1GMF92MW1reTliZUFpX1NHbnZZbC02U0Nv?oc=5",
+   "fonte": "L'Humanité",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-04T10:15:36+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
@@ -218,6 +238,16 @@
    "publicado_em": "2026-10-03T13:02:11+00:00",
    "via": "Google Notícias",
    "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPekFyZGQ1cjQ5WnlYS2hfdHcxNmRfVzFDTjZ0TmRKaTdFR1dEYjctdUFWcHN6cThBRGV5alNFdWYzRzBoclV6YjNDb3JvamUydmJaQnluNUZtejcxalc4TVExWHE5RG53UnZmS3NkWFhwd1BVZjlDUmVuRER4aDJJY29NU1FrQW5kaUZMelp6OERMQ0M4LU85V3E0Uk5zWGFJTjdhaGI1NWJqZjZFVWVHMkRDZlU4TG5KSVZIRXg3Zkt4a1BiMmctVDBaWjJTYnBfdEM5X1dCMk8tNm45Y3c?oc=5",
+   "fonte": "Diario Panorama",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-03T12:28:28+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
    "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
@@ -372,6 +402,16 @@
    "categoria": "Imprensa especializada"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOc1lJNXd1S0pGdmJ1b0ozVzhudGcyT1pIbHowZndOam1lbWJHNWxRLVlUa1poTFhicXE4ZGFaR2paLUV0Mmw1MjFPcTlMaUlQb2lpbkhCUlFhS1lpd1A5ekxManhLOEQ3cVFFNnZsVEg0Q0FfYTh1Vk4tU3RIekI3dkctazJ0X3JMT2dLdW52TkE2SDhqVWdHaTlxQkNLUQ?oc=5",
+   "fonte": "CNN en Español",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-02T07:48:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "titulo": "Hundreds protest controversial antisemitism bill in Italy",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZDJzQjBVdmpiVEJ6UmRsQno1amVPNmQ2ajloazRvNlVjZkhqNnYwMllUSnRFeDllQVFiVS0wZ3RNanRySHhqUTV1QWpSdnJtcHhCZXJKTVBwdXFfVXlLVVlVamY2dXVKeVNCUlNCUzFuUUowbFhWS0s1MVBleVZPUjRxT1BqaW9udlV3VE5IY1FNWmk4dG4wMGJpQVNmdw?oc=5",
    "fonte": "Anadolu Ajansı",
@@ -460,6 +500,16 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNX2hUQTEtOGRWYVZlem5aLV9PeGFETENHdTZYTXpHUmtkSzNhMnpfaFJTczNURTBnaUx2eEJJd1dDaExnRmNfOXBNMjFTWVYwNEJWVV9UdEhndkdIWm5pS2pkZHZycU9VVEloQVA5MkRnUW8ya25heEVZeElCSWJNSHlKc1pIR0F5MUZvUHlHYU51MVVKUmxJU1dGYWI4djRWVFh0TkVnYUp4N1ZKMm95R1JnVnNpTGRE?oc=5",
+   "fonte": "El Litoral",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T18:14:01+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
    "titulo": "CAIR Books Ana Kasparian, Who Called Israelis the ‘New Nazis,’ as Keynote Speaker for Two Galas",
