@@ -185,8 +185,8 @@ def disque100():
 
     preench = tabela(
         "Preenchimento da religião da vítima nos microdados abertos",
-        ["Per&iacute;odo", "Den&uacute;ncias da base com a religi&atilde;o da v&iacute;tima preenchida"],
-        [["2023", "3,61%"], ["2024", "6,08%"], ["2025", "4,01%"], ["1&ordm; semestre de 2026", "14,06%"]])
+        ["Per&iacute;odo", "Den&uacute;ncias da base com a religi&atilde;o da v&iacute;tima conhecida (sem &ldquo;n&atilde;o sabe&rdquo;)", "No ramo de liberdade de religi&atilde;o ou cren&ccedil;a, sem religi&atilde;o conhecida"],
+        [["2023", "1,63%", "83,23%"], ["2024", "2,78%", "76,84%"], ["2025", "1,65%", "75,87%"], ["1&ordm; semestre de 2026", "10,13%", "52,56%"]])
 
     return f"""{ABERTURA}
   <p class="crumb"><a href="index.html">Observat&oacute;rio</a> &nbsp;/&nbsp; <a href="achados.html">Achados</a> &nbsp;/&nbsp; Disque 100</p>
@@ -239,17 +239,17 @@ def disque100():
 <section class="wrap section" id="vitimas-judias">
   <p class="eyebrow">V&iacute;timas de religi&atilde;o judaica</p>
   <h2 class="h2" style="max-width: 34ch">A maior parte das den&uacute;ncias fica fora do ramo</h2>
-  <p class="body" style="margin: 18px 0 0; max-width: 74ch">De 2023 ao primeiro semestre de 2026, entre 69 e 100 por cento das den&uacute;ncias com v&iacute;tima de religi&atilde;o declarada juda&iacute;smo ficam fora do ramo de liberdade de religi&atilde;o ou cren&ccedil;a. <strong>Os n&uacute;meros s&atilde;o piso</strong>, porque a religi&atilde;o da v&iacute;tima est&aacute; preenchida em minoria das den&uacute;ncias.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">De 2023 ao primeiro semestre de 2026, entre 69 e 100 por cento das den&uacute;ncias com v&iacute;tima de religi&atilde;o declarada juda&iacute;smo ficam fora do ramo de liberdade de religi&atilde;o ou cren&ccedil;a. <strong>Os n&uacute;meros s&atilde;o piso</strong>, porque a religi&atilde;o da v&iacute;tima &eacute; conhecida em minoria das den&uacute;ncias.</p>
   {judias}
   <p class="fonte" style="margin-top: 22px">Fonte: {MICRO}, 2023 a 2026; contagem de den&uacute;ncias distintas, por ano civil e, em 2026, at&eacute; o fim do 1&ordm; semestre. Confian&ccedil;a alta, com 21 como piso em 2024 (achados A30 e A37).</p>
 </section>
 
 <section class="band"><div class="wrap section" id="preenchimento">
   <p class="eyebrow">Religi&atilde;o da v&iacute;tima</p>
-  <h2 class="h2" style="max-width: 34ch">Preenchimento do campo e o salto de 2026</h2>
-  <p class="body" style="margin: 18px 0 0; max-width: 74ch">O campo mede atributo da v&iacute;tima, e n&atilde;o a motiva&ccedil;&atilde;o do agressor, e opera apenas dentro de uma viola&ccedil;&atilde;o. Esteve vazio em cerca de tr&ecirc;s quartos das den&uacute;ncias de 2023 a 2025. No primeiro semestre de 2026, o preenchimento subiu a 14,06%, ainda minorit&aacute;rio, por causa n&atilde;o identific&aacute;vel nos dados. Por isso a afirma&ccedil;&atilde;o de que o campo est&aacute; vazio vale para 2023 a 2025, e n&atilde;o para 2026.</p>
+  <h2 class="h2" style="max-width: 34ch">Religi&atilde;o da v&iacute;tima conhecida e o salto de 2026</h2>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">O campo mede atributo da v&iacute;tima, e n&atilde;o a motiva&ccedil;&atilde;o do agressor, e opera apenas dentro de uma viola&ccedil;&atilde;o. Considera-se a religi&atilde;o conhecida quando o valor registrado n&atilde;o &eacute; vazio, nulo nem &ldquo;n&atilde;o sabe&rdquo;, e a resposta &ldquo;n&atilde;o sabe&rdquo; &eacute; frequente. Na base, a religi&atilde;o &eacute; conhecida em menos de 3 por cento das den&uacute;ncias de 2023 a 2025, e, no ramo de liberdade de religi&atilde;o ou cren&ccedil;a, falta em 76 a 83 por cento. No primeiro semestre de 2026, o percentual na base sobe a 10,13%, ainda minorit&aacute;rio, por causa n&atilde;o identific&aacute;vel nos dados. A afirma&ccedil;&atilde;o de que a religi&atilde;o falta em cerca de tr&ecirc;s quartos das den&uacute;ncias vale s&oacute; para o recorte de 2023 a 2025. Crit&eacute;rio adotado pelo Eixo em 05/10/2026: a vers&atilde;o anterior contava &ldquo;n&atilde;o sabe&rdquo; como preenchido, e a mudan&ccedil;a foi revelada pelo script de refer&ecirc;ncia do kit &ldquo;Reproduza o achado&rdquo;.</p>
   {preench}
-  <p class="fonte" style="margin-top: 22px">Fonte: {MICRO}; percentuais sobre as den&uacute;ncias da base, n&atilde;o do recorte. Confian&ccedil;a alta para os valores (achado A7).</p>
+  <p class="fonte" style="margin-top: 22px">Fonte: {MICRO}; percentuais da segunda coluna sobre as den&uacute;ncias distintas da base, e os da terceira sobre as do recorte. Confian&ccedil;a alta para os valores (achado A7).</p>
 </div></section>
 
 <section class="wrap section" id="limites">
@@ -732,7 +732,7 @@ D100_NUMEROS = [
     (1940, "Violações do primeiro semestre de 2024, na comunicação de outubro de 2024", "violação", "1º semestre de 2024", DIV_TXT,
      "Com os 1.227, que a mesma comunicação dá como denúncias. Duas unidades na mesma divulgação."),
     (17, "Denúncias com vítima de religião declarada judaísmo em 2023, nos microdados abertos", "denúncia", "ano civil de 2023", MICRO_TXT,
-     "Com o número 1 do relatório oficial para 2023, que usa o filtro oficial. É piso, porque a religião da vítima está preenchida em minoria das denúncias."),
+     "Com o número 1 do relatório oficial para 2023, que usa o filtro oficial. É piso, porque a religião da vítima é conhecida em minoria das denúncias."),
     (21, "Denúncias com vítima de religião declarada judaísmo em 2024, nos microdados abertos", "denúncia", "ano civil de 2024", MICRO_TXT,
      "Com o número 2 do relatório oficial para 2024. É piso. Só 2 dessas 21 denúncias estão no ramo de liberdade religiosa."),
     (16, "Denúncias com vítima de religião declarada judaísmo em 2025, nos microdados abertos", "denúncia", "ano civil de 2025", MICRO_TXT,
@@ -766,10 +766,10 @@ D100_CONFERENCIAS = [
     ("c19", "Denúncias de 2023 com motivação em razão da religião", 642, "inteiro", "E.11.9"),
     ("c20", "Denúncias de 2024 com motivação em razão de discurso de ódio", 3088, "inteiro", "E.11.5"),
     ("c21", "Denúncias de 2025 com motivação em razão de discurso de ódio", 1356, "inteiro", "E.11.5"),
-    ("c22", "Preenchimento da religião da vítima em 2023, em % das denúncias da base", 3.61, "percentual", "E.11.11"),
-    ("c23", "Preenchimento da religião da vítima em 2024, em %", 6.08, "percentual", "E.11.11"),
-    ("c24", "Preenchimento da religião da vítima em 2025, em %", 4.01, "percentual", "E.11.11"),
-    ("c25", "Preenchimento da religião da vítima no 1º semestre de 2026, em %", 14.06, "percentual", "E.11.11"),
+    ("c22", "Religião da vítima conhecida (sem \"não sabe\") em 2023, em % das denúncias distintas da base", 1.63, "percentual", "E.11.11"),
+    ("c23", "Religião da vítima conhecida em 2024, em %", 2.78, "percentual", "E.11.11"),
+    ("c24", "Religião da vítima conhecida em 2025, em %", 1.65, "percentual", "E.11.11"),
+    ("c25", "Religião da vítima conhecida no 1º semestre de 2026, em %", 10.13, "percentual", "E.11.11"),
 ]
 
 
