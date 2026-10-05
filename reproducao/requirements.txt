@@ -1,0 +1,13 @@
+# Versoes fixadas, as mesmas da execucao de referencia (Python 3.12).
+# Para rodar o script bastam as quatro primeiras. As demais servem aos testes.
+pandas==3.0.6
+numpy==2.5.3
+python-dateutil==2.9.0.post0
+tzdata==2026.5
+six==1.17.0
+pytest==9.1.1
+iniconfig==2.3.0
+packaging==26.3
+pluggy==1.6.0
+Pygments==2.21.0
+colorama==0.4.6
