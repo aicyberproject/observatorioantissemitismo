@@ -2,15 +2,75 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-05",
  "semana_iso": "2026-S41",
- "atualizado_em": "2026-10-05T16:44:47+00:00",
+ "atualizado_em": "2026-10-05T22:28:47+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 93,
+ "total": 108,
  "no_brasil": 19,
- "no_mundo": 74,
+ "no_mundo": 89,
  "itens": [
+  {
+   "link": "https://www.algemeiner.com/2026/10/05/jewish-groups-slam-greens-zionism-racism-resolution-british-jews-face-increasingly-hostile-climate/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-05T21:35:22+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jta.org/2026/10/05/global/antisemitic-flyers-turn-up-in-ontario-neighborhood-where-a-man-charged-at-a-synagogue-two-weeks-ago",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-05T21:14:50+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://forward.com/news/853895/swastikas-abington-township-playground-yardley-golf-course-jewish-school/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-05T19:51:33+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVGdlT2JYRlNTd2pIN0J2Q0ozRGJHM3drS1JMLWczNlBhLTlBZFlVRWtGemROTHRqY1VLWUVJSkVvbDZEVzlqWDItM3IyYWl3SXEtWGJIZW0yQzd6V1dZRnlpcElvVDVTVWVTdk5DYlNMU2pOU1NJWDJZYzNZeHZUdDBJeU9HZUpmbHpOb2pSdEF2UkxfN29mRVE2VWhZTzFlbU9IclF5UFV6ZzNXbW9ZRXUxOTQ4Vkg1eENUcmdwT0FUZHNf?oc=5",
+   "fonte": "cuestionentrerriana.com.ar",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-05T19:26:47+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNT1pHTzI0bk1sWW56U08tckpKRmlXU09tMWF4blVMeUlISEpOczlPRUs4Mks5NWNEV1ZYUEZZNkthNWxBU1VaVWU4WGw5MU9BeGVHWEg3ZFc5QzFEMDJjcUtheW13MExhaEtBZHp2RXBYcXpyTWl6OFMzbGtwcXhXbUFiQ1BoTWxBYW5F?oc=5",
+   "fonte": "U.S. Department of State (.gov)",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-05T18:40:01+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.algemeiner.com/2026/10/05/selma-blair-announces-documentary-antisemitism-recounts-canceled-hollywood/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-05T18:34:16+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://www.jpost.com/diaspora/antisemitism/article-910684",
    "fonte": "The Jerusalem Post — Diaspora",
@@ -22,6 +82,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://forward.com/opinion/853877/die-linke-leftist-democratic-socialist-israel-jewish-berlin-afd/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-05T18:25:54+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://www.jpost.com/diaspora/antisemitism/article-910680",
    "fonte": "The Jerusalem Post — Diaspora",
    "escopo": "mundo",
@@ -29,6 +99,46 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbkk0VF9MRWJjcWszVDZsd3A0SDd1WDVFelVTcGEzNDdqdmhHenFNTGdnRUloNHg3MVpqQ2pyTXB6UDNfTEUxcW9YT1NFUXNZQVFwZDQ5ZTZTd3ZjNUNKRV9aV1pUaWdZeDgzeEJmVmQ5d1lTRUd2dlI1Ym9kN1Raekg4WDFLYk4tRTI0Z19TSE4zVEhSM290MXJrQlBZc1J1LTNvNGV1WEhRTm9hMkJhM0VB?oc=5",
+   "fonte": "Ecos Diarios Necochea",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-05T18:17:02+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://forward.com/opinion/852908/cleveland-jewish-federation-losing-donors-next-generation-israel-netanyahu/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-05T17:59:29+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRjFJZERBYmdJMUJneUZELWJjamF4T3ZTSXd5ZWRySTJwcEFJd0JkYWJiNklrTWhvT3YzUlVTNFgtNkM1ZTNYeFRQajUycXFLdS1mUTBvN1JrOW5kQVlidE5CQ0dwMHpGeHRUclVpYU0tcmtpMW1KUlZGSDJ5MlNCSjAyakgwbnFrUjVMcHptbEVvZFHSAZgBQVVfeXFMTlVlRkVaREIyNU15VlVfbG5OaFZtZ0c2bTQ0WlBPSHZmM2FST0ZNTTY3NUNXZF9oS2p3QURrYVpkOU1vbUhPd00wSjNMeTcwYVpRZE5GOENlQUpjenNOaV9GN2xRS2g2TUlLMk9PbnhzNjNMVGpUbW5nd0pzWmdoYm1XMWFadk9iMDR1Mmw3M09hdFZta2d5dzY?oc=5",
+   "fonte": "Slate.fr",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-05T17:55:01+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOeTB1MmpJVUFyRTNQZEtVb1gzc0JhUW52ZVY2bVhiMTRGLVRiWXN6NGVIRm9tM2RGcTd5WTM0OUE1SEhVdHlTdmZ5ajB3cXFsbEJRNDV2Sm9CVUd1bUk0cUh6SjNwdHpyaGtZd3FHMEhONFNVQUpkX3N0bHlzNFRLN2s3dEdfVnRSTXFKVzBhZDRsdTNwU2g5N0s5am12UjRSRUFxcmxlenZhQkYyaHVUNkppdWFGSDhBeGdROEpXd2VhajVJWEhmaFkxbkRaQQ?oc=5",
+   "fonte": "i24NEWS",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-05T16:39:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
@@ -102,12 +212,32 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://combatantisemitism.org/cam-news/a-reminder-that-remembrance-must-become-action-spanish-town-once-named-jew-killer-camp-adopts-ihra-antisemitism-definition/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-05T14:04:06+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTndCa2JGeHlqM1p4QTNDTzlta1p6dEdCTnFmS0pGbEo0Rjh6Y21jZWNGSzI0aGhhWFEycXh1SUd5d090dFU1NEx2RW12dlhsZGJtdkc2VXRheFM3ZUtKaFEwVVlsQk5CdGJObloyUUQ2RGppOGxjVnJqRGMwc3FEWXJsNWVLSm92RHVheFBPaHJMWkJEaWtqSWZGR1BfcW91elFPdVBjU2djNHVtWnpYY0tSM05DamdrT1U1X0xkVjBTcGJCOF9mTGVtREJYWkhH?oc=5",
    "fonte": "itongadol.com",
    "escopo": "mundo",
    "publicado_em": "2026-10-05T13:46:45+00:00",
    "via": "Google Notícias",
    "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQzRJQmpGQktDZVp5bTVMRHo4ZUVqTHE5UEY1dVpQV2pYUVl2UDFTOEk1R1BKRW5pYy1rRzZBT3hKSWFkNnh4dFZvRGVOMF93VDVtbjFCRUdpenJLVlFpWEpuekhsdjNJZXVwOHhMM2ZVNnpRZlctRW91RXJBcU5VeHBmWEFPWG9SVUZGZ0JoUWp5TkFfa1J4TE5VY3FWbFhsV1RORkphaXg?oc=5",
+   "fonte": "l'Opinion",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-05T13:08:14+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
    "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
@@ -302,6 +432,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaGpXcUNvemZIX1Qxb3RmZTNuQ0RsRUpkTjRUWmtLSVNZVmU3ZUJabjNYcTVJeHgyX3hDT180UF9BbXFneXp5U3U4NWVuYnpSNXppUkg2dXpfTkNEUC1vTWFwTThDVElaOThRMEk0VzVFaWJ5X2lQdjc4cDE3ODNrSE1ZejFMVll6bC1zX1F3QVoya3NpUDZZUVZhVWtQbk1ubklrSFJ6eUxKa1E?oc=5",
+   "fonte": "L'Humanité",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-03T12:19:57+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://forward.com/fast-forward/853637/a-jewish-journalist-recorded-pro-palestinian-protesters-outside-services-he-was-reportedly-suspended-from-his-job/",
    "fonte": "The Forward",
    "escopo": "mundo",
@@ -409,6 +549,16 @@
    "via": "Google Notícias",
    "feed": "radar-fr",
    "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://combatantisemitism.org/uncategorized/op-ed-celebrating-the-october-7th-massacre-is-inhumanity-not-solidarity/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-02T15:02:40+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
