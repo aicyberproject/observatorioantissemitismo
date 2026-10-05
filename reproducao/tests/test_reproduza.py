@@ -192,6 +192,26 @@ def test_nenhuma_linha_de_dado_na_saida(cenario, capsys):
         assert "XYZ" not in t
 
 
+def test_inspecao_nao_mostra_forma_de_identificador(tmp_path, capsys):
+    """A forma de um identificador (digito e letra por posicao) e quase unica e
+    funcionaria como impressao digital do registro. Nao pode aparecer."""
+    import hashlib
+
+    dados = tmp_path / "dados"
+    dados.mkdir()
+    ids = [hashlib.sha256(f"{PREFIXO}{i}".encode()).hexdigest() for i in range(400)]
+    linhas = [[x, f"2024-01-02 10:{i // 60:02d}:{i % 60:02d}", "SP", "NULL", "NULL", f"{LRC}>Culto"]
+              for i, x in enumerate(ids) for _ in range(2)]
+    grava_csv(dados / "disque100-primeiro-semestre-2024.csv", linhas)
+    r.main(["inspecionar", str(dados), "--saida", str(tmp_path / "saida")])
+    out = capsys.readouterr().out + (tmp_path / "saida" / "inspecao.md").read_text(encoding="utf-8")
+    for x in ids:
+        assert x not in out
+        assert r.mascara(x) not in out
+    # a forma da data, comum a todas as linhas, continua visivel
+    assert "`9999-99-99 99:99:99`: 800 linhas" in out
+
+
 def test_erro_de_leitura_nao_ecoa_conteudo(tmp_path, capsys):
     dados = tmp_path / "dados"
     dados.mkdir()

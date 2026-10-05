@@ -44,6 +44,7 @@ PADRAO_ARQUIVO = re.compile(
 )
 TAMANHO_BLOCO = 250_000
 LIMITE_DISTINTOS = 200
+MINIMO_FORMA = 50
 # Colunas cujo nome sugere identificador nunca tem valores listados, qualquer que seja a
 # cardinalidade.
 NOME_IDENTIFICADOR = re.compile(r"hash|^id|_id$|protocolo|cpf|cnpj|nome|telefone|e-?mail", re.I)
@@ -299,8 +300,8 @@ def inspecionar(pasta: Path, saida: Path) -> str:
         "",
         "Gerado por `reproduza_disque100.py inspecionar`. Nenhuma linha da base consta deste arquivo.",
         f"Valores listados apenas para colunas com ate {LIMITE_DISTINTOS} valores distintos, menos distintos",
-        "que metade das linhas e nome que nao sugere identificador. Para as demais, so a contagem e a",
-        "forma dos valores (digito vira 9, letra vira a).",
+        "que metade das linhas e nome que nao sugere identificador. Para as demais, so a contagem, o",
+        f"tamanho e as formas (digito vira 9, letra vira a) comuns a ao menos {MINIMO_FORMA} valores distintos.",
         "",
     ]
     if not arquivos:
@@ -341,17 +342,25 @@ def inspecionar(pasta: Path, saida: Path) -> str:
                 detalhes += [f"| {v if v != '' else '(vazio)'} | {n} |" for v, n in itens]
                 detalhes.append("")
             else:
-                formas: dict[str, int] = {}
+                # Forma de um valor so pode ser mostrada se muitos valores distintos a
+                # compartilham. Forma de valor unico (caso de identificador) seria
+                # impressao digital do registro, e a contagem revelaria suas linhas.
+                formas: dict[str, list] = {}
                 for v, n in acum.items():
-                    formas[mascara(v)] = formas.get(mascara(v), 0) + n
-                top = sorted(formas.items(), key=lambda kv: (-kv[1], kv[0]))[:5]
+                    f = formas.setdefault(mascara(v), [0, 0])
+                    f[0] += n
+                    f[1] += 1
+                comuns = [(forma, n) for forma, (n, dist) in formas.items() if dist >= MINIMO_FORMA]
+                top = sorted(comuns, key=lambda kv: (-kv[1], kv[0]))[:5]
+                tamanhos = [len(v) for v in acum]
                 detalhes += [
                     f"### {caminho.name} :: {nome}",
                     "",
-                    f"Valores nao listados ({len(acum)} distintos). Formas mais frequentes, ate cinco:",
+                    f"Valores nao listados ({len(acum)} distintos; tamanho de {min(tamanhos)} a {max(tamanhos)} caracteres).",
+                    f"Formas compartilhadas por ao menos {MINIMO_FORMA} valores distintos, ate cinco:",
                     "",
                 ]
-                detalhes += [f"- `{forma}`: {n}" for forma, n in top]
+                detalhes += [f"- `{forma}`: {n} linhas" for forma, n in top] or ["- nenhuma"]
                 detalhes.append("")
         partes += ["", *detalhes]
     if ignorados:
