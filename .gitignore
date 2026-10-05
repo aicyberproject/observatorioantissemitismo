@@ -17,3 +17,15 @@ data/historico/
 # Cache do Python
 __pycache__/
 *.pyc
+
+# Kit "Reproduza o achado": microdados do Disque 100 e saidas locais nunca entram
+# no repositorio. O sitio e publico. So o script, o mapa de exemplo e os testes.
+reproducao/dados/
+reproducao/saida/
+reproducao/.venv/
+reproducao/**/*.csv
+reproducao/**/*.bz2
+reproducao/**/*.gz
+reproducao/**/*.zip
+reproducao/colunas.json
+!reproducao/colunas.exemplo.json

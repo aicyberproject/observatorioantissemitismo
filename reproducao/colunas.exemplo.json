@@ -1,0 +1,20 @@
+{
+  "_leia": "Nomes conferidos nos cabecalhos de 2023 a 2025 em 05/10/2026. Copie para colunas.json e confira contra saida/inspecao.md. A coluna violacao e hierarquica (RAMO>SUBRAMO>SUBTIPO): o ramo Liberdade de religiao ou crenca sao os dois primeiros niveis; o subtipo, o terceiro. Nao ha coluna propria de ramo nem de subtipo.",
+  "colunas": {
+    "id_denuncia": "hash",
+    "data": "Data_de_cadastro",
+    "ramo_violacao": {"coluna": "violacao", "separador": ">", "niveis": 2},
+    "subtipo_violacao": {"coluna": "violacao", "separador": ">", "posicao": 2},
+    "religiao_vitima": "Religião_da_vítima",
+    "motivacao": "Motivação"
+  },
+  "formato_data": "%Y-%m-%d %H:%M:%S.%f",
+  "valores": {
+    "ramo_lrc": "LIBERDADE>DE RELIGIÃO ou CRENÇA",
+    "religiao_judaismo": "JUDAÍSMO",
+    "motivacao_religiao": "MOTIVAÇÃO.EM RAZÃO DA RELIGIÃO",
+    "motivacao_discurso_odio": "MOTIVAÇÃO.EM RAZÃO DE DISCURSO DE ÓDIO",
+    "religiao_ausente": ["NULL", "NÃO SABE"],
+    "religiao_ausente_variante_n": ["NULL"]
+  }
+}
