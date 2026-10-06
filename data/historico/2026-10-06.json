@@ -2,15 +2,96 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-06",
  "semana_iso": "2026-S41",
- "atualizado_em": "2026-10-06T06:00:25+00:00",
+ "atualizado_em": "2026-10-06T14:59:19+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
-  "The Times of Israel: HTTPError"
+  "The Times of Israel: HTTPError",
+  "Consultor Jurídico: HTTPError"
  ],
- "total": 72,
+ "total": 83,
  "no_brasil": 18,
- "no_mundo": 54,
+ "no_mundo": 65,
  "itens": [
+  {
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-910812",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-06T17:52:31+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-910814",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-06T17:42:30+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-910802",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-06T17:24:50+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQUVnTndDRGlldHloM1o2ajlFLWJnUE5OQ0FfeWp4a2dzTzAwRWstRTJmWUpnUjVTYngzaUY2S0RmVjE2YmZHZl9CWUNQeUY2WnowSm9rSW0wR3Y5V1ZCR3hRckpiRXYycVgxeE5kZHk5OTh1S2lkUmxYS1k1eFZEY1pQel9Tck1yNTB5WngyUURwN2dacnlxdndHMUg3U2ZmZ0RkOU9tNVNENElDdVlUOEhRZDVOYTRWbXVrNV84cjNTU19WZTZlTFFB?oc=5",
+   "fonte": "mediapart.fr",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-06T13:57:30+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://combatantisemitism.org/cam-news/cams-lisa-katz-mobilizes-northeast-mayors-for-regional-push-against-antisemitism/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-06T13:07:59+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcGYyN0pjbmNWbUQxSGRqTVpvWDA5ZGRwLTRBTHhncy1Ib0pvcnFsWWV0S0t4Slh0QkVvV3k3VFR3S1hJTTJESzRJd3pUVXRxNHJJM0dpV2Q3WS1MQ3dtV2c3dmpaSEZ1QkZpcTlYMlVNLTdtUzg5elV1Y2M4V2hrcDFHQW9KcGpyUTQ4MnhzaW4wU1daTzJNRTJRTWVYZ2NGTFlmejNGakxOLUFMcXBCNVhseEYxcjFta2RUTnBfb1hnMXJMWC1NckdfRDNNUk0?oc=5",
+   "fonte": "Religion News Service",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-06T12:34:40+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNQlNXd1hWSDN1cDF5bmMtN2w3R2N3RkthSGFrcTVPRU4weFpadDE1aWRvZFBEWDFDR04yYTVSODByQ2NZa0VDWXZHRkVjTEJyZV91cUlTeUhIeEtsQmVuUmxJdmNnUWlKSmpqT3k3cUdzaERmMXBJazREVkR0WVktenhpTURLcnB1WXBBU0RSNFc4Tl9MYWY2WTNVNFVwVF90akc5RjN2Y00zZjgxekdrbzZkVmNzcUcyeDU2QmVxWEhQSThVaVFhdUpUbXgzWlVYd2dIdmpkQmdQMWtHcWd4a042dGtwQQ?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-06T11:56:03+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQUw0MkJwT09naUVhRm1LU09QNGYzZGpUQjE1T0p0RGhnSnBvUGY1UFY1bzdqdDBBQVVsRDZzYlhMQjRvdllNSGZqZHhCN29nMHJ2eG5OUXhkMHhYbUNReElCcFFvZDA1cDk5ejVVWTNuSFM0dDRmUjdma3RkWXhuZ1pSdWJMSXhFYlhWT2VhcXVtZk1PRXVWT3ZkM2l4UQ?oc=5",
+   "fonte": "The Hill",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-06T10:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://www.jpost.com/diaspora/antisemitism/article-910732",
    "fonte": "The Jerusalem Post — Diaspora",
@@ -39,6 +120,16 @@
    "via": null,
    "feed": "cam",
    "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-910722",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-06T01:28:26+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
@@ -246,6 +337,16 @@
    "fonte": "Combat Antisemitism Movement",
    "escopo": "mundo",
    "publicado_em": "2026-10-05T13:32:37+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://combatantisemitism.org/cam-news/anti-israel-activists-plan-262-events-in-37-countries-around-october-7th-anniversary/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-05T13:22:59+00:00",
    "via": null,
    "feed": "cam",
    "categoria": "Observatórios e entidades",
@@ -489,6 +590,16 @@
    "via": null,
    "feed": "swu",
    "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWEJFcW9FSjl1YTlPMXBQclh2bTJsRGhyUUxjQktpU3dWSmFaWEJiX2hZSC1QZ19yQUdQWFhYdS1pa002WktWbXU3ZHlQbXJEcmQzVEVfZFBsV2QzOFgwSzJfTXkyNkNwMENVdzZtQUhWTUxyOEdDUXUwTEpBRjZCMEJDcHVLdFlGS3BobEZNQTBLdE9iQm5rcG9JZHB6eE44Mnc?oc=5",
+   "fonte": "L'Humanité",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T17:20:20+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
