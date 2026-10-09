@@ -2,15 +2,105 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-09",
  "semana_iso": "2026-S41",
- "atualizado_em": "2026-10-09T08:49:24+00:00",
+ "atualizado_em": "2026-10-09T16:55:28+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 89,
- "no_brasil": 19,
- "no_mundo": 70,
+ "total": 101,
+ "no_brasil": 20,
+ "no_mundo": 81,
  "itens": [
+  {
+   "link": "https://www.jpost.com/diaspora/article-911177",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-09T16:26:12+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jta.org/2026/10/09/ideas/the-black-jewish-alliance-isnt-nostalgia-we-need-it-to-defend-democracy",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-09T15:06:32+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPRVlHR2oxWFlpQ2Q4WXJLWklkM3JlTGQyWmhCb0FxVnhLWkNtVGFoeWwzUWlUTFVjaGxyZzdBSmxvbEtxNU4waW8xSjh6aEM4UkhLcHgzN21xSXg3MWVQb2ZqTldyRzczcFpFbHN1T1Q5a1Q2NlRHOGZEcHJBQ29PaU44dXlFQlBfdDhZRS0yNUp1U0xWcXI2WXpzanNVYnJ4U3I4RHNyRUVCTFg5eFpUV2I1QTlaaVkxUUVKV09JbnU2cTRSenR1c0dXSWRYVHJsNXlHTE0tc2x1UGpacWxv?oc=5",
+   "fonte": "L'Express",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-09T15:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jta.org/2026/10/09/ideas/hanukkah-barbie-is-here-and-she-actually-got-the-jewish-holiday-right",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-09T14:15:43+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-911161",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-09T13:32:18+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9jNHJlbmtOeTFReXRqYzZKZlgzTHp6dEdnM0ZERXh2UHF2Rkxrc2dsLVF0enkzeUhneFlXVEQ3ZklBWFZUVVo2b29wTXNpU1ZtRnoySDdxVUJOSkhHM0ZsR0VpVTZUM0dqMXhiOVRDQXNVdw?oc=5",
+   "fonte": "Revista Oeste",
+   "escopo": "br",
+   "publicado_em": "2026-10-09T13:26:58+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://combatantisemitism.org/cam-news/pennsylvania-law-enforcement-officers-trained-to-identify-evolving-forms-of-antisemitism-at-philadelphia-cam-forum/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-09T13:25:21+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQS1RqM0JFYnQ0LTM2elY3RUZ5LW8yektkZl9aa2IyUHNuZGR0SE9iSThzTExlM0cwYmJBdUdFc0VMaWZkaGE4TzRGVEJpajZ0bkxKMGs1cThKeVdDRFpLd3hBOGtlazBUX3ZHV09BOVRPdjFIbHBRZTZiLXBrekJwYjRVcFRsVlF1MjlZS3hmOWNYQUF1UnJsQjZGTzJicDNjeklCVFcwN0xXc0VDTFV0ZDlmMk1RVE41bTJPc1Vya0dtdmhLSHFfNXc0MlEtQll5WldncTF4QTExdzEzQ1ZROEpwUnlETTg?oc=5",
+   "fonte": "Valeurs actuelles",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-09T10:59:46+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWHpxTGdrT0w4X3RfaFNwVUQ3cVl0eUZud3VUZ1N0ekcycDZVZEg2eTNfYUp5cmVGeEVZUU9xeHcwU1pTN1g1VkFENTc1Xzg2ZWM4MzFDSklnYVJGWUxFMDlzcEpmOE5hR1lyOV9CU2RSdTlGWXctcXBMTUdxQ3diS2RHUVVYTFFYM2hTVDVaMVdCQTNCb0tvSkg4b2VIZFRUOFRNd1JSTXhCSHY3eUtncmNfQ3JaanpVekdpSEln?oc=5",
+   "fonte": "Le Canard enchaîné",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-09T08:25:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://combatantisemitism.org/government-and-policy/defending-our-democracies-means-having-the-courage-to-identify-the-threats-they-face-cam-welcomes-european-parliaments-call-for-action-against-muslim-brotherhood/",
    "fonte": "Combat Antisemitism Movement",
@@ -79,6 +169,16 @@
    "via": "Google Notícias",
    "feed": "radar-fr",
    "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jta.org/2026/10/08/ny/mamdani-says-he-signed-up-for-boos-at-israeli-peace-vigil",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-08T21:00:00+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
@@ -672,6 +772,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONGhXbW1JQzV6QUJsYmUtWVpfS0tiZGpOel9iTERNbi1QOG5QckJER0lKTjBhanhFeGNTX0Q2S0I0LUJ6NW9FTXlIWnBQN3JlaGtsdDhTazdxcXgxZUZTVFBNek01ckhiUXhVdFJ2Rl9FZnJPeURaVmFfNFdmSXB4TXJ4WUhlX1c4UlZjRHJn?oc=5",
+   "fonte": "Itón Gadol",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-07T04:12:04+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaUVNaWFWT3duMnhrSXR6V20zbFdOdlIwaXRoUWJOQW50ZWlKY293UE1hVjVjaGtYTDhKWE9melZ3RXVZUmdVNmt5S0xUNEdKV3hBNm1qaklfX0Z5VmNqYzk0YTB4NHVyeXd3V25MYzh1eUFiWnN6Wms0Zmhsc2FFbTgzb0t5OVJVb0E?oc=5",
    "fonte": "Christian Science Monitor - CSMonitor.com",
    "escopo": "mundo",
@@ -794,6 +904,16 @@
   {
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUHd5bERsRE1iODBpSVBvVFhRME9aV1h5ZnJGSjZpZE1FLXFpQlRvLU5uMjlkSFZ5YVo4ZHE5OVhBQjNpVzNjcHpQbS1tT1NzQm42Q3FNbllEWTY0NVQxbVZ0SjlGU3B4dTZHRVJFb2NuaVJrb1hWbERNZmd4WV9yUjZtdy1FWUtyUmFWZnY3bXhkdURmNDlWbTZ3WDdFYXkwZFUtS2UtaWEtckNtUkpMRg?oc=5",
    "fonte": "NYC.gov",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBxRnNldnFQbVE3amVrY3RtZHJ1OWo2cHRkemVuY1c0SGNBYjVUQTdhX3JJcnl0RWFPUHdBZFh4Rm5YSHlNRExrTkZuQzhkYjQxNlc5cnRIT1E?oc=5",
+   "fonte": "Britannica",
    "escopo": "mundo",
    "publicado_em": "2026-09-29T07:00:00+00:00",
    "via": "Google Notícias",
