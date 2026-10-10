@@ -2,15 +2,26 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-10",
  "semana_iso": "2026-S41",
- "atualizado_em": "2026-10-10T18:24:18+00:00",
+ "atualizado_em": "2026-10-10T23:24:10+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
-  "The Times of Israel: HTTPError"
+  "The Times of Israel: HTTPError",
+  "ONU Notícias — Direitos Humanos: TimeoutError"
  ],
- "total": 84,
- "no_brasil": 18,
- "no_mundo": 66,
+ "total": 90,
+ "no_brasil": 19,
+ "no_mundo": 71,
  "itens": [
+  {
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB4VmdNeFVsZmtaZ3A0bTR4Q0dHSGpQMmxoLVhRa2dRS2w3emNFLVoyWURfVGtTSHdzQXlrMDBfcjBXQjJqQkhmWHFPV2NqWjA5RFpqc0FxOA?oc=5",
+   "fonte": "The Jerusalem Post",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-10T20:50:09+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://conjur.com.br/2026-out-10/ofensas-contra-raca-em-desentendimento-gera-condenacao-por-xenofobia/",
    "fonte": "Consultor Jurídico",
@@ -19,6 +30,16 @@
    "via": null,
    "feed": "conjur",
    "categoria": "Institucional e jurídico (Brasil)",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTHJZZmVQZkEwQ2lOYm9ENmtRTmozaWx5cXdHTTNvYVhOdlhkUnExMzh1NDNPczNjZlNfdzRBYUVacThGdmI2NGdXN3p6QVJmcjFuZzRoUzFkRkdtY2U5SzBOZjNJOS0tTFhpM01yTWh5Vy1GajJWdWRNOXlJbzA3dGZfMHI3Z0wyOHlaQWhuUGhlYUNPbXFta25RekxsQldtNnczczlSY0ZjOHVTd3hlcGxnVXRxZEJtTnQxS0h5Y28wNkU3TmhFWXhIVHVXLWxpS1Fv?oc=5",
+   "fonte": "Itón Gadol",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-10T16:07:42+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
@@ -452,6 +473,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNekRLQmdZbDRoZ3g5dGJUb1l4RkYtQl9sWEpXdVZNa1hPOVdwTWJZREp1cFBFdnRJV25Qb1lqdTV2MVozblRid3ZDWXduUDZiRWVhOHNJNEE0MTh2dkpNVEtiaC1OLTlvSVZjbUtTWmxuTmprN3BweFlkS1VQUE8yeUlOb3VCd2NveHJtUHVQUGIyTEFqNm1nRGZVMA?oc=5",
+   "fonte": "Brasil 247",
+   "escopo": "br",
+   "publicado_em": "2026-10-07T22:08:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZ1RieWRlSEo5aFc5ZlNMMlhWYksyS19mR05vZks1MWRYVFBKTmJvclpoNXY3Y2FQVkgtUV9XbE04QURlN25iZGRxQ24zdEhrZktwX08wbmlSaXBiZHhNdkY2T0dUVUZaSE5hN3JtNTFxNVM4Rk13X3l0R3hPZmZZRm01VTN2Y1p4Nl9CSHJ3V1p2TkItS3R0aVZtY2JXUE0zZ25NOGdkeGNQcVNyY1FuSUdWQS1hTkR2WEh4MXVkck1iN0hsWWpN0gHWAUFVX3lxTE85cTVOTHNka1JWMHlEOTlObDR1cVBFNkp6WF82X2tVeUM3dzVNRVJmZHIzUjRFWkJxU21nV2hZZDRGTkNnVzFkM01nRk1JY183QWpqT3JxczNENWpGSVRjRnczOEpNM1ZGVWhBczZxN3pjWS1JNUlrZmJ5aFVUV0h1TTF4S1JyQWVETnN0TzhPdjBoZXI2d1ZKRG5VdlVISm5qc29lbDVPYWx3Slk4UlNlUmRleUZDSGZFMEhnS3NJU05fWWpCQ2Zhdl8yS1NWREdXUEhEMlE?oc=5",
    "fonte": "O GLOBO",
    "escopo": "br",
@@ -488,6 +519,16 @@
    "publicado_em": "2026-10-07T19:07:11+00:00",
    "via": "Google Notícias",
    "feed": "radar-br",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVDBQQnJuVkFYMGgtN3F0MFVZSTQ1YVozU1F6X0xrRW1GVC11cDhobWo2ZTFxRnk0VHdNVnpZRGxMMnFjZ3NJNDJaWmpFbkJWWEx5SGd0WDJQenJDMnJEaUdMVzhuQmhLUlNRX3ZwaEJNWnNGSjlwT0xseVNQRVFBVUlJcXh1QW93NmQ3a04ycVVCWjJEMkRkNFNBcmIxeEJLNTFLUzRlRGZTdXo2VUxZQUdGMEtVTGUxUDkxYVFudjZnZEtvZHcyZEpaeW13RGlqcXc?oc=5",
+   "fonte": "Revista Quórum",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-07T19:03:26+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
    "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
@@ -622,6 +663,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcHpYYVVpQ0NqaDZTdDAyeU94V0ZZRGxVQ3FkRUZaVm1hYTd4TjNOLXJ2azV6d1JtZFFobjM4RVNfNGJjR0Zla3hKVEcxMU4ydzZMWlZiTlJyVDRsR1RaYmZPcjhPaHRvREFBOEMwejd1dU0xVTFoSTlaMk15cm9zTXM3bFBJbEpVODhBNFJTSGloM1FrbWJjVkFCNWNYcU9xVXJBWnJIOWpQaXQzQldSY2ZoSElSa05RZlZJdEhaLVZJZ3lmdzRNUndocw?oc=5",
+   "fonte": "Euronews.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-07T11:50:15+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPR0xRMWR6WFdMZ2c0THRZSFdNZzlSWVppS3phdDNRUkVoVXJ2SUQzNDBhMlE5NnlSS0ExN1RHdmpQQVIwMTVIb0VyM2NJTXJyanJ0aDl4Q1lWNmt1VjJLUzkzSlpCOFVISS03RWdWMWZkLWtZUUY4cmNzTzgySVBoSW1kSlZKZEJLNGQ1M2F4VVBwZ3M0NXVZalBtZHdPVC1McTVaNHFlTzVVYk8wLWhpMDlsdXV6OUhKeGFUbHVHdW52ZHl1TDEwVUJpazhmNGRqV296Q1JxOTJpZENsSHVSRzZKUWhfaHRzVkREWmtUVUU1Q3ZWNmpGY0ZpMVBlT0NMMktYeHU4b0hQS211cmJ4OXVodDhhUXc?oc=5",
    "fonte": "Le Monde.fr",
    "escopo": "mundo",
@@ -678,6 +729,16 @@
    "publicado_em": "2026-10-06T00:42:37+00:00",
    "via": "Google Notícias",
    "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYjdJcEhoNEw3QWd2TWphek5jVTZhV0x0ZmJtUVFTcWdldFZOMWhKWlJUeWp2TVp5elJTLXVvWEplT0JvZnhvV0NXWk9QMzkySDJaWE9LR3dxZXpaX2lWRFF4QWVob2lULVFfQXVmWG9wR3RNTDViTVRPblVBRmxGanpNUlNSbGRkSGxUMmZlbTA5Z21kNHFDdlc5Y1BJQXV1TWZxajZtSlVGSjlhRFFHbll5RnEzQTQt?oc=5",
+   "fonte": "Le Grand Continent",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-03T15:01:15+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
    "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
