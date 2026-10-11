@@ -2,16 +2,97 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-11",
  "semana_iso": "2026-S41",
- "atualizado_em": "2026-10-11T12:35:18+00:00",
+ "atualizado_em": "2026-10-11T18:45:17+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError",
+  "Fathom Journal: TimeoutError",
   "ONU Notícias — Direitos Humanos: TimeoutError"
  ],
- "total": 77,
- "no_brasil": 18,
- "no_mundo": 59,
+ "total": 90,
+ "no_brasil": 19,
+ "no_mundo": 71,
  "itens": [
+  {
+   "link": "https://www.jpost.com/diaspora/article-911352",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-11T19:22:19+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-911336",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-11T17:13:10+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-911334",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-11T17:06:10+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRGpuSHlBR2J0ZWxHbjY5QWplSEtJZUVEN09FRVNaU25CaGY1TWlGNk5YRTdjMEtGSEdSc2xZZkJJOS0ybjFQNHktUTNOeUtWWElxYkVOYjROZ2pvUllsYkFWd2l3VTRBZC1OcWp2aXhid0wySEg4S1FDVmZnQndidGwtVUhBR3dIQmJzSnhSRW_SAZABQVVfeXFMTUFJMk02MldiMjktTHlaM2NiNWFlUFA2QVBHSzV2V1FnN0MzenVxQmRDeVB6ZVM1aHAtU3g4cG9RRXJiaGNyc3l4ZzRCSTdTNExBVHJJazZKams2Y0kxWWg4Y3VjUlVrcHFNNmNsUEtEVU9zeWozaVYyV3doUmlJS016MmkxcUw5bWNJV0t6bERj?oc=5",
+   "fonte": "DW.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-11T15:33:45+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQZk50cDNQYzc5aE5pU3FVMm5IRGlJenpENVdSMHJFVUFiLUl5UnVBcUF5enNKTUpLRXFHbmhVMFEwVHVyT19hamQ0VDR1aDBxU0xwVEJPTnRhU3BqUjgtYkhXY3J0S0JRX3R3Umc3TDJTUUdkWWg2NUJldklJX2dNMDVreEpzdmhKOGF2NHlMeVRQZmtsc21ocExCMWtqVHloQ3I2SWZhMHBfUzJqVDZNZWxFVnRDcVRaTmRrc0RrOFo0Sl9icmN6WXhtakNad3VXS2NVQXdtQVB4WEd3NHhPd08zemIwZVNGbXYtNlJPVG9pUlB6eVJXX2k1eGI4UlJzOHkxZHpIcnlxeEczTWlOMTNfNXc?oc=5",
+   "fonte": "Ouest-France",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-11T15:33:09+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPQnhqMkZER0FQSTZtekFyM0U0M0Fmd2dOMGVzNW8tQlRlTzhwdWNSdllaRDZqazVUQTlYeFR4M0oxcVJqenhQNC1hUXNMOE91cG1zUnExWjlLZXhrakxWZHpBQzZ1d2ZydHNTeGp2RjkzZGFta0VZRS1GVm5QOUluUjl4RzBqdTFkLUtnbUxUdlVya3VZVElBempkdC1xcWFJSDRWNi1sNTdrNWlVUXBSX2xUVUdLZ0NPR3NrZFl5LXB3Z25TeXhrVVhSR2drTExKaGNkQndOdnVvVGtpN3VEb1BvMzRXNzJIbWhOZDhwSHNTTEJGRHNyUk4tbFFrd1pf?oc=5",
+   "fonte": "L'Humanité",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-11T15:14:09+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZlpzUzIwMVh3bkpvSEdyVHpGUlhleV9kMU1uMV9NSEFtd1hfWTFjbkhqaWxNTE5vZVBFRGJnY2ZuOU1ldUo2NzFwVWJ2NTh1MXFDTXZwLXpqNllXbDB2VjIyU1Z2Q1diSlF6Q0tKUUxFS2hXTjRFV05YZU9RLVZrQg?oc=5",
+   "fonte": "A Terra e Redonda",
+   "escopo": "br",
+   "publicado_em": "2026-10-11T15:01:03+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBUNlloVlhoUkxlNG8xY3FxTTZkVTc1LWxoWjdXdEw2LW9MWHd1U1RaQTVlenBlSzN0ZWJWSGc0ZHNQNU1MNExJZ0NGa3FXRjJQS1RxRWt4UlI0SjFaUzNjZ2hoR3FQMG5mM3dYSUZVRmM1VmZjZUE?oc=5",
+   "fonte": "Itón Gadol",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-11T12:37:48+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://forward.com/fast-forward/855068/mamdani-faces-growing-pressure-over-jewish-nypd-commissioner-tisch-and-over-israel-from-left-flank/",
    "fonte": "The Forward",
@@ -433,6 +514,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObWx4Vkx5OUN2VHRqS1lRejNKQU5jb1RaNXhsVE9sRFluUjJudjE1dzBVTFhoZ0RnZXJxME43RE12em9TZFZ3YU1QUlFhZF9hWHZrVTJ5aTB1bHNEVVRfTVROeHdFcWZiMm9mZjd4djh3THBWYjJMNFc0aE5XOTdBdGlxOF9mQlpQa1NRNXVJQTJ6bjhpd1hqbG9VcmJpQ2ZMQW4zWV84R1AyMFo0cWZwa1o1bDJzTnZrUThkZ3Rsb2VIZ245VkE?oc=5",
+   "fonte": "Radionacional.com.ar",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-08T12:54:47+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaTZXYlB2RDYxQ29KU0xRX0hIWjFrTjc0dER1T0NiR3pGRDJLa3hMYW52XzZYRFpMbXc1NTQ4aHlUdmxPZUtkWVo1UmkyeS04UC1ySWlHbVE5bFBQZVRwWTY1elBUNW1vUTBHZWpNSzQ3WnpwVnlPbDhtLUN5UGNUOTdDMVhoVGMyQmtZQkl6QzktdHZmOVB0Z3Vn?oc=5",
    "fonte": "WSJ",
    "escopo": "mundo",
@@ -444,6 +535,16 @@
   },
   {
    "link": "https://fra.europa.eu/en/event/2026/webinar-explore-monitoring-antisemitism",
+   "fonte": "EU Fundamental Rights Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-08T09:20:35+00:00",
+   "via": null,
+   "feed": "fra",
+   "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "http://fra.europa.eu/en/event/2026/webinar-explore-monitoring-antisemitism",
    "fonte": "EU Fundamental Rights Agency",
    "escopo": "mundo",
    "publicado_em": "2026-10-08T09:20:35+00:00",
@@ -533,6 +634,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "http://fra.europa.eu/en/event/2026/tackling-antisemitism-digital-age",
+   "fonte": "EU Fundamental Rights Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-07T13:04:18+00:00",
+   "via": null,
+   "feed": "fra",
+   "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://fra.europa.eu/en/event/2026/fra-take-part-ihra-roma-genocide-committee-meeting",
    "fonte": "EU Fundamental Rights Agency",
    "escopo": "mundo",
@@ -543,7 +654,27 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "http://fra.europa.eu/en/event/2026/fra-take-part-ihra-roma-genocide-committee-meeting",
+   "fonte": "EU Fundamental Rights Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-07T13:02:19+00:00",
+   "via": null,
+   "feed": "fra",
+   "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://fra.europa.eu/en/event/2026/fra-join-ihra-antisemitism-and-holocaust-denial-committee-meeting",
+   "fonte": "EU Fundamental Rights Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-07T13:01:06+00:00",
+   "via": null,
+   "feed": "fra",
+   "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "http://fra.europa.eu/en/event/2026/fra-join-ihra-antisemitism-and-holocaust-denial-committee-meeting",
    "fonte": "EU Fundamental Rights Agency",
    "escopo": "mundo",
    "publicado_em": "2026-10-07T13:01:06+00:00",
