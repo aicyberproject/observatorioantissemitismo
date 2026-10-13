@@ -2,16 +2,85 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-13",
  "semana_iso": "2026-S42",
- "atualizado_em": "2026-10-13T15:49:59+00:00",
+ "atualizado_em": "2026-10-13T21:08:22+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
-  "The Times of Israel: HTTPError",
-  "Consultor Jurídico: HTTPError"
+  "The Times of Israel: HTTPError"
  ],
- "total": 90,
- "no_brasil": 21,
- "no_mundo": 69,
+ "total": 104,
+ "no_brasil": 22,
+ "no_mundo": 82,
  "itens": [
+  {
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-911608",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-13T21:37:30+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-911607",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-13T21:22:46+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://forward.com/news/855476/nyc-jewish-voters-israel-antisemitism-mamdani/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-13T20:37:02+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-911602",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-13T19:52:53+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.algemeiner.com/2026/10/13/french-holocaust-survivor-wins-2026-nobel-prize-chemistry/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-13T19:04:09+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-911599",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-13T19:00:13+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOQlk1SEZJNXhtRmp5Z182WXpma0kyTFg4c1dyblFKeGVhTmhGVGQtLWVIMDNJREF2bzhJRUdNR3FINUROVGVkQ3VXa1RLbUpNcjVFejlJMjNNaFFLai11aFJJRGdhM0UtWmFtaTZrMzhkTjQtTXRqZ1VESkNyd1lGUUFGTDBZNXcxaktZQk1pQmlzRmVwU0lLZEpyRE5qVkV2YTdFVjZsdmNnVlhRcHBvWlN5Y0RoLWNvc2xOWjZTRDNoMzVOYzlYcjl4bHBUYkphT0VGV1hYX1cxSFBkZFVfbGI3S2xnSUZyXzFOR0pJSEhTRm9IWEJhaDludngtWExWQ3ZVdExR?oc=5",
+   "fonte": "Diario Judío México",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-13T18:40:14+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://www.jpost.com/diaspora/antisemitism/article-911596",
    "fonte": "The Jerusalem Post — Diaspora",
@@ -20,6 +89,56 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMXVSX3NRMk05c1hldmpFUlRiR1laWXA2cWFmTTdFcGJHZVJ5NHJIMjRBZzFhUGc4Z0tCb212bTUwNHdOZU5aWFRMcm1OV1BjNEh6bEoySlhkeDNsZS1sekwxQXNWYmIyNWNSQU9GcFBvSFBJNFJJUHllNmxsdVNOVkZacHhldnVSS3VJVWRwd1JqdWxvQ1ZvZ3RXc29jZ3RzanFValhMVHFqOEFtbjA4WWlUcGJ1TEl3ZGMyWTZkNXhITmlrZVh3UGN4MWtvZ1VseERUSllNbkVvc0pIN1hnSlVZMXlkcG0x?oc=5",
+   "fonte": "Mediapart",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-13T18:30:23+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.algemeiner.com/2026/10/13/poland-antisemitism-anti-americanism-president-chose-washington/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-13T17:31:52+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.algemeiner.com/2026/10/13/campus-antisemitism-shai-davidai-kept-receipts/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-13T17:28:39+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jta.org/2026/10/13/global/two-deaths-in-manchester-synagogue-attack-last-year-will-be-probed-through-public-inquiry-britain-says",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-13T17:16:42+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbmg2MGpNZHRFVnF3d0JhaGl4UzhjY2wxMFluZ3hZM0xvR1NJc0t0Y3ptRVhnVXhpNnZCQTh6YXZvNTVWZkZfLWtqalNhc29RNzZCd2F2V0t4c2xneWxtY1BheWE0ME5uQnVKbWdfUl9CZ0ZkRWkwcEgxdEtmNWo2dll1YjNSWml3WmFhckRjNnByM2F6T0s0?oc=5",
+   "fonte": "Bethesda Magazine",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-13T15:53:03+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
@@ -47,6 +166,16 @@
    "fonte": "Combat Antisemitism Movement",
    "escopo": "mundo",
    "publicado_em": "2026-10-13T13:52:09+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://combatantisemitism.org/cam-news/shabtai-shavit-world-summit-on-counter-terrorism/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-13T13:28:53+00:00",
    "via": null,
    "feed": "cam",
    "categoria": "Observatórios e entidades",
@@ -879,6 +1008,16 @@
    "publicado_em": "2026-06-12T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWGc2VkU2MFpuS2RnRkN4ZmFCWXZiM1BVaGNNUzRqVktib2JybWlZN3JWTHhpd293NWtIWElqQzVUdTJUaEYzRHlScmpSbWFGcnRkYmxGckFySnJOcDIzSVdtcXNBR1N5QzEta0VQZy1YNW9xN2JzOXV6NXpuZl9STHgyaHVZNlRBZmdWNTVuQThTTE5HV0NyRA?oc=5",
+   "fonte": "Portal da Câmara dos Deputados",
+   "escopo": "br",
+   "publicado_em": "2026-05-18T18:47:36+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
    "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
