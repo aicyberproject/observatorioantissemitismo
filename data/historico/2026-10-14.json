@@ -2,15 +2,35 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-14",
  "semana_iso": "2026-S42",
- "atualizado_em": "2026-10-14T18:28:36+00:00",
+ "atualizado_em": "2026-10-14T23:06:14+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 120,
- "no_brasil": 21,
- "no_mundo": 99,
+ "total": 128,
+ "no_brasil": 23,
+ "no_mundo": 105,
  "itens": [
+  {
+   "link": "https://www.jta.org/2026/10/14/united-states/bomb-threat-hoaxes-called-into-four-u-s-jewish-day-schools",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-14T22:12:35+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.algemeiner.com/2026/10/14/bruce-blakeman-hammers-kathy-hochul-antisemitism-mamdani-new-york-gubernatorial-debate/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-14T21:48:25+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://www.jpost.com/diaspora/article-911723",
    "fonte": "The Jerusalem Post — Diaspora",
@@ -39,6 +59,36 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://forward.com/news/855800/nyc-comptroller-mark-levine-israel-bonds/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-14T19:34:24+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVndTa25Md25EZVFweGg2dk1OZ3dpN0xvWl9IOU40VWFxN1dyc1Z4TWoyZmFGYWpKR245alhqNG1yQ2tCcndMZ1pEWkZTblRuY213Q0hhZmloa3o2S3FMU3lCUEpyVnI2MFdiRlRqUVNTQk1PbjVrTGcxRGhncGdXVVdISmVoSGh6bk40YVhNYW1VeFpmeDhvVG1ITEJROFB6UlpZVUxkRVNvNjZKRjRicHhlVFA5ZEU?oc=5",
+   "fonte": "MyChesCo",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-14T19:29:38+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB3Q0dTdnBYLWNhWm1MNHdvMlY3bmVWR3ZRMk9Dd1lZX3VKbTFiQ1lhNDV1bUtkT1AwYmtQaVRZVFJkZjRzME5LUjRLalQ1RmtQb0NpTDNtTDVRNzlubTFaOGtWX2VNeksz?oc=5",
+   "fonte": "American Jewish Committee (AJC)",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-14T19:12:30+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
@@ -732,6 +782,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTkxySHVMdWJIRGs3Sk5kYS1nY0lCU01XWlNzcS1TRUxYYTltUlpRS0hzdkI3akFPa1RqVVBpSmU0cUlLcUxpQjVvNjlSOUJQZm5YQmZaNDVSVU1Pa2Vta0FYV1p2SXpZc3FGU3oteHVNNEtsUjVhWlZPTVcwa3p4Sk5jTUVZNjVzcjZKUWNsbS1aakphTmljV0Jicjhqc09KR3U3YjVSSzcyTmRUZ0NfRzRCN0hpbUZsS2FhbXhJZWZxcWRBVGc?oc=5",
+   "fonte": "20 Minutes",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-12T07:16:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYXozWlNSQVNGQm9HUk0wTzNMSWJEY2k2cVJfMFFRUE5xSkRDX1E2bmFNVTVEZUViczhwMDVzOGh0VS0wRGFBdmhZRWVpSHpSTG5PVGlmRF9iRFYtQTM4ZDJ3c0g5NExmei1BaEN4Tml2WUJIdUJCa3RPUmZzUlo1LUVvTWZyOUFRcDVncTNUaWM3WDJjMzA1YUZIWmcxSm1kRjc0VHJJbWtVNTA?oc=5",
    "fonte": "Inside Higher Ed",
    "escopo": "mundo",
@@ -1102,6 +1162,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTVduNElCQ1FQWWttTUVvTlhLM3laYzRwZWd3c0pPN1BfT2o0ZHNpeXZkQTVqS2c0U0pvaUJpVF9RbGlwMnhpel9la2tGTTV2XzVZand2NDQ2LXJHNC1vV1FvQWs4ZjMzWi1VZUVlQW1EZVRHbC00Nl9MQzNSYV9EUGRsY1RXQVRpTTNvUWpjLVB4dnBCSkZNc1ZoSm85NW92R0hTN3lSallWcmhZbXp1WmlBNV9WT01hbkRKY09uWUFKY1BZVjVPSw?oc=5",
+   "fonte": "G1",
+   "escopo": "br",
+   "publicado_em": "2026-09-29T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9qLUNzQ0k5b09LdFpETVlNT1dXYnRKRW9ETU5MVi1kZ0RZeFkxLTJVSGNDQ2V2aEgwUHQ2dUJQRVhXOXViXzhWbC1WYzhfLXVYOGdVbUx1S0JyR0l5NHk3UWhCQ0xKc0xiTWtEQlg3WUJ6VVZOb2RjV2FR?oc=5",
    "fonte": "Nova Escola",
    "escopo": "br",
@@ -1198,6 +1268,16 @@
    "publicado_em": "2026-07-17T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOeU1sd045UFVwUzd1aTh0ajE3RTZQVEQzdERkUGpramRyd0gtSndFRFNTWGdvWHczcmNSb0QtaHoxSzVRaHRGOUhHS3duSU1yOFJFVkJhOGlNcm9HbkhHY1oxMlB1YzRwckNWTzRKS2JjeGx1Qkdtc2NJbGRZNW40MzBTWWRYbWItNlpCWVoxcDBoalJ5SkZXRmVWLVNJVzJjamdUandVMVRpR3N0eng2VTViREMxQ2hhbHQtT2ZtbGdKMktITHpreG5TTlJjZ2FLQ08wY0lEWkMzZGo5eUg1WWZ4OVEtWVo5bFV4V2RZVQ?oc=5",
+   "fonte": "MPPB",
+   "escopo": "br",
+   "publicado_em": "2026-07-16T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
    "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
