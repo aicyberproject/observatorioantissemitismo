@@ -2,15 +2,25 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-15",
  "semana_iso": "2026-S42",
- "atualizado_em": "2026-10-15T04:17:02+00:00",
+ "atualizado_em": "2026-10-15T11:16:00+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 69,
- "no_brasil": 17,
- "no_mundo": 52,
+ "total": 75,
+ "no_brasil": 18,
+ "no_mundo": 57,
  "itens": [
+  {
+   "link": "https://jewishjournal.com/community/393253/two-high-stakes-church-state-cases-for-the-jewish-community/",
+   "fonte": "Jewish Journal",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-15T08:30:45+00:00",
+   "via": null,
+   "feed": "jj",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://www.jpost.com/diaspora/antisemitism/article-911754",
    "fonte": "The Jerusalem Post — Diaspora",
@@ -19,6 +29,16 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdU8ySzNoZHlxTlBYRjVoZFVZR19hUVlaaTlacmw5bFVBaFRkS0lkNVAxTGdta0otcUtZeVNpQW9Wc0dTRnFTM3NiVVB2ZWVoWFpRSTFiN3FsMW9DNzcyQkR1R1dKU0Q4UjVoVUdObGlTOGJ4b1c5WmhPOWN5djFTU0pVQkpPdVdUNGJCd1MteGpEWkNiU3NlSFFCbExvX2NvY3JlOVVwcDB3OG9tZE1WRVdNZzRHR19XdlAwa3l3MkVLaEFUSGc?oc=5",
+   "fonte": "Fondation Jean-Jaurès",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-15T05:02:52+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
@@ -332,6 +352,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOWFU5VGRYTlFpZThKSFpwbVR2OW9XZDJ3R1d6eGppU2tJSnBENEdTdEdxc0dSOGdtd0dLbU5kNFNQTG5EdmU4V1drYlBxQ1BoSVhmNTFtQ1JFU2dTVkpVRl9ndVo1WDczMGNJVUFQVXFnWkIyUTR0RENzS2xwX19nNTRSRmFkMTN0bWxDMWhiRkJTeUNPVERFU1RnYVVzX2NHaGF5bUhFLW5xUG1TTzgtTnRQRWtqWGtjTVFFQnpHQ0dDYUhWcjI0VlQ4NkhGb2N3WjdkMVhYN3JnWDlvcUZsY09uVWNQMjhud0xJXy1n?oc=5",
+   "fonte": "Itón Gadol",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-14T01:18:09+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://combatantisemitism.org/campaigns/job-opportunity-cam-is-hiring-a-deputy-director-of-state-engagement/",
    "fonte": "Combat Antisemitism Movement",
    "escopo": "mundo",
@@ -452,10 +482,30 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTUt5SXpDeVNWaUEzdWNkQ3NnT3hjTUIxSGNTVGtOUm1QbHZmU2hCYktlYmFNUG1jbXNZUmpoUTZKM1M1NTlGQ0RWbktrblY2UFV4cm5IcDRXazhCMTlVUUFxZ0s0clpyd2xfWEdQSk1haTBoNDV5TnFfTG1BNUNqMGlCX1lwUkt2SDdMQ2RWMXlYbEJHRWVjeFg5dUpOM1U?oc=5",
+   "fonte": "Bon Pote",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-12T07:10:16+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZlpzUzIwMVh3bkpvSEdyVHpGUlhleV9kMU1uMV9NSEFtd1hfWTFjbkhqaWxNTE5vZVBFRGJnY2ZuOU1ldUo2NzFwVWJ2NTh1MXFDTXZwLXpqNllXbDB2VjIyU1Z2Q1diSlF6Q0tKUUxFS2hXTjRFV05YZU9RLVZrQg?oc=5",
    "fonte": "A Terra e Redonda",
    "escopo": "br",
    "publicado_em": "2026-10-11T20:04:15+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZkU4U2x5RGQ2MVgyR2wyQUlpZTBmVWJEMVpGUS1vOXRYSlBzZ2R1WkNteVVHT0xSa3dlWHdfS0tTR3FBR2pWRjZKWjlfUWRxb2JER0d1a09wOFBtQXo5R2JJeXcwUmhTdmI5MFYzS1BvQkdsZ3BHdnlNTG5oeGF4c255ZmU?oc=5",
+   "fonte": "Estadão",
+   "escopo": "br",
+   "publicado_em": "2026-10-10T06:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br",
    "categoria": "Radar por palavras-chave",
@@ -468,6 +518,16 @@
    "publicado_em": "2026-10-09T23:13:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSzBrZUNpeV9qN1lseUg0azVBb2FVTjA0eWVJRmdYWHFjYTh0ZFFWNVVRRzJNU1dCdVA1aXIxY1M1VWNOUFoyY0RQQTZPZmRaeHZPY0xIMjVMaU9TREo2dVk1bExSMzgtcGQ3Tk5PcTBYeW1IbUpQMDY3b2JXMkFtZ3hTRUp3VExyaWxj?oc=5",
+   "fonte": "The New York Times",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-09T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
    "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
