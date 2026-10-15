@@ -2,15 +2,75 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-15",
  "semana_iso": "2026-S42",
- "atualizado_em": "2026-10-15T16:46:47+00:00",
+ "atualizado_em": "2026-10-15T21:13:09+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 89,
- "no_brasil": 19,
- "no_mundo": 70,
+ "total": 98,
+ "no_brasil": 20,
+ "no_mundo": 78,
  "itens": [
+  {
+   "link": "https://www.jpost.com/diaspora/article-911886",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-15T22:48:01+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWXZtcEMtX05aSmxpWG1zQVlOd2ZfWjBZUzFPY0tzc2xkclQ1dlVVaFJFNE1lSGFfOEthNnZkVmI5RmtVNWJaQm5VU2pDb2EtU0J4SzNhMlVSTG9OSU9ITGlMUGQ3V1k5cDViNU85ZlpRRGJYbDdMWGV1YzU3WmVQM29OWVFnbUdOVUt5ZUo0LW0xU2JrVHBvN3Y0NGhfakVFUGxObkZKQQ?oc=5",
+   "fonte": "Conexão Tocantins",
+   "escopo": "br",
+   "publicado_em": "2026-10-15T19:22:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jta.org/2026/10/15/global/irish-jewish-leader-shocked-after-hotel-cancels-over-70-rooms-for-antisemitism-conference",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-15T18:32:53+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcHBhakpzOXY1V0prakl3TmF1WnE2ZkV5bWFMVk13QVJ5VDhPanJHS2dqblNCU29UNjNrVkwxekpxWEdkdl9lc3ZINGNWXzk0Y2JnaDcwS2F3XzF6Q2ZFWndxMDBOM3Z3SWtCcGlycnF5TnVDSi0tZ1drSlZKejBfM2JGNnFXdWJ2TjFXMjhPWQ?oc=5",
+   "fonte": "The New York Times",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-15T18:18:46+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://combatantisemitism.org/cam-news/dublin-hotel-cancels-bookings-for-delegates-of-international-antisemitism-conference/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-15T18:03:48+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jta.org/2026/10/15/ideas/holocaust-memory-compels-us-to-reject-false-genocide-claims-and-face-gazas-agony",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-15T17:51:42+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://www.jpost.com/diaspora/antisemitism/article-911844",
    "fonte": "The Jerusalem Post — Diaspora",
@@ -98,6 +158,16 @@
    "publicado_em": "2026-10-15T13:28:06+00:00",
    "via": "Google Notícias",
    "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWFJzRkpCNEtTYUdJSXAzblZMM080am03bXJxenU3RmFPbnBuT3UtMV9MWWNBdXdDQWtMVDdhQ2tiWnhpdlpQTHpoWWZrQ1otUFkxRlRpdUNDeHQwOVkxSl96MXdqS21YOW0xbVBiSl9WUjExWEtSWGdkS2Z6V1BpUDA3ZEtxVGREUFlfcjRaSDlNRWwzdWNfREZaVUZTVm5pbjU4Zjl5SEszT1Z1TlFkNGIyaw?oc=5",
+   "fonte": "Presse Agence",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-15T13:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
    "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
@@ -522,6 +592,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMXVSX3NRMk05c1hldmpFUlRiR1laWXA2cWFmTTdFcGJHZVJ5NHJIMjRBZzFhUGc4Z0tCb212bTUwNHdOZU5aWFRMcm1OV1BjNEh6bEoySlhkeDNsZS1sekwxQXNWYmIyNWNSQU9GcFBvSFBJNFJJUHllNmxsdVNOVkZacHhldnVSS3VJVWRwd1JqdWxvQ1ZvZ3RXc29jZ3RzanFValhMVHFqOEFtbjA4WWlUcGJ1TEl3ZGMyWTZkNXhITmlrZVh3UGN4MWtvZ1VseERUSllNbkVvc0pIN1hnSlVZMXlkcG0x?oc=5",
+   "fonte": "Mediapart",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-13T18:30:23+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://www.jta.org/2026/10/13/global/two-deaths-in-manchester-synagogue-attack-last-year-will-be-probed-through-public-inquiry-britain-says",
    "fonte": "Jewish Telegraphic Agency",
    "escopo": "mundo",
@@ -569,6 +649,16 @@
    "via": null,
    "feed": "cam",
    "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOeks1R2xiQWNBamFIOEpJcnI0N0w5cjNGLUZnd2N2NlIyRFhVdjBvaWhnY3hJeHo0T2QzVG9KNVhVR3ljU2hPeV9lTmN5dmd0aHRLbzh5TnlheEhwd1phbUJxSjY4SjFBb2dfQVhNWlBaNm1QTjNRM1J4Uy1VYlctNW92RUVLN0RRSHdqeHptVEF5dFJxcXVxTmFvQndUMTVVVVRINXJUWTg1Nk1sVHhtU3FhN2dMYWJ3d2NWYWhMY254MEd2czVOVXo0TEdXTXBUN200YWlGUVFMbEMwQXc?oc=5",
+   "fonte": "Itón Gadol",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-13T12:02:05+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
