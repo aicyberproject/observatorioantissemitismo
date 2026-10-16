@@ -2,16 +2,76 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-16",
  "semana_iso": "2026-S42",
- "atualizado_em": "2026-10-16T13:09:16+00:00",
+ "atualizado_em": "2026-10-16T17:55:24+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError",
   "Consultor Jurídico: HTTPError"
  ],
- "total": 85,
+ "total": 93,
  "no_brasil": 20,
- "no_mundo": 65,
+ "no_mundo": 73,
  "itens": [
+  {
+   "link": "https://www.algemeiner.com/2026/10/16/algemeiner-ceo-joins-israeli-security-experts-at-counterterrorism-summit-to-confront-global-antisemitism/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-16T17:49:54+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://combatantisemitism.org/special-features/hitlers-long-shadow-on-the-nile-why-the-nazi-leader-remains-a-potent-political-symbol-in-egypt/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-16T16:40:04+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jta.org/2026/10/16/sports/a-jewish-nba-season-preview",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-16T15:00:00+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVWEwTFIwZ1l3VTE3cXgzNDdiZG1GU1NXaUNteHBNdnB6eGRlQ2cySy1NX2V5VHJVLVBQdjc0bVBDUjRSUkh1V25CNk1tMThrRGtWR1FGUExkYVlILXUtbjZMcTBfSmVmdllLMkY5bEtIMWgtcHhtMHZJMGFGNW5lWmY4M0h1Rm5yWHBVeUJFZ1dmTVVRYVQ4OWxtdGNpNE9HSkM0?oc=5",
+   "fonte": "Yeni Şafak English",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-16T14:56:57+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMDN6eGdJNXBQanFEZWY4ajBxUXptWHBHN3lnWGdPNWh5LVR1bVBXU25LQ294bDkwdzhHNkhjMUZGX3UtMzJmbTB1ODBJZ21ub2JXYmpzNFFKYTZROUlxU2NnZ2R5Ym1RVk1iZnlSTmJreVNQVHgyUmJBVllLT2dRMGNLUkVEakZPdUktNng1NFFHSU5UaXpNYzFOTTNtUHMxdVJKNnFQS3lSdFlFWVpQM2RZY3hnM2tHODBDdlhqcVUxS0xObWpBdHcySGFjSy10d1I0dWVHYXU1d2huamFUaFViaw?oc=5",
+   "fonte": "Marianne",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-16T14:30:04+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://combatantisemitism.org/cam-news/azerbaijans-hijab-controversy-is-about-more-than-school-uniforms/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-16T14:02:11+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaFRWdjRvbi1DaHNiY1dKal81M2tsNzBITkNoZk9RWjlzUExHWE12RV9LelJGQm5UQzZLZVhwdkdJOHZBYV9JaU1aVTgteERLdVJvQzdGSGVDWmdPWVg5MENxMlNmVnpleW5KVjdmMDNHaHZvaFVIZmdNd19WWG4wdFpfb1diOXRsWnlUT1l4M0M4TW9DYTFVWEJ3WmpvSEdlQTZPRFktdnY3R25JMVM1WnNoX2hPYjVnN2dIVWNoY3pXUzlSdnBGX0NmazY?oc=5",
    "fonte": "Anadolu Ajansı",
@@ -40,6 +100,16 @@
    "via": null,
    "feed": "fra",
    "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQV1dqeXZCNVFtRDJnWjk2REcwRkw3MmVsRFhyMWVxaGNuX0YxOWJ5SzVjSzBDMWtUZy1rMzVtZWRRTEtFOTdwY2VTaE5ma0J0eFd5azl0NTd4TUp0WnJfUHlFbUVtSjJsMVg5ZmI0Rm5MSzR5VTUxaVQ0MHJ4Nm5hMldsaEtVMENwU3VyNllJX2V5bTA0ZlJGWWIxRVZHQzE2NTZRTXZkVHFQcDEzZnJ2MGxHWE9IWmt2cHlnNVpWakRXTkNTX09sY2tB?oc=5",
+   "fonte": "Le Média",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-16T06:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
@@ -570,6 +640,16 @@
    "via": null,
    "feed": "fathom",
    "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYk9sVmxPWEs3Qy1UNFAySFd4YmRCMzZGbXU5YUFtZkhiZEQwalhTMWhqU3FSWlJabm5YQjlYc2JnMTZaaTlESmI2dEtxYjE2Yy1RLUxsMHdBckhlZHdqRV84M09wTUFoMzhnWDROZU55cnJvOVNqblRvVk04T2NPZDFaRml5SExXa3ZJcl95Ti1XakdmZlZTSVJKZ3NWb0FUWDNDN0xDVlYzUFVIX0ZVY0FIMnFGRGVUVldQRjAzbXc?oc=5",
+   "fonte": "Reuters",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-12T16:07:58+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
