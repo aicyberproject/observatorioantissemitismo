@@ -2,16 +2,46 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-16",
  "semana_iso": "2026-S42",
- "atualizado_em": "2026-10-16T17:55:24+00:00",
+ "atualizado_em": "2026-10-16T20:53:18+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError",
   "Consultor Jurídico: HTTPError"
  ],
- "total": 93,
+ "total": 99,
  "no_brasil": 20,
- "no_mundo": 73,
+ "no_mundo": 79,
  "itens": [
+  {
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYzJjWEVGejhwUDlmTXdDQlFDT1JnU2hKeGhsdG8tcDB0NEoyUTctdWhPaktkU283aVJ0ajNqV1FnVFdjbVl2dlZaaF8tME9hellGUUhfOWUxal9ORXBMVTZWb3lUSG5RUUVSVkdNcTFrMXRtZk91M2kwQ25uZ2pwVzNWc2xuUlM2QkpZLWJTMEtNUDdrSERWdnZEU29uVEl0TW1CSDZ1UmhyVWRSV2c?oc=5",
+   "fonte": "JNS.org",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-16T20:01:24+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNdjhuQ0Z1Y1h1VVRBMWRyanZMY2VFZ0p5Mk5DVXVBOHhKMjJCd0E4aU5tdGY1YjlHbmEzbzBxRDNHbDFlaGtiVUhNWEdJa0pJcmhPakJRWktWbG15eTFPM3IxTzE0YWRGd1UwRlN3b0liTzFUUk9YVlp0RDh4eFFkUTZ6cjdTTEZhbG5hU0tGRDg0YVgzSFZQVGhXbWpEdmhueW9DV3RKRlFxOENFdVBTUFNBVkFKREtKa0RrZ2xlRF9EajVfejNVS1FWYTB2RlVHSGh1cXNheWNLYTI4UGpzRW1veG5SdHo1?oc=5",
+   "fonte": "Mediapart",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-16T19:56:49+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jta.org/2026/10/16/ny/gop-incumbent-lawler-and-democratic-challenger-conley-compete-for-jewish-vote-in-ny-17",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-16T19:12:41+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://www.algemeiner.com/2026/10/16/algemeiner-ceo-joins-israeli-security-experts-at-counterterrorism-summit-to-confront-global-antisemitism/",
    "fonte": "The Algemeiner",
@@ -20,6 +50,16 @@
    "via": null,
    "feed": "alge",
    "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNY2M0SHZRemVtQWN5SW5WelRwSVY1c3oxa25VMjJ5dWlFSXpwa0J2X3lkRnRyc0dranJSU1E0U0x1VzM4TzRMYlFjbDNad3V6S2RheVNGc1JTa3FYNld4eGhZS0V6dW00b0Y5dVlJRkdMQzRucUVKZEZTRFpPVld6Vkl2M3F6ajZRS3BjY0lXTEFLUU5wQ01qWG1pQ2hIMmp4N0ZGc2dLN295akptMkFFdEdTN1dvRG9JOW9jczJnM0hCNjlTZG9hY2Vsc2NCVHY1bl9lSU1WWGdfT2M?oc=5",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-16T16:52:26+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
@@ -423,6 +463,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://forward.com/fast-forward/855905/bomb-threat-hoaxes-jewish-day-schools/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-15T00:23:22+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://www.jta.org/2026/10/14/united-states/bomb-threat-hoaxes-called-into-four-u-s-jewish-day-schools",
    "fonte": "Jewish Telegraphic Agency",
    "escopo": "mundo",
@@ -460,6 +510,16 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://combatantisemitism.org/cam-news/lithuanian-man-fined-550-for-nazi-salute-at-auschwitz/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-14T20:19:34+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
