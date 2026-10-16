@@ -2,15 +2,46 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-16",
  "semana_iso": "2026-S42",
- "atualizado_em": "2026-10-16T06:59:28+00:00",
+ "atualizado_em": "2026-10-16T13:09:16+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
-  "The Times of Israel: HTTPError"
+  "The Times of Israel: HTTPError",
+  "Consultor Jurídico: HTTPError"
  ],
- "total": 79,
- "no_brasil": 19,
- "no_mundo": 60,
+ "total": 85,
+ "no_brasil": 20,
+ "no_mundo": 65,
  "itens": [
+  {
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaFRWdjRvbi1DaHNiY1dKal81M2tsNzBITkNoZk9RWjlzUExHWE12RV9LelJGQm5UQzZLZVhwdkdJOHZBYV9JaU1aVTgteERLdVJvQzdGSGVDWmdPWVg5MENxMlNmVnpleW5KVjdmMDNHaHZvaFVIZmdNd19WWG4wdFpfb1diOXRsWnlUT1l4M0M4TW9DYTFVWEJ3WmpvSEdlQTZPRFktdnY3R25JMVM1WnNoX2hPYjVnN2dIVWNoY3pXUzlSdnBGX0NmazY?oc=5",
+   "fonte": "Anadolu Ajansı",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-16T12:48:05+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNUtVeEZFeEhTWlgxWVBjV200VV8tSVNBT0U4MHIxQU5LUGkyV2RZUXRqcVkwckVDV2xycGxTMzhpVVpySDZBMGMzbXlxeUVjZUdIMGlHdkt0TlBoZ1J4T2tieWxfRzlyR1otczRwMzNOT0R4RXNvbGxUZTNMZnUyRnFjNVJUcXN0R2o2bmQ3RWVTcm1iTlhJcTNhTFZxY2pabVpTaDlUTHlBVGc?oc=5",
+   "fonte": "Canal Doce Misiones",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-16T12:36:53+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://fra.europa.eu/en/news/2026/fra-contributes-forum-combating-antisemitism",
+   "fonte": "EU Fundamental Rights Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-16T09:19:25+00:00",
+   "via": null,
+   "feed": "fra",
+   "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUkRNZlNmQTRrUEstRFllc3h6akdYTlNhblRjcFJ6c0xMZUkxQ2R5dHNLd2NqVkJmR3B1RUx1WndOTi1UOGNNdW9Gakw5cW5RYllGeC1tMjZMdzRwNjk5RmlYd05ic2Z2bENIWUIzMEJTSzN3Z09QWTVKcXdYWWFQeFNJWVJVblF1cGJ2Q1k0enlORk1QRkRnRlBnSzZZTHo1cmRSckVhUGEtWE5KcEloYVUzeGdIR25TWlJxY3pwTk5tLWpFZGFDTkRJYWE4RXpScWpBQUJmU0djQdIB9AFBVV95cUxQenpoSmRBZDA4VXBmRmhxaFpCQVZUNVpxaGN5MVpHbzV6aU5LU0swTEpBVktFSmtPY3I4VmxHcXpOVzFPTUd2ck4wSzJQTDVLOFFtUUJfZnRXc2tWa1pqVzhtSVJ5ZUNfa1VEUURUelFJRmIza1hGYWpYWjd0QWRWbGliZS1HOGxJQWJDaTBwWTNHREZsOUdacXBnUHY4RkZvdjc5OXhSck1ESG5CQ25HbkljbENzVk5lTVZPT1BzNkNRQ1hUbUVpbGp0eG52VFhUNEJ2NHBpMU8tdkVhaHhEaVBET2stQ2EzWXRJYTdLbXlFUWtO?oc=5",
    "fonte": "Infobae",
@@ -452,6 +483,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOOUc4bWd4T2Ric2lSLXdGRkY2cXV1eTEwdnR6YlgwT3pnVHFMaVA3d2V5aGNKMXNmUXRvQzdldl91ZEVrVDliU0tZb0hYWnNJWWJSMVZBTk5VV1htM2RCeUx4a0lKQ1RyVkt2aERTVjNVamdjSWNsQ2I4QnJYR1BleDNtaG1Xd2JGSFFjQjhHenc3YWhVN3N4eXRuc0JiN0JBM1pYelJLZGFhTkJCN0NIUW9yYlFEcWpXclFWSGJlRG4wZ3ZEbnlhbGpPWGtxMDFIOW1ndGdnbTcxUUQyLWtTenN1TWgyVHQtMzBxOUU2T2ZxcUU?oc=5",
+   "fonte": "Terra",
+   "escopo": "br",
+   "publicado_em": "2026-10-14T11:30:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcFdVUnRnZVhHUVlTNmtzeFY1cEtJOXo0NHhOTDZRVFhRQ1Y2c0tJdXB3dDFXRVNvanAxNkxpdGxscDZhSjN4c083SW1wVUhIU3p6WWtfemQ1MlZwMHZLOXY5ekVOdnRxMW00T09XU0xwQlBvVGhTQUdPS0Q3ODl5MWFESFB0TEM3dExhenZ5RE1UOUEzMGo4Q1d1WmNvTzRSeWxGSTVUc2oyeWgyWVM3LUQ4Z2FpaE5mb0ZQUFhtdGVHSGtkT1V4VWxpQ3RPVTdCUGJfZlFXMG1QaXRadnRLaFBZQWRzQjJjMlZYT3ZpZ0Y5dw?oc=5",
    "fonte": "i24NEWS",
    "escopo": "mundo",
@@ -688,6 +729,26 @@
    "publicado_em": "2026-09-29T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBxRnNldnFQbVE3amVrY3RtZHJ1OWo2cHRkemVuY1c0SGNBYjVUQTdhX3JJcnl0RWFPUHdBZFh4Rm5YSHlNRExrTkZuQzhkYjQxNlc5cnRIT1E?oc=5",
+   "fonte": "Britannica",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUHd5bERsRE1iODBpSVBvVFhRME9aV1h5ZnJGSjZpZE1FLXFpQlRvLU5uMjlkSFZ5YVo4ZHE5OVhBQjNpVzNjcHpQbS1tT1NzQm42Q3FNbllEWTY0NVQxbVZ0SjlGU3B4dTZHRVJFb2NuaVJrb1hWbERNZmd4WV9yUjZtdy1FWUtyUmFWZnY3bXhkdURmNDlWbTZ3WDdFYXkwZFUtS2UtaWEtckNtUkpMRg?oc=5",
+   "fonte": "NYC.gov",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
    "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
