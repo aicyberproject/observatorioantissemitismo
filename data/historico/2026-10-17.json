@@ -2,16 +2,36 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-17",
  "semana_iso": "2026-S42",
- "atualizado_em": "2026-10-17T06:49:29+00:00",
+ "atualizado_em": "2026-10-17T12:05:23+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError",
   "Consultor Jurídico: HTTPError"
  ],
- "total": 75,
+ "total": 78,
  "no_brasil": 18,
- "no_mundo": 57,
+ "no_mundo": 60,
  "itens": [
+  {
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-911967",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-17T14:54:59+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jta.org/2026/10/17/united-states/in-pittsburgh-a-campus-antisemitism-reports-authors-neglected-to-speak-with-jewish-students",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-17T10:00:00+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPQUZQNkpVQjhkejFBR1pjUmt5NzFDekdjZ0t6OE1sWGpvR1RrTlVmekEtWHNhOHdtWTEySXdlcFlGTGk5cWJWT1VqUkVHNkljamk2S1c1dzhzbU45ZmYweHhVTnhvTWhVTWpVMUhSNUp5eTZ3Yy10N2JfLVNLSWxFU2JRY1hCRkpqSEZxemtvUmxqWGZFRnhQMnlIa2ZMOUlJQ2J0X0VyVThqRzRjTjF2R050cU9YRnB0ZWQxUFVJR3dmbEtXV3BHLTl4TEVMY1Nkdy1uUGh5SDhTQUtDemR4NTNBSTk1M2txc1FxclAwZVlLY1VaQldNd1dxTDN1RTkzd3UwX1FYS0lvRzJJVjdGLUZkbWlHRHNUcU54M3U0cmJTN254SmF4Rlo0SlpSd0wtbEctTVlB?oc=5",
    "fonte": "Combat Antisemitism Movement",
@@ -229,6 +249,16 @@
    "publicado_em": "2026-10-16T06:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBfRlpSeElUdV9sUVZEeTFPRnE4SnczWFRuTkZwSFlFZm9vVmExOURFclBVYlp0WVVadDRCbW5HTmFyaXlWYk9lemFnQ2JIOENLODJ3V1MyYktIYXVNd3NlNFR5Nll0NWp1RnZKdnVVWGoxT3VkaUh1T09nUQ?oc=5",
+   "fonte": "Radio del Plata",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-16T01:12:31+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
    "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
