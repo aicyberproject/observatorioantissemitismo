@@ -2,16 +2,36 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-17",
  "semana_iso": "2026-S42",
- "atualizado_em": "2026-10-17T16:57:20+00:00",
+ "atualizado_em": "2026-10-17T20:26:09+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError",
   "Consultor Jurídico: HTTPError"
  ],
- "total": 87,
- "no_brasil": 22,
- "no_mundo": 65,
+ "total": 90,
+ "no_brasil": 23,
+ "no_mundo": 67,
  "itens": [
+  {
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-911811",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-17T20:37:00+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4xWnpETjN2UW9sdEQtaEVidThkZXZXYVhxZjU5ODJvUVNMTXZzSTcxTEF4Ykdaclg2OHAxM3RGNlBxMW5tdTNfeXZyaEtoTi1xRkJhZldiUGpESmxNU3Nwdll6bklnc2JSNjNBME5Uc1BmMDdXM2c?oc=5",
+   "fonte": "RTS Medios",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-17T18:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://www.jpost.com/diaspora/antisemitism/article-911967",
    "fonte": "The Jerusalem Post — Diaspora",
@@ -584,6 +604,16 @@
   },
   {
    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNSG4yV255bmhWdXNMWk9PT3Q5RDhnVTR4N0FnZWh2VE11TU96VV9rb3FkaUk0VTNOai11SzdmTGI2SmVmbV83bFhXZnFrWHVNT3c2SDltLVZGS2N4NkljTFFUYVhzYllybDROMDljaWw5OGxJNDE0VHdlNERPT0w5amtWYWN1Tnhlb0xwTW1oY3ZqU2FUOTU4RFNfcklBVDJNQ1liM0JSbG5wZXVWb3JyR05sVXJlY1BqZzBFbk1LUXItdFhIakNhaU1zenNRRGFySDhQb3pVVVNwQWw1V1ZYaVhsSW1zZ0k1ZEE?oc=5",
+   "fonte": "Terra",
+   "escopo": "br",
+   "publicado_em": "2026-10-14T11:30:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOOUc4bWd4T2Ric2lSLXdGRkY2cXV1eTEwdnR6YlgwT3pnVHFMaVA3d2V5aGNKMXNmUXRvQzdldl91ZEVrVDliU0tZb0hYWnNJWWJSMVZBTk5VV1htM2RCeUx4a0lKQ1RyVkt2aERTVjNVamdjSWNsQ2I4QnJYR1BleDNtaG1Xd2JGSFFjQjhHenc3YWhVN3N4eXRuc0JiN0JBM1pYelJLZGFhTkJCN0NIUW9yYlFEcWpXclFWSGJlRG4wZ3ZEbnlhbGpPWGtxMDFIOW1ndGdnbTcxUUQyLWtTenN1TWgyVHQtMzBxOUU2T2ZxcUU?oc=5",
    "fonte": "Terra",
    "escopo": "br",
    "publicado_em": "2026-10-14T11:30:00+00:00",
