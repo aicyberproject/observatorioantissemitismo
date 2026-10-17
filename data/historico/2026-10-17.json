@@ -2,16 +2,46 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-17",
  "semana_iso": "2026-S42",
- "atualizado_em": "2026-10-17T00:16:06+00:00",
+ "atualizado_em": "2026-10-17T06:49:29+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError",
   "Consultor Jurídico: HTTPError"
  ],
- "total": 69,
+ "total": 75,
  "no_brasil": 18,
- "no_mundo": 51,
+ "no_mundo": 57,
  "itens": [
+  {
+   "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPQUZQNkpVQjhkejFBR1pjUmt5NzFDekdjZ0t6OE1sWGpvR1RrTlVmekEtWHNhOHdtWTEySXdlcFlGTGk5cWJWT1VqUkVHNkljamk2S1c1dzhzbU45ZmYweHhVTnhvTWhVTWpVMUhSNUp5eTZ3Yy10N2JfLVNLSWxFU2JRY1hCRkpqSEZxemtvUmxqWGZFRnhQMnlIa2ZMOUlJQ2J0X0VyVThqRzRjTjF2R050cU9YRnB0ZWQxUFVJR3dmbEtXV3BHLTl4TEVMY1Nkdy1uUGh5SDhTQUtDemR4NTNBSTk1M2txc1FxclAwZVlLY1VaQldNd1dxTDN1RTkzd3UwX1FYS0lvRzJJVjdGLUZkbWlHRHNUcU54M3U0cmJTN254SmF4Rlo0SlpSd0wtbEctTVlB?oc=5",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-17T02:06:23+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://combatantisemitism.org/interview/no-political-cause-can-ever-serve-as-free-pass-for-antisemitism-an-interview-with-french-mep-celine-imart-leading-proponent-of-european-action-against-muslim-brotherhood/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-17T01:23:57+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYWdPY1FXRGNRNF9zMVFYYWpPWVNmdjJjUHpTWU10OG5NbWhRQmY0N0k4eEFNdWtaLVIxd0hBTHNKSHdjS1Q4T0tLd2VMcWNSdDN5aGtwaVNSb3Q0UGdNYUVzSlFkVGFjV0huSk1ySkR1MDFtMk56a21QT2g3S0s0VGlnS2dsYjM3TUZIOGdiOTN6NTQ?oc=5",
+   "fonte": "The Free Press",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-17T00:03:12+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://www.jta.org/2026/10/16/politics/jewish-democrats-launch-ad-blitz-blasting-young-republicans-for-praising-hitler",
    "fonte": "Jewish Telegraphic Agency",
@@ -70,6 +100,16 @@
    "via": null,
    "feed": "jta",
    "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZGFTZlNpZk9qdG9saGF3RW1BUmZ0N1VseVlxR25OWFBJSWxBNnRPY3l1c2JfQVhLNEpKUG9DenUwMlhJVGM4M3BscFdDS1FhNzQ2Z1NXZ3J4a25GWWFHUjZUTHZPTFBWSzE5Zkl2UEJZNEdDSG1jUXFUUEhwUVRDLXN3MnprcmRyZ1ZvMGw3c1JDTFFFSUE3M1MwdER0UXBXdDE5V0M0U3QzMTY1SVhEVWtKcW5INm1TUXZzTDJhWE0xUGtnV1RUNEQ5OUI5cENzRDI4MDZTaW9qMkXSAfYBQVVfeXFMTmY2MnI4UlhBTHZSUDhhb2stV3BON0t5M1gtNEMxNFZROXd5bXFGSTlsU2FjNDdjUVB3b19EVlNrNlRaWkhGM3NRWGU3bW03U2FZVEd6M25nb1Z3NUVuNW5kVWVCQnRGcmtPcVI2bExfSUZMY2dlaURzem1xNmJONnBlV1pOUjlLNENtdlZTSVBmaFRVWDZndlRnVEUzbEpGbjU4d1lLNXZaaXZzbG9WRTg4MnVZdzV2UVpVMlF0ajhfVTFGRVdSNnU5MHEzRDVCNUZWUVJaMlVNbmNRRmdCdzhZQ2tfVVB5ZjA0eFFxdktfQktQVm9R?oc=5",
+   "fonte": "Infobae",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-16T18:33:22+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
@@ -343,6 +383,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE83ZUhtUWoxOEJSLURpSlJBUmtaQ1NKNkdsSW05dHJST2p6V3Jlb1Y5ZEdPTUtwOFFjTzJyUVFpN1hZMHFPeFJZdE8zLXkwUEJEMWlFQXR2bWsxX041eUR4YkFZb1pwTVg2cWc?oc=5",
+   "fonte": "The Jerusalem Post",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-15T14:10:36+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPX2RKOXFGM2pTRm41Rnh5U09xWG5pMWRhQzEwaUF0NE53VzRlc0lrc2FNd0pRSVdRU0xtSjFqeVBfMFI0X0ZqVUxXTHJ3UmFBRnFyUkg0SDlseTB3bXk4WTcwb1ZJcjRnTGxSUWJ2Q1BQTmRiT2JBT3hpbE1FOW56MkprNGpvNHpYX3JBeXlIcTlXd216TEctcGdfeTRKMHlIUjYzb3NMeXgtcG1DWjMzbmdWQ05PenJxLXZvbDVNXzVtTDJzZ3hSQTkxREpaa1E2ZXVKbC0tUFNVVFE?oc=5",
    "fonte": "20 Minutes",
    "escopo": "mundo",
@@ -519,6 +569,16 @@
    "publicado_em": "2026-10-09T23:13:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSzBrZUNpeV9qN1lseUg0azVBb2FVTjA0eWVJRmdYWHFjYTh0ZFFWNVVRRzJNU1dCdVA1aXIxY1M1VWNOUFoyY0RQQTZPZmRaeHZPY0xIMjVMaU9TREo2dVk1bExSMzgtcGQ3Tk5PcTBYeW1IbUpQMDY3b2JXMkFtZ3hTRUp3VExyaWxj?oc=5",
+   "fonte": "The New York Times",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-09T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
    "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
