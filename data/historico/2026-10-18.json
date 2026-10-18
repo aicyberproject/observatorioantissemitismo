@@ -2,17 +2,26 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-18",
  "semana_iso": "2026-S42",
- "atualizado_em": "2026-10-18T10:49:39+00:00",
+ "atualizado_em": "2026-10-18T15:44:11+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError",
-  "Fathom Journal: HTTPError",
   "Consultor Jurídico: HTTPError"
  ],
- "total": 73,
+ "total": 80,
  "no_brasil": 19,
- "no_mundo": 54,
+ "no_mundo": 61,
  "itens": [
+  {
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM3Y4bmdXZS1JMEh1N3BoOVU4dlJVQldjdnRleWs0WXF3OHE2bkhBYjlVR3g5a2F4aEk4NWVONU9OU3NsTUtpX25PNU5Uc2VWdjl5aGhTaG45cjRNQmw3eTZ5Sk14YXF6M1kwWUVRYUczRF9oc3JHei1kN3FZWFhKRXVfVzdFYXc5OHI3T0hNOXVranZEenROT052SFQyWEJlbjljdWducw?oc=5",
+   "fonte": "Middle East Forum",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-18T15:01:47+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://www.jpost.com/diaspora/antisemitism/article-912039",
    "fonte": "The Jerusalem Post — Diaspora",
@@ -20,6 +29,46 @@
    "publicado_em": "2026-10-18T13:38:40+00:00",
    "via": null,
    "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSWNCbWxGZ2JvdGdTOFlVZHltNVFxa19Gdjd6T3NKNDJTc2tvZk1aR1FBZzZNQlJCNzR5S2ZmcVoyNE1odUhxeUxGRmx2QjAzNm01cE9OWTkyTEtUYWx6NUVhbTVNQ3U1Z1U2NkRJWHplRkFwWkxaSTJfWmVXYzNYQjE5Y2I?oc=5",
+   "fonte": "Word on the Street | Jeremy Ben-Ami",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-18T13:04:09+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQ1ZTaGxJc2VkQkxZbExxd1NwcndXVHpkM3JXR3RoZ0FZMFgxd1ZkTzFqNkpHZXhZOXZVY2FHMGZHaFNWdEpJWnk2ZFBhUUFSYTk5VF82TjV6MzlIb2FTaG9pakQ4NUJBRjctUHV3Y2VCOFp2ZnBWU0V3R3J4RnRSYW1YZmpvaVlSWEV1T1N3UFJjOXo4c3M0NGpZaDF6LVRhSEV2aQ?oc=5",
+   "fonte": "NL Times",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-18T12:45:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://forward.com/fast-forward/856583/jewish-democrats-launch-ads-blasting-young-republicans-for-praising-hitler/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-18T10:53:28+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://forward.com/fast-forward/856589/jewish-students-were-not-interviewed-for-university-of-pittsburgh-campus-antisemitism-report/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-18T10:51:18+00:00",
+   "via": null,
+   "feed": "fwd",
    "categoria": "Imprensa especializada",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
@@ -238,6 +287,16 @@
    "fonte": "Los Andes",
    "escopo": "mundo",
    "publicado_em": "2026-10-16T02:33:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVkZPdnpaNUk1YVlyclF0S3RzemNBWk5fdUt3ZlU0VENhSUUwM0pRVjBJdF8zcDNJUTBsay1SeG03V1ppUzY1eUdXMFVERUlwSmVUM290bnZOLWNOSllDUlg3OGlxX0dWd1g3bGN6TXMxbTBlOTRnSWtrRUlhLXdFM1V0ZzJsVWt4MXpESFEtUHVaclc5RldjMVYyTzdiTDBrYi1TejE4WldmV3BBZmNJVGdrS3FWejR6dG1KaWF6aDhMMkJReGRSLUVna0tCdnQ3c1AwZndoMG1yd9IB7gFBVV95cUxPLXZnZWxkaDhISzB5UGUxNTVFQkFEWTZSSTNZVGVGdm4xNTRIMG1zaVhkS2VwN1cyY2txNGM1cEpDN291VXByRnI4X21WYVE2RTJIblBfbzBqS0t4ODB0Wk9xa21jRVFKbFI5QVFZYWNfZHlpTnFrd1RQclJSVWdROHdDT3NycG5CamJuUDk2YjVyN0EtVWRRa3RYT2kwOTdaWEpsVzY4UVNMYnc1NVRBSXJQU3AzWWNqWjBiT2ppV1NSWUlMY3R6TlU2Z2dXakh0MWFhNTJ0cjRLekRUZ1NKTEdxS2pMaVlET0wyS2F3?oc=5",
+   "fonte": "TN",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-16T01:33:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-es",
    "categoria": "Radar por palavras-chave",
@@ -640,6 +699,16 @@
    "publicado_em": "2026-09-29T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVkNqVnVQb3c0bFhTTGZVRTJnOFRuZW5JQ3k3NnZEbUY3eVhMN2N6dTR5VWVELUxta1YySnVTSmI3WTFLWnFpcUJaNXFEVWx6OW9icl9JWWs2c21ac2dnTHJ3dXNVMUVXME9PWVhtSXN1UDFWWEYtZ2lIUGNsWWRxbU1Xb0FJc1JtR3g5NHZKbHZ5blExanFkcjQ0OVFqa0UycVU2SFJNMEpPZVhzeVEzXzF5RVpLdWwzNDUtUVlIOGNweEI1TlRhcUtCaUZyT2RmUENj?oc=5",
+   "fonte": "PBS",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-29T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
    "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
