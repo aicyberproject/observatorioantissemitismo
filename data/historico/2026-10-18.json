@@ -2,16 +2,46 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-18",
  "semana_iso": "2026-S42",
- "atualizado_em": "2026-10-18T15:44:11+00:00",
+ "atualizado_em": "2026-10-18T18:33:24+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError",
   "Consultor Jurídico: HTTPError"
  ],
- "total": 80,
- "no_brasil": 19,
- "no_mundo": 61,
+ "total": 85,
+ "no_brasil": 20,
+ "no_mundo": 65,
  "itens": [
+  {
+   "link": "https://www.jpost.com/diaspora/article-912093",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-18T21:23:07+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://combatantisemitism.org/cam-news/paris-synagogue-vandalized-during-nationwide-riots-in-france/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-18T16:15:55+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaWlYRkpsMVBiQWpXekpaWkROVEp4Wk12dDBQMGhyOWtCSkJXejl4N1RtbnpQenZRa0M3b0x2RjZOakRPQ2FSRUZfOGpYajJKeUtOb3Y3V2RRRWZyd0lOYVVhQmtPNVVXNVlTNFNjZDVDTkd1Y2V0Q25hZWF1RzlsN2ZSZ2xvdWhlUVRkeE9fVdIBlAFBVV95cUxNWXh1RzlDc2pDY2lOTllDdDV2WDg1a1Q2ZDFkekx5RzJsandCd1VHSDd3SFRJWkVfR3JoV19yUTJUWHc2R1hRMmtNTkZiWHVOdTlVbmtmbzZ3N05jZlBpWk54ZzB5WFoyblgtU3Y4UzZFaFFITmY5ZkVFN0xfNXYwUC0zSVZzQUVQSGJUQmh4NzdaVjdN?oc=5",
+   "fonte": "Jacobin Revista",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-18T15:09:04+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM3Y4bmdXZS1JMEh1N3BoOVU4dlJVQldjdnRleWs0WXF3OHE2bkhBYjlVR3g5a2F4aEk4NWVONU9OU3NsTUtpX25PNU5Uc2VWdjl5aGhTaG45cjRNQmw3eTZ5Sk14YXF6M1kwWUVRYUczRF9oc3JHei1kN3FZWFhKRXVfVzdFYXc5OHI3T0hNOXVranZEenROT052SFQyWEJlbjljdWducw?oc=5",
    "fonte": "Middle East Forum",
@@ -553,6 +583,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQdFoyT0FQeWNqRTQzNDZLNGJhMXNmVTM0ZzdkZ0ZoaDJhbXVTdXlkTDlPZHIwd3hQYVd1djYtR0ZSMzM1MndWcXZIeERKbkFGSEdzSVpQLUVMUHd6RENuMW84cEhEV2VjXzVRd3FTYTY0YTBHLUJIR19UQzd0S2JiNFhPRm5mWVB6MURVdG5CYnJUQ0VhQkdoUFVydExkdWs5SWUwM0FDOFQ1Q3VUWDdSekVZNVpUZEQ0dW9NcmNtbnhqbnprNGlHT0N2aXUyUUNEV0JCU0t5SGdkRHRPbmY3SmNmdEtMS2pPQWd3MWF2VXpxeG5tTkNoZFY3SWFQeGVaV09jQUJ3TmdGOWhKZVZwYkxkTG9sVlU0dUFlNGMwUk9Ga1hveDRzQUxNZzZNVkk?oc=5",
+   "fonte": "Le Monde.fr",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-12T14:00:01+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZlpzUzIwMVh3bkpvSEdyVHpGUlhleV9kMU1uMV9NSEFtd1hfWTFjbkhqaWxNTE5vZVBFRGJnY2ZuOU1ldUo2NzFwVWJ2NTh1MXFDTXZwLXpqNllXbDB2VjIyU1Z2Q1diSlF6Q0tKUUxFS2hXTjRFV05YZU9RLVZrQg?oc=5",
    "fonte": "A Terra e Redonda",
    "escopo": "br",
@@ -807,6 +847,16 @@
    "fonte": "Diário Causa Operária",
    "escopo": "br",
    "publicado_em": "2026-07-17T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxON05PR25FdGdwbDFlSTUxTHJ5YlRXRzR3b2hUYmJJblRpNlJubVJhMFZTRXprc05iVVFZWUN3clplS2MzRkNQaXVCcElRbkZybGZUdThtZkFKZF94WXh1dTV6QTYtVmFwTU1FM2RmRWlaMi1vQ0FISWUyZk5GcUFmQ2ZiSUZHdTZXX2RkbXc4a2pLSTEzRW42b3VZRTVvVjJfT1E?oc=5",
+   "fonte": "stf noticias",
+   "escopo": "br",
+   "publicado_em": "2025-01-21T08:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
    "categoria": "Radar por palavras-chave",
