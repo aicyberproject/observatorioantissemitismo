@@ -2,16 +2,26 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-18",
  "semana_iso": "2026-S42",
- "atualizado_em": "2026-10-18T18:33:24+00:00",
+ "atualizado_em": "2026-10-18T22:21:28+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError",
   "Consultor Jurídico: HTTPError"
  ],
- "total": 85,
+ "total": 87,
  "no_brasil": 20,
- "no_mundo": 65,
+ "no_mundo": 67,
  "itens": [
+  {
+   "link": "https://www.jta.org/2026/10/18/global/a-synagogue-and-jewish-owned-shops-damaged-in-french-riots",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-18T22:10:11+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://www.jpost.com/diaspora/article-912093",
    "fonte": "The Jerusalem Post — Diaspora",
@@ -20,6 +30,16 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcERPS0Q2UVpvSXA5VWtVNzV1Y2ctUl9LVDVvZElpY3FBX05SMEl4d2V1UERPaVNnWEs4VWpYVmVnN1VJZ2FmRjF6QWRmZGlsMFduZFBZYTlWd0ZscWtLanhWWTB6QXlqQ1FXQWlSMHRBT29zdFNhcV9oSFRjcDN2eEVRM29KUGtzeVQyaDlTZ01iWTFVbTlUai1kUHcxaGNfdm5iVg?oc=5",
+   "fonte": "New York Post",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-18T20:28:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
