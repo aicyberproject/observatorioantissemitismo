@@ -2,16 +2,35 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-19",
  "semana_iso": "2026-S43",
- "atualizado_em": "2026-10-19T19:45:34+00:00",
+ "atualizado_em": "2026-10-19T23:30:47+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
-  "The Times of Israel: HTTPError",
-  "Consultor Jurídico: HTTPError"
+  "The Times of Israel: HTTPError"
  ],
- "total": 95,
- "no_brasil": 24,
- "no_mundo": 71,
+ "total": 107,
+ "no_brasil": 26,
+ "no_mundo": 81,
  "itens": [
+  {
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaVp6Qkg2N0NfWWUxX1ZLdjVBNFR0SkJMZS15bEYwVlRtNFlGYUdYczE4WnhSWE9UOTVPVEQ5bEprNHlib3ZFbHBzMDdGVV93X1dRUkdNM0ZfTmlqV2x5eGI1UU9Vb1BHamk3OV9DVnc3TEJVNmRmd1EyQ1dTc3lLOGxEakxiUU9wb3AzQm9DYXlaQ2ZZREFDU0FsT2VSNTJvLUpUR2tEWlFpYlpWZThvSGV2VDIweVNyVncwZHd3?oc=5",
+   "fonte": "Diário do Centro do Mundo",
+   "escopo": "br",
+   "publicado_em": "2026-10-19T23:22:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.algemeiner.com/2026/10/19/antisemitic-streamer-hasan-piker-headline-minneapolis-event-ilhan-omar-omar-fateh/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-19T22:31:54+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://www.jpost.com/diaspora/antisemitism/article-912202",
    "fonte": "The Jerusalem Post — Diaspora",
@@ -20,6 +39,36 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYUhOTHAzUnVMMHNWVTNWNEZmSnhNcDJGbzd2eWduNFd5LXFUSEFyb29acFhyVkRCSlBiOHhzaVBoSTZjQzlEQ3R4eXNfTDFkT3I2TWU3NXdmN0tYTS1LYmlKOHR4ZFFhY0pqT1VsXzQzbUZkYkk3M0J2ckgweVJYdmR4a0dJdmtsV2NyaTBEd1JNM25GTS1WQS1UUUU4TS1OVUI3U2lTOW5ZUVdScEVtTG1WeWw2TEl1eHFB?oc=5",
+   "fonte": "CNN Brasil",
+   "escopo": "br",
+   "publicado_em": "2026-10-19T21:13:43+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jta.org/2026/10/19/ny/nuke-jews-save-lives-note-left-at-center-for-jewish-history",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-19T21:00:00+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRm9KeXI1WlRQRkxFWnVfck5wV25xSU14cGxIVEhyZmRtbkhKYmNiUlhiclhQWUZTSkJtaTNkZWZ1eGRILWFTMk0xN2REOUdJNkxVNmJYMGtDZFFFVmZ6MTduTVNVWk5rUDVkR3Z1YW4taUdqQk41d0dEUnVpTGdaZkFSdDNWZnRidmVDUmZYVGpncGs?oc=5",
+   "fonte": "U.S. Department of State (.gov)",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-19T20:43:18+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
@@ -50,6 +99,16 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80NmVfMV9LbnlQLUJhdjRLSkdSTTJmQkxHSXVBckg3MG9nQkNCNTYtRDRPNURvODhOcXZaYUpaclg4VDVrV0ZrTzZnQnd0Um1kME9YU21FRjRFRml4TUVlNmpZRlRBNGIwOXc?oc=5",
+   "fonte": "The Jerusalem Post",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-19T18:20:56+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
@@ -143,6 +202,36 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://combatantisemitism.org/cam-news/mob-attacks-israeli-turkish-influencer-kloyda-medina-halfon-at-istanbul-mall/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-19T13:04:23+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://combatantisemitism.org/cam-news/palestine-poppy-sparks-outrage-over-politicization-of-britains-remembrance-day/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-19T13:02:49+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://combatantisemitism.org/cam-news/germany-summons-iranian-ambassador-over-plot-to-assassinate-jewish-communal-leader/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-19T13:02:07+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://www.jpost.com/diaspora/antisemitism/article-912150",
    "fonte": "The Jerusalem Post — Diaspora",
    "escopo": "mundo",
@@ -210,6 +299,16 @@
    "via": null,
    "feed": "jta",
    "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeTgyNWF5SVZNY3MzQnBNWm0xWUJZTGRla2FvaGFBakxZbFRXU05ya05wbm5wSjd4QVlZWTV5ZG85VkpsYUZHMVRmR2VBOEpwZlV0Skx6VTJlZFAzSmt5SWY4MlR2clN2TkRQdHhWM0pxS2pySXFYWDFESjJid0pkTzRUZWJzQ0JpZFRIZEp2bHFLdXJUS24wMFRJRWFpUk16R0h3?oc=5",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-19T02:07:32+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
@@ -689,6 +788,26 @@
    "publicado_em": "2026-10-07T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaU9BbGFJVWtCbGsxQ21GMjJDOE15enpBczZ3M1lxT2lJWmUteVd6M0RlT1RVMWlBRU05cUZkNkJFQ0gtRWNsTTdsajBiVVZIdmtGMnBUdEdCYk4tX0w5WExCT29Cc1ozeEtEd290dkFRc21RSmZVQmNza29ZN19OVlRzaWpIaS0ycS1vS0dTV18wX2FnQzQxTFdzOVBhUlNuSktuMk1OOA?oc=5",
+   "fonte": "CBS News",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-07T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOczhLRUthNW94WjVtNElvcklvWE1BR3k0bW1vdC1JUElFRnlKLTRBWmRTb2dWa00xbWpHUjlnM3hMZVZlY3VPMWtpQ3NVb09vVnZzRWYzYWREWUFncXBpbkF4ZG1EbmduSFRKcHNzMUJaUHM1aWgtSUFlTGo1RTE4OTNpa2VneWhiSmxDcA?oc=5",
+   "fonte": "PhillyVoice",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-07T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
    "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
