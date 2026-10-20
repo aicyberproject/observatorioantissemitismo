@@ -2,15 +2,115 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-20",
  "semana_iso": "2026-S43",
- "atualizado_em": "2026-10-20T16:44:54+00:00",
+ "atualizado_em": "2026-10-20T21:28:54+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 79,
- "no_brasil": 19,
- "no_mundo": 60,
+ "total": 96,
+ "no_brasil": 22,
+ "no_mundo": 74,
  "itens": [
+  {
+   "link": "https://forward.com/news/857126/georgetown-college-republicans-marc-bernhard-afd-germany/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-20T21:12:29+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBPc0trYmdneFJLM1RPeXFDbS1TamhRdW9ZckR6WnZCOGpJbU5GOGJraFB0TXBhbjdDTG5xdnI0aHhFLWFfRzFTSkdiWXJfSWRyeGk5MU5fcG9nbUpzN0ZrcENBMjFONHJMdU02ckhUa0dPS3NZcHRkX3ZfTnhQUQ?oc=5",
+   "fonte": "Wednesday Journal of Oak Park and River Forest",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-20T20:46:21+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOU5Ccm1ZRmlEZjZfZEh3Rm55TzRCNDc1SzNFYU5nY1FMSnpnNWxGR1dzU0FiMEQ1blNxd3lXWEJDTEJ6VEdDbG9VNzZ6QS1pdEhMbko1YkpLWW1mTHVIaGZVZFRucE1WVV9BZnNkallvWlBUbnNyVmUzWlBUMjRKdVNOdUhNeE13SHpVdUVnblZUNGV2QlRnRnFhTU9qVjF2QkU5eS04LVM2blpIeWVPcVhxUkdWSTFVWlRUeFNoektDc1AxdE4zZFVsbHQ?oc=5",
+   "fonte": "The Guardian",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-20T20:43:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORVZrczNlS2dSTmdSOUItaGtrTkxQSlBHYUFHMS1JcG5YQVdhMHJkZEpPZEp3MWVXQ2dhYjlJQTBQSXM3RXgwdWNOajJ5cnZuWDRuU2dCTzhiTWtvbjhNb2xuZi1GakJqX3dHQU5sdWVhV01YZ0F2SU1lNS1xQ29iM0w3MHlxa0xpd2FPN2x0N2JFS3hTajFQRzlCTTlIRUgtVFZUUF9Va1Y2QlZObEN1dHB6WkR1U2lZUG5adkwyQ0NaV1h1MXVybHNWTy1pUQ?oc=5",
+   "fonte": "Política ao Ponto",
+   "escopo": "br",
+   "publicado_em": "2026-10-20T20:35:57+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://combatantisemitism.org/cam-news/getting-closer-to-the-truth-an-interview-with-argentine-judge-franco-fiumara-on-the-new-path-to-justice-for-amia-jewish-community-center-attack-victims/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-20T20:28:01+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.algemeiner.com/2026/10/20/syrias-post-assad-schoolbooks-promote-jihad-antisemitism-islamist-ideology-new-study-finds/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-20T20:24:23+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMDB3NzVXbUp6aFBET2xyUWU1SldkeDBZdjBld2hMNFYzN3B5N1ZmVDktWFlJNmIzTmkyV3NETEdyODU5X0ItNGRtWGdxNnVkQTUwMGFGV3d4WklNM0tXSFVOMGt1VG54NU5nSXROWmJ0YzRBX0dCX1hMNzFXLTZVdGFSOVhkQXk5TXlYaHFmYk15R2Yx0gFWQVVfeXFMT3pFWTBERG9kWnBtZlIyMmdNNnVyZGp1ZjNWMzVHNmhEell5eTFPdWxmM01VLTBsOFgxSFJPRnZjNFk5U3RMYUlpRHJTTkJLNHNQZDNIRGc?oc=5",
+   "fonte": "Law360",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-20T20:18:53+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.algemeiner.com/2026/10/20/over-1300-social-media-antisemitic-conspiracy-theories-discovered-blaming-israel-jews-france-riots/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-20T20:18:26+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.algemeiner.com/2026/10/20/real-madrid-calls-la-liga-president-resign-nazi-joseph-goebbels-comparison/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-20T20:03:01+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1RNUJLQk8tQ182U0NtUk0zalJoQmI1cGhPVUdqWERpbEV5WTRlYi10MUJ0RzItY3lGempzMWxwZVRRc3I5QTRDNmhBbGp6ajVnN2NhekdqY2FELUhseVBIcm5PTUlYaXlJZVE?oc=5",
+   "fonte": "The Jerusalem Post",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-20T19:55:16+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://www.jpost.com/diaspora/antisemitism/article-912328",
    "fonte": "The Jerusalem Post — Diaspora",
@@ -19,6 +119,36 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNVmFFTkhuYmJQaC1zdENKa2pha0FSYTZTb05hUmxhWlloYjgtMER1T2h1U1JobkxFY1FPbzR0N1Z1STcxVDJpMFctc19FUFM1OFVWOUFLWTJuTHRiaTNIeDJDSlZrcERQV2dsY25YdVNVRE9HUkhPdEMxLWpqeGEzajdSMFQ1NHFHN3RxRmFhZHhKaVZNNnFrQnExbzlEZnRaaEFIU00zY3gwTTRudzZKOGxVempvTDdBdXBTMGZNOTRTamlEZkxHOFl0dDBHTHltMURYSHlaODg3VmhsbHFfWEVoakFwMFh1dFHSAfgBQVVfeXFMUDIxU2JZbjYzemZjMmxFQllMMFpLakx1UGNIRmxhblptUTNfb1pTWDljTWV0UjlGZGpqM0twZUhWRzRrOUZMRVBqUDZzd0ZBaUFTOUZZV2xRWV9MYVhUOUJUSnVOOTJ4Z3JqVjJhU3FMbDhhX1U0dmFwQjBfeG54eC15emYxbUFnU3JBMEU5YXJmbHoyTzFpeUlYZVRtVG02Ny10NF9wYlYxcE9WWE5BcGZKMk04TW0xSWZuSF93Q2RCV2tzcU5NZXFlcUtXZ25EV1NQV0FHU0RPVmxKLVIyekhpMGFscE1KdW9jYmtiX3UzbWp0VURCQUc?oc=5",
+   "fonte": "O GLOBO",
+   "escopo": "br",
+   "publicado_em": "2026-10-20T19:27:01+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jta.org/2026/10/20/global/former-edmonton-journalist-admits-to-vandalizing-monuments-of-ukrainian-nazi-collaborators",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-20T19:12:03+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://combatantisemitism.org/interview/how-refusing-to-sign-an-anti-israel-petition-led-a-barnard-student-to-convert-to-judaism/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-20T19:11:12+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
@@ -32,6 +162,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTi1WYV9lZmlqNWlpRE1VU3FTMzBMTTFhaUY4NkVjVUxKWXQ5cWkta3VaVXc5UHR3dm5nMkxHTmdRTWJGUnFLVDR6N2NZVHh3ZjBmLWxZS2FMR0lVRnYzTTBLb0h2c3dNU2VzUnVpR045RzdqekZGOFpFRE15eDQ0YjIwMjMydmZQR3JVRldtb3FFYUdEaVhfdHBRa193bk5VVkVNZDJ1cDJyNEh3M3k3YkpsZEVlRUEwcUlISlFqUzF2OEYwOVBkX2FBT0JDMThzdzRKU2U2d3Q2eEZfRk9oSzZn?oc=5",
+   "fonte": "Sopa Cultural",
+   "escopo": "br",
+   "publicado_em": "2026-10-20T18:33:06+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://www.jpost.com/diaspora/antisemitism/article-912320",
    "fonte": "The Jerusalem Post — Diaspora",
    "escopo": "mundo",
@@ -39,6 +179,16 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://combatantisemitism.org/cam-news/manhattan-capital-one-bank-branch-targeted-with-anti-israel-graffiti-windows-smashed/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-20T17:04:07+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
@@ -62,6 +212,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://combatantisemitism.org/cam-news/marylands-largest-school-district-accused-of-failing-to-protect-jewish-teen-after-bomb-threat-antisemitic-harassment/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-20T14:58:54+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObnFPOG9fSl81bGx3cEMxQ2JPdnAyQkpIanIzMEp3M0lMYVVPUTF4TWRtbm1BMDVpTTdpZDJ4Zmh5cTFvellEbVFjYk4waEhtMjlOVmREZEczRHNDZF8zaU5ELVVURlVqZzRfbHNaOW0wd3g3NGZiRnhmVGNGX21ZemlYa21LR1JYbTNzdA?oc=5",
    "fonte": "Aurora Israel",
    "escopo": "mundo",
@@ -69,6 +229,16 @@
    "via": "Google Notícias",
    "feed": "radar-es",
    "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://combatantisemitism.org/cam-news/shomrim-volunteers-detain-suspect-after-alleged-antisemitic-attack-on-three-jewish-women-in-london/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-20T13:14:32+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
