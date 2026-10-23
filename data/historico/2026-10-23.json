@@ -2,15 +2,65 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-23",
  "semana_iso": "2026-S43",
- "atualizado_em": "2026-10-23T13:17:33+00:00",
+ "atualizado_em": "2026-10-23T18:13:21+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 89,
+ "total": 95,
  "no_brasil": 18,
- "no_mundo": 71,
+ "no_mundo": 77,
  "itens": [
+  {
+   "link": "https://www.jta.org/2026/10/23/ny/jewish-institutions-face-pressure-from-increased-security-costs",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-23T18:10:25+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://forward.com/forward-newsletters/looking-forward/857918/jewish-chicago-holy-ground/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-23T18:00:18+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://forward.com/culture/theater/857996/israel-zangwill-melting-pot-jewish-play-theatre-ariel/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-23T15:58:31+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOTFtcUtoU19XU210Wlp2cXNVa3I0N19nM3dUZFdVRVd0RlRSRUZLZERNVjk2OWd6QlNvbm9MUlQ1RnJ5c1JvWUc3aGlha1VMaFNROXBERTl3ZVhqZkNyUVV6cTZXQldDamFHcldBRW41ZzhaT3pZZzVmUjBIVVltMmtDcDBXT0V2VndfTUxNa2E4XzBHOTR0X2ZFUFZhSmFPdmc?oc=5",
+   "fonte": "Long Island Business News",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-23T15:42:29+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1UYWtwUldXc1I0VUZJM2p6ZHMyQjhoZnhmT20zSHFkeUZOazl0cW91bVhrTVl1TnJ3dXBTX0hpc2xncktYVU1XbV96SGFQSGYzV2M1ZjBwWEp2LUlKUVR5OTRSQW1ZTlVrcVFrTFlEMkhyLUdmRG9acXVjT2M?oc=5",
+   "fonte": "Aurora Israel",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-23T14:12:41+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://www.jta.org/2026/10/23/united-states/i-wanna-blow-up-a-synagogue-online-posts-lead-to-hate-crime-charge-against-utah-man",
    "fonte": "Jewish Telegraphic Agency",
@@ -498,6 +548,16 @@
    "publicado_em": "2026-10-21T14:44:55+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOU5Ccm1ZRmlEZjZfZEh3Rm55TzRCNDc1SzNFYU5nY1FMSnpnNWxGR1dzU0FiMEQ1blNxd3lXWEJDTEJ6VEdDbG9VNzZ6QS1pdEhMbko1YkpLWW1mTHVIaGZVZFRucE1WVV9BZnNkallvWlBUbnNyVmUzWlBUMjRKdVNOdUhNeE13SHpVdUVnblZUNGV2QlRnRnFhTU9qVjF2QkU5eS04LVM2blpIeWVPcVhxUkdWSTFVWlRUeFNoektDc1AxdE4zZFVsbHQ?oc=5",
+   "fonte": "The Guardian",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-21T14:21:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
    "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
