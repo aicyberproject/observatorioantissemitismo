@@ -2,15 +2,45 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-23",
  "semana_iso": "2026-S43",
- "atualizado_em": "2026-10-23T07:21:22+00:00",
+ "atualizado_em": "2026-10-23T13:17:33+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 82,
- "no_brasil": 17,
- "no_mundo": 65,
+ "total": 89,
+ "no_brasil": 18,
+ "no_mundo": 71,
  "itens": [
+  {
+   "link": "https://www.jta.org/2026/10/23/united-states/i-wanna-blow-up-a-synagogue-online-posts-lead-to-hate-crime-charge-against-utah-man",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-23T12:27:56+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://fra.europa.eu/en/news/2026/law-enforcement-webinar-strengthening-practical-responses-antisemitism",
+   "fonte": "EU Fundamental Rights Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-23T11:47:33+00:00",
+   "via": null,
+   "feed": "fra",
+   "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jta.org/2026/10/23/sports/the-discovery-of-a-jewish-negro-league-star-forces-a-rewrite-of-jewish-baseball-history",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-23T10:00:00+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPVU9rejFqT1JyUEhZS1l6Z1VlcUN1R2FVUjV4dWxJcDlCWHA1THhuMEdUTlFKWDd3U0RSNDVCSGRUcmM1dWt6M2FnT2R3RzhqUDVsUnp6WDBBVEZkQnFkNS0tU2dFVkE1NGhNa0hIX3kwR3hmckJ2YkRVaTZKc080d2YtVEtGTkJfdmlzeHQtdVBtQUFrTmNsTi1oc3czNmxDUjRSaGJ4QWl5aE5tX2lXRDZIbUdPYWFtNkwxYUttNU1INl9fdGF0UG1wRlc2RE83aGFLY01uZVFWOVQ2TTBZN1NBQTNpUVE?oc=5",
    "fonte": "- AJN Agencia de Noticias",
@@ -462,6 +492,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNFQwaURybC1hbzIybVh5RjJESUw0U01JR3BrcjdaWjlYTDRHN0ZDbFpXM2tYQ2JHM3ZxbVpDUmVQM1hiV1I5Y0RxY1NpbUZraHlWS3NxYjRsVHV1N1ExRlhLUEk2d1daeW5QU1V2c19tX1ZpaTNRZnMySnMyQnkxamd2MTJJdER6MTBvVFpoOVNuTmZqLVN6dFBvTVVwMG9JQ1k5ZWNJWEl4VFdQSUktOVNWLURoSW9mc0ZkX1ZoREcwZE5wLWtsbXg5R2ZBZWE1T3ZB?oc=5",
+   "fonte": "Portal Juristas",
+   "escopo": "br",
+   "publicado_em": "2026-10-21T14:44:55+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZzhmbkEwOFFkUG5YSHphaHpVTC02ZXdOMmhkMmNSN2s4Z0FkYjZSLWQ0RFcwdDlYSEZQSHc3UXhBcXhOa0xOYzM5RFd3bDhYU1d6TVVSRW5TbTd2MFphSGxKVklJa29Sa1UxWl9yQ25JdE5VTF8wMmpFMmZMOTdFWG43NEN5T1ZMeTFYQS16dUs3eEdSRGNVdmliZFN2dUVZZ0NqMVVkNnVVdjlhVEpRQ3FaVE9fdXFpbmxKNFRXbWw?oc=5",
    "fonte": "The Jewish Federations of North America",
    "escopo": "mundo",
@@ -558,6 +598,16 @@
    "publicado_em": "2026-10-19T21:13:43+00:00",
    "via": "Google Notícias",
    "feed": "radar-br",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcWR2a01nZFI3NHZFejRaWXFsek1wa01aSmFIcVJhb0dzaWRTNUsyU0h0QXE2c19TR2h6TjBmOXAyMGFFbFRtS1QwUDZHdDUzYjNLMVBHWnB5LUVUak9rSXk4cjFUZnFiOGcyM1UzV3F6R0s5TUo0LUVQV2ZBbDdpUTlGakc?oc=5",
+   "fonte": "Brandeis University",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-19T18:14:58+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
    "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
@@ -682,6 +732,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSzBrZUNpeV9qN1lseUg0azVBb2FVTjA0eWVJRmdYWHFjYTh0ZFFWNVVRRzJNU1dCdVA1aXIxY1M1VWNOUFoyY0RQQTZPZmRaeHZPY0xIMjVMaU9TREo2dVk1bExSMzgtcGQ3Tk5PcTBYeW1IbUpQMDY3b2JXMkFtZ3hTRUp3VExyaWxj?oc=5",
+   "fonte": "The New York Times",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-09T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPZThzRU1uclVkN3dSM19RMkcycDZiMEdldUphR3g3RDFfTkg3M253VTNRdE8yWmR5TGF0MFVaVVVEdlNTRXBCOTFvTlZDbE9oNldfM3ZXemVyXzFqTXd4ZVNXVGQ3UzhTOXpBc3JDOWRqSko0V0NOcUtNU2J6VkttUEhnYi0yLXkwNzUtMXl2VERfMWZTQjJmaUJaQkdSZ1BLNnFqTFdmazduMl8weWNpam94VFk4V1BScXJuNTlqUkY3czg5aTJXc1RhdFpvWlBqN2pxQXYxWEdjN3NYbjV0SFhUdUUtWUt4SHlpOGJQSkJFQdIB8gFBVV95cUxQUmRYdjRPOHpZY21LSmlLUGxOaC1fSHloVjlIX1ZuQXd2MlZITHpWemQxVGhNUkcyMDRmaU9qNXMtSkE0MnU1V1R3X3o3RUxKV1FMRXU0M09HUzVzWW1aTlRISUx5NFVtX0N0Z0MxUHlnNGY2N0tJVEFFQkRhczFrOG5mWUdGMmsxR25jRTBHb3I4MHFXVURxd1ZKS0tKd3haRnRYdHdzT01YM2NjbEU3aEUtQW1HdEJyVHQxc3JONWZxb09teEpSWk5ndmhQU21PUWlVWG1PTEZoUlJoMkZWSGFLbUR5V1k2N1BqSEhYNUNUQQ?oc=5",
    "fonte": "DW.com",
    "escopo": "mundo",
@@ -718,6 +778,16 @@
    "publicado_em": "2026-10-01T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWFBXY0VIeW1tRUlDVDJ4Tm16M3JnZzhkUnQwUXlSdnhCdUNmT2NHbzNXT2ZqcEY1OTlIVVoxRFBWeFpKdnM5SjZSYUZxV2pYejA2MTBIdzFDWElZU3FyTFVELTFXY1ZjWFlfRzdicWxpWlVsWnFkanlmbHZPWUJfcG1HZG9LX25mUGZweUtBb09hVFBZdlBCem5hZ2VhQjA4d3BlVktwYjc1T1dUX3NtcG9lcVA4QmRCM3lfV2I4VlVFMWh6VGVhWnIzdHhWaVdhdWM1UTdXTQ?oc=5",
+   "fonte": "Mediapart",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-28T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
    "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
