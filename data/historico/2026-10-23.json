@@ -2,15 +2,95 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-23",
  "semana_iso": "2026-S43",
- "atualizado_em": "2026-10-23T18:13:21+00:00",
+ "atualizado_em": "2026-10-23T23:00:27+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 95,
+ "total": 105,
  "no_brasil": 18,
- "no_mundo": 77,
+ "no_mundo": 87,
  "itens": [
+  {
+   "link": "https://www.algemeiner.com/2026/10/23/well-never-back-down-chabad-rabbi-returns-nyc-diamond-district-day-after-antisemitic-stabbing/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-23T21:01:16+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRHFyYzFaXzBxOUxoOGg2dWFpYTRDSDR5YnlRQnZGZkYtYmZLRDdKTHRXc25jUldmRFlfN2FsVExiZDRJQTM3a3JPYWQ5azhsUm5wZl81ejlkQ1J2WnN2M2xINjlUVjUtc1p0dFRabXRhMi1NNXVmT004cVZGZ2VpU0VCazBFVlFUT0pKYmQ5cmZqaVMtZUdOeXY4U2VBdkxPWGZtOGZuVVJJYTg1bDhmYURnRGEycEJmOEFzTFp3ZWgwOWJBb0RmRW01dmlnNVZ1WjdISVBKSTc?oc=5",
+   "fonte": "Catholic Standard",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-23T20:13:05+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPUFhDQjR4R3dJYVluaFg4LTVjN2NiMms0UXJUMkg4TjJOa2lBZ2R2WFFmdVg4dHVwMjFLMENnd1RLVXNtSFJXSnNNY1hkSGZTaVpfTU9UZWdoS1hONEJES1F5czhEUE9ickJpZDY0cXVNQ2c5WVFtbWlPUFlrUm5GSTdJNWFLaFhFTnU0QlVSeGJPWkdvNEJ5bE1Kb3NGbDJzWnNQbzNMZlBiNFQ2S1hNQnlRTjVmelZZNExrbkJrb1hYSnNLcUgteGttRGI3WWduMGFxcFhwYm5UVDBmVDJEeml6eHNiYUYxcFBnUk4yQXlXRnQzelVQdEpydFJxOG5VZlBTWTJ5RkZOUWZnWUZ4U0hR?oc=5",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-23T19:24:57+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://combatantisemitism.org/government-and-policy/us-justice-department-senior-counsel-leo-terrell-honored-by-cam-for-exceptional-contributions-to-global-fight-against-antisemitism/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-23T19:20:34+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.algemeiner.com/2026/10/23/sacha-baron-cohen-says-ironheart-team-concerns-jewish-actor-playing-demon-antisemitic/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-23T19:08:39+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.algemeiner.com/2026/10/23/iranian-men-go-trial-next-year-alleged-plot-target-uk-jewish-community/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-23T18:57:46+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://forward.com/news/858041/nonnegotiable-michigan-el-sayed-jewish/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-23T18:36:49+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://forward.com/news/858065/university-israel-studies-jewish-donors/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-23T18:20:32+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://www.jta.org/2026/10/23/ny/jewish-institutions-face-pressure-from-increased-security-costs",
    "fonte": "Jewish Telegraphic Agency",
@@ -48,6 +128,16 @@
    "publicado_em": "2026-10-23T15:42:29+00:00",
    "via": "Google Notícias",
    "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUzdVWEJXaE1hU3puMlVkaTdZZ3lYMFY3eW9MOE5OQk5NZ0lBTjJzWDJNSlBuRUF6Vm9ISzJRTlRwMElKYnVrV01WZWxOb2xHdERHaUIxRmV1MHNsU0ZNbDVUdjFMUU9ucDRLMHhxV1VWS3hrbnVhZ0FWZHZSMmYzeUY2bW9wNnZPdW1tazc3ODJkN2FXTDF5NDlaSGVta1J2cUxSTkp2dW1qSzZEMTZXcg?oc=5",
+   "fonte": "Tenoua",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-23T14:48:03+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
    "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
@@ -738,6 +828,16 @@
    "publicado_em": "2026-10-16T01:02:06+00:00",
    "via": "Google Notícias",
    "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdU8ySzNoZHlxTlBYRjVoZFVZR19hUVlaaTlacmw5bFVBaFRkS0lkNVAxTGdta0otcUtZeVNpQW9Wc0dTRnFTM3NiVVB2ZWVoWFpRSTFiN3FsMW9DNzcyQkR1R1dKU0Q4UjVoVUdObGlTOGJ4b1c5WmhPOWN5djFTU0pVQkpPdVdUNGJCd1MteGpEWkNiU3NlSFFCbExvX2NvY3JlOVVwcDB3OG9tZE1WRVdNZzRHR19XdlAwa3l3MkVLaEFUSGc?oc=5",
+   "fonte": "Fondation Jean-Jaurès",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-15T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
    "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
