@@ -2,15 +2,25 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-24",
  "semana_iso": "2026-S43",
- "atualizado_em": "2026-10-24T15:46:14+00:00",
+ "atualizado_em": "2026-10-24T18:42:47+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 83,
- "no_brasil": 18,
- "no_mundo": 65,
+ "total": 88,
+ "no_brasil": 22,
+ "no_mundo": 66,
  "itens": [
+  {
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNc1o2a256SHdPaXV2MTdRRGdYSXZSMmVnemRLeDBlcTc5cG5wV3MxSFo2TnJYNV95OVFuR0Vtd3BLMXducVZhX0NHRWxiakNGQ0xLbUxxVDhlUHRORTlRNUIwdUNjdkdmTnJwQnVmOEY2SmttRkF5TEFiQklLdmlSTmRaSFJBaHdXdUtuQkt5WTV3T0tGd0hibFFwM2EzeXRWbFFtUDhQSl9LODUxM2QwYkZ1dzBYVzhyVHBJ?oc=5",
+   "fonte": "Vatican News",
+   "escopo": "br",
+   "publicado_em": "2026-10-24T16:06:44+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUHljU1NGTndvQTYzRjl1MUM0a09zT1o2dE9nV1VaV0JTa2lVUlRKQ1BwU1lieDBqLVJIbXNhRnRtVy1xS2hMRS1LVmZ2N2ZfSFlFY0hwNkgxaXRkVEw4QjNmdXhTNWpYMk1VdGNnMVVNWGJVUGpWMGNvb1pnekhoQzl4QXh6ZnRHdlQ0Q3g3WDY0WTBtSFNMaUZjMlRsakpoWjR2ODJqQU16eGhoU2d5M0E2MUxlTGlhNktkUHROYlZ6VHlFeXdqQl9B?oc=5",
    "fonte": "i24NEWS",
@@ -286,6 +296,16 @@
    "fonte": "Francês News",
    "escopo": "br",
    "publicado_em": "2026-10-22T22:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNSF9FaDFUTkNGRjRqTUxoTndkQU15ckItZU1CU1NTM3VKLWpfNXlaTXRacUdJaVh0N0RSMzJaYTdESTVySUpRRUttVl9ZUExUSWZsMThDX0hUbVdUTzZZTEsxWWZlVDBDUWF6UzVBVmZ5RWhvQkc0S2kyTXlEWEp6U3dwejdQTzBodXkwSndUeUMySDVyaDVJMzREcFR2M285a0RtVXZfNnlGNWU0WFhSVi04WEI1MjljWUJQd2R5N3ZjUlpNSE9BZzNhNHdxRFdOUmxGQ0VCaWFPT2tRcTRydlpIdWd5VldQaGlveE5kNXhYcmQ4TU1YaG53dHphdGFLcHl3TURoZ1g?oc=5",
+   "fonte": "Terra",
+   "escopo": "br",
+   "publicado_em": "2026-10-22T21:32:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-racismo",
    "categoria": "Radar por palavras-chave",
@@ -732,6 +752,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONURtMXFWQ2QzNi15S1dTdWJ0b0tBNHdRRnd4YjVhN0ZTaFFJb3UtNUQ1VEtHMXprcU1PX2FTeTdFTHJsUjlVU0tMNzJEMHZoeHlGVTJPTXFCbklOdjhHaFpjUGsxSS1yVFZaVDdHU3RYeXM5Q0tjOXNWZUJtTG80VllYeU5qbFBsYm0zd2V6ZGlCVkRYNVRsR2dlMW1xY0w1bVg5Y0lIQmR5T3ZiWmFWQTViSnpOSzVSR1VZbTdVUnNQZG94YzlzZEVJZE9JdFBDTXM0?oc=5",
+   "fonte": "Prefeitura de Campinas",
+   "escopo": "br",
+   "publicado_em": "2026-09-24T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUlAxaFBFdXhUUFFvZEM3SUxDdk0xaTAxaG54YmFROEFlZkh0NU9GaVYybVI0dzA5aU1oNkxoblBrNm5rTUlCMHF0TVh0S0xCQWMxUE1peElLMy1mLVVPNVpHT1B0dndUeVBJV1A4SGZCbW5JSTdXNU9aajNuWjlUNF9OUkxsTVp0azAxSGhRM1BGSzRxM1QtZVJ6aTZVTWZCY045eVRkZno1T1duTnhKNHBWN0x3WHo2SGZ5c3RlV1habkJfb3FtbzZuTHhGVS0wOVE?oc=5",
    "fonte": "Alô Alô Bahia",
    "escopo": "br",
@@ -772,6 +802,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeHhXM1RwVTMtVDJiYzJuaDVJU0VsMVJHand6ZDNUNENkT3hlWXRlTFkwZ0xTRDlHQXYyVUVOc2piWi1jeUtWNU9zc0d0aExCN0JCeDZGeVVpMVFrZmQ1YWpkTURSOG93cmZPWHZtLV90S2lJanRveXhFc200S3A0cDI3TWJtYzNzOVBvcjRrVEEzWkxoUGZiaV92S1VpXzM0TnkxcHBGN3hLTjB6cGhhclFob254T1k?oc=5",
+   "fonte": "STLPR",
+   "escopo": "mundo",
+   "publicado_em": "2026-09-01T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://news.un.org/feed/view/pt/story/2026/08/1854192",
    "fonte": "ONU News - Perspectiva Global Reportagens Humanas",
    "escopo": "mundo",
@@ -788,6 +828,16 @@
    "publicado_em": "2026-08-13T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNWGIwS08zOGhVcktfZW9RbHE0QllIamcxNzM5d3pIUFR1aGVxeTBwbC1yOHRrempZQXhsV3E3dE1OT3FtY2hwWkNoV05NbW1sVzJxYkh6alNfY0ZSaHFYcmJsWU1QSXdWVlB5X3dGa3kta0hIX0p3Mk5mRmJHU0VQSmgyLVJjQ3BaVGkwOHNzN3VHNUQtN1A3MjV6YWMwUGFIWmxrX0dDS2VHeGQxUlNFTzhxanlwNFZURzFtTUl6dElhYkJGTFAzOWxWVjZFZFIyQ05GWHZibFVNN011Q3lISU9kUkpxYk85ZGUwSWo4dkh5SHM?oc=5",
+   "fonte": "Ministério Público Federal",
+   "escopo": "br",
+   "publicado_em": "2026-07-27T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-racismo",
    "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
