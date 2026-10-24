@@ -2,15 +2,45 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-24",
  "semana_iso": "2026-S43",
- "atualizado_em": "2026-10-24T04:16:43+00:00",
+ "atualizado_em": "2026-10-24T10:43:49+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 70,
+ "total": 77,
  "no_brasil": 17,
- "no_mundo": 53,
+ "no_mundo": 60,
  "itens": [
+  {
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNnBKVkxaamY2NTlZVmhYSUJXbWlnODlrd3ctVTh1bGlhSlRkNms1X1ZMcDFzNTFOZjlMTWllaVNyRUtvd1dVTnlVV1VVeGNDUEVzREZGNWloNnlfSGdxQUI1akUwNFdGaUNCYVlfeWd3MGh6cTdFNm0tdTVxTXNhdzV6cWg0RU8yZ2t2MDlsa2V5Mzh6ajlzdXN1YnhNR3o0VHNoRHB5MzFwWHUwX1gyeGJIZXFhdVh1ZnVqU3lXS3kxbHR5cVJ4Qg?oc=5",
+   "fonte": "Marianne",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-24T10:30:28+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONmNCcTRISVJqemNpOElMOVhNZnpCM1k2ZVhFWE9zUlhIeVRwcEYySU1oV2hSNFBlT012WFJFdUE1SlVqN2pjM2M0cDY1bmpfdzNsVFJSSVVTRTFBTllPVWk1ZDMxNHFYbEpTcnpqaVhMLTNLZDByaFJOaTlMbUx4bjNuYThWcmVGQm96X295RmtUYUtnT3B4YlNhWTV5UFRTeC04LTVXeEJybFViY0EtRDAxWExsVW9ObEFtNTFOQQ?oc=5",
+   "fonte": "NewsDigitales",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-24T10:30:10+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMilgNBVV95cUxPSUlGeTE0V2FrOGZHYWhDQ1ZuQ0pEUC13alduT3BCSFhWRU9yTE9lYWotNldfUDhJQ1J1TEtYUlYwa0xrSGJ0WV94MWJDQjAyR05icUdxaVVBNXlBTk1vLW5rYjlYMGJyTVlzVHZoSnZPU25ZQUtoYmVtSjhnV0k5RnJ5WEpuSHVoOVNnbDVEdk9SOE11Nnp6X0lfYnpmeHhuNkNIVlhtTlBubjU3cmNxUHFSZG5Oa3Z1a2dFX21uT3RfLW9uNVg0ZFVMUzVlX3hPM04xVk5fdGZ6dUZhLWxwYVhONUJLOVQxcjZBRWhCWGhEdXVscHZRTDljNTlmdmlUc1BvSFA1Z0d2TTlwNU8zX2xEQ0ZkdEdjOTZNQlVPWElaeEFETlFkZVYya09KZXprTVU1U2F5VGg2dzdveVdyYjU4eXg1QUJTVDlDQTM4aWJxbVRYbjRyTWlyQ3pWZjBraGE2TW9RajBWdk5kaS1TU2dTX3NTTm54Q1AxX0xPQU5yNm4ta3A2YVZoaVVvcV9jUGVjYUF3?oc=5",
+   "fonte": "BFM",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-24T08:50:09+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://www.jpost.com/diaspora/antisemitism/article-912678",
    "fonte": "The Jerusalem Post — Diaspora",
@@ -149,6 +179,16 @@
    "via": null,
    "feed": "fwd",
    "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUzdVWEJXaE1hU3puMlVkaTdZZ3lYMFY3eW9MOE5OQk5NZ0lBTjJzWDJNSlBuRUF6Vm9ISzJRTlRwMElKYnVrV01WZWxOb2xHdERHaUIxRmV1MHNsU0ZNbDVUdjFMUU9ucDRLMHhxV1VWS3hrbnVhZ0FWZHZSMmYzeUY2bW9wNnZPdW1tazc3ODJkN2FXTDF5NDlaSGVta1J2cUxSTkp2dW1qSzZEMTZXcg?oc=5",
+   "fonte": "Tenoua",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-23T14:48:03+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
@@ -382,6 +422,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcjVnaU9DWm9hZXlHRXBXcmRYSEpVdGFfRmw2TXVIMVBxeGVUS2ZkcnRIblU5VGF5d0pyR0pzWHZhem5ROVU4YTRTbzhSM051ZE1VSkxhaEJSbi0tTk9CYlk3TkpleXl3NE9GYURIUkFfNlBlS3JpVS1TZHl2VGNZS2VGMm1lTWlIUXl0cmYtWURGSzF4aGJpN2dhZ0pXNFBkZjZOSm9UVG93ako0dnc?oc=5",
+   "fonte": "Hofstra University News",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-21T20:05:47+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://combatantisemitism.org/studies-reports/nearly-1-in-4-accounts-following-or-amplifying-wallface-on-x-show-bot-like-signals-latest-arc-study-reveals/",
    "fonte": "Combat Antisemitism Movement",
    "escopo": "mundo",
@@ -416,6 +466,16 @@
    "fonte": "The Guardian",
    "escopo": "mundo",
    "publicado_em": "2026-10-21T14:21:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZzhmbkEwOFFkUG5YSHphaHpVTC02ZXdOMmhkMmNSN2s4Z0FkYjZSLWQ0RFcwdDlYSEZQSHc3UXhBcXhOa0xOYzM5RFd3bDhYU1d6TVVSRW5TbTd2MFphSGxKVklJa29Sa1UxWl9yQ25JdE5VTF8wMmpFMmZMOTdFWG43NEN5T1ZMeTFYQS16dUs3eEdSRGNVdmliZFN2dUVZZ0NqMVVkNnVVdjlhVEpRQ3FaVE9fdXFpbmxKNFRXbWw?oc=5",
+   "fonte": "The Jewish Federations of North America",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-21T09:29:07+00:00",
    "via": "Google Notícias",
    "feed": "radar-en",
    "categoria": "Radar por palavras-chave",
@@ -589,6 +649,16 @@
    "via": null,
    "feed": "swu",
    "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWW9ZNzkwUWNwRFBpbmlSUFZGdjFiazVqanY4TTM3T0daNk05NVNyaTJXLWlWbVpJenFGTEkyaHhFVlFKUDFsZnRDUFF4eFNGNms0ZWxfc2xYZ1Atc1EyTXlpZGRKbUVhNEtpY1lLSEpBNG80ME53OW4tUkgtbnlOa044MG9HSENIbkhCNDRYSVV3Ql9XaExZSjhHNDN1YW1GckFNbjBEVnoxOE12cU5NREJINWlUQ2tMTW14c2UtSHpvQWtfMHc?oc=5",
+   "fonte": "The GW Hatchet",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-01T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
