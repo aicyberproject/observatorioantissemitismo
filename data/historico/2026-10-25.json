@@ -2,11 +2,18 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-25",
  "semana_iso": "2026-S43",
- "atualizado_em": "2026-10-25T18:54:34+00:00",
+ "atualizado_em": "2026-10-25T22:25:32+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError",
-  "Consultor Jurídico: HTTPError"
+  "Consultor Jurídico: HTTPError",
+  "Radar Brasil — Antissemitismo: HTTPError",
+  "Radar Brasil — Racismo religioso e crimes de ódio: HTTPError",
+  "Radar Brasil — Judiciário e persecução penal: HTTPError",
+  "Radar Global — Antisemitism: HTTPError",
+  "Radar Global — Leis, processos e prisões: HTTPError",
+  "Radar Iberoamérica — Antisemitismo: HTTPError",
+  "Radar Europa — Antisémitisme: HTTPError"
  ],
  "total": 90,
  "no_brasil": 22,
