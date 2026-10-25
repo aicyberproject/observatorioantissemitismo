@@ -2,16 +2,36 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-25",
  "semana_iso": "2026-S43",
- "atualizado_em": "2026-10-25T11:09:28+00:00",
+ "atualizado_em": "2026-10-25T15:57:24+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError",
   "Consultor Jurídico: HTTPError"
  ],
- "total": 79,
+ "total": 83,
  "no_brasil": 22,
- "no_mundo": 57,
+ "no_mundo": 61,
  "itens": [
+  {
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOUliN2U3dmdwS0ZzOVVJS2Q4VWQxeTJyVkRLbmRnM0hscFB6T0p4RHFEOFJCbFpINDBIOER0ZmVBQS1KTXEtaVBqUDZqQTc3eVpkYXhzb21ZblVIbWpmSVl5R0dUTFR6ME9HVmFhNVBJdVFONkRzc09hOXB0M3FVYVRPZzZDWDN0ZUhoSGlqTVNvTmc1M00wMFFEaFNRZw?oc=5",
+   "fonte": "New York Post",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-25T12:38:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPU2pyOU52WEstYkVhcTFkWDlsNDFqSUVZTXdITXhLdnowWFJmZVhmZGdaRGRZVWl0Y1BEcGNQc2hqaTRzUzYxREpTYWdmRm1SanM2dk9ISHJ6ckwzNWxGVGhlZ3dYTmhkMDVkSW5SWU5vZXJtYjF5Q2tCWGs3YVN1QW9uMXlHYmhqUlo0OGJabm5wQWtuaDZGUE95c2pWcklmRXc5T1lmVkxWOHBMa3haZ2tfVDEtRWs4eDdvbGNzcVNRMTFVbm5ZUzFMX3RUV1BKYi1iVjA4MXZ3RW15empwNi1obnBueUtTRV9VY1M4OHdDNGU1dkh5NjBYUjR5WkllYWVj?oc=5",
+   "fonte": "BFM",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-25T12:04:38+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUzRFYkNkZWFmLWVDcmZFeUlHSDRTU05iSGNGdnFObUpiMTlzT1R2dVBtX3BUV1o0QmI0YXJUejhmblBZdC1PeUJyUXZCZW0zaHEzaDI0a3dOSVhWU1ZOb0VMbnFLc2dPRnVYLXlqa1Q2RTlXRGV0OGhyanhBS0h3b3pOVFc5Q0poRTRCNmFOaWRmTV95V19xc0VRbXlQM3pJNHlxOWZNSnJTZVlXNTFYRVdaS2FqR1E?oc=5",
    "fonte": "Brasil 247",
@@ -593,6 +613,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxORXRYNUlTaEkzLUk1Nk1VbGU5eTVfUjBVNU9RRkVOS2otLVJYOVl0TkUzM1FTMWxNdWYtLWhuT2dTajFBYUV1LUoxS1hTUjUxdmVvenhrQ0k0bF9KSkVaUEVBU3liU1pBV242TDFhZE1QcVVFV1hsd0p4aTBtT0lwS3FNcnRmbVJKbmNTXzlGc0tCMEFVQWUtTE5DRzdZbWE3LVpYSjQtaDhhWjZFRW9WS1hqblJjaV90RUhkck1iWExLbTlMOHdLWHBlTmRxS0M2SlN1eGlRY0lFV0VPd0ZmcHpSeG9tUTY2R3FiNFVvLTZxd3QwS3VqUtIBjAJBVV95cUxPNTRUTUc1a1JpSE5PTVVyd3l6TWJ6cEV3S29nRUZPRHYwQy1YNVN4UU5jTDdnWEhyeHphR1FuRmJrX1VUS3NBUTZNc1pWQ0w2YzNzUFVlNnBvYUFfLUllckdaNjQ4SjJLUlFZMXN3UWNkWVRUR0YwM1FIVUU0aFFmOUQyMVM0b3Iwci1ucEZmT1JKaFNFcElrUEpNXzlzc0xzaUcwbnh5eURzNnNXY1N1YXNzeEFfc3FmNy1ZSHZkSURJeHVzLU5iSl9yeFpkX2ZsV3J6UXRpY0JNbHBrSnFJeVVLM0UtMHg3cnF6NFZ0NWVJUHhpck00TGpRX2oxMG1VRmpnYjg0LUpyNnJo?oc=5",
+   "fonte": "EL PAÍS",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-14T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://fathomjournal.org/from-beeri-to-bondi-global-antisemitism-after-october-7/",
    "fonte": "Fathom Journal",
    "escopo": "mundo",
@@ -760,6 +790,16 @@
    "via": null,
    "feed": "onu-pt",
    "categoria": "Direitos humanos e organismos multilaterais",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMlhmWm80NzduQTJKWmdUakJXckNWdEVUeDRsMnBlbV9vRU5UUmlLMS1UY1pVdklLVHR6WXVYTjJWVDQ2dVNGNXJDRDRJc3ZDUUM0aDJXb1VDT1U3RmMyZGhjX3Z4Z3ROaFg1RkVzbkpaUnhfZ3hsMjBZaS1KSUF2ak1zOGZxRjE3NEVPX1JxU3VCMmNyN0RLM2t0QnZ0NGUzcmltb0hQTFZaRWxIMjBGam9VWGw5QQ?oc=5",
+   "fonte": "PBS",
+   "escopo": "mundo",
+   "publicado_em": "2026-08-13T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
