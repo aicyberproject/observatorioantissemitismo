@@ -2,15 +2,65 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-10-30",
  "semana_iso": "2026-S44",
- "atualizado_em": "2026-10-30T19:06:55+00:00",
+ "atualizado_em": "2026-10-30T23:35:21+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 110,
- "no_brasil": 31,
- "no_mundo": 79,
+ "total": 117,
+ "no_brasil": 32,
+ "no_mundo": 85,
  "itens": [
+  {
+   "link": "https://www.jta.org/2026/10/30/politics/ossoff-vs-collins-the-choices-facing-jewish-voters-in-the-georgia-senate-race",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-30T20:59:50+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMUF0TzlCZl9KM2Z5MldRcmJDdkd3MzN2ckJkekNJMU5Gd3NqTC1EY3Z4SXlzRGVRTUZqZTNpWGZWVm5tbzBjR3lncHBtMUVVeGhoM0dCUFhNeDRkMUNGMnVOQ19zVEZnSVJiVW5OS3dxOV9aR2l4N1JoWkhlN3FFYXYtQUxUZ1ZOMTZZSVlHQi1wNEpMQmpJaGNZZ05CWTlLTU51MTdCMXdrc0ozT0FGWDByYjZlLXhmTEt6VjltdFhtQUZsRWtzbw?oc=5",
+   "fonte": "Combate Racismo Ambiental",
+   "escopo": "br",
+   "publicado_em": "2026-10-30T20:18:25+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQaEViMFZ6S19Dc055cXdWTDNJeXB5YjNzSmMxMjRuRWFwVjhDT0NDVWYxM2VGaEtrVGNyaEZXZ0J4ZldscVQ1WXVPbWV4NkhiYVpHMjF6YmFsRkQycm9Dd1puNnBya21tS2xmOHNNZjNuOHdHZzllT3FTcU9OU19KaEFJQ1F5UzdwR3lMT1Qxc2FrMHlnYl9kTnF1STJvTmZTT2lxQWdyaGpjSVhGYjNGNVh1Y1VIN1AzRzMyMGEtRDBCdi1ybXppbktmZ0llemJjMWQzbjhRV1lXVE1mQ0hoVk9NSUxCLWNPdU5yNzdRNEgwNVZRR1ZwTjJHTXhIQ3JWZ3g0UGUweTQ3NzNhZWYtZU1xVGV5WE9CV3hWaG0zUmo3aUtQZDc0?oc=5",
+   "fonte": "BFM",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-30T20:14:28+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.algemeiner.com/2026/10/30/dei-fails-combat-workplace-antisemitism-uk-study-shows-jewish-leaders-issue-new-employer-guidance/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-30T19:41:25+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.algemeiner.com/2026/10/30/two-men-arrested-jewish-researcher-brutally-attacked-rome/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-30T19:19:17+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBqTjhwdWktbURLUmhFSVZJTGVjNi1uenQ5WlNUc01hN0xublRSWGJNQng3OW9iaDhoYS1qWGpPbkxneVpMME1YaS1tbFNXUGQtMVp6NHo3OHFIckZud1dRRGdJR2wtcHVzMkQ4X09ENU9HWUJtTFVITFh2R2dtQQ?oc=5",
    "fonte": "Legis1",
@@ -169,6 +219,16 @@
    "via": null,
    "feed": "fwd",
    "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQekU1TGRRaVVxTE5UM0RLa2I3LVR4VHBDeS1EYWVpRkRRWGZwd0FIUmZQY2FNR3BFb1FGdGVoMy02eWVZc1ZRc3FQNTRidER1UHpncUUwbXNlUVJwQTBGQkt6WEF4bi1qQ2xKb0M2V2gtcnczaTdnTFY1Qmg5dEh5RDI5ekJjQUItRGc?oc=5",
+   "fonte": "WSJ",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-30T10:16:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
@@ -958,6 +1018,16 @@
    "publicado_em": "2026-10-07T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPbnNGVEpDRkhRemxBXzBKYWZic3R3dndtdFdJUjhUUkY0YXMtOWhublh3RllobVV6UTJzWXZnM0M3djJyblZfSG9hZnNDdndtSE5SeHZFcGstb3BjZU42QnRkSURPZmRENG02a0VtbTBjNDI5S0p0ZjhSM29ORUlFTXhRR2dHaGdMNXR5LTZaSlduLUJYc2h1SWlmQmxCTUFyVDBET0FfRFc5MTdJcWJDUG5JYnQ3TmpCSTYwcUxJTktNd2lhTjVJY3Z4Wmd2N2FFbFZzNXRCaVFhaVlIOXp1VXJ3?oc=5",
+   "fonte": "Linternaute.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-03T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
    "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
