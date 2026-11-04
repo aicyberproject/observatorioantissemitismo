@@ -13,7 +13,7 @@ import pathlib, sys
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 
-from layout import BASE, ATUALIZADO, CONTATO, FAIXA, CABECALHO, RODAPE  # noqa: E402
+from layout import BASE, ATUALIZADO, PAG_ATUALIZADA, CONTATO, FAIXA, CABECALHO, RODAPE  # noqa: E402
 
 def pagina(arquivo, titulo, descricao, atual, corpo, scripts=()):
     doc = f"""<!DOCTYPE html>
@@ -62,8 +62,8 @@ SOBRE = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 6vw,
   <div class="met-grid">
     <div>
       <h2 class="h2" style="max-width: 24ch">O que &eacute; esta p&aacute;gina</h2>
-      <p class="body" style="margin: 18px 0 0">Um <strong>prot&oacute;tipo</strong> em elabora&ccedil;&atilde;o no Eixo 3, de Seguran&ccedil;a e Monitoramento, da Iniciativa de Enfrentamento ao Antissemitismo. Serve para demonstrar o desenho de um observat&oacute;rio p&uacute;blico de monitoramento, orienta&ccedil;&atilde;o e prote&ccedil;&atilde;o de direitos.</p>
-      <p class="body" style="margin: 14px 0 0">Ainda n&atilde;o foi apreciado pelo Eixo nem levado &agrave; reuni&atilde;o de coordenadores. N&atilde;o constitui manifesta&ccedil;&atilde;o do CDESS, da Presid&ecirc;ncia da Rep&uacute;blica ou de qualquer &oacute;rg&atilde;o mencionado no conte&uacute;do. Os canais de den&uacute;ncia listados s&atilde;o oficiais e funcionam de forma independente deste prot&oacute;tipo.</p>
+      <p class="body" style="margin: 18px 0 0">Um <strong>prot&oacute;tipo</strong> em elabora&ccedil;&atilde;o no Eixo 3, de Seguran&ccedil;a e Monitoramento, da Iniciativa Especial de Enfrentamento ao Antissemitismo. Serve para demonstrar o desenho de um observat&oacute;rio p&uacute;blico de monitoramento, orienta&ccedil;&atilde;o e prote&ccedil;&atilde;o de direitos.</p>
+      <p class="body" style="margin: 14px 0 0">Ser&aacute; apresentado &agrave; coordena&ccedil;&atilde;o-geral da Iniciativa depois de conclu&iacute;do no Eixo 3. N&atilde;o constitui manifesta&ccedil;&atilde;o do CDESS, da Presid&ecirc;ncia da Rep&uacute;blica ou de qualquer &oacute;rg&atilde;o mencionado no conte&uacute;do. Os canais de den&uacute;ncia listados s&atilde;o oficiais e funcionam de forma independente deste prot&oacute;tipo.</p>
 
       <h2 class="h2" style="max-width: 26ch; margin-top: clamp(34px, 4vw, 50px)">O achado que motiva o trabalho</h2>
       <p class="body" style="margin: 18px 0 0">N&atilde;o se trata de aus&ecirc;ncia de fen&ocirc;meno, mas de aus&ecirc;ncia de medida. Ela se manifesta de tr&ecirc;s modos: categoria inexistente, categoria existente que n&atilde;o mede e s&eacute;rie publicada n&atilde;o compar&aacute;vel entre divulga&ccedil;&otilde;es.</p>
@@ -133,7 +133,7 @@ PRIVACIDADE = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px
   <p class="crumb"><a href="index.html">Observat&oacute;rio</a> &nbsp;/&nbsp; Privacidade</p>
   <h1 class="h1" style="margin-top: 24px">Pol&iacute;tica de privacidade</h1>
   <p class="lead" style="margin: 26px 0 0; max-width: 68ch">Resumo em uma frase: <strong>este s&iacute;tio n&atilde;o coleta dado pessoal nenhum.</strong> N&atilde;o pede seu nome, n&atilde;o pede seu e-mail, n&atilde;o usa cookie de rastreamento e n&atilde;o envia nada seu para lugar algum.</p>
-  <p class="body" style="margin: 18px 0 0; max-width: 68ch">Atualizada em {ATUALIZADO}. Aplica-se ao prot&oacute;tipo publicado em <code>aicyberproject.github.io/observatorioantissemitismo</code>.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 68ch">Atualizada em {PAG_ATUALIZADA}. Aplica-se ao prot&oacute;tipo publicado em <code>aicyberproject.github.io/observatorioantissemitismo</code>.</p>
 </section>
 
 <section class="wrap section" style="padding-top: clamp(20px, 3vw, 36px)">
@@ -209,14 +209,14 @@ TERMOS = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 6vw
   <p class="crumb"><a href="index.html">Observat&oacute;rio</a> &nbsp;/&nbsp; Termos de uso</p>
   <h1 class="h1" style="margin-top: 24px">Termos de uso</h1>
   <p class="lead" style="margin: 26px 0 0; max-width: 68ch">O conte&uacute;do &eacute; livre para reuso, com cita&ccedil;&atilde;o da fonte de origem. Este prot&oacute;tipo n&atilde;o &eacute; fonte oficial, n&atilde;o presta assist&ecirc;ncia jur&iacute;dica e n&atilde;o recebe den&uacute;ncia.</p>
-  <p class="body" style="margin: 18px 0 0; max-width: 68ch">Atualizados em {ATUALIZADO}.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 68ch">Atualizados em {PAG_ATUALIZADA}.</p>
 </section>
 
 <section class="wrap section" style="padding-top: clamp(20px, 3vw, 36px)">
   <div class="met-grid">
     <div>
       <h2 class="h2" style="max-width: 24ch">1. Natureza do servi&ccedil;o</h2>
-      <p class="body" style="margin: 18px 0 0">Este &eacute; um <strong>prot&oacute;tipo</strong>, vers&atilde;o de trabalho em elabora&ccedil;&atilde;o no Eixo 3 da Iniciativa de Enfrentamento ao Antissemitismo. N&atilde;o foi apreciado pelo Eixo nem pela reuni&atilde;o de coordenadores, e n&atilde;o constitui manifesta&ccedil;&atilde;o do CDESS, da Presid&ecirc;ncia da Rep&uacute;blica ou de qualquer &oacute;rg&atilde;o citado no conte&uacute;do.</p>
+      <p class="body" style="margin: 18px 0 0">Este &eacute; um <strong>prot&oacute;tipo</strong>, vers&atilde;o de trabalho em elabora&ccedil;&atilde;o no Eixo 3 da Iniciativa Especial de Enfrentamento ao Antissemitismo. Ser&aacute; apresentado &agrave; coordena&ccedil;&atilde;o-geral da Iniciativa depois de conclu&iacute;do no Eixo 3, e n&atilde;o constitui manifesta&ccedil;&atilde;o do CDESS, da Presid&ecirc;ncia da Rep&uacute;blica ou de qualquer &oacute;rg&atilde;o citado no conte&uacute;do.</p>
       <p class="body" style="margin: 14px 0 0">O conte&uacute;do pode mudar ou sair do ar sem aviso, e o endere&ccedil;o atual n&atilde;o &eacute; definitivo.</p>
 
       <h2 class="h2" style="max-width: 24ch; margin-top: clamp(34px, 4vw, 50px)">2. O que este s&iacute;tio n&atilde;o faz</h2>
@@ -272,7 +272,7 @@ TERMOS = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 6vw
 METODOLOGIA = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 6vw, 80px); padding-bottom: clamp(10px, 2vw, 20px)">
   <p class="crumb"><a href="index.html">Observat&oacute;rio</a> &nbsp;/&nbsp; Metodologia</p>
   <h1 class="h1" style="margin-top: 24px">Metodologia</h1>
-  <p class="lead" style="margin: 26px 0 0; max-width: 70ch">Como cada n&uacute;mero desta p&aacute;gina foi obtido, sobre que base foi calculado, e o que ele n&atilde;o mede. Atualizada em {{ATUALIZADO}}.</p>
+  <p class="lead" style="margin: 26px 0 0; max-width: 70ch">Como cada n&uacute;mero desta p&aacute;gina foi obtido, sobre que base foi calculado, e o que ele n&atilde;o mede. Atualizada em {PAG_ATUALIZADA}.</p>
   <p class="body" style="margin: 18px 0 0; max-width: 70ch">Esta p&aacute;gina tem endere&ccedil;o pr&oacute;prio de prop&oacute;sito. Metodologia enterrada dentro de um relat&oacute;rio n&atilde;o &eacute; cit&aacute;vel, e quem contesta um n&uacute;mero precisa poder apontar exatamente para a regra que o produziu.</p>
 </section>
 
@@ -392,7 +392,7 @@ TAXONOMIA = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 
   <h1 class="h1" style="margin-top: 24px">Taxonomia proposta</h1>
   <p class="lead" style="margin: 26px 0 0; max-width: 70ch">Quinze campos para classificar uma ocorr&ecirc;ncia de antissemitismo. &Eacute; <strong>proposta do Eixo 3</strong>, e n&atilde;o padr&atilde;o adotado: nenhuma base p&uacute;blica brasileira a implementa hoje.</p>
   <p class="body" style="margin: 18px 0 0; max-width: 70ch">Esta p&aacute;gina existe por uma raz&atilde;o pr&aacute;tica. A taxonomia &eacute; o &uacute;nico artefato do trabalho que pode ser publicado <strong>antes</strong> de haver dado para classificar, e &eacute; o que se leva a uma mesa institucional para sustentar a proposta de marcador. Ter endere&ccedil;o pr&oacute;prio e cit&aacute;vel &eacute; parte da fun&ccedil;&atilde;o.</p>
-  <p class="body" style="margin: 18px 0 0; max-width: 70ch">Atualizada em {ATUALIZADO}. Corresponde ao Anexo II dos instrumentos de modelagem do Eixo 3.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 70ch">Atualizada em {PAG_ATUALIZADA}. Corresponde ao Anexo II dos instrumentos de modelagem do Eixo 3.</p>
 </section>
 
 <section class="band"><div class="wrap section">
@@ -504,7 +504,7 @@ CONTATO_PAG = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px
       <p class="body" style="margin: 18px 0 0">Nenhum prazo &eacute; prometido. O prot&oacute;tipo &eacute; mantido por equipe de trabalho, sem plant&atilde;o. Erro de fato em n&uacute;mero publicado tem prioridade sobre pedido de conte&uacute;do novo, porque n&uacute;mero errado no ar &eacute; o defeito mais grave que um observat&oacute;rio pode ter.</p>
     </div>
   </div>
-  <p class="body" style="margin: 26px 0 0; max-width: 70ch">Atualizada em {ATUALIZADO}.</p>
+  <p class="body" style="margin: 26px 0 0; max-width: 70ch">Atualizada em {PAG_ATUALIZADA}.</p>
 </section>
 """
 
@@ -714,7 +714,7 @@ PRESERVAR = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 
 <section class="band" id="campos-minimos"><div class="wrap section">
   <p class="eyebrow">Evid&ecirc;ncia digital &middot; refer&ecirc;ncia do Eixo 3</p>
   <h2 class="h2" style="max-width: 30ch">Os doze campos m&iacute;nimos</h2>
-  <p class="body" style="margin: 18px 0 0; max-width: 74ch">A SaferNet Brasil ofereceu ao Eixo 3 um conjunto de doze campos m&iacute;nimos de preserva&ccedil;&atilde;o de evid&ecirc;ncia digital. &Eacute; a &uacute;nica refer&ecirc;ncia operacional dispon&iacute;vel ao Eixo na mat&eacute;ria. Sua ado&ccedil;&atilde;o pelo Eixo e a compatibilidade com padr&otilde;es internacionais de hotline permanecem pendentes. Fonte: relat&oacute;rio preliminar conjunto das Frentes 1 e 2, vers&atilde;o 2.0, Anexo D, item D.6.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">A SaferNet Brasil ofereceu ao Eixo 3 um conjunto de doze campos m&iacute;nimos de preserva&ccedil;&atilde;o de evid&ecirc;ncia digital. &Eacute; a &uacute;nica refer&ecirc;ncia operacional dispon&iacute;vel ao Eixo na mat&eacute;ria. Sua ado&ccedil;&atilde;o pelo Eixo e a compatibilidade com padr&otilde;es internacionais de hotline permanecem pendentes. Fonte: relat&oacute;rio final conjunto das Frentes 1 e 2, vers&atilde;o final 1.0, Anexo D, item D.6.</p>
   <ol class="body prs-lista">
         <li>Endereço completo do conteúdo, com vínculo específico e permanente.</li>
         <li>Data e hora da captura, com fuso horário explícito, preferencialmente em tempo universal coordenado.</li>
@@ -732,9 +732,9 @@ PRESERVAR = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 
   <p class="prs-risco" role="note" style="margin-top: 22px"><strong>Aten&ccedil;&atilde;o aos campos 6 e 10.</strong> Tratam de dados de identifica&ccedil;&atilde;o de terceiros e s&oacute; podem ser coletados no &acirc;mbito de procedimento com base legal pr&oacute;pria. Esta p&aacute;gina n&atilde;o coleta, n&atilde;o solicita e n&atilde;o armazena nenhum desses elementos. A reprodu&ccedil;&atilde;o aqui &eacute; de natureza estritamente metodol&oacute;gica.</p>
   <h3 class="h3" style="margin-top: 30px">Por que denunciar cedo</h3>
   <p class="body" style="margin: 12px 0 0; max-width: 74ch">Segundo o diagn&oacute;stico do Eixo 3, o Marco Civil da Internet (Lei n&ordm; 12.965/2014) fixa a guarda dos registros de acesso a aplica&ccedil;&otilde;es em seis meses (art. 15) e a dos registros de conex&atilde;o em um ano (art. 13), e n&atilde;o se localizou padr&atilde;o p&uacute;blico de preserva&ccedil;&atilde;o nos &oacute;rg&atilde;os de recebimento. O prazo corre da cria&ccedil;&atilde;o de cada registro, e o Decreto n&ordm; 8.771/2016 determina que o registro seja exclu&iacute;do ao fim do prazo, salvo guarda prorrogada por requisi&ccedil;&atilde;o da autoridade policial, administrativa ou do Minist&eacute;rio P&uacute;blico, ou por ordem judicial. A prorroga&ccedil;&atilde;o n&atilde;o recupera registro j&aacute; exclu&iacute;do. Esse &eacute; um motivo para denunciar sem demora, junto com a volatilidade do conte&uacute;do (achado A24, confian&ccedil;a m&eacute;dia). Quem requer a guarda ao provedor &eacute; a autoridade, e n&atilde;o o particular, que pode ir a ju&iacute;zo, por advogado ou pela Defensoria P&uacute;blica, para pedir o fornecimento dos registros. A preserva&ccedil;&atilde;o junto ao provedor &eacute; feita por solicita&ccedil;&atilde;o tempestiva da autoridade competente (campo 12). Informa&ccedil;&atilde;o geral, que n&atilde;o substitui advogado. H&aacute; um <a href="agenda-futura.html#relogio-preservacao">experimento de c&aacute;lculo de prazo</a>, em revis&atilde;o jur&iacute;dica, na agenda futura.</p>
-  <h3 class="h3" style="margin-top: 30px">Recomenda&ccedil;&atilde;o 14, em minuta</h3>
-  <p class="body" style="margin: 12px 0 0; max-width: 74ch"><strong>Proposta em minuta, n&atilde;o deliberada.</strong> N&atilde;o deve ser citada como posi&ccedil;&atilde;o do Eixo antes de validada. Est&aacute; em aprecia&ccedil;&atilde;o pelos participantes das Frentes 1 e 2, e os destaques n&atilde;o resolvidos ser&atilde;o deliberados na reuni&atilde;o de encerramento, em 14/10/2026. O texto prop&otilde;e fixar, no fluxo de encaminhamento de ocorr&ecirc;ncias em ambiente digital, <strong>prazo de requisi&ccedil;&atilde;o cautelar de guarda</strong> de registros ao provedor e os <strong>campos m&iacute;nimos de preserva&ccedil;&atilde;o</strong> de evid&ecirc;ncia digital. Os destinat&aacute;rios indicados s&atilde;o a Pol&iacute;cia Federal, pela unidade gestora do Comunica PF, e o Minist&eacute;rio dos Direitos Humanos e da Cidadania, por sua Ouvidoria Nacional de Direitos Humanos. O instrumento exigido &eacute; ato administrativo do pr&oacute;prio destinat&aacute;rio, em prazo sugerido curto, de at&eacute; seis meses. O indicador de cumprimento &eacute; a incorpora&ccedil;&atilde;o do prazo e dos campos &agrave;s orienta&ccedil;&otilde;es de atendimento dos dois canais.</p>
-  <p class="fonte" style="margin-top: 22px">Fonte: relat&oacute;rio preliminar conjunto, vers&atilde;o 2.0, Recomenda&ccedil;&atilde;o 14 e achado A24. O formul&aacute;rio de qualifica&ccedil;&atilde;o da not&iacute;cia-crime e a exporta&ccedil;&atilde;o de dossi&ecirc; n&atilde;o fazem parte desta p&aacute;gina: dependem de decis&atilde;o da coordena&ccedil;&atilde;o.</p>
+  <h3 class="h3" style="margin-top: 30px">Recomenda&ccedil;&atilde;o 14</h3>
+  <p class="body" style="margin: 12px 0 0; max-width: 74ch"><strong>Relat&oacute;rio deliberado por destaques em 14/10/2026, pelo canal do Eixo 3; o que n&atilde;o foi destacado considera-se aprovado. As recomenda&ccedil;&otilde;es seguem para aprecia&ccedil;&atilde;o da coordena&ccedil;&atilde;o-geral da Iniciativa e n&atilde;o constituem, ainda, posi&ccedil;&atilde;o da Iniciativa nem do Conselho.</strong> O texto prop&otilde;e fixar, no fluxo de encaminhamento de ocorr&ecirc;ncias em ambiente digital, <strong>prazo de requisi&ccedil;&atilde;o cautelar de guarda</strong> de registros ao provedor e os <strong>campos m&iacute;nimos de preserva&ccedil;&atilde;o</strong> de evid&ecirc;ncia digital. Os destinat&aacute;rios indicados s&atilde;o a Pol&iacute;cia Federal, pela unidade gestora do Comunica PF, e o Minist&eacute;rio dos Direitos Humanos e da Cidadania, por sua Ouvidoria Nacional de Direitos Humanos. O instrumento exigido &eacute; ato administrativo do pr&oacute;prio destinat&aacute;rio, em prazo sugerido curto, de at&eacute; seis meses. O indicador de cumprimento &eacute; a incorpora&ccedil;&atilde;o do prazo e dos campos &agrave;s orienta&ccedil;&otilde;es de atendimento dos dois canais.</p>
+  <p class="fonte" style="margin-top: 22px">Fonte: relat&oacute;rio final conjunto, vers&atilde;o final 1.0, Recomenda&ccedil;&atilde;o 14 e achado A24. O formul&aacute;rio de qualifica&ccedil;&atilde;o da not&iacute;cia-crime e a exporta&ccedil;&atilde;o de dossi&ecirc; n&atilde;o fazem parte desta p&aacute;gina: dependem de decis&atilde;o da coordena&ccedil;&atilde;o.</p>
 </div></section>
 
 <section class="wrap section">
@@ -755,7 +755,7 @@ PRESERVAR = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 
       <p class="body" style="margin: 14px 0 0">Esta página <strong>não recebe denúncia</strong> e não substitui boletim de ocorrência. Os <a href="index.html#denuncie">canais de denúncia</a> são das próprias instituições e funcionam de forma independente deste protótipo.</p>
       <p class="body" style="margin: 14px 0 0">A base legal aplicável está na <a href="index.html#legislacao">seção de legislação</a> e na <a href="biblioteca.html">biblioteca</a>, com link para o texto de origem de cada norma. Norma muda e prazo corre: confira na origem.</p>
       <p class="body" style="margin: 14px 0 0">As classificações citadas ao pé de cada roteiro remetem à <a href="taxonomia.html">taxonomia proposta</a> pelo Eixo 3. É <strong>proposta, e não padrão adotado</strong>: nenhuma base pública brasileira a implementa hoje. Servem para leitura do fenômeno, e não como campo a preencher em formulário existente.</p>
-      <p class="body" style="margin: 14px 0 0">Atualizada em {ATUALIZADO}.</p>
+      <p class="body" style="margin: 14px 0 0">Atualizada em {PAG_ATUALIZADA}.</p>
     </div>
   </div>
 </section>
@@ -787,14 +787,14 @@ PRESERVAR = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 
 
 GRUPOS = [
     ("iniciativa", "A Iniciativa e este protótipo", [
-        ("Iniciativa de Enfrentamento ao Antissemitismo", None,
-         'Denominação oficial desde 31 de julho de 2026. Documentos expedidos antes disso preservam a denominação anterior, "GT Enfrentamento ao Antissemitismo".'),
+        ("Iniciativa Especial de Enfrentamento ao Antissemitismo", None,
+         'Denominação em uso desde 8 de setembro de 2026, referendada pela coordenação-geral em 30 de setembro de 2026. Antes, "GT Enfrentamento ao Antissemitismo" (até 31/07/2026) e "Iniciativa de Enfrentamento ao Antissemitismo" (de 31/07 a 08/09/2026). As três designam o mesmo colegiado. Expedientes antigos preservam a denominação da época.'),
         ("CDESS", "Conselho de Desenvolvimento Econômico, Social e Sustentável",
          'Colegiado no âmbito do qual a Iniciativa se desenvolve. Este protótipo não foi apreciado por ele e não constitui sua manifestação.'),
         ("Eixo 3", "Segurança e Monitoramento",
          'Um dos eixos temáticos da Iniciativa, e o responsável por este protótipo. Seu mandato é validar limitações institucionais de registro e monitoramento, não padronizar canais de denúncia.'),
         ("Protótipo", None,
-         'A condição declarada deste sítio. Versão de trabalho, sem caráter oficial, não apreciada pelo Eixo nem pela reunião de coordenadores, e fora de indexação enquanto durar essa condição.'),
+         'A condição declarada deste sítio. Versão de trabalho, sem caráter oficial, a ser apresentada à coordenação-geral da Iniciativa depois de concluída no Eixo 3, e fora de indexação enquanto durar essa condição.'),
     ]),
     ("medida", "Como o fenômeno é medido, e por que mal se mede", [
         ("Invisibilidade estatística", None,
@@ -906,7 +906,7 @@ GLOSSARIO = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 
 
 <section class="wrap section" style="padding-top: clamp(24px, 3vw, 40px)">
   {_glossario_corpo()}
-  <p class="body" style="margin: clamp(34px, 4vw, 50px) 0 0; max-width: 74ch">Atualizada em {ATUALIZADO}. Sigla de órgão e denominação de entidade seguem a forma usada pela própria instituição. Onde um termo é proposta deste Eixo, e não padrão vigente, a entrada diz.</p>
+  <p class="body" style="margin: clamp(34px, 4vw, 50px) 0 0; max-width: 74ch">Atualizada em {PAG_ATUALIZADA}. Sigla de órgão e denominação de entidade seguem a forma usada pela própria instituição. Onde um termo é proposta deste Eixo, e não padrão vigente, a entrada diz.</p>
 </section>
 """
 

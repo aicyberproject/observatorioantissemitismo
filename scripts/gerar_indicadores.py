@@ -336,7 +336,7 @@ FICHA_COMUNITARIA = [
      "casos validados (46,7%) não trazem estado informado. A distribuição geográfica "
      "de 2025 não é comparável com a de 2024: mudou a forma de captar a localização."),
     ("Definição adotada pela fonte",
-     "A fonte sustenta a definição de trabalho da International Holocaust Remembrance Alliance (IHRA), segundo o relatório preliminar conjunto do Eixo 3, versão 2.0, seção 3.6.2. "
+     "A fonte sustenta a definição de trabalho da International Holocaust Remembrance Alliance (IHRA), segundo o relatório final conjunto do Eixo 3, versão final 1.0, seção 3.6.2. "
      "Há divergência interna no Eixo sobre a definição a adotar, matéria do eixo de Conceituação. A metodologia é a descrita em Método de coleta."),
     ("Data de extração",
      "3 de setembro de 2026, do Relatório de Antissemitismo no Brasil 2025, de CONIB, "

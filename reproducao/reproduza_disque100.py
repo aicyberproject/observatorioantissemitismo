@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Script de referencia do kit "Reproduza o achado" (microdados abertos do Disque 100).
 
-Reproduz os 25 totais do relatorio preliminar conjunto do Eixo 3, versao 2.0, Anexo E,
+Reproduz os 25 totais do relatorio final conjunto do Eixo 3, versao final 1.0, de 26/10/2026, Anexo E,
 item E.11, a partir dos arquivos CSV dos microdados abertos publicados pelo MDHC.
 
 Dois subcomandos:

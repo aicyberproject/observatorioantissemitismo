@@ -23,7 +23,8 @@ propria pagina ou para um vizinho no mesmo subdiretorio.
 import posixpath
 
 BASE = "https://aicyberproject.github.io/observatorioantissemitismo"
-ATUALIZADO = "4 de setembro de 2026"
+ATUALIZADO = "4 de setembro de 2026"          # conferencia de enderecos e fontes (acervo, serie)
+PAG_ATUALIZADA = "4 de novembro de 2026"       # revisao de texto das paginas (auditoria de 04/11/2026)
 
 # Endereco de contato e errata. Working address do prototipo, em dominio
 # pessoal: nao e canal institucional, e a pagina de contato diz isso.
@@ -32,7 +33,7 @@ CONTATO = "observatorio@steniosantos.com"
 FAIXA = """<div class="proto-bar" role="note">
   <div class="wrap proto-inner">
     <span class="proto-tag">Prot&oacute;tipo</span>
-    <p class="proto-text">Vers&atilde;o de trabalho, sem car&aacute;ter oficial. Em elabora&ccedil;&atilde;o no Eixo 3 &mdash; Seguran&ccedil;a e Monitoramento, ainda n&atilde;o apreciada pelo Eixo nem pela reuni&atilde;o de coordenadores. N&atilde;o representa posi&ccedil;&atilde;o do CDESS, da Presid&ecirc;ncia da Rep&uacute;blica ou de qualquer &oacute;rg&atilde;o citado.</p>
+    <p class="proto-text">Vers&atilde;o de trabalho, sem car&aacute;ter oficial. Em elabora&ccedil;&atilde;o no Eixo 3 &mdash; Seguran&ccedil;a e Monitoramento, a ser apresentada &agrave; coordena&ccedil;&atilde;o-geral da Iniciativa depois de conclu&iacute;da no Eixo. N&atilde;o representa posi&ccedil;&atilde;o do CDESS, da Presid&ecirc;ncia da Rep&uacute;blica ou de qualquer &oacute;rg&atilde;o citado.</p>
   </div>
 </div>"""
 
@@ -104,7 +105,7 @@ RODAPE_EXTRA = {
 # Texto de apresentacao do rodape. Varia por secao, de proposito.
 TEXTO_PADRAO = "Plataforma p&uacute;blica de monitoramento de incidentes, orienta&ccedil;&atilde;o jur&iacute;dica, canais de den&uacute;ncia e preserva&ccedil;&atilde;o de provas."
 
-ORG = "Prot&oacute;tipo em elabora&ccedil;&atilde;o no Eixo 3 &mdash; Seguran&ccedil;a e Monitoramento, no &acirc;mbito da Iniciativa de Enfrentamento ao Antissemitismo. Documento de trabalho, sem car&aacute;ter oficial e sem valida&ccedil;&atilde;o do CDESS ou da Presid&ecirc;ncia da Rep&uacute;blica."
+ORG = "Prot&oacute;tipo em elabora&ccedil;&atilde;o no Eixo 3 &mdash; Seguran&ccedil;a e Monitoramento, no &acirc;mbito da Iniciativa Especial de Enfrentamento ao Antissemitismo. Documento de trabalho, sem car&aacute;ter oficial e sem valida&ccedil;&atilde;o do CDESS ou da Presid&ecirc;ncia da Rep&uacute;blica."
 
 LEGAL = "&copy; 2026 Observat&oacute;rio do Antissemitismo no Brasil &middot; Prot&oacute;tipo, vers&atilde;o de trabalho &middot; C&oacute;digo e conte&uacute;do sob licen&ccedil;a MIT"
 
