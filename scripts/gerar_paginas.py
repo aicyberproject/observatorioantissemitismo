@@ -49,6 +49,22 @@ def pagina(arquivo, titulo, descricao, atual, corpo, scripts=()):
 
 
 # ---------------------------------------------------------------------------
+# Quadro 7 do relatorio final (causas da invisibilidade estatistica), em sobre e taxonomia
+# ---------------------------------------------------------------------------
+
+QUADRO7 = """<div class="tab-rolagem"><table class="tab-kpi">
+      <caption class="sr-only">Quadro 7 do relat&oacute;rio final: as causas da invisibilidade estat&iacute;stica e seus rem&eacute;dios</caption>
+      <thead><tr><th scope="col">Causa</th><th scope="col">Natureza</th><th scope="col">San&aacute;vel por marcador?</th><th scope="col">Observa&ccedil;&atilde;o</th></tr></thead>
+      <tbody>
+      <tr><th scope="row">Entrada: categoria inexistente</th><td>Decis&atilde;o taxon&ocirc;mica administrativa</td><td>Sim, integralmente</td><td class="motivo">A arquitetura de marca&ccedil;&atilde;o por vi&eacute;s j&aacute; existe nos principais sistemas federais</td></tr>
+      <tr><th scope="row">Entrada: categoria existente que n&atilde;o mede</th><td>Taxonomia e parametriza&ccedil;&atilde;o</td><td>Sim, por valor de motiva&ccedil;&atilde;o na coluna existente; subsidiariamente, por regra de preenchimento</td><td class="motivo">Caso do Disque 100</td></tr>
+      <tr><th scope="row">Entrada: s&eacute;rie n&atilde;o compar&aacute;vel</th><td>Documenta&ccedil;&atilde;o metodol&oacute;gica</td><td>N&atilde;o por marcador. Sim por nota metodol&oacute;gica ou por extra&ccedil;&atilde;o dos microdados abertos</td><td class="motivo">Caso das divulga&ccedil;&otilde;es anuais da Ouvidoria</td></tr>
+      <tr><th scope="row">Aus&ecirc;ncia de rastreabilidade do desfecho processual</th><td>Em parte, limite normativo leg&iacute;timo, o segredo de justi&ccedil;a</td><td>N&atilde;o integralmente</td><td class="motivo">Mensura&ccedil;&atilde;o poss&iacute;vel por observabilidade indireta, a partir da publicidade dos atos judiciais</td></tr>
+      <tr><th scope="row">Aus&ecirc;ncia de rastreabilidade do desfecho administrativo</th><td>Lacuna de publica&ccedil;&atilde;o, sem &oacute;bice normativo</td><td>Sim</td><td class="motivo">Caso do Portal 1746 e dos relat&oacute;rios de transpar&ecirc;ncia de plataforma. Via existente e vazia</td></tr>
+      </tbody></table></div>
+  <p class="fonte" style="margin-top: 22px">Fonte: relat&oacute;rio final conjunto, vers&atilde;o final 1.0, Quadro 7.</p>"""
+
+# ---------------------------------------------------------------------------
 # Sobre
 # ---------------------------------------------------------------------------
 
@@ -67,8 +83,8 @@ SOBRE = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 6vw,
 
       <h2 class="h2" style="max-width: 26ch; margin-top: clamp(34px, 4vw, 50px)">O achado que motiva o trabalho</h2>
       <p class="body" style="margin: 18px 0 0">N&atilde;o se trata de aus&ecirc;ncia de fen&ocirc;meno, mas de aus&ecirc;ncia de medida. Ela se manifesta de tr&ecirc;s modos: categoria inexistente, categoria existente que n&atilde;o mede e s&eacute;rie publicada n&atilde;o compar&aacute;vel entre divulga&ccedil;&otilde;es.</p>
-      <p class="body" style="margin: 14px 0 0">Nenhuma base p&uacute;blica examinada possui categoria aut&ocirc;noma de antissemitismo: Anu&aacute;rio do F&oacute;rum Brasileiro de Seguran&ccedil;a P&uacute;blica, SaferNet, Comunica PF, Disque 100, boletins de ocorr&ecirc;ncia estaduais e Tabelas Processuais Unificadas do CNJ. O fen&ocirc;meno &eacute; dissolvido em inj&uacute;ria racial, racismo, intoler&acirc;ncia religiosa, amea&ccedil;a ou &ldquo;outros crimes&rdquo;.</p>
-      <p class="body" style="margin: 14px 0 0">S&atilde;o duas causas cumulativas. A aus&ecirc;ncia de categoria na entrada, san&aacute;vel por marcador administrativo, sem lei nova. E a aus&ecirc;ncia de rastreabilidade do desfecho na sa&iacute;da, que decorre em parte de limite normativo leg&iacute;timo, o segredo de justi&ccedil;a. Apenas a primeira &eacute; san&aacute;vel por decis&atilde;o t&eacute;cnica.</p>
+      <p class="body" style="margin: 14px 0 0">Nenhuma base estatal de &acirc;mbito nacional possui a categoria em opera&ccedil;&atilde;o. A exce&ccedil;&atilde;o municipal &eacute; o Portal 1746, da Prefeitura do Rio de Janeiro, com o valor &ldquo;antissemitismo&rdquo; desde 18/03/2022, sem s&eacute;rie publicada (Achados 4 e 5). Entre as bases examinadas, nenhuma das seguintes tem categoria nacional aut&ocirc;noma de antissemitismo: Anu&aacute;rio do F&oacute;rum Brasileiro de Seguran&ccedil;a P&uacute;blica, Comunica PF, Disque 100, boletins de ocorr&ecirc;ncia estaduais e Tabelas Processuais Unificadas do CNJ. A SaferNet, que &eacute; base n&atilde;o estatal, tampouco a tem. O fen&ocirc;meno &eacute; dissolvido em inj&uacute;ria racial, racismo, intoler&acirc;ncia religiosa, amea&ccedil;a ou &ldquo;outros crimes&rdquo;.</p>
+      <p class="body" style="margin: 14px 0 0">S&atilde;o duas causas cumulativas. A aus&ecirc;ncia de categoria na entrada, san&aacute;vel por marcador administrativo, sem lei nova. E a aus&ecirc;ncia de rastreabilidade do desfecho na sa&iacute;da, que decorre em parte de limite normativo leg&iacute;timo, o segredo de justi&ccedil;a. O quadro abaixo, reproduzido do Quadro 7 do relat&oacute;rio final, distingue as causas e diz o que cada uma admite.</p>
       <p class="body" style="margin: 14px 0 0">A <a href="indicadores.html">p&aacute;gina de indicadores</a> registra as duas coisas: o que hoje &eacute; mensur&aacute;vel e, ao lado, as vinte lacunas que nenhuma base preenche, com o motivo de cada uma.</p>
     </div>
     <div>
@@ -86,6 +102,11 @@ SOBRE = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 6vw,
       <p class="body" style="margin: 18px 0 0">Nenhum n&uacute;mero desta p&aacute;gina &eacute; produzido pelo Observat&oacute;rio. A autoridade &eacute; sempre a publica&ccedil;&atilde;o de origem.</p>
     </div>
   </div>
+</section>
+
+<section class="wrap section">
+  <h2 class="h2" style="max-width: 30ch">As causas, e o que cada uma admite</h2>
+  {QUADRO7}
 </section>
 
 <section class="band"><div class="wrap section">
@@ -294,7 +315,7 @@ METODOLOGIA = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px
       <h2 class="h2" style="max-width: 26ch">Natureza do dado</h2>
       <p class="body" style="margin: 18px 0 0">Cada n&uacute;mero carrega uma marca de natureza: contagem de fonte comunit&aacute;ria, registro oficial agregado, monitoramento de imprensa, pesquisa de percep&ccedil;&atilde;o ou apura&ccedil;&atilde;o de outra jurisdi&ccedil;&atilde;o.</p>
       <p class="body" style="margin: 14px 0 0"><strong>N&uacute;meros de naturezas diferentes n&atilde;o s&atilde;o somados nem comparados diretamente.</strong> A pr&aacute;tica vem do ODIHR, organismo da OSCE que mant&eacute;m dois acervos separados e nunca os junta: o que vem do Estado &eacute; registrado como crime, o que vem da sociedade civil como incidente, com a raz&atilde;o declarada de que n&atilde;o se consegue verificar se o segundo grupo se qualifica como crime.</p>
-      <p class="body" style="margin: 14px 0 0">Aqui a disciplina &eacute; a mesma, por motivo pr&aacute;tico: como nenhuma base estatal brasileira tem categoria aut&ocirc;noma de antissemitismo, misturar contagem comunit&aacute;ria com dado policial produziria n&uacute;mero sem denominador.</p>
+      <p class="body" style="margin: 14px 0 0">Aqui a disciplina &eacute; a mesma, por motivo pr&aacute;tico: como nenhuma base estatal de âmbito nacional tem categoria autônoma de antissemitismo em operação, misturar contagem comunit&aacute;ria com dado policial produziria n&uacute;mero sem denominador.</p>
 
       <h2 class="h2" style="max-width: 26ch; margin-top: clamp(34px, 4vw, 50px)">Grau de verifica&ccedil;&atilde;o</h2>
       <p class="body" style="margin: 18px 0 0">Cada bloco tamb&eacute;m traz um selo. <strong>Conferido no acervo</strong> indica n&uacute;mero checado contra o documento de origem. <strong>Citado, prim&aacute;ria n&atilde;o consultada</strong> indica n&uacute;mero cuja fonte est&aacute; declarada, mas cuja publica&ccedil;&atilde;o n&atilde;o foi aberta.</p>
@@ -354,7 +375,7 @@ CAMPOS = [
     ("Evidência disponível", "Não", "print / vídeo / áudio / link / documento"),
     ("Evidência preservada", "Não", "sim / não"),
     ("Encaminhamento", "Sim", "Polícia Federal / Polícia Civil / Ministério Público / MDHC / arquivado / outro"),
-    ("Status do caso", "Sim", "recebido / em triagem / encaminhado / concluído / arquivado"),
+    ("Status do caso", "Sim", "recebido / em triagem / classificado como potencial antissemitismo / encaminhado para investigação / encaminhado para proteção ou prevenção / arquivado por insuficiência informacional / não confirmado / concluído"),
 ]
 
 COMPARADO = [
@@ -392,7 +413,7 @@ TAXONOMIA = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 
   <h1 class="h1" style="margin-top: 24px">Taxonomia proposta</h1>
   <p class="lead" style="margin: 26px 0 0; max-width: 70ch">Quinze campos para classificar uma ocorr&ecirc;ncia de antissemitismo. &Eacute; <strong>proposta do Eixo 3</strong>, e n&atilde;o padr&atilde;o adotado: nenhuma base p&uacute;blica brasileira a implementa hoje.</p>
   <p class="body" style="margin: 18px 0 0; max-width: 70ch">Esta p&aacute;gina existe por uma raz&atilde;o pr&aacute;tica. A taxonomia &eacute; o &uacute;nico artefato do trabalho que pode ser publicado <strong>antes</strong> de haver dado para classificar, e &eacute; o que se leva a uma mesa institucional para sustentar a proposta de marcador. Ter endere&ccedil;o pr&oacute;prio e cit&aacute;vel &eacute; parte da fun&ccedil;&atilde;o.</p>
-  <p class="body" style="margin: 18px 0 0; max-width: 70ch">Atualizada em {PAG_ATUALIZADA}. Corresponde ao Anexo II dos instrumentos de modelagem do Eixo 3.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 70ch">Atualizada em {PAG_ATUALIZADA}. Corresponde ao Anexo D do relatório final.</p>
 </section>
 
 <section class="band"><div class="wrap section">
@@ -400,12 +421,12 @@ TAXONOMIA = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 
   <h2 class="h2" style="max-width: 34ch">Vi&eacute;s &eacute; atributo do fato, n&atilde;o tipo penal</h2>
   <p class="body" style="margin: 20px 0 0; max-width: 74ch">O antissemitismo <strong>n&atilde;o precisa virar crime aut&ocirc;nomo para ser contado.</strong> Precisa ser um marcador de motiva&ccedil;&atilde;o, anexo a crimes que j&aacute; existem no direito brasileiro: inj&uacute;ria racial, racismo, amea&ccedil;a, dano, incita&ccedil;&atilde;o.</p>
   <p class="body" style="margin: 14px 0 0; max-width: 74ch">Essa &eacute; a forma adotada por cinco das principais plataformas internacionais examinadas, e nenhuma delas trata o antissemitismo como tipo penal pr&oacute;prio. E h&aacute; precedente dom&eacute;stico da mesma natureza: em 2022 o Conselho Nacional de Justi&ccedil;a inseriu assuntos de intoler&acirc;ncia religiosa nas Tabelas Processuais Unificadas <strong>por ato administrativo</strong>, e mant&eacute;m painel extra&iacute;do do DataJud. A recomenda&ccedil;&atilde;o central deste Eixo n&atilde;o depende de lei nova.</p>
-  <p class="body" style="margin: 14px 0 0; max-width: 74ch">O argumento emp&iacute;rico est&aacute; na <a href="indicadores.html#instauracao">p&aacute;gina de indicadores</a>: quando o n&uacute;cleo tem&aacute;tico &eacute; tipificado na entrada, a taxa de instaura&ccedil;&atilde;o no Minist&eacute;rio P&uacute;blico Federal quadruplica. A persecu&ccedil;&atilde;o responde ao que consegue enxergar.</p>
 </div></section>
 
 <section class="wrap section">
   <h2 class="h2" style="max-width: 30ch">Os quinze campos</h2>
-  <p class="body" style="margin: 18px 0 0; max-width: 72ch">Formato operacional, pensado para formul&aacute;rio ou sistema de registro. Sete campos obrigat&oacute;rios, oito facultativos.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 72ch">Formato operacional, pensado para formul&aacute;rio ou sistema de registro. Oito campos obrigat&oacute;rios, sete facultativos.</p>
+  <p class="body" style="margin: 14px 0 0; max-width: 72ch">Esta tabela &eacute; a tabela operacional de taxonomia do acervo do Eixo 3, n&atilde;o reproduzida no relat&oacute;rio final. O relat&oacute;rio final publica a taxonomia em oito camadas (Anexo D.2) e um n&uacute;cleo m&iacute;nimo de quinze campos para interoperabilidade (D.2.1), que s&atilde;o outros quinze campos; ver o <a href="formulario-modelo.html">modelo de formul&aacute;rio</a>. A concilia&ccedil;&atilde;o dos instrumentos &eacute; pend&ecirc;ncia registrada no item 8.7 do relat&oacute;rio.</p>
   <div class="tab-rolagem">
     <table class="tab-kpi">
       <caption class="sr-only">Campos da taxonomia proposta, com obrigatoriedade e op&ccedil;&otilde;es padronizadas</caption>
@@ -416,7 +437,7 @@ TAXONOMIA = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 
         f'<td class="motivo">{v}</td></tr>' for c, o, v in CAMPOS)}</tbody>
     </table>
   </div>
-  <p class="fonte" style="margin-top: 22px">O instrumento original tra&iacute;a tamb&eacute;m regras de valida&ccedil;&atilde;o autom&aacute;tica, como alerta para risco 3 ou 4 e encaminhamento priorit&aacute;rio quando h&aacute; ind&iacute;cio de c&eacute;lula extremista. Essas regras pressup&otilde;em um sistema que ainda n&atilde;o existe e por isso n&atilde;o s&atilde;o reproduzidas aqui como se estivessem em opera&ccedil;&atilde;o.</p>
+  <p class="fonte" style="margin-top: 22px">O instrumento original trazia tamb&eacute;m regras de valida&ccedil;&atilde;o autom&aacute;tica, como alerta para risco 3 ou 4 e encaminhamento priorit&aacute;rio quando h&aacute; ind&iacute;cio de c&eacute;lula extremista. Essas regras pressup&otilde;em um sistema que ainda n&atilde;o existe e por isso n&atilde;o s&atilde;o reproduzidas aqui como se estivessem em opera&ccedil;&atilde;o.</p>
 </section>
 
 <section class="band"><div class="wrap section">
@@ -435,13 +456,14 @@ TAXONOMIA = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 
   <h2 class="h2" style="max-width: 32ch">O que falta para a taxonomia funcionar</h2>
   <p class="body" style="margin: 18px 0 0; max-width: 74ch">Uma taxonomia sem campo na entrada &eacute; documento, n&atilde;o instrumento. O <a href="indicadores.html">painel de lacunas</a> registra os vinte indicadores da matriz proposta e o motivo de cada um estar vazio. A s&iacute;ntese &eacute; esta:</p>
   <ul class="scope-list scope-isnot" style="margin-top: 20px; max-width: 76ch">
-    <li>Nenhuma base p&uacute;blica examinada tem categoria aut&ocirc;noma de antissemitismo: Anu&aacute;rio do F&oacute;rum Brasileiro de Seguran&ccedil;a P&uacute;blica, SaferNet, Comunica PF, Disque 100, boletins de ocorr&ecirc;ncia estaduais e Tabelas Processuais Unificadas do CNJ.</li>
+    <li>Nenhuma base estatal de &acirc;mbito nacional possui a categoria em opera&ccedil;&atilde;o. A exce&ccedil;&atilde;o municipal &eacute; o Portal 1746, da Prefeitura do Rio de Janeiro, com o valor &ldquo;antissemitismo&rdquo; desde 18/03/2022, sem s&eacute;rie publicada (Achados 4 e 5). Entre as bases examinadas, nenhuma das seguintes tem categoria nacional aut&ocirc;noma de antissemitismo: Anu&aacute;rio do F&oacute;rum Brasileiro de Seguran&ccedil;a P&uacute;blica, Comunica PF, Disque 100, boletins de ocorr&ecirc;ncia estaduais e Tabelas Processuais Unificadas do CNJ. A SaferNet, que &eacute; base n&atilde;o estatal, tampouco a tem.</li>
     <li>Nenhuma base de entrada classifica risco em quatro n&iacute;veis.</li>
     <li>N&atilde;o h&aacute; campo que distinga alvo institucional de alvo individual.</li>
     <li>N&atilde;o h&aacute; campo de preserva&ccedil;&atilde;o de evid&ecirc;ncia.</li>
     <li>O desfecho processual esbarra em limite normativo leg&iacute;timo, o segredo de justi&ccedil;a, que n&atilde;o &eacute; falha a contornar.</li>
   </ul>
-  <p class="body" style="margin: 20px 0 0; max-width: 74ch">Duas causas cumulativas, portanto. A aus&ecirc;ncia de categoria na entrada, san&aacute;vel por ato administrativo. E a aus&ecirc;ncia de rastreabilidade na sa&iacute;da, que decorre em parte de prote&ccedil;&atilde;o leg&iacute;tima. <strong>Apenas a primeira depende de decis&atilde;o t&eacute;cnica.</strong></p>
+  <p class="body" style="margin: 20px 0 0; max-width: 74ch">Duas causas cumulativas, portanto. A aus&ecirc;ncia de categoria na entrada, san&aacute;vel por ato administrativo. E a aus&ecirc;ncia de rastreabilidade na sa&iacute;da, que decorre em parte de prote&ccedil;&atilde;o leg&iacute;tima. O quadro abaixo, reproduzido do Quadro 7 do relat&oacute;rio final, distingue as causas e diz o que cada uma admite.</p>
+  {QUADRO7}
   <div class="pills" style="margin-top: 24px">
     <a class="pill pill-solid" href="indicadores.html">Painel de lacunas &rarr;</a>
     <a class="pill" href="metodologia.html">Metodologia &rarr;</a>
@@ -798,7 +820,7 @@ GRUPOS = [
     ]),
     ("medida", "Como o fenômeno é medido, e por que mal se mede", [
         ("Invisibilidade estatística", None,
-         'Diluição do fenômeno em categorias genéricas, o que produz falsa negatividade nas séries. Nenhuma base pública brasileira examinada tem categoria autônoma de antissemitismo: o fato entra como injúria racial, racismo, intolerância religiosa, ameaça ou "outros crimes", e deixa de ser contável como antissemitismo.'),
+         'Diluição do fenômeno em categorias genéricas, o que produz falsa negatividade nas séries. Nenhuma base estatal de âmbito nacional possui a categoria em operação, e a exceção municipal, o Portal 1746 do Rio de Janeiro, não publicou série: o fato entra como injúria racial, racismo, intolerância religiosa, ameaça ou "outros crimes", e deixa de ser contável como antissemitismo.'),
         ("Marcador", None,
          'Campo ou etiqueta que permite separar o antissemitismo de categorias mais amplas, sem criar tipo penal novo. É a recomendação central do Eixo 3, e não depende de lei: o Conselho Nacional de Justiça inseriu assuntos de intolerância religiosa nas Tabelas Processuais Unificadas por ato administrativo.'),
         ("Funil institucional", None,
@@ -822,7 +844,7 @@ GRUPOS = [
     ]),
     ("instrumentos", "Instrumentos propostos pelo Eixo 3", [
         ("Taxonomia proposta", None,
-         'Conjunto de quinze campos para classificar uma ocorrência, sete obrigatórios e oito facultativos. É proposta, e não padrão adotado: nenhuma base pública brasileira a implementa. O detalhamento está na página de taxonomia.'),
+         'Conjunto de quinze campos para classificar uma ocorrência, oito obrigatórios e sete facultativos. É proposta, e não padrão adotado: nenhuma base pública brasileira a implementa. O detalhamento está na página de taxonomia.'),
         ("Ficha Padrão Nacional", None,
          'Conjunto mínimo de campos proposto para registro de denúncia, de modo que canais diferentes produzam dado comparável.'),
         ("Nota de fronteira", None,

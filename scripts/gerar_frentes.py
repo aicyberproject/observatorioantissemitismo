@@ -157,6 +157,14 @@ def disque100():
          ["2025", "2.723", "denúncia", "ano civil", REL30, "2.016 (74%)", "6"],
          ["2026", "1.768", "denúncia", "1&ordm;/01 a 27/09/2026", REL30, "920 (52%)", "4"]])
 
+    ESTRAT = tabela(
+        "Estratificação por segmento religioso declarado da vítima, informada em 14/10/2026",
+        ["Ano", "V&iacute;tima de religi&atilde;o juda&iacute;smo", "V&iacute;tima de religi&atilde;o islamismo", "Unidade", "Janela", "Situa&ccedil;&atilde;o"],
+        [["2023", "1", "1", "denúncia", "ano civil", "não publicada em painel"],
+         ["2024", "2", "6", "denúncia", "ano civil", "não publicada em painel"],
+         ["2025", "6", "6", "denúncia", "ano civil", "não publicada em painel"],
+         ["2026", "4", "11", "denúncia", "1&ordm;/01 a 27/09/2026", "não publicada em painel"]])
+
     ramo = tabela(
         "Ramo de liberdade de religião ou crença nos microdados abertos, denúncias distintas",
         ["Ano", "Den&uacute;ncias distintas no ramo", "Unidade", "Janela", "Origem", "Propor&ccedil;&atilde;o do total oficial do mesmo ano"],
@@ -209,6 +217,15 @@ def disque100():
   <p class="fonte" style="margin-top: 22px">Fonte: {REL30}, obtido junto &agrave; Ouvidoria Nacional de Direitos Humanos pela respons&aacute;vel t&eacute;cnica da Frente 2 e encaminhado ao Eixo 3 em 30/09/2026. Confian&ccedil;a alta quanto ao relat&oacute;rio, com a confer&ecirc;ncia contra o painel pendente (achado A35).</p>
 </section>
 
+<section class="wrap section" id="estratificacao">
+  <p class="eyebrow">Estratifica&ccedil;&atilde;o informada</p>
+  <h2 class="h2" style="max-width: 34ch">O dado existe na origem e n&atilde;o est&aacute; no painel p&uacute;blico</h2>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch"><strong>Achado 3-B</strong> (se&ccedil;&atilde;o 3.1.5). O sistema do Disque 100 produz estratifica&ccedil;&atilde;o por segmento religioso declarado da v&iacute;tima que o painel p&uacute;blico de dados n&atilde;o exibe. O dado existe na origem e n&atilde;o alcan&ccedil;a o p&uacute;blico por decis&atilde;o de divulga&ccedil;&atilde;o, e n&atilde;o por aus&ecirc;ncia de registro. A lacuna, nessa parcela, &eacute; de publica&ccedil;&atilde;o.</p>
+  {ESTRAT}
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch"><strong>Achado 3-C</strong> (se&ccedil;&atilde;o 3.1.5). A estratifica&ccedil;&atilde;o informada registra seis den&uacute;ncias com v&iacute;tima de religi&atilde;o declarada juda&iacute;smo em 2025. O processamento dos microdados abertos realizado pelo Eixo identifica, no mesmo ano, cinco den&uacute;ncias distintas com viola&ccedil;&atilde;o do ramo de liberdade de religi&atilde;o ou cren&ccedil;a. A diferen&ccedil;a de uma unidade &eacute; compat&iacute;vel com contagem por par de den&uacute;ncia e viola&ccedil;&atilde;o, em vez de den&uacute;ncia distinta. Registra-se como diverg&ecirc;ncia de unidade a esclarecer, sem ju&iacute;zo sobre qualquer das duas apura&ccedil;&otilde;es.</p>
+  <p class="fonte" style="margin-top: 22px">Fonte: informa&ccedil;&atilde;o prestada em 14/10/2026 pela respons&aacute;vel t&eacute;cnica da Frente 2, em nome do MDHC, a partir de levantamento junto &agrave; Ouvidoria Nacional de Direitos Humanos. Unidade: den&uacute;ncia. Janela: ano civil, com 2026 at&eacute; 27/09. Situa&ccedil;&atilde;o: n&atilde;o publicada em painel.</p>
+</section>
+
 <section class="band"><div class="wrap section" id="microdados">
   <p class="eyebrow">Microdados abertos</p>
   <h2 class="h2" style="max-width: 34ch">O ramo de liberdade de religi&atilde;o ou cren&ccedil;a</h2>
@@ -245,7 +262,7 @@ def disque100():
 <section class="band"><div class="wrap section" id="preenchimento">
   <p class="eyebrow">Religi&atilde;o da v&iacute;tima</p>
   <h2 class="h2" style="max-width: 34ch">Religi&atilde;o da v&iacute;tima conhecida e o salto de 2026</h2>
-  <p class="body" style="margin: 18px 0 0; max-width: 74ch">O campo mede atributo da v&iacute;tima, e n&atilde;o a motiva&ccedil;&atilde;o do agressor, e opera apenas dentro de uma viola&ccedil;&atilde;o. Considera-se a religi&atilde;o conhecida quando o valor registrado n&atilde;o &eacute; vazio, nulo nem &ldquo;n&atilde;o sabe&rdquo;, e a resposta &ldquo;n&atilde;o sabe&rdquo; &eacute; frequente. Na base, a religi&atilde;o &eacute; conhecida em menos de 3 por cento das den&uacute;ncias de 2023 a 2025, e, no ramo de liberdade de religi&atilde;o ou cren&ccedil;a, falta em 76 a 83 por cento. No primeiro semestre de 2026, o percentual na base sobe a 10,13%, ainda minorit&aacute;rio, por causa n&atilde;o identific&aacute;vel nos dados. A afirma&ccedil;&atilde;o de que a religi&atilde;o falta em cerca de tr&ecirc;s quartos das den&uacute;ncias vale s&oacute; para o recorte de 2023 a 2025. Crit&eacute;rio adotado pelo Eixo em 05/10/2026: a vers&atilde;o anterior contava &ldquo;n&atilde;o sabe&rdquo; como preenchido, e a mudan&ccedil;a foi revelada pelo script de refer&ecirc;ncia do kit &ldquo;Reproduza o achado&rdquo;.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">O campo mede atributo da v&iacute;tima, e n&atilde;o a motiva&ccedil;&atilde;o do agressor, e opera apenas dentro de uma viola&ccedil;&atilde;o. Considera-se a religi&atilde;o conhecida quando o valor registrado n&atilde;o &eacute; vazio, nulo nem &ldquo;n&atilde;o sabe&rdquo;, e a resposta &ldquo;n&atilde;o sabe&rdquo; &eacute; frequente. Na base, a religi&atilde;o &eacute; conhecida em menos de 3 por cento das den&uacute;ncias de 2023 a 2025, e, no ramo de liberdade de religi&atilde;o ou cren&ccedil;a, falta em 76 a 83 por cento. No primeiro semestre de 2026, o percentual na base sobe a 10,13%, ainda minorit&aacute;rio, por causa n&atilde;o identific&aacute;vel nos dados. A afirma&ccedil;&atilde;o de que a religi&atilde;o falta em cerca de tr&ecirc;s quartos das den&uacute;ncias vale s&oacute; para o recorte de 2023 a 2025. Crit&eacute;rio adotado pelo Eixo em 05/10/2026: a vers&atilde;o anterior contava &ldquo;n&atilde;o sabe&rdquo; como preenchido, e a mudan&ccedil;a foi revelada pelo <a href="reproducao/README.md">script de refer&ecirc;ncia</a> do kit &ldquo;Reproduza o achado&rdquo;.</p>
   {preench}
   <p class="fonte" style="margin-top: 22px">Fonte: {MICRO}; percentuais da segunda coluna sobre as den&uacute;ncias distintas da base, e os da terceira sobre as do recorte. Confian&ccedil;a alta para os valores (achado A7).</p>
 </div></section>
@@ -866,7 +883,7 @@ def agenda_futura():
   <div id="d100-resumo" aria-live="polite" style="margin-top: 14px"></div>
   <noscript><p class="body">O conferidor precisa de JavaScript. Nada &eacute; enviado.</p></noscript>
   <p class="body" style="margin: 22px 0 0; max-width: 74ch">Os totais esperados tamb&eacute;m est&atilde;o em <a href="data/relatorio-v2/disque100_reproducao.csv" download>arquivo CSV</a>, para voc&ecirc; comparar na sua pr&oacute;pria planilha.</p>
-  <p class="fonte" style="margin-top: 22px">Limites. A diverg&ecirc;ncia n&atilde;o refuta o achado por si s&oacute;: confira a vers&atilde;o dos arquivos, o filtro e a unidade. O relat&oacute;rio oficial do Disque 100 usa um filtro que os microdados abertos n&atilde;o reproduzem, e por isso os totais oficiais n&atilde;o fazem parte do conferidor. Ainda n&atilde;o h&aacute; script de refer&ecirc;ncia publicado. Fonte: {REL_V2}, Anexo E, item E.11.</p>
+  <p class="fonte" style="margin-top: 22px">Limites. A diverg&ecirc;ncia n&atilde;o refuta o achado por si s&oacute;: confira a vers&atilde;o dos arquivos, o filtro e a unidade. O relat&oacute;rio oficial do Disque 100 usa um filtro que os microdados abertos n&atilde;o reproduzem, e por isso os totais oficiais n&atilde;o fazem parte do conferidor. O script de refer&ecirc;ncia est&aacute; publicado na pasta <a href="reproducao/README.md">reproducao</a>, com instru&ccedil;&otilde;es e testes (<a href="reproducao/reproduza_disque100.py">reproduza_disque100.py</a>). Fonte: {REL_V2}, Anexo E, item E.11.</p>
   <script type="application/json" id="dados-d100">__D100JSON__</script>
 </section>
 
