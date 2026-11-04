@@ -80,7 +80,7 @@ def achados():
   <h1 class="h1" style="margin-top: 24px">Achados das Frentes 1 e 2</h1>
   <p class="lead" style="margin: 26px 0 0; max-width: 70ch">A invisibilidade estat&iacute;stica do antissemitismo no Brasil n&atilde;o &eacute; aus&ecirc;ncia de fen&ocirc;meno. &Eacute; <strong>aus&ecirc;ncia de medida</strong>.</p>
   {PRELIMINAR}
-  <p class="body" style="margin: 18px 0 0; max-width: 72ch">Esta p&aacute;gina reproduz os achados do relat&oacute;rio final conjunto das Frentes 1 e 2 do Eixo 3, vers&atilde;o final 1.0, de 26/10/2026, com a fonte e o grau de confian&ccedil;a que o pr&oacute;prio relat&oacute;rio atribui a cada um. O relat&oacute;rio &eacute; documento de trabalho e n&atilde;o est&aacute; publicado aqui. Atualizada em {DATA}. As recomenda&ccedil;&otilde;es do relat&oacute;rio n&atilde;o s&atilde;o reproduzidas.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 72ch">Esta p&aacute;gina reproduz os achados do relat&oacute;rio final conjunto das Frentes 1 e 2 do Eixo 3, vers&atilde;o final 1.0, de 26/10/2026, com a fonte e o grau de confian&ccedil;a que o pr&oacute;prio relat&oacute;rio atribui a cada um. O relat&oacute;rio &eacute; documento de trabalho e n&atilde;o est&aacute; publicado aqui. Atualizada em {DATA}. As recomenda&ccedil;&otilde;es est&atilde;o na <a href="recomendacoes.html">p&aacute;gina de recomenda&ccedil;&otilde;es</a>.</p>
 </section>
 
 <section class="band"><div class="wrap section">
@@ -887,6 +887,22 @@ def agenda_futura():
   <script type="application/json" id="dados-d100">__D100JSON__</script>
 </section>
 
+<section class="wrap section" id="agenda-estrategica">
+  <p class="eyebrow">Relatório final, 7.3</p>
+  <h2 class="h2" style="max-width: 34ch">Agenda estratégica do relatório final (7.3)</h2>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">Propostas com mérito reconhecido pelo Eixo que excedem o mandato atual. São listadas aqui sem desenho, como matéria de continuidade.</p>
+  <ol class="scope-list" style="margin-top: 20px; max-width: 80ch">
+    <li><strong>Padronização do recebimento de denúncias de crimes de ódio nos canais públicos.</strong> Registrado como agenda futura, fora do mandato atual.</li>
+    <li><strong>Simetria de marcadores de motivação de viés.</strong> Registrado como agenda futura, fora do mandato atual.</li>
+    <li><strong>Recorte de motivação de viés nos relatórios de transparência de plataformas.</strong> Registrado como agenda futura, fora do mandato atual.</li>
+    <li><strong>Observatório nacional.</strong> Registrado como agenda futura, fora do mandato atual.</li>
+    <li><strong>Ponto focal nacional de crimes de ódio.</strong> Registrado como agenda futura, fora do mandato atual.</li>
+    <li><strong>Política estruturada de prevenção.</strong> Registrado como agenda futura, fora do mandato atual.</li>
+    <li><strong>Painel por pertencimento religioso no ObservaDH.</strong> Registrado como agenda futura, fora do mandato atual.</li>
+  </ol>
+  <p class="fonte" style="margin-top: 22px">Fonte: relatório final conjunto, versão final 1.0, de 26/10/2026, Seção 7.3.</p>
+</section>
+
 <section class="wrap section" id="outros-experimentos"><div>
   <p class="eyebrow">Ideias, ainda n&atilde;o implementadas</p>
   <h2 class="h2" style="max-width: 34ch">Outras ideias consideradas</h2>
@@ -894,6 +910,50 @@ def agenda_futura():
   <p class="body" style="margin: 22px 0 0; max-width: 74ch">Qualquer um deles pode ser objeto de pesquisa acad&ecirc;mica e de decis&atilde;o da coordena&ccedil;&atilde;o-geral. Nenhum depende de coleta de dado pessoal.</p>
 </div></section>
 """.replace("__D100JSON__", d100_dados_json())
+
+
+# ---------------------------------------------------------------------------
+# Recomendacoes 1 a 14 do relatorio final (decisao da coordenacao: entram com o status atual)
+# ---------------------------------------------------------------------------
+
+def recomendacoes():
+    linhas = [
+         ['1', 'Identificar e declarar formalmente a unidade gestora do Comunica PF', 'Diretoria-Executiva da Polícia Federal', 'Ato administrativo', 'Até 6 meses', 'A5'],
+         ['2', 'Incluir o valor “antissemitismo” no campo de motivação de viés do Comunica PF', 'PF, unidade gestora do Comunica PF', 'Ato administrativo', 'Até 6 meses após a Rec. 1', 'A1, A2'],
+         ['3', 'Nota de fronteira entre Comunica PF e Ouvidoria da PF', 'Corregedoria-Geral e Divisão de Ouvidoria da PF', 'Ato administrativo', 'Até 6 meses', 'A5'],
+         ['4', 'Assunto nacional de motivação de viés no Fala.BR, com valor para antissemitismo, para todo o SisOuv', 'CGU, Ouvidoria-Geral da União', 'Ato administrativo', 'Até 6 meses', 'A3, A4'],
+         ['5', 'Recorte por motivação de viés no painel público de dados de ouvidoria', 'CGU, Ouvidoria-Geral da União', 'Ato administrativo', '6 a 18 meses, condicionado à Rec. 4', 'A3'],
+         ['6', 'Variável de motivação de viés nos Dados Nacionais de Segurança Pública', 'MJSP/Senasp, por deliberação do CONSINESP', 'Resolução do conselho gestor', '6 a 18 meses', 'A1'],
+         ['7', 'Publicar a Tabela Nacional de Tipificações', 'MJSP, Senasp', 'Ato administrativo', 'Até 6 meses', 'A1'],
+         ['8', 'Marcador de motivação de viés nas Tabelas Processuais Unificadas', 'CNJ, Comitê Gestor das TPU e DPJ', 'Deliberação do comitê gestor', '6 a 18 meses', 'A8'],
+         ['9', 'Proposição equivalente nas Tabelas Unificadas do Ministério Público e painel de dados', 'CNMP, Comitê Gestor Nacional das Tabelas Unificadas', 'Deliberação do comitê gestor', '6 a 18 meses', 'A1, A9'],
+         ['10', 'Valor de motivação antissemita no Disque 100 (ou restabelecer o valor religioso) e dicionário de dados', 'MDHC, Ouvidoria Nacional de Direitos Humanos', 'Ato administrativo', 'Até 6 meses', 'A7, A30, A31, A36, A37'],
+         ['11', 'Publicar a série e formalizar o serviço do Portal 1746', 'Prefeitura do Rio de Janeiro', 'Ato administrativo; norma municipal', 'Até 6 meses (série)', 'A10'],
+         ['12', 'Marcador estatístico e análise retroativa na base da SaferNet', 'SaferNet Brasil, com participação técnica da instância sucessora do Eixo 3 e, como sugestão, do MPF', 'Instrumento de cooperação técnica', '6 a 18 meses', 'A12, A13'],
+         ['13', 'Nota metodológica das divulgações do Disque 100', 'MDHC, Ouvidoria Nacional de Direitos Humanos', 'Ato administrativo', 'Até 6 meses', '3-A, A18, A29, A32'],
+         ['14', 'Prazo de requisição cautelar de guarda e campos mínimos de preservação de evidência digital', 'PF (unidade gestora do Comunica PF) e MDHC/ONDH', 'Ato administrativo', 'Até 6 meses', 'A24']]
+    tab = tabela("As quatorze recomendações do relatório final, com destinatário, instrumento, prazo e achados",
+                 ["N&ordm;", "Recomenda&ccedil;&atilde;o", "Destinat&aacute;rio", "Instrumento", "Prazo", "Achados"],
+                 [[esc(c) for c in l] for l in linhas])
+    return f"""{ABERTURA}
+  <p class="crumb"><a href="index.html">Observat&oacute;rio</a> &nbsp;/&nbsp; <a href="achados.html">Achados</a> &nbsp;/&nbsp; Recomenda&ccedil;&otilde;es</p>
+  <h1 class="h1" style="margin-top: 24px">Recomenda&ccedil;&otilde;es do relat&oacute;rio final</h1>
+  <p class="lead" style="margin: 26px 0 0; max-width: 70ch">Catorze recomenda&ccedil;&otilde;es, cada uma com destinat&aacute;rio, instrumento, prazo sugerido e os achados em que se apoia.</p>
+  {PRELIMINAR}
+  <p class="body" style="margin: 18px 0 0; max-width: 72ch"><strong>N&atilde;o constituem, ainda, posi&ccedil;&atilde;o da Iniciativa nem do Conselho.</strong> Atualizada em {DATA}. Fonte: {REL_V2}, Se&ccedil;&atilde;o 7. Os achados remetem &agrave; <a href="achados.html#quadro8">p&aacute;gina de achados</a>.</p>
+</section>
+
+<section class="wrap section" id="tabela">
+  {tab}
+  <p class="body" style="margin: 22px 0 0; max-width: 74ch">Doze das catorze n&atilde;o dependem de lei nova nem de dota&ccedil;&atilde;o or&ccedil;ament&aacute;ria espec&iacute;fica.</p>
+  <p class="body" style="margin: 14px 0 0; max-width: 74ch"><strong>Regra de sucess&atilde;o:</strong> onde se atribui participa&ccedil;&atilde;o t&eacute;cnica ao Eixo 3, leia-se a inst&acirc;ncia que suceder na condu&ccedil;&atilde;o da mat&eacute;ria.</p>
+  {RESSALVA_DEFINICAO}
+  <div class="pills" style="margin-top: 24px">
+    <a class="pill pill-solid" href="achados.html">Achados &rarr;</a>
+    <a class="pill" href="preservar.html">Preservar evid&ecirc;ncias &rarr;</a>
+  </div>
+</section>
+"""
 
 
 def main():
@@ -913,6 +973,9 @@ def main():
         pagina("agenda-futura.html", "Agenda futura: experimentos",
                "Experimentos e ideias de servico a partir dos achados, nao deliberados: relogio de preservacao e outras propostas. Nao recolhe dado.",
                "", agenda_futura(), scripts=("js/relogio.js", "js/d100.js")),
+        pagina("recomendacoes.html", "Recomendações do relatório final",
+               "As quatorze recomendações do relatório final do Eixo 3, com destinatário, instrumento, prazo e achados. Não constituem posição da Iniciativa nem do Conselho.",
+               "recomendacoes.html", recomendacoes()),
         pagina("canais.html", "Inventário de canais de denúncia de crimes de ódio",
                "Inventario de canais online de denuncia de crimes de odio no Brasil, verificado em 03/10/2026: Uniao, estados e sociedade civil.",
                "", canais()),

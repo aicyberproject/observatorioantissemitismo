@@ -47,6 +47,7 @@ MENU_ITENS = [
     ("index.html#painel",     "Painel"),
     ("indicadores.html",      "Indicadores"),
     ("achados.html",          "Achados"),
+    ("recomendacoes.html",    "Recomenda&ccedil;&otilde;es"),
     ("boletim/index.html",    "Boletim"),
     ("preservar.html",        "Preservar evid&ecirc;ncias"),
     ("index.html#denuncie",   "Denunciar"),
@@ -81,6 +82,7 @@ RODAPE_INST = [
     ("taxonomia.html",        "Taxonomia proposta"),
     ("disque100.html",        "Disque 100: o que a base mede"),
     ("bases.html",            "Mapa das bases e canais"),
+    ("recomendacoes.html",    "Recomenda&ccedil;&otilde;es do relat&oacute;rio final"),
     ("formulario-modelo.html","Modelo de formul&aacute;rio (demonstrativo)"),
     ("encaminhar.html",       "Para onde encaminhar"),
     ("agenda-futura.html",    "Agenda futura: experimentos"),
@@ -103,7 +105,7 @@ RODAPE_EXTRA = {
 }
 
 # Texto de apresentacao do rodape. Varia por secao, de proposito.
-TEXTO_PADRAO = "Plataforma p&uacute;blica de monitoramento de incidentes, orienta&ccedil;&atilde;o jur&iacute;dica, canais de den&uacute;ncia e preserva&ccedil;&atilde;o de provas."
+TEXTO_PADRAO = "Prot&oacute;tipo de demonstra&ccedil;&atilde;o: o que se mede e o que n&atilde;o se mede sobre antissemitismo no Brasil, canais de den&uacute;ncia e orienta&ccedil;&atilde;o informativa para preservar provas."
 
 ORG = "Prot&oacute;tipo em elabora&ccedil;&atilde;o no Eixo 3 &mdash; Seguran&ccedil;a e Monitoramento, no &acirc;mbito da Iniciativa Especial de Enfrentamento ao Antissemitismo. Documento de trabalho, sem car&aacute;ter oficial e sem valida&ccedil;&atilde;o do CDESS ou da Presid&ecirc;ncia da Rep&uacute;blica."
 
