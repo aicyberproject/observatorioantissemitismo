@@ -32,7 +32,7 @@ arquivos; os três últimos passaram a ser declarados aqui e na página de indic
 
 | Campo | Valor |
 |---|---|
-| Procedência | `conferido`. Checado contra o Relatório de Antissemitismo no Brasil 2025, integral e público, linkado acima. |
+| Procedência | `conferido`. Checado contra o Relatório Anual sobre Antissemitismo no Brasil 2025, integral e público, linkado acima. |
 | Base de cálculo | Declarada por recorte no campo `base_de_calculo`, quando há percentual. |
 | Método de coleta | Denúncia recebida em canal próprio das entidades, com triagem e validação posterior por equipe. Mede denúncia recebida, e não incidência: não há busca ativa nem varredura automatizada. |
 | Cobertura | Nacional, com localização declarada por quem denuncia. Em 2025, 462 dos 989 casos validados (46,7%) não trazem estado informado. |
@@ -87,12 +87,12 @@ calculado sobre essa soma.
 
 ## `serie_mensal.csv`
 
-Denúncias mês a mês, de janeiro de 2022 a dezembro de 2024.
+Ocorrências validadas mês a mês, de janeiro de 2022 a dezembro de 2024. Os totais anuais (397, 1.410 e 1.788) são ocorrências validadas, e não registros brutos.
 
 | Campo | Descrição |
 |---|---|
 | `ano`, `mes_numero`, `mes` | Período de referência. |
-| `denuncias` | Registros do mês. |
+| `ocorrencias_validadas` | Ocorrências validadas no mês, após a triagem. Não é o total de registros recebidos. |
 
 **Ressalva.** A série mensal de 2025 não consta do Sumário Executivo e não foi incluída.
 A soma da série mensal de 2023 é 1.410, igual ao total validado da edição de 2025.

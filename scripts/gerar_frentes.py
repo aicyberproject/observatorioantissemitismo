@@ -4,8 +4,8 @@
 do Disque 100, mapa de bases e canais, modelo de formulario e assistente de
 encaminhamento.
 
-Fonte unica: o relatorio preliminar conjunto das Frentes 1 e 2, versao 2.0, de
-05/10/2026. Os quadros vieram dele para data/relatorio-v2/, e este modulo so
+Fonte unica: o relatorio final conjunto das Frentes 1 e 2, versao final 1.0, de
+26/10/2026. Os quadros vieram dele para data/relatorio-v2/, e este modulo so
 le esses arquivos. Nenhuma pagina daqui recolhe dado: nao ha formulario que
 envie, nem armazenamento no navegador.
 
@@ -23,20 +23,18 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from gerar_paginas import pagina  # noqa: E402
 
 DADOS = RAIZ / "data" / "relatorio-v2"
-DATA = "5 de outubro de 2026"
-REL_V2 = "relat&oacute;rio preliminar conjunto, vers&atilde;o 2.0, de 05/10/2026"
+DATA = "4 de novembro de 2026"
+REL_V2 = "relat&oacute;rio final conjunto, vers&atilde;o final 1.0, de 26/10/2026"
 
 PRELIMINAR = (
     '<p class="fonte" role="note" style="border-left: 4px solid currentColor; padding-left: 14px; margin: 22px 0 0; max-width: 74ch">'
-    '<strong>Documento preliminar, em aprecia&ccedil;&atilde;o pelos participantes das Frentes 1 e 2, que podem apresentar '
-    'destaques, sugest&otilde;es e eventuais vetos. Os destaques n&atilde;o resolvidos ser&atilde;o deliberados na reuni&atilde;o '
-    'de encerramento dos trabalhos, em 14/10/2026. N&atilde;o constitui posi&ccedil;&atilde;o do Eixo, da Iniciativa ou do Conselho.</strong></p>')
+    '<strong>Relat&oacute;rio deliberado por destaques em 14/10/2026, pelo canal do Eixo 3; o que n&atilde;o foi destacado considera-se aprovado. As recomenda&ccedil;&otilde;es seguem para aprecia&ccedil;&atilde;o da coordena&ccedil;&atilde;o-geral da Iniciativa e n&atilde;o constituem, ainda, posi&ccedil;&atilde;o da Iniciativa nem do Conselho.</strong></p>')
 
 RESSALVA_DEFINICAO = (
     '<p class="fonte" role="note" style="margin: 22px 0 0; max-width: 74ch">'
     '<strong>Ressalva de defini&ccedil;&atilde;o.</strong> Os dados existentes foram produzidos sob defini&ccedil;&otilde;es '
-    'e metodologias pr&oacute;prias de cada fonte e n&atilde;o s&atilde;o representativos da defini&ccedil;&atilde;o '
-    'adotada pela Iniciativa.</p>')
+    'e metodologias pr&oacute;prias de cada fonte e n&atilde;o s&atilde;o representativos da Defini&ccedil;&atilde;o de Antissemitismo emitida pelo eixo de Conceitua&ccedil;&atilde;o, '
+    'ainda sujeita &agrave; aprecia&ccedil;&atilde;o da coordena&ccedil;&atilde;o-geral.</p>')
 
 
 def esc(t):
@@ -82,7 +80,7 @@ def achados():
   <h1 class="h1" style="margin-top: 24px">Achados das Frentes 1 e 2</h1>
   <p class="lead" style="margin: 26px 0 0; max-width: 70ch">A invisibilidade estat&iacute;stica do antissemitismo no Brasil n&atilde;o &eacute; aus&ecirc;ncia de fen&ocirc;meno. &Eacute; <strong>aus&ecirc;ncia de medida</strong>.</p>
   {PRELIMINAR}
-  <p class="body" style="margin: 18px 0 0; max-width: 72ch">Esta p&aacute;gina reproduz os achados do relat&oacute;rio preliminar conjunto das Frentes 1 e 2 do Eixo 3, vers&atilde;o 2.0, de 05/10/2026, com a fonte e o grau de confian&ccedil;a que o pr&oacute;prio relat&oacute;rio atribui a cada um. O relat&oacute;rio &eacute; documento de trabalho e n&atilde;o est&aacute; publicado aqui. Atualizada em {DATA}. As recomenda&ccedil;&otilde;es do relat&oacute;rio n&atilde;o s&atilde;o reproduzidas.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 72ch">Esta p&aacute;gina reproduz os achados do relat&oacute;rio final conjunto das Frentes 1 e 2 do Eixo 3, vers&atilde;o final 1.0, de 26/10/2026, com a fonte e o grau de confian&ccedil;a que o pr&oacute;prio relat&oacute;rio atribui a cada um. O relat&oacute;rio &eacute; documento de trabalho e n&atilde;o est&aacute; publicado aqui. Atualizada em {DATA}. As recomenda&ccedil;&otilde;es est&atilde;o na <a href="recomendacoes.html">p&aacute;gina de recomenda&ccedil;&otilde;es</a>.</p>
 </section>
 
 <section class="band"><div class="wrap section">
@@ -114,7 +112,7 @@ def achados():
   <h2 class="h2" style="max-width: 34ch">Quadro de achados consolidados</h2>
   <p class="body" style="margin: 18px 0 0; max-width: 74ch">Os achados A1 a A17 v&ecirc;m da Frente 1. Os achados A18 a A37 v&ecirc;m do levantamento da Frente 2, n&atilde;o exclusivamente em fontes abertas. Grau alto exige fonte prim&aacute;ria verificada por quem atribui o grau. Leitura por reprodu&ccedil;&atilde;o, por resumo ou por informa&ccedil;&atilde;o n&atilde;o conferida recebe grau m&eacute;dio ou baixo. Respostas institucionais por despacho aparecem sem o n&uacute;mero do processo.</p>
   {tabela("Achados consolidados A1 a A37, com fonte e grau de confiança", ["N&ordm;", "Achado", "Fonte", "Confian&ccedil;a"], linhas8)}
-  <p class="fonte" style="margin-top: 22px">Fonte: relat&oacute;rio preliminar conjunto, vers&atilde;o 2.0, Quadro 8. Os n&uacute;meros do Disque 100 est&atilde;o detalhados, com unidade, janela e divulga&ccedil;&atilde;o de origem, na {PAG_D100}.</p>
+  <p class="fonte" style="margin-top: 22px">Fonte: relat&oacute;rio final conjunto, vers&atilde;o final 1.0, Quadro 8. Os n&uacute;meros do Disque 100 est&atilde;o detalhados, com unidade, janela e divulga&ccedil;&atilde;o de origem, na {PAG_D100}.</p>
 </section>
 
 <section class="band"><div class="wrap section" id="corpo">
@@ -159,6 +157,14 @@ def disque100():
          ["2025", "2.723", "denúncia", "ano civil", REL30, "2.016 (74%)", "6"],
          ["2026", "1.768", "denúncia", "1&ordm;/01 a 27/09/2026", REL30, "920 (52%)", "4"]])
 
+    ESTRAT = tabela(
+        "Estratificação por segmento religioso declarado da vítima, informada em 14/10/2026",
+        ["Ano", "V&iacute;tima de religi&atilde;o juda&iacute;smo", "V&iacute;tima de religi&atilde;o islamismo", "Unidade", "Janela", "Situa&ccedil;&atilde;o"],
+        [["2023", "1", "1", "denúncia", "ano civil", "não publicada em painel"],
+         ["2024", "2", "6", "denúncia", "ano civil", "não publicada em painel"],
+         ["2025", "6", "6", "denúncia", "ano civil", "não publicada em painel"],
+         ["2026", "4", "11", "denúncia", "1&ordm;/01 a 27/09/2026", "não publicada em painel"]])
+
     ramo = tabela(
         "Ramo de liberdade de religião ou crença nos microdados abertos, denúncias distintas",
         ["Ano", "Den&uacute;ncias distintas no ramo", "Unidade", "Janela", "Origem", "Propor&ccedil;&atilde;o do total oficial do mesmo ano"],
@@ -193,7 +199,7 @@ def disque100():
   <h1 class="h1" style="margin-top: 24px">Disque 100: o que a base mede e o que n&atilde;o mede</h1>
   <p class="lead" style="margin: 26px 0 0; max-width: 70ch">O campo existe, e a medida n&atilde;o. O Disque 100 registra a religi&atilde;o da v&iacute;tima, mas n&atilde;o tem valor de motiva&ccedil;&atilde;o religiosa ou antissemita, e as divulga&ccedil;&otilde;es p&uacute;blicas n&atilde;o se comparam entre si.</p>
   {PRELIMINAR}
-  <p class="body" style="margin: 18px 0 0; max-width: 72ch">Atualizada em {DATA}. Fonte: relat&oacute;rio preliminar conjunto das Frentes 1 e 2, vers&atilde;o 2.0, item 3.1.5, Quadro 8 e Anexo E, itens E.9.2 e E.11. Os n&uacute;meros n&atilde;o s&atilde;o produzidos por este sítio.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 72ch">Atualizada em {DATA}. Fonte: relat&oacute;rio final conjunto das Frentes 1 e 2, vers&atilde;o final 1.0, item 3.1.5, Quadro 8 e Anexo E, itens E.9.2 e E.11. Os n&uacute;meros n&atilde;o s&atilde;o produzidos por este sítio.</p>
   {RESSALVA_DEFINICAO}
 </section>
 
@@ -209,6 +215,15 @@ def disque100():
   <p class="body" style="margin: 18px 0 0; max-width: 74ch">O relat&oacute;rio oficial foi obtido junto &agrave; Ouvidoria Nacional de Direitos Humanos pela respons&aacute;vel t&eacute;cnica da Frente 2 e encaminhado ao Eixo em 30/09/2026, a partir de pedido sobre os dados divulgados. N&atilde;o &eacute; resposta &agrave; dilig&ecirc;ncia D01, cujas perguntas sobre marcador, fluxo e integra&ccedil;&atilde;o seguem sem resposta. Ele declara contar den&uacute;ncias e reproduz os totais divulgados. Os treze casos com v&iacute;tima de religi&atilde;o juda&iacute;smo no per&iacute;odo s&atilde;o piso, porque a religi&atilde;o da v&iacute;tima n&atilde;o &eacute; informada na maioria das den&uacute;ncias. Os valores n&atilde;o foram conferidos no painel original.</p>
   {oficial}
   <p class="fonte" style="margin-top: 22px">Fonte: {REL30}, obtido junto &agrave; Ouvidoria Nacional de Direitos Humanos pela respons&aacute;vel t&eacute;cnica da Frente 2 e encaminhado ao Eixo 3 em 30/09/2026. Confian&ccedil;a alta quanto ao relat&oacute;rio, com a confer&ecirc;ncia contra o painel pendente (achado A35).</p>
+</section>
+
+<section class="wrap section" id="estratificacao">
+  <p class="eyebrow">Estratifica&ccedil;&atilde;o informada</p>
+  <h2 class="h2" style="max-width: 34ch">O dado existe na origem e n&atilde;o est&aacute; no painel p&uacute;blico</h2>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch"><strong>Achado 3-B</strong> (se&ccedil;&atilde;o 3.1.5). O sistema do Disque 100 produz estratifica&ccedil;&atilde;o por segmento religioso declarado da v&iacute;tima que o painel p&uacute;blico de dados n&atilde;o exibe. O dado existe na origem e n&atilde;o alcan&ccedil;a o p&uacute;blico por decis&atilde;o de divulga&ccedil;&atilde;o, e n&atilde;o por aus&ecirc;ncia de registro. A lacuna, nessa parcela, &eacute; de publica&ccedil;&atilde;o.</p>
+  {ESTRAT}
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch"><strong>Achado 3-C</strong> (se&ccedil;&atilde;o 3.1.5). A estratifica&ccedil;&atilde;o informada registra seis den&uacute;ncias com v&iacute;tima de religi&atilde;o declarada juda&iacute;smo em 2025. O processamento dos microdados abertos realizado pelo Eixo identifica, no mesmo ano, cinco den&uacute;ncias distintas com viola&ccedil;&atilde;o do ramo de liberdade de religi&atilde;o ou cren&ccedil;a. A diferen&ccedil;a de uma unidade &eacute; compat&iacute;vel com contagem por par de den&uacute;ncia e viola&ccedil;&atilde;o, em vez de den&uacute;ncia distinta. Registra-se como diverg&ecirc;ncia de unidade a esclarecer, sem ju&iacute;zo sobre qualquer das duas apura&ccedil;&otilde;es.</p>
+  <p class="fonte" style="margin-top: 22px">Fonte: informa&ccedil;&atilde;o prestada em 14/10/2026 pela respons&aacute;vel t&eacute;cnica da Frente 2, em nome do MDHC, a partir de levantamento junto &agrave; Ouvidoria Nacional de Direitos Humanos. Unidade: den&uacute;ncia. Janela: ano civil, com 2026 at&eacute; 27/09. Situa&ccedil;&atilde;o: n&atilde;o publicada em painel.</p>
 </section>
 
 <section class="band"><div class="wrap section" id="microdados">
@@ -247,7 +262,7 @@ def disque100():
 <section class="band"><div class="wrap section" id="preenchimento">
   <p class="eyebrow">Religi&atilde;o da v&iacute;tima</p>
   <h2 class="h2" style="max-width: 34ch">Religi&atilde;o da v&iacute;tima conhecida e o salto de 2026</h2>
-  <p class="body" style="margin: 18px 0 0; max-width: 74ch">O campo mede atributo da v&iacute;tima, e n&atilde;o a motiva&ccedil;&atilde;o do agressor, e opera apenas dentro de uma viola&ccedil;&atilde;o. Considera-se a religi&atilde;o conhecida quando o valor registrado n&atilde;o &eacute; vazio, nulo nem &ldquo;n&atilde;o sabe&rdquo;, e a resposta &ldquo;n&atilde;o sabe&rdquo; &eacute; frequente. Na base, a religi&atilde;o &eacute; conhecida em menos de 3 por cento das den&uacute;ncias de 2023 a 2025, e, no ramo de liberdade de religi&atilde;o ou cren&ccedil;a, falta em 76 a 83 por cento. No primeiro semestre de 2026, o percentual na base sobe a 10,13%, ainda minorit&aacute;rio, por causa n&atilde;o identific&aacute;vel nos dados. A afirma&ccedil;&atilde;o de que a religi&atilde;o falta em cerca de tr&ecirc;s quartos das den&uacute;ncias vale s&oacute; para o recorte de 2023 a 2025. Crit&eacute;rio adotado pelo Eixo em 05/10/2026: a vers&atilde;o anterior contava &ldquo;n&atilde;o sabe&rdquo; como preenchido, e a mudan&ccedil;a foi revelada pelo script de refer&ecirc;ncia do kit &ldquo;Reproduza o achado&rdquo;.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">O campo mede atributo da v&iacute;tima, e n&atilde;o a motiva&ccedil;&atilde;o do agressor, e opera apenas dentro de uma viola&ccedil;&atilde;o. Considera-se a religi&atilde;o conhecida quando o valor registrado n&atilde;o &eacute; vazio, nulo nem &ldquo;n&atilde;o sabe&rdquo;, e a resposta &ldquo;n&atilde;o sabe&rdquo; &eacute; frequente. Na base, a religi&atilde;o &eacute; conhecida em menos de 3 por cento das den&uacute;ncias de 2023 a 2025, e, no ramo de liberdade de religi&atilde;o ou cren&ccedil;a, falta em 76 a 83 por cento. No primeiro semestre de 2026, o percentual na base sobe a 10,13%, ainda minorit&aacute;rio, por causa n&atilde;o identific&aacute;vel nos dados. A afirma&ccedil;&atilde;o de que a religi&atilde;o falta em cerca de tr&ecirc;s quartos das den&uacute;ncias vale s&oacute; para o recorte de 2023 a 2025. Crit&eacute;rio adotado pelo Eixo em 05/10/2026: a vers&atilde;o anterior contava &ldquo;n&atilde;o sabe&rdquo; como preenchido, e a mudan&ccedil;a foi revelada pelo <a href="reproducao/README.md">script de refer&ecirc;ncia</a> do kit &ldquo;Reproduza o achado&rdquo;.</p>
   {preench}
   <p class="fonte" style="margin-top: 22px">Fonte: {MICRO}; percentuais da segunda coluna sobre as den&uacute;ncias distintas da base, e os da terceira sobre as do recorte. Confian&ccedil;a alta para os valores (achado A7).</p>
 </div></section>
@@ -281,13 +296,13 @@ def bases():
   <h1 class="h1" style="margin-top: 24px">Mapa das bases e canais</h1>
   <p class="lead" style="margin: 26px 0 0; max-width: 70ch">Dezoito bases e canais examinados, com a pergunta que importa: o instrumento tem categoria que identifique o antissemitismo, e a base permite saber o que aconteceu com o registro depois da entrada?</p>
   {PRELIMINAR}
-  <p class="body" style="margin: 18px 0 0; max-width: 72ch">Posi&ccedil;&atilde;o de 18 de agosto de 2026, conforme o Anexo B do relat&oacute;rio preliminar conjunto, vers&atilde;o 2.0. Atualizada em {DATA}. A coluna de categoria responde se existe, no instrumento, valor ou campo que identifique o antissemitismo de forma separ&aacute;vel na extra&ccedil;&atilde;o. A coluna de desfecho responde se a base permite saber o que aconteceu com o registro.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 72ch">Posi&ccedil;&atilde;o de 18 de agosto de 2026, conforme o Anexo B do relat&oacute;rio final conjunto, vers&atilde;o final 1.0. Atualizada em {DATA}. A coluna de categoria responde se existe, no instrumento, valor ou campo que identifique o antissemitismo de forma separ&aacute;vel na extra&ccedil;&atilde;o. A coluna de desfecho responde se a base permite saber o que aconteceu com o registro.</p>
   {RESSALVA_DEFINICAO}
 </section>
 
 <section class="wrap section" id="quadro">
   {tabela("Quadro comparativo das bases e canais examinados pelo Eixo 3", ["Base ou canal", "&Oacute;rg&atilde;o ou entidade", "Categoria aut&ocirc;noma de antissemitismo", "Categoria mais pr&oacute;xima dispon&iacute;vel", "Unidade de contagem", "Desfecho rastre&aacute;vel"], linhas)}
-  <p class="fonte" style="margin-top: 22px">Fonte: relat&oacute;rio preliminar conjunto, vers&atilde;o 2.0, Anexo B, quadro B.1. A unidade de contagem difere entre as bases (comunica&ccedil;&atilde;o, manifesta&ccedil;&atilde;o, den&uacute;ncia, boletim, chamado, processo, procedimento, ocorr&ecirc;ncia validada), e por isso os n&uacute;meros de bases distintas n&atilde;o se somam. Os canais de den&uacute;ncia de crimes de &oacute;dio, com endere&ccedil;o e verifica&ccedil;&atilde;o de 03/10/2026, est&atilde;o no <a href="canais.html">invent&aacute;rio de canais</a>.</p>
+  <p class="fonte" style="margin-top: 22px">Fonte: relat&oacute;rio final conjunto, vers&atilde;o final 1.0, Anexo B, quadro B.1. A unidade de contagem difere entre as bases (comunica&ccedil;&atilde;o, manifesta&ccedil;&atilde;o, den&uacute;ncia, boletim, chamado, processo, procedimento, ocorr&ecirc;ncia validada), e por isso os n&uacute;meros de bases distintas n&atilde;o se somam. Os canais de den&uacute;ncia de crimes de &oacute;dio, com endere&ccedil;o e verifica&ccedil;&atilde;o de 03/10/2026, est&atilde;o no <a href="canais.html">invent&aacute;rio de canais</a>.</p>
 </section>
 
 <section class="band"><div class="wrap section" id="leitura">
@@ -397,7 +412,7 @@ def formulario_modelo():
   <p class="crumb"><a href="index.html">Observat&oacute;rio</a> &nbsp;/&nbsp; <a href="achados.html">Achados</a> &nbsp;/&nbsp; Modelo de formul&aacute;rio</p>
   <h1 class="h1" style="margin-top: 24px">Modelo demonstrativo de ficha de registro</h1>
   <p class="frm-aviso" role="note">{AVISO_FORM}</p>
-  <p class="body" style="margin: 18px 0 0; max-width: 72ch">Os campos s&atilde;o os da ficha padr&atilde;o nacional de registro de den&uacute;ncia (Anexo D.1 do relat&oacute;rio preliminar conjunto, vers&atilde;o 2.0), em vers&atilde;o de trabalho, e o n&uacute;cleo m&iacute;nimo de interoperabilidade (D.2.1). Existe para que os &oacute;rg&atilde;os de registro avaliem a proposta. <strong>N&atilde;o digite dado real</strong>: nada do que se escreve aqui sai do aparelho, e a p&aacute;gina n&atilde;o tem como receber den&uacute;ncia. Para denunciar, use os <a href="index.html#denuncie">canais de den&uacute;ncia</a> {ENC}.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 72ch">Os campos s&atilde;o os da ficha padr&atilde;o nacional de registro de den&uacute;ncia (Anexo D.1 do relat&oacute;rio final conjunto, vers&atilde;o final 1.0), em vers&atilde;o de trabalho, e o n&uacute;cleo m&iacute;nimo de interoperabilidade (D.2.1). Existe para que os &oacute;rg&atilde;os de registro avaliem a proposta. <strong>N&atilde;o digite dado real</strong>: nada do que se escreve aqui sai do aparelho, e a p&aacute;gina n&atilde;o tem como receber den&uacute;ncia. Para denunciar, use os <a href="index.html#denuncie">canais de den&uacute;ncia</a> {ENC}.</p>
   {PRELIMINAR}
   {RESSALVA_DEFINICAO}
   <p class="body" style="margin: 14px 0 0; max-width: 72ch">Atualizada em {DATA}. A ficha n&atilde;o contempla campo de status do caso, presente no n&uacute;cleo m&iacute;nimo e na oitava camada da taxonomia conceitual (ver <a href="taxonomia.html">taxonomia proposta</a>).</p>
@@ -416,7 +431,7 @@ def formulario_modelo():
   <h2 class="h2" style="max-width: 34ch">N&uacute;cleo m&iacute;nimo de interoperabilidade</h2>
   <p class="body" style="margin: 18px 0 0; max-width: 74ch">Quinze campos definidos como n&uacute;cleo m&iacute;nimo (D.2.1), para que registros de &oacute;rg&atilde;os diferentes possam ser lidos em conjunto.</p>
   <ol class="scope-list" style="margin-top: 20px; max-width: 76ch">{nucleo}</ol>
-  <p class="fonte" style="margin-top: 22px">Fonte: relat&oacute;rio preliminar conjunto, vers&atilde;o 2.0, Anexo D, itens D.1 e D.2.1. Proposta em vers&atilde;o de trabalho, n&atilde;o deliberada. Nenhum &oacute;rg&atilde;o a adotou.</p>
+  <p class="fonte" style="margin-top: 22px">Fonte: relat&oacute;rio final conjunto, vers&atilde;o final 1.0, Anexo D, itens D.1 e D.2.1. Proposta em vers&atilde;o de trabalho, n&atilde;o deliberada. Nenhum &oacute;rg&atilde;o a adotou.</p>
 </div></section>
 """
 
@@ -455,7 +470,7 @@ def destaques_canais():
     return """<ul class="scope-list" style="margin-top: 20px; max-width: 76ch">
     <li>O invent&aacute;rio foi <strong>verificado em 03/10/2026 pela coordena&ccedil;&atilde;o do Eixo 3</strong>, com uso de ferramentas web.</li>
     <li>Trata de canais de den&uacute;ncia de <strong>crimes de &oacute;dio em geral</strong>, e n&atilde;o de canais de antissemitismo.</li>
-    <li>A maioria dos canais <strong>n&atilde;o abrange o antissemitismo de forma espec&iacute;fica</strong>. A exce&ccedil;&atilde;o s&atilde;o os canais da CONIB, que registram sob a defini&ccedil;&atilde;o de trabalho da IHRA, conceitualmente divergente da Defini&ccedil;&atilde;o de Antissemitismo emitida pelo eixo de Conceitua&ccedil;&atilde;o em 24/08/2026. O que se registra por esse canal n&atilde;o equivale ao antissemitismo definido pela Iniciativa.</li>
+    <li>A maioria dos canais <strong>n&atilde;o abrange o antissemitismo de forma espec&iacute;fica</strong>. A exce&ccedil;&atilde;o s&atilde;o os canais da CONIB, que registram sob a defini&ccedil;&atilde;o de trabalho da IHRA, conceitualmente divergente da Defini&ccedil;&atilde;o de Antissemitismo emitida pelo eixo de Conceitua&ccedil;&atilde;o, vers&atilde;o final de 26/10/2026. O que se registra por esse canal n&atilde;o equivale ao antissemitismo definido pela Iniciativa.</li>
     <li>O s&iacute;tio n&atilde;o recebe den&uacute;ncia, n&atilde;o cria nem padroniza canal, e p&aacute;gina no ar n&atilde;o garante atendimento.</li>
   </ul>"""
 
@@ -634,7 +649,7 @@ def encaminhar():
   <ul class="scope-list" style="margin-top: 20px; max-width: 76ch">
     <li>O invent&aacute;rio foi <strong>verificado em 03/10/2026 pela coordena&ccedil;&atilde;o do Eixo 3</strong>, com uso de ferramentas web.</li>
     <li>Trata de canais de den&uacute;ncia de <strong>crimes de &oacute;dio em geral</strong>.</li>
-    <li>A maioria dos canais <strong>n&atilde;o abrange o antissemitismo de forma espec&iacute;fica</strong>. A exce&ccedil;&atilde;o s&atilde;o os canais da CONIB, que registram sob a defini&ccedil;&atilde;o de trabalho da IHRA, conceitualmente divergente da Defini&ccedil;&atilde;o de Antissemitismo emitida pelo eixo de Conceitua&ccedil;&atilde;o em 24/08/2026.</li>
+    <li>A maioria dos canais <strong>n&atilde;o abrange o antissemitismo de forma espec&iacute;fica</strong>. A exce&ccedil;&atilde;o s&atilde;o os canais da CONIB, que registram sob a defini&ccedil;&atilde;o de trabalho da IHRA, conceitualmente divergente da Defini&ccedil;&atilde;o de Antissemitismo emitida pelo eixo de Conceitua&ccedil;&atilde;o, vers&atilde;o final de 26/10/2026.</li>
     <li>Este s&iacute;tio <strong>n&atilde;o recebe den&uacute;ncia</strong>, n&atilde;o cria nem padroniza canal, e p&aacute;gina no ar n&atilde;o garante atendimento.</li>
   </ul>
   <p class="frm-aviso" role="note">Esta p&aacute;gina n&atilde;o recolhe nenhum dado: a escolha do tipo ou da unidade federada &eacute; um link ou uma lista que se abre, n&atilde;o &eacute; enviada nem guardada. N&atilde;o &eacute; canal de den&uacute;ncia. Se houver risco agora, ligue 190.</p>
@@ -868,8 +883,24 @@ def agenda_futura():
   <div id="d100-resumo" aria-live="polite" style="margin-top: 14px"></div>
   <noscript><p class="body">O conferidor precisa de JavaScript. Nada &eacute; enviado.</p></noscript>
   <p class="body" style="margin: 22px 0 0; max-width: 74ch">Os totais esperados tamb&eacute;m est&atilde;o em <a href="data/relatorio-v2/disque100_reproducao.csv" download>arquivo CSV</a>, para voc&ecirc; comparar na sua pr&oacute;pria planilha.</p>
-  <p class="fonte" style="margin-top: 22px">Limites. A diverg&ecirc;ncia n&atilde;o refuta o achado por si s&oacute;: confira a vers&atilde;o dos arquivos, o filtro e a unidade. O relat&oacute;rio oficial do Disque 100 usa um filtro que os microdados abertos n&atilde;o reproduzem, e por isso os totais oficiais n&atilde;o fazem parte do conferidor. Ainda n&atilde;o h&aacute; script de refer&ecirc;ncia publicado. Fonte: {REL_V2}, Anexo E, item E.11.</p>
+  <p class="fonte" style="margin-top: 22px">Limites. A diverg&ecirc;ncia n&atilde;o refuta o achado por si s&oacute;: confira a vers&atilde;o dos arquivos, o filtro e a unidade. O relat&oacute;rio oficial do Disque 100 usa um filtro que os microdados abertos n&atilde;o reproduzem, e por isso os totais oficiais n&atilde;o fazem parte do conferidor. O script de refer&ecirc;ncia est&aacute; publicado na pasta <a href="reproducao/README.md">reproducao</a>, com instru&ccedil;&otilde;es e testes (<a href="reproducao/reproduza_disque100.py">reproduza_disque100.py</a>). Fonte: {REL_V2}, Anexo E, item E.11.</p>
   <script type="application/json" id="dados-d100">__D100JSON__</script>
+</section>
+
+<section class="wrap section" id="agenda-estrategica">
+  <p class="eyebrow">Relatório final, 7.3</p>
+  <h2 class="h2" style="max-width: 34ch">Agenda estratégica do relatório final (7.3)</h2>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">Propostas com mérito reconhecido pelo Eixo que excedem o mandato atual. São listadas aqui sem desenho, como matéria de continuidade.</p>
+  <ol class="scope-list" style="margin-top: 20px; max-width: 80ch">
+    <li><strong>Padronização do recebimento de denúncias de crimes de ódio nos canais públicos.</strong> Registrado como agenda futura, fora do mandato atual.</li>
+    <li><strong>Simetria de marcadores de motivação de viés.</strong> Registrado como agenda futura, fora do mandato atual.</li>
+    <li><strong>Recorte de motivação de viés nos relatórios de transparência de plataformas.</strong> Registrado como agenda futura, fora do mandato atual.</li>
+    <li><strong>Observatório nacional.</strong> Registrado como agenda futura, fora do mandato atual.</li>
+    <li><strong>Ponto focal nacional de crimes de ódio.</strong> Registrado como agenda futura, fora do mandato atual.</li>
+    <li><strong>Política estruturada de prevenção.</strong> Registrado como agenda futura, fora do mandato atual.</li>
+    <li><strong>Painel por pertencimento religioso no ObservaDH.</strong> Registrado como agenda futura, fora do mandato atual.</li>
+  </ol>
+  <p class="fonte" style="margin-top: 22px">Fonte: relatório final conjunto, versão final 1.0, de 26/10/2026, Seção 7.3.</p>
 </section>
 
 <section class="wrap section" id="outros-experimentos"><div>
@@ -881,16 +912,60 @@ def agenda_futura():
 """.replace("__D100JSON__", d100_dados_json())
 
 
+# ---------------------------------------------------------------------------
+# Recomendacoes 1 a 14 do relatorio final (decisao da coordenacao: entram com o status atual)
+# ---------------------------------------------------------------------------
+
+def recomendacoes():
+    linhas = [
+         ['1', 'Identificar e declarar formalmente a unidade gestora do Comunica PF', 'Diretoria-Executiva da Polícia Federal', 'Ato administrativo', 'Até 6 meses', 'A5'],
+         ['2', 'Incluir o valor “antissemitismo” no campo de motivação de viés do Comunica PF', 'PF, unidade gestora do Comunica PF', 'Ato administrativo', 'Até 6 meses após a Rec. 1', 'A1, A2'],
+         ['3', 'Nota de fronteira entre Comunica PF e Ouvidoria da PF', 'Corregedoria-Geral e Divisão de Ouvidoria da PF', 'Ato administrativo', 'Até 6 meses', 'A5'],
+         ['4', 'Assunto nacional de motivação de viés no Fala.BR, com valor para antissemitismo, para todo o SisOuv', 'CGU, Ouvidoria-Geral da União', 'Ato administrativo', 'Até 6 meses', 'A3, A4'],
+         ['5', 'Recorte por motivação de viés no painel público de dados de ouvidoria', 'CGU, Ouvidoria-Geral da União', 'Ato administrativo', '6 a 18 meses, condicionado à Rec. 4', 'A3'],
+         ['6', 'Variável de motivação de viés nos Dados Nacionais de Segurança Pública', 'MJSP/Senasp, por deliberação do CONSINESP', 'Resolução do conselho gestor', '6 a 18 meses', 'A1'],
+         ['7', 'Publicar a Tabela Nacional de Tipificações', 'MJSP, Senasp', 'Ato administrativo', 'Até 6 meses', 'A1'],
+         ['8', 'Marcador de motivação de viés nas Tabelas Processuais Unificadas', 'CNJ, Comitê Gestor das TPU e DPJ', 'Deliberação do comitê gestor', '6 a 18 meses', 'A8'],
+         ['9', 'Proposição equivalente nas Tabelas Unificadas do Ministério Público e painel de dados', 'CNMP, Comitê Gestor Nacional das Tabelas Unificadas', 'Deliberação do comitê gestor', '6 a 18 meses', 'A1, A9'],
+         ['10', 'Valor de motivação antissemita no Disque 100 (ou restabelecer o valor religioso) e dicionário de dados', 'MDHC, Ouvidoria Nacional de Direitos Humanos', 'Ato administrativo', 'Até 6 meses', 'A7, A30, A31, A36, A37'],
+         ['11', 'Publicar a série e formalizar o serviço do Portal 1746', 'Prefeitura do Rio de Janeiro', 'Ato administrativo; norma municipal', 'Até 6 meses (série)', 'A10'],
+         ['12', 'Marcador estatístico e análise retroativa na base da SaferNet', 'SaferNet Brasil, com participação técnica da instância sucessora do Eixo 3 e, como sugestão, do MPF', 'Instrumento de cooperação técnica', '6 a 18 meses', 'A12, A13'],
+         ['13', 'Nota metodológica das divulgações do Disque 100', 'MDHC, Ouvidoria Nacional de Direitos Humanos', 'Ato administrativo', 'Até 6 meses', '3-A, A18, A29, A32'],
+         ['14', 'Prazo de requisição cautelar de guarda e campos mínimos de preservação de evidência digital', 'PF (unidade gestora do Comunica PF) e MDHC/ONDH', 'Ato administrativo', 'Até 6 meses', 'A24']]
+    tab = tabela("As quatorze recomendações do relatório final, com destinatário, instrumento, prazo e achados",
+                 ["N&ordm;", "Recomenda&ccedil;&atilde;o", "Destinat&aacute;rio", "Instrumento", "Prazo", "Achados"],
+                 [[esc(c) for c in l] for l in linhas])
+    return f"""{ABERTURA}
+  <p class="crumb"><a href="index.html">Observat&oacute;rio</a> &nbsp;/&nbsp; <a href="achados.html">Achados</a> &nbsp;/&nbsp; Recomenda&ccedil;&otilde;es</p>
+  <h1 class="h1" style="margin-top: 24px">Recomenda&ccedil;&otilde;es do relat&oacute;rio final</h1>
+  <p class="lead" style="margin: 26px 0 0; max-width: 70ch">Catorze recomenda&ccedil;&otilde;es, cada uma com destinat&aacute;rio, instrumento, prazo sugerido e os achados em que se apoia.</p>
+  {PRELIMINAR}
+  <p class="body" style="margin: 18px 0 0; max-width: 72ch"><strong>N&atilde;o constituem, ainda, posi&ccedil;&atilde;o da Iniciativa nem do Conselho.</strong> Atualizada em {DATA}. Fonte: {REL_V2}, Se&ccedil;&atilde;o 7. Os achados remetem &agrave; <a href="achados.html#quadro8">p&aacute;gina de achados</a>.</p>
+</section>
+
+<section class="wrap section" id="tabela">
+  {tab}
+  <p class="body" style="margin: 22px 0 0; max-width: 74ch">Doze das catorze n&atilde;o dependem de lei nova nem de dota&ccedil;&atilde;o or&ccedil;ament&aacute;ria espec&iacute;fica.</p>
+  <p class="body" style="margin: 14px 0 0; max-width: 74ch"><strong>Regra de sucess&atilde;o:</strong> onde se atribui participa&ccedil;&atilde;o t&eacute;cnica ao Eixo 3, leia-se a inst&acirc;ncia que suceder na condu&ccedil;&atilde;o da mat&eacute;ria.</p>
+  {RESSALVA_DEFINICAO}
+  <div class="pills" style="margin-top: 24px">
+    <a class="pill pill-solid" href="achados.html">Achados &rarr;</a>
+    <a class="pill" href="preservar.html">Preservar evid&ecirc;ncias &rarr;</a>
+  </div>
+</section>
+"""
+
+
 def main():
     feitos = [
         pagina("achados.html", "Achados das Frentes 1 e 2",
-               "Achados do relatorio preliminar conjunto das Frentes 1 e 2 do Eixo 3, com fonte e grau de confianca. Documento preliminar.",
+               "Achados do relatorio final conjunto das Frentes 1 e 2 do Eixo 3, versao final 1.0, com fonte e grau de confianca.",
                "achados.html", achados()),
         pagina("disque100.html", "Disque 100",
-               "O que a base do Disque 100 mede e o que nao mede: unidade, janela e divulgacao de origem de cada numero. Documento preliminar.",
+               "O que a base do Disque 100 mede e o que nao mede: unidade, janela e divulgacao de origem de cada numero.",
                "", disque100()),
         pagina("bases.html", "Mapa das bases e canais",
-               "Quadro das bases e canais examinados pelo Eixo 3: categoria autonoma de antissemitismo, categoria mais proxima, unidade de contagem e desfecho rastreavel. Documento preliminar.",
+               "Quadro das bases e canais examinados pelo Eixo 3: categoria autonoma de antissemitismo, categoria mais proxima, unidade de contagem e desfecho rastreavel.",
                "", bases()),
         pagina("formulario-modelo.html", "Modelo de formulário",
                "Modelo demonstrativo da ficha padrao de registro e do nucleo minimo de interoperabilidade. Nao e canal de denuncia, nao envia e nao guarda informacao.",
@@ -898,8 +973,11 @@ def main():
         pagina("agenda-futura.html", "Agenda futura: experimentos",
                "Experimentos e ideias de servico a partir dos achados, nao deliberados: relogio de preservacao e outras propostas. Nao recolhe dado.",
                "", agenda_futura(), scripts=("js/relogio.js", "js/d100.js")),
+        pagina("recomendacoes.html", "Recomendações do relatório final",
+               "As quatorze recomendações do relatório final do Eixo 3, com destinatário, instrumento, prazo e achados. Não constituem posição da Iniciativa nem do Conselho.",
+               "recomendacoes.html", recomendacoes()),
         pagina("canais.html", "Inventário de canais de denúncia de crimes de ódio",
-               "Inventario de canais online de denuncia de crimes de odio no Brasil, verificado em 03/10/2026: Uniao, estados e sociedade civil. Documento preliminar.",
+               "Inventario de canais online de denuncia de crimes de odio no Brasil, verificado em 03/10/2026: Uniao, estados e sociedade civil.",
                "", canais()),
         pagina("encaminhar.html", "Para onde encaminhar",
                "Indica, por tipo de incidente e por unidade federada, os canais do inventario de 03/10/2026. Nao recolhe dado.",

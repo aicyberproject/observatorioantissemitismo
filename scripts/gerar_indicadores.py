@@ -105,12 +105,13 @@ SEM_FONTE = "sem fonte"
 AGUARDA = "aguardando marcador"
 VEDADO = "vedado por segredo de justiça"
 PARCIAL = "cobertura parcial"
+SEM_DEN = "sem denominador"
 
 KPIS = [
     ("Total de denúncias", "Sistema nacional", PARCIAL,
      "Existe pela via da sociedade civil (CONIB/FISESP/DSC). Não existe em base estatal."),
-    ("Taxa por 100 mil habitantes", "Sistema + IBGE", PARCIAL,
-     "Calculável sobre a série da sociedade civil, com a subnotificação embutida."),
+    ("Taxa por 100 mil habitantes", "Sistema + IBGE", SEM_DEN,
+     "Não há número oficial de população judaica no Censo 2022; o indicador é inviável (Achado 9, A14)."),
     ("% de casos online", "Sistema nacional", PARCIAL,
      "Disponível na série da sociedade civil desde 2022."),
     ("% por modalidade", "Sistema nacional", AGUARDA,
@@ -154,7 +155,7 @@ KPIS = [
 CONIB25 = ("https://combateaoantissemitismo.org.br/wp-content/uploads/2026/04/"
            "Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK3_web.pdf")
 LINK25 = (f'<a href="{CONIB25}" target="_blank" rel="noopener">'
-          'Relat&oacute;rio de Antissemitismo no Brasil 2025</a>')
+          'Relat&oacute;rio Anual sobre Antissemitismo no Brasil 2025</a>')
 
 FMT = lambda n: f"{n:,}".replace(",", ".")
 E = lambda s: html.escape(str(s), quote=True)
@@ -195,7 +196,7 @@ def svg_linha_mensal():
     py = lambda v: mt + ph - (ph * v / topo)
 
     p = [f"<svg class=\"viz\" style=\"min-width:{W}px\" viewBox=\"0 0 {W} {H}\" role=\"img\" "
-         f"aria-label=\"Denúncias mês a mês de janeiro de 2022 a dezembro de 2024\">"]
+         f"aria-label=\"Ocorrências validadas mês a mês de janeiro de 2022 a dezembro de 2024\">"]
     for t in ticks:
         y = py(t)
         p.append(f'<line x1="{ml}" y1="{y:.1f}" x2="{W-mr}" y2="{y:.1f}" stroke="{GRID}" stroke-width="1"/>')
@@ -216,8 +217,8 @@ def svg_linha_mensal():
     # camada de leitura por ponto
     for i, v in enumerate(valores):
         p.append(f'<rect class="hit" x="{px(i)-pw/(n-1)/2:.1f}" y="{mt}" width="{pw/(n-1):.1f}" height="{ph}" '
-                 f'fill="transparent" data-t="{E(rotulos[i])}" data-v="{FMT(v)} denúncias"><title>'
-                 f'{E(rotulos[i])}: {FMT(v)} denúncias</title></rect>')
+                 f'fill="transparent" data-t="{E(rotulos[i])}" data-v="{FMT(v)} ocorrências validadas"><title>'
+                 f'{E(rotulos[i])}: {FMT(v)} ocorrências validadas</title></rect>')
     p.append("</svg>")
     return "\n".join(p)
 
@@ -336,10 +337,10 @@ FICHA_COMUNITARIA = [
      "casos validados (46,7%) não trazem estado informado. A distribuição geográfica "
      "de 2025 não é comparável com a de 2024: mudou a forma de captar a localização."),
     ("Definição adotada pela fonte",
-     "A fonte sustenta a definição de trabalho da International Holocaust Remembrance Alliance (IHRA), segundo o relatório preliminar conjunto do Eixo 3, versão 2.0, seção 3.6.2. "
+     "A fonte sustenta a definição de trabalho da International Holocaust Remembrance Alliance (IHRA), segundo o relatório final conjunto do Eixo 3, versão final 1.0, seção 3.6.2. "
      "Há divergência interna no Eixo sobre a definição a adotar, matéria do eixo de Conceituação. A metodologia é a descrita em Método de coleta."),
     ("Data de extração",
-     "3 de setembro de 2026, do Relatório de Antissemitismo no Brasil 2025, de CONIB, "
+     "3 de setembro de 2026, do Relatório Anual sobre Antissemitismo no Brasil 2025, de CONIB, "
      "FISESP e Departamento de Segurança Comunitária, conferido contra o documento "
      "integral, que é público."),
 ]
@@ -451,7 +452,7 @@ NATUREZAS = {
                     "Mede o que chega ao canal, não a incidência."),
     "oficial": ("registro oficial agregado",
                 "Produzido por órgão público a partir de registro administrativo ou policial. "
-                "Nenhuma base estatal brasileira possui categoria autônoma de antissemitismo."),
+                "Nenhuma base estatal de âmbito nacional possui categoria autônoma de antissemitismo em operação."),
     "imprensa": ("monitoramento de imprensa",
                  "Derivado de cobertura jornalística agregada. Mede alcance da cobertura, não incidência."),
     "percepcao": ("pesquisa de percepção",
@@ -509,8 +510,8 @@ def main():
     linhas.append(["<strong>Total</strong>"] + [f"<strong>{FMT(sum(MENSAL[a]))}</strong>" for a in (2022, 2023, 2024)])
     out.append('<div class="wrap section" style="padding-top:0">')
     out.append(figura(
-        "Denúncias mês a mês, 2022 a 2024",
-        "Série mensal contínua. O eixo do tempo mostra o degrau de outubro e novembro de 2023 e a permanência do patamar ao longo de 2024.",
+        "Ocorrências validadas mês a mês, 2022 a 2024",
+        "Série mensal contínua. Contagem de ocorrências validadas, e não de registros brutos. O eixo do tempo mostra o degrau de outubro e novembro de 2023 e a permanência do patamar ao longo de 2024.",
         svg_linha_mensal(),
         tabela(["Mês", "2022", "2023", "2024"], linhas),
         f'Fonte: Relatório de Antissemitismo no Brasil 2024 — CONIB, FISESP e DSC. {selo("verificado")} '
@@ -600,7 +601,7 @@ def main():
         svg_barras(FUNIL_MPF, destaque={"Procedimentos instaurados no MPF"}, unidade="registros",
                    altura_barra=30, rotulo_eixo="Denúncias de neonazismo no Report System, 2022 a 2024"),
         tabela(["Etapa", "Registros"], linhas),
-        f'Fonte: SaferNet Brasil e Ministério Público Federal, Report System. {selo("citado")} '
+        f'Fonte: SaferNet Brasil e Ministério Público Federal, Report System. {selo("citado")} <!-- PENDENTE: conferir na fonte primária o total de 2.774 denúncias de neonazismo, idêntico aos 2.774 casos da divulgação do MDHC de jan/2026 --> '
         'Os números constam do levantamento reunido para o Eixo 3 em agosto de 2026. A publicação primária não foi consultada nesta versão do protótipo, '
         'e os identificadores administrativos indicados no levantamento seguem sem confirmação.',
         id_="funil", nat="oficial", fic=FICHA_OFICIAL))
@@ -609,12 +610,12 @@ def main():
     barras = [(r, round(i / d * 10000) / 100) for r, d, i in INSTAURACAO]
     out.append(figura(
         "Taxa de instauração no MPF por tema, 2022 a 2024",
-        "Quando o núcleo temático é tipificado na entrada, a taxa de instauração quadruplica. É o argumento empírico a favor do marcador: a persecução responde ao que consegue enxergar.",
+        "Os números foram reunidos em levantamento de agosto de 2026 e a publicação primária não foi consultada. A diferença entre os temas não demonstra relação de causa com a tipificação na entrada e não consta do relatório final do Eixo 3.",
         svg_barras(barras, destaque={"Neonazismo"}, unidade="de instauração", altura_barra=34,
                    rotulo_eixo="Taxa de instauração no MPF por tema",
                    formato=lambda v: f"{v:.2f}".replace(".", ",") + "%"),
         tabela(["Tema", "Denúncias", "Instaurações", "Taxa"], linhas),
-        f'Fonte: SaferNet Brasil e MPF. {selo("citado")} '
+        f'Fonte: SaferNet Brasil e MPF. {selo("citado")} <!-- PENDENTE: conferir na fonte primária o total de 2.774 denúncias de neonazismo, idêntico aos 2.774 casos da divulgação do MDHC de jan/2026 --> '
         'A categoria de intolerância religiosa é genérica: absorve o antissemitismo sem distingui-lo, o que é exatamente a lacuna que o Eixo 3 documenta.',
         id_="instauracao", nat="oficial", fic=FICHA_OFICIAL))
     out.append("</div></section>")
@@ -626,11 +627,11 @@ def main():
   <p class="body" style="margin: 20px 0 0; max-width: 74ch">Os dois indicadores abaixo servem a prop&oacute;sitos distintos. O primeiro d&aacute; ordem de grandeza a uma s&eacute;rie madura, com 46 anos de apura&ccedil;&atilde;o. O segundo mede a subnotifica&ccedil;&atilde;o, que &eacute; o que a s&eacute;rie brasileira n&atilde;o consegue enxergar.</p>
   <div class="tiles">
     <div class="tile"><p class="label">Estados Unidos &middot; 2024</p><p class="tile-num">9.354</p><p class="tile-txt">incidentes apurados no ano, alta de 5% sobre 2023 e de 893% em dez anos. Em 58,3% deles houve men&ccedil;&atilde;o a Israel ou ao sionismo, a primeira vez que esse recorte &eacute; maioria em 46 anos de s&eacute;rie.</p><p class="tile-src">ADL, Audit of Antisemitic Incidents 2024. {selo("citado")} {natureza("externa")}</p></div>
-    <div class="tile"><p class="label">Uni&atilde;o Europeia</p><p class="tile-num">80%</p><p class="tile-txt">das v&iacute;timas n&atilde;o levam o incidente &agrave; pol&iacute;cia ou a qualquer autoridade. Na mesma pesquisa, 96% relataram ter sofrido alguma forma de antissemitismo no ano anterior, e menos de metade dos 27 Estados-membros mant&eacute;m registro desagregado.</p><p class="tile-src">FRA, Ag&ecirc;ncia da Uni&atilde;o Europeia para os Direitos Fundamentais. {selo("citado")} {natureza("percepcao")}</p></div>
+    <div class="tile"><p class="label">Uni&atilde;o Europeia</p><p class="tile-num">80%</p><p class="tile-txt">das v&iacute;timas n&atilde;o levam o incidente &agrave; pol&iacute;cia ou a qualquer autoridade. Na mesma pesquisa, 96% relataram ter sofrido alguma forma de antissemitismo no ano anterior, e menos de metade dos 27 Estados-membros mant&eacute;m registro desagregado.<!-- PENDENTE: conferir n&uacute;mero na publica&ccedil;&atilde;o da FRA --></p><p class="tile-src">FRA, Ag&ecirc;ncia da Uni&atilde;o Europeia para os Direitos Fundamentais. {selo("citado")} {natureza("percepcao")}</p></div>
   </div>
   <p class="fonte" style="margin-top: 18px"><strong>Defini&ccedil;&atilde;o e metodologia das fontes:</strong> n&atilde;o conhecidas nesta vers&atilde;o, porque a publica&ccedil;&atilde;o prim&aacute;ria de cada uma n&atilde;o foi consultada. Apura&ccedil;&otilde;es de outra jurisdi&ccedil;&atilde;o servem a ordem de grandeza, e n&atilde;o a compara&ccedil;&atilde;o de volume.</p>
   <p class="fonte"><strong>Ressalva de defini&ccedil;&atilde;o.</strong> Os dados existentes foram produzidos sob defini&ccedil;&otilde;es e metodologias pr&oacute;prias de cada fonte e n&atilde;o s&atilde;o representativos da defini&ccedil;&atilde;o adotada pela Iniciativa.</p>
-  <p class="body" style="margin: 26px 0 0; max-width: 74ch"><strong>A leitura que interessa ao Eixo 3 n&atilde;o &eacute; a compara&ccedil;&atilde;o de volume.</strong> Os n&uacute;meros brasileiro e norte-americano contam populações, canais e defini&ccedil;&otilde;es diferentes, e coloc&aacute;-los lado a lado sugeriria uma raz&atilde;o que os dados n&atilde;o sustentam. O que se compara &eacute; a exist&ecirc;ncia do instrumento: h&aacute; s&eacute;rie hist&oacute;rica de 46 anos em uma jurisdi&ccedil;&atilde;o, marcador oficial em 14 de 27 Estados-membros em outra, e nenhuma categoria aut&ocirc;noma em nenhuma base estatal brasileira.</p>
+  <p class="body" style="margin: 26px 0 0; max-width: 74ch"><strong>A leitura que interessa ao Eixo 3 n&atilde;o &eacute; a compara&ccedil;&atilde;o de volume.</strong> Os n&uacute;meros brasileiro e norte-americano contam populações, canais e defini&ccedil;&otilde;es diferentes, e coloc&aacute;-los lado a lado sugeriria uma raz&atilde;o que os dados n&atilde;o sustentam. O que se compara &eacute; a exist&ecirc;ncia do instrumento: h&aacute; s&eacute;rie hist&oacute;rica de 46 anos em uma jurisdi&ccedil;&atilde;o, registro desagregado em menos da metade dos Estados-membros em outra<!-- PENDENTE: conferir número na publicação da FRA -->, e nenhuma categoria autônoma em operação em base estatal de âmbito nacional.</p>
 </section>""")
 
     # ---------------- camada 2: painel de lacunas ----------------
@@ -640,7 +641,7 @@ def main():
     contagem = {k: len(v) for k, v in grupos.items()}
     linhas = []
     for nome, fonte, status, motivo in KPIS:
-        cls = {SEM_FONTE: "st-sem", AGUARDA: "st-agu", VEDADO: "st-ved", PARCIAL: "st-par"}[status]
+        cls = {SEM_FONTE: "st-sem", AGUARDA: "st-agu", VEDADO: "st-ved", PARCIAL: "st-par", SEM_DEN: "st-den"}[status]
         linhas.append(
             f'<tr><th scope="row">{E(nome)}</th>'
             f'<td class="fonte-kpi">{E(fonte)}</td>'
@@ -654,6 +655,7 @@ def main():
     <div class="lac-item"><span class="status st-par">{PARCIAL}</span><strong>{contagem.get(PARCIAL, 0)}</strong><p>Existe proxy em fonte da sociedade civil ou em base gen&eacute;rica, sem recorte de antissemitismo.</p></div>
     <div class="lac-item"><span class="status st-agu">{AGUARDA}</span><strong>{contagem.get(AGUARDA, 0)}</strong><p>Depende de categoria na entrada. San&aacute;vel por marcador, sem lei nova, como o CNJ fez em 2022.</p></div>
     <div class="lac-item"><span class="status st-sem">{SEM_FONTE}</span><strong>{contagem.get(SEM_FONTE, 0)}</strong><p>Nenhuma base publica o dado, nem de forma agregada nem sob outra categoria.</p></div>
+    <div class="lac-item"><span class="status st-den">{SEM_DEN}</span><strong>{contagem.get(SEM_DEN, 0)}</strong><p>N&atilde;o h&aacute; denominador populacional oficial. A taxa por 100 mil habitantes n&atilde;o &eacute; calcul&aacute;vel.</p></div>
     <div class="lac-item"><span class="status st-ved">{VEDADO}</span><strong>{contagem.get(VEDADO, 0)}</strong><p>Limite normativo leg&iacute;timo, derivado de medidas sob reserva de jurisdi&ccedil;&atilde;o. N&atilde;o &eacute; falha institucional.</p></div>
   </div>
   <div class="tab-rolagem">
@@ -678,8 +680,8 @@ def main():
       <h3 class="h3" style="margin-top: 26px">O que entra</h3>
       <p class="body">Somente dado agregado, de origem p&uacute;blica e j&aacute; publicado por terceiro. Nenhum n&uacute;mero desta p&aacute;gina foi produzido pelo Observat&oacute;rio. N&atilde;o h&aacute;, em nenhum ponto, dado pessoal, den&uacute;ncia individualizada ou informa&ccedil;&atilde;o sob sigilo.</p>
       <h3 class="h3" style="margin-top: 26px">Natureza do dado, e por que ela importa</h3>
-      <p class="body">Cada n&uacute;mero desta p&aacute;gina carrega uma marca de natureza. {natureza("comunitaria")} vem de entidade da sociedade civil, a partir de den&uacute;ncia recebida em canal pr&oacute;prio. {natureza("oficial")} vem de &oacute;rg&atilde;o p&uacute;blico, a partir de registro administrativo. {natureza("externa")} foi apurado em outro pa&iacute;s. {natureza("percepcao")} &eacute; levantamento amostral de atitudes, e n&atilde;o contagem de ocorr&ecirc;ncias.</p>
-      <p class="body"><strong>N&uacute;meros de naturezas diferentes n&atilde;o s&atilde;o somados nem comparados diretamente nesta p&aacute;gina.</strong> A pr&aacute;tica vem do ODIHR, organismo da OSCE que mant&eacute;m dois acervos separados e nunca os junta: o que vem do Estado &eacute; registrado como crime, o que vem da sociedade civil como incidente, com a raz&atilde;o declarada de que n&atilde;o se consegue verificar se o segundo grupo se qualifica como crime. Aqui a disciplina &eacute; a mesma, por um motivo pr&aacute;tico: como nenhuma base estatal brasileira tem categoria aut&ocirc;noma de antissemitismo, misturar contagem comunit&aacute;ria com dado policial produziria n&uacute;mero sem denominador.</p>
+      <p class="body">Cada n&uacute;mero desta p&aacute;gina carrega uma marca de natureza. {natureza("comunitaria")} vem de entidade da sociedade civil, a partir de den&uacute;ncia recebida em canal pr&oacute;prio. {natureza("oficial")} vem de &oacute;rg&atilde;o p&uacute;blico, a partir de registro administrativo. {natureza("imprensa")} deriva de cobertura jornal&iacute;stica agregada, e mede alcance da cobertura. {natureza("externa")} foi apurado em outro pa&iacute;s. {natureza("percepcao")} &eacute; levantamento amostral de atitudes, e n&atilde;o contagem de ocorr&ecirc;ncias.</p>
+      <p class="body"><strong>N&uacute;meros de naturezas diferentes n&atilde;o s&atilde;o somados nem comparados diretamente nesta p&aacute;gina.</strong> A pr&aacute;tica vem do ODIHR, organismo da OSCE que mant&eacute;m dois acervos separados e nunca os junta: o que vem do Estado &eacute; registrado como crime, o que vem da sociedade civil como incidente, com a raz&atilde;o declarada de que n&atilde;o se consegue verificar se o segundo grupo se qualifica como crime. Aqui a disciplina &eacute; a mesma, por um motivo pr&aacute;tico: como nenhuma base estatal de âmbito nacional tem categoria autônoma de antissemitismo em operação, misturar contagem comunit&aacute;ria com dado policial produziria n&uacute;mero sem denominador.</p>
 
       <h3 class="h3" style="margin-top: 26px">Grau de verifica&ccedil;&atilde;o</h3>
       <p class="body">Cada bloco traz um selo. {selo("verificado")} indica n&uacute;mero conferido contra o documento de origem, dispon&iacute;vel no acervo do Eixo 3. {selo("citado")} indica n&uacute;mero cuja fonte est&aacute; declarada, mas cuja publica&ccedil;&atilde;o primária n&atilde;o foi consultada nesta vers&atilde;o. Nenhum identificador administrativo ou n&uacute;mero de processo n&atilde;o confirmado foi transcrito.</p>
@@ -691,7 +693,7 @@ def main():
       <h3 class="h3" style="margin-top: 26px">Bases de c&aacute;lculo</h3>
       <p class="body">Percentual sem base declarada &eacute; percentual que engana. Cada gr&aacute;fico informa sobre que denominador foi calculado. Onde a base mudou entre um ano e outro, a compara&ccedil;&atilde;o direta est&aacute; desaconselhada no pr&oacute;prio gr&aacute;fico, com a raz&atilde;o.</p>
       <h3 class="h3" style="margin-top: 26px">Aus&ecirc;ncia de dado estatal</h3>
-      <p class="body">Nenhuma base p&uacute;blica examinada possui categoria aut&ocirc;noma de antissemitismo: Anu&aacute;rio do F&oacute;rum Brasileiro de Seguran&ccedil;a P&uacute;blica, SaferNet, Comunica PF, Disque 100, boletins de ocorr&ecirc;ncia estaduais e Tabelas Processuais Unificadas do CNJ. O fen&ocirc;meno &eacute; dissolvido em in&uacute;ria racial, racismo, intoler&acirc;ncia religiosa, amea&ccedil;a ou &ldquo;outros crimes&rdquo;. Por isso a camada 2 desta p&aacute;gina existe.</p>
+      <p class="body">Nenhuma base estatal de &acirc;mbito nacional possui a categoria em opera&ccedil;&atilde;o. A exce&ccedil;&atilde;o municipal &eacute; o Portal 1746, da Prefeitura do Rio de Janeiro, com o valor &ldquo;antissemitismo&rdquo; desde 18/03/2022, sem s&eacute;rie publicada (Achados 4 e 5). Entre as bases examinadas, nenhuma das seguintes tem categoria nacional aut&ocirc;noma de antissemitismo: Anu&aacute;rio do F&oacute;rum Brasileiro de Seguran&ccedil;a P&uacute;blica, Comunica PF, Disque 100, boletins de ocorr&ecirc;ncia estaduais e Tabelas Processuais Unificadas do CNJ. A SaferNet, que &eacute; base n&atilde;o estatal, tampouco a tem. O fen&ocirc;meno &eacute; dissolvido em inj&uacute;ria racial, racismo, intoler&acirc;ncia religiosa, amea&ccedil;a ou &ldquo;outros crimes&rdquo;. Por isso a camada 2 desta p&aacute;gina existe.</p>
     </div>
   </div>
 </section>

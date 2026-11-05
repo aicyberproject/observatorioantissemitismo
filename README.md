@@ -1,12 +1,12 @@
 # Observatório do Antissemitismo no Brasil — protótipo
 
-> **Versão de trabalho, sem caráter oficial.** Protótipo em elaboração no Eixo 3 — Segurança e Monitoramento, ainda não apreciado pelo Eixo nem pela reunião de coordenadores. Não representa posição do CDESS, da Presidência da República ou de qualquer órgão citado no conteúdo. A página traz faixa permanente com essa marcação e está fora de indexação (`noindex` e `robots.txt`).
+> **Versão de trabalho, sem caráter oficial.** Protótipo em elaboração no Eixo 3 — Segurança e Monitoramento, a ser apresentado à coordenação-geral da Iniciativa depois de concluído no Eixo. Não representa posição do CDESS, da Presidência da República ou de qualquer órgão citado no conteúdo. A página traz faixa permanente com essa marcação e está fora de indexação (`noindex` e `robots.txt`).
 
-> Monitoramento de incidentes, indicadores, orientação jurídica, canais de denúncia e preservação de evidências para o enfrentamento ao antissemitismo no Brasil.
+> O que se mede e o que não se mede sobre antissemitismo no Brasil, indicadores, orientação informativa, canais de denúncia e preservação de evidências para o enfrentamento ao antissemitismo no Brasil.
 
 ## Sobre
 
-Este protótipo demonstra o desenho de uma plataforma pública de monitoramento, orientação jurídica e proteção de direitos. É uma proposta em elaboração no **Eixo 3 — Segurança e Monitoramento** da **Iniciativa de Enfrentamento ao Antissemitismo**. Os canais de denúncia listados são oficiais e funcionam de forma independente deste protótipo.
+Este protótipo demonstra o desenho de uma plataforma pública de monitoramento, orientação informativa e proteção de direitos. É uma proposta em elaboração no **Eixo 3 — Segurança e Monitoramento** da **Iniciativa Especial de Enfrentamento ao Antissemitismo**. Os canais de denúncia listados são oficiais e funcionam de forma independente deste protótipo.
 
 ### Definição Adotada
 
@@ -463,4 +463,4 @@ Este projeto é de interesse público. Conteúdo editorial e código sob [MIT Li
 
 ---
 
-*Iniciativa de Enfrentamento ao Antissemitismo — CDESS / Presidência da República*
+*Iniciativa Especial de Enfrentamento ao Antissemitismo — CDESS / Presidência da República*

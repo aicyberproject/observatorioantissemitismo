@@ -13,7 +13,7 @@ import pathlib, sys
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 
-from layout import BASE, ATUALIZADO, CONTATO, FAIXA, CABECALHO, RODAPE  # noqa: E402
+from layout import BASE, ATUALIZADO, PAG_ATUALIZADA, CONTATO, FAIXA, CABECALHO, RODAPE  # noqa: E402
 
 def pagina(arquivo, titulo, descricao, atual, corpo, scripts=()):
     doc = f"""<!DOCTYPE html>
@@ -49,6 +49,22 @@ def pagina(arquivo, titulo, descricao, atual, corpo, scripts=()):
 
 
 # ---------------------------------------------------------------------------
+# Quadro 7 do relatorio final (causas da invisibilidade estatistica), em sobre e taxonomia
+# ---------------------------------------------------------------------------
+
+QUADRO7 = """<div class="tab-rolagem"><table class="tab-kpi">
+      <caption class="sr-only">Quadro 7 do relat&oacute;rio final: as causas da invisibilidade estat&iacute;stica e seus rem&eacute;dios</caption>
+      <thead><tr><th scope="col">Causa</th><th scope="col">Natureza</th><th scope="col">San&aacute;vel por marcador?</th><th scope="col">Observa&ccedil;&atilde;o</th></tr></thead>
+      <tbody>
+      <tr><th scope="row">Entrada: categoria inexistente</th><td>Decis&atilde;o taxon&ocirc;mica administrativa</td><td>Sim, integralmente</td><td class="motivo">A arquitetura de marca&ccedil;&atilde;o por vi&eacute;s j&aacute; existe nos principais sistemas federais</td></tr>
+      <tr><th scope="row">Entrada: categoria existente que n&atilde;o mede</th><td>Taxonomia e parametriza&ccedil;&atilde;o</td><td>Sim, por valor de motiva&ccedil;&atilde;o na coluna existente; subsidiariamente, por regra de preenchimento</td><td class="motivo">Caso do Disque 100</td></tr>
+      <tr><th scope="row">Entrada: s&eacute;rie n&atilde;o compar&aacute;vel</th><td>Documenta&ccedil;&atilde;o metodol&oacute;gica</td><td>N&atilde;o por marcador. Sim por nota metodol&oacute;gica ou por extra&ccedil;&atilde;o dos microdados abertos</td><td class="motivo">Caso das divulga&ccedil;&otilde;es anuais da Ouvidoria</td></tr>
+      <tr><th scope="row">Aus&ecirc;ncia de rastreabilidade do desfecho processual</th><td>Em parte, limite normativo leg&iacute;timo, o segredo de justi&ccedil;a</td><td>N&atilde;o integralmente</td><td class="motivo">Mensura&ccedil;&atilde;o poss&iacute;vel por observabilidade indireta, a partir da publicidade dos atos judiciais</td></tr>
+      <tr><th scope="row">Aus&ecirc;ncia de rastreabilidade do desfecho administrativo</th><td>Lacuna de publica&ccedil;&atilde;o, sem &oacute;bice normativo</td><td>Sim</td><td class="motivo">Caso do Portal 1746 e dos relat&oacute;rios de transpar&ecirc;ncia de plataforma. Via existente e vazia</td></tr>
+      </tbody></table></div>
+  <p class="fonte" style="margin-top: 22px">Fonte: relat&oacute;rio final conjunto, vers&atilde;o final 1.0, Quadro 7.</p>"""
+
+# ---------------------------------------------------------------------------
 # Sobre
 # ---------------------------------------------------------------------------
 
@@ -62,13 +78,14 @@ SOBRE = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 6vw,
   <div class="met-grid">
     <div>
       <h2 class="h2" style="max-width: 24ch">O que &eacute; esta p&aacute;gina</h2>
-      <p class="body" style="margin: 18px 0 0">Um <strong>prot&oacute;tipo</strong> em elabora&ccedil;&atilde;o no Eixo 3, de Seguran&ccedil;a e Monitoramento, da Iniciativa de Enfrentamento ao Antissemitismo. Serve para demonstrar o desenho de um observat&oacute;rio p&uacute;blico de monitoramento, orienta&ccedil;&atilde;o e prote&ccedil;&atilde;o de direitos.</p>
-      <p class="body" style="margin: 14px 0 0">Ainda n&atilde;o foi apreciado pelo Eixo nem levado &agrave; reuni&atilde;o de coordenadores. N&atilde;o constitui manifesta&ccedil;&atilde;o do CDESS, da Presid&ecirc;ncia da Rep&uacute;blica ou de qualquer &oacute;rg&atilde;o mencionado no conte&uacute;do. Os canais de den&uacute;ncia listados s&atilde;o oficiais e funcionam de forma independente deste prot&oacute;tipo.</p>
+      <p class="body" style="margin: 18px 0 0">Um <strong>prot&oacute;tipo</strong> em elabora&ccedil;&atilde;o no Eixo 3, de Seguran&ccedil;a e Monitoramento, da Iniciativa Especial de Enfrentamento ao Antissemitismo. Serve para demonstrar o desenho de um observat&oacute;rio p&uacute;blico de monitoramento, orienta&ccedil;&atilde;o e prote&ccedil;&atilde;o de direitos.</p>
+      <p class="body" style="margin: 14px 0 0">Ser&aacute; apresentado &agrave; coordena&ccedil;&atilde;o-geral da Iniciativa depois de conclu&iacute;do no Eixo 3. N&atilde;o constitui manifesta&ccedil;&atilde;o do CDESS, da Presid&ecirc;ncia da Rep&uacute;blica ou de qualquer &oacute;rg&atilde;o mencionado no conte&uacute;do. Os canais de den&uacute;ncia listados s&atilde;o oficiais e funcionam de forma independente deste prot&oacute;tipo.</p>
+      <p class="body" style="margin: 14px 0 0">A Resolução CNDH nº 8, de 16/06/2023, determina providências para constituir Observatório Nacional de Enfrentamento ao Discurso de Ódio. Este protótipo deve ser lido como contíguo a ele, e não como sua duplicação: o CNDH trata do discurso de ódio em geral; este protótipo trata da mensurabilidade do antissemitismo no registro institucional (relatório final, 2.6).</p>
 
       <h2 class="h2" style="max-width: 26ch; margin-top: clamp(34px, 4vw, 50px)">O achado que motiva o trabalho</h2>
       <p class="body" style="margin: 18px 0 0">N&atilde;o se trata de aus&ecirc;ncia de fen&ocirc;meno, mas de aus&ecirc;ncia de medida. Ela se manifesta de tr&ecirc;s modos: categoria inexistente, categoria existente que n&atilde;o mede e s&eacute;rie publicada n&atilde;o compar&aacute;vel entre divulga&ccedil;&otilde;es.</p>
-      <p class="body" style="margin: 14px 0 0">Nenhuma base p&uacute;blica examinada possui categoria aut&ocirc;noma de antissemitismo: Anu&aacute;rio do F&oacute;rum Brasileiro de Seguran&ccedil;a P&uacute;blica, SaferNet, Comunica PF, Disque 100, boletins de ocorr&ecirc;ncia estaduais e Tabelas Processuais Unificadas do CNJ. O fen&ocirc;meno &eacute; dissolvido em inj&uacute;ria racial, racismo, intoler&acirc;ncia religiosa, amea&ccedil;a ou &ldquo;outros crimes&rdquo;.</p>
-      <p class="body" style="margin: 14px 0 0">S&atilde;o duas causas cumulativas. A aus&ecirc;ncia de categoria na entrada, san&aacute;vel por marcador administrativo, sem lei nova. E a aus&ecirc;ncia de rastreabilidade do desfecho na sa&iacute;da, que decorre em parte de limite normativo leg&iacute;timo, o segredo de justi&ccedil;a. Apenas a primeira &eacute; san&aacute;vel por decis&atilde;o t&eacute;cnica.</p>
+      <p class="body" style="margin: 14px 0 0">Nenhuma base estatal de &acirc;mbito nacional possui a categoria em opera&ccedil;&atilde;o. A exce&ccedil;&atilde;o municipal &eacute; o Portal 1746, da Prefeitura do Rio de Janeiro, com o valor &ldquo;antissemitismo&rdquo; desde 18/03/2022, sem s&eacute;rie publicada (Achados 4 e 5). Entre as bases examinadas, nenhuma das seguintes tem categoria nacional aut&ocirc;noma de antissemitismo: Anu&aacute;rio do F&oacute;rum Brasileiro de Seguran&ccedil;a P&uacute;blica, Comunica PF, Disque 100, boletins de ocorr&ecirc;ncia estaduais e Tabelas Processuais Unificadas do CNJ. A SaferNet, que &eacute; base n&atilde;o estatal, tampouco a tem. O fen&ocirc;meno &eacute; dissolvido em inj&uacute;ria racial, racismo, intoler&acirc;ncia religiosa, amea&ccedil;a ou &ldquo;outros crimes&rdquo;.</p>
+      <p class="body" style="margin: 14px 0 0">S&atilde;o duas causas cumulativas. A aus&ecirc;ncia de categoria na entrada, san&aacute;vel por marcador administrativo, sem lei nova. E a aus&ecirc;ncia de rastreabilidade do desfecho na sa&iacute;da, que decorre em parte de limite normativo leg&iacute;timo, o segredo de justi&ccedil;a. O quadro abaixo, reproduzido do Quadro 7 do relat&oacute;rio final, distingue as causas e diz o que cada uma admite.</p>
       <p class="body" style="margin: 14px 0 0">A <a href="indicadores.html">p&aacute;gina de indicadores</a> registra as duas coisas: o que hoje &eacute; mensur&aacute;vel e, ao lado, as vinte lacunas que nenhuma base preenche, com o motivo de cada uma.</p>
     </div>
     <div>
@@ -88,13 +105,18 @@ SOBRE = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 6vw,
   </div>
 </section>
 
+<section class="wrap section">
+  <h2 class="h2" style="max-width: 30ch">As causas, e o que cada uma admite</h2>
+  {QUADRO7}
+</section>
+
 <section class="band"><div class="wrap section">
   <p class="eyebrow">O que &eacute; e o que n&atilde;o &eacute;</p>
   <div class="scope-grid" style="margin-top: 24px">
     <div>
       <h3 class="h3-display">O que &eacute;</h3>
       <ul class="scope-list scope-is">
-        <li>Plataforma p&uacute;blica de monitoramento de incidentes de antissemitismo no Brasil.</li>
+        <li>Prot&oacute;tipo de demonstra&ccedil;&atilde;o do que hoje se mede sobre antissemitismo no Brasil, do que n&atilde;o se mede e do motivo.</li>
         <li>Superf&iacute;cie de leitura que remete ao ve&iacute;culo original, com aviso expl&iacute;cito quando o item chega por intermedi&aacute;rio de busca.</li>
         <li>Guia pr&aacute;tico de canais oficiais de den&uacute;ncia e de preserva&ccedil;&atilde;o de provas.</li>
         <li>Registro das lacunas de medi&ccedil;&atilde;o, que s&atilde;o o principal achado do Eixo.</li>
@@ -133,7 +155,7 @@ PRIVACIDADE = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px
   <p class="crumb"><a href="index.html">Observat&oacute;rio</a> &nbsp;/&nbsp; Privacidade</p>
   <h1 class="h1" style="margin-top: 24px">Pol&iacute;tica de privacidade</h1>
   <p class="lead" style="margin: 26px 0 0; max-width: 68ch">Resumo em uma frase: <strong>este s&iacute;tio n&atilde;o coleta dado pessoal nenhum.</strong> N&atilde;o pede seu nome, n&atilde;o pede seu e-mail, n&atilde;o usa cookie de rastreamento e n&atilde;o envia nada seu para lugar algum.</p>
-  <p class="body" style="margin: 18px 0 0; max-width: 68ch">Atualizada em {ATUALIZADO}. Aplica-se ao prot&oacute;tipo publicado em <code>aicyberproject.github.io/observatorioantissemitismo</code>.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 68ch">Atualizada em {PAG_ATUALIZADA}. Aplica-se ao prot&oacute;tipo publicado em <code>aicyberproject.github.io/observatorioantissemitismo</code>.</p>
 </section>
 
 <section class="wrap section" style="padding-top: clamp(20px, 3vw, 36px)">
@@ -209,14 +231,14 @@ TERMOS = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 6vw
   <p class="crumb"><a href="index.html">Observat&oacute;rio</a> &nbsp;/&nbsp; Termos de uso</p>
   <h1 class="h1" style="margin-top: 24px">Termos de uso</h1>
   <p class="lead" style="margin: 26px 0 0; max-width: 68ch">O conte&uacute;do &eacute; livre para reuso, com cita&ccedil;&atilde;o da fonte de origem. Este prot&oacute;tipo n&atilde;o &eacute; fonte oficial, n&atilde;o presta assist&ecirc;ncia jur&iacute;dica e n&atilde;o recebe den&uacute;ncia.</p>
-  <p class="body" style="margin: 18px 0 0; max-width: 68ch">Atualizados em {ATUALIZADO}.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 68ch">Atualizados em {PAG_ATUALIZADA}.</p>
 </section>
 
 <section class="wrap section" style="padding-top: clamp(20px, 3vw, 36px)">
   <div class="met-grid">
     <div>
       <h2 class="h2" style="max-width: 24ch">1. Natureza do servi&ccedil;o</h2>
-      <p class="body" style="margin: 18px 0 0">Este &eacute; um <strong>prot&oacute;tipo</strong>, vers&atilde;o de trabalho em elabora&ccedil;&atilde;o no Eixo 3 da Iniciativa de Enfrentamento ao Antissemitismo. N&atilde;o foi apreciado pelo Eixo nem pela reuni&atilde;o de coordenadores, e n&atilde;o constitui manifesta&ccedil;&atilde;o do CDESS, da Presid&ecirc;ncia da Rep&uacute;blica ou de qualquer &oacute;rg&atilde;o citado no conte&uacute;do.</p>
+      <p class="body" style="margin: 18px 0 0">Este &eacute; um <strong>prot&oacute;tipo</strong>, vers&atilde;o de trabalho em elabora&ccedil;&atilde;o no Eixo 3 da Iniciativa Especial de Enfrentamento ao Antissemitismo. Ser&aacute; apresentado &agrave; coordena&ccedil;&atilde;o-geral da Iniciativa depois de conclu&iacute;do no Eixo 3, e n&atilde;o constitui manifesta&ccedil;&atilde;o do CDESS, da Presid&ecirc;ncia da Rep&uacute;blica ou de qualquer &oacute;rg&atilde;o citado no conte&uacute;do.</p>
       <p class="body" style="margin: 14px 0 0">O conte&uacute;do pode mudar ou sair do ar sem aviso, e o endere&ccedil;o atual n&atilde;o &eacute; definitivo.</p>
 
       <h2 class="h2" style="max-width: 24ch; margin-top: clamp(34px, 4vw, 50px)">2. O que este s&iacute;tio n&atilde;o faz</h2>
@@ -229,7 +251,7 @@ TERMOS = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 6vw
       </ul>
     </div>
     <div>
-      <h2 class="h2" style="max-width: 26ch">3. Orienta&ccedil;&atilde;o jur&iacute;dica e limites</h2>
+      <h2 class="h2" style="max-width: 26ch">3. Orientação informativa e limites</h2>
       <p class="body" style="margin: 18px 0 0">O material sobre legisla&ccedil;&atilde;o, jurisprud&ecirc;ncia e preserva&ccedil;&atilde;o de provas tem finalidade informativa. N&atilde;o &eacute; parecer, n&atilde;o considera as circunst&acirc;ncias do seu caso e n&atilde;o cria rela&ccedil;&atilde;o de patroc&iacute;nio.</p>
       <p class="body" style="margin: 14px 0 0">Norma muda, ac&oacute;rd&atilde;o &eacute; superado e prazo corre. Antes de agir com base no que leu aqui, confira no texto de origem, que est&aacute; sempre linkado, e procure orienta&ccedil;&atilde;o profissional.</p>
 
@@ -272,7 +294,7 @@ TERMOS = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 6vw
 METODOLOGIA = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 6vw, 80px); padding-bottom: clamp(10px, 2vw, 20px)">
   <p class="crumb"><a href="index.html">Observat&oacute;rio</a> &nbsp;/&nbsp; Metodologia</p>
   <h1 class="h1" style="margin-top: 24px">Metodologia</h1>
-  <p class="lead" style="margin: 26px 0 0; max-width: 70ch">Como cada n&uacute;mero desta p&aacute;gina foi obtido, sobre que base foi calculado, e o que ele n&atilde;o mede. Atualizada em {{ATUALIZADO}}.</p>
+  <p class="lead" style="margin: 26px 0 0; max-width: 70ch">Como cada n&uacute;mero desta p&aacute;gina foi obtido, sobre que base foi calculado, e o que ele n&atilde;o mede. Atualizada em {PAG_ATUALIZADA}.</p>
   <p class="body" style="margin: 18px 0 0; max-width: 70ch">Esta p&aacute;gina tem endere&ccedil;o pr&oacute;prio de prop&oacute;sito. Metodologia enterrada dentro de um relat&oacute;rio n&atilde;o &eacute; cit&aacute;vel, e quem contesta um n&uacute;mero precisa poder apontar exatamente para a regra que o produziu.</p>
 </section>
 
@@ -282,6 +304,7 @@ METODOLOGIA = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px
       <h2 class="h2" style="max-width: 24ch">Defini&ccedil;&atilde;o adotada</h2>
       <p class="body" style="margin: 18px 0 0">O enquadramento &eacute; o fixado pelo Supremo Tribunal Federal no HC 82.424/RS, de 2003: o antissemitismo se qualifica como racismo, crime inafian&ccedil;&aacute;vel e imprescrit&iacute;vel nos termos do art. 5&ordm;, XLII, da Constitui&ccedil;&atilde;o Federal. &Eacute; o enquadramento vigente no direito brasileiro e n&atilde;o depende de ado&ccedil;&atilde;o de instrumento internacional.</p>
       <p class="body" style="margin: 14px 0 0">As fontes agregadas nesta p&aacute;gina adotam defini&ccedil;&otilde;es operacionais pr&oacute;prias, que nem sempre coincidem entre si. Onde a diverg&ecirc;ncia afeta a leitura, o texto diz.</p>
+      <p class="body" style="margin: 14px 0 0">A Defini&ccedil;&atilde;o de Antissemitismo emitida pelo eixo de Conceitua&ccedil;&atilde;o, vers&atilde;o final de 26/10/2026, relaciona dezessete manifesta&ccedil;&otilde;es descritas por conduta observ&aacute;vel e opera sobre conduta com potencial para causar dano ou criar risco objetivo de dano. O relat&oacute;rio final do Eixo 3 a indica como repert&oacute;rio para redigir indicadores de vi&eacute;s, a t&iacute;tulo de refer&ecirc;ncia e n&atilde;o de ades&atilde;o deliberada, sujeita &agrave; coordena&ccedil;&atilde;o-geral. A convers&atilde;o em indicadores operacionais n&atilde;o foi feita. S&eacute;rie publicada a partir de marcador deve declarar esse limiar em nota metodol&oacute;gica.</p>
 
       <h2 class="h2" style="max-width: 24ch; margin-top: clamp(34px, 4vw, 50px)">O que entra</h2>
       <p class="body" style="margin: 18px 0 0">Somente dado agregado, de origem p&uacute;blica e j&aacute; publicado por terceiro. <strong>Nenhum n&uacute;mero &eacute; produzido pelo Observat&oacute;rio.</strong> N&atilde;o h&aacute;, em nenhum ponto, dado pessoal, den&uacute;ncia individualizada ou informa&ccedil;&atilde;o sob sigilo.</p>
@@ -294,7 +317,7 @@ METODOLOGIA = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px
       <h2 class="h2" style="max-width: 26ch">Natureza do dado</h2>
       <p class="body" style="margin: 18px 0 0">Cada n&uacute;mero carrega uma marca de natureza: contagem de fonte comunit&aacute;ria, registro oficial agregado, monitoramento de imprensa, pesquisa de percep&ccedil;&atilde;o ou apura&ccedil;&atilde;o de outra jurisdi&ccedil;&atilde;o.</p>
       <p class="body" style="margin: 14px 0 0"><strong>N&uacute;meros de naturezas diferentes n&atilde;o s&atilde;o somados nem comparados diretamente.</strong> A pr&aacute;tica vem do ODIHR, organismo da OSCE que mant&eacute;m dois acervos separados e nunca os junta: o que vem do Estado &eacute; registrado como crime, o que vem da sociedade civil como incidente, com a raz&atilde;o declarada de que n&atilde;o se consegue verificar se o segundo grupo se qualifica como crime.</p>
-      <p class="body" style="margin: 14px 0 0">Aqui a disciplina &eacute; a mesma, por motivo pr&aacute;tico: como nenhuma base estatal brasileira tem categoria aut&ocirc;noma de antissemitismo, misturar contagem comunit&aacute;ria com dado policial produziria n&uacute;mero sem denominador.</p>
+      <p class="body" style="margin: 14px 0 0">Aqui a disciplina &eacute; a mesma, por motivo pr&aacute;tico: como nenhuma base estatal de âmbito nacional tem categoria autônoma de antissemitismo em operação, misturar contagem comunit&aacute;ria com dado policial produziria n&uacute;mero sem denominador.</p>
 
       <h2 class="h2" style="max-width: 26ch; margin-top: clamp(34px, 4vw, 50px)">Grau de verifica&ccedil;&atilde;o</h2>
       <p class="body" style="margin: 18px 0 0">Cada bloco tamb&eacute;m traz um selo. <strong>Conferido no acervo</strong> indica n&uacute;mero checado contra o documento de origem. <strong>Citado, prim&aacute;ria n&atilde;o consultada</strong> indica n&uacute;mero cuja fonte est&aacute; declarada, mas cuja publica&ccedil;&atilde;o n&atilde;o foi aberta.</p>
@@ -354,7 +377,7 @@ CAMPOS = [
     ("Evidência disponível", "Não", "print / vídeo / áudio / link / documento"),
     ("Evidência preservada", "Não", "sim / não"),
     ("Encaminhamento", "Sim", "Polícia Federal / Polícia Civil / Ministério Público / MDHC / arquivado / outro"),
-    ("Status do caso", "Sim", "recebido / em triagem / encaminhado / concluído / arquivado"),
+    ("Status do caso", "Sim", "recebido / em triagem / classificado como potencial antissemitismo / encaminhado para investigação / encaminhado para proteção ou prevenção / arquivado por insuficiência informacional / não confirmado / concluído"),
 ]
 
 COMPARADO = [
@@ -392,7 +415,7 @@ TAXONOMIA = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 
   <h1 class="h1" style="margin-top: 24px">Taxonomia proposta</h1>
   <p class="lead" style="margin: 26px 0 0; max-width: 70ch">Quinze campos para classificar uma ocorr&ecirc;ncia de antissemitismo. &Eacute; <strong>proposta do Eixo 3</strong>, e n&atilde;o padr&atilde;o adotado: nenhuma base p&uacute;blica brasileira a implementa hoje.</p>
   <p class="body" style="margin: 18px 0 0; max-width: 70ch">Esta p&aacute;gina existe por uma raz&atilde;o pr&aacute;tica. A taxonomia &eacute; o &uacute;nico artefato do trabalho que pode ser publicado <strong>antes</strong> de haver dado para classificar, e &eacute; o que se leva a uma mesa institucional para sustentar a proposta de marcador. Ter endere&ccedil;o pr&oacute;prio e cit&aacute;vel &eacute; parte da fun&ccedil;&atilde;o.</p>
-  <p class="body" style="margin: 18px 0 0; max-width: 70ch">Atualizada em {ATUALIZADO}. Corresponde ao Anexo II dos instrumentos de modelagem do Eixo 3.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 70ch">Atualizada em {PAG_ATUALIZADA}. Corresponde ao Anexo D do relatório final.</p>
 </section>
 
 <section class="band"><div class="wrap section">
@@ -400,12 +423,13 @@ TAXONOMIA = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 
   <h2 class="h2" style="max-width: 34ch">Vi&eacute;s &eacute; atributo do fato, n&atilde;o tipo penal</h2>
   <p class="body" style="margin: 20px 0 0; max-width: 74ch">O antissemitismo <strong>n&atilde;o precisa virar crime aut&ocirc;nomo para ser contado.</strong> Precisa ser um marcador de motiva&ccedil;&atilde;o, anexo a crimes que j&aacute; existem no direito brasileiro: inj&uacute;ria racial, racismo, amea&ccedil;a, dano, incita&ccedil;&atilde;o.</p>
   <p class="body" style="margin: 14px 0 0; max-width: 74ch">Essa &eacute; a forma adotada por cinco das principais plataformas internacionais examinadas, e nenhuma delas trata o antissemitismo como tipo penal pr&oacute;prio. E h&aacute; precedente dom&eacute;stico da mesma natureza: em 2022 o Conselho Nacional de Justi&ccedil;a inseriu assuntos de intoler&acirc;ncia religiosa nas Tabelas Processuais Unificadas <strong>por ato administrativo</strong>, e mant&eacute;m painel extra&iacute;do do DataJud. A recomenda&ccedil;&atilde;o central deste Eixo n&atilde;o depende de lei nova.</p>
-  <p class="body" style="margin: 14px 0 0; max-width: 74ch">O argumento emp&iacute;rico est&aacute; na <a href="indicadores.html#instauracao">p&aacute;gina de indicadores</a>: quando o n&uacute;cleo tem&aacute;tico &eacute; tipificado na entrada, a taxa de instaura&ccedil;&atilde;o no Minist&eacute;rio P&uacute;blico Federal quadruplica. A persecu&ccedil;&atilde;o responde ao que consegue enxergar.</p>
+  <p class="body" style="margin: 14px 0 0; max-width: 74ch">A recomenda&ccedil;&atilde;o do Eixo 3 &eacute; marcador transversal de motiva&ccedil;&atilde;o de vi&eacute;s, aplic&aacute;vel a qualquer natureza de ocorr&ecirc;ncia, com valor aut&ocirc;nomo para o antissemitismo entre outros valores, e n&atilde;o categoria privativa. A categoria exclusiva produziria visibilidade desigual por desenho e hierarquiza&ccedil;&atilde;o entre discrimina&ccedil;&otilde;es (relat&oacute;rio final, 5.7 e 7.1, regra 3).</p>
 </div></section>
 
 <section class="wrap section">
   <h2 class="h2" style="max-width: 30ch">Os quinze campos</h2>
-  <p class="body" style="margin: 18px 0 0; max-width: 72ch">Formato operacional, pensado para formul&aacute;rio ou sistema de registro. Sete campos obrigat&oacute;rios, oito facultativos.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 72ch">Formato operacional, pensado para formul&aacute;rio ou sistema de registro. Oito campos obrigat&oacute;rios, sete facultativos.</p>
+  <p class="body" style="margin: 14px 0 0; max-width: 72ch">Esta tabela &eacute; a tabela operacional de taxonomia do acervo do Eixo 3, n&atilde;o reproduzida no relat&oacute;rio final. O relat&oacute;rio final publica a taxonomia em oito camadas (Anexo D.2) e um n&uacute;cleo m&iacute;nimo de quinze campos para interoperabilidade (D.2.1), que s&atilde;o outros quinze campos; ver o <a href="formulario-modelo.html">modelo de formul&aacute;rio</a>. A concilia&ccedil;&atilde;o dos instrumentos &eacute; pend&ecirc;ncia registrada no item 8.7 do relat&oacute;rio.</p>
   <div class="tab-rolagem">
     <table class="tab-kpi">
       <caption class="sr-only">Campos da taxonomia proposta, com obrigatoriedade e op&ccedil;&otilde;es padronizadas</caption>
@@ -416,7 +440,7 @@ TAXONOMIA = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 
         f'<td class="motivo">{v}</td></tr>' for c, o, v in CAMPOS)}</tbody>
     </table>
   </div>
-  <p class="fonte" style="margin-top: 22px">O instrumento original tra&iacute;a tamb&eacute;m regras de valida&ccedil;&atilde;o autom&aacute;tica, como alerta para risco 3 ou 4 e encaminhamento priorit&aacute;rio quando h&aacute; ind&iacute;cio de c&eacute;lula extremista. Essas regras pressup&otilde;em um sistema que ainda n&atilde;o existe e por isso n&atilde;o s&atilde;o reproduzidas aqui como se estivessem em opera&ccedil;&atilde;o.</p>
+  <p class="fonte" style="margin-top: 22px">O instrumento original trazia tamb&eacute;m regras de valida&ccedil;&atilde;o autom&aacute;tica, como alerta para risco 3 ou 4 e encaminhamento priorit&aacute;rio quando h&aacute; ind&iacute;cio de c&eacute;lula extremista. Essas regras pressup&otilde;em um sistema que ainda n&atilde;o existe e por isso n&atilde;o s&atilde;o reproduzidas aqui como se estivessem em opera&ccedil;&atilde;o.</p>
 </section>
 
 <section class="band"><div class="wrap section">
@@ -435,13 +459,14 @@ TAXONOMIA = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 
   <h2 class="h2" style="max-width: 32ch">O que falta para a taxonomia funcionar</h2>
   <p class="body" style="margin: 18px 0 0; max-width: 74ch">Uma taxonomia sem campo na entrada &eacute; documento, n&atilde;o instrumento. O <a href="indicadores.html">painel de lacunas</a> registra os vinte indicadores da matriz proposta e o motivo de cada um estar vazio. A s&iacute;ntese &eacute; esta:</p>
   <ul class="scope-list scope-isnot" style="margin-top: 20px; max-width: 76ch">
-    <li>Nenhuma base p&uacute;blica examinada tem categoria aut&ocirc;noma de antissemitismo: Anu&aacute;rio do F&oacute;rum Brasileiro de Seguran&ccedil;a P&uacute;blica, SaferNet, Comunica PF, Disque 100, boletins de ocorr&ecirc;ncia estaduais e Tabelas Processuais Unificadas do CNJ.</li>
+    <li>Nenhuma base estatal de &acirc;mbito nacional possui a categoria em opera&ccedil;&atilde;o. A exce&ccedil;&atilde;o municipal &eacute; o Portal 1746, da Prefeitura do Rio de Janeiro, com o valor &ldquo;antissemitismo&rdquo; desde 18/03/2022, sem s&eacute;rie publicada (Achados 4 e 5). Entre as bases examinadas, nenhuma das seguintes tem categoria nacional aut&ocirc;noma de antissemitismo: Anu&aacute;rio do F&oacute;rum Brasileiro de Seguran&ccedil;a P&uacute;blica, Comunica PF, Disque 100, boletins de ocorr&ecirc;ncia estaduais e Tabelas Processuais Unificadas do CNJ. A SaferNet, que &eacute; base n&atilde;o estatal, tampouco a tem.</li>
     <li>Nenhuma base de entrada classifica risco em quatro n&iacute;veis.</li>
     <li>N&atilde;o h&aacute; campo que distinga alvo institucional de alvo individual.</li>
     <li>N&atilde;o h&aacute; campo de preserva&ccedil;&atilde;o de evid&ecirc;ncia.</li>
     <li>O desfecho processual esbarra em limite normativo leg&iacute;timo, o segredo de justi&ccedil;a, que n&atilde;o &eacute; falha a contornar.</li>
   </ul>
-  <p class="body" style="margin: 20px 0 0; max-width: 74ch">Duas causas cumulativas, portanto. A aus&ecirc;ncia de categoria na entrada, san&aacute;vel por ato administrativo. E a aus&ecirc;ncia de rastreabilidade na sa&iacute;da, que decorre em parte de prote&ccedil;&atilde;o leg&iacute;tima. <strong>Apenas a primeira depende de decis&atilde;o t&eacute;cnica.</strong></p>
+  <p class="body" style="margin: 20px 0 0; max-width: 74ch">Duas causas cumulativas, portanto. A aus&ecirc;ncia de categoria na entrada, san&aacute;vel por ato administrativo. E a aus&ecirc;ncia de rastreabilidade na sa&iacute;da, que decorre em parte de prote&ccedil;&atilde;o leg&iacute;tima. O quadro abaixo, reproduzido do Quadro 7 do relat&oacute;rio final, distingue as causas e diz o que cada uma admite.</p>
+  {QUADRO7}
   <div class="pills" style="margin-top: 24px">
     <a class="pill pill-solid" href="indicadores.html">Painel de lacunas &rarr;</a>
     <a class="pill" href="metodologia.html">Metodologia &rarr;</a>
@@ -504,7 +529,7 @@ CONTATO_PAG = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px
       <p class="body" style="margin: 18px 0 0">Nenhum prazo &eacute; prometido. O prot&oacute;tipo &eacute; mantido por equipe de trabalho, sem plant&atilde;o. Erro de fato em n&uacute;mero publicado tem prioridade sobre pedido de conte&uacute;do novo, porque n&uacute;mero errado no ar &eacute; o defeito mais grave que um observat&oacute;rio pode ter.</p>
     </div>
   </div>
-  <p class="body" style="margin: 26px 0 0; max-width: 70ch">Atualizada em {ATUALIZADO}.</p>
+  <p class="body" style="margin: 26px 0 0; max-width: 70ch">Atualizada em {PAG_ATUALIZADA}.</p>
 </section>
 """
 
@@ -714,7 +739,7 @@ PRESERVAR = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 
 <section class="band" id="campos-minimos"><div class="wrap section">
   <p class="eyebrow">Evid&ecirc;ncia digital &middot; refer&ecirc;ncia do Eixo 3</p>
   <h2 class="h2" style="max-width: 30ch">Os doze campos m&iacute;nimos</h2>
-  <p class="body" style="margin: 18px 0 0; max-width: 74ch">A SaferNet Brasil ofereceu ao Eixo 3 um conjunto de doze campos m&iacute;nimos de preserva&ccedil;&atilde;o de evid&ecirc;ncia digital. &Eacute; a &uacute;nica refer&ecirc;ncia operacional dispon&iacute;vel ao Eixo na mat&eacute;ria. Sua ado&ccedil;&atilde;o pelo Eixo e a compatibilidade com padr&otilde;es internacionais de hotline permanecem pendentes. Fonte: relat&oacute;rio preliminar conjunto das Frentes 1 e 2, vers&atilde;o 2.0, Anexo D, item D.6.</p>
+  <p class="body" style="margin: 18px 0 0; max-width: 74ch">A SaferNet Brasil ofereceu ao Eixo 3 um conjunto de doze campos m&iacute;nimos de preserva&ccedil;&atilde;o de evid&ecirc;ncia digital. &Eacute; a &uacute;nica refer&ecirc;ncia operacional dispon&iacute;vel ao Eixo na mat&eacute;ria. Sua ado&ccedil;&atilde;o pelo Eixo e a compatibilidade com padr&otilde;es internacionais de hotline permanecem pendentes. Fonte: relat&oacute;rio final conjunto das Frentes 1 e 2, vers&atilde;o final 1.0, Anexo D, item D.6.</p>
   <ol class="body prs-lista">
         <li>Endereço completo do conteúdo, com vínculo específico e permanente.</li>
         <li>Data e hora da captura, com fuso horário explícito, preferencialmente em tempo universal coordenado.</li>
@@ -732,9 +757,9 @@ PRESERVAR = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 
   <p class="prs-risco" role="note" style="margin-top: 22px"><strong>Aten&ccedil;&atilde;o aos campos 6 e 10.</strong> Tratam de dados de identifica&ccedil;&atilde;o de terceiros e s&oacute; podem ser coletados no &acirc;mbito de procedimento com base legal pr&oacute;pria. Esta p&aacute;gina n&atilde;o coleta, n&atilde;o solicita e n&atilde;o armazena nenhum desses elementos. A reprodu&ccedil;&atilde;o aqui &eacute; de natureza estritamente metodol&oacute;gica.</p>
   <h3 class="h3" style="margin-top: 30px">Por que denunciar cedo</h3>
   <p class="body" style="margin: 12px 0 0; max-width: 74ch">Segundo o diagn&oacute;stico do Eixo 3, o Marco Civil da Internet (Lei n&ordm; 12.965/2014) fixa a guarda dos registros de acesso a aplica&ccedil;&otilde;es em seis meses (art. 15) e a dos registros de conex&atilde;o em um ano (art. 13), e n&atilde;o se localizou padr&atilde;o p&uacute;blico de preserva&ccedil;&atilde;o nos &oacute;rg&atilde;os de recebimento. O prazo corre da cria&ccedil;&atilde;o de cada registro, e o Decreto n&ordm; 8.771/2016 determina que o registro seja exclu&iacute;do ao fim do prazo, salvo guarda prorrogada por requisi&ccedil;&atilde;o da autoridade policial, administrativa ou do Minist&eacute;rio P&uacute;blico, ou por ordem judicial. A prorroga&ccedil;&atilde;o n&atilde;o recupera registro j&aacute; exclu&iacute;do. Esse &eacute; um motivo para denunciar sem demora, junto com a volatilidade do conte&uacute;do (achado A24, confian&ccedil;a m&eacute;dia). Quem requer a guarda ao provedor &eacute; a autoridade, e n&atilde;o o particular, que pode ir a ju&iacute;zo, por advogado ou pela Defensoria P&uacute;blica, para pedir o fornecimento dos registros. A preserva&ccedil;&atilde;o junto ao provedor &eacute; feita por solicita&ccedil;&atilde;o tempestiva da autoridade competente (campo 12). Informa&ccedil;&atilde;o geral, que n&atilde;o substitui advogado. H&aacute; um <a href="agenda-futura.html#relogio-preservacao">experimento de c&aacute;lculo de prazo</a>, em revis&atilde;o jur&iacute;dica, na agenda futura.</p>
-  <h3 class="h3" style="margin-top: 30px">Recomenda&ccedil;&atilde;o 14, em minuta</h3>
-  <p class="body" style="margin: 12px 0 0; max-width: 74ch"><strong>Proposta em minuta, n&atilde;o deliberada.</strong> N&atilde;o deve ser citada como posi&ccedil;&atilde;o do Eixo antes de validada. Est&aacute; em aprecia&ccedil;&atilde;o pelos participantes das Frentes 1 e 2, e os destaques n&atilde;o resolvidos ser&atilde;o deliberados na reuni&atilde;o de encerramento, em 14/10/2026. O texto prop&otilde;e fixar, no fluxo de encaminhamento de ocorr&ecirc;ncias em ambiente digital, <strong>prazo de requisi&ccedil;&atilde;o cautelar de guarda</strong> de registros ao provedor e os <strong>campos m&iacute;nimos de preserva&ccedil;&atilde;o</strong> de evid&ecirc;ncia digital. Os destinat&aacute;rios indicados s&atilde;o a Pol&iacute;cia Federal, pela unidade gestora do Comunica PF, e o Minist&eacute;rio dos Direitos Humanos e da Cidadania, por sua Ouvidoria Nacional de Direitos Humanos. O instrumento exigido &eacute; ato administrativo do pr&oacute;prio destinat&aacute;rio, em prazo sugerido curto, de at&eacute; seis meses. O indicador de cumprimento &eacute; a incorpora&ccedil;&atilde;o do prazo e dos campos &agrave;s orienta&ccedil;&otilde;es de atendimento dos dois canais.</p>
-  <p class="fonte" style="margin-top: 22px">Fonte: relat&oacute;rio preliminar conjunto, vers&atilde;o 2.0, Recomenda&ccedil;&atilde;o 14 e achado A24. O formul&aacute;rio de qualifica&ccedil;&atilde;o da not&iacute;cia-crime e a exporta&ccedil;&atilde;o de dossi&ecirc; n&atilde;o fazem parte desta p&aacute;gina: dependem de decis&atilde;o da coordena&ccedil;&atilde;o.</p>
+  <h3 class="h3" style="margin-top: 30px">Recomenda&ccedil;&atilde;o 14</h3>
+  <p class="body" style="margin: 12px 0 0; max-width: 74ch"><strong>Relat&oacute;rio deliberado por destaques em 14/10/2026, pelo canal do Eixo 3; o que n&atilde;o foi destacado considera-se aprovado. As recomenda&ccedil;&otilde;es seguem para aprecia&ccedil;&atilde;o da coordena&ccedil;&atilde;o-geral da Iniciativa e n&atilde;o constituem, ainda, posi&ccedil;&atilde;o da Iniciativa nem do Conselho.</strong> O texto prop&otilde;e fixar, no fluxo de encaminhamento de ocorr&ecirc;ncias em ambiente digital, <strong>prazo de requisi&ccedil;&atilde;o cautelar de guarda</strong> de registros ao provedor e os <strong>campos m&iacute;nimos de preserva&ccedil;&atilde;o</strong> de evid&ecirc;ncia digital. Os destinat&aacute;rios indicados s&atilde;o a Pol&iacute;cia Federal, pela unidade gestora do Comunica PF, e o Minist&eacute;rio dos Direitos Humanos e da Cidadania, por sua Ouvidoria Nacional de Direitos Humanos. O instrumento exigido &eacute; ato administrativo do pr&oacute;prio destinat&aacute;rio, em prazo sugerido curto, de at&eacute; seis meses. O indicador de cumprimento &eacute; a incorpora&ccedil;&atilde;o do prazo e dos campos &agrave;s orienta&ccedil;&otilde;es de atendimento dos dois canais. Veja a <a href="recomendacoes.html">p&aacute;gina de recomenda&ccedil;&otilde;es</a>.</p>
+  <p class="fonte" style="margin-top: 22px">Fonte: relat&oacute;rio final conjunto, vers&atilde;o final 1.0, Recomenda&ccedil;&atilde;o 14 e achado A24. O formul&aacute;rio de qualifica&ccedil;&atilde;o da not&iacute;cia-crime e a exporta&ccedil;&atilde;o de dossi&ecirc; n&atilde;o fazem parte desta p&aacute;gina: dependem de decis&atilde;o da coordena&ccedil;&atilde;o.</p>
 </div></section>
 
 <section class="wrap section">
@@ -755,7 +780,7 @@ PRESERVAR = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 
       <p class="body" style="margin: 14px 0 0">Esta página <strong>não recebe denúncia</strong> e não substitui boletim de ocorrência. Os <a href="index.html#denuncie">canais de denúncia</a> são das próprias instituições e funcionam de forma independente deste protótipo.</p>
       <p class="body" style="margin: 14px 0 0">A base legal aplicável está na <a href="index.html#legislacao">seção de legislação</a> e na <a href="biblioteca.html">biblioteca</a>, com link para o texto de origem de cada norma. Norma muda e prazo corre: confira na origem.</p>
       <p class="body" style="margin: 14px 0 0">As classificações citadas ao pé de cada roteiro remetem à <a href="taxonomia.html">taxonomia proposta</a> pelo Eixo 3. É <strong>proposta, e não padrão adotado</strong>: nenhuma base pública brasileira a implementa hoje. Servem para leitura do fenômeno, e não como campo a preencher em formulário existente.</p>
-      <p class="body" style="margin: 14px 0 0">Atualizada em {ATUALIZADO}.</p>
+      <p class="body" style="margin: 14px 0 0">Atualizada em {PAG_ATUALIZADA}.</p>
     </div>
   </div>
 </section>
@@ -787,28 +812,48 @@ PRESERVAR = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 
 
 GRUPOS = [
     ("iniciativa", "A Iniciativa e este protótipo", [
-        ("Iniciativa de Enfrentamento ao Antissemitismo", None,
-         'Denominação oficial desde 31 de julho de 2026. Documentos expedidos antes disso preservam a denominação anterior, "GT Enfrentamento ao Antissemitismo".'),
+        ("Iniciativa Especial de Enfrentamento ao Antissemitismo", None,
+         'Denominação em uso desde 8 de setembro de 2026, referendada pela coordenação-geral em 30 de setembro de 2026. Antes, "GT Enfrentamento ao Antissemitismo" (até 31/07/2026) e "Iniciativa de Enfrentamento ao Antissemitismo" (de 31/07 a 08/09/2026). As três designam o mesmo colegiado. Expedientes antigos preservam a denominação da época.'),
         ("CDESS", "Conselho de Desenvolvimento Econômico, Social e Sustentável",
          'Colegiado no âmbito do qual a Iniciativa se desenvolve. Este protótipo não foi apreciado por ele e não constitui sua manifestação.'),
         ("Eixo 3", "Segurança e Monitoramento",
-         'Um dos eixos temáticos da Iniciativa, e o responsável por este protótipo. Seu mandato é validar limitações institucionais de registro e monitoramento, não padronizar canais de denúncia.'),
+         'Um dos eixos temáticos da Iniciativa, e o responsável por este protótipo. Seu mandato é fazer o levantamento geral das limitações institucionais no registro, na classificação e no encaminhamento de ocorrências relacionadas ao antissemitismo e sugerir ajustes pontuais a quem tem competência para saná-las. Não é padronizar os canais públicos de denúncia.'),
         ("Protótipo", None,
-         'A condição declarada deste sítio. Versão de trabalho, sem caráter oficial, não apreciada pelo Eixo nem pela reunião de coordenadores, e fora de indexação enquanto durar essa condição.'),
+         'A condição declarada deste sítio. Versão de trabalho, sem caráter oficial, a ser apresentada à coordenação-geral da Iniciativa depois de concluída no Eixo 3, e fora de indexação enquanto durar essa condição.'),
     ]),
     ("medida", "Como o fenômeno é medido, e por que mal se mede", [
         ("Invisibilidade estatística", None,
-         'Diluição do fenômeno em categorias genéricas, o que produz falsa negatividade nas séries. Nenhuma base pública brasileira examinada tem categoria autônoma de antissemitismo: o fato entra como injúria racial, racismo, intolerância religiosa, ameaça ou "outros crimes", e deixa de ser contável como antissemitismo.'),
+         'Diluição do fenômeno em categorias genéricas, o que produz falsa negatividade nas séries. Nenhuma base estatal de âmbito nacional possui a categoria em operação, e a exceção municipal, o Portal 1746 do Rio de Janeiro, não publicou série: o fato entra como injúria racial, racismo, intolerância religiosa, ameaça ou "outros crimes", e deixa de ser contável como antissemitismo.'),
         ("Marcador", None,
-         'Campo ou etiqueta que permite separar o antissemitismo de categorias mais amplas, sem criar tipo penal novo. É a recomendação central do Eixo 3, e não depende de lei: o Conselho Nacional de Justiça inseriu assuntos de intolerância religiosa nas Tabelas Processuais Unificadas por ato administrativo.'),
+         'Campo ou etiqueta que permite separar o antissemitismo de categorias mais amplas, sem criar tipo penal novo. É a recomendação central do Eixo 3, e não depende de lei: o Conselho Nacional de Justiça inseriu assuntos de intolerância religiosa nas Tabelas Processuais Unificadas por ato administrativo. A recomendação do Eixo 3 é marcador transversal de motivação de viés, aplicável a qualquer natureza de ocorrência, com valor autônomo para o antissemitismo entre outros valores, e não categoria privativa. A categoria exclusiva produziria visibilidade desigual por desenho e hierarquização entre discriminações (relatório final, 5.7 e 7.1, regra 3).'),
         ("Funil institucional", None,
          'Modelo de conversão denúncia → registro → apuração → processo, usado como referência metodológica. Serve para localizar em que etapa o caso se perde.'),
         ("Subnotificação", None,
          'Distância entre incidentes ocorridos e incidentes denunciados. Na pesquisa intracomunitária de 2025, 32,58% de quem sofreu um incidente o denunciou. Toda leitura de alta ou de queda nas séries mistura variação do fenômeno com variação da propensão a denunciar.'),
         ("Natureza do dado", None,
-         'Marca que cada número da página de indicadores carrega, para que números de origens diferentes não sejam somados: contagem de fonte comunitária, registro oficial agregado, apuração de outra jurisdição e pesquisa de percepção. A prática vem do ODIHR, que mantém dois acervos separados e nunca os junta.'),
+         'Marca que cada número da página de indicadores carrega, para que números de origens diferentes não sejam somados: contagem de fonte comunitária, registro oficial agregado, monitoramento de imprensa, pesquisa de percepção e apuração de outra jurisdição. A prática vem do ODIHR, que mantém dois acervos separados e nunca os junta.'),
         ("Grau de verificação", None,
          'Selo que declara até onde a conferência foi: conferido no acervo, quando o valor foi checado contra o documento de origem; citado, primária não consultada, quando a fonte está declarada mas a publicação não foi aberta.'),
+        ("Ausência de medida", None,
+         'Formulação de referência do achado central, em três manifestações: categoria inexistente, categoria existente que não mede e série publicada não comparável.'),
+        ("Causa de entrada", None,
+         'Ausência de categoria ou marcador no instrumento de registro. Sanável por ato administrativo.'),
+        ("Causa de saída", None,
+         'Ausência de rastreabilidade do desfecho. Em parte decorrente de limite normativo legítimo, em parte de lacuna de publicação.'),
+        ("Observabilidade indireta de desfecho", None,
+         'Aferição do destino de notícias-crime a partir da publicidade dos atos judiciais, sem acesso a processo sob sigilo.'),
+        ("Proxy", None,
+         'Categoria correlata usada como aproximação. Neonazismo, apologia ao nazismo, racismo e intolerância religiosa operam como proxies do antissemitismo, e não como medida dele.'),
+        ("Unidade de contagem", None,
+         'Objeto efetivamente contado por uma base (comunicação, manifestação, denúncia, boletim, chamado, processo, procedimento, ocorrência validada ou expressão detectada). Bases com unidades distintas não são somáveis.'),
+        ("Deduplicação", None,
+         'Regra que impede a contagem múltipla do mesmo evento ou conteúdo, em geral por identificador ou endereço.'),
+        ("Ramo de liberdade de religião ou crença", None,
+         'Ramo da árvore de violações dos microdados abertos do Disque 100 que corresponde à intolerância religiosa. Não reproduz o filtro da série oficial.'),
+        ("Marcador transversal de motivação de viés", None,
+         'Campo aplicável a qualquer natureza de ocorrência, com rol de valores de motivação, entre os quais o antissemitismo. Distingue-se da categoria privativa.'),
+        ("DP, NLP, DCI, PV", None,
+         'Estados do levantamento da Frente 2: documentado publicamente; não localizado publicamente; depende de consulta institucional; pendência de verificação.'),
         ("Lacuna", None,
          'Ausência de dado que nenhuma base preenche. Neste trabalho a lacuna é registrada como achado, e não omitida como falha: a página de indicadores mantém painel próprio com vinte delas e o motivo de cada uma.'),
     ]),
@@ -822,7 +867,7 @@ GRUPOS = [
     ]),
     ("instrumentos", "Instrumentos propostos pelo Eixo 3", [
         ("Taxonomia proposta", None,
-         'Conjunto de quinze campos para classificar uma ocorrência, sete obrigatórios e oito facultativos. É proposta, e não padrão adotado: nenhuma base pública brasileira a implementa. O detalhamento está na página de taxonomia.'),
+         'Conjunto de quinze campos para classificar uma ocorrência, oito obrigatórios e sete facultativos. É proposta, e não padrão adotado: nenhuma base pública brasileira a implementa. O detalhamento está na página de taxonomia.'),
         ("Ficha Padrão Nacional", None,
          'Conjunto mínimo de campos proposto para registro de denúncia, de modo que canais diferentes produzam dado comparável.'),
         ("Nota de fronteira", None,
@@ -906,7 +951,7 @@ GLOSSARIO = f"""<section class="wrap" id="topo" style="padding-top: clamp(44px, 
 
 <section class="wrap section" style="padding-top: clamp(24px, 3vw, 40px)">
   {_glossario_corpo()}
-  <p class="body" style="margin: clamp(34px, 4vw, 50px) 0 0; max-width: 74ch">Atualizada em {ATUALIZADO}. Sigla de órgão e denominação de entidade seguem a forma usada pela própria instituição. Onde um termo é proposta deste Eixo, e não padrão vigente, a entrada diz.</p>
+  <p class="body" style="margin: clamp(34px, 4vw, 50px) 0 0; max-width: 74ch">Atualizada em {PAG_ATUALIZADA}. Sigla de órgão e denominação de entidade seguem a forma usada pela própria instituição. Onde um termo é proposta deste Eixo, e não padrão vigente, a entrada diz.</p>
 </section>
 """
 
@@ -920,7 +965,7 @@ def main():
                "Este sitio nao coleta dado pessoal. O que fica no navegador, quais terceiros estao envolvidos e seus direitos sob a LGPD.",
                "", PRIVACIDADE),
         pagina("termos.html", "Termos de uso",
-               "Natureza do servico, limites da orientacao juridica, conteudo de terceiros, licenca e reuso.",
+               "Natureza do servico, limites da orientacao informativa, conteudo de terceiros, licenca e reuso.",
                "", TERMOS),
         pagina("metodologia.html", "Metodologia",
                "Como cada numero foi obtido, sobre que base foi calculado e o que ele nao mede.",

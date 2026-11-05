@@ -1,4 +1,4 @@
-ano,mes_numero,mes,denuncias,fonte,procedencia
+ano,mes_numero,mes,ocorrencias_validadas,fonte,procedencia
 2022,1,Janeiro,42,CONIB/FISESP/DSC — Relatório de Antissemitismo no Brasil 2024,conferido
 2022,2,Fevereiro,59,CONIB/FISESP/DSC — Relatório de Antissemitismo no Brasil 2024,conferido
 2022,3,Março,24,CONIB/FISESP/DSC — Relatório de Antissemitismo no Brasil 2024,conferido

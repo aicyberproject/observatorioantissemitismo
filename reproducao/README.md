@@ -1,6 +1,6 @@
 # Reproduza o achado: script de referência do Disque 100
 
-Este script refaz, no seu computador, os 25 totais que o relatório preliminar conjunto do Eixo 3 (versão 2.0, Anexo E, item E.11) calculou a partir dos microdados abertos do Disque 100. Ele compara cada total com o valor do relatório e diz se confere, se diverge ou se faltou informação.
+Este script refaz, no seu computador, os 25 totais que o relatório final conjunto do Eixo 3 (versão final 1.0, de 26/10/2026, Anexo E, item E.11) calculou a partir dos microdados abertos do Disque 100. Ele compara cada total com o valor do relatório e diz se confere, se diverge ou se faltou informação.
 
 Se um total não fechar, o achado correspondente está em xeque, e o relatório quer saber.
 

@@ -1,7 +1,7 @@
 # Biblioteca de referência
 
 > Observatório do Antissemitismo, Crimes de Ódio e Racismo Religioso  
-> Eixo 3 (Segurança e Monitoramento) — Iniciativa de Enfrentamento ao Antissemitismo, CDESS
+> Eixo 3 (Segurança e Monitoramento) — Iniciativa Especial de Enfrentamento ao Antissemitismo, CDESS
 
 **Atualizada em:** 2026-08-30  
 **Origem:** Pesquisa de fontes do Observatório do Antissemitismo, entregue em 30/08/2026. Endereços reconferidos por requisição HTTP na mesma data. Cada verbete foi revisto antes do registro; onde a revisão divergiu da entrega, a divergência está anotada no próprio verbete.
