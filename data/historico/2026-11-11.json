@@ -2,15 +2,75 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-11-11",
  "semana_iso": "2026-S46",
- "atualizado_em": "2026-11-11T01:48:21+00:00",
+ "atualizado_em": "2026-11-11T09:10:42+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 66,
- "no_brasil": 17,
- "no_mundo": 49,
+ "total": 75,
+ "no_brasil": 18,
+ "no_mundo": 57,
  "itens": [
+  {
+   "link": "https://jewishjournal.com/community/394107/who-are-the-jewish-winners-in-the-2026-elections/",
+   "fonte": "Jewish Journal",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-11T08:29:05+00:00",
+   "via": null,
+   "feed": "jj",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOY2R1NmRaajc4RldRaVF6SmlqeFJvWlZDRzZXLUluUjFIc0FaS3lPdzFGZGlfMHJtX2xmcWVORUdvc0dLdXVBZXNCUFhpT2JTRVpLb3R4N2tyUDJDY3ZqY3c2T3c1WFRVakRwV1F1Mkk1X0VqdDNaR0dlTXU1cERGMXM3OXNBT1ItS2djRlhSRktzQVBiOWd3YXJR?oc=5",
+   "fonte": "JNS.org",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-11T06:51:02+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQb2tKb3JobnhoRFVYaWJrY1NOd3psVlZ4b2FhaERMdTh3OE5zcWFfWkMxeGVvSTltMXhjM3M3NFBJSGFHRGREM1N0X3E5d1pqcUhNZG55RzBETmRPdkF1SE4zWXdxM1ZjVm85bllmOENsaERwcG8zYXJHcU1rVS11QV9TZk9hYVkxNm5PVjJJLUc2TGlUc2lnc0xDTi04aXJyVDRNZ25xNWtDZ1RuMlhuUUtwZlFoUGVhakJBWHNtWHJMNHF2Q1dISGJ4czR0SHVVWUtoX0JkTkliVkNnOEtCUWo2ZW5lX3FsbFJhbTR0QUNabTNGY2VpSEZhMENoRXY1RUlZb0JvYU43bFJIdVUwWEVMdWRCZ0RIamhkOGluZEMxcWhVMHprOEpBMFJQUVpzbmZXTmx6NHJYT0dVSEY2TzB3cjQ?oc=5",
+   "fonte": "Sud Ouest",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-11T06:30:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNakl6UnpIQkllM05RbEtGMk50Tk9HbFF1Y1BrYVZ6UlM0aFpBM25rR0RSWDY3b2VwQ1RyNUxHelpZY1k0RFNGdHNDSGFUT2doLTBOU181X2VnVnZGQzdKOXNXOXNDbHVfWjFiZHBRQ3lFWnlUQkhtMGNQYnZ6LUdnMUt1d0FuYTF0bUkyRnJjQlJCXzBtaFkzWmozSXlVR1laUk9fSmZ0N0RqSFMzYW9mUDQycXg4anNfRjhXMk5DRzNRZDR5RFNwOVFvaFBLWXQtQjA1V29Ray1HY1YtWlRuX19rb0pJT0JpSlpPaU5kTjlXUVZrNXdRZkVNRFp4bnNzRHBjR0dqZzFTVDlfblptSlBEem02Ul9VS0YxNzJZSW9aMS1IVHNEa25qYmw5UEdKU1Jr?oc=5",
+   "fonte": "Itón Gadol",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-11T04:35:39+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOT3paTGVfSGx5dkNVbURBWG5TUVAtU0MxRDcyUWZGZ2RnamdhVGQ0OVJ2OGpnUHB5SGpQZlF4clVZRDJsRC00MXBReklxZVdNdklZRWREeUoxWk5ZX1piVGFqYmVZZWJwa084anFVNmlBVmFaaGpidmlWN1E4WGRYUFFDZXd6YWpzeGkzbGNvN0VMazdpZl9CLU0xX1k0bGIzTndudjFlWHR5NU8xUnY0?oc=5",
+   "fonte": "The Times of Israel",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-11T03:36:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVDlyZHJYNWV4X25QY2JtSFJQTHQ4eHV5ZDJXZTk1NDZENElTU2RPQTFkQWd4Yl9yOGcyeUpKVFREUlhESWtSR3FIUXU3dkZjWVJVcXcxRmhId1ZjLTNzcVY1anBWNGYwekxXYzdPbjJXazAtRndmSzJBQWxtVElJekxJdXZSSDlFWi1fVUljRGtDd3kybXZiYWtYTjl5bGxiY0lXWVVBVnYySVVTZ2c?oc=5",
+   "fonte": "The Guardian",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-11T03:10:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://www.algemeiner.com/2026/11/10/kosher-montreal-restaurant-vandalized-wave-attacks-jewish-owned-businesses-canada/",
    "fonte": "The Algemeiner",
@@ -192,6 +252,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://combatantisemitism.org/cam-news/kill-all-jews-man-accused-of-threatening-7-year-old-jewish-girl-at-long-island-kosher-store/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-10T14:18:21+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://www.jpost.com/diaspora/antisemitism/article-914452",
    "fonte": "The Jerusalem Post — Diaspora",
    "escopo": "mundo",
@@ -259,6 +329,16 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQ1k5Q05xTUdKSm93OVhuOHNHdWNwYm5TLUhxUGd1M1Y3QlJLR05vQk9DQkFjVkJLSzFCWUwyM2Z1aEtVUHdFMnlKMDZ1bEVJWDI5My1FLXYxXzhGb2NlZjZPUjNvTGUyYWRKZGx5UzBIdERHUXY4TmdMTDJON2lVZWJ3Q1NnTmxURVBlUdIBkgFBVV95cUxNZVE1VndOS0NJMzhDbUpTWWpJakpCSVVoaXBKbGRmTGptbjhCb09DcnN5LUJLSnZvNU9LajRudHNZck1pNjFMaHNRR20ySG1xU3JYa1I5MXUzeE8zam04d3JuVEdxNlY4a0hpbE1oS2ppSkc0NmVtclo1Szh4UGZJQk1sVl9QNnlVOGl2VjM5RGFMUQ?oc=5",
+   "fonte": "ABC7 New York",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-10T00:42:56+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
@@ -438,6 +518,16 @@
    "publicado_em": "2026-11-08T21:38:09+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-racismo",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWGw1UUZEYmVGMWtiSFZJR090cHB1QXRQdlBCc0UxQThINGpVcmpWMThJSW15TGtIUktHZGhSR01JNVZqeDE3cUtLUkRDQ2NQZGp2dUFpblJzQnBpa3ZSTzM4SGctQ3Zkay1PMnlFX05kc2R0XzdhY3FQR1d1by1sOTBDN0gzdXQ1eGxSTTZTcmcxSnpQMzZpaUJEOGpmZW9JbDJ1OUZwbUVDWDFXM3FWaFQwUlpURUNYSkV0Ml91T1VZaDI1aUlPRXBHM01iMWgtUl9SUVlWM2hxQ0k0Z2NabzE2S1ozQVVFUUtieGJ3cllQX1E?oc=5",
+   "fonte": "Terra",
+   "escopo": "br",
+   "publicado_em": "2026-11-08T13:37:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
    "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
