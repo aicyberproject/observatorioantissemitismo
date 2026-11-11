@@ -2,15 +2,125 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-11-11",
  "semana_iso": "2026-S46",
- "atualizado_em": "2026-11-11T09:10:42+00:00",
+ "atualizado_em": "2026-11-11T17:49:26+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 75,
- "no_brasil": 18,
- "no_mundo": 57,
+ "total": 89,
+ "no_brasil": 19,
+ "no_mundo": 70,
  "itens": [
+  {
+   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNVm5IVHdwb3FBdjlkVVZZNXJubUg3ZlhqTWc4U2xiU1pRWW9qOGd6TnJLRmZoanM2X0U0WGdGV3pCa3huOWZqdmt3VWVrdE9pMDI4NjdiR0FENDJITWh0bE9uNElCSG9oYk1TNklYTlpWWmNhVDBrZUhtWlRHeGdjazBkLTJ2X1lZTUluajdIUk9TdDJJU3ZjTnZpQnpkSUxfcHBnUkp3X2JsZjI2YzJMZlZpTFE2c1Y3dmRwS0R3V2pGT1huNFB0ZnF6N1pvVTVCNUp6NkFtWERMT2R1X0V6TnpGTVVGb0o3N24yZUJad2lsNk93RFE?oc=5",
+   "fonte": "itongadol.com",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-11T17:36:06+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.algemeiner.com/2026/11/11/pro-palestinian-protesters-in-uk-target-performance-by-arab-jewish-ensemble-at-british-library/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-11T17:00:08+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jta.org/2026/11/11/israel/israel-approves-31-5-million-plan-to-strengthen-jewish-education-in-north-america",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-11T16:31:59+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jpost.com/diaspora/article-914595",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-11T16:15:25+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNYzBBcE5vNFRrV0dzaFFkQUlwRjJsZmVoUWVITER2c0dyUlVXSmlJRzVEQ1FpVl8wN0k4UHRoQXprNXR1Ym5QSkhtVEREREtfeERDWk02dVJaRy1ZU0R5a2J2b3ZVMTA5U0VwWmtvR0UyX2VOQl9GMjFOLTdEQm9SdG43RHlMVUlLT3ppcEYydjUtZ2tjX0ZHVF9XanB0dU9rekFVNUJrOWlEaklqZHpvYzYydlVyQ3FPZnpNRFM2MWF1SVRHMWRjOWJ4Mm5DVF9sa1dVTkR3N2JwanRhQVRSWTFYaFYxWnlwcHBxUlNGUDA?oc=5",
+   "fonte": "JNS.org",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-11T16:06:34+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jpost.com/diaspora/article-914591",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-11T15:28:55+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPLXEzWm10UFBGYlFuelI1alZUU2ZOclVTUDlWT1g0d2h3UlZaX0VaaHo0V2ZTTGMtRldJZC1sQ3JSczA2dWZnTi10LXF3VlBQQV9UQm9TdWhRcWkwR09QTGF5Tk5ZSnZCWmp4VjlfZkZIQUFzWVN4Z0Utb1p1UDFTNGRR?oc=5",
+   "fonte": "European Interest",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-11T11:56:34+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZVY3TkNLNXJWUGxpSjRuWml5OTJaNUgwRTB6al9Qb2pRekoxWkdmN1NNSGVXdDRGajlHalRPdnBYSlRfOFU1bDU4SHhoeWc4dFB6Z2VlLWVIcjlsd29sX25uajY1MjNYQ0twNzFYaFF4Q0FEOHIxem5GcDVjUkdTbGVrUnZUYks4S2lJVnp6ejVsX0NrV0VCM053?oc=5",
+   "fonte": "JNS.org",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-11T11:44:44+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://forward.com/fast-forward/862139/jewish-democratic-support-weakened-slightly-in-midterms-survey-finds/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-11T10:07:45+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE42VUhNZml3VEp4b1lOTzNZVy15dUxtRDhNOUthdmVKdjhaTlZqd3NRM0JCemVGWjV0cUFZWTNkd2l0U0tLd085QndTX0lHT0laLXIyMlNTWQ?oc=5",
+   "fonte": "The Jerusalem Post",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-11T09:51:52+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://forward.com/fast-forward/862025/museum-cancels-dutch-synagogues-tricentennial-celebration-over-israel-tensions/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-11T09:51:08+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://jewishjournal.com/community/394107/who-are-the-jewish-winners-in-the-2026-elections/",
    "fonte": "Jewish Journal",
@@ -86,6 +196,16 @@
    "fonte": "The Jerusalem Post — Diaspora",
    "escopo": "mundo",
    "publicado_em": "2026-11-10T23:55:26+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-914522",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-10T23:35:02+00:00",
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada",
@@ -512,6 +632,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBxRnNldnFQbVE3amVrY3RtZHJ1OWo2cHRkemVuY1c0SGNBYjVUQTdhX3JJcnl0RWFPUHdBZFh4Rm5YSHlNRExrTkZuQzhkYjQxNlc5cnRIT1E?oc=5",
+   "fonte": "Britannica",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-09T08:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQM003M2NUUVZMRUFSOERlZzNQV3E5QzlUX1MtTW13SFA1SDNPcjNFS2I1eDFPS3lzbXA4TGQxME12OWlrMmJ4c1lXS3dtTy11T29ReWJVaHZSc08tMWlHc2J5YW5VNERudG1WV0ZTRUlfMUEtNERnVnpEZUxEenN2Y3Qxd3ZvU1ZJMEFldWdJanJVUHpVSWo0a0JOOXgxUjNKZm84OWs5SlRiOS1CSXc4bHRiX056T0FUZXlqWEkxanh3Y1pCcFRza3lnbkp4NW8wa3ZrbEZWTHhiTTF5RWIwSDlDX0thRXZnVDF2S1BDX1FMQdIBgAJBVV95cUxPNk0wWWhaTk9Vam02YTdRbHI5U1hsd1VaMC02eUREa2hvblhiRjZkZ1NHemU2ZXBBWEE0bUd6TTJzWm5jOHlQMXpkZGgzLWc0YnUxVC1SM202blJNUjZRTWRDTkp4eWVYR2RhSXRtdW9sSHJRT0UtOXYxYk90WThQeFlSQXZBN2ItTGs3SU8yME1mM21LMEU2NHpWdEpNSFdJV2Rnd0tHcTN6aXNBUlNNbHR1cXR3bTlSd200NXgwV3pKVjV1dEhzcjJTSWRWWFZaVUdxRDVMVFg1bllqTkV3M2ZPQ3BKUlVPUTlhbHBKZEVURm5xbnlNVzV5S1pjTGpG?oc=5",
    "fonte": "G1",
    "escopo": "br",
@@ -746,6 +876,16 @@
    "fonte": "Migalhas",
    "escopo": "br",
    "publicado_em": "2026-04-06T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYnJrd3ZzcmVCWV9MXzl3YTE3SDVwbHBaZHd4eDYtbWhKVU5tQXZxQUVjcjI1Z0pzX0N2eW1yVW8xVGNmNGlxeFJQUnFMa0dWQmdZdzBPWDZFcHJWVHd3UmV1MEJsZHp5R0RCSExxSjJxS2hWdHpMOW1JQlREaE9IT2d6bno4bDVCcWpPX2FWNml5WkFyMGhfYnAwUmZYUHZTRzdoeDhvRFJPZnFSWW9TY2xld0c5dEE?oc=5",
+   "fonte": "Consultor Jurídico",
+   "escopo": "br",
+   "publicado_em": "2025-06-08T07:00:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
    "categoria": "Radar por palavras-chave",
