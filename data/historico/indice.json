@@ -1,10 +1,10 @@
 {
  "esquema": "indice-historico/1",
- "atualizado_em": "2026-11-10T21:44:35+00:00",
+ "atualizado_em": "2026-11-11T01:48:21+00:00",
  "aviso": "Contagem de manchetes agregadas por dia, nao de incidentes. Mede cobertura de imprensa e alcance das fontes monitoradas, nao incidencia do fenomeno.",
  "primeiro_dia": "2026-09-03",
- "ultimo_dia": "2026-11-10",
- "dias_com_registro": 69,
+ "ultimo_dia": "2026-11-11",
+ "dias_com_registro": 70,
  "dias": [
   {
    "dia": "2026-09-03",
@@ -626,6 +626,15 @@
    "no_mundo": 77,
    "fontes_com_falha": 1,
    "arquivo": "2026-11-10.json"
+  },
+  {
+   "dia": "2026-11-11",
+   "semana_iso": "2026-S46",
+   "total": 66,
+   "no_brasil": 17,
+   "no_mundo": 49,
+   "fontes_com_falha": 1,
+   "arquivo": "2026-11-11.json"
   }
  ],
  "semanas": [
@@ -721,12 +730,12 @@
   },
   {
    "semana_iso": "2026-S46",
-   "dias": 2,
-   "total": 214,
-   "no_brasil": 46,
-   "no_mundo": 168,
+   "dias": 3,
+   "total": 280,
+   "no_brasil": 63,
+   "no_mundo": 217,
    "primeiro_dia": "2026-11-09",
-   "ultimo_dia": "2026-11-10"
+   "ultimo_dia": "2026-11-11"
   }
  ]
 }
