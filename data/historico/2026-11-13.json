@@ -2,15 +2,95 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-11-13",
  "semana_iso": "2026-S46",
- "atualizado_em": "2026-11-13T17:36:53+00:00",
+ "atualizado_em": "2026-11-13T23:26:48+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 94,
+ "total": 105,
  "no_brasil": 21,
- "no_mundo": 73,
+ "no_mundo": 84,
  "itens": [
+  {
+   "link": "https://www.jta.org/2026/11/13/ny/ezra-klein-asks-hasan-piker-about-comparing-liberal-zionists-with-nazis",
+   "fonte": "Jewish Telegraphic Agency",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-13T22:00:00+00:00",
+   "via": null,
+   "feed": "jta",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQRVRzUXFHZHdqbFZUdXY5U3RoelJfOFZfTUNsRGFpcFNVR0VobUhHek9ncXZacFo0NGhld3U5QjBiUW42Z0ZIQzRORkVsa3NMdzNRZm5vRnRTcFdWRHVsQmE3NFRSbktfWGNEQmM2S1NzbzF5VUQxVGZhOEx6NUlBY0F6TVpEemdfR0o2ZUJ3cjBmWlBQRXZJUXplN1ZnN1ZvblpkR3lCdndRTmdsNTVHLUM3NW9PQlpZVkxtbV9UYVhRbG5saDZNWmVoTk1HenpQUy1odTVBVlFQWng0Rmt3TnByWW1GZWtXQWkydVpCaTRlb3REX3c?oc=5",
+   "fonte": "Itón Gadol",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-13T21:28:03+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.algemeiner.com/2026/11/13/eu-moves-to-review-israel-agreement-after-1-1-million-sign-petition-adding-to-push-to-isolate-jewish-state/",
+   "fonte": "The Algemeiner",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-13T21:03:45+00:00",
+   "via": null,
+   "feed": "alge",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5sU3kwM2dXMHZFVWp1LVkzRFJCZnZac1FBRlRlaGNvMTVGRVlEUUpIWW5tc3VWRVdLcHQwV0VHZUROTVF4RERVM1VhVy0yTlRRMk5nMWhaYWdZYzg?oc=5",
+   "fonte": "Moment Magazine",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-13T20:42:43+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBLQmV5UHpWWFRnVEc2QjlNV2E2ZXB5SUtQYi1xOWpZZ0lPam5oZjJrWGRfaGtmX3JCSVNCZDlpcFpiZVFyN1BJazUxRDhNUzNmajVxcGoxa3QtM0NSVkM1SnRlN3hKOVhLbEUxQ1o2anZZdHFDYTYtVk1B?oc=5",
+   "fonte": "WSJ",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-13T19:14:19+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPc1VYd3MtWXlzNUY5QUszZHR5bm5YSEQ0TWYtVk5SSjJvSVUyTE9UeVpOc09saXFfRHk4ZF9rMjBSak1YZ1NxcUtkZEpNZnRGUHJjRGgtbFJKSVlxX09XRmRHbDdYUkRNcjk0NlVTV1ZFOXJBLTZ4ZmJ6c01ZakFuTTdTSmlLZFJEUWx6QnRXTUpYd1NxakVzaXRBRWRtZEZKRlltc2UyOWtpckt2bXRXT0xzaVJaLUNBMEdmRFFGaw?oc=5",
+   "fonte": "Itón Gadol",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-13T18:43:30+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONk9pbURMZnF3c1lkSGlKMlNTeTBpYVhfN0tfOUhJX1U3TnFyOWNhX0h0YktFWnR0aHBkc3NPNFZPeXd2WXRvZlh4dmloVjhtWDc5ZlJiYUs5OVh4QkNqellZTlpKOW53UjB0bWlCWW92TXFjZWxlYk5HdDRqWkFhaVlxWHlDZmhmUWttaEk0bUxzS2pfeUlGNTJPZ3g2QXMtQ05aOEV2T1pEMWFiZXlpZXU5Zw?oc=5",
+   "fonte": "The New Yorker",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-13T18:03:35+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ZSkd0TFVQQkNkQXpoSm1LMjhJR05udXdkLUJwVWlZcVg0ZWZJYmNhbkZBZmVCOFpTSjdxallCYWEwUDZpT29HcG5LSjNPQmpDakNDdk4tLXA2c3FTbFQyZDRNSFNuMFBtdDItZE04bTBGWnZINzJR?oc=5",
+   "fonte": "American Center for Law and Justice",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-13T17:33:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://www.jta.org/2026/11/13/culture/rock-legend-steven-van-zandts-new-gig-holocaust-education",
    "fonte": "Jewish Telegraphic Agency",
@@ -156,6 +236,16 @@
    "fonte": "Télérama",
    "escopo": "mundo",
    "publicado_em": "2026-11-13T05:30:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBHT2E5dm9fcVRhaEktLVJJYnpEWHhEamxvZzhmLUtURjNaM25fVkx3bndrRHRSVndJdkp5S19PRFYyWGxqZzliUTVGVUdrMEJWZnJ4N3ZXdzF3MFFYckE5TzR5dkZKdw?oc=5",
+   "fonte": "Orient XXI",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-13T05:01:09+00:00",
    "via": "Google Notícias",
    "feed": "radar-fr",
    "categoria": "Radar por palavras-chave",
@@ -482,6 +572,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxORDRQZDkySzQ0enpwQWlwaXpmaUdGNDMxQl9LSDdYSlhfSHJ5U09kbFVDaXQweDBDV0xHYXUyRVpXN21WY3V4NmJta25NbzdVTkc0TnRBWW9mX0dGcjZWMjZJWG1pTmJuMGFuc0dMRWZSY0hiX0NpdHVNaXdBM3JEdjNwUVJQTk9BZzdPWDdWV2RwZnZDX3hIUWNRMl9DVDVrODN2NGxUd0dzQ1NGYUZfa3pIbWJrQ09GSUtWSHhLTG1sZGZxQXpZX3QyQ2FoTUpITTVsOVBsUTRFb1llYzRuVVpjbTEydw?oc=5",
+   "fonte": "Le Figaro",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-12T11:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://forward.com/fast-forward/862364/non-jews-who-follow-jewish-law-gather-in-israel-for-first-international-noahide-congress/",
    "fonte": "The Forward",
    "escopo": "mundo",
@@ -499,6 +599,16 @@
    "via": "Google Notícias",
    "feed": "radar-fr",
    "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://forward.com/fast-forward/862373/conservative-jewish-groups-hail-stephen-millers-appointment-to-white-house-chief-of-staff/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-12T09:32:52+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
