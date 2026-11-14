@@ -2,15 +2,45 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-11-14",
  "semana_iso": "2026-S46",
- "atualizado_em": "2026-11-14T19:00:03+00:00",
+ "atualizado_em": "2026-11-14T23:48:00+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 81,
- "no_brasil": 19,
- "no_mundo": 62,
+ "total": 89,
+ "no_brasil": 21,
+ "no_mundo": 68,
  "itens": [
+  {
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNY29Yb0lxcnV2U1ZuOHExRHBGOGkwYXl1RlJySFZsSzJDYnctSnYtdmd0aWc1WkduRFRYaHhqQllqb2pDdWQ1TWU5TTllVkFEQ09YakhKWUc3RUJTOFVCUDlDT0JKejRHaWVFbGE5OU9JM1NSMVVHRWc1bkxzd2RyeGhOMGdaUmpFVXYySlZXTTFKS0U3bUpJVmtyd1RRaFdHRzhWeUNhUGZmOVYxaFhNMWpPQ1RFQQ?oc=5",
+   "fonte": "Programme TV Ouest-France",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-14T23:03:09+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-914673",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-14T22:07:24+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPc3d0c0xQUHVPa2hoQy1Ba1g4U3N5OFdOcUVsdWQ4LXU1Slk1bE9EaDNXSG1qQWg1SzlrX2szMUhDcGo5SEx0YXhXTmNUSm0yaTFXcGJCN21qa3VqdnhPU19aSl9xRmliSjU1eVQwdnJtNDFkdGpjUFhHMmtEN1dwcERISGNiMmNfSG1QQTlESDVSMGlJZ05NYnMxcVRYTzV5cTB4Qi0ydmEtN2Fzb05tUkRIQzgwaVFYVHlfWFplUC1pYUlpb0VqUlM3bWZ2NGJWQ08xN3V1ZFUxWG5sMzFjLUdaRXVubW1Yc2kw0gHwAUFVX3lxTE5lbU1SdFJteGRRdTdTLUxjRnhmUWRPeENmem9lTVpRMkc3UW92dWxLSnU5WDJ3Z0ZiRElQODY1bVZlaURGWU1rQkNDbGh3Y3dlMXpIejFDTl9yVnY0R3VIUG5YaldXUkJQQ0Y4YVZRdWtvZFJrcFhTWFIwNHVWeHlJTTloN0pEMkd3eGdLczdjZHZRazdzMWgwRGhRWkNad2JRbEJWRGZ0dnMtcnJnWDcxd1BsTGcyTHJia2dUcEFsTjBoRk51WUFQdERvQTFsMnk1OVlXbG1PUTVVS2JVWExTRTNLYkwwa09jeWFXRWM0MQ?oc=5",
+   "fonte": "Enlace Judío",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-14T19:38:56+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://www.jpost.com/diaspora/antisemitism/article-914763",
    "fonte": "The Jerusalem Post — Diaspora",
@@ -216,6 +246,16 @@
    "fonte": "TV Magazine",
    "escopo": "mundo",
    "publicado_em": "2026-11-13T16:28:19+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNenZlWVBGR3NWaDRyQlhObVBTVzM5Q3hmV1hwcW5CR3gwT0tCbnhhZGhGREVWTjllM1pvdFBRWHNhcnA1eVpNYWNFN3Z6QWxPRWN3MzhwbUY0M3RqTlc4MTBNUC03aHNFd2x1bHNFb0V1VE9pRk1sMnFlWjhULVpHU3NHX2xIZlVFdUVlU1dDUEhlbzhEXzVTc2I1N1Z1NjE4Um9IUnp2TkZ5a0dKSEhZeFR1VzFsWkRoandtLWNTaXVVUEpvSlJyUHRqR0lIR2dXVzB0QmQxTnR5NllrVEJuQ0hFdm8xWnVxOHFGNEdhbHpWSzM3ZEtQMDk1QVNTS01rMXdaWFE2UVVpNGs?oc=5",
+   "fonte": "ici.fr",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-13T15:43:57+00:00",
    "via": "Google Notícias",
    "feed": "radar-fr",
    "categoria": "Radar por palavras-chave",
@@ -722,6 +762,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSzBrZUNpeV9qN1lseUg0azVBb2FVTjA0eWVJRmdYWHFjYTh0ZFFWNVVRRzJNU1dCdVA1aXIxY1M1VWNOUFoyY0RQQTZPZmRaeHZPY0xIMjVMaU9TREo2dVk1bExSMzgtcGQ3Tk5PcTBYeW1IbUpQMDY3b2JXMkFtZ3hTRUp3VExyaWxj?oc=5",
+   "fonte": "The New York Times",
+   "escopo": "mundo",
+   "publicado_em": "2026-10-09T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUlAxaFBFdXhUUFFvZEM3SUxDdk0xaTAxaG54YmFROEFlZkh0NU9GaVYybVI0dzA5aU1oNkxoblBrNm5rTUlCMHF0TVh0S0xCQWMxUE1peElLMy1mLVVPNVpHT1B0dndUeVBJV1A4SGZCbW5JSTdXNU9aajNuWjlUNF9OUkxsTVp0azAxSGhRM1BGSzRxM1QtZVJ6aTZVTWZCY045eVRkZno1T1duTnhKNHBWN0x3WHo2SGZ5c3RlV1habkJfb3FtbzZuTHhGVS0wOVE?oc=5",
    "fonte": "Alô Alô Bahia",
    "escopo": "br",
@@ -802,6 +852,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONWl6UHJadTRJWml6YWlpcS1XNWFnVDBGdkpUMkxUM29sY2prdUE1RXhja0I1dVRYdE52UUN0RFRTeGMyeDJScFFtRS1YX3lMZkRxX05iQVJxSXVQLVpzbGtSNzhqQnlUMFUtdkdJWUNFZERqck52ekthQ3d1TEtQRkk5ZEpmZXZxejAyUjFZTGhYLU9kMUFaVkZHR0tfeDJLOU04Y2NiajVjVEotazJLQ1BwaWRUdVNqemxJ?oc=5",
+   "fonte": "House.gov",
+   "escopo": "mundo",
+   "publicado_em": "2026-06-15T07:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTktaT3ZFdVRGMXlicVNybzZIMnlnZXI3cGJyeHplQ0xHYjF0N3ZrNkN1cnQ1YjBFVGNOMlR6S0l1OEdRSnhCYnNiWTRsVndtaTkzUzEtOEhFc1k5a3AzdGhWM2lQQUMyZ05LZThsb0pJOVI0VWx3VUpVeENGeS1FRUpZdy14QjU1TGpTdGpTSmRCbnhSWUFRQnlkeUFJSXFEOWd1ZzRVYzFzT0QtdjlRSw?oc=5",
    "fonte": "Migalhas",
    "escopo": "br",
@@ -816,6 +876,26 @@
    "fonte": "STF",
    "escopo": "br",
    "publicado_em": "2025-01-21T08:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWkNPcG5fQnpFWDJ2Vlg0UTdiV0x4d2tDbldwMzROWXNtMXRlMnM1X0NlWFdWamZ4dm4xVGhJQmxRQi1rdHFVTnJuYkdSYWU3S0toVzQ4aXpyOXlKMkJuYlIwckZPSjNrLVd6a0RYOEkxblB0WF9uZmd0UFNGYXFMLVhoQWNvT0JFcy0tSnJCNTFteWJSRTJV?oc=5",
+   "fonte": "Consultor Jurídico",
+   "escopo": "br",
+   "publicado_em": "2025-01-21T08:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNY1dmZjFiNzZ5ejZ4cTFuc2RmTTVjaU1kZF9mVExzZFR3NlpYb1FJQ0lkOFF5T0QyRVJKV1YxWjl2MkplZF8tZk1yYjNaa2RwUjlGTnNQcldFWkFNWDh1dFk3clZaX1liU1hpQjJsRGRjaHhzamh1TGY1V0Z3ZGxPb19ha2pyel9uS3lISWFhUEJBOVNndW9JNmtVdkIzYjRnTFBQcElfcWdCVkNKWHJNWg?oc=5",
+   "fonte": "stf noticias",
+   "escopo": "br",
+   "publicado_em": "2024-12-08T14:01:53+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
    "categoria": "Radar por palavras-chave",
