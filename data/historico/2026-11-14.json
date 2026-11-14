@@ -2,15 +2,65 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-11-14",
  "semana_iso": "2026-S46",
- "atualizado_em": "2026-11-14T05:58:10+00:00",
+ "atualizado_em": "2026-11-14T13:23:39+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
   "The Times of Israel: HTTPError"
  ],
- "total": 70,
+ "total": 77,
  "no_brasil": 17,
- "no_mundo": 53,
+ "no_mundo": 60,
  "itens": [
+  {
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ram1GUHQ3TDhnS3Nrb3ZDTm5tOHlXUzVoN3hOQVJ4QjB1bk9kZjh3eE9TSno4enFfX0N3S2YwM3A3OGw3MC1ZZjJETVpJVDJPTFRNSA?oc=5",
+   "fonte": "Periódico La República (Costa Rica)",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-14T13:00:26+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-914855",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-14T12:01:42+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQb2hxSlpMQmtKWU1EMGlfRWMyVE91LUhvbllEUXdnZ3hGRGFROWdZZHBFOUtqUHR4ZU5iVTRQWHJtbmRUcWV5OTEwUlRvNU50MmQtVmgzNU05dHRJSXpDVDVhVzB2S1lXOGNtdmZ5MUxxZUVoaVJFRmFuZXdJX0EzSXY5WkZhc0dxazV0d0FHRjlreG5QeE1lWU1XU3JjTlRBNGtLNU5OTTNOeVB1dEJjaTlZbG8yX2FmeC05Y0EtemwtSnNreHRHbFM3NS1OcmFVc2ktNlAyZ2duSWlqb21wdVlPVWgxMk4xTERqekl2QnV4dw?oc=5",
+   "fonte": "Itón Gadol",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-14T11:42:51+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRzVYelBrNXdBZWs0c0hDcjByZ1B4WEI1ZDh5em5ZaWVpVnltN3ZuUFNqWF9RUnBacmpZVmM1Zm51TlVFOFdpRVV1VEoyU2xHNHRqNnV4QlFMUmVpQVdzZHZxZW5HQ3N2OHYzdG5fRldWLU83cTVHY2VuelEyMU94OE9fcllsaUNQOVo3VmpzYm13aEVvbTdwZjA2YlpWc0JKbmtZSnpkRzgzaVJlOUZfUTcxMjZIRGZBc3ZiSDFB?oc=5",
+   "fonte": "Le Club de Mediapart",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-14T11:23:17+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZGlaNVFmOVJwNEFIVExSMWFQYzVLanhIQnkwT2x5cVRhQUd1b1NtMGluZll2RzM4S3l4ZjdWSm9PVnc5ZEI4V0w3MmJOOE1SS19CLV92ZThTaUdmQVhKdmdPYk9tcjhJV2YxZFVwOVZYZnlDSFFoVkhiSHNIWjRZV1IwdVl1WlJJQ1VuNUpjQXJBVTh2eXBHeDNkUTRibDVUM0t3RktweTNPUkd6T0pr0gG0AUFVX3lxTFB3SWgxb1U3LXJnaDl6SDhycnBzeEszenNqd0EyLUVJYTgxQXo0bU5mSU85dkFkVFNHMUllbDE4RVlMbnNjbjBLREdOeGZzMTFLSkt0Z3dlU1AzYkxTb2pjVUtMNUtMN2htc3IxZlFlSDRqZkMweFBpdGstRDVuM1JMS2ExVWdlQlhMZWNFODd4SmZRaFpzaUJ3VmtvcWNSR2lXdXFpV2dhTzlUdllQZXpGQXpkag?oc=5",
+   "fonte": "The Times of Israel",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-14T09:53:42+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdHBsZHg2b1c0V1VxYTNad1NWdTNXenRzOWJqZm9xNVZ5SURYUGstanJ6WUprVjlWbHBaS19oZm9MLWYyNTBuendXUVo1Y3JkVDZ5d0FqemNoU3Q5M2tIaHU3azV2LVRLZ09ZaDh5N01tSjlhdk9MdE0yU3JRNXVVX2tQV0NXaFkwOFE2YWNPX05yUTBWbFZsYnFoWGM1QTlfMTNtdzhXLUF0amhQUVNtWW4zakhTR3ZVWTJTZUtPbDBqU0tMWkxkONIBzgFBVV95cUxQS00zMDlQOUdNQ1ZCZmx4UF9Ic1lrS0hBMFdSZ0VrWjViOEI4amw2cHRUZEtIdHlnREg0bjdqTGY4b0tiMVJSenB3VmpJMXlDM0laTGZ3Y0ZzRnFLaWFZVjdhNVdzRlJMeHh5RURvUmx6amJYNlUtVEw2LXc1TDM4TlF3QmRlbXJvYVhvbkxlVk5VWmI3NDAwOWt2dDhJRXNfVGhldFpSTmw0OU5YTnlOS0FWZ3RMaWNyTERQMFFQbVFLUGJ1ZnZ0UDRxOU1qUQ?oc=5",
    "fonte": "La Vanguardia",
@@ -128,6 +178,16 @@
    "publicado_em": "2026-11-13T17:33:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-en-leis",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxON3N2dUxCdTZDUkVDM1I1YVR4SkZqSWhpbXZ6MVFuUnM5SklnTXBKd0ZQdVhtb0NIZWVqd0lUSGtycllNX2pMOHVUcFJJclpReXVNWHRFS1dfb0syenp0a0lEdmQwY2Z0ZGtKZ3lzamUwcWV3dWJwNjY2UUZtbjAxS3Z5UVlJT0hJVG8wemJVZms2SFZSVVRKRE0td25pUXZiVUxwMGpYbVhOb0Z2ZUdCQl82OV9SalBqQlVNb2FpM3EtemhqMWJRajBsQVZ2d1dSejhEYmxWS0lFd0pwaXBpdFJlbVRJRjBHRXAyUVNPWHZRbDJiaURvbEw4VHZkQQ?oc=5",
+   "fonte": "TV Magazine",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-13T16:28:19+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
    "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
@@ -418,6 +478,16 @@
    "publicado_em": "2026-11-11T18:47:00+00:00",
    "via": "Google Notícias",
    "feed": "radar-br",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOXJ0OXdKMno5Zk55VGxKQ1d2WG9hNFJJa1Y2WWlYckJUTmhVdFJSRzFWN0cxWHU1QXpva3p1ZnpvMjBLTHA4U1YwNDBfVWNPZWJkYU1jazVIZy1CbU1zS1d5X3BFblJ3SjNYZ2w2R1pwYkUySkpKYlp3Z2tVTGFZeXdBMGQ0WTZCS2RUS2FfRVBwRWpBR0YzcVJpd3E1ODNmS183MTJtdkhOUXpp?oc=5",
+   "fonte": "Congressman Thomas Suozzi | (.gov)",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-11T18:00:16+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
    "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
