@@ -2,15 +2,82 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-11-16",
  "semana_iso": "2026-S47",
- "atualizado_em": "2026-11-16T09:23:48+00:00",
+ "atualizado_em": "2026-11-16T20:14:28+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
-  "The Times of Israel: HTTPError"
+  "The Times of Israel: HTTPError",
+  "Radar Brasil — Antissemitismo: HTTPError",
+  "Radar Brasil — Racismo religioso e crimes de ódio: HTTPError",
+  "Radar Brasil — Judiciário e persecução penal: HTTPError",
+  "Radar Global — Antisemitism: HTTPError",
+  "Radar Global — Leis, processos e prisões: HTTPError",
+  "Radar Iberoamérica — Antisemitismo: HTTPError",
+  "Radar Europa — Antisémitisme: HTTPError"
  ],
- "total": 89,
+ "total": 96,
  "no_brasil": 24,
- "no_mundo": 65,
+ "no_mundo": 72,
  "itens": [
+  {
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-915085",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-16T19:31:52+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://forward.com/culture/film-tv/863080/stanley-kubrick-jewish-director-criterion-boxset-lolita-clockwork-strangelove/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-16T18:53:15+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-915080",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-16T18:46:36+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://forward.com/culture/863116/american-doctor-documentary-watermelon-pictures-perlmutter-abu-shaira/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-16T17:57:27+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-915045",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-16T13:31:27+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://forward.com/news/862969/jackson-beth-israel-synagogue-arson-rebuilding/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-16T10:47:06+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://www.jpost.com/diaspora/antisemitism/article-915031",
    "fonte": "The Jerusalem Post — Diaspora",
@@ -19,6 +86,16 @@
    "via": null,
    "feed": "jpost",
    "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://combatantisemitism.org/government-and-policy/australias-councils-must-not-be-bullied-out-of-fighting-antisemitism/",
+   "fonte": "Combat Antisemitism Movement",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-16T09:27:09+00:00",
+   "via": null,
+   "feed": "cam",
+   "categoria": "Observatórios e entidades",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
