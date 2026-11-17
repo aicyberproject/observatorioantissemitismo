@@ -2,16 +2,135 @@
  "esquema": "instantaneo-diario/1",
  "dia": "2026-11-17",
  "semana_iso": "2026-S47",
- "atualizado_em": "2026-11-17T04:24:14+00:00",
+ "atualizado_em": "2026-11-17T15:50:45+00:00",
  "fontes_consultadas": 21,
  "fontes_com_falha": [
-  "The Times of Israel: HTTPError",
-  "Radar Europa — Antisémitisme: HTTPError"
+  "The Times of Israel: HTTPError"
  ],
- "total": 65,
- "no_brasil": 17,
- "no_mundo": 48,
+ "total": 82,
+ "no_brasil": 19,
+ "no_mundo": 63,
  "itens": [
+  {
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPZVhFTGNxX1hJN3dQc0s2SjBpMDNFcDlHalB4WmI2alNrV0NFVFBiQUF3WmFENE1jak1DX3BaZVY2Tk1neUlTRUk5RW1oZ1NnUnhKSnBoNGxuWVVlRndqeVdJdW5CdTJLZWRRMk9tcGxBT3RSYUdlcWhETFhYaWZLUVVrTDhyRWVkQUl3RmFtUHl3aG9xNTZLOFZaN2Q4b2U4MzlHRktBcVBOMEJtTHFycUh4S3NuOWh1dXZsVUZMTlNNMW9HOHFJWFUtbEhrb2VhOGl1UERfQWlQTTIyTkHSAeYBQVVfeXFMUEgwQ0NFWUIyV2t4eW9vdURfdlhxMFJwd0JZd0d1aV8zNFBiOFUwNXVHUzM5TDdyY3lKU0x5c0k5TDVqUTd2azJRaGhZaG1lZ0Y2OGljcDBldkxiRm93TmhZcFVENm91VXlMY3JmM1J2ZFdxUzFzbEpybFR4X0NjNmNhUmNjVXc4enZiVWlScUdzOEZXQW9BNTNBRE5tYnFXd0taTDdJR1Uwam55ZjhoZExpNVdMMkkydnN3cmZZTUhFVUVqeHN5TVJkWnpfbXhwTzJIdEFDdXkyTkZSS3FfdnhyUV9lX0E?oc=5",
+   "fonte": "Diario Río Negro",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-17T14:42:14+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQW52endJV1JVM01XVk5adUVLMERPSHJGU1pnQU9ZcmJib2xuV1dLQktYOGt6cmUtb2planJ3c1QtUVhEZEhmRFV3dDB4dnZfUmI4a1FyVmZfT0ZJQkxmWVhvNndYT3J5bUhnbmhielZkbUxkcG1XSFdwSzlreVZ4ajExRTRBRnktTUdkV1pGUFJvX204ZkJseUplUFNJVnhwZTBXTVNtbkhwOHNVdVFSZ3VkRll0MndSYmNlV0lPcTZTNHd5STFDbjF1M1FXZU9hMjdlcEJDYmRwT2Ft?oc=5",
+   "fonte": "L'Humanité",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-17T14:05:15+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYTVxeklNTVhuamlqLTBtLVE4b01SUnpiQ1E1X2xIZGZ3anpKYThNdDd2MGxpUzVGbE11eVNSYlJET0oyeno1Z1lsaVoybk5QLVV6ZFNQZnRjb0o3aUU5Z250bXpZQWllQUxNWm5QUDhwbk04eTV3UWN4elRsV0NjTzFtdHVNTWp3UTA2RzNad255eHZ0Smx4RVo3a3FHQQ?oc=5",
+   "fonte": "Audacy",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-17T14:02:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZ3dXd2RSdnlBN3dvaTNEekJxOXR4SDJCOEhVUVljUDc0bTRxU2Y0LUpKRTN0UlFaOFZFcHNGRWlIMVo4M1FMeVQ5UV9ZZVlubzRBbEhobmN4Ym8yVEFNaTJtVkNUVERxeUNyU1FxbFBJaVc5Q3FZejM1eS16anZTaQ?oc=5",
+   "fonte": "Fato Paulista",
+   "escopo": "br",
+   "publicado_em": "2026-11-17T12:32:51+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcU5hd1ZtR00xWldxdkI4WVVFc3F4RWYzdS0wWUtKeVJ0VEdab2RLRHJIRGdmRlhBSVZZV0t4aVNXV0Z4NlcxaE9oMkY3VzVlMHBaMVM3MGExUnFaSnlZUWFkMXdvdHRlRFA1MXVtczgwWEJTT2ZhTUJJNDc4VUVLYlUzdE5IRFdLXzJOUERfWGJTS0Q1NHdsZGI1ZGZUY3pvSzZMZ2lXTUZHbnBkYUVmeS1SRm9fQU9PSlg5dEVqS00xNG5BbDl3ckV4R1Y5cW5DQVE?oc=5",
+   "fonte": "Le Figaro",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-17T12:08:29+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://forward.com/news/863236/hunter-college-hillel-event-canceled/",
+   "fonte": "The Forward",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-17T11:17:17+00:00",
+   "via": null,
+   "feed": "fwd",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-915148",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-17T11:07:33+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQU0pwb1U2ZDdxdEwwZWtibHYxWmpPaTFma2FHSGl1VzUtS29lQlMyTkpzZUJMcjZmNnBvS3kxcXMyQm95YnBHR2dyUklFSjBpb01CNTB2VnJNckpRUXVoSU1NckVIeUJwcjcwei1pU2hMR3RtS1FVRWdhVm1zaUVET3M1bTU3WE5sUDA4MUNB?oc=5",
+   "fonte": "JNS.org",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-17T10:35:54+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOakF0VVFmY1dEQnlMYVNMdzJyLTRzRmtlY01raXpHc2Zka1pIb3oycnR0c09UdmFtUW9UcTQ5dV9GSjhMU3g3ZE9YdWxOTVdIRWZFT1U2SmtndV93Yl83NmdjVmN3MTlINlZQTmlrNjl1bUpFNXBzTkhyQkg1eGZRRGhnYjFVWENpbVc1SmFGb1pjMXhEV05xVlppbVlJVG5XVlBvU1ZpXzN6WVRjZkNhVl90Szd3M29HTnJpVDBSaTl2a2xZcFpfOVFVN3M2NWM?oc=5",
+   "fonte": "www.francetelevisions.fr",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-17T08:12:41+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRGQ5cVF0cTR1cER6aWZUTDV6TXduUDVjR2loMkY1NHF1MlVsM1lvang4MWN2aEhac25sd1NCaC1ULVVraWc1MWw3Wk80LUhvRkVSLUtMUklpQjdvNEZOYmVQS1BTOTJVSDhVT1BDaUMxM0dUYVo5WVVxdHNqaE5Tc2FTdzVzSWliSDdnZWJGYjV1VjVUc2Noa0JLcTVYSXpRVkNQdDVyVnN4akcxZ2lYMmR4VWhTWmI4eExCTzRxcVo?oc=5",
+   "fonte": "HolaSalta Noticias",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-17T07:19:25+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://www.jpost.com/diaspora/antisemitism/article-915123",
+   "fonte": "The Jerusalem Post — Diaspora",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-17T06:52:04+00:00",
+   "via": null,
+   "feed": "jpost",
+   "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOeTg4VnFPSmlVMmxaVGZRUDRqZ2FwNk9qV1EwendKS0lJSEZUOGRkYmdSSk5LNmtaS3c3OHZPMUltRFJzbVBTZGYxWmEta1NKS1pIVjl6bTUxVVpJMUhncEFQMnpTRzNESE11VDdjeTFjUnh1RHFma3R0aXdVRnRHRnF0WlREQnBmS2oxaENDTXljZFZ5djV4Q04zSURWM0lqNVFWcUduam1JZkEzUmxzLUtNVFJuQWpWNS1IVUxvOXVnTzZuYTdWNng4R19naGlmOVhYOEdRS09rc0MycVo3N3RKLXo1QzBCaUdnTmppN2xDdEJC0gGPAkFVX3lxTFBjb0ZwNUZtckoxQTFPSjJYb0p6SGhVRU5PdGtacl9PNEg2aUdqUkM5WWxxVTRxaTE5MUhzejFGVi0tT01sQmZBNkRNRy16TnhhaDFBblI3NE5qWWpqd0VKWHpDU0h6TFFtVDVPV3h1V3FseFBVYTdQUFJ4ZUlFQnVENW1DR2ppUVJ6ZDUyS09IQUpYS3BoNktiQTN5cW1QY2VFWjFaNzAwMEtuZXdyclR1X2x3ZFR2VTROZHRZbXFxNkY3U2kxeWxkdzRCNEFzaVhHS2pJZWE4WXFScjctLUFUbFdtTnByVzBJZGFHNmtYbnNEUGRsajFJZGF4WVl1Q0MwSllWY0ttcmlXa0tKWTg?oc=5",
+   "fonte": "Infobae",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-17T06:22:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-es",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
   {
    "link": "https://www.algemeiner.com/2026/11/16/angela-merkel-defends-israels-war-hamas-pushes-back-efforts-isolate-jewish-state/",
    "fonte": "The Algemeiner",
@@ -203,6 +322,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcm5OcGxHQkhzdHgwTkpUMzFNWTFpbHNTeUVQenZ6RTh6SE0xU21WLV9KSDRvWkRQNGRBb0EtcnJlTUhIeWpNWFBlTjhzNm9jODc0eDZidkI2WUVIeDV5QXdqVFRPc21ZQ19aMHFnMzEyOUlLTGljbk9veUJuMk5UUTVvVVJET3lQRnBZMFE4ZG5oMTVoLUVnYnoyUmpTblIwNW15akNJMW1GeXN3Sm1EWDRYdGItcnlCNVVGU0wwWUdPazZscVBWZmFpSUwxclFFYWJBYVBsUQ?oc=5",
+   "fonte": "franceinfo",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-16T14:33:47+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://www.jpost.com/diaspora/antisemitism/article-915045",
    "fonte": "The Jerusalem Post — Diaspora",
    "escopo": "mundo",
@@ -363,6 +492,16 @@
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
+   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPTjlGVmFkY0lVMXRyQzBiQzVzOVl0ckFfd3lQUERDelk1dXJiY1E1UHVRa193aHJWVThFM2VxSlZscTloaGVZZlgwWmRQUjN5dUdDV1hoY1NRelFVODFfVDBjYXNJc09XdVIzZFRDU290Zlh1NzlYYjYtSHVIV1BzMXItZ19ORkN1OTBGQktPUU1Pd3l4YnQ2bWRLSzk5OXNnSXVkRzhxLXlfTEFxZ1A1T0xwSFZyLTRrN0t4TUpnWkVjUjVFYl80ME5nYjBub1RqNC1jLUJvMlgxazZZVlh6eFNGWlhDRy1WdGQ3bWtMSGNLYjRxUEJxUQ?oc=5",
+   "fonte": "La Tribune",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-15T06:30:02+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUElRNEJzaFhaN20wN3dUV3p5cU5YRWRjSUdfMVZ0YTVnNHVQSkEtMU9VOURBWHdGTFYwVlpfQ1pZT1RhdlEwVkdRWlV0SDk3WmEwSlFQbDQ1Wi1CNHpjZXB6ZmI2bFk2Y3pNcklDS0VFbGZuUVp6SzBPQXJ2STI1RTBrVVh4R0tqRXMzQnVHQ1dlS0dValhUM3c4M3lONm5sM0JUaFBGZ0ZVMnRnbHB3Mkpsc3hCakJmXzAwUE9aZWFCcmk4N05vbThhaDVBUGMwMmFZ0gHuAUFVX3lxTFAwUVRLZ2I0REJ1VjhvVU9uZ2Vrd1k2N05KRnhSV1RScVp2OElmSUExeFdNcWFPX1BGc3I0ZFVDTkhQM1N1alFiSHZpdm5PY3RTWDA0V19tUEREM1RXX1ZTdkNPZS1VWllxelRGcVpvWFJ0V21ONjRSalcxRzBmdnliSUdHVWR3N3p5NlpfZEdpbFI3NVRYd1lKUFJ2VExhU0JvR0RYNWhRT3hlYmkwal8zSDF2bmtzNU0xZ3I4TzZQa3kwaWdEQTQxZmo0V3VrYmRiUFFtdE5RU2lZUmNfNHREV3JTVWVXNUpROTduVlE?oc=5",
    "fonte": "Infobae",
    "escopo": "mundo",
@@ -380,6 +519,16 @@
    "via": null,
    "feed": "jta",
    "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBLQmV5UHpWWFRnVEc2QjlNV2E2ZXB5SUtQYi1xOWpZZ0lPam5oZjJrWGRfaGtmX3JCSVNCZDlpcFpiZVFyN1BJazUxRDhNUzNmajVxcGoxa3QtM0NSVkM1SnRlN3hKOVhLbEUxQ1o2anZZdHFDYTYtVk1B?oc=5",
+   "fonte": "WSJ",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-13T19:12:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-en",
+   "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
@@ -420,6 +569,16 @@
    "via": null,
    "feed": "fwd",
    "categoria": "Imprensa especializada",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxORHdfWi1NZlhBRWs4akhBNGJpcnhCZ2FqS1Y4OVNLUVY4WHJTT2RjNXFYVWNrMGswSDI1Q1k3QXgycmd3MkJWVGZyNTRLNHBhX053MUdxdDVSWkdrZUdSNy1FNUZnQkYyalFCc0RFZnRheHZ4SS14VlpIRUNtRHlFRW1QVE5NZVJ6LXJKcGFKNDBuRU5CSHFyV00tNTJVQnRKOVlHMUI4X2dpaFVmYnBuNTN2b09jdTRLTnpaMXhWN3pPTWlfeEtyR01STTV0di1DMG9vcWlZN1d4NWVVV1RObFZTcXE?oc=5",
+   "fonte": "Télérama",
+   "escopo": "mundo",
+   "publicado_em": "2026-11-13T08:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-fr",
+   "categoria": "Radar por palavras-chave",
    "tema": "Notícia sobre antissemitismo e temas correlatos"
   },
   {
@@ -647,6 +806,16 @@
    "fonte": "stf noticias",
    "escopo": "br",
    "publicado_em": "2025-01-21T08:00:00+00:00",
+   "via": "Google Notícias",
+   "feed": "radar-br-justica",
+   "categoria": "Radar por palavras-chave",
+   "tema": "Notícia sobre antissemitismo e temas correlatos"
+  },
+  {
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNY1dmZjFiNzZ5ejZ4cTFuc2RmTTVjaU1kZF9mVExzZFR3NlpYb1FJQ0lkOFF5T0QyRVJKV1YxWjl2MkplZF8tZk1yYjNaa2RwUjlGTnNQcldFWkFNWDh1dFk3clZaX1liU1hpQjJsRGRjaHhzamh1TGY1V0Z3ZGxPb19ha2pyel9uS3lISWFhUEJBOVNndW9JNmtVdkIzYjRnTFBQcElfcWdCVkNKWHJNWg?oc=5",
+   "fonte": "stf noticias",
+   "escopo": "br",
+   "publicado_em": "2024-12-08T14:01:53+00:00",
    "via": "Google Notícias",
    "feed": "radar-br-justica",
    "categoria": "Radar por palavras-chave",
